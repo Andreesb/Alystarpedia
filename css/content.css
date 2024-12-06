@@ -1,0 +1,456 @@
+
+
+.contenedor-informacion h2 {
+    text-align: center;
+}
+
+/* Estiliza la barra de desplazamiento */
+#creaturesContainer::-webkit-scrollbar {
+    width: 10px; /* El grosor de la barra de desplazamiento */
+}
+
+/* Estiliza el fondo de la barra de desplazamiento */
+#creaturesContainer::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la pista de la barra */
+    border-radius: 10px;
+}
+
+/* Estiliza el "thumb" (la parte que se mueve) */
+#creaturesContainer::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del thumb */
+    border-radius: 10px;
+    border: 2px solid #f1f1f1; /* Borde del thumb */
+}
+
+/* Efecto al pasar el mouse sobre el "thumb" */
+#creaturesContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color cuando el mouse pasa sobre el thumb */
+}
+
+
+/* Estiliza la barra de desplazamiento */
+.creature-data::-webkit-scrollbar {
+    width: 10px; /* El grosor de la barra de desplazamiento */
+}
+
+/* Estiliza el fondo de la barra de desplazamiento */
+.creature-data::-webkit-scrollbar-track {
+background-color: #f1f1f1; /* Color de fondo de la pista de la barra */
+border-radius: 10px;
+}
+
+/* Estiliza el "thumb" (la parte que se mueve) */
+.creature-data::-webkit-scrollbar-thumb {
+background-color: #888; /* Color del thumb */
+border-radius: 10px;
+border: 2px solid #f1f1f1; /* Borde del thumb */
+}
+
+/* Efecto al pasar el mouse sobre el "thumb" */
+.creature-data::-webkit-scrollbar-thumb:hover {
+background-color: #555; /* Color cuando el mouse pasa sobre el thumb */
+}
+
+
+#creaturesContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    padding: 20px;
+    max-height: 80vh; /* Limitar el tamaño máximo al 80% del alto de la pantalla */
+    overflow-y: auto; /* Agregar scroll si es necesario */
+}
+
+#filter-creature {
+    position: relative;
+    background-color: beige;
+    left: 85%;
+    transform: translate(-50%,-250%);
+    bottom: 5%;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
+
+/* Estilo de cada tarjeta */
+.creature-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.close-creature {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 95%;
+}
+
+/* Imagen de la criatura */
+.creature-image {
+max-width: 60px;
+min-width: 35px;
+object-fit: contain;
+}
+
+/* Nombre de la criatura */
+.creature-name {
+margin-top: 10px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+}
+
+
+.creature-data {
+    padding: 20px;
+    min-height: 650px;
+    max-height: 1000px;
+    width: 90%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 0.8rem;
+    overflow-y: auto;
+    display: inline-flex;
+}
+
+.creature-data h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 50%;
+}
+
+#creatureImage {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+
+#mainTable, #secondaryTable {
+    margin-bottom: 20px;
+}
+
+#mainTable table {
+    width: 72%;
+    border-collapse: collapse;
+    top: 25%;
+    position: absolute;
+}
+
+#secondaryTable table {
+    max-width: 150px;
+    border-collapse: collapse;
+    font-size: 0.7rem;
+    top: 10%;
+    left: 77%;
+    position: absolute;
+}
+
+#mainTable td, #secondaryTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#mainTable td:first-child, #secondaryTable td:first-child {
+    font-weight: bold;
+}
+
+#creature-tips {
+    position: relative;
+    top: 60%;
+    background-color: beige;
+    border-radius: 4px;
+    width: 70%;
+    height: 30%;
+}
+
+.value-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+/*LOADER*/
+
+#loader {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 100;
+
+}
+
+    .container {
+    --uib-size: 45px;
+    --uib-color: rgb(255, 0, 0);
+    --uib-speed: 1.75s;
+    position: relative;
+    height: var(--uib-size);
+    width: var(--uib-size);
+    animation: rotate calc(var(--uib-speed) * 4) linear infinite;
+    }
+
+    @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }
+
+    .particle {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+    &:nth-child(1) {
+        --uib-delay: 0;
+        transform: rotate(8deg);
+    }
+    &:nth-child(2) {
+        --uib-delay: -0.4;
+        transform: rotate(36deg);
+    }
+
+    &:nth-child(3) {
+        --uib-delay: -0.9;
+        transform: rotate(72deg);
+    }
+    &:nth-child(4) {
+        --uib-delay: -0.5;
+        transform: rotate(90deg);
+    }
+    &:nth-child(5) {
+        --uib-delay: -0.3;
+        transform: rotate(144deg);
+    }
+    &:nth-child(6) {
+        --uib-delay: -0.2;
+        transform: rotate(180deg);
+    }
+    &:nth-child(7) {
+        --uib-delay: -0.6;
+        transform: rotate(216deg);
+    }
+    &:nth-child(8) {
+        --uib-delay: -0.7;
+        transform: rotate(252deg);
+    }
+    &:nth-child(9) {
+        --uib-delay: -0.1;
+        transform: rotate(300deg);
+    }
+    &:nth-child(10) {
+        --uib-delay: -0.8;
+        transform: rotate(324deg);
+    }
+    &:nth-child(11) {
+        --uib-delay: -1.2;
+        transform: rotate(335deg);
+    }
+    &:nth-child(12) {
+        --uib-delay: -0.5;
+        transform: rotate(290deg);
+    }
+    &:nth-child(13) {
+        --uib-delay: -0.2;
+        transform: rotate(240deg);
+    }
+    }
+
+    .particle::before {
+    content: '';
+    position: absolute;
+    height: 17.5%;
+    width: 17.5%;
+    border-radius: 50%;
+    background-color: var(--uib-color);
+    flex-shrink: 0;
+    transition: background-color 0.3s ease;
+    --uib-d: calc(var(--uib-delay) * var(--uib-speed));
+    animation: orbit var(--uib-speed) linear var(--uib-d) infinite;
+    }
+
+    @keyframes orbit {
+    0% {
+        transform: translate(calc(var(--uib-size) * 0.5)) scale(0.73684);
+        opacity: 0.65;
+    }
+    5% {
+        transform: translate(calc(var(--uib-size) * 0.4)) scale(0.684208);
+        opacity: 0.58;
+    }
+    10% {
+        transform: translate(calc(var(--uib-size) * 0.3)) scale(0.631576);
+        opacity: 0.51;
+    }
+    15% {
+        transform: translate(calc(var(--uib-size) * 0.2)) scale(0.578944);
+        opacity: 0.44;
+    }
+    20% {
+        transform: translate(calc(var(--uib-size) * 0.1)) scale(0.526312);
+        opacity: 0.37;
+    }
+    25% {
+        transform: translate(0%) scale(0.47368);
+        opacity: 0.3;
+    }
+    30% {
+        transform: translate(calc(var(--uib-size) * -0.1)) scale(0.526312);
+        opacity: 0.37;
+    }
+    35% {
+        transform: translate(calc(var(--uib-size) * -0.2)) scale(0.578944);
+        opacity: 0.44;
+    }
+    40% {
+        transform: translate(calc(var(--uib-size) * -0.3)) scale(0.631576);
+        opacity: 0.51;
+    }
+    45% {
+        transform: translate(calc(var(--uib-size) * -0.4)) scale(0.684208);
+        opacity: 0.58;
+    }
+    50% {
+        transform: translate(calc(var(--uib-size) * -0.5)) scale(0.73684);
+        opacity: 0.65;
+    }
+    55% {
+        transform: translate(calc(var(--uib-size) * -0.4)) scale(0.789472);
+        opacity: 0.72;
+    }
+    60% {
+        transform: translate(calc(var(--uib-size) * -0.3)) scale(0.842104);
+        opacity: 0.79;
+    }
+    65% {
+        transform: translate(calc(var(--uib-size) * -0.2)) scale(0.894736);
+        opacity: 0.86;
+    }
+    70% {
+        transform: translate(calc(var(--uib-size) * -0.1)) scale(0.947368);
+        opacity: 0.93;
+    }
+    75% {
+        transform: translate(0%) scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(calc(var(--uib-size) * 0.1)) scale(0.947368);
+        opacity: 0.93;
+    }
+    85% {
+        transform: translate(calc(var(--uib-size) * 0.2)) scale(0.894736);
+        opacity: 0.86;
+    }
+    90% {
+        transform: translate(calc(var(--uib-size) * 0.3)) scale(0.842104);
+        opacity: 0.79;
+    }
+    95% {
+        transform: translate(calc(var(--uib-size) * 0.4)) scale(0.789472);
+        opacity: 0.72;
+    }
+    100% {
+        transform: translate(calc(var(--uib-size) * 0.5)) scale(0.73684);
+        opacity: 0.65;
+    }
+}
+
+
+
+@media (max-height: 850px) {
+
+    
+}
+
+@media (max-height: 650px) {
+    #creaturesContainer {
+        max-height: 115vh;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .contenedor-informacion {
+        width: 75%;
+    }
+
+    
+
+    #mainTable {
+        width: 320px;
+    }
+    
+
+    #secondaryTable {
+        margin: -5%;
+    }
+
+    
+
+    .value-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+@media (max-width: 975px) {
+    
+
+    #creaturesContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #mainTable {
+        font-size: 0.7rem;
+    }
+
+    #secondaryTable td {
+        font-size: 0.6rem;
+        
+    }
+    
+
+}
+
+
+@media (max-width: 775px) {
+    #creaturesContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    #creaturesContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
