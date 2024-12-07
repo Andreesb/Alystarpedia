@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alystarpedia</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/content.css">
 </head>
 
 <body>
@@ -29,7 +28,7 @@
                     </section>
                 </a>
                 <a href="">
-                    <section class="quests">
+                    <section id="quests">
                     <p>Quests</p>
                 </a>
                     <a href="">
@@ -47,7 +46,7 @@
                     </a>
                 </section>
                 <a href="">
-                    <section class="creatures">
+                    <section id="events">
                         <p>Events</p>
                         <ul >
                             <a href="">
@@ -63,7 +62,7 @@
                     </section>
                 </a>
                 <a href="">
-                    <section class="bosses">
+                    <section id="bosses">
                         <p>Boss Raid</p>
                         <ul>
                             <a href="">
@@ -81,7 +80,7 @@
                         </ul>
                     </section>
                 </a>
-                <section>
+                <section id="tips-nav">
                     <a href="">
                         <p>Tips & Tricks</p>
                     </a>
@@ -112,6 +111,28 @@
             </section>
             <menu class="menu-izquierdo">
                 <a href="">
+                    <ul id="tips-menu">Tips&Tricks <img src="assets/icons/tips&tricks.gif" alt="">
+                        <section class="item-menu">
+                            <span class="info-menu">
+                                <p>
+                                    Some tricks about tibia
+                                </p>
+                            </span>
+                            <a href=""><li>item list 1</li>
+                                </a>
+                            <a href="">
+                                <li>item list 2</li>
+                            </a>
+                            <a href="">
+                                <li>item list 3</li>
+                            </a>
+                            <a href="">
+                                <li>item list 4</li>
+                            </a>
+                        </section>
+                    </ul>
+                </a>
+                <a href="html/content.html" >
                     <ul>Game Tools <img src="assets/icons/game-tools.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -128,7 +149,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Legends&Rumors<img src="assets/icons/history.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -144,7 +165,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Tops <img src="assets/icons/chart.png" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -159,7 +180,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Houses <img src="assets/icons/Houses.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -172,7 +193,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Equipaments
                     <img src="assets/icons/armors1.webp" alt="Equipaments">
                         <section class="item-menu" id="equipaments">
@@ -201,13 +222,13 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Utilites <img src="assets/icons/tools.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
-                                Here you can find the best tools for gameplay.
-                            </p>
-                            <p>
+                                <p>
+                                    Here you can find the best tools for gameplay.
+                                </p>
                             </span>
                             <a href=""><li>Amulets and Necklaces</li></a>
                             <a href=""><li>Rings</li></a>
@@ -220,7 +241,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Spells <img src="assets/icons/spells1.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -236,7 +257,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="html/content.html">
+                <a href="html/creatures.html">
                     <ul>Creatures <img src="assets/icons/Creatures.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -245,14 +266,14 @@
                                 </p>
                             </span>
                             <a href=""><li>Boosted</li></a>
-                            <a href="html/creatures.html"><li>Monsters</li></a>
+                            <a href="html/monsters.html"><li>Monsters</li></a>
                             <a href=""><li>Bosses</li></a>
                             <a href=""><li>Raids</li></a>
                             <a href=""><li>Rares</li></a>
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Outfits <img src="assets/icons/Outfits(1).gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -267,7 +288,7 @@
                         </section>
                     </ul>
                 </a>
-                <a href="">
+                <a href="html/content.html">
                     <ul>Mounts <img src="assets/icons/mounts.gif" alt="">
                         <section class="item-menu">
                             <span class="info-menu">
@@ -305,10 +326,19 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt unde maxime neque incidunt. Molestias corporis non maxime facere beatae laudantium!</p>
                     </div>
                 </section>
-                <section id="community-container">
-                    <a href=""><img src="assets/icons/discord.png" alt="Discord"></a>
-                    <a href=""><img src="assets/icons/github.png" alt="Github"></a>
-                    <a href=""><img src="assets/icons/instagram.png" alt="Instagram"></a>
+                <section id="comunidad-container">
+                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749" target="_blank">
+                        <img id="discord" src="assets/icons/discord.png" alt="Discord Icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img id="github" src="assets/icons/github.png" alt="Github Icon" >
+                    </a>
+                    <a href="" target="_blank">
+                        <img id="instagram" src="assets/icons/instagram.png" alt="Instagram Icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img id="youtube" src="assets/icons/youtube.png" alt="Youtube Icon">
+                    </a>
                 </section>
             </menu>
         </aside>
@@ -325,15 +355,22 @@
             <ul>
                 <img class="menu-icons" src="assets/icons/icon-community.gif" alt="">
                 <section id="contenedor-community">
-                    <li class="icons-community"><img src="assets/icons/discord.png" alt="Icono de Discord">
-                        <a href="https://discord.com/channels/728759455033851995/1275421418884169749"></a>
+                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749">
+                        <li class="icons-community">
+                            <img src="assets/icons/discord.png" alt="Icono de Discord">
+                        </li>
+                    </a>
+                    
+                    <a href="">
+                        <li class="icons-community">
+                            <img src="assets/icons/instagram.png" alt="Icono de Instagram">
+                        </a>
                     </li>
-                    <li class="icons-community"><img src="assets/icons/instagram.png" alt="Icono de Instagram">
-                        <a href=""></a>
-                    </li>
-                    <li class="icons-community"><img src="assets/icons/github.png" alt="Icono de Github">
-                        <a href=""></a>
-                    </li>
+                    <a href="">
+                        <li class="icons-community">
+                            <img src="assets/icons/github.png" alt="Icono de Github">
+                        </li>
+                    </a>
                 </section>
             </ul>
         </menu>

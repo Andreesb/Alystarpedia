@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Contenido</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Monsters</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/monsters.css">
 </head>
 
 <body>
@@ -62,7 +63,7 @@
                     </section>
                 </a>
                 <a href="">
-                    <section id="bosses">
+                    <section id="bosses-raid">
                         <p>Boss Raid</p>
                         <ul>
                             <a href="">
@@ -85,7 +86,6 @@
                         <p>Tips & Tricks</p>
                     </a>
                 </section>
-
             </menu>
         </nav>
         <aside class="contenedor-izquierdo">
@@ -329,16 +329,16 @@
                 </section>
                 <section id="comunidad-container">
                     <a href="https://discord.com/channels/728759455033851995/1275421418884169749" target="_blank">
-                        <img id="discord" src="../assets/icons/discord.png" alt="Discord Icon">
+                        <img id="discord" src="../assets/icons/discord.png" alt="Discord">
                     </a>
                     <a href="" target="_blank">
-                        <img id="github" src="../assets/icons/github.png" alt="Github Icon" >
+                        <img id="github" src="../assets/icons/github.png" alt="Github" >
                     </a>
                     <a href="" target="_blank">
-                        <img id="instagram" src="../assets/icons/instagram.png" alt="Instagram Icon">
+                        <img id="instagram" src="../assets/icons/instagram.png" alt="Instagram">
                     </a>
                     <a href="" target="_blank">
-                        <img id="youtube" src="../assets/icons/youtube.png" alt="Youtube Icon">
+                        <img id="youtube" src="../assets/icons/youtube.png" alt="">
                     </a>
                 </section>
             </menu>
@@ -356,21 +356,15 @@
             <ul>
                 <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="">
                 <section id="contenedor-community">
-                    
-                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749" target="_blank">
-                        <li class="icons-community">
-                            <img src="../assets/icons/discord.png" alt="Icono de Discord">
-                        </li>
-                    </a>
-                    <a href="" target="_blank">
-                        <li class="icons-community">
-                            <img src="../assets/icons/instagram.png" alt="Icono de Instagram">
-                        </li>
-                    </a>
-                    <a href="" target="_blank">
-                        <li class="icons-community"><img src="../assets/icons/github.png" alt="Icono de Github">
-                        </li>
-                    </a>
+                    <li class="icons-community"><img src="../assets/icons/discord.png" alt="Icono de Discord">
+                        <a href="https://discord.com/channels/728759455033851995/1275421418884169749"></a>
+                    </li>
+                    <li class="icons-community"><img src="../assets/icons/instagram.png" alt="Icono de Instagram">
+                        <a href=""></a>
+                    </li>
+                    <li class="icons-community"><img src="../assets/icons/github.png" alt="Icono de Github">
+                        <a href=""></a>
+                    </li>
                 </section>
             </ul>
         </menu>
@@ -382,6 +376,37 @@
             <button id="next-btn" class="nav-btn right">→</button>
         </div>
         <section class="contenedor-informacion">
+            <section>
+                <h2>Monsters</h2>
+                <select id="filter-creature">
+                    <option value="alphabeticalAtoZ">(A-Z)</option>
+                    <option value="alphabeticalZtoA">(Z-A)</option>
+                    <option value="hitpoints">Hitpoints</option>
+                    <option value="experience">Experience</option>
+                </select>
+                <div id="creaturesContainer">
+                    <div class="creature-card">
+                        <img src="" alt="" title="" class="creature-image">
+                        <p class="creature-name"></p>
+                    </div>
+                </div>
+                <section class="creature-data" style="display: none;">
+                    <button class="close-creature">x</button>
+                    <h2 id="creatureName"></h2>
+                    <img id="creatureImage" style="display:none;" />
+                    <!-- Tabla principal -->
+                    <section id="mainTable"></section>
+                    <!-- Tabla secundaria -->
+                    <section id="secondaryTable"></section>
+                    <section id="creature-tips">
+                        <h3>Tips</h3>
+                        <span>
+                            <p>Here we show some extra info about this creature</p>
+                        </span>
+                    </section>
+                    
+                </section>
+            </section>
             <div id="loader" style="display: none;">
                 <div class="container">
                     <div class="particle"></div>
@@ -400,19 +425,20 @@
                 </div>
             </div>
         </section>
-        <div id="maintenancePage">
-            <div>
-                <h1>🚧 Sección en construcción 🚧</h1>
+    </main>
+    <div id="maintenancePage">
+        <div>
+            <h1>🚧 Sección en construcción 🚧</h1>
             <p>Esta sección aún está en desarrollo.</p>
             <p>¡Intentalo mas tarde!</p>
-                <button id="closeMaintenance">Cerrar</button>
-            </div>
+            <button id="closeMaintenance">Cerrar</button>
         </div>
-    </main>
+    </div>
     <footer>
         @Alystarpedia 2024
     </footer>
     <script src="../js/scripts.js"></script>
+    <script src="../js/monsters.js"></script>
     
 
 </body>

@@ -4,6 +4,7 @@ body {
     width: 100vw;
     height: 100vh;
     min-height: 1000px;
+    min-width: 400px;
     position: absolute;
     background-color: #fdeed5;
     font-family: Verdana, sans-serif;
@@ -43,7 +44,7 @@ header img {
     align-content: center;
     flex-wrap: wrap;
     width: 96%;
-    min-height: 900px;
+    min-height: 1000px;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -72,7 +73,6 @@ header img {
 .menu-Principal section {
     max-width: 120px;
     width: auto;
-    min-width: 50px;
     cursor: pointer;
     padding: 0 15px 0;
     max-height: 50px;
@@ -139,6 +139,7 @@ ul, ol {
 .menu-Principal section:hover ul {
     display: block;
 }
+
 
 
 .menu-hamburguesa {
@@ -309,6 +310,10 @@ ul, ol {
     font-size: 0.9rem;
     border: 1px solid;
 
+}
+
+#tips-menu {
+    display: none;
 }
 
 .info-menu p {
@@ -503,6 +508,7 @@ h4 {
     position: relative;
     left: 93%;
     transform: translate(0%, 90%);
+    z-index: 10;
 }
 
 .menu-dinamico ul {
@@ -566,12 +572,14 @@ h4 {
 
 }
 
-#community-container {
+#comunidad-container {
     display: inline-flex;
+    align-items: center;
 }
 
-#community-container img {
+#comunidad-container img {
     padding: 0 10px;
+    max-width: 30px;
 }
 
 
@@ -581,6 +589,32 @@ h4 {
     padding: 0 15px;
     
 }
+#discord, #github, #youtube, #instagram {
+    transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
+    display: inline-flex;
+}
+
+#discord:hover {
+    content: url(../assets/icons/discord-color.png);
+    width: 35px;
+}
+
+#github:hover {
+    content: url(../assets/icons/github-color.png);
+    width: 35px;
+}
+
+#youtube:hover {
+    content: url(../assets/icons/youtube-color.png);
+    width: 35px;
+
+}
+
+#instagram:hover {
+    content: url(../assets/icons/instagram-color.png);  
+    width: 35px;
+}
+
 
 .contenedor-informacion {
     position: absolute;
@@ -765,7 +799,51 @@ footer {
     .menu-dinamico {
         display: grid;
     }
+
+    .contenedor-informacion {
+        width: 75%;
+    }
+    
+}
+
+@media (max-width:875px) {
+    .search-Bar {
+        left: 90%;
+
+    }
     
 
+    
+    .menu-dinamico {
+        left: 90%;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    #tips-nav {
+        display: none;
+    }
+
+    #tips-menu {
+        display: block;
+    }
+
+    .contenedor-informacion {
+        left: 45%;
+        transition: width 0.5s ease, opacity 0.5s ease;
+    }
+
+    .search-Bar {
+        left: 85%;
+
+    }
+    
+    
+    .menu-dinamico {
+        left: 85%;
+
+    }
 
 }
