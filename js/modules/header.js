@@ -15,14 +15,29 @@ export function loadHeader() {
                 // Insertar el contenido del header
                 headerContainer.innerHTML = data;
 
+                // Ajustar el background-image del header según la página
+                if (headerContainer) {
+                    // Aquí cambiamos el path del background-image
+                    if (isIndex) {
+                        headerContainer.style.backgroundImage = "url(assets/body/Background_Artwork_7.9.jpg)";
+                    } else {
+                        // Para otras páginas, ajusta el path del background
+                        headerContainer.style.backgroundImage = "url(../assets/body/Background_Artwork_7.9.jpg)";
+                    }
+                }
+
                 // Ajustar los href de los enlaces
                 const links = headerContainer.querySelectorAll("a");
                 links.forEach(link => {
                     const href = link.getAttribute("href");
-                    if (href && !href.startsWith("/")) {
-                        link.setAttribute("href", `../${href}`);
-                    } else {
+
+                    // Si estás en el index, asegúrate de que los enlaces sean relativos a la raíz
+                    if (isIndex) {
                         link.setAttribute("href", `${href}`);
+                        
+                    } else {
+                        // Si no estás en el index, ajusta los enlaces para ser relativos al directorio actual
+                        link.setAttribute("href", `../${href}`);
                         
                     }
                 });
