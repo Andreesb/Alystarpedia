@@ -21,6 +21,9 @@ export function loadHeader() {
                     const href = link.getAttribute("href");
                     if (href && !href.startsWith("/")) {
                         link.setAttribute("href", `../${href}`);
+                    } else {
+                        link.setAttribute("href", `/wiki${href}`);
+                        
                     }
                 });
             }
