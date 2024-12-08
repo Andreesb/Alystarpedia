@@ -22,7 +22,7 @@ export function loadHeader() {
                     if (href && !href.startsWith("/")) {
                         link.setAttribute("href", `../${href}`);
                     } else {
-                        link.setAttribute("href", `/wiki${href}`);
+                        link.setAttribute("href", `${href}`);
                         
                     }
                 });
