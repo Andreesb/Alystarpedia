@@ -8,6 +8,7 @@ body {
     position: absolute;
     background-color: #fdeed5;
     font-family: Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 main {
@@ -611,7 +612,7 @@ h4 {
 }
 
 #instagram:hover {
-    content: url(../assets/icons/instagram-color.png);  
+    content: url(../assets/icons/instagram-color.png);
     width: 35px;
 }
 
@@ -656,6 +657,14 @@ h4 {
     background-color: brown;
     padding: 20px;
     border-radius: 4px;
+}
+
+#closeMaintenance {
+    background-color: rgb(100, 0, 0);
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: none;
+    color: #cecece;
 }
 
 
@@ -822,6 +831,10 @@ footer {
 }
 
 @media (max-width: 575px) {
+    body {
+        overflow-x: auto;
+    }
+
     #tips-nav {
         display: none;
     }

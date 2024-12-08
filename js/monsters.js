@@ -1,20 +1,5 @@
+import { hideLoader, showLoader } from "./modules/loader.js";
 document.addEventListener("DOMContentLoaded", () => {
-
-    function showLoader() {
-        const loader = document.getElementById("loader");
-        loader.style.display = "flex"; // Muestra el loader
-    
-        setTimeout(() => {
-            loader.style.display = "none"; // Oculta el loader
-        }, 2000); // 1000 ms = 1 segundo
-    }
-
-
-    function hideLoader() {
-        const loader = document.getElementById("loader");
-        loader.style.display = "none";
-    }
-
 
     // URL del API para obtener todas las criaturas
     const urlCreatures = "https://api.tibiadata.com/v4/creatures";

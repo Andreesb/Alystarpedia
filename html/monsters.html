@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monsters</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/loader.css">
     <link rel="stylesheet" href="/css/monsters.css">
 </head>
 
 <body>
-    
-    <header>
-        <a href="../index.html">
-            <h1>Tu logo aqui</h1>
-        </a>
-    </header>
+    <div id="header-container"></div>
     
     <main>
         <img class="body-background" src="../assets/body/Client_Artwork_13.20.jpg" alt="Fondo principal" >
@@ -407,23 +403,7 @@
                     
                 </section>
             </section>
-            <div id="loader" style="display: none;">
-                <div class="container">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                </div>
-            </div>
+            <div id="loader"></div>
         </section>
     </main>
     <div id="maintenancePage">
@@ -434,11 +414,10 @@
             <button id="closeMaintenance">Cerrar</button>
         </div>
     </div>
-    <footer>
-        @Alystarpedia 2024
-    </footer>
-    <script src="../js/scripts.js"></script>
-    <script src="../js/monsters.js"></script>
+    <div id="footer-container"></div>
+    
+    <script type="module" src="../js/scripts.js"></script>
+    <script type="module" src="../js/monsters.js"></script>
     
 
 </body>
