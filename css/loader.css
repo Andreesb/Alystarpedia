@@ -2,21 +2,22 @@
 
 #loader {
     position: absolute;
-    top: 40%;
+    transform: translate(-50%,-50%);
+    top: 50%;
     left: 50%;
     z-index: 100;
 
 }
 
-    .container {
-    --uib-size: 45px;
-    --uib-color: rgb(255, 0, 0);
-    --uib-speed: 1.75s;
-    position: relative;
-    height: var(--uib-size);
-    width: var(--uib-size);
-    animation: rotate calc(var(--uib-speed) * 4) linear infinite;
-    }
+.container {
+--uib-size: 45px;
+--uib-color: rgb(255, 0, 0);
+--uib-speed: 1.75s;
+position: relative;
+height: var(--uib-size);
+width: var(--uib-size);
+animation: rotate calc(var(--uib-speed) * 4) linear infinite;
+}
 
     @keyframes rotate {
     0% {

@@ -1,23 +1,15 @@
 
 import { loadFooter } from './modules/footer.js';
+import { changeImage, closeOverlay, openOverlay, showActiveImage, startAutoRotate } from './modules/galeria.js';
 import { loadHeader } from './modules/header.js';
-import { actualizarRashid } from './modules/rashid.js';
+import { fetchLatestNews, homeContainer } from './modules/home-Container.js';
+import { showMaintenancePage } from './modules/mantenimiento.js';
+import { showMenuDerecho } from './modules/menu-derecho.js';
+import { showMenuIzquierdo } from './modules/menu-izquierda.js';
+
 
 document.addEventListener("DOMContentLoaded", () => {
     
-    loadHeader();
-    actualizarRashid();
-    loadFooter();
-
-    const menuToggle = document.getElementById("menuToggle");
-    const aside = document.querySelector("aside");
-
-    menuToggle.addEventListener("click", () => {
-        aside.classList.toggle("show");
-    });
-
-    
-
 
 
     // Función para obtener los datos del boss destacado
@@ -96,64 +88,18 @@ document.addEventListener("DOMContentLoaded", () => {
         const search = document.querySelector('.search');
         search.classList.toggle('active');
         const searchContainer = document.querySelector('.search-Bar');
-        searchContainer.classList.toggle('active'); // Agrega o quita la clase activa
+        searchContainer.classList.toggle('active');
     });
 
 
+    //Galeria
     const retratoGaleria = document.getElementById('retrato-galeria');
-    const galleryImages = document.querySelectorAll('.gallery img');
     const overlay = document.querySelector('#overlay');
-    const overlayImage = document.querySelector('#expanded-image');
     const closeBtn = document.querySelector('#close-overlay');
     const prevBtn = document.querySelector('#prev-btn');
     const nextBtn = document.querySelector('#next-btn');
 
-    let currentImageIndex = 0; // Índice de la imagen actual
-    let autoRotate;
-
-    // Función para mostrar la imagen activa en la galería
-    function showActiveImage(index) {
-        galleryImages.forEach((img, i) => {
-            img.classList.toggle('active', i === index);
-        });
-
-        // Sincronizar con el overlay si está activo
-        if (overlay.classList.contains('active')) {
-            overlayImage.src = galleryImages[index].src;
-        }
-    }
-
-    // Función para abrir el overlay
-    function openOverlay(index) {
-        overlay.classList.add('active');
-        overlayImage.src = galleryImages[index].src;
-        currentImageIndex = index;
-        clearInterval(autoRotate); // Detener rotación automática al abrir el overlay
-    }
-
-    // Función para cerrar el overlay
-    function closeOverlay() {
-        overlay.classList.remove('active');
-        startAutoRotate(); // Reanudar rotación automática al cerrar el overlay
-    }
-
-    // Función para cambiar la imagen manualmente
-    function changeImage(step) {
-        currentImageIndex = (currentImageIndex + step + galleryImages.length) % galleryImages.length;
-        showActiveImage(currentImageIndex);
-    }
-
-    // Rotación automática
-    function startAutoRotate() {
-        autoRotate = setInterval(() => {
-            changeImage(1); // Cambiar a la siguiente imagen cada 5 segundos
-        }, 5000);
-    }
-
     // Manejar clics en miniaturas
-    galleryImages.forEach((img, index) => {
-        img.addEventListener('click', () => openOverlay(index));
-    });
 
     // Manejar clic en el overlay para cerrarlo
     closeBtn.addEventListener('click', closeOverlay);
@@ -173,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Evento para mostrar el overlay al hacer clic en "retrato-galeria"
     retratoGaleria.addEventListener('click', () => {
         openOverlay(currentImageIndex);
-    
+
         const section = retratoGaleria.querySelector('.item-menu');
         if (section) {
         section.style.display = section.style.display === 'block' ? 'none' : 'block';
@@ -184,8 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
     prevBtn.addEventListener('click', () => changeImage(-1));
     nextBtn.addEventListener('click', () => changeImage(1));
 
-    // Iniciar la rotación automática
-    startAutoRotate();
+
 
 
 
@@ -220,35 +165,26 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-
-    const maintenancePage = document.getElementById("maintenancePage");
-    const closeButton = document.getElementById("closeMaintenance");
-
-    const showMaintenancePage = () => {
-        maintenancePage.style.display = "flex";
-    };
-
-    // Función para cerrar la página
-    const closeMaintenancePage = () => {
-        maintenancePage.style.display = "none";
-    };
-
-    // Escucha los clics en todos los enlaces
-    document.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", (event) => {
-            const href = link.getAttribute("href");
-
-            // Verifica si el `href` está vacío, nulo, o apunta a "#"
-            if (!href || href.trim() === "" || href === "#") {
-                event.preventDefault(); // Evita la navegación predeterminada
-                showMaintenancePage();
-            }
-        });
+    
+    
+    document.addEventListener("click", (event) => {
+        const target = event.target.closest("a");
+        if (!target) return;
+    
+        const href = target.getAttribute("href");
+        if (!href || href.trim() === "" || href === "#") {
+            event.preventDefault();
+            showMaintenancePage();
+        }
     });
 
-    // Cierra la página de mantenimiento al hacer clic en el botón
-    closeButton.addEventListener("click", closeMaintenancePage);
-
-
+    showActiveImage();
+    showMenuDerecho();
+    startAutoRotate();
+    homeContainer();
+    loadHeader();
+    showMenuIzquierdo();
+    loadFooter();
+    fetchLatestNews();
 
 });

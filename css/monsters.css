@@ -172,7 +172,7 @@ text-align: center;
 }
 
 #creature-tips {
-    position: relative;
+    position: absolute;
     top: 60%;
     background-color: beige;
     border-radius: 4px;

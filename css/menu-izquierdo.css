@@ -1,0 +1,187 @@
+.contenedor-izquierdo.show {
+    transform: translateX(0);
+}
+
+.contenedor-izquierdo {
+    max-width: 240px;
+    width: 100%;
+    max-height: 800px;
+    position: absolute;
+    display: flex;
+    top: 23%;
+    left: 1%;
+    flex-direction: column;
+    z-index: 10;
+    transition: transform 0.3s ease;
+    background-color: #ccbb9e80;
+    border: 3px solid;
+    border-radius: 4px;
+}
+
+.boosteds {
+    max-width: 130px;
+    min-height: 85px;
+    position: relative;
+    display: flex;
+    transform: translate(28px, 4px);
+    padding: 0 25px;
+}
+
+.pedestal-bosses {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+
+.boosted-Container {
+    position: relative;
+    justify-content: center;
+    display: grid;
+}
+
+
+.boosted {
+    display: inline-flex;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -5%;
+    left: -30%;
+
+}
+
+#boosted-Container h3 {
+    color: #fdeed5;
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.rashid-Container {
+    height: 75px;
+    max-width: 240px;
+    border: 2px solid;
+    background-color: #fdeed5;
+    margin: -1px;
+
+}
+.rashid-NPC {
+    left: 7%;
+}
+
+
+.rashid-Container img {
+    position: absolute;
+    z-index: 1;
+    transition: left 0.5s ease; /* Transición suave */
+
+}
+
+
+#rashid-City {
+    position: absolute;
+    display: flex;
+    max-width: 240px;
+    width: 99%;
+    z-index: 0;
+    min-height: 75px;
+
+}
+
+
+.menu-izquierdo {
+    display: inline-grid;
+    position: relative;
+    z-index: 10;
+    max-height: 700px;
+    min-height: 450px;
+    background-color: #ccbb9e;
+    border-top: 0;
+    width: auto;
+    min-width: 170px;
+    align-content: space-around;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.item-menu {
+    display: none;
+    position: absolute;
+    background-color: brown;
+    max-width: 500px;
+    min-width: 180px;
+    max-height: 500px;
+    height: auto;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    left: 100%;
+    transform: translate(-0%, -25%);
+}
+
+.menu-izquierdo li {
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    
+}
+
+.menu-izquierdo li:hover {
+    border-bottom: 3px solid black;
+    transform: scale(1.05);
+    transition: ease-in-out 0.1s;
+    color: beige;
+}
+
+
+
+.menu-izquierdo ul {
+    padding: 15px;
+    cursor: pointer;
+    text-align: start;
+    font-size: 0.9rem;
+    border: 1px solid;
+
+}
+
+#tips-menu {
+    display: none;
+}
+
+.info-menu p {
+    position: relative;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: unset;
+    background-color: #ccbb9e;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+
+.menu-izquierdo ul:hover {
+    background-color: #fdeed5;
+    border: 1px solid;
+}
+
+.menu-izquierdo ul:hover section {
+    display: block;
+}
+
+.menu-izquierdo img {
+    position: absolute;
+    display: inline-flex;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0 25px 0;
+    margin: -12px 2px 0px;
+    left: 65%;
+}

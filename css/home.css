@@ -1,0 +1,190 @@
+.contenedor-informacion {
+    padding: 20px;
+}
+/* Aside a la derecha */
+.contenedor-informacion aside {
+    grid-area: aside;
+    background-color: #ffffe0;
+    padding: 15px;
+    border: 2px solid #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#home-container {
+    min-height: 800px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Izquierda: 2 partes, Derecha: 1 parte */
+    grid-template-rows: auto auto auto; /* Tres filas automáticas */
+    gap: 20px;
+
+    /* Áreas del layout */
+    grid-template-areas:
+        "section1 aside"
+        "section2 aside"
+        "section3 section3";
+}
+
+#home-container section:nth-child(1) {
+    grid-area: section1;
+}
+
+#shortcuts-tools {
+    grid-area: section2;
+    max-height: 185px;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+#home-container section:nth-child(3) {
+    grid-area: section3;
+
+}
+
+/* Estilo de cada sección */
+#home-container section {
+    background-color: #ffffe09c;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    
+}
+
+/* Última sección ocupa todo el ancho */
+#home-container section:last-child {
+    grid-column: 1 / -1; /* Ocupa ambas columnas */
+    grid-row: 3; /* Se coloca en la tercera fila */
+}
+
+#home-container section h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 0 0 20px;
+}
+
+#home-container section img {
+    width: 100px; /* Ajuste de imágenes */
+    height: auto;
+    padding: 15px;
+}
+
+#shortcuts-tools a {
+    flex: 0 0 100px; /* Cada opción tiene un ancho fijo */
+    transition: opacity 0.5s ease-in-out;
+    gap: 15px;
+    transition: left 1s ease-in-out;
+}
+
+/* Ocultar elementos */
+#shortcuts-tools a.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    pointer-events: none; /* Evita la interacción */
+}
+
+/* Activar el carousel */
+#shortcuts-tools.carousel-active {
+    justify-content: flex-start;
+}
+
+#shortcuts-tools a img {
+    width: auto;
+    min-height: 50px;
+    height: auto;
+    max-height: 100px;
+}
+
+
+/* Contenedor para el texto */
+.news-text {
+    overflow-y: scroll;
+    height: 250px;
+    padding: 15px;
+    background-color: #ccbb9e;
+    border-radius: 8px;
+    border: 2px solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-text h2 {
+    color: white;
+}
+
+/* Estiliza la barra de desplazamiento */
+.news-text::-webkit-scrollbar {
+    width: 10px; /* El grosor de la barra de desplazamiento */
+}
+
+/* Estiliza el fondo de la barra de desplazamiento */
+.news-text::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la pista de la barra */
+    border-radius: 10px;
+}
+
+/* Estiliza el "thumb" (la parte que se mueve) */
+.news-text::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del thumb */
+    border-radius: 10px;
+    border: 2px solid #f1f1f1; /* Borde del thumb */
+}
+
+/* Efecto al pasar el mouse sobre el "thumb" */
+.news-text::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color cuando el mouse pasa sobre el thumb */
+}
+
+
+#news-container #loader {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 50%;
+    z-index: 100;
+}
+
+
+/* Media Query para activar el carrusel a partir de 1400px */
+@media (max-width: 1615px) {
+    #shortcuts-tools {
+        max-width: 100%;
+        overflow: hidden; /* Se esconde el desbordamiento */
+    }
+}
+
+@media (max-width: 1400px) {
+    #shortcuts-tools {
+        flex-wrap: nowrap; /* Evita que las opciones se envuelvan */
+    }
+}
+
+
+
+
+/* Pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    #home-container {
+        grid-template-columns: 1fr; /* Solo una columna */
+        grid-template-areas:
+            "section1"
+            "section2"
+            "section3"
+            "aside";
+    }
+
+    #home-container h2 {
+        font-size: 1.2rem;
+    }
+
+    #home-container img {
+        width: 80px;
+    }
+}

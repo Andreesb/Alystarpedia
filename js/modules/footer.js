@@ -12,5 +12,5 @@ export function loadFooter () {
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
         })
-        .catch(error => console.error('Error cargando el header:', error));
+        .catch(error => console.error('Error cargando el footer:', error));
 }

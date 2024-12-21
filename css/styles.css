@@ -1,3 +1,9 @@
+@import url(menu-izquierdo.css);
+@import url(loader.css);
+@import url(home.css);
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -158,195 +164,6 @@ ul, ol {
 }
 
 
-.contenedor-izquierdo.show {
-    transform: translateX(0);
-}
-
-.contenedor-izquierdo {
-    max-width: 240px;
-    width: 100%;
-    max-height: 800px;
-    position: absolute;
-    display: flex;
-    top: 23%;
-    left: 1%;
-    flex-direction: column;
-    z-index: 10;
-    transition: transform 0.3s ease;
-    background-color: #ccbb9e80;
-    border: 3px solid;
-    border-radius: 4px;
-}
-
-.boosteds {
-    max-width: 130px;
-    min-height: 85px;
-    position: relative;
-    display: flex;
-    transform: translate(28px, 4px);
-    padding: 0 25px;
-}
-
-.pedestal-bosses {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 60%;
-}
-
-.boosted-Container {
-    position: relative;
-    justify-content: center;
-    display: grid;
-}
-
-
-.boosted {
-    display: inline-flex;
-    position: relative;
-    width: 60px;
-    height: 60px;
-    top: -5%;
-    left: -30%;
-
-}
-
-#boosted-Container h3 {
-    color: #fdeed5;
-    justify-content: center;
-    margin: 5px 5px;
-    padding: 5px 5px;
-    display: flex;
-    font-size: 1.5rem;
-    text-align: center;
-    align-items: center;
-}
-
-.rashid-Container {
-    height: 75px;
-    max-width: 240px;
-    border: 2px solid;
-    background-color: #fdeed5;
-    margin: -1px;
-
-}
-.rashid-NPC {
-    left: 7%;
-}
-
-
-.rashid-Container img {
-    position: absolute;
-    z-index: 1;
-    transition: left 0.5s ease; /* Transición suave */
-
-}
-
-
-#rashid-City {
-    position: absolute;
-    display: flex;
-    max-width: 240px;
-    width: 99%;
-    z-index: 0;
-    min-height: 75px;
-
-}
-
-
-.menu-izquierdo {
-    display: inline-grid;
-    position: relative;
-    z-index: 10;
-    max-height: 700px;
-    min-height: 450px;
-    background-color: #ccbb9e;
-    border-top: 0;
-    width: auto;
-    min-width: 170px;
-    align-content: space-around;
-    padding: 0;
-    margin: 0;
-    
-}
-
-.item-menu {
-    display: none;
-    position: absolute;
-    background-color: brown;
-    max-width: 500px;
-    min-width: 180px;
-    max-height: 500px;
-    height: auto;
-    z-index: 1;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    left: 100%;
-    transform: translate(-0%, -25%);
-}
-
-.menu-izquierdo li {
-    cursor: pointer;
-    padding: 5px;
-    display: flex;
-    position: relative;
-    
-}
-
-.menu-izquierdo li:hover {
-    border-bottom: 3px solid black;
-    transform: scale(1.05);
-    transition: ease-in-out 0.1s;
-    color: beige;
-}
-
-
-
-.menu-izquierdo ul {
-    padding: 15px;
-    cursor: pointer;
-    text-align: start;
-    font-size: 0.9rem;
-    border: 1px solid;
-
-}
-
-#tips-menu {
-    display: none;
-}
-
-.info-menu p {
-    position: relative;
-    padding: 5px;
-    margin: 5px 0;
-    cursor: unset;
-    background-color: #ccbb9e;
-    border: 2px solid;
-    border-radius: 4px;
-}
-
-
-.menu-izquierdo ul:hover {
-    background-color: #fdeed5;
-    border: 1px solid;
-}
-
-.menu-izquierdo ul:hover section {
-    display: block;
-}
-
-.menu-izquierdo img {
-    position: absolute;
-    display: inline-flex;
-    max-width: 40px;
-    max-height: 40px;
-    padding: 0 25px 0;
-    margin: -12px 2px 0px;
-    left: 65%;
-}
-
-
 
 
 .search-Bar {
@@ -357,7 +174,7 @@ ul, ol {
     z-index: 10;
     align-items: center;
     top: 23%;
-    left: 83%;
+    left: 84%;
     border-radius: 5px;
     display: inline-flex;
 }
@@ -388,7 +205,7 @@ ul, ol {
     border-radius: 4px;
     position: relative;
     z-index: 10;
-    left: 83%;
+    left: 84%;
     transform: translate(0%, 56%);
 }
 
@@ -407,7 +224,7 @@ ul, ol {
     align-items: center;
     overflow: hidden;
     width: 100%;
-    height: auto;
+    min-height: 145px;
     position: relative;
 }
 
@@ -419,6 +236,7 @@ ul, ol {
     cursor: pointer;
     display: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    aspect-ratio: 0;
 }
 
 h4 {
@@ -534,42 +352,47 @@ h4 {
 .noticias-dinamicas {
     height: 100px;
     width: 300px;
-    display: none;
     position: absolute;
+    display: flex;
     left: 0;
-    transition: left 0.3s ease-in-out; /* Desplazamiento suave */
     background-color: #ccbb9e80;
     border: 2px solid;
     border-radius: 4px;
     padding: 5px 10px;
     font-size: 0.8rem;
+    transition: left 0.1s ease-in-out, opacity 0.2s ease-in-out; /* Animación suave */
+    visibility: hidden; /* Oculto al inicio */
+    opacity: 0;
 }
 
 .noticias-dinamicas.expandido {
-    display: flex;
     left: -350px;
-     /* Se desplaza 250px hacia la derecha */
+    opacity: 1; /* Hacer visible */
+    visibility: visible; /* Asegurar que sea visible */
+    
 }
 
-
-#contenedor-community.expandido {
-    display: flex;
-    left: -500%;
-     /* Se desplaza 250px hacia la derecha */
-}
 
 #contenedor-community {
     width: 190px;
     height: 40px;
-    left: -500%;
+    left: 0px; /* Posición inicial fuera de pantalla */
+    opacity: 0; /* Invisible al inicio */
     background-color: #ccbb9e80;
     position: absolute;
     border: 2px solid brown;
     border-radius: 4px;
-    display: none;
-    left: 0;
-    transition: left 0.3s ease-in-out; /* Desplazamiento suave */
+    display: flex; /* Cambiado de none a flex para animaciones */
+    justify-content: center; /* Centramos el contenido */
+    align-items: center;
+    transition: left 0.1s ease-in-out, opacity 0.2s ease-in-out; /* Animación suave */
+    visibility: hidden; /* Oculto al inicio */
+}
 
+#contenedor-community.expandido {
+    left: -500%; /* Mover a la posición visible */
+    opacity: 1; /* Hacer visible */
+    visibility: visible; /* Asegurar que sea visible */
 }
 
 #comunidad-container {
@@ -584,11 +407,12 @@ h4 {
 
 
 #contenedor-community img {
-    width: 35px;
+    width: 30px;
     height: auto;
-    padding: 0 15px;
-    
+    margin-top: 3px;
+    padding: 0px 10px;
 }
+
 #discord, #github, #youtube, #instagram {
     transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
     display: inline-flex;
@@ -611,7 +435,7 @@ h4 {
 }
 
 #instagram:hover {
-    content: url(../assets/icons/instagram-color.png);
+    content: url(../assets/icons/instagram-color1.png);
     width: 35px;
 }
 
@@ -686,15 +510,15 @@ footer {
 
 @media (max-width: 1460px) {
     .contenedor-derecho {
-        left: 79.7%;
+        left: 81%;
     }
 
     .search-Bar {
-        left:79.7% ;
+        left:81% ;
     }
 
     .contenedor-informacion {
-        width: 55%;
+        width: 58%;
     }
 
 }
@@ -816,14 +640,12 @@ footer {
 
 @media (max-width:875px) {
     .search-Bar {
-        left: 90%;
-
+        left: 91%
     }
     
-
     
     .menu-dinamico {
-        left: 90%;
+        left: 91%;
 
     }
 
