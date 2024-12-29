@@ -9,7 +9,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    min-height: 1000px;
+    min-height: 1200px;
     min-width: 400px;
     position: absolute;
     background-color: #fdeed5;
@@ -18,8 +18,8 @@ body {
 }
 
 main {
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 header {
@@ -41,17 +41,18 @@ header img {
 }
 
 
+
 .body-background {
     object-fit: cover;
-    position: absolute;
+    position:   fixed;
     display: flex;
     z-index: -1;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    width: 96%;
+    width: 95%;
     min-height: 1000px;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -173,7 +174,7 @@ ul, ol {
     position: absolute;
     z-index: 10;
     align-items: center;
-    top: 23%;
+    top: 18%;
     left: 84%;
     border-radius: 5px;
     display: inline-flex;
@@ -208,6 +209,7 @@ ul, ol {
     left: 84%;
     transform: translate(0%, 56%);
 }
+
 
 .contenedor-derecho menu {
     padding: 15px;
@@ -443,15 +445,14 @@ h4 {
 .contenedor-informacion {
     position: absolute;
     left: 50%;
-    top: 68%;
+    top: 62%;
     transform: translate(-50%,-50%);
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 4px;
     max-width:1200px;
-    min-height: 800px;
+    min-height: 900px;
     height: auto;
     width: 65%;
-    min-width: 300px;
 }
 
 .contenedor-informacion section {
@@ -545,7 +546,7 @@ footer {
         min-width: 40px;
         min-height: 40px;
         left: 93%;
-        top: 22.5%;
+        top: 18%;
         background-color: #ccbb9e80;
         border: 2px solid;
         position: absolute;
@@ -638,24 +639,34 @@ footer {
     
 }
 
-@media (max-width:875px) {
+
+
+@media (max-width: 850px) {
+    
+    body {
+        min-height: 1700px;
+    }
+
+    .body-background {
+        position: fixed;
+        top: 50%;
+    }
+
+    .contenedor-informacion {
+        left: 47%;
+        top: 65%;
+    }
+
     .search-Bar {
-        left: 91%
-    }
-    
-    
-    .menu-dinamico {
-        left: 91%;
-
+        top: 13%;
     }
 
+    .contenedor-izquierdo {
+        top: 13%;
+    }
 }
 
 @media (max-width: 575px) {
-    body {
-        overflow-x: auto;
-    }
-
     #tips-nav {
         display: none;
     }
@@ -670,13 +681,13 @@ footer {
     }
 
     .search-Bar {
-        left: 85%;
+        left: 88%;
 
     }
     
     
     .menu-dinamico {
-        left: 85%;
+        left: 88%;
 
     }
 

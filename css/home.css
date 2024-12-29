@@ -1,16 +1,6 @@
 .contenedor-informacion {
     padding: 20px;
 }
-/* Aside a la derecha */
-.contenedor-informacion aside {
-    grid-area: aside;
-    background-color: #ffffe0;
-    padding: 15px;
-    border: 2px solid #fdfdfd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 
 
 #home-container {
@@ -28,9 +18,18 @@
         "section3 section3";
 }
 
-#home-container section:nth-child(1) {
+#tips-container {
     grid-area: section1;
+
 }
+
+#tips-container img {
+    max-width: 350px;
+    min-width: 200px;
+    width: 50vw;
+}
+
+
 
 #shortcuts-tools {
     grid-area: section2;
@@ -51,18 +50,14 @@
 /* Estilo de cada sección */
 #home-container section {
     background-color: #ffffe09c;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     align-content: center;
     
 }
 
-/* Última sección ocupa todo el ancho */
-#home-container section:last-child {
-    grid-column: 1 / -1; /* Ocupa ambas columnas */
-    grid-row: 3; /* Se coloca en la tercera fila */
-}
+
 
 #home-container section h2 {
     margin: 0;
@@ -71,17 +66,12 @@
     padding: 0 0 20px;
 }
 
-#home-container section img {
-    width: 100px; /* Ajuste de imágenes */
-    height: auto;
-    padding: 15px;
-}
+
 
 #shortcuts-tools a {
-    flex: 0 0 100px; /* Cada opción tiene un ancho fijo */
+    flex: 0 0 125px; /* Cada opción tiene un ancho fijo */
     transition: opacity 0.5s ease-in-out;
-    gap: 15px;
-    transition: left 1s ease-in-out;
+
 }
 
 /* Ocultar elementos */
@@ -103,11 +93,81 @@
     max-height: 100px;
 }
 
+/* Aside a la derecha */
+.contenedor-informacion aside {
+    grid-area: aside;
+    background-color: #ffffe0;
+    padding: 15px;
+    border: 2px solid #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.contenedor-informacion aside img {
+    width: 14vw;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contenedor-informacion aside section {
+    margin: 10px 0;
+}
+
+#shortcuts-section section {
+    transition: opacity 1s ease-in-out, visibility 0s 1s; /* Añadimos un retraso para visibility */
+    height: 40%;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#shortcuts-section section.visible {
+    transition: opacity 1s ease-in-out, visibility 0s; /* Sin retraso cuando está visible */
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+}
+
+
+#shortcuts-section section.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.legends-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.legends-info span img {
+    width: 30px;
+    min-width: 30px;
+
+}
+
+.legends-info span p {
+    font-size: 0.8rem;
+}
+
+
+
 
 /* Contenedor para el texto */
+
+/* Última sección ocupa todo el ancho */
+#news-container {
+    grid-column: 1 / -1; /* Ocupa ambas columnas */
+    grid-row: 3; /* Se coloca en la tercera fila */
+}
+
 .news-text {
     overflow-y: scroll;
-    height: 250px;
+    height: 350px;
     padding: 15px;
     background-color: #ccbb9e;
     border-radius: 8px;
@@ -115,9 +175,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 .news-text h2 {
     color: white;
 }
+
 
 /* Estiliza la barra de desplazamiento */
 .news-text::-webkit-scrollbar {
@@ -151,6 +213,10 @@
     z-index: 100;
 }
 
+.news-text img {
+    width: 40vw;
+}
+
 
 /* Media Query para activar el carrusel a partir de 1400px */
 @media (max-width: 1615px) {
@@ -164,27 +230,92 @@
     #shortcuts-tools {
         flex-wrap: nowrap; /* Evita que las opciones se envuelvan */
     }
+
+    
 }
 
 
 
 
 /* Pantallas medianas (tabletas) */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
+
+    
     #home-container {
         grid-template-columns: 1fr; /* Solo una columna */
         grid-template-areas:
             "section1"
             "section2"
-            "section3"
-            "aside";
+            "aside"
+            "section3";
+    }
+
+    #home-container section:last-child {
+        grid-row: 4;
+    }
+
+    #home-container section {
+        width: 72vw;
+        padding: 10px;
+        max-width: 630px;
+        
+    }
+
+
+    #news-container #loader {
+        top: 60%;
     }
 
     #home-container h2 {
         font-size: 1.2rem;
     }
 
-    #home-container img {
-        width: 80px;
+    #shortcuts-tools a {
+        flex: 0 0 105px; /* Cada opción tiene un ancho fijo */
+        transition: opacity 0.5s ease-in-out;
+    
     }
+
+    .news-text {
+        height: 450px;
+        width: 64vw;
+    }
+
+    .news-text p {
+        text-align: center;
+    }
+
+    #home-container aside section {
+        min-width: 250px;
+        
+    }
+
+    #shortcuts-section {
+        max-width: 600px;
+    }
+
+    #shortcuts-section section {
+        width: 68vw;
+    }
+
+    
 }
+
+
+
+@media (max-width: 480px) {
+    
+    .news-text {
+        width: 62vw;
+    }
+
+
+    #shortcuts-section section {
+        min-width: 250px;
+        width: 62vw;
+    }
+    
+
+}
+
+

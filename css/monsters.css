@@ -58,6 +58,7 @@ background-color: #555; /* Color cuando el mouse pasa sobre el thumb */
     gap: 1px;
     padding: 20px;
     max-height: 80vh; /* Limitar el tamaño máximo al 80% del alto de la pantalla */
+    min-height: 750px;
     overflow-y: auto; /* Agregar scroll si es necesario */
 }
 

@@ -2,11 +2,10 @@
 import { loadFooter } from './modules/footer.js';
 import { changeImage, closeOverlay, openOverlay, showActiveImage, startAutoRotate } from './modules/galeria.js';
 import { loadHeader } from './modules/header.js';
-import { fetchLatestNews, homeContainer } from './modules/home-Container.js';
+import { fetchLatestNews, homeContainer, rotateAsideSections } from './modules/home-Container.js';
 import { showMaintenancePage } from './modules/mantenimiento.js';
 import { showMenuDerecho } from './modules/menu-derecho.js';
 import { showMenuIzquierdo } from './modules/menu-izquierda.js';
-
 
 document.addEventListener("DOMContentLoaded", () => {
     
@@ -178,13 +177,14 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    showActiveImage();
+    loadHeader();
     showMenuDerecho();
+    rotateAsideSections();
+    showActiveImage();
     startAutoRotate();
     homeContainer();
-    loadHeader();
     showMenuIzquierdo();
-    loadFooter();
     fetchLatestNews();
+    loadFooter();
 
 });

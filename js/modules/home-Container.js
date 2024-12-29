@@ -88,12 +88,44 @@ export function initShortcutsCarousel() {
     updateCarousel(); // Ejecutar al iniciar
 }
 
+export function rotateAsideSections() {
+    const waitForAside = setInterval(() => {
+        const aside = document.querySelector('#shortcuts-section');
+        if (aside) {
+            clearInterval(waitForAside);
+
+            const sections = aside.querySelectorAll('section');
+            let visibleIndex = 0;
+
+            function updateVisibleSections() {
+                // Limpiar las clases de visibilidad
+                sections.forEach((section) => {
+                    section.classList.remove('visible');
+                });
+
+                // Mostrar las dos secciones siguientes
+                sections.forEach((section, index) => {
+                    if (index === visibleIndex || index === (visibleIndex + 1) % sections.length) {
+                        section.classList.add('visible');
+                    }
+                });
+
+                // Actualizar el índice visible
+                visibleIndex = (visibleIndex + 2) % sections.length;
+            }
+
+            updateVisibleSections();
+            setInterval(updateVisibleSections, 7000); // Cambiar cada 3 segundos
+        }
+    }, 100); // Revisa cada 100 ms si el aside ya está disponible
+}
+
+
 
 // Función para obtener el ID de la última noticia
 export async function fetchLatestNews() {
     try {
-        // Solicitar
-        //  la última noticia
+        // Solicitar la última noticia
         const response = await fetch('https://api.tibiadata.com/v4/news/latest');
         const data = await response.json();
         
