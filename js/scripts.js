@@ -6,6 +6,7 @@ import { fetchLatestNews, homeContainer, rotateAsideSections } from './modules/h
 import { showMaintenancePage } from './modules/mantenimiento.js';
 import { showMenuDerecho } from './modules/menu-derecho.js';
 import { showMenuIzquierdo } from './modules/menu-izquierda.js';
+import { setupHuntSessionProcessor } from './modules/party-hunt.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     
@@ -176,6 +177,8 @@ document.addEventListener("DOMContentLoaded", () => {
             showMaintenancePage();
         }
     });
+
+    setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
 
     loadHeader();
     showMenuDerecho();

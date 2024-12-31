@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Contenido</title>
+    <title>Party Hunt Calc</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
+
     <header id="header-container"></header>
-    
+
     <main>
         <img class="body-background" src="../assets/body/Client_Artwork_13.20.jpg" alt="Fondo principal" >
         <nav class="menu-Principal">
@@ -57,7 +58,7 @@
                     </section>
                 </a>
                 <a href="">
-                    <section id="bosses">
+                    <section id="bosses-raid">
                         <p>Boss Raid</p>
                         <ul>
                             <a href="">
@@ -83,15 +84,15 @@
 
             </menu>
         </nav>
-        <aside class="contenedor-izquierdo">
-            
-        </aside>
+        <aside class="contenedor-izquierdo"></aside>
 
         <div class="search-Bar">
             <img  class="lupa" src="../assets/icons/lupa.png" alt="Seacrh">
             <input class="search" type="text" placeholder="Search">
         </div>
-        <aside class="contenedor-derecho"></aside>
+        <aside class="contenedor-derecho">
+            
+        </aside>
         <menu class="menu-dinamico">
             <ul id="retrato-galeria"><img class="menu-icons" src="../assets/icons/Portrait_with_Ferumbras.gif" alt="">
             </ul>
@@ -105,21 +106,28 @@
             <ul>
                 <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="">
                 <section id="contenedor-community">
+                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749">
+                        <li class="icons-community">
+                            <img id="discord" src="../assets/icons/discord.png" alt="Icono de Discord">
+                        </li>
+                    </a>
                     
-                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749" target="_blank">
+                    <a href="">
                         <li class="icons-community">
-                            <img src="../assets/icons/discord.png" alt="Icono de Discord">
+                            <img id="instagram" src="../assets/icons/instagram.png" alt="Icono de Instagram">
                         </li>
                     </a>
-                    <a href="" target="_blank">
+                    <a href="">
                         <li class="icons-community">
-                            <img src="../assets/icons/instagram.png" alt="Icono de Instagram">
+                            <img id="github" src="../assets/icons/github.png" alt="Icono de Github">
                         </li>
                     </a>
-                    <a href="" target="_blank">
-                        <li class="icons-community"><img src="../assets/icons/github.png" alt="Icono de Github">
+                    <a href="">
+                        <li class="icons-community">
+                            <img id="youtube" src="../assets/icons/youtube.png" alt="Icono de Github">
                         </li>
                     </a>
+                    
                 </section>
             </ul>
         </menu>
@@ -131,9 +139,24 @@
             <button id="next-btn" class="nav-btn right">→</button>
         </div>
         <section class="contenedor-informacion">
-            <div id="loader"></div>
+            <div id="party-hunt-container">
+                <div id="party-hunt">
+                    <h1>Party Loot Calculator</h1>
+                    <span id="party-hunt-info">
+                        <p>Here you can calculate the loot of your party hunt.</p>
+                        <p>Just paste your party session and the calculator will do the rest.</p>
+                    </span>
+                    <textarea id="sessionInput" placeholder="Enter your party session here..."></textarea><br>
+                    <button id="processButton">Calculate</button>
+                </div>
+                <section id="party-data">
+                </section>
+                <div id="party-session"></div>
+            </div>
         </section>
-        <div id="maintenancePage"></div>
+        <div id="maintenancePage">
+            
+        </div>
     </main>
     <footer id="footer-container"></footer>
     <script type="module" src="../js/scripts.js"></script>
