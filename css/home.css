@@ -25,8 +25,8 @@
 
 #tips-container img {
     max-width: 350px;
-    min-width: 200px;
-    width: 50vw;
+    min-width: 150px;
+    width: 12vw;
 }
 
 
@@ -109,7 +109,6 @@
     max-width: 300px;
     min-width: 200px;
     height: auto;
-    border-radius: 8px;
 }
 
 .contenedor-informacion aside section {
@@ -144,15 +143,27 @@
     margin: 10px 0;
 }
 
-.legends-info span img {
+#legend-name {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+#legend-name h6 {
+    padding: 0 15px;
+}
+
+#legend-name img {
     width: 30px;
     min-width: 30px;
 
 }
 
 .legends-info span p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
+
+
 
 
 
@@ -214,7 +225,7 @@
 }
 
 .news-text img {
-    width: 40vw;
+    max-width: 40vw;
 }
 
 
@@ -222,18 +233,11 @@
 @media (max-width: 1615px) {
     #shortcuts-tools {
         max-width: 100%;
-        overflow: hidden; /* Se esconde el desbordamiento */
+        overflow: hidden;
+        flex-wrap: nowrap;
+
     }
 }
-
-@media (max-width: 1400px) {
-    #shortcuts-tools {
-        flex-wrap: nowrap; /* Evita que las opciones se envuelvan */
-    }
-
-    
-}
-
 
 
 
@@ -270,6 +274,11 @@
         font-size: 1.2rem;
     }
 
+    #shortcuts-tools {
+        gap: 20px;
+
+    }
+
     #shortcuts-tools a {
         flex: 0 0 105px; /* Cada opción tiene un ancho fijo */
         transition: opacity 0.5s ease-in-out;
@@ -292,6 +301,7 @@
 
     #shortcuts-section {
         max-width: 600px;
+        min-height: 300px;
     }
 
     #shortcuts-section section {

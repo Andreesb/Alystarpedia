@@ -143,15 +143,41 @@
                 <div id="party-hunt">
                     <h1>Party Loot Calculator</h1>
                     <span id="party-hunt-info">
-                        <p>Here you can calculate the loot of your party hunt.</p>
+                        <p>Here you can calculate the loot of your hunt session.</p>
                         <p>Just paste your party session and the calculator will do the rest.</p>
                     </span>
                     <textarea id="sessionInput" placeholder="Enter your party session here..."></textarea><br>
                     <button id="processButton">Calculate</button>
                 </div>
-                <section id="party-data">
+                <div id="party-session">
+                    <section id="party-data">
+                        <h2>Party Session</h2>
+                        <p><b>End:</b></p>
+                        <p><b>Total Loot:</b></p>
+                        <p><b>Loot per Hour:</b></p>
+                        <p><b>Personal Balance:</b></p>
+                    </section>
+                    <section id="splitting-instructions">
+                        <br></br>
+                        <h2>Splitting Instructions</h2>
+                        <span><br>Here you will find how split your loot</br></span>
+                        <br></br>
+                        <br></br>
+                    </section>
+                    <div id="cards-container" >
+                        <div id="party-results">
+                            <ul class="results-cards hidden"></ul>
+                            <ul class="results-cards hidden"></ul>
+                            <ul class="results-cards hidden"></ul>
+                            <ul class="results-cards hidden"></ul>
+                        </div>
+                    </div>
+                </div>
+                <section id="party-historial">
+                    <h2>Historial</h2>
+                    <h4>Members: </h4>
+                    <ul id="historial-list"></ul>
                 </section>
-                <div id="party-session"></div>
             </div>
         </section>
         <div id="maintenancePage">

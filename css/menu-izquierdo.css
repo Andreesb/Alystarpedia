@@ -131,7 +131,7 @@
     padding: 5px;
     display: flex;
     position: relative;
-    
+    text-align: start;
 }
 
 .menu-izquierdo li:hover {

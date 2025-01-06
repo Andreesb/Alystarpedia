@@ -3,6 +3,12 @@
 @import url(home.css);
 @import url(party-hunt.css);
 
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 
 
 body {
@@ -10,7 +16,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    min-height: 1200px;
+    min-height: 1300px;
     min-width: 400px;
     position: absolute;
     background-color: #fdeed5;
@@ -257,10 +263,6 @@ ul, ol {
     aspect-ratio: 0;
 }
 
-h4 {
-    padding: 0;
-    margin: 0;
-}
 
 .gallery img.active {
     transform: scale(1.2);
@@ -461,12 +463,12 @@ h4 {
 .contenedor-informacion {
     position: absolute;
     left: 50%;
-    top: 68%;
+    top: 58%;
     transform: translate(-50%,-50%);
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 4px;
     max-width:1200px;
-    min-height: 900px;
+    min-height: 1000px;
     height: auto;
     width: 65%;
 }
@@ -474,6 +476,20 @@ h4 {
 .contenedor-informacion h2 {
     text-align: center;
 }
+
+
+
+.search-Bar.active {
+    transform: translateX(-200px); /* Ajusta este valor para mover el contenedor */
+}
+
+.search.active {
+    width: 180px; /* Ancho deseado de la barra de búsqueda */
+    opacity: 1;
+    display: block;
+    margin: 5px;
+}
+
 
 
 #maintenancePage {
@@ -513,7 +529,7 @@ footer {
     justify-content: center;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 120%;
+    top: 100%;
     height: 25px;
     width: 96%;
     color: #cecece;
@@ -538,7 +554,6 @@ footer {
 }
 
 
-/* Ocultar el aside en pantallas pequeñas */
 @media (max-width: 1280px) {
     .contenedor-izquierdo {
     transform: translateX(-100%);
@@ -588,17 +603,7 @@ footer {
         transition: width 0.5s ease, opacity 0.5s ease;
     }
 
-    .search-Bar.active {
-        transform: translateX(-200px); /* Ajusta este valor para mover el contenedor */
-    }
-
-    .search.active {
-        width: 180px; /* Ancho deseado de la barra de búsqueda */
-        opacity: 1;
-        display: block;
-        margin: 5px;
-    }
-
+    
     .contenedor-derecho {
         width: 237px;
         height: 400px;

@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 900px;
-    background-color: #ccbb9eb4;
+    min-height: 1000px;
+    max-height: 80vh;
+    background-color: #ffffe09c;
     border-radius: 8px;
     position: relative;
     
@@ -48,17 +49,12 @@
     padding: 10px;
 }
 
-#processButton {
-    position: absolute;
-    left: 35%;
-}
-
 
 #party-session {
-    display: grid;
-    position: relative;
-    top: 5%;
-    left: 23%;
+    display: inline-table;
+    position: absolute;
+    top: 0%;
+    left: 45%;
     min-width: 45%;
     min-height: 800px;
     border: 2px solid;
@@ -74,8 +70,11 @@
 #party-hunt {
     display: block;
     position: absolute;
-    left: 5%;
-    top: 5%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
 }
 
 #party-results {
@@ -87,17 +86,110 @@
     gap: 25px;
     padding: 20px;
     max-width: 475px;
-    text-align: center;
 }
 
-.party-results {
+#cards-container {
+    min-height: 400px;
+    background-color: brown;
+    border-radius: 8px;
+    perspective: 1000px; /* Permite el efecto 3D */
+}
+
+.results-cards {
     display: grid;
+    visibility: hidden;
     padding: 10px;
-    border: 1px solid black;
     background-color: brown;
     border-radius: 8px;
     min-width: 200px;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: visibility 0.5s 0.3s, opacity 0.2s ease-in-out;
+    font-size: 0.8rem;
 }
+
+
+.results-cards h2 {
+    text-align: center;
+}
+
+.results-cards li {
+    display: flex;
+    justify-content: space-evenly; /* Asegura que el texto y los valores estén alineados */
+    align-items: center; /* Centra verticalmente el texto */
+    padding: 2px 0; /* Ajusta el espacio entre las líneas */
+}
+
+.results-cards li b {
+    flex: 1; /* El título toma todo el espacio disponible */
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+.results-cards li p {
+    margin: 0;
+    text-align: right; /* Alinea el valor a la derecha */
+}
+
+.results-cards.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: visibility 0.5s 0.3s, opacity 0.2s ease-in-out;
+}
+
+
+.results-cards.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: transform 0.5s ease-in-out, opacity 0.8s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 1px 1px rgb(0, 0, 0.2);
+}
+
+.rotate {
+    transform: rotateY(180deg);
+    transition: transform 1s ease-in-out
+}
+
+#party-historial {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 20vw;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+#party-historial button {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    opacity: 0;
+    transform: translateY(20px); /* Opcional: un ligero desplazamiento */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#historial-list {
+    align-content: center;
+    padding: 10px;
+    display: grid;
+    
+}
+
+
+
+#party-historial button.visible {
+    opacity: 1;
+    transform: translateY(0); /* Volver a la posición original */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#splitting-instructions {
+    text-align: center;
+}
+
 
 
 #party-error {
