@@ -71,6 +71,7 @@
 #shortcuts-tools a {
     flex: 0 0 125px; /* Cada opción tiene un ancho fijo */
     transition: opacity 0.5s ease-in-out;
+    
 
 }
 
@@ -87,10 +88,16 @@
 }
 
 #shortcuts-tools a img {
-    width: auto;
+    min-width: 50px;
+    max-width: 85px;
+    width: 10vw;
     min-height: 50px;
-    height: auto;
-    max-height: 100px;
+    height: 10vh;
+    max-height: 85px;
+    background-color: #ccbb9e;
+    border-radius: 99px;
+    object-fit: contain;
+    
 }
 
 /* Aside a la derecha */
@@ -280,7 +287,7 @@
     }
 
     #shortcuts-tools a {
-        flex: 0 0 105px; /* Cada opción tiene un ancho fijo */
+        flex: 0 0 110px; /* Cada opción tiene un ancho fijo */
         transition: opacity 0.5s ease-in-out;
     
     }

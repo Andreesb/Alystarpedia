@@ -538,20 +538,6 @@ footer {
     align-content: center;
 }
 
-@media (max-width: 1460px) {
-    .contenedor-derecho {
-        left: 81%;
-    }
-
-    .search-Bar {
-        left:81% ;
-    }
-
-    .contenedor-informacion {
-        width: 58%;
-    }
-
-}
 
 
 @media (max-width: 1280px) {
@@ -567,8 +553,6 @@ footer {
     .menu-hamburguesa {
     display: block;
     }
-
-
 
     .search-Bar {
         min-width: 40px;
@@ -661,10 +645,6 @@ footer {
 
 @media (max-width: 850px) {
     
-    body {
-        min-height: 1700px;
-    }
-
     .body-background {
         position: fixed;
         top: 50%;
@@ -672,16 +652,8 @@ footer {
 
     .contenedor-informacion {
         left: 47%;
-        top: 65%;
     }
 
-    .search-Bar {
-        top: 13%;
-    }
-
-    .contenedor-izquierdo {
-        top: 13%;
-    }
 }
 
 @media (max-width: 575px) {

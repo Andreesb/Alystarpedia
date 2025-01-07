@@ -1,7 +1,7 @@
 {
   "name": "wiki",
   "version": "1.0.0",
-  "description": "Descripción breve de tu proyecto",
+  "description": "Esta es una con tips y herramientas para Tibia",
   "main": "index.html",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ldrs": "^1.0.2"
+    "ldrs": "^1.0.2",
+    "tibia-maps": "^5.3.0"
   },
   "devDependencies": {
     "vite": "^6.0.3"

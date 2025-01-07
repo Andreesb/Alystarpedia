@@ -1,4 +1,3 @@
-
 import { loadFooter } from './modules/footer.js';
 import { changeImage, closeOverlay, openOverlay, showActiveImage, startAutoRotate } from './modules/galeria.js';
 import { loadHeader } from './modules/header.js';
@@ -10,8 +9,6 @@ import { setupHuntSessionProcessor } from './modules/party-hunt.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     
-
-
     // Función para obtener los datos del boss destacado
     const urlBosses = "https://api.tibiadata.com/v4/boostablebosses";
 
