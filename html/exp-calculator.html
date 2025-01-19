@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Contenido</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <header id="header-container"></header>
+
+    <main>
+        <img class="body-background" src="../assets/body/Client_Artwork_13.20.jpg" alt="Fondo principal" >
+        <nav class="menu-Principal">
+            <menu>
+                <section class="section-hamburguesa">
+                    <button title="Menu" class="menu-hamburguesa" id="menuToggle">☰</button>
+                </section>
+                <a href="">
+                    <section id="explore">
+                    <p>Explore</p>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="quests">
+                    <p>Quests</p>
+                </a>
+                    <a href="">
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </a>
+                </section>
+                <a href="">
+                    <section id="events">
+                        <p>Events</p>
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="bosses-raid">
+                        <p>Boss Raid</p>
+                        <ul>
+                            <a href="">
+                                <li>item de nav 1</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 2</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 3</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <section id="tips-nav">
+                    <a href="">
+                        <p>Tips & Tricks</p>
+                    </a>
+                </section>
+
+            </menu>
+        </nav>
+        <aside class="contenedor-izquierdo"></aside>
+
+        <div class="search-Bar">
+            <img  class="lupa" src="../assets/icons/lupa.png" alt="Seacrh">
+            <input class="search" type="text" placeholder="Search">
+        </div>
+        <aside class="contenedor-derecho">
+            
+        </aside>
+        <menu class="menu-dinamico">
+            <ul id="retrato-galeria"><img class="menu-icons" src="../assets/icons/Portrait_with_Ferumbras.gif" alt="">
+            </ul>
+            <ul><img class="menu-icons" src="../assets/icons/Golden_Newspaper.gif" alt="">
+                <section class="noticias-dinamicas">
+                    <div id="ultima-noticia">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt unde maxime neque incidunt. Molestias corporis non maxime facere beatae laudantium!</p>
+                    </div>
+                </section>
+            </ul>
+            <ul>
+                <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="">
+                <section id="contenedor-community">
+                    <a href="https://discord.com/channels/728759455033851995/1275421418884169749">
+                        <li class="icons-community">
+                            <img id="discord" src="../assets/icons/discord.png" alt="Icono de Discord">
+                        </li>
+                    </a>
+                    
+                    <a href="">
+                        <li class="icons-community">
+                            <img id="instagram" src="../assets/icons/instagram.png" alt="Icono de Instagram">
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="icons-community">
+                            <img id="github" src="../assets/icons/github.png" alt="Icono de Github">
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="icons-community">
+                            <img id="youtube" src="../assets/icons/youtube.png" alt="Icono de Github">
+                        </li>
+                    </a>
+                    
+                </section>
+            </ul>
+        </menu>
+        
+        <div id="overlay" class="overlay hidden">
+            <button id="prev-btn" class="nav-btn left">←</button>
+            <img id="expanded-image" src="" alt="Imagen Expandida">
+            <button id="close-overlay" class="close-btn">×</button>
+            <button id="next-btn" class="nav-btn right">→</button>
+        </div>
+        <section class="contenedor-informacion">
+            <h1>Level Calc</h1>
+            <div>
+                <label for="vocation">Vocation:</label>
+                <select id="vocation">
+                    <option value="knight">Knight</option>
+                    <option value="paladin">Paladin</option>
+                    <option value="sorcerer">Sorcerer</option>
+                    <option value="druid">Druid</option>
+                </select>
+            </div>
+            <div>
+                <label for="currentLevel">Current Level:</label>
+                <input type="number" id="currentLevel" placeholder="Current Level" required>
+            </div>
+            <div>
+                <label for="desiredLevel">Level Desired:</label>
+                <input type="number" id="desiredLevel" placeholder="Desired Level" required>
+            </div>
+            <button id="calculateLevel">Calculate</button>
+            
+            <div id="result"></div>
+            <br>
+            
+            <h1>Skills Calc</h1>
+
+            <div class="form-container">
+                <label for="skillType">Skills</label>
+                <select id="skillType">
+                    <option value="magic-level">Magic Level</option>
+                    <option value="melee">Melee</option>
+                    <option value="distance">Distance Fighting</option>
+                    <option value="shielding">Shielding</option>
+                    <option value="fishing">Fishing</option>
+                </select>
+                <br>
+
+                <label for="skills-vocation">Vocación</label>
+                <select id="skills-vocation">
+                    <option value="None">None</option>
+                    <option value="Druid">Druid</option>
+                    <option value="Knight">Knight</option>
+                    <option value="Paladin">Paladin</option>
+                    <option value="Sorcerer">Sorcerer</option>
+                </select>
+                <br>
+
+                <label for="currentSkill">Current Skill Level</label>
+                <input type="number" id="currentSkill" placeholder="Current Skill" required>
+                <br>
+
+                <label for="targetSkill">Desired Skill Level</label>
+                <input type="number" id="targetSkill" placeholder="Desired Skill" required>
+                <br>
+
+                <label for="skillProgress">Skill Progress</label>
+                <div class="progress-container">
+                    <input type="range" id="skillProgress" min="0" max="100" value="0">
+                </div>
+                <div class="progress-label">
+                    Progress: <span id="progressPercent">0%</span>
+                </div>
+                <br>
+
+                <label for="doubleSkillEvent">Double Skill Event?</label>
+                <input type="checkbox" id="doubleSkillEvent">
+                <br>
+
+                <label for="privateDummy">Private Dummy?</label>
+                <input type="checkbox" id="privateDummy">
+                <br>
+
+                <button id="calculateSkillButton">Calculate</button>
+            </div>
+
+            <div class="result-container" id="skillResult"></div>
+            
+            
+            
+        </section>
+        <div id="maintenancePage">
+            
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script type="module" src="../js/scripts.js"></script>
+    <script src="../js/modules/exp-calc.js"></script>
+    
+
+</body>
+</html>
