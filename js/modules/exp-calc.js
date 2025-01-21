@@ -95,6 +95,21 @@ function handleCalculation() {
 // Evento para calcular al hacer clic en el botón
 document.getElementById("calculateLevel").addEventListener("click", handleCalculation);
 
+
+document.getElementById("vocation").addEventListener("change", function () {
+    const selectedVocation = this.value;
+    const images = document.querySelectorAll(".vocation-image");
+
+    images.forEach((image) => {
+        if (image.dataset.select === selectedVocation) {
+            image.classList.add("selected");
+        } else {
+            image.classList.remove("selected");
+        }
+    });
+});
+
+
 document.getElementById("calculateSkillButton").addEventListener("click", calculateSkills);
 
 function calculateSkills() {
@@ -102,8 +117,11 @@ function calculateSkills() {
     const vocation = document.getElementById("skills-vocation").value;
     const currentSkill = parseInt(document.getElementById("currentSkill").value);
     const targetSkill = parseInt(document.getElementById("targetSkill").value);
-    const progressPercent = parseInt(document.getElementById("skillProgress").value);
+    const progressPercent = parseInt(document.getElementById("skillProgress").value) || 0;
     const doubleSkillEvent = document.getElementById("doubleSkillEvent").checked;
+    const privateDummy = document.getElementById("privateDummy").checked;
+    const exerciseWeapon = document.getElementById("exerciseWeapon").value;
+    const loyaltyBonus = parseInt(document.getElementById("loyaltyBonus").value) || 0;
 
     const skillConstants = {
         "magic-level": 1600,
@@ -121,6 +139,12 @@ function calculateSkills() {
         Druid: { "magic-level": 1.1, melee: 1.8, distance: 1.8, shielding: 1.5, fishing: 1.1 },
     };
 
+    const exerciseWeapons = {
+        durable: { charges: 1800, price: 1250000 },
+        standard: { charges: 500, price: 347222 },
+        lasting: { charges: 14400, price: 10000000 },
+    };
+
     const A = skillConstants[skillType];
     const b = vocationConstants[vocation][skillType];
     const c = skillType === "magic-level" ? 0 : 10;
@@ -130,45 +154,89 @@ function calculateSkills() {
         return;
     }
 
-    let totalPoints = 0;
-    for (let skill = currentSkill; skill < targetSkill; skill++) {
-        const pointsToNextLevel = A * Math.pow(b, skill - c);
-        totalPoints += pointsToNextLevel;
+    if ((skillType !== "magic-level" && currentSkill < 10) || progressPercent < 0 || progressPercent > 100) {
+        document.getElementById("skillResult").innerText = "Invalid data. Check skill level or progress percentage.";
+        return;
     }
 
-    // Adjust for progress percentage
-    const remainingPoints = totalPoints * (1 - progressPercent / 100);
+    const loyaltyMultiplier = 1 + loyaltyBonus / 100; // Aplicar el bono de lealtad
 
-    // Time calculation (seconds)
-    const timePerCharge = 2; // Each charge is used every 2 seconds
-    let chargesNeeded = remainingPoints / 7.2; // Default for melee; adjust for other types
+    // Calcular puntos restantes para el nivel actual
+    const pointsToNextLevel = A * Math.pow(b, currentSkill - c);
+    const partialPoints = pointsToNextLevel * ((100 - progressPercent) / 100);
+
+    // Calcular puntos totales para niveles superiores
+    let totalPoints = partialPoints;
+    for (let skill = currentSkill + 1; skill < targetSkill; skill++) {
+        totalPoints += A * Math.pow(b, skill - c);
+    }
+
+    // Tiempo y cargas necesarias
+    const timePerCharge = 2; // Cada carga dura 2 segundos
+    let chargesNeeded = totalPoints / (7.2 * loyaltyMultiplier); // Tasa base ajustada por el bono de lealtad
     if (skillType === "distance") {
-        chargesNeeded = remainingPoints / 3.6;
+        chargesNeeded = totalPoints / (3.6 * loyaltyMultiplier);
     } else if (skillType === "magic-level") {
-        chargesNeeded = remainingPoints / 600;
+        chargesNeeded = totalPoints / (600 * loyaltyMultiplier);
     }
 
-    // Adjust for double skill event
+    // Ajustes por eventos o configuraciones
     if (doubleSkillEvent) {
         chargesNeeded /= 2;
     }
 
-    const timeInSeconds = chargesNeeded * timePerCharge;
+    if (privateDummy) {
+        chargesNeeded *= 0.9;
+    }
 
-    // Convert to hours, minutes, seconds
-    const hours = Math.floor(timeInSeconds / 3600);
+    const totalCharges = Math.ceil(chargesNeeded);
+
+    // Detalles del arma de entrenamiento
+    const weaponDetails = exerciseWeapons[exerciseWeapon];
+    const weaponsNeeded = Math.ceil(totalCharges / weaponDetails.charges);
+    const totalCost = weaponsNeeded * weaponDetails.price;
+
+    // Formato del tiempo: días, horas, minutos
+    const timeInSeconds = chargesNeeded * timePerCharge;
+    const totalHours = Math.floor(timeInSeconds / 3600);
+    const days = Math.floor(totalHours / 24);
+    const hours = totalHours % 24;
     const minutes = Math.floor((timeInSeconds % 3600) / 60);
     const seconds = Math.floor(timeInSeconds % 60);
+    
+    const timeFormatted =
+        days > 0
+            ? `${days} days ${hours}h ${minutes}m`
+            : totalHours > 0
+            ? `${hours}h ${minutes}m`
+            : minutes > 0
+            ? `${minutes}m`
+            : `${seconds}s`;
+    
 
-    // Display result
+    // Formato del costo en "kk" y "kkk"
+    const formatCost = (cost) => {
+        if (cost >= 1e9) {
+            return (cost / 1e9).toFixed(1) + "kkk";
+        } else if (cost >= 1e6) {
+            return (cost / 1e6).toFixed(1) + "kk";
+        }
+        return cost.toLocaleString("en-US");
+    };
+
+    // Mostrar resultados
     document.getElementById("skillResult").innerHTML = `
-        <strong><p>Time required: ${hours}h ${minutes}m ${seconds}s</p>
-        <p>Charges needed: ${Math.ceil(chargesNeeded)}</p><strong>
+        <p>Time required: ${timeFormatted}</p>
+        <p>Charges needed: ${totalCharges.toLocaleString("en-US")}</p>
+        <p>Weapons needed: ${weaponsNeeded.toLocaleString("en-US")}</p>
+        <p>Total cost: ${formatCost(totalCost)}</p>
     `;
 }
+
 
 // Update progress label dynamically
 document.getElementById("skillProgress").addEventListener("input", (event) => {
     document.getElementById("progressPercent").innerText = `${event.target.value}%`;
 });
+
 

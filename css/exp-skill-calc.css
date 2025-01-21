@@ -1,0 +1,42 @@
+.calculator-container section {
+    background-color: #fdeed5;
+    width: 70vw;
+    justify-content: center;
+    display: inline-grid;
+    align-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#level-calc {
+    min-height: 45vh;
+}
+
+.images-container {
+    display: flex;
+    gap: 10px;
+}
+
+.vocation-image {
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease, filter 0.3s ease;
+}
+
+.vocation-image.selected {
+    width: 70px;
+    height: 70px;
+    filter: none;
+    z-index: 1;
+}
+
+.vocation-image:not(.selected) {
+    filter: blur(4px);
+    opacity: 0.6;
+}
+
+
+#skill-calc {
+    min-height: 55vh;
+}

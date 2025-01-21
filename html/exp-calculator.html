@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Contenido</title>
+    <title>Exp&Skill Calculator</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -139,81 +139,109 @@
             <button id="next-btn" class="nav-btn right">→</button>
         </div>
         <section class="contenedor-informacion">
-            <h1>Level Calc</h1>
-            <div>
-                <label for="vocation">Vocation:</label>
-                <select id="vocation">
-                    <option value="knight">Knight</option>
-                    <option value="paladin">Paladin</option>
-                    <option value="sorcerer">Sorcerer</option>
-                    <option value="druid">Druid</option>
-                </select>
-            </div>
-            <div>
-                <label for="currentLevel">Current Level:</label>
-                <input type="number" id="currentLevel" placeholder="Current Level" required>
-            </div>
-            <div>
-                <label for="desiredLevel">Level Desired:</label>
-                <input type="number" id="desiredLevel" placeholder="Desired Level" required>
-            </div>
-            <button id="calculateLevel">Calculate</button>
-            
-            <div id="result"></div>
-            <br>
-            
-            <h1>Skills Calc</h1>
-
-            <div class="form-container">
-                <label for="skillType">Skills</label>
-                <select id="skillType">
-                    <option value="magic-level">Magic Level</option>
-                    <option value="melee">Melee</option>
-                    <option value="distance">Distance Fighting</option>
-                    <option value="shielding">Shielding</option>
-                    <option value="fishing">Fishing</option>
-                </select>
-                <br>
-
-                <label for="skills-vocation">Vocación</label>
-                <select id="skills-vocation">
-                    <option value="None">None</option>
-                    <option value="Druid">Druid</option>
-                    <option value="Knight">Knight</option>
-                    <option value="Paladin">Paladin</option>
-                    <option value="Sorcerer">Sorcerer</option>
-                </select>
-                <br>
-
-                <label for="currentSkill">Current Skill Level</label>
-                <input type="number" id="currentSkill" placeholder="Current Skill" required>
-                <br>
-
-                <label for="targetSkill">Desired Skill Level</label>
-                <input type="number" id="targetSkill" placeholder="Desired Skill" required>
-                <br>
-
-                <label for="skillProgress">Skill Progress</label>
-                <div class="progress-container">
-                    <input type="range" id="skillProgress" min="0" max="100" value="0">
+            <div class="calculator-container">
+                <div id="level-container">
+                    <h1>Level Calc</h1>
+                    <section id="level-calc">
+                        <div>
+                            <label for="vocation">Vocation:
+                            </label>
+                            <select id="vocation">
+                                <option value="none">None</option>
+                                <option value="druid">Druid</option>
+                                <option value="knight">Knight</option>
+                                <option value="paladin">Paladin</option>
+                                <option value="sorcerer">Sorcerer</option>
+                            </select>
+                            <div class="images-container">
+                                <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" data-select="druid" class="vocation-image">
+                                <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" data-select="knight" class="vocation-image">
+                                <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" data-select="paladin" class="vocation-image">
+                                <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" data-select="sorcerer" class="vocation-image">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="currentLevel">Current Level:</label>
+                            <input type="number" id="currentLevel" placeholder="Current Level" required>
+                        </div>
+                        <div>
+                            <label for="desiredLevel">Level Desired:</label>
+                            <input type="number" id="desiredLevel" placeholder="Desired Level" required>
+                        </div>
+                        <button id="calculateLevel">Calculate</button>
+                        
+                        
+                        <div id="result"></div>
+                        <br>
+                    </section>
                 </div>
-                <div class="progress-label">
-                    Progress: <span id="progressPercent">0%</span>
+                <div id="skill-container">
+                    <h1>Skills Calc</h1>
+                    <section id="skill-calc">
+                        <div class="form-container">
+                            <label for="skillType">Skills</label>
+                            <select id="skillType">
+                                <option value="magic-level">Magic Level</option>
+                                <option value="melee">Melee</option>
+                                <option value="distance">Distance Fighting</option>
+                                <option value="shielding">Shielding</option>
+                                <option value="fishing">Fishing</option>
+                            </select>
+                            <br>
+            
+                            <label for="skills-vocation">Vocación</label>
+                            <select id="skills-vocation">
+                                <option value="None">None</option>
+                                <option value="Druid">Druid</option>
+                                <option value="Knight">Knight</option>
+                                <option value="Paladin">Paladin</option>
+                                <option value="Sorcerer">Sorcerer</option>
+                            </select>
+                            <br>
+                            <label for="loyaltyBonus">Loyalty Bonus (%):</label>
+                            <input id="loyaltyBonus" type="number" value="0" min="0" max="50" step="5" />
+                            <br>
+            
+                            <label for="currentSkill">Current Skill Level</label>
+                            <input type="number" id="currentSkill" placeholder="Current Skill" required>
+                            <br>
+            
+                            <label for="targetSkill">Desired Skill Level</label>
+                            <input type="number" id="targetSkill" placeholder="Desired Skill" required>
+                            <br>
+            
+                            <label for="skillProgress">Skill Progress</label>
+                            <div class="progress-container" style="display: flex;">
+                                <input type="range" id="skillProgress" min="0" max="100" value="0">
+                                <div class="progress-label">
+                                    Progress: <span id="progressPercent">0%</span>
+                                </div>
+                            </div>
+                            
+                            <label for="doubleSkillEvent">Double Skill Event?</label>
+                            <input type="checkbox" id="doubleSkillEvent">
+                            <br>
+            
+                            <label for="privateDummy">Ferumbras - Demon Dummy?</label>
+                            <input type="checkbox" id="privateDummy">
+                            <br>
+            
+                            <label for="exerciseWeapon">Training Weapon:</label>
+                            <br>
+                            <select id="exerciseWeapon">
+                                <option value="standard">Exercise (500 charges, 347k gold)</option>
+                                <option value="durable">Durable Exercise (1800 charges, 1,250kk gold)</option>
+                                <option value="lasting">Lasting Exercise (14,400 charges, 10kk gold)</option>
+                            </select>
+                            <br>
+            
+                            <button id="calculateSkillButton">Calculate</button>
+                        </div>
+                        <div class="result-container" id="skillResult"></div>
+            
+                    </section>
                 </div>
-                <br>
-
-                <label for="doubleSkillEvent">Double Skill Event?</label>
-                <input type="checkbox" id="doubleSkillEvent">
-                <br>
-
-                <label for="privateDummy">Private Dummy?</label>
-                <input type="checkbox" id="privateDummy">
-                <br>
-
-                <button id="calculateSkillButton">Calculate</button>
             </div>
-
-            <div class="result-container" id="skillResult"></div>
             
             
             
