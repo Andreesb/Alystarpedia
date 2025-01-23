@@ -1,3 +1,12 @@
+const statIcons = {
+    experience: "../assets/icons/xp.png",
+    hp: "../assets/icons/hp.png",
+    mana: "../assets/icons/mana.gif",
+    capacity: "../assets/icons/bag.gif",
+    shareExpRange: "../assets/icons/shared.gif",
+};
+
+
 // Función para calcular la experiencia total requerida para llegar a un nivel
 function experienceForLevel(level) {
     return 50 * Math.pow(level, 2) - 150 * level + 200;
@@ -6,10 +15,11 @@ function experienceForLevel(level) {
 // Función para calcular la experiencia faltante y estadísticas basadas en la vocación
 function calculateStatsAndExp(vocation, currentLevel, desiredLevel) {
     if (currentLevel >= desiredLevel) {
-        return "El nivel actual debe ser menor que el nivel deseado.";
+        return "Desired level must be higher that current level.";
     } if (isNaN(currentLevel) || isNaN(desiredLevel)) {
-        alert("Por favor, ingresa valores válidos en todos los campos.");
-        return;
+        return("Enter valid numbers.");
+    } if (currentLevel < 8) {
+        return("Current level must be at least 8.");
     }
 
 
@@ -58,7 +68,7 @@ function calculateStatsAndExp(vocation, currentLevel, desiredLevel) {
             break;
 
         default:
-            return "Vocación no válida. Elija entre Knight, Paladin, Sorcerer o Druid.";
+            return "First select any vocation.";
     }
 
     return stats;
@@ -80,13 +90,28 @@ function handleCalculation() {
         resultElement.textContent = result; // Mostrar errores o advertencias
     } else {
         resultElement.innerHTML = `
-            <p><b>Resultados para ${vocation}:</b></p>
+            <h1><b>Stats for ${vocation}:</b></h1>
             <ul>
-                <li><b>Experiencia faltante:</b> ${result.totalExperience.toLocaleString()}</li>
-                <li><b>Vida (HP) al nivel ${desiredLevel}:</b> ${result.hp}</li>
-                <li><b>Mana al nivel ${desiredLevel}:</b> ${result.mana}</li>
-                <li><b>Capacidad (Cap) al nivel ${desiredLevel}:</b> ${result.capacity}</li>
-                <li><b>Rango para compartir experiencia:</b> ${result.shareExpRange.min} - ${result.shareExpRange.max}</li>
+                <li>
+                    <b>Experience needed:</b>    ${result.totalExperience.toLocaleString()}
+                    <img src="${statIcons.experience}" alt="Experience Icon" class="stat-icon">
+                </li>
+                <li>
+                    <b>Hitpoints (HP) at level ${desiredLevel}:</b>    ${result.hp}
+                    <img src="${statIcons.hp}" alt="HP Icon" class="stat-icon">
+                </li>
+                <li>
+                    <b>Mana at level ${desiredLevel}:</b>    ${result.mana}
+                    <img src="${statIcons.mana}" alt="Mana Icon" class="stat-icon">
+                </li>
+                <li>
+                    <b>Capacity (Cap) at level ${desiredLevel}:</b>    ${result.capacity}
+                    <img src="${statIcons.capacity}" alt="Capacity Icon" class="stat-icon">
+                </li>
+                <li>
+                    <b>Level to share at ${desiredLevel}:</b>    ${result.shareExpRange.min} - ${result.shareExpRange.max}
+                            <img src="${statIcons.shareExpRange}" alt="Share Experience Icon" class="stat-icon">
+                </li>
             </ul>
         `;
     }
@@ -149,7 +174,7 @@ function calculateSkills() {
     const b = vocationConstants[vocation][skillType];
     const c = skillType === "magic-level" ? 0 : 10;
 
-    if (!A || !b || currentSkill >= targetSkill) {
+    if (!A || !b || !currentSkill || !targetSkill || currentSkill >= targetSkill) {
         document.getElementById("skillResult").innerText = "Invalid input. Please check your values.";
         return;
     }
@@ -229,7 +254,7 @@ function calculateSkills() {
         <p>Time required: ${timeFormatted}</p>
         <p>Charges needed: ${totalCharges.toLocaleString("en-US")}</p>
         <p>Weapons needed: ${weaponsNeeded.toLocaleString("en-US")}</p>
-        <p>Total cost: ${formatCost(totalCost)}</p>
+        <p>Total cost: ${formatCost(totalCost)} Gold</p>
     `;
 }
 
