@@ -19,10 +19,10 @@ export function loadHeader() {
                 if (headerContainer) {
                     // Aquí cambiamos el path del background-image
                     if (isIndex) {
-                        headerContainer.style.backgroundImage = "url(assets/body/Background_Artwork_7.9.jpg)";
+                        headerContainer.style.backgroundImage = "url()";
                     } else {
                         // Para otras páginas, ajusta el path del background
-                        headerContainer.style.backgroundImage = "url(../assets/body/Background_Artwork_7.9.jpg)";
+                        headerContainer.style.backgroundImage = "url()";
                     }
                 }
 

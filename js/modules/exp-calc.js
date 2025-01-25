@@ -4,7 +4,69 @@ const statIcons = {
     mana: "../assets/icons/mana.gif",
     capacity: "../assets/icons/bag.gif",
     shareExpRange: "../assets/icons/shared.gif",
+    tcoin: "../assets/icons/tibiaCoin.gif",
+    coin: "../assets/icons/crystalCoin.gif",
+    time: "../assets/icons/watch.gif",
+    hits: "../assets/icons/hits.gif",
+    ferumbrasDummy: "../assets/icons/ferumbrasDummy.gif",
+    demonDummy: "../assets/icons/demonDummy.gif",
+    exerciseDummy: "../assets/icons/exerciseDummy.gif",
 };
+
+const weaponImg = {
+    "magic-level": {
+        Sorcerer: {
+            standard: "../assets/icons/exerciseWand.gif",
+            durable: "../assets/icons/durableWand.gif",
+            lasting: "../assets/icons/lastingWand.gif"
+        },
+        Druid: {
+            standard: "../assets/icons/exerciseRod.gif",
+            durable: "../assets/icons/durableRod.gif",
+            lasting: "../assets/icons/lastingRod.gif"
+        }, All: {
+            standard: "../assets/icons/exerciseRod.gif",
+            durable: "../assets/icons/durableRod.gif",
+            lasting: "../assets/icons/lastingRod.gif"
+        }
+    },
+    axe: {
+        All: {
+            standard: "../assets/icons/exerciseAxe.gif",
+            durable: "../assets/icons/durableAxe.gif",
+            lasting: "../assets/icons/lastingAxe.gif"
+        }
+    },
+    club: {
+        All: {
+            standard: "../assets/icons/exerciseClub.gif",
+            durable: "../assets/icons/durableClub.gif",
+            lasting: "../assets/icons/lastingClub.gif"
+        }
+    },
+    sword: {
+        All: {
+            standard: "../assets/icons/exerciseSword.gif",
+            durable: "../assets/icons/durableSword.gif",
+            lasting: "../assets/icons/lastingSword.gif"
+        }
+    },
+    distance: {
+        All: {
+            standard: "../assets/icons/exerciseBow.gif",
+            durable: "../assets/icons/durableBow.gif",
+            lasting: "../assets/icons/lastingBow.gif"
+        }
+    },
+    shielding: {
+        All: {
+            standard: "../assets/icons/exerciseShield.gif",
+            durable: "../assets/icons/durableShield.gif",
+            lasting: "../assets/icons/lastingShield.gif"
+        }
+    }
+};
+
 
 
 // Función para calcular la experiencia total requerida para llegar a un nivel
@@ -18,10 +80,7 @@ function calculateStatsAndExp(vocation, currentLevel, desiredLevel) {
         return "Desired level must be higher that current level.";
     } if (isNaN(currentLevel) || isNaN(desiredLevel)) {
         return("Enter valid numbers.");
-    } if (currentLevel < 8) {
-        return("Current level must be at least 8.");
     }
-
 
     // Calcular experiencia faltante
     let totalExperience = 0;
@@ -45,26 +104,25 @@ function calculateStatsAndExp(vocation, currentLevel, desiredLevel) {
         }
     };
 
-    const levelsGained = desiredLevel - 8;
 
     switch (vocation.toLowerCase()) {
         case "knight":
-            stats.hp += 15 * (desiredLevel - 8);
-            stats.mana += 5 * (desiredLevel - 8);
-            stats.capacity += 25 * (desiredLevel - 8);
+            stats.hp += 15 * desiredLevel;
+            stats.mana += 5 * desiredLevel;
+            stats.capacity += 25 * desiredLevel;
             break;
 
         case "paladin":
-            stats.hp += 10 * (desiredLevel - 8);
-            stats.mana += 15 * (desiredLevel - 8);
-            stats.capacity += 20 * (desiredLevel - 8);
+            stats.hp += 10 * desiredLevel;
+            stats.mana += 15 * desiredLevel;
+            stats.capacity += 20 * desiredLevel;
             break;
 
         case "sorcerer":
         case "druid":
-            stats.hp += 5 * (desiredLevel - 8);
-            stats.mana += 30 * (desiredLevel - 8);
-            stats.capacity += 10 * (desiredLevel - 8);
+            stats.hp += 5 * desiredLevel;
+            stats.mana += 30 * desiredLevel;
+            stats.capacity += 10 * desiredLevel;
             break;
 
         default:
@@ -74,7 +132,7 @@ function calculateStatsAndExp(vocation, currentLevel, desiredLevel) {
     return stats;
 }
 
-// Función para manejar el cálculo y mostrar los resultados
+
 function handleCalculation() {
     // Obtener valores del formulario
     const vocation = document.getElementById("vocation").value;
@@ -85,7 +143,7 @@ function handleCalculation() {
     const result = calculateStatsAndExp(vocation, currentLevel, desiredLevel);
 
     // Mostrar resultados
-    const resultElement = document.getElementById("result");
+    const resultElement = document.getElementById("resultLevel");
     if (typeof result === "string") {
         resultElement.textContent = result; // Mostrar errores o advertencias
     } else {
@@ -93,24 +151,29 @@ function handleCalculation() {
             <h1><b>Stats for ${vocation}:</b></h1>
             <ul>
                 <li>
-                    <b>Experience needed:</b>    ${result.totalExperience.toLocaleString()}
+                    <b>Experience needed:</b><span>${result.totalExperience.toLocaleString()}
                     <img src="${statIcons.experience}" alt="Experience Icon" class="stat-icon">
+                    </span>
                 </li>
                 <li>
-                    <b>Hitpoints (HP) at level ${desiredLevel}:</b>    ${result.hp}
-                    <img src="${statIcons.hp}" alt="HP Icon" class="stat-icon">
+                    <b>Hitpoints (HP) at level ${desiredLevel}:</b><span>${result.hp}
+                        <img src="${statIcons.hp}" alt="HP Icon" class="stat-icon">
+                    </span>
                 </li>
                 <li>
-                    <b>Mana at level ${desiredLevel}:</b>    ${result.mana}
-                    <img src="${statIcons.mana}" alt="Mana Icon" class="stat-icon">
+                    <b>Mana at level ${desiredLevel}:</b><span>${result.mana}
+                        <img src="${statIcons.mana}" alt="Mana Icon" class="stat-icon">
+                    </span>
                 </li>
                 <li>
-                    <b>Capacity (Cap) at level ${desiredLevel}:</b>    ${result.capacity}
+                    <b>Capacity (Cap) at level ${desiredLevel}:</b><span>${result.capacity}
                     <img src="${statIcons.capacity}" alt="Capacity Icon" class="stat-icon">
+                    </span>
                 </li>
                 <li>
-                    <b>Level to share at ${desiredLevel}:</b>    ${result.shareExpRange.min} - ${result.shareExpRange.max}
-                            <img src="${statIcons.shareExpRange}" alt="Share Experience Icon" class="stat-icon">
+                    <b>Level to share at ${desiredLevel}:</b><span>${result.shareExpRange.min} - ${result.shareExpRange.max}
+                        <img src="${statIcons.shareExpRange}" alt="Share Experience Icon" class="stat-icon">
+                    </span>
                 </li>
             </ul>
         `;
@@ -147,27 +210,34 @@ function calculateSkills() {
     const privateDummy = document.getElementById("privateDummy").checked;
     const exerciseWeapon = document.getElementById("exerciseWeapon").value;
     const loyaltyBonus = parseInt(document.getElementById("loyaltyBonus").value) || 0;
+    const offlineTraining = document.getElementById("offlineTraining").checked;
+
+
+    const imgSrc = weaponImg[skillType]?.[vocation]?.[exerciseWeapon] || weaponImg[skillType]?.All?.[exerciseWeapon];
+
 
     const skillConstants = {
         "magic-level": 1600,
-        melee: 50,
+        axe: 50,
+        club: 50,
+        sword: 50,
         distance: 30,
         shielding: 100,
         fishing: 20,
     };
 
     const vocationConstants = {
-        None: { "magic-level": 3.0, melee: 2.0, distance: 2.0, shielding: 1.5, fishing: 1.1 },
-        Knight: { "magic-level": 3.0, melee: 1.1, distance: 1.4, shielding: 1.1, fishing: 1.1 },
-        Paladin: { "magic-level": 1.4, melee: 1.2, distance: 1.1, shielding: 1.1, fishing: 1.1 },
-        Sorcerer: { "magic-level": 1.1, melee: 2.0, distance: 2.0, shielding: 1.5, fishing: 1.1 },
-        Druid: { "magic-level": 1.1, melee: 1.8, distance: 1.8, shielding: 1.5, fishing: 1.1 },
+        None: { "magic-level": 3.0, axe: 2.0, club: 2.0, sword: 2.0, distance: 2.0, shielding: 1.5, fishing: 1.1 },
+        Knight: { "magic-level": 3.0, axe: 1.1, club: 1.1, sword: 1.1, distance: 1.4, shielding: 1.1, fishing: 1.1 },
+        Paladin: { "magic-level": 1.4, axe: 1.2, club: 1.2, sword: 1.2, distance: 1.1, shielding: 1.1, fishing: 1.1 },
+        Sorcerer: { "magic-level": 1.1, axe: 2.0, club: 2.0, sword: 2.0, distance: 2.0, shielding: 1.5, fishing: 1.1 },
+        Druid: { "magic-level": 1.1, axe: 1.8, club: 1.8, sword: 1.8, distance: 1.8, shielding: 1.5, fishing: 1.1 },
     };
 
     const exerciseWeapons = {
-        durable: { charges: 1800, price: 1250000 },
-        standard: { charges: 500, price: 347222 },
-        lasting: { charges: 14400, price: 10000000 },
+        standard: { charges: 500, price: 347222, tc: 25 },
+        durable: { charges: 1800, price: 1250000, tc: 90 },
+        lasting: { charges: 14400, price: 10000000, tc: 720 },
     };
 
     const A = skillConstants[skillType];
@@ -220,6 +290,7 @@ function calculateSkills() {
     const weaponDetails = exerciseWeapons[exerciseWeapon];
     const weaponsNeeded = Math.ceil(totalCharges / weaponDetails.charges);
     const totalCost = weaponsNeeded * weaponDetails.price;
+    const totalTc = weaponsNeeded * weaponDetails.tc;
 
     // Formato del tiempo: días, horas, minutos
     const timeInSeconds = chargesNeeded * timePerCharge;
@@ -231,12 +302,12 @@ function calculateSkills() {
     
     const timeFormatted =
         days > 0
-            ? `${days} days ${hours}h ${minutes}m`
+            ? `${days} days ${hours}h. ${minutes}m.`
             : totalHours > 0
-            ? `${hours}h ${minutes}m`
+            ? `${hours}h. ${minutes}m.`
             : minutes > 0
-            ? `${minutes}m`
-            : `${seconds}s`;
+            ? `${minutes}m.`
+            : `${seconds}s.`;
     
 
     // Formato del costo en "kk" y "kkk"
@@ -251,11 +322,23 @@ function calculateSkills() {
 
     // Mostrar resultados
     document.getElementById("skillResult").innerHTML = `
-        <p>Time required: ${timeFormatted}</p>
-        <p>Charges needed: ${totalCharges.toLocaleString("en-US")}</p>
-        <p>Weapons needed: ${weaponsNeeded.toLocaleString("en-US")}</p>
-        <p>Total cost: ${formatCost(totalCost)} Gold</p>
-    `;
+        <p>Time required: ${timeFormatted}
+            <img src="${statIcons.time}" alt="Time Watch" class="stat-icon">
+        </p>
+        <p>Charges needed: ${totalCharges.toLocaleString("en-US")}
+            <img src="${statIcons.hits}" alt="Hits stars" class="stat-icon">
+        </p>
+        <p>Weapons needed: ${weaponsNeeded.toLocaleString("en-US")}
+            <img src="${imgSrc}" alt="${exerciseWeapon} ${skillType}" class="stat-icon">
+        </p>
+        <p>Total cost: ${formatCost(totalCost)}
+            <img src="${statIcons.coin}" alt="Crystal Coins" class="stat-icon">
+        </p>
+        <p>TC: ${formatCost(totalTc)}
+            <img src="${statIcons.tcoin}" alt="Tibia Coin" class="stat-icon">
+        </p>
+        
+        `;
 }
 
 

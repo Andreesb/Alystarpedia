@@ -155,26 +155,26 @@
                                     <option value="Sorcerer">Sorcerer</option>
                                 </select>
                                 <div class="images-container">
-                                    <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" data-select="Druid" class="vocation-image">
-                                    <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" data-select="Knight" class="vocation-image">
-                                    <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" data-select="Paladin" class="vocation-image">
-                                    <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" data-select="Sorcerer" class="vocation-image">
+                                    <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" data-select="Druid" class="vocation-image selected">
+                                    <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" data-select="Knight" class="vocation-image selected">
+                                    <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" data-select="Paladin" class="vocation-image selected">
+                                    <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" data-select="Sorcerer" class="vocation-image selected">
                                 </div>
                             </div>
                             <div>
                                 <label for="currentLevel">Current Level:</label>
-                                <input type="number" id="currentLevel" placeholder="Current Level" required>
+                                <input type="number" id="currentLevel" min="0" placeholder="Current Level" required>
                             </div>
                             <div>
                                 <label for="desiredLevel">Level Desired:</label>
-                                <input type="number" id="desiredLevel" placeholder="Desired Level" required>
+                                <input type="number" id="desiredLevel" min="0" placeholder="Desired Level" required>
                             </div>
                             <br>
                             <button id="calculateLevel">Calculate</button>
                             <br>
                             
                             <br>
-                            <div id="result"></div>
+                            <div id="resultLevel"></div>
                             <br>
                         </div>
                     </section>
@@ -186,10 +186,11 @@
                             <label for="skillType">Skills</label>
                             <select id="skillType">
                                 <option value="magic-level">Magic Level</option>
-                                <option value="melee">Melee</option>
+                                <option value="axe">Axe</option>
+                                <option value="club">Club</option>
+                                <option value="sword">Sword</option>
                                 <option value="distance">Distance Fighting</option>
                                 <option value="shielding">Shielding</option>
-                                <option value="fishing">Fishing</option>
                             </select>
                             <br>
             
@@ -207,11 +208,11 @@
                             <br>
             
                             <label for="currentSkill">Current Skill Level</label>
-                            <input type="number" id="currentSkill" placeholder="Current Skill" required>
+                            <input type="number" id="currentSkill" min="0" placeholder="Current Skill" required>
                             <br>
             
                             <label for="targetSkill">Desired Skill Level</label>
-                            <input type="number" id="targetSkill" placeholder="Desired Skill" required>
+                            <input type="number" id="targetSkill" min="0" placeholder="Desired Skill" required>
                             <br>
             
                             <label for="skillProgress">Skill Progress</label>
@@ -241,7 +242,8 @@
                             <br>
                             <button id="calculateSkillButton">Calculate</button>
                         </div>
-                        <div class="result-container" id="skillResult"></div>
+                        <div class="result-container" id="skillResult">
+                        </div>
             
                     </section>
                 </div>

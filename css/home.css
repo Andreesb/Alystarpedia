@@ -173,9 +173,6 @@
 
 
 
-
-
-
 /* Contenedor para el texto */
 
 /* Última sección ocupa todo el ancho */
@@ -186,7 +183,7 @@
 
 .news-text {
     overflow-y: scroll;
-    height: 350px;
+    height: 475px;
     padding: 15px;
     background-color: #ccbb9e;
     border-radius: 8px;
