@@ -1,0 +1,9 @@
+input:invalid {
+    background-color: #ce8087;
+    transition: background-color 0.3s ease;
+}
+
+input {
+    background-color: white;
+    transition: background-color 0.3s ease;
+}

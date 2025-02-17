@@ -210,7 +210,6 @@ function calculateSkills() {
     const privateDummy = document.getElementById("privateDummy").checked;
     const exerciseWeapon = document.getElementById("exerciseWeapon").value;
     const loyaltyBonus = parseInt(document.getElementById("loyaltyBonus").value) || 0;
-    const offlineTraining = document.getElementById("offlineTraining").checked;
 
 
     const imgSrc = weaponImg[skillType]?.[vocation]?.[exerciseWeapon] || weaponImg[skillType]?.All?.[exerciseWeapon];
