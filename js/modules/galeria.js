@@ -1,13 +1,18 @@
-let galleryImages, overlay, overlayImage, closeBtn, prevBtn, nextBtn;
+let galleryImages, overlay, overlayImage, closeBtn, prevBtn, nextBtn, retratoGaleria;
 
 let currentImageIndex = 0; // Índice de la imagen actual
 let autoRotate;
 
+retratoGaleria = document.getElementById('retrato-galeria');
+closeBtn = document.querySelector('#close-overlay');
+prevBtn = document.querySelector('#prev-btn');
+nextBtn = document.querySelector('#next-btn');
+galleryImages = document.querySelectorAll('.gallery img');
+overlay = document.querySelector('#overlay');
+overlayImage = document.querySelector('#expanded-image');
+
 // Función para mostrar la imagen activa en la galería
 export function showActiveImage(index) {
-    galleryImages = document.querySelectorAll('.gallery img');
-    overlay = document.querySelector('#overlay');
-    overlayImage = document.querySelector('#expanded-image');
     galleryImages.forEach((img, i) => {
         img.classList.toggle('active', i === index);
     });
@@ -21,6 +26,35 @@ export function showActiveImage(index) {
     if (overlay.classList.contains('active')) {
         overlayImage.src = galleryImages[index].src;
     }
+
+    // Manejar clic en el overlay para cerrarlo
+    closeBtn.addEventListener('click', closeOverlay);
+
+    // Navegación con flechas solo si el overlay está activo
+    document.addEventListener('keydown', (e) => {
+        if (overlay.classList.contains('active')) {
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'Escape') closeOverlay(); // Cerrar overlay con Escape
+
+            // Prevenir el comportamiento por defecto de las flechas
+            e.preventDefault();
+        }
+    });
+
+    // Cambiar imagen con los botones de navegación
+    prevBtn.addEventListener('click', () => changeImage(-1));
+    nextBtn.addEventListener('click', () => changeImage(1));
+
+    // Evento para mostrar el overlay al hacer clic en "retrato-galeria"
+    retratoGaleria.addEventListener('click', () => {
+        openOverlay(currentImageIndex);
+
+        const section = retratoGaleria.querySelector('.item-menu');
+        if (section) {
+        section.style.display = section.style.display === 'block' ? 'none' : 'block';
+        }
+    });
 }
 
 // Función para abrir el overlay

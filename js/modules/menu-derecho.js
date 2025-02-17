@@ -13,8 +13,8 @@ export function showMenuDerecho() {
         .then(data => {
             menuContenedor.innerHTML = data;
             showActiveImage();
-
             startAutoRotate();
+            menuExpand();
 
             // Configurar eventos en enlaces
             const links = menuContenedor.querySelectorAll('a');
@@ -34,4 +34,45 @@ export function showMenuDerecho() {
             });
         })
         .catch(error => console.error('Error cargando el menú derecho:', error));
+}
+
+export function menuExpand(){
+    document.querySelector('.lupa').addEventListener('click', function () {
+        const search = document.querySelector('.search');
+        search.classList.toggle('active');
+        const searchContainer = document.querySelector('.search-Bar');
+        searchContainer.classList.toggle('active');
+    });
+
+    const menuDinamicoItems = document.querySelectorAll('.menu-dinamico ul');
+
+    menuDinamicoItems.forEach((item, index) => {
+      // Evento 'click' en cada <ul>
+        item.addEventListener('click', () => {
+            console.log(`Se hizo clic en el elemento ${index + 1}`);
+        
+            // Buscar la sección hija
+            const section = item.querySelector('section');
+            if (section) {
+            console.log('Se encontró una sección:', section);
+        
+            // Alternar la clase 'expandido'
+            section.classList.toggle('expandido');
+            console.log('Clase aplicada:', section.classList);
+        
+            // Cerrar otras secciones
+            menuDinamicoItems.forEach((otherItem, otherIndex) => {
+                if (otherItem !== item) {
+                const otherSection = otherItem.querySelector('section');
+                if (otherSection) {
+                    otherSection.classList.remove('expandido');
+                    console.log(`Se cerró la sección del elemento ${otherIndex + 1}`);
+                }
+                }
+            });
+            } else {
+            console.log('No se encontró ninguna sección en este <ul>.');
+            }
+        });
+    });
 }

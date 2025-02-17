@@ -1,5 +1,4 @@
 import { loadFooter } from './modules/footer.js';
-import { changeImage, closeOverlay, openOverlay, showActiveImage, startAutoRotate } from './modules/galeria.js';
 import { loadHeader } from './modules/header.js';
 import { fetchLatestNews, homeContainer, rotateAsideSections } from './modules/home-Container.js';
 import { showMaintenancePage } from './modules/mantenimiento.js';
@@ -80,89 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Llamamos a la función al cargar la página
     fetchBoostedBoss();
 
-
-    document.querySelector('.lupa').addEventListener('click', function () {
-        const search = document.querySelector('.search');
-        search.classList.toggle('active');
-        const searchContainer = document.querySelector('.search-Bar');
-        searchContainer.classList.toggle('active');
-    });
-
-
-    //Galeria
-    const retratoGaleria = document.getElementById('retrato-galeria');
-    const overlay = document.querySelector('#overlay');
-    const closeBtn = document.querySelector('#close-overlay');
-    const prevBtn = document.querySelector('#prev-btn');
-    const nextBtn = document.querySelector('#next-btn');
-
-    // Manejar clics en miniaturas
-
-    // Manejar clic en el overlay para cerrarlo
-    closeBtn.addEventListener('click', closeOverlay);
-
-    // Navegación con flechas solo si el overlay está activo
-    document.addEventListener('keydown', (e) => {
-        if (overlay.classList.contains('active')) {
-            if (e.key === 'ArrowRight') changeImage(1);
-            if (e.key === 'ArrowLeft') changeImage(-1);
-            if (e.key === 'Escape') closeOverlay(); // Cerrar overlay con Escape
-
-            // Prevenir el comportamiento por defecto de las flechas
-            e.preventDefault();
-        }
-    });
-
-    // Evento para mostrar el overlay al hacer clic en "retrato-galeria"
-    retratoGaleria.addEventListener('click', () => {
-        openOverlay(currentImageIndex);
-
-        const section = retratoGaleria.querySelector('.item-menu');
-        if (section) {
-        section.style.display = section.style.display === 'block' ? 'none' : 'block';
-        }
-    });
-
-    // Cambiar imagen con los botones de navegación
-    prevBtn.addEventListener('click', () => changeImage(-1));
-    nextBtn.addEventListener('click', () => changeImage(1));
-
-
-
-
-
-    const menuDinamicoItems = document.querySelectorAll('.menu-dinamico ul');
-
-    menuDinamicoItems.forEach((item, index) => {
-      // Evento 'click' en cada <ul>
-        item.addEventListener('click', () => {
-            console.log(`Se hizo clic en el elemento ${index + 1}`);
-        
-            // Buscar la sección hija
-            const section = item.querySelector('section');
-            if (section) {
-            console.log('Se encontró una sección:', section);
-        
-            // Alternar la clase 'expandido'
-            section.classList.toggle('expandido');
-            console.log('Clase aplicada:', section.classList);
-        
-            // Cerrar otras secciones
-            menuDinamicoItems.forEach((otherItem, otherIndex) => {
-                if (otherItem !== item) {
-                const otherSection = otherItem.querySelector('section');
-                if (otherSection) {
-                    otherSection.classList.remove('expandido');
-                    console.log(`Se cerró la sección del elemento ${otherIndex + 1}`);
-                }
-                }
-            });
-            } else {
-            console.log('No se encontró ninguna sección en este <ul>.');
-            }
-        });
-    });
-    
     
     document.addEventListener("click", (event) => {
         const target = event.target.closest("a");
@@ -180,8 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loadHeader();
     showMenuDerecho();
     rotateAsideSections();
-    showActiveImage();
-    startAutoRotate();
     homeContainer();
     showMenuIzquierdo();
     fetchLatestNews();

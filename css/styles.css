@@ -227,7 +227,7 @@ ul, ol {
 }
 
 
-.contenedor-derecho {
+.contenedorMenu {
     width: 237px;
     height: 400px;
     background-color: #ccbb9e;
@@ -240,7 +240,7 @@ ul, ol {
 }
 
 
-.contenedor-derecho menu {
+.contenedorMenu menu {
     padding: 15px;
     margin: 0;
     display: grid;
@@ -595,7 +595,7 @@ footer {
     }
 
     
-    .contenedor-derecho {
+    .contenedorMenu {
         width: 237px;
         height: 400px;
         background-color: #ccbb9e;
