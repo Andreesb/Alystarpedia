@@ -8,14 +8,23 @@
         <section id="galeria">
             <h4>Gallery</h4>
             <div id="thumbnail-gallery" class="gallery">
-                <img src="../assets/media/galeria/Gravedigger.webp" alt="Imagen 1">
+                <img class="active" src="../assets/media/galeria/Gravedigger.webp" alt="Imagen 1">
                 <img src="../assets/media/galeria/shell-we-take-a-ride.png" alt="Imagen 2">
                 <img src="../assets/media/galeria/Widely-travelled.webp" alt="Imagen 3">
                 <img src="../assets/media/galeria/yeti.webp" alt="Imagen 4">
                 <img src="../assets/media/galeria/zarabustor.webp" alt="Imagen 5">
             </div>
         </section>
-        <section class="contenedor-noticias">
+        <section id="shared-calc">
+            <h4>Level party share</h4>
+            <div>
+                <img src="../assets/icons/Party.gif" alt="Party Share">
+                <label for="party-share">Level:</label>
+                <input id="party-share" type="number" placeholder="Level" min="1" max="3000">
+                <span id="tooltip"></span>
+            </div>
+        </section>
+        <section id="contenedor-noticias">
             <div id="ultima-noticia">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt unde maxime neque incidunt. Molestias corporis non maxime facere beatae laudantium!</p>
             </div>
@@ -28,7 +37,7 @@
                 <img id="github" src="../assets/icons/github.png" alt="Github Icon" >
             </a>
             <a href="" target="_blank">
-                <img id="instagram" src="../assets/icons/instagram.png" alt="Instagram Icon">
+                <img id="instagram" src="../assets/icons/instagramblack.svg" alt="Instagram Icon">
             </a>
             <a href="" target="_blank">
                 <img id="youtube" src="../assets/icons/youtube.png" alt="Youtube Icon">
@@ -37,7 +46,7 @@
     </menu>
 </div>
 <menu class="menu-dinamico">
-    <ul id="retrato-galeria"><img class="menu-icons" src="../assets/icons/Portrait_with_Ferumbras.gif" alt="">
+    <ul id="retrato-galeria"><img class="menu-icons" src="../assets/icons/Portrait_with_Ferumbras.gif" alt="Retrato Ferumbras">
     </ul>
     <ul><img class="menu-icons" src="../assets/icons/Golden_Newspaper.gif" alt="">
         <section class="noticias-dinamicas">
@@ -47,7 +56,7 @@
         </section>
     </ul>
     <ul>
-        <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="">
+        <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="Comunidad de NPC's">
         <section id="contenedor-community">
             <a href="https://discord.com/channels/728759455033851995/1275421418884169749">
                 <li class="icons-community">
@@ -73,6 +82,14 @@
             
         </section>
     </ul>
+    <ul>
+        <img class="menu-icons" src="../assets/icons/Party.gif" alt="Party Share">
+        <section>
+            <label for="party-share">Level:</label>
+            <input name="party-share" type="number">
+        </section>
+    </ul>
+    
 </menu>
 
 <div id="overlay" class="overlay hidden">
@@ -81,4 +98,5 @@
     <button id="close-overlay" class="close-btn">×</button>
     <button id="next-btn" class="nav-btn right">→</button>
 </div>
+
 

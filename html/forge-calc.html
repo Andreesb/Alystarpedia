@@ -91,6 +91,13 @@
 
 
         <aside class="contenedor-derecho"></aside>
+
+        <div id="overlay" class="overlay hidden">
+            <button id="prev-btn" class="nav-btn left">←</button>
+            <img id="expanded-image" src="" alt="Imagen Expandida">
+            <button id="close-overlay" class="close-btn">×</button>
+            <button id="next-btn" class="nav-btn right">→</button>
+        </div>
         
         
         <section class="contenedor-informacion">
@@ -124,6 +131,9 @@
                         <option value="class4">Class 4</option>
                     </select>
                     <br>
+                    <label for="fusionConver">Convergence</label>
+                    <input name="fusionConver" type="checkbox">
+                    <br>
     
                     <button id="calculateForge">Calculate</button>
                 
@@ -141,6 +151,9 @@
                         <option value="class3">Class 3</option>
                         <option value="class4">Class 4</option>
                     </select>
+                    <br>
+                    <label for="transferConver">Convergence</label>
+                    <input name="transferConver" type="checkbox">
                     <br>
                     <button id="calculateForge">Calculate</button>
                 

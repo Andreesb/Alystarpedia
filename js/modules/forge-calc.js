@@ -5,6 +5,11 @@ const costs = {
         class3: [4000000, 10000000, 20000000],
         class4: [8000000, 20000000, 40000000, 65000000, 100000000, 250000000, 750000000, 2500000000, 8000000000, 15000000000]
     },
+    transfer:{
+        class2: { 2: 5000000 },
+        class3: { 2: 10000000, 3: 20000000 },
+        class4: { 2: 20000000, 3: 40000000, 4: 65000000, 5: 100000000, 6: 250000000, 7: 750000000, 8: 2500000000, 9: 8000000000, 10: 15000000000 }
+    } ,
     convergence_fusion: {
         class4: [55000000, 110000000, 170000000, 300000000, 875000000, 2350000000, 6950000000, 21250000000, 50000000000, 125000000000]
     },
@@ -118,7 +123,7 @@ function calculateCosts() {
             };
 
             const targetTier = transferTier - 1;
-            const goldCost = transferCosts[transferClass][transferTier] || "Not Available";
+            const goldCost = costs?.transfer?.[transferClass]?.[transferTier] ?? "Not Available";;
             const exaltedCores = exaltedCoresRequired[transferTier] || "Unknown";
             const dustRequired = 100; // Siempre 100 Dust
 
@@ -164,8 +169,7 @@ function calculateCosts() {
             let totalDust = 130; // Base dust
             let totalCores = 2;  // Base cores
             
-        
-        
+
             for (let tier = converFusionTier; tier < converFusionTarget; tier++) {
                 totalUpgradeCost = totalUpgradeCost * 2 + classCosts[tier];
                 totalCores = totalCores * 2 + 2;
@@ -191,7 +195,7 @@ function calculateCosts() {
             };
 
 
-            const goldCost = transferCosts[transferClass][transferTier] || "Not Available";
+            const goldCost = costs?.transfer?.[transferClass]?.[transferTier] ?? "Not Available";
             const exaltedCores = exaltedCoresRequired[transferTier] || "Unknown";
             const dustRequired = 160; // Siempre 100 Dust
 

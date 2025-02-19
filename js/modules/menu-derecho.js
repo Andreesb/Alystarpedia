@@ -12,9 +12,10 @@ export function showMenuDerecho() {
         .then(response => response.text())
         .then(data => {
             menuContenedor.innerHTML = data;
-            showActiveImage();
+            showExp();
             startAutoRotate();
             menuExpand();
+            showActiveImage();
 
             // Configurar eventos en enlaces
             const links = menuContenedor.querySelectorAll('a');
@@ -76,3 +77,35 @@ export function menuExpand(){
         });
     });
 }
+
+export function calculateExp(level) {
+    const shareExpMin = Math.floor((level * 2) / 3);
+    const shareExpMax = Math.floor((level * 3) / 2);
+
+    return { min: shareExpMin, max: shareExpMax };
+}
+
+export function showExp(){
+    document.getElementById("party-share").addEventListener("input", function () {
+        const level = parseInt(this.value, 10);
+        const tooltip = document.getElementById("tooltip");
+        let maxLevel = 3001
+
+        if (!isNaN(level) && level > 0) {
+            const { min, max } = calculateExp(level);
+            tooltip.textContent = ` You can share exp between \n level's ${min} and ${max}.`;
+            tooltip.style.visibility = "visible";
+            tooltip.style.opacity = "1";
+        } else if (!isNaN(level) && level >= maxLevel || !isNaN(level) && level <= 0) {
+            tooltip.textContent = ` Please enter a valid level`;
+            tooltip.style.visibility = "visible";
+            tooltip.style.opacity = "1";
+        } else {
+            tooltip.style.opacity = "0";
+            tooltip.style.visibility = "hidden";
+            return
+        }
+    });
+
+}
+
