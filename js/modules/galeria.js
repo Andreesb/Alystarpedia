@@ -23,6 +23,8 @@ export function showActiveImage(index = 0) {
         img.addEventListener('click', () => openOverlay(index));
     });
 
+    if (!galleryImages[index]) return;
+
 
     // Sincronizar con el overlay si está activo
     if (overlay.classList.contains('active')) {
