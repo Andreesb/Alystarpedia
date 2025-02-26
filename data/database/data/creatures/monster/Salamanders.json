@@ -1,0 +1,78 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Salamander",
+        "name": "Salamander",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3f/Salamander.gif/revision/latest?cb=20221125103920&path-prefix=en",
+        "attributes": {},
+        "notes": "The Salamander is a creature that is quite common in swamp areas. In this harsh environment only the most aggressive and capable individuals can survive, so that the relatively harmless Salamander has evolved into a creature that can scare off at least some attackers. However, a Salamander is still an easy prey and so it often relies on the protection granted by its colouring. The diet of the Salamanders are smaller insects that are often found in abundance in their habitat. Only this allows for the continued survival of the Salamander species while surrounded by more powerful predators. The Salamanders are considered very distant relatives of the dragons, an assumption that is based solely on the fact that they are lizards and have a penchant to collect hoards. The so-called 'hoards' of the Salamanders usually consist only of a few shiny things they have gathered in the swamp, typically junk discarded or lost by adventurers in the area. Still, sometimes they are hunted by foolhardy soldiers of fortune who dream about an easy way to acquire some exotic treasure. Due to their tasting odd, Salamanders are hunted by trolls and orcs for food when times are dire. Sometimes local witches breed Salamanders as familiars, or as ingredients for their cooking or even alchemical usage.",
+        "abilities": [
+            "Melee (0-10 and starting up to 1 hp/turn)",
+            "Slow Self-Healing (0-4+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 90%"
+        ],
+        "location": "Venore swamp area, Venore Salamander Cave, Drefia.",
+        "behaviour": "A salamander attacks in melee range. A salamander will retreat at 10  (14.29%, red) health.",
+        "strategy": "Similar to but considerably weaker than Larvas.",
+        "loot": [
+            "Gold Coin",
+            "Insectoid Eggs",
+            "Arrow",
+            "Rope",
+            "Health Potion",
+            "Mace",
+            "Brass Helmet",
+            "Scimitar",
+            "Bow",
+            "Insectoid Egg",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll-Trained_Salamander",
+        "name": "Troll-Trained Salamander",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/42/Troll-Trained_Salamander.gif/revision/latest?cb=20140827155740&path-prefix=en",
+        "attributes": {},
+        "notes": "A weak Salamander.",
+        "abilities": [
+            "Melee (0-13)",
+            "Close distance poisoned (1 hp/turn, 5 hp total)",
+            "Earth Missile (4-6)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 85%",
+            "Energy 100%",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport.",
+        "behaviour": "A troll-trained salamander attacks in melee range. A troll-trained salamander never retreats.",
+        "strategy": "Just kill it. Good source of a Shovel which is not already given to you, and other minor equipment upgrades.",
+        "loot": [
+            "Gold Coin",
+            "Insectoid Eggs",
+            "Simple Arrow",
+            "Meat",
+            "Chain Helmet",
+            "Axe",
+            "Bone Club",
+            "Short Sword",
+            "Studded Helmet",
+            "Poison Arrow",
+            "Shovel",
+            "Health Potion",
+            "Insectoid Egg",
+            "Loot Statistics"
+        ]
+    }
+]

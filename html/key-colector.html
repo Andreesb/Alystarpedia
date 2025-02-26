@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Contenido</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/key-collector.css">
+</head>
+
+<body>
+
+    <header id="header-container"></header>
+
+    <main>
+        <img class="body-background" src="../assets/body/Client_Artwork_13.20.jpg" alt="Fondo principal" >
+        <nav class="menu-Principal">
+            <menu>
+                <section class="section-hamburguesa">
+                    <button title="Menu" class="menu-hamburguesa" id="menuToggle">☰</button>
+                </section>
+                <a href="">
+                    <section id="explore">
+                    <p>Explore</p>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="quests">
+                    <p>Quests</p>
+                </a>
+                    <a href="">
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </a>
+                </section>
+                <a href="">
+                    <section id="events">
+                        <p>Events</p>
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="bosses-raid">
+                        <p>Boss Raid</p>
+                        <ul>
+                            <a href="">
+                                <li>item de nav 1</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 2</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 3</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <section id="tips-nav">
+                    <a href="">
+                        <p>Tips & Tricks</p>
+                    </a>
+                </section>
+
+            </menu>
+        </nav>
+        <aside class="contenedor-izquierdo"></aside>
+        <aside class="contenedor-derecho"></aside>
+
+        
+        <section class="contenedor-informacion">
+
+            <h1>Shapeshifter's Machine</h1>
+
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Buscar por palabra clave...">
+            
+            <fieldset>
+                <legend>Filter</legend>
+                <label><input type="checkbox" id="filter-quest" value="true">Quest</label>
+                <label><input type="checkbox" class="filter-class" value="Silver Key"> Silver Key <img src="../assets/icons/key_collector/Silver_Key.webp" alt="Silver key"></label>
+                <label><input type="checkbox" class="filter-class" value="Copper Key"> Copper Key <img src="../assets/icons/key_collector/Copper_Key.webp" alt="Cooper key"></label>
+                <label><input type="checkbox" class="filter-class" value="Wooden Key"> Wooden Key <img src="../assets/icons/key_collector/Wooden_Key.webp" alt="Wooden key"></label>
+                <label><input type="checkbox" class="filter-class" value="Bone Key"> Bone Key <img src="../assets/icons/key_collector/Bone_Key.webp" alt="Bone key"></label>
+                <label><input type="checkbox" class="filter-class" value="Golden Key"> Golden Key <img src="../assets/icons/key_collector/Golden_Key.webp" alt="Golden key"></label>
+                <label><input type="checkbox" class="filter-class" value="Magical Key"> Magical Key <img src="../assets/icons/key_collector/Magical_Cage_Key.gif" alt="Magical key"></label>
+                <label><input type="checkbox" class="filter-class" value="Crystal Key"> Crystal Key <img src="../assets/icons/key_collector/Crystal_Key.webp" alt="Crystal key"></label>
+                
+            </fieldset>
+
+        </div>
+        
+
+        <ul id="results"></ul>
+
+        <div id="key-details" style="display: none;">
+            <h2 id="key-header">
+                <img id="key-image" src="" alt="Key Image">
+                <span id="key-name"></span>
+            </h2>
+            <p><strong>Clase:</strong> <span id="key-class"></span></p>
+            <p><strong>Ubicación:</strong> <span id="key-location"></span></p>
+            <p><strong>Notas:</strong> <span id="key-notes"></span></p>
+            <p><strong>Quest:</strong> <span id="key-quest"></span></p>
+            <p><strong>Comprar en:</strong> <span id="key-buy"></span></p>
+
+            <div id="locations" style="display: flex; gap: 20px;">
+                <div>
+                    <h3>Find it</h3>
+                    <iframe id="key-use-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                </div>
+                <div>
+                    <h3>Use it</h3>
+                    <iframe id="key-use-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                    <iframe id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                    <iframe id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div id="loader"></div>
+    
+
+        <div id="overlay" class="overlay hidden">
+            <button id="prev-btn" class="nav-btn left">←</button>
+            <img id="expanded-image" src="" alt="Imagen Expandida">
+            <button id="close-overlay" class="close-btn">×</button>
+            <button id="next-btn" class="nav-btn right">→</button>
+        </div>
+            
+        </section>
+        <div id="maintenancePage">
+            
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script type="module" src="../js/scripts.js"></script>
+    <script type="module" src="../js/modules/key-collector.js"></script>
+    
+
+</body>
+</html>

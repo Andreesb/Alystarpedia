@@ -1,0 +1,395 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Brawler",
+        "name": "Deepling Brawler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b7/Deepling_Brawler.gif/revision/latest?cb=20171218214539&path-prefix=en",
+        "attributes": {},
+        "notes": "This creature is the strongest version of a Deepling Worker. It will often combo its autoattack with its spear attack to combo its foes.",
+        "abilities": [
+            "Melee (0-100)",
+            "Throws Spear (75-110) Deepling Brawler"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja (spirit spawns: here, here and here).",
+        "behaviour": "You can block this creature's respawn.A deepling brawler attacks in melee range. A deepling brawler will retreat at 20  (5.26%, red) health.",
+        "strategy": "Treat them as you'd treat a slightly stronger Deepling Worker.\nWhile they often combo their attacks like other deeplings, the fact that they are way weaker than the Deepling Warriors you find on the way to their lair makes them unremarkable.",
+        "loot": [
+            "Gold Coin",
+            "Deepling Scales",
+            "Eye of a Deepling",
+            "Fish",
+            "Small Emerald",
+            "Heavy Trident",
+            "Fish Fin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Elite",
+        "name": "Deepling Elite",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/99/Deepling_Elite.gif/revision/latest?cb=20240228102130&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (50-275)",
+            "Throws Boulder (100-350+) Deepling Elite"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja (Tanjis' lair).",
+        "behaviour": "Deepling Elites are stronger Deepling Warriors.A deepling elite attacks in melee range. A deepling elite will retreat at 15  (0.47%, deep red) health.",
+        "strategy": "Treat it like a stronger Deepling Warrior. Beware of the aforementioned Warriors, Deepling Spellsingers and Deepling Guards that might be near.",
+        "loot": [
+            "Gold Coin",
+            "Great Health Potion",
+            "Eye of a Deepling",
+            "Deepling Filet",
+            "Vortex Bolt",
+            "Great Mana Potion",
+            "Deepling Warts",
+            "Deeptags",
+            "Deepling Ridge",
+            "Small Emerald",
+            "Life Ring",
+            "Fish Fin",
+            "Heavy Trident",
+            "Warrior's Axe",
+            "Warrior's Shield",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Guard",
+        "name": "Deepling Guard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d4/Deepling_Guard.gif/revision/latest?cb=20111201050034&path-prefix=en",
+        "attributes": {},
+        "notes": "Ever watchful, these defenders of the God King Qjell are members of a higher caste within the Deepling society. From their earliest days, the purpose of the Deepling Guards lies in the protection of the temple cities and inner sanctums of God King Qjell. They are cunning hunters and powerful fighters with unmatched endurance, feared by even the fiercest creatures of Tibia's seas.",
+        "abilities": [
+            "Melee (0-400)",
+            "Axe Throw (0-200) Deepling Guard",
+            "Spear (0-150+) Deepling Guard",
+            "Self-Healing (100-250)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja. During Deeplings stage 1 around 10 spawns exist (here, here, here, here, 2 here, here, here and 2 here. Also may spawn during the gemcutting mission (anywhere around here)). Many more spawns in almost all areas of Deepling stage 2 and 3.",
+        "behaviour": "Deepling guards are fast. They will try to fight in close-combat while shooting spears from a distance. Guards have a somewhat unique retargeting behavior in that they do not move around players in the way to their target, but they do not immediately attack the obstructing player either. In this way, they will stand by the obstructing player and continue to throw spears at their target - and nobody will receive melee damage. The only ways to force a guard to attack you are by the use of Challenge or by having the target leave the guard's sight.A deepling guard attacks in melee range. A deepling guard will retreat at 20  (1.05%, deep red) health.",
+        "strategy": "Treat them as you would treat a behemoth; although they have less health, their attacks strongly resemble those of a behemoth. Try to single them out and avoid third-hitting Deepling guards. Beware that they come with Deepling Spellsingers which drain your mana and reduce your skills immensely; focus on the spellsingers before the guards (especially for knights and paladins). Mages and paladins should try to keep a distance from the guard but avoid running in uncleared areas, as they come in large groups with other Deeplings. Don't let it run as it has strong healing capabilities.In group hunts, shooters should be wary of a Deepling guard's retargeting behavior and expect to heal often as their spears can cause considerable damage.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Eye of a Deepling",
+            "Deepling Guard Belt Buckle",
+            "Deepling Breaktime Snack",
+            "Deepling Claw",
+            "Small Sapphire",
+            "Heavy Trident",
+            "Guardian Axe",
+            "Deepling Squelcher",
+            "Ornate Crossbow",
+            "Deepling Backpack",
+            "Foxtail",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Master_Librarian",
+        "name": "Deepling Master Librarian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/26/Deepling_Master_Librarian.gif/revision/latest?cb=20180610203337&path-prefix=en",
+        "attributes": {},
+        "notes": "Stronger version of the Deepling Spellsinger. Their wave is less sprite-saturated than the one shown while hovering the mouse pointer on the attack.",
+        "abilities": [
+            "Melee (?)",
+            "Mana Earth Strike (?) Deepling Master Librarian",
+            "Life Earth Strike (?) Deepling Master Librarian",
+            "Ice Wave (?) Deepling Master Librarian",
+            "Water Bomb on target (?) Deepling Master Librarian",
+            "Spark hit (Reduces Melee and Distance ) Deepling Master Librarian"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja (here and here).",
+        "behaviour": "Same as a Deepling Spellsinger. It gains advantage in battle by weakening its opponent.A deepling master librarian attacks in melee range.",
+        "strategy": "Kill it quickly before any other Deepling, just as you would for a Deepling Spellsinger. Its skill reduction will render you helpless and its mana drain will make you incapable of healing.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Spellsinger's Seal",
+            "Small Sapphire",
+            "Fish",
+            "Eye of a Deepling",
+            "Key to the Drowned Library",
+            "Deepling Filet",
+            "Life Ring",
+            "Fish Fin",
+            "Deepling Staff",
+            "Necklace of the Deep",
+            "Ornate Crossbow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Scout",
+        "name": "Deepling Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/ce/Deepling_Scout.gif/revision/latest?cb=20171218214538&path-prefix=en",
+        "attributes": {},
+        "notes": "The Deepling Scouts are an ancient race. It is not known how old they are exactly or when the first Deepling Scouts emerged from the depths of Tibia's seas. There are no known records of these creatures so far and the first sightings were reported only recently. Usually inhabiting the very depths of the world, it seems their number grew significantly over the years and at some time, they started ascending. It is currently unknown when or why this ascent started. As of now, their origin is shrouded in mystery.",
+        "abilities": [
+            "Melee (0-105)",
+            "Spear (0-110) Deepling Scout"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja, Sunken Mines near Dwarf Mines, here.",
+        "behaviour": "They try to stay in melee range and combo his normal hit with their water spear often.A deepling scout attacks in melee range. A deepling scout will retreat at 20  (8.33%, red) health.",
+        "strategy": "Be prepared to use some health potions or healing spell, they can do significant combos when facing more than 3 at a time since the Water Spear will go through your shielding. Knights and Paladins can easily kill them, they are similar to Cyclops but with distance attack. However, skills 70/70 and strong equipment are needed if you plan to hunt them. Mages should use earth/energy strike to kill.",
+        "loot": [
+            "Gold Coin",
+            "Hunting Spear",
+            "Life Ring",
+            "Rusted Armor",
+            "Heavy Trident",
+            "Eye of a Deepling",
+            "Fish Fin",
+            "Flask of Rust Remover",
+            "Small Emerald",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Spellsinger",
+        "name": "Deepling Spellsinger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b4/Deepling_Spellsinger.gif/revision/latest?cb=20180610203336&path-prefix=en",
+        "attributes": {},
+        "notes": "The Deepling Spellsingers were once members of the priest caste. They were the librarians of the greatest treasure of the Deeplings - their amazingly vast knowledge and rich culture. Their turn to violence could be the result of the recent call to arms that made most members of the higher castes abandon their temples and obligations. They are also the keepers of most secrets of the forsaken Drowned Library. However, their vast knowledge of the workings of magic and the labyrinthine caves of the deep make them formidable foes who are not likely to part easily with their sacraments.",
+        "abilities": [
+            "Melee (0-150)",
+            "Mana Earth Strike (60-140) Deepling Spellsinger",
+            "Life Earth Strike (0-100?) Deepling Spellsinger",
+            "Ice Wave (100-350) Deepling Spellsinger",
+            "Water Bomb on target (50-130) Deepling Spellsinger",
+            "Spark hit (Reduces Melee and Distance by 35-65% for 8 seconds) Deepling Spellsinger"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja.",
+        "behaviour": "They can spam the earth hit with the meele reduction ability at ths same time.A deepling spellsinger attacks in melee range. A deepling spellsinger will retreat at 45  (5.29%, red) health.",
+        "strategy": "Kill them before you focus on other Deeplings. Despite their health, they are threatening because of their skillset - strong manadrain and harsh skill reduction will make killing large groups difficult and expensive.",
+        "loot": [
+            "Platinum Coin",
+            "Gold Coin",
+            "Spellsinger's Seal",
+            "Deepling Filet",
+            "Key to the Drowned Library",
+            "Fish",
+            "Small Sapphire",
+            "Eye of a Deepling",
+            "Life Ring",
+            "Deepling Staff",
+            "Necklace of the Deep",
+            "Fish Fin",
+            "Ornate Crossbow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Tyrant",
+        "name": "Deepling Tyrant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/54/Deepling_Tyrant.gif/revision/latest?cb=20120403232838&path-prefix=en",
+        "attributes": {},
+        "notes": "One of the elite deepling forces, along Deepling Master Librarian and Deepling Elite. The tyrant drops the same loot as a Deepling Guard (including Foxtail) although the drop rate for rares is slightly higher to accommodate the boosted health and strength of the tyrant. There are only 8 tyrant spawns in-game.",
+        "abilities": [
+            "Melee (0-500+)",
+            "Axe Throw (375+) Deepling Tyrant",
+            "Throws Spear (215+) Deepling Tyrant"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja (here, here, here, here, here, here, here, here).",
+        "behaviour": "Almost exactly the same as a Deepling Guard, though it moves faster and deals more damage with each of its attacks.A deepling tyrant attacks in melee range. A deepling tyrant will retreat at 20  (0.44%, deep red) health.",
+        "strategy": "Treat it as you would a Deepling Guard. Be aware that the tyrant has more than 2.5x the health of a deepling guard so the battle will inevitably be longer.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Deepling Breaktime Snack",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Deepling Claw",
+            "Eye of a Deepling",
+            "Deepling Guard Belt Buckle",
+            "Small Sapphire",
+            "Heavy Trident",
+            "Deepling Squelcher",
+            "Guardian Axe",
+            "Deepling Backpack",
+            "Ornate Crossbow",
+            "Foxtail",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Warrior",
+        "name": "Deepling Warrior",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c1/Deepling_Warrior.gif/revision/latest?cb=20240228102154&path-prefix=en",
+        "attributes": {},
+        "notes": "The Deepling Warriors of the Njey are born with the fire of both suns in their hearts. Fierce and fearful creatures, prepared to squash all enemies of Qjell, they emerged from the depths. An event not so long ago drew their attention to the surface. Currently, they gather somewhere beneath the island of Quirefang.",
+        "abilities": [
+            "Melee (0-280)",
+            "Axe Throw (0-270) Deepling Warrior",
+            "Boulder Throw (0-?) Deepling Warrior",
+            "Self-Healing (115-195)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Fiehonja.",
+        "behaviour": "Uses Whirlwind Throw very often. When gets close to you, it will use both of its attacks simultaneously.A deepling warrior attacks in melee range. A deepling warrior will retreat at 30  (1.88%, deep red) health.",
+        "strategy": "Knights with level 90 and skills around 90/90 can kill these, but hunting them would be a waste. Sorcerers and Druids can kill them easily with their Wand/Rod and Energy Strike or Terra Strike. Be careful not to be surrounded as they have very high physical burst and 2 of them in melee range can easily kill a mage from full HP.\nIf you have to face many at at time, try to hit all of them with Terra Wave/Energy Wave. If you don't have have room to run, energy/poison bombs and walls can be used to protect yourself from hordes.\nSince they have relatively low HP, a Energy/Terra Wave followed by Rage of the Skies/Wrath of Nature is usually enough to kill them in a pinch.",
+        "loot": [
+            "Gold Coin",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Deepling Warts",
+            "Deeptags",
+            "Deepling Ridge",
+            "Deepling Filet",
+            "Small Emerald",
+            "Life Ring",
+            "Vortex Bolt",
+            "Fish Fin",
+            "Heavy Trident",
+            "Eye of a Deepling",
+            "Warrior's Axe",
+            "Warrior's Shield",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deepling_Worker",
+        "name": "Deepling Worker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8a/Deepling_Worker.gif/revision/latest?cb=20171218214540&path-prefix=en",
+        "attributes": {},
+        "notes": "Once members of the lowest castes, these Deeplings mostly work in the mines of the deep. Forging the weapons of their masters and delving deeper and deeper in the ice-cold stone of the deep, they are the backbone of the arising Deepling war machine. Before the great uprising, the tasks of the Deepling Workers consisted of tending to the spawn, raising the Deepling offspring and maintaining a constant supply of food. Members of the lower castes are suppressed by higher ranked Deeplings and forced to labour. This \"constraint\" is not to be taken literally, however, as each member knows its place in society and usually shows contentment with its fate.",
+        "abilities": [
+            "Melee (0-100)",
+            "Throws Spear (0-50) Deepling Worker"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Deepling Temple Complex, Hatchery, Fiehonja soul net area (here), coral mine (here).",
+        "behaviour": "A deepling worker attacks in melee range. A deepling worker will retreat at 20  (10.53%, red) health.",
+        "strategy": "Just kill it or ignore it.",
+        "loot": [
+            "Gold Coin",
+            "Deepling Scales",
+            "Fish",
+            "Heavy Trident",
+            "Eye of a Deepling",
+            "Fish Fin",
+            "Small Emerald",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Neutral_Deepling_Warrior",
+        "name": "Neutral Deepling Warrior",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/af/Neutral_Deepling_Warrior.gif/revision/latest?cb=20240228102219&path-prefix=en",
+        "attributes": {},
+        "notes": "They are part of The Secret Library Quest.",
+        "abilities": [
+            "Melee (0-280)",
+            "Exploding Axe Throw (0-270) Neutral Deepling Warrior",
+            "Self-Healing (115-195)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%?",
+            "Holy 100%",
+            "Ice 0%?",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Brokul's room.",
+        "behaviour": "It will also attack Brokul, so use that in your favor. A neutral deepling warrior will retreat at 1 to 63 (0.06% - 3.94%, deep red) health.",
+        "strategy": "Try to get it to target Brokul instead of you.",
+        "loot": [
+            "Gold Coin",
+            "Great Health Potion",
+            "Deeptags",
+            "Deepling Warts",
+            "Deepling Filet",
+            "Life Ring",
+            "Vortex Bolt",
+            "Great Mana Potion",
+            "Deepling Ridge",
+            "Small Emerald",
+            "Warrior's Axe",
+            "Loot Statistics"
+        ]
+    }
+]

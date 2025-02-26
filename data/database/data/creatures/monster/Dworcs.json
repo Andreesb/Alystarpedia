@@ -1,0 +1,120 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Dworc_Fleshhunter",
+        "name": "Dworc Fleshhunter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5b/Dworc_Fleshhunter.gif/revision/latest?cb=20150418075540&path-prefix=en",
+        "attributes": {},
+        "notes": "The most common members of the orcish subspecies known as dworcs (which are rumoured to be a hybrid of orcs and dwarfs) are known as Dworc Fleshhunters. The name is referring to the cannibalistic habits of this disgusting race. Dworc Fleshhunters serve as scouts, and in battles they form the shock troops of the dworcish tribes. With long lance-like weapons, they try to slow down their enemies while other dworcs attack from a safe distance. Like all dworcs, the constant exposure to poison has made them immune to all toxic effects, and like all dworcs they like to apply some sort of poison on their weaponry. Without their allies their fighting abilities to delay and to distract their enemy becomes almost worthless, and so they pose only a little threat to a seasoned fighter. If you fall in a trap, you may take alot of damage from these as well as the other creatures that fall down. A plate set should be enough to armor block its attacks.",
+        "abilities": [
+            "Melee (0-25 and starting up to 1 hp/turn)",
+            "Throws Throwing Knives (0-15)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 113%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 108%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "South of Port Hope (Trapwood) on ground level and underground.",
+        "behaviour": "Dworc Fleshhunters run when in dark red health.A dworc fleshhunter attacks in melee range.",
+        "strategy": "You may want to kill them before going for the Dworc Voodoomasters as they might block your way.",
+        "loot": [
+            "Gold Coin",
+            "Leather Armor",
+            "Cleaver",
+            "Torch",
+            "Skull (Item)",
+            "Poison Dagger",
+            "Hunting Spear",
+            "Bone Shield",
+            "Tribal Mask",
+            "Ripper Lance",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dworc_Venomsniper",
+        "name": "Dworc Venomsniper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Dworc_Venomsniper.gif/revision/latest?cb=20150418075549&path-prefix=en",
+        "attributes": {},
+        "notes": "The Dworc Venomsnipers are usually the women of the tribes. It is disputable if this results in their weaker physical constitution or in the fact that they are simply smarter than the average dworcish male. They are the dworcs with the best knowledge and skills in brewing poison, and no Dworc Venomsniper has ever been encountered without carrying various vials filled with some toxin. Single snipers are a rare view. Usually, they hide behind the fleshhunters and hurl volleys of poisonous projectiles at their enemies from a safe distance. If they get cornered, they are easy prey since they lack the skill and weaponry to stand a serious assault on their own. Venomsnipers are weak and fragile, even for a dworc. However, the poison it applies can be annoying in certain situations.",
+        "abilities": [
+            "Melee (0-15)",
+            "Shoots Poison (2 hp /turn)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 108%",
+            "Holy 85%",
+            "Ice 113%",
+            "Fire 113%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "South of Port Hope (Trapwood) on ground level and underground and on Foreigner Quarter of Yalahar.",
+        "behaviour": "They attack from a distance and shoot poison, they run in low health.A dworc venomsniper attacks from a distance.",
+        "strategy": "When fighting Dworcs, one strategy is to kill the Dworc Voodoomasters first, then the Dworc Fleshhunters and finally the venomsnipers.",
+        "loot": [
+            "Gold Coin",
+            "Leather Armor",
+            "Throwing Knife",
+            "Torch",
+            "Poison Arrow",
+            "Poison Dagger",
+            "Skull (Item)",
+            "Tribal Mask",
+            "Seeds",
+            "Bronze Amulet",
+            "Bast Skirt",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dworc_Voodoomaster",
+        "name": "Dworc Voodoomaster",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f3/Dworc_Voodoomaster.gif/revision/latest?cb=20150418075602&path-prefix=en",
+        "attributes": {},
+        "notes": "The most evil stirps of the dworcish race resulted in the development of likewise dark and sinister magic. The Dworc Vodoomasters are known and feared for their curses and their ability to use sinister magic that drains their victim's life and mana. Being cowardly and sneaky, they prefer to accompany other dworcs on their attacks rather than to face enemies on their own. Fighting in the second line, they pose a serious threat by using spells that allow their allies to defeat even much stronger enemies. Since the Dworc Voodoomasters are able to cover their retreat with curses and spells, it is hard to get hold of them. Lacking the ability to launch any threatening attack on their own, they fall quickly if they are actually caught alone. Pretty easy to kill because of their low health but can be annoying if not killed quickly as they become invisible and use multiple spells so they might be a problem for inexperienced adventurers. A Dwarven Ring may be helpful while hunting them. In update 8.4 the invisibility length was increased making voodoomasters more of a challange.",
+        "abilities": [
+            "Melee (0-21)",
+            "Life Drain Strike (1-39) Dworc Voodoomaster",
+            "Poison Bomb (6-18) Dworc Voodoomaster",
+            "Shapeshifting (Turns victims into; chicken ) Dworc Voodoomaster",
+            "Drunkenness (6 seconds) Dworc Voodoomaster",
+            "Creates Poison Fields Dworc Voodoomaster",
+            "Paralyze (190-230 points for 5 seconds\n  ) Dworc Voodoomaster",
+            "Self-Healing (3-9) Dworc Voodoomaster",
+            "Haste Dworc Voodoomaster",
+            "invisible (3 seconds, rarely) Dworc Voodoomaster"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 65%",
+            "Ice 110%",
+            "Fire 115%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "South of Port Hope around Trapwood. There is also a group of 3 voodoomasters and 2 crypt shamblers on the shore east of Trapwood.",
+        "behaviour": "Attacks with magic, stays at a distance and runs in red health.A dworc voodoomaster attacks from a distance.",
+        "strategy": "Knights: It would be wise to carry mana potions and plenty of food since you will be using exura to get rid of the paralyze and dworcs don't drop food. Close in fast and take them down. Alternatively, use Whirlwind Throw. Stealth Rings may be cheaper than runes if you want to avoid them being constantly invisible, as long as you use the ring only for a few seconds for each Voodoomaster.\nMages: Use GFB or Avalanche Runes when there are many and attack with your wand or rod, alternatively you can summon Monks or Tarantulas. This way the hunt will cost much less and you can make runes and have enough mana to heal when needed.\nPaladins: Should use any good ranged weapon to kill them without need to move, that way you wouldn't get hit by the poison storm and you would need a Dwarven Ring less, if you use a short range weapon you will have to run to them, so bringing a Dwarven Ring and extra health potions would be useful.",
+        "loot": [
+            "Gold Coin",
+            "Bone",
+            "Leather Armor",
+            "Torch",
+            "Skull (Item)",
+            "Big Bone",
+            "Health Potion",
+            "Poison Dagger",
+            "Tribal Mask",
+            "Strange Symbol",
+            "Voodoo Doll",
+            "Loot Statistics"
+        ]
+    }
+]

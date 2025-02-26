@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia Mapper</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 620px;
+            width: 820px;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: rgb(31, 31, 31);
+        }
+        .mapper-container {
+            position: relative;
+            width: 800px;
+            min-height: 500px;
+            height: 600px;
+            overflow: hidden;
+            border: 2px solid white;
+            cursor: grab;
+            display: flex;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .mapper-container img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform-origin: top left;
+            user-drag: none;
+            -webkit-user-drag: none;
+        }
+        .crosshair {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+        }
+        .crosshair .line {
+            position: absolute;
+            opacity: 0.7;
+        }
+        .crosshair .horizontal {
+            width: 100%;
+            height: 1px;
+            top: 50%;
+            border-top: 2px dashed white;
+        }
+        .crosshair .vertical {
+            height: 100%;
+            width: 1px;
+            left: 50%;
+            border-left: 2px dashed white;
+        }
+        .controls {
+            text-align: center;
+            align-items: center;
+            gap: 5px;
+            z-index: 2;
+            background-color: rgba(240, 248, 255, 0.774);
+            border-radius: 10px;
+            border: 2px solid white;
+            display: grid;
+        }
+        .coor {
+            min-width: 135px;
+            max-width: 155px;
+            border: 2px solid white;
+            background-color: rgba(240, 248, 255, 0.774);
+            min-height: 35px;
+            border-radius: 10px;
+            text-align: center;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            left: 15.6%;
+            margin-left: 10px;
+        }
+        .controls.vert {
+            margin-top: 10px;
+            margin-left: 10px;
+            position: absolute;
+            display: grid;
+            min-height: 100px;
+            max-height: 150px;
+            max-width: 40px;
+        }
+        .controls.horiz {
+            margin-top: 10px;
+            margin-left: 10px;
+            position: absolute;
+            display: flex;
+            min-width: 80px;
+            max-width: 100px;
+            max-height: 40px;
+            left: 5%;
+        }
+        .controls img {
+            width: 25px;
+            height: 25px;
+            position: relative;
+        }
+        .controls button {
+            font-size: 16px;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            width: 35px;
+            height: 35px;
+        }
+        .coordinates {
+            padding-left: 10px;
+            z-index: 3;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="mapper-container" id="mapper">
+        <img id="mapImage" src="https://tibiamaps.github.io/tibia-map-data/floor-07-map.png" alt="Tibia Map">
+        <div class="crosshair">
+            <div class="line horizontal"></div>
+            <div class="line vertical"></div>
+        </div>
+        <div class="controls vert" id="controls">
+            <button id="floorUp"><img src="../assets/icons/mapper/arriba.png" alt="Floor up">  </button>
+            <div>
+                <label id="actualFloor">7</label>
+            </div>
+            <button id="floorDown"><img src="../assets/icons/mapper/abajo.png" alt="Zoom out"></button>
+        </div>
+        <div class="controls horiz" id="controls">
+            <button id="zoomOut"><img src="../assets/icons/mapper/alejar.png" alt="Floor down"></button>
+            <button id="zoomIn"><img src="../assets/icons/mapper/acercar.png" alt="Zoom in"></button>
+        </div>
+        <div class="coor" id="controls">
+            <div class="coordinates" id="coordinates">X: 0, Y: 0</div>
+        </div>
+    </div>
+    <button id="shareButton">Compartir</button>
+    <input type="text" id="shareLink" readonly>
+    
+    <script>
+        let floor = 7;
+        let scale = 3;
+        let isDragging = false;
+        let startX, startY, offsetX = 0, offsetY = 0;
+        
+        const mapImage = document.getElementById("mapImage");
+        const mapper = document.getElementById("mapper");
+        const coordinates = document.getElementById("coordinates");
+        const actualFloor = document.getElementById("actualFloor");
+    
+        // Función para calcular coordenadas basadas en el centro del mapper
+        function updateCoordinates() {
+            const rect = mapImage.getBoundingClientRect();
+            
+            // Centro del mapper en relación con la imagen del mapa
+            const centerX = mapper.clientWidth / 2;
+            const centerY = mapper.clientHeight / 2;
+    
+            // Conversión a coordenadas del mapa
+            const x = Math.floor((centerX - rect.left) / scale);
+            const y = Math.floor((centerY - rect.top) / scale);
+    
+            coordinates.innerText = `X: ${x}, Y: ${y}`;
+            
+            // Actualizar URL con las coordenadas actuales
+            window.history.pushState({}, '', `?x=${x}&y=${y}&floor=${floor}`);
+        }
+    
+        function updateFloor(delta) {
+            floor = Math.max(0, Math.min(15, floor + delta));
+            mapImage.src = `https://tibiamaps.github.io/tibia-map-data/floor-${String(floor).padStart(2, '0')}-map.png`;
+            actualFloor.innerText = `${floor}`;
+            updateCoordinates();
+        }
+    
+        function zoom(delta) {
+            scale = Math.max(1.1, Math.min(4, scale + delta));
+            mapImage.style.transform = `scale(${scale})`;
+            updateCoordinates();
+        }
+    
+        mapper.addEventListener("mousedown", (e) => {
+            isDragging = true;
+            startX = e.clientX - offsetX;
+            startY = e.clientY - offsetY;
+            mapper.style.cursor = "grabbing";
+        });
+    
+        window.addEventListener("mouseup", () => {
+            isDragging = false;
+            mapper.style.cursor = "grab";
+        });
+    
+        window.addEventListener("mousemove", (e) => {
+            if (isDragging) {
+                offsetX = e.clientX - startX;
+                offsetY = e.clientY - startY;
+    
+                const maxOffsetX = mapper.clientWidth - (mapImage.width * scale);
+                const maxOffsetY = mapper.clientHeight - (mapImage.height * scale);
+    
+                offsetX = Math.min(0, Math.max(maxOffsetX, offsetX));
+                offsetY = Math.min(0, Math.max(maxOffsetY, offsetY));
+    
+                mapImage.style.left = `${offsetX}px`;
+                mapImage.style.top = `${offsetY}px`;
+    
+                updateCoordinates();
+            }
+        });
+
+        const isInIframe = window.self !== window.top;
+
+        // Seleccionar botones
+        const controls = document.querySelectorAll("#controls");
+        const body = document.querySelector("body")
+        const mapperContainer = document.querySelector(".mapper-container");
+        const controlVert = document.querySelector(".controls.vert");
+        const controlHoriz = document.querySelector(".controls.horiz");
+        const shareButton = document.getElementById("shareButton");
+        const coor = document.querySelector(".coor");
+
+        if (isInIframe) {
+            console.log("Ejecutando en un iframe. Ajustando estilos...");
+            controls.forEach(control => {
+            if (window.self !== window.top) {
+                control.style.transform = "scale(0.7)";
+                mapper.style.width = "250px";
+                mapper.style.height = "200px";
+                mapper.style.minHeight = "200px";
+                mapper.style.top = "20px";
+                body.style.width = "250px";
+                body.style.height = "200px";
+                controlVert.style.margin = "0";
+                coor.style.left = "45%";
+
+            }
+        });
+
+
+            
+            
+
+        } else {
+            console.log("Ejecutando en ventana normal.");
+        }
+    
+        document.getElementById("zoomIn").addEventListener("click", () => zoom(0.1));
+        document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.1));
+        document.getElementById("floorUp").addEventListener("click", () => updateFloor(-1));
+        document.getElementById("floorDown").addEventListener("click", () => updateFloor(1));
+    
+        mapper.addEventListener("wheel", (e) => {
+            zoom(e.deltaY < 0 ? 0.1 : -0.1);
+        });
+    
+        // Cargar coordenadas desde la URL
+        // Cargar coordenadas desde la URL y posicionar el mapa
+        function loadFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            const x = parseInt(params.get("x"), 10) || 0;
+            const y = parseInt(params.get("y"), 10) || 0;
+            floor = parseInt(params.get("floor"), 10) || 7;
+
+            actualFloor.innerText = `${floor}`;
+            coordinates.innerText = `X: ${x}, Y: ${y}`;
+            
+            // Ajustar la posición del mapa
+            const rect = mapImage.getBoundingClientRect();
+            const centerX = mapper.clientWidth / 2;
+            const centerY = mapper.clientHeight / 2;
+
+            // Calcular el offset inicial para que el centro del mapper quede en la coordenada deseada
+            offsetX = centerX - (x * scale);
+            offsetY = centerY - (y * scale);
+
+            // Aplicar la posición
+            mapImage.style.left = `${offsetX}px`;
+            mapImage.style.top = `${offsetY}px`;
+
+            updateFloor(0); // Cargar el piso correspondiente
+        }
+
+        // Ejecutar la función al cargar la página
+        window.onload = loadFromURL;
+
+    </script>
+    
+</body>
+</html>

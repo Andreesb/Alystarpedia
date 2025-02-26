@@ -1,0 +1,300 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Blue_Spell_Wand",
+        "name": "Blue Spell Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/49/Blue_Spell_Wand.gif/revision/latest?cb=20061120024246&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Value": "1,000 - 2,000 gp",
+            "Sold for": false,
+            "Bought for": "1,600 gp",
+            "Version": "4.0May 20, 1998Beta 4.0",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Wand of Vortex in the Winter Update 2005. This item no longer exists in game.",
+        "dropped_by": [
+            "Orc Shaman"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Conjurer_Wand",
+        "name": "Conjurer Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Conjurer_Wand.gif/revision/latest?cb=20070116133049&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "19.50 oz",
+            "Value": "1,000 - 4,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Moonlight Rod in the 2005 Winter Update.\nThis item no longer exists in game.",
+        "dropped_by": [
+            "Necromancer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elven_Wand",
+        "name": "Elven Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Elven_Wand.gif/revision/latest?cb=20070210003301&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "21.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Tempest Rod in the 2005 Winter Update.\nThis item no longer exists in game.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Golden_Wand",
+        "name": "Golden Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bf/Golden_Wand.gif/revision/latest?cb=20070521214350&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "43.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Snakebite Rod in the Winter Update 2005.\nThis item no longer exists in game.",
+        "dropped_by": [
+            "Ghost"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Green_Spell_Wand",
+        "name": "Green Spell Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Green_Spell_Wand.gif/revision/latest?cb=20061120024422&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "4.0May 20, 1998Beta 4.0",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Wand of Plague in the Winter Update 2005.\nThis item no longer exists in game.",
+        "dropped_by": [
+            "Behemoth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quagmire_Rod",
+        "name": "Quagmire Rod",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Quagmire_Rod.gif/revision/latest?cb=20051215224350&path-prefix=en",
+        "attributes": {
+            "Level": "26",
+            "Vocation": "druids",
+            "Range": "2",
+            "Mana": "8",
+            "Element": "Earth",
+            "Damage": "45",
+            "Classification": "WeaponsRods",
+            "Pickupable": true,
+            "Weight": "26.50 oz",
+            "Value": "2000-10000 gp",
+            "Sold for": "2,000 gp",
+            "Bought for": "10,000 gp",
+            "Version": "7.6December 12, 2005Christmas Update 2005",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nQuagmire Rods replaced  Wooden Wands in the 2005 Winter Update and were replaced by Terra Rods in the 2007 Winter Update, though the sprite remained the same.",
+        "dropped_by": [
+            "Acolyte of the Cult",
+            "Bonelord",
+            "Elder Bonelord",
+            "Fury",
+            "Lizard Snakecharmer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Red_Spell_Wand",
+        "name": "Red Spell Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9e/Red_Spell_Wand.gif/revision/latest?cb=20050714134752&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "4.0May 20, 1998Beta 4.0",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Wand of Dragonbreath in the Winter Update 2005.\nThis item no longer exists in game.",
+        "dropped_by": [
+            "Fire Devil"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ritual_Wand",
+        "name": "Ritual Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d8/Ritual_Wand.gif/revision/latest?cb=20061120025123&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis wand was transformed into the Wand of Inferno in the Winter Update 2005.\nThis item no longer exists in game.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tempest_Rod",
+        "name": "Tempest Rod",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/17/Tempest_Rod.gif/revision/latest?cb=20051204104925&path-prefix=en",
+        "attributes": {
+            "Level": "33",
+            "Vocation": "druids",
+            "Range": "1",
+            "Mana": "13",
+            "Element": "Energy",
+            "Damage": "55-75",
+            "Classification": "WeaponsRods",
+            "Pickupable": true,
+            "Weight": "21.00 oz",
+            "Value": "? gp",
+            "Sold for": "3,000 gp",
+            "Bought for": "15,000 gp",
+            "Version": "7.6December 12, 2005Christmas Update 2005",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nIt was very useful for high leveled druids.",
+        "dropped_by": [
+            "Adept of the Cult",
+            "Blightwalker",
+            "Marid",
+            "Priestess"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Volcanic_Rod",
+        "name": "Volcanic Rod",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0b/Volcanic_Rod.gif/revision/latest?cb=20051215224514&path-prefix=en",
+        "attributes": {
+            "Level": "19",
+            "Vocation": "druids",
+            "Range": "3",
+            "Mana": "5",
+            "Element": "Fire",
+            "Damage": "30",
+            "Classification": "WeaponsRods",
+            "Pickupable": true,
+            "Weight": "29.00 oz",
+            "Value": "? gp",
+            "Sold for": "1,000 gp",
+            "Bought for": "5,000 gp",
+            "Version": "7.6December 12, 2005Christmas Update 2005",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Diabolic Imp",
+            "Fire Devil",
+            "Morgaroth",
+            "Rahemos",
+            "Warlock",
+            "Witch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wand_of_Might",
+        "name": "Wand of Might",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a6/Wand_of_Might.gif/revision/latest?cb=20070210002410&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "29.00 oz",
+            "Value": "30,000 - 60,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Rahemos",
+            "Warlock"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wand_of_Plague",
+        "name": "Wand of Plague",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Wand_of_Plague.gif/revision/latest?cb=20051215015948&path-prefix=en",
+        "attributes": {
+            "Level": "19",
+            "Vocation": "sorcerers",
+            "Range": "2",
+            "Mana": "5",
+            "Element": "Earth",
+            "Damage": "30",
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Value": "Negotiable",
+            "Sold for": "1,000 gp",
+            "Bought for": "5,000 gp",
+            "Version": "7.6December 12, 2005Christmas Update 2005",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Merlkin",
+            "Orc Shaman",
+            "Orshabaal"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wooden_Wand",
+        "name": "Wooden Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ee/Wooden_Wand.gif/revision/latest?cb=20070521214946&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "26.50 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThe item sprite was added to client in Updates/6.0, but the item was only obtainable between Updates/6.61-6.97 and Winter Update 2005.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Yellow_Spell_Wand",
+        "name": "Yellow Spell Wand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4e/Yellow_Spell_Wand.gif/revision/latest?cb=20061120024542&path-prefix=en",
+        "attributes": {
+            "Classification": "WeaponsWands",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Version": "4.0May 20, 1998Beta 4.0",
+            "Status": "Deprecated."
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Orc Shaman"
+        ]
+    }
+]

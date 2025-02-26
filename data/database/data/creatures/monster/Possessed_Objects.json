@@ -1,0 +1,639 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Feather",
+        "name": "Animated Feather",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c5/Animated_Feather.gif/revision/latest?cb=20180607140213&path-prefix=en",
+        "attributes": {},
+        "notes": "Animated fathers are usually created as simple golems that serve as copyists and automated scribes. Unspectacular and not sentient on their own, they are mere tools for powerful magicians. There are rumours, though, of ancient feathers that copied so many arcane texts, that some of the knowledge gradually accumulated in them. Slowly but steadily they grow in power and sentience. Eventually they acquired some sort of self awareness. Becoming less of a tool and more of a being, they grew less useful for their original purpose. At some point they are pulled from their copy duties and act more like librarians. Their main function becomes to contain dangerous knowledge with the use of their acquired skills in glyphs and wards. Still they are obsessed with their original purpose and copy random books in their spare time, accumulating more and more knowledge in the process. They are highly skilled in the use of arcane sigils but in the time of need and urgency they rather employ spontaneous bursts of the magic they acquired. Even when protecting themselves or their libraries, they still act more like emotionless constructs reacting on a more practical base. Their fighting style might also best be described as 'efficient'. It takes an extremely long time for an animated feather to display some kind of personality. Most perish to the teeth of time and accidents. The few that endure can become quite intelligent, even quirky. Rumour has it, that a few feathers authored books on their own, not even just compiled knowledge they acquired but genuinely new and creative works with astounding insights. At least one extremely old animated feather chose to author books of comedic limericks while another specialized on acclaimed love poems.",
+        "abilities": [
+            "Melee (0-400)",
+            "Ice Strike (600-800) Animated Feather",
+            "Ice Tornado (600-900) Animated Feather",
+            "Ice Wave (800-1200) Animated Feather",
+            "Icicles (600-800) Animated Feather"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 118%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "The Secret Library ice section.",
+        "behaviour": "An animated feather attacks in melee range. An animated feather never retreats.",
+        "strategy": "Use as much Ice Damage protection as you can, because this will be the biggest part of the damage when fighting these creatures.",
+        "loot": [
+            "Small Sapphire",
+            "Platinum Coin",
+            "Glowing Rune",
+            "Glacier Mask",
+            "Energy Ring",
+            "Ice Cube",
+            "Ultimate Mana Potion",
+            "Quill",
+            "Diamond Sceptre",
+            "Glacier Amulet",
+            "Golden Mug",
+            "Small Diamond",
+            "Life Crystal",
+            "Hailstorm Rod",
+            "Crystal Mace",
+            "Sapphire Hammer",
+            "Glacial Rod",
+            "Crystalline Armor",
+            "Leviathan's Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Biting_Book",
+        "name": "Biting Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Biting_Book.gif/revision/latest?cb=20180607130122&path-prefix=en",
+        "attributes": {},
+        "notes": "The biting books were literally created out of the stuff of nightmares.When tasked with creating a kind of guardian dog for Zathroth hoard, his librarians came up with several fiendish ideas. Many guardian creatures were prototyped but none could impress the collective of librarians who always favoured only their own creations. Finally one of them tasked nightmares and other demons to search the fringes of the subconsciousnesses of dreaming librarians for what scared them most. The amalgam of their loot was condensed into the form of the biting book. The librarians recognized what has been done there and reluctantly agreed that this creation would suit the role fine. In the centuries since then, many of the biting books were created and trained by their new masters. Indeed they act like some sort of dog and can be sometimes even playful with their owner. Still they are dangerous beasts and excellent companions as well as guardians for the libraries. They are resilient, never sleep and despite their appearance have keen senses. They can feel the slightest vibrations of the floor, their eyes are able to see in the spectrum of magic and their tongue is able to pick up smells from miles away. They are shrewd and aggressive fighters, albeit on a primal level and they are fiercely loyal to their master. Still a few of their kind proved too aggressive for training or went mad by mistreatment. Those were chained to walls to provide a scary obstacle for intruders. The biting books only major flaw is their diet which consists of ill-written stories and poetry. You can extract Ink from its corpse by using an empty liquid container on it.",
+        "abilities": [
+            "Melee (0-1055?)",
+            "Spit (0-1210?) Biting Book",
+            "Bat wave (800-1210?) Biting Book",
+            "Dust Cloud (800-1200\n  ) Biting Book"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library earth, energy, fire and ice sections. Also two incarcerated in the Issavi prison here, reachable from the city Library.",
+        "behaviour": "A biting book attacks in melee range. A biting book never retreats.",
+        "strategy": "Most importantly, try to avoid the waves.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Glowing Rune",
+            "Silken Bookmark",
+            "Big Bone",
+            "Meat",
+            "Ruby Necklace",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Burning_Book",
+        "name": "Burning Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Burning_Book.gif/revision/latest?cb=20180607130123&path-prefix=en",
+        "attributes": {},
+        "notes": "The burning books are created from pages formed from damned souls, bound with the essence of what the unenlightened calls hell and inscribes with runes of hellfire in a sinful language. Filled of what the gods opposing Zathroth and his allies would consider blasphemy and mockery of the godly order of things, these books have been given such a strong purpose that they unintentionally came to life. Burning not only with hell fire but also the desire to taint and burn everything that opposes Zathroth they are a common sight at places dedicated to him. The semi sentient books can't be controlled and so they are usually allowed to hover around, sniffing for all things that don't bear the mark of Zathroth. Sometimes, when a follower of Zathroth falls out of grace, they are the first to swarm him, attack him and ultimately incinerate him. Because of that faith trials are often held where many of the burning books made their lair. Though they technically intended with another, unknown sinister purpose, the sentience of the books had never stopped their production in the depth of hell. It is assumed that their production continues because they found their place and use despite being a failure. Other rumors though claim that only one burning masterbook was created at all and somewhere in the deepest, burning pits of hell this queen book still exists. Tended by an army of lower books, it spawns its burning breed with each beat of her burning heart.\nThe burning books themselves are highly attuned to fire and wield it as shield and weapon. It is remorseless in its cruelty and eager to destroy anything that might displease Zathroth. How these animalistic creatures determine the dedication of others and how accurate they might be remains a secret. The cynical followers of Zathroth don't mind either and gleefully watch even the downfall of one of their own, when the books decide someone earned Zathroth' wrath.",
+        "abilities": [
+            "Melee (0-600)",
+            "Flame Strike (700-950)",
+            "Sparkles Beam (700-850) Burning Book",
+            "Explosion Berserk (650-900) Burning Book"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library fire section.",
+        "behaviour": "Fights in close combat.A burning book attacks in melee range.",
+        "strategy": "Use a lot of Fire Damage protection when hunting them. Be careful with the Ink Blobs around the spawn and if possible trap them outside of your hunting route.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Flask of Demonic Blood",
+            "Demonic Essence",
+            "Silken Bookmark",
+            "Small Amethyst",
+            "Magma Coat",
+            "Guardian Shield",
+            "Soul Orb",
+            "Scimitar",
+            "Necrotic Rod",
+            "Magma Monocle",
+            "Death Ring",
+            "Stealth Ring",
+            "Shadow Sceptre",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cursed_Book",
+        "name": "Cursed Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4a/Cursed_Book.gif/revision/latest?cb=20180607130123&path-prefix=en",
+        "attributes": {},
+        "notes": "Though some potent books can gain consciousness and sentience on their own, this fiendish creature is created by botched attempts to read them and harness their power. Sometimes wannabe magicians try their luck on spells way out of their league with typically dramatic consequences. Most such misfortunes lead to the untimely death of the vain caster in spectacular fashion, sometimes, however, it happens that some lesser demon is partly summoned and melts into the book containing the spell by absorbing the life force of the unfortunate reader. Such demon-book conglomerates can become enormously powerful by harnessing the knowledge contained in the book, demonic forces and whatever might be left of the casters memories and fractured soul. For their raw power and potential but also for their contained knowledge, such cursed books are hunted down by Zathroths librarians and bookkeepers and dragged away to some sinister place of forbidden knowledge. There they are trained, their skills honed and they become part of Zathroth's collection and serve as his guardian dogs to protect other secrets. Perhaps because of the way of their unwilling creation, cursed books feel nothing but spite, contempt and hatred against living beings. Sometimes they even plot to incite mortals to follow their own foolishness and use spells beyond their power. Whether they do so to create more of their kind or just to enjoy the misery of others can't be told for sure. Most of them just skip such subtlety and attack anything not allied to them or their masters with all of the raw power available to them.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Secret Library earth section.",
+        "behaviour": "A cursed book attacks in melee range. A cursed book never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Book Page",
+            "Platinum Coin",
+            "Silken Bookmark",
+            "Small Diamond",
+            "Small Topaz",
+            "Small Stone",
+            "Protection Amulet",
+            "Terra Boots",
+            "Diamond Sceptre",
+            "Terra Hood",
+            "Terra Legs",
+            "Terra Amulet",
+            "Stone Skin Amulet",
+            "Sacred Tree Amulet",
+            "Springsprout Rod",
+            "Terra Mantle",
+            "Swamplair Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Knowledge",
+        "name": "Dark Knowledge",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Dark_Knowledge.gif/revision/latest?cb=20180617233556&path-prefix=en",
+        "attributes": {},
+        "notes": "When it dies, it becomes a Parchment of Dark Knowledge. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Lokathmor's room inside The Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Destroy it as quickly as possible to use its corpse.",
+        "loot": [
+            "Parchment of Dark Knowledge",
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Energetic_Book",
+        "name": "Energetic Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Energetic_Book.gif/revision/latest?cb=20180607140216&path-prefix=en",
+        "attributes": {},
+        "notes": "Energetic books were originally a race of shapechanging demons that planned to infiltrate Zathroth's hidden hoard of knowledge to steal enough of it to topple the demon princes and rule on their own. Cunning and knowledgeable they snuck their way through wards and wardens. With trickery and their shapeshifting powers they wormed their way into the heart of secrets. The knowledge they coveted so much was almost at their grasp. Though Zathroth might have seen the effort as admirable, their plot was revealed by his librarians and ultimately thwarted. Before they could finalise their coup, they were cornered, revealed and overpowered. Desperately they made a plea they were doing only Zathroth's work and therefore were not guilty but only zealous, for all they wished for was power through secret knowledge. It is said that the god himself spoke the final verdict on the fiends and forced them into the form of the books they tried to steal. He also bound them to the service of his librarians and to aid them through all eternity. The demons not only retained their original power but indeed were somewhat alleviated by the transformation. So in some way the dark god might have granted them a part of their wish. In the eons since then some aspiring spellwielders managed to summon and bind a few of the energetic books to their will. Most of them are said to be still bound to the holy places of Zathroth, serving as guardians, messengers and even power sources for certain twisted experiments. Little of their ambitious egos remained after all the centuries of servitude. All that's left of them is eagerness to see others suffer too. Their numbers might have declined over the centuries but still there are many of the once proud race around, disgraced, enslaved and with the hatred of centuries to be unleashed on any foolhardy creature they might be sent after.",
+        "abilities": [
+            "Melee (0-500)",
+            "Self-Healing (400+)",
+            "Energy Strike (600-750) Energetic Book",
+            "Energy Berserk (800-1000) Energetic Book",
+            "Stars Beam (650-800) Energetic Book",
+            "Holy Beam (500+) Energetic Book"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 0%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 110%"
+        ],
+        "location": "Secret Library energy section.",
+        "behaviour": "An energetic book attacks in melee range. An energetic book never retreats.",
+        "strategy": "Energetic Books deal considerable Holy Damage as well, so protection against both Energy and Holy are recommended when hunting them.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Glowing Rune",
+            "Ultimate Health Potion",
+            "Ultimate Mana Potion",
+            "Energy Ball",
+            "Silken Bookmark",
+            "Lightning Pendant",
+            "Lightning Boots",
+            "Lightning Legs",
+            "Lightning Headband",
+            "Might Ring",
+            "Wand of Defiance",
+            "Spellweaver's Robe",
+            "Haunted Blade",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flying_Book",
+        "name": "Flying Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Flying_Book.gif/revision/latest?cb=20180607130124&path-prefix=en",
+        "attributes": {},
+        "notes": "The flying books are a creation of the squid race. They developed special sets of runes to write down their psionic knowledge while encrypting it at the same time. Over time they figured out how to arrange the psionic runes to create certain effects. The hovering of the flying books was the very first breakthrough in this area. In the centuries that followed, the squid race honed their skills and created a own caste of 'authors' to create weaponized books with psionic powers that emulate spells. Most of these tomes are hidden from the eyes of foreigners in their hidden enclaves. But the rather common flying books accompanied their squid masters to many of the laces they went to. The flying books are so mundane and replaceable for the squids, that they don't take great care of them and just leave them behind when they leave an area. Sometimes skillful magicians managed to re-purpose the flying books and subvert their control by binding them to their own. Though not particular more powerful then comparable bind golems the sheer rarity of flying books outside the squid community make them a prestige object for many aspiring magic users. Warnings that those books might have been just 'allowed' to be found and repossessed to allow the squids spying on others have yet to be proven and haven't stopped many from acquiring such a prestigious object. The idea that a device could constantly transmit information to its creator does nothing to diminish its popularity in comparison of the need of many to show off. That way flying books have been introduced to many places in the known world. Some failed attempts to overwrite the books initial conditioning have even lead to the creation of 'rogue' books that roam around on their own in their mindless pursuit of whatever random impulse might guide them in the moment. It can be tamed using a Library Ticket .",
+        "abilities": [
+            "Melee (25-100)",
+            "Self-Healing (20-125)",
+            "Energy Strike (10-50) Flying Book"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 10%",
+            "Ice 70%",
+            "Fire 85%",
+            "Energy 95%",
+            "Earth 50%"
+        ],
+        "location": "One can be found here and in each section of the Secret Library.",
+        "behaviour": "It's much weaker than the other Animated Books and shouldn't be a threat.A flying book attacks in melee range.",
+        "strategy": "Simply kill it or ignore it.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Icecold_Book",
+        "name": "Icecold Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Icecold_Book.gif/revision/latest?cb=20180607130122&path-prefix=en",
+        "attributes": {},
+        "notes": "Most icecold books are creations of a long gone race of cryomancers. This race casted their spells always with the books as conduit and amplifier. Therefore they bound powerful spirits of frost and ice into their tomes. The levitating books accompanied them as companions and tools at once. With the vanishing of their creator race, the icecold books became inert. Hungry for the knowledge contained in them, they were stolen and experimented upon. The only way found to unleash their considerable power, was to empower them with a will of their own and bind certain arcane crystals attuned to icemagic into them as an energy source. Thus the books became self-sustained entities that had access to at least some of the ancient spells bound to them. They follow an icecold, yet somewhat malignant logic and can be reasoned with to some degree. Since their creators seemed to have had some deeper connection to Zathroth, they easily ally with his forces. Still they act on their own and might behave strongly unpredictable. Almost indistinguishable from them are newer creations that were attempts to recreate them with modern magic. Though less powerful and less intelligent, these copies are highly obedient to their creators but contain no bound knowledge on their own. Instead they use an array of frost abilities that work more with a brute force method than artfully woven magic like the originals. They are used to provide a reliable source of ice magic, that doesn't drain the mana reserves of its owner. Both versions can be found as status symbols of powerful casters. It is said that a high number of originals was collected and stored away by followers of Zathroth but even they were unable to unlock the final secret knowledge contained in them.",
+        "abilities": [
+            "Melee (0-850)",
+            "Ice Strike (600-800) Icecold Book",
+            "Ice Beam (750-1300) Icecold Book",
+            "Ice Tornado (650-950) Icecold Book",
+            "Self-Healing (200-350)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library ice section.",
+        "behaviour": "An icecold book attacks in melee range. An icecold book never retreats.",
+        "strategy": "Use as much Ice Damage protection as you can, because this will be the biggest part of the damage when fighting these creatures.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Small Diamond",
+            "Small Sapphire",
+            "Quill",
+            "Frosty Heart",
+            "Silken Bookmark",
+            "Ultimate Mana Potion",
+            "Ultimate Health Potion",
+            "Diamond Sceptre",
+            "Ice Rapier",
+            "Glacier Mask",
+            "Sapphire Hammer",
+            "Crystal Mace",
+            "Glacier Kilt",
+            "Glacier Robe",
+            "Glacier Shoes",
+            "Strange Helmet",
+            "Ice Cube",
+            "Glacial Rod",
+            "Crystalline Armor",
+            "Leviathan's Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Librarian",
+        "name": "Librarian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Librarian.gif/revision/latest?cb=20180617153920&path-prefix=en",
+        "attributes": {},
+        "notes": "The Librarian is a unique creature that spawns on the second floor of The Secret Library. It seems to be immune to all damage, as well as dealing Damage Reflection when attacked. It has a unique pathing behavior, seemingly scripted, but with no concrete meaningful details discovered since its release.",
+        "abilities": [
+            "Melee (0-500)",
+            "Damage Reflection (25%)",
+            "Mass Healing (400-650? heals other creatures) Librarian",
+            "Drunkenness Ball Librarian",
+            "Self Star (?) Librarian",
+            "Self Yellow Smoke (?) Librarian",
+            "Self Blue Sparkles (?) Librarian",
+            "Self Green Sparkles (?) Librarian",
+            "Self Red Sparkles (?) Librarian",
+            "Self Green Notes (?) Librarian",
+            "Self Snore (?) Librarian",
+            "Self Fae (?) Librarian"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Secret Library ice section. Spawns here, and appears to follow a path north until reaching here, the limit of its lure radius.",
+        "behaviour": "A Librarian will stay away from its target while continuously healing its allies.",
+        "strategy": "It cannot be killed.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_a_Book",
+        "name": "Memory of a Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Memory_of_a_Book.gif/revision/latest?cb=20220108224105&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a strengthened Flying Book.",
+        "abilities": [
+            "Melee (0-100)",
+            "Self-Healing (200+)",
+            "Energy Strike (50-150?) Memory of a Book"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 10%",
+            "Ice 70%",
+            "Fire 85%",
+            "Energy 95%",
+            "Earth 50%"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of a book attacks in melee range.",
+        "loot": [
+            "Twigs",
+            "Green Crystal Fragment",
+            "Blue Crystal Shard",
+            "Green Crystal Shard",
+            "Bottle of Champagne",
+            "Special Fx Box",
+            "Gold Coin",
+            "Ultimate Health Potion",
+            "Skull (Item)",
+            "Fishbone",
+            "Great Spirit Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Minotaur_Idol",
+        "name": "Minotaur Idol",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/07/Minotaur_Idol.gif/revision/latest?cb=20170802135501&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Glooth Powered Minotaur or a Moohtant with different colours.\n12 Minotaur Statues will come to life in the form of Minotaur Idols after you enter The False God's room during the Cults of Tibia Quest.",
+        "abilities": [
+            "Melee (0-300?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 75%",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Minotaur Cult hideout near Mintwallin.",
+        "behaviour": "They fight in close combat until death.",
+        "strategy": "Treat it as a strong melee creature and kill it fast before the other statues come to life.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spoiler",
+        "name": "Spoiler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ed/Spoiler.gif/revision/latest?cb=20220510232159&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the 25 Years of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Armor",
+        "name": "Stolen Knowledge of Armor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7c/Stolen_Knowledge_of_Armor.gif/revision/latest?cb=20180626212913&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of armor never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Healing",
+        "name": "Stolen Knowledge of Healing",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/02/Stolen_Knowledge_of_Healing.gif/revision/latest?cb=20180626212923&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of healing never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Lifesteal",
+        "name": "Stolen Knowledge of Lifesteal",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Stolen_Knowledge_of_Lifesteal.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of lifesteal never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Spells",
+        "name": "Stolen Knowledge of Spells",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ab/Stolen_Knowledge_of_Spells.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of spells never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Summoning",
+        "name": "Stolen Knowledge of Summoning",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Stolen_Knowledge_of_Summoning.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel.\nPart of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of summoning never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Tome_of_Portals",
+        "name": "Stolen Tome of Portals",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d4/Stolen_Tome_of_Portals.gif/revision/latest?cb=20180617153634&path-prefix=en",
+        "attributes": {},
+        "notes": "After being destroyed, it will become a Magic Forcefield. This is part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 60%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 110%",
+            "Energy 90%",
+            "Earth 50%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "It doesn't move. Stolen tome of portals never retreats.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Book_of_Death",
+        "name": "The Book of Death",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/06/The_Book_of_Death.gif/revision/latest?cb=20180626223447&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 50%?",
+            "Death -100%?",
+            "Holy 50%",
+            "Ice 50%",
+            "Fire 100%?",
+            "Energy 50%?",
+            "Earth 50%"
+        ],
+        "location": "In the Secret Library with Ghulosh.",
+        "behaviour": "It does not move.",
+        "strategy": "Attack it until it's red HP and then leave it there until Ghulosh' Deathgaze spawns. Then kill it so a Concentrated Death spawns and you can kill the Deathgaze.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Book_of_Secrets",
+        "name": "The Book of Secrets",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/42/The_Book_of_Secrets.gif/revision/latest?cb=20181010125755&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks the same as a Book of Lies, which may be an indication that it shouldn't be taken seriously. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

@@ -1,0 +1,3556 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Alicorn_Headguard",
+        "name": "Alicorn Headguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/95/Alicorn_Headguard.gif/revision/latest?cb=20220630021524&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "paladins",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "distance fighting +3",
+            "Armor": "11",
+            "Resists": "fire +5%, earth +5%, energy +5%, ice +5%, holy +5%, death +5%, physical +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "39.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nPart of the Alicorn Set.\nIt is a possible reward of the Primal Ordeal Quest, which guarantees one random item from the Primal Set through the Hazard System.",
+        "dropped_by": [
+            "Magma Bubble",
+            "Plunder Patriarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Amazon_Helmet",
+        "name": "Amazon Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bd/Amazon_Helmet.gif/revision/latest?cb=20120726135747&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Armor": "7",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "29.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "45,000,000 - 60,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nA mysterious and rarely seen helmet. For a long time, it was nothing more than a myth. Many Tibians talked about this helmet, but very few knew how to obtain one. It is only dropped during orc raids on Femor Hills. It is a part of the Amazon Set.",
+        "dropped_by": [
+            "Orc Warlord"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ancient_Tiara",
+        "name": "Ancient Tiara",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bb/Ancient_Tiara.gif/revision/latest?cb=20060222192731&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.20 oz",
+            "Marketable": true,
+            "Value": "1,200,000 - 2,500,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nCan be seen on the second floor of the Explorer Society in Port Hope. This item has no armor value as it is only known for being decorative. This item is one of the Pharaoh Rares and is quite valuable as it is dropped exclusively by Vashresamun who is infrequently hunted.",
+        "dropped_by": [
+            "Vashresamun"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Antler-Horn_Helmet",
+        "name": "Antler-Horn Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/78/Antler-Horn_Helmet.gif/revision/latest?cb=20221108174936&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "knights",
+            "Hands": "Two",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "sword fighting +1, axe fighting +1, club fighting +1",
+            "Armor": "9",
+            "Resists": "physical +3%, ice +7%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "22.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "13.10.12852November 28, 2022Winter Update 2022"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Monster"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Arboreal_Crown",
+        "name": "Arboreal Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/86/Arboreal_Crown.gif/revision/latest?cb=20220630021504&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "druids",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +3",
+            "Armor": "9",
+            "Resists": "physical +2%, ice +9%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "12.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nPart of the Arboreal Set.\nIt is a possible reward of the Primal Ordeal Quest, which guarantees one random item from the Primal Set through the Hazard System.",
+        "dropped_by": [
+            "Magma Bubble",
+            "Plunder Patriarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Arcanomancer_Regalia",
+        "name": "Arcanomancer Regalia",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b1/Arcanomancer_Regalia.gif/revision/latest?cb=20220630021445&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "sorcerers",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +3",
+            "Armor": "9",
+            "Resists": "physical +3%, earth +7%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "15.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nPart of the Arcanomancer Set.\nIt is a possible reward of the Primal Ordeal Quest, which guarantees one random item from the Primal Set through the Hazard System.",
+        "dropped_by": [
+            "Magma Bubble",
+            "Plunder Patriarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bandana",
+        "name": "Bandana",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a2/Bandana.gif/revision/latest?cb=20170904200448&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "150 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nFor now just a decoration piece because any real purpose remains unknown. \nIn contrast to general assumptions, it is not part of the Pirate Set, the hat piece of which being not the Bandana but the Pirate Hat.",
+        "dropped_by": [
+            "Pirate Marauder"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Batwing_Hat",
+        "name": "Batwing Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/47/Batwing_Hat.gif/revision/latest?cb=20170904200612&path-prefix=en",
+        "attributes": {
+            "Level": "50",
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +1",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "6.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "8,000 - 15,000 gp",
+            "Sold for": "8,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.40December 10, 2008Winter Update 2008"
+        },
+        "notes": "Notes\nIt increases Magic Level by 1 when worn. It has the same attributes as Hat of the Mad but is 1oz lighter and harder to obtain, which raises its price.",
+        "dropped_by": [
+            "Bruise Payne",
+            "Mutated Bat"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blue_Spectacles",
+        "name": "Blue Spectacles",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/44/Blue_Spectacles.gif/revision/latest?cb=20171205105749&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmetsQuest Items",
+            "Pickupable": true,
+            "Weight": "2.50 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "11.50.6055December 5, 2017Winter Update 2017"
+        },
+        "notes": "Notes\nObtained during the Opticording Sphere Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bonelord_Helmet",
+        "name": "Bonelord Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b0/Bonelord_Helmet.gif/revision/latest?cb=20051228162517&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "7",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Marketable": true,
+            "Value": "8,000 - 50,000 gp",
+            "Sold for": "7,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nA very rare helmet. Back in the days people would pay huge amounts of money for this item. It has been made easier to loot this helmet so it's value dropped. It is part of the Bonelord Set. Due to its rarity, item collectors pay a good cash for it.",
+        "dropped_by": [
+            "Braindeath",
+            "Elder Bonelord",
+            "The Evil Eye",
+            "The Last Lore Keeper"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Brass_Button",
+        "name": "Brass Button",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d3/Brass_Button.gif/revision/latest?cb=20220107160519&path-prefix=en",
+        "attributes": {
+            "Classification": "Unknown",
+            "Pickupable": true,
+            "Weight": "12.50 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "12.85.11485January 07, 202225th Anniversary Update"
+        },
+        "notes": "Notes\nUsed to obtain the first addon of the Formal Dress Outfits. It isn't consumed on use.",
+        "dropped_by": [
+            "Retros Treasure"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Brass_Helmet",
+        "name": "Brass Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Brass_Helmet.gif/revision/latest?cb=20051204105435&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "27.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Rookgaard: 20-30 gp",
+            "Sold for": "30 gp",
+            "Bought for": "120 gp",
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nUseful helmet for players in Rookgaard, also part of the Brass Set. Obtainable from the Bear Room Quest in Rookgaard.",
+        "dropped_by": [
+            "Barbarian Headsplitter",
+            "Barbarian Skullhunter",
+            "Chakoya Windcaller",
+            "Hunter",
+            "Loricate Orger",
+            "Minotaur",
+            "Minotaur Bruiser",
+            "Salamander",
+            "Undead Prospector",
+            "Zombie"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bridal_Wreath",
+        "name": "Bridal Wreath",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cb/Bridal_Wreath.gif/revision/latest?cb=20220107174729&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "1.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "12.85.11485January 07, 202225th Anniversary Update"
+        },
+        "notes": "Notes\nUse it on Black Skull (Quest) to obtain a Bridal Black Skull.\nIt can be obtained in a tree stump in the Yalahar section of the Time Travel Dungeon (here).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Broken_Iks_Headpiece",
+        "name": "Broken Iks Headpiece",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/31/Broken_Iks_Headpiece.gif/revision/latest?cb=20221108174942&path-prefix=en",
+        "attributes": {
+            "Hands": "Two",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmetsCreature Products",
+            "Pickupable": true,
+            "Weight": "9.00 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "560 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "13.10.12852November 28, 2022Winter Update 2022"
+        },
+        "notes": "Notes\nThis item is one of the four required to obtain the first addon for the Ancient Aucar Outfits.",
+        "dropped_by": [
+            "Ahau",
+            "Iks Ahpututu",
+            "Iks Chuka",
+            "Iks Pututu"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Broken_Visor",
+        "name": "Broken Visor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9e/Broken_Visor.gif/revision/latest?cb=20131126171926&path-prefix=en",
+        "attributes": {
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmetsCreature Products",
+            "Pickupable": true,
+            "Weight": "14.00 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "1,900 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.30December 11, 2013Winter Update 2013"
+        },
+        "notes": "Notes\nIt is one of the few creature items that is wearable, even when stacked. The arm value stays at 1 no matter how many visors you stack.",
+        "dropped_by": [
+            "Sight of Surrender"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ceremonial_Mask",
+        "name": "Ceremonial Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e1/Ceremonial_Mask.gif/revision/latest?cb=20171114000521&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "4",
+            "Armor": "9",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "40.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nYou can see it in treasure room in Ferumbras Tower and its data can be found on the Market. Bears a striking resemblance to the Full Helmet of the Ancients. The mask can show your blessings, just like Ceremonial Ankh.\n\nFerumbras Tower's Treasure Room",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Chain_Helmet",
+        "name": "Chain Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/88/Chain_Helmet.gif/revision/latest?cb=20170904200721&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "42.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "(Rookgaard) 15-20 gp",
+            "Sold for": "17 gp",
+            "Bought for": "52 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nAlthough the Studded Helmet is more expensive and it has the same defense value as the Chain Helmet, many prefer the Studded Helmet because it is lighter. Part of the Chain Set.",
+        "dropped_by": [
+            "Bandit",
+            "Barbarian Bloodwalker",
+            "Gladiator",
+            "Juvenile Cyclops",
+            "Troll-Trained Salamander",
+            "Wild Warrior"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Charmer%27s_Tiara",
+        "name": "Charmer's Tiara",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6c/Charmer%27s_Tiara.gif/revision/latest?cb=20060804184642&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "22.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotable gp",
+            "Sold for": "900 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nA very beautiful decorative headpiece.",
+        "dropped_by": [
+            "Lizard Snakecharmer",
+            "Serpent Spawn"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cobra_Crown",
+        "name": "Cobra Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a2/Cobra_Crown.gif/revision/latest?cb=20101126232120&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +2",
+            "Armor": "3",
+            "Resists": "earth +5%, fire -5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.50 oz",
+            "Marketable": true,
+            "Value": "200,000 - 900,000 gp",
+            "Sold for": "50,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.60June 30, 2010Summer Update 2010"
+        },
+        "notes": "Notes\nThis expensive helmet was initially only dropped by Draken Elite, but since 2012 also by the Ghastly Dragon boss Hatebreeder. It is the best helmet without a level requirement that adds extra magic levels.",
+        "dropped_by": [
+            "Draken Elite",
+            "Hatebreeder",
+            "King Zelos",
+            "Ravenous Hunger",
+            "The Sandking"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cobra_Hood",
+        "name": "Cobra Hood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5b/Cobra_Hood.gif/revision/latest?cb=20190701193331&path-prefix=en",
+        "attributes": {
+            "Level": "270",
+            "Vocation": "knights",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "sword fighting +1, club fighting +1, axe fighting +1",
+            "Armor": "9",
+            "Resists": "physical +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "27.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Version": "12.20.8834July 29, 2019Summer Update 2019"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Guard Captain Quaid",
+            "Scarlett Etzel",
+            "Ugly Monster"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crest_of_the_Deep_Seas",
+        "name": "Crest of the Deep Seas",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Crest_of_the_Deep_Seas.gif/revision/latest?cb=20141127150245&path-prefix=en",
+        "attributes": {
+            "Level": "80",
+            "Upgrade Classification": "2",
+            "Attributes": "speed +5",
+            "Armor": "7",
+            "Resists": "ice +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "45.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "10,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.70December 10, 2014Winter Update 2014"
+        },
+        "notes": "Notes\nDespite the name's connection to the sea, it does not act as a diving helmet. On the Test Server of 10.7 it was proposed by several testers that this helmet allow diving underwater, since its name implies a connection to the sea and the stats were very poor at the time. Instead, CipSoft added Ice Resistance and a Speed boost to it. Can be used as part of the Speed Set.",
+        "dropped_by": [
+            "Seacrest Serpent"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crown_Helmet",
+        "name": "Crown Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Crown_Helmet.gif/revision/latest?cb=20051004233810&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "7",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "29.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,500 - 5,000 gp",
+            "Sold for": "2,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis is a good and fairly strong helmet used by most players and is part of the Crown Set. It's also pretty light, making it a decent helmet for any medium level Paladin, Mages would probably prefer a Hat of the Mad or an elemental Helmet such as a Terra Hood.\nObtainable from the Noble Armor Quest.",
+        "dropped_by": [
+            "Hero",
+            "Nightmare Scion",
+            "Orewalker",
+            "Renegade Knight",
+            "Roaring Lion",
+            "Ushuriel",
+            "Vile Grandmaster",
+            "Werelioness",
+            "Zanakeph"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crown",
+        "name": "Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d5/Crown.gif/revision/latest?cb=20051003133453&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "19.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nA very rare item. There is only one documented crown obtained in Tibia, in Lutabra. \nIt first appeared when Knightmare (after broadcasting the giveaway) threw this item and a Crystal Wand as special rewards into the Thais temple in Antica in 2000. It was owned by a famous rare collector, Lightbringer, and later sold to an unknown player. It can be seen in the treasure rooms in Kazordoon, Maze of Lost Souls, Hellgate, Omruc's pharaoh room in Ankrahmun, in a tomb in the Isle of the Kings, in the room just south of Bunny Bonecrusher, Pits of Inferno reward room, and inside Morguthis' Treasure Room.\n\n‎Crown along with Blessed Shield and Dragon Scale Legs, seen in Nerana 2015.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crusader_Helmet",
+        "name": "Crusader Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6a/Crusader_Helmet.gif/revision/latest?cb=20050531092848&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "8",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "6,000 - 8,000 gp",
+            "Sold for": "6,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.6February 18, 2002"
+        },
+        "notes": "Notes\nMost players prefer to use this over a Warrior Helmet, which has the same defence but is a bit heavier (by 16 oz) than Crusader Helmet, although it is more expensive.\nObtainable from the Crusader Helmet Quest.",
+        "dropped_by": [
+            "Bibby Bloodbath",
+            "Brinebrute Inferniarch",
+            "Cliff Strider",
+            "Demon Outcast",
+            "Duke Krule",
+            "Lavaworm",
+            "Melting Frozen Horror",
+            "Orc Warlord",
+            "Rotspit",
+            "Sight of Surrender",
+            "Spitter",
+            "The Hungerer",
+            "Thul",
+            "Undead Elite Gladiator",
+            "Undead Gladiator"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Damaged_Helmet",
+        "name": "Damaged Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/34/Damaged_Helmet.gif/revision/latest?cb=20180203191251&path-prefix=en",
+        "attributes": {
+            "Armor": "5",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "18.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\n\nThis item is obtained in the Helmet of the Ancients Quest by having an Ornamented Ankh in your inventory and going through the teleport in Dipthrah's Tomb.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Helmet",
+        "name": "Dark Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/09/Dark_Helmet.gif/revision/latest?cb=20170904200812&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "250~580 gp",
+            "Sold for": "250 gp",
+            "Bought for": "1,000 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nA common helmet, many low level players use it. Had its graphics changed during 7.8 update to match the new Dark Armor graphic that was introduced during 7.6 update. It is the same in armor and weight as a Steel Helmet and a Strange Helmet. Part of the Dark Set.\n\nReward in the Alawar's Vault Quest.",
+        "dropped_by": [
+            "Black Knight",
+            "Cyclops",
+            "Cyclops Drone",
+            "Cyclops Smith",
+            "Frost Giant",
+            "Frost Giantess",
+            "Hellhunter Inferniarch",
+            "Orc Warlord",
+            "Undead Elite Gladiator",
+            "Undead Gladiator",
+            "Wandering Pillar",
+            "Warlord Ruzad"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Whispers",
+        "name": "Dark Whispers",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/04/Dark_Whispers.gif/revision/latest?cb=20181107131746&path-prefix=en",
+        "attributes": {
+            "Level": "180",
+            "Vocation": "paladins",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Attributes": "distance fighting +2",
+            "Armor": "7",
+            "Resists": "ice +3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "34.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.00.7695December 03, 2018Winter Update 2018"
+        },
+        "notes": "Notes\nThis helmet can be imbued with Basic Epiphany (Magic Level bonus), but not with Intricate or Powerful Epiphany.",
+        "dropped_by": [
+            "The Nightmare Beast"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Wizard%27s_Crown_(Activated)",
+        "name": "Dark Wizard's Crown (Activated)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/Dark_Wizard%27s_Crown_%28Activated%29.gif/revision/latest?cb=20150930212757&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentHelmetsFansite Items",
+            "Pickupable": true,
+            "Weight": "6.66 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "10.82September 30, 2015"
+        },
+        "notes": "Notes\nThis is an activated Dark Wizard's Crown. It will turn back into its regular state after a short moment.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Wizard%27s_Crown",
+        "name": "Dark Wizard's Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/21/Dark_Wizard%27s_Crown.gif/revision/latest?cb=20150930205355&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentHelmetsFansite Items",
+            "Pickupable": true,
+            "Weight": "6.66 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "10.82September 30, 2015"
+        },
+        "notes": "Notes\nIt's TibiaMisterios' fansite item. If you use it, it will turn into a Dark Wizard's Crown (Activated) and look like this: . The creator of the Dark Wizard's Crown is Lupus Aurelius.\nThis item was awarded to three players during the Fansite Appreciation Day 2022. The winners were:\n\nThomax (Havera)\nMage Korz (Dibra)\nZarty Stark (Thyria)",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon_Helmet",
+        "name": "Demon Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4e/Demon_Helmet.gif/revision/latest?cb=20050611022335&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "10",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "29.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30,000 - 55,000 gp",
+            "Sold for": "40,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nIt has been superseded by the Zaoan Helmet. The Demon Helmet is also a very good helmet for Mages who want to prioritize defense.\nObtainable in the Demon Helmet Quest.",
+        "dropped_by": [
+            "Lloyd",
+            "Madareth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon_Mengu",
+        "name": "Demon Mengu",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d5/Demon_Mengu.gif/revision/latest?cb=20250220115143&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "monks",
+            "Augments": "Flurry of Blows -> +3% mana leech",
+            "Imbuing Slots": "2",
+            "Attributes": "fist fighting +2, magic level +1",
+            "Armor": "6",
+            "Mantra": "8",
+            "Resists": "physical +2%, death +6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "14.15"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demonfang_Mask",
+        "name": "Demonfang Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Demonfang_Mask.gif/revision/latest?cb=20241105152428&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "druids",
+            "Augments": "Terra Wave -> +2% mana leech",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2, healing magic level +1",
+            "Armor": "8",
+            "Resists": "physical +2%, death +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "15.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "14.10.4e0c16November 25, 2024Winter Update 2024"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Arbaziloth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Depth_Galea",
+        "name": "Depth Galea",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Depth_Galea.gif/revision/latest?cb=20111201005847&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Armor": "8",
+            "Resists": "drowning +100%",
+            "Classification": "Body EquipmentHelmetsDiving Equipment",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "35,000 - 700,000 gp",
+            "Sold for": "35,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nThe Depth Galea is used to dive underwater. Wearing it is required to be able to go underwater, but once there the helmet can be removed. However, without it players will take 5 times 20 Drowning damage kicking in after four seconds of standing still. It is useful out of the depths, too: some monsters, like Water Elementals, use drowning damage attacks.Part of the Depth Set. Functions as a lightweight, higher armored Helmet of the Deep.",
+        "dropped_by": [
+            "Jaul"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Devil_Helmet",
+        "name": "Devil Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bf/Devil_Helmet.gif/revision/latest?cb=20170904200901&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "7",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "50.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,000 - 2,500 gp",
+            "Sold for": "1,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nIt can be traded for a Piece of Hell Steel with A Sweaty Cyclops, also obtainable through the Devil Helmet Quest.",
+        "dropped_by": [
+            "Angry Demon",
+            "Demon",
+            "Demon Outcast",
+            "Ferumbras",
+            "Golgordan",
+            "Grimeleech",
+            "Latrivan",
+            "Morgaroth",
+            "Orshabaal",
+            "Rage Squid",
+            "The Source of Corruption",
+            "Ushuriel",
+            "Vexclaw"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dragon_Scale_Helmet",
+        "name": "Dragon Scale Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f8/Dragon_Scale_Helmet.gif/revision/latest?cb=20060912030536&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "3",
+            "Armor": "9",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "32.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\nIt can be seen in the Amazon Camp Treasure Room and is part of the Dragon Set.\n\nDragon Scale Helmet",
+        "dropped_by": [
+            "Soul of Dragonking Zyrtarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dreadfire_Headpiece",
+        "name": "Dreadfire Headpiece",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Dreadfire_Headpiece.gif/revision/latest?cb=20241105152426&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "sorcerers",
+            "Augments": "Energy Wave -> +4% mana leech",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2",
+            "Armor": "8",
+            "Resists": "physical +2%, death +6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "16.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "14.10.4e0c16November 25, 2024Winter Update 2024"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Arbaziloth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dwarven_Helmet",
+        "name": "Dwarven Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b9/Dwarven_Helmet.gif/revision/latest?cb=20060222135025&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Armor": "6",
+            "Resists": "physical +2%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "42.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,000,000 - 4,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nThis helmet is a very rare loot from the Minotaur boss The Horned Fox. Dwarven Helmet's price skyrocketed after the implementation of Imbuing with the Winter Update 2016. This helmet itself has +2% physical resistance and additional 2 imbuing slots, additionally, it has no level and vocation requirements, making it a very interesting option mostly for mages becouse of extra resistance, but remember Dwarven Helmet CANNOT be imbued with extra Magic Level like all other non mage-exclusive helmets. If you are a knight or a paladin and you don't care about imbuements, Zaoan Helmet is a better option because it gives you a higher physical protection, its only downside is that it has 1 less imbuing slot.\nIts rivals, Demon Helmet and Visage of the End Days, will only be better options if you want 2 imbuing slots or you are not taking more than 200 physical damage per hit. However, the Enchanted Werewolf Helmets would always protect more than a dwarven helmet, but they have level requirement (100) and no imbuing slots.",
+        "dropped_by": [
+            "The Horned Fox"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eldritch_Cowl",
+        "name": "Eldritch Cowl",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1c/Eldritch_Cowl.gif/revision/latest?cb=20210526222854&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "sorcerers",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2",
+            "Armor": "7",
+            "Resists": "ice +7%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "26.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.70.10953July 12, 2021Summer Update 2021"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Brainstealer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eldritch_Hood",
+        "name": "Eldritch Hood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Eldritch_Hood.gif/revision/latest?cb=20210526222858&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "druids",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2",
+            "Armor": "7",
+            "Resists": "earth +7%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "27.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.70.10953July 12, 2021Summer Update 2021"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Brainstealer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elite_Draken_Helmet",
+        "name": "Elite Draken Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c6/Elite_Draken_Helmet.gif/revision/latest?cb=20100630203749&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "paladins",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "3",
+            "Attributes": "distance fighting +1",
+            "Armor": "9",
+            "Resists": "death +3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "43.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "200,000 - 1,100,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.60June 30, 2010Summer Update 2010"
+        },
+        "notes": "Notes\nOne of the rewards in the Wrath of the Emperor Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Helmet_(Axe)",
+        "name": "Enchanted Werewolf Helmet (Axe)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Enchanted_Werewolf_Helmet.gif/revision/latest?cb=20150906202916&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Attributes": "axe fighting +1",
+            "Armor": "9",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nTo create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi → werewolf helmet → yes → then choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments return to NPC Maeryn and repeat the process.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Helmet_(Club)",
+        "name": "Enchanted Werewolf Helmet (Club)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Enchanted_Werewolf_Helmet.gif/revision/latest?cb=20150906202916&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Attributes": "club fighting +1",
+            "Armor": "9",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nTo create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi → werewolf helmet → yes → then choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments return to NPC Maeryn and repeat the process.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Helmet_(Distance)",
+        "name": "Enchanted Werewolf Helmet (Distance)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Enchanted_Werewolf_Helmet.gif/revision/latest?cb=20150906202916&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "paladins",
+            "Attributes": "distance fighting +1",
+            "Armor": "9",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nTo create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi → werewolf helmet → yes → then choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments return to NPC Maeryn and repeat the process.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Helmet_(Magic)",
+        "name": "Enchanted Werewolf Helmet (Magic)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Enchanted_Werewolf_Helmet.gif/revision/latest?cb=20150906202916&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "sorcerers and druids",
+            "Attributes": "magic level +1",
+            "Armor": "9",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nTo create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi → werewolf helmet → yes → then choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments return to NPC Maeryn and repeat the process.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Helmet_(Sword)",
+        "name": "Enchanted Werewolf Helmet (Sword)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Enchanted_Werewolf_Helmet.gif/revision/latest?cb=20150906202916&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Attributes": "sword fighting +1",
+            "Armor": "9",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nTo create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi → werewolf helmet → yes → then choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments return to NPC Maeryn and repeat the process.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Falcon_Circlet",
+        "name": "Falcon Circlet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/65/Falcon_Circlet.gif/revision/latest?cb=20180605182034&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2",
+            "Armor": "8",
+            "Resists": "fire +9%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "13.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.80.7048July 3, 2018Summer Update 2018"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Grand Master Oberon"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Falcon_Coif",
+        "name": "Falcon Coif",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b9/Falcon_Coif.gif/revision/latest?cb=20180605182034&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "knights and paladins",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "distance fighting +2, shielding +2",
+            "Armor": "10",
+            "Resists": "physical +3%, fire +10%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "28.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.80.7048July 3, 2018Summer Update 2018"
+        },
+        "notes": "Notes\nThis is one of the few helmets that can be worn by Knights which can be imbued with up to Tier 2 Epiphany (Magic Level boost) imbuements. It's also one of the few helmets available for Paladins with this property.",
+        "dropped_by": [
+            "Grand Commander Soeren",
+            "Grand Master Oberon"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Feather_Headdress",
+        "name": "Feather Headdress",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a2/Feather_Headdress.gif/revision/latest?cb=20051217163003&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "21.00 oz",
+            "Marketable": true,
+            "Value": "850 gp",
+            "Sold for": "850 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nThis item can only be obtained by killing Terror Birds which spawn in Tiquanda, Zao and the Arena and Zoo Quarter in Yalahar.Can be obtained from Shaggy Ogre Bags.",
+        "dropped_by": [
+            "Terror Bird"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ferumbras%27_Candy_Hat",
+        "name": "Ferumbras' Candy Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b6/Ferumbras%27_Candy_Hat.gif/revision/latest?cb=20161108195933&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.50 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.02.4128December 6, 2016Winter Update 2016"
+        },
+        "notes": "Notes\nIt was introduced to celebrate Tibia's 20th Anniversary.Despite what its name might suggest, this item is not edible.",
+        "dropped_by": [
+            "Piñata Dragon"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ferumbras%27_Hat",
+        "name": "Ferumbras' Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8f/Ferumbras%27_Hat.gif/revision/latest?cb=20170904201002&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "4",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmetsCreature Products",
+            "Pickupable": true,
+            "Weight": "8.50 oz",
+            "Marketable": true,
+            "Value": "1.300.000.000 - 1.500.000.000 gp",
+            "Sold for": "10,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nOne of the most expensive items that is still obtainable. \nNeeded for an addon of the male Mage Outfits and female Summoner Outfits.\n\nAn unreachable room with several Ferumbras' Hats in the Halls of Ascension.",
+        "dropped_by": [
+            "Ferumbras",
+            "Ferumbras Mortal Shell"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flower_Wreath",
+        "name": "Flower Wreath",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6e/Flower_Wreath.gif/revision/latest?cb=20090601123257&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "500 - 10,000 gp",
+            "Sold for": "500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.40December 10, 2008Winter Update 2008"
+        },
+        "notes": "Notes\nElegant wreath made of flowers, they are reasonably rare and a fine decoration. For many people these wreaths are valuable. It was first seen on June 1, 2009. Part of the Dryad Set.",
+        "dropped_by": [
+            "Dryad",
+            "Nymph",
+            "Swan Maiden"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fur_Cap",
+        "name": "Fur Cap",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/13/Fur_Cap.gif/revision/latest?cb=20170904201108&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "18.00 oz",
+            "Marketable": true,
+            "Value": "3,000,000 - 8,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nMost often used as decoration. Value may be high since it is only lootable from a rare-spawning boss creature.",
+        "dropped_by": [
+            "Man in the Cave"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Galea_Mortis",
+        "name": "Galea Mortis",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/34/Galea_Mortis.gif/revision/latest?cb=20190701193451&path-prefix=en",
+        "attributes": {
+            "Level": "220",
+            "Vocation": "sorcerers",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Attributes": "magic level +2",
+            "Armor": "7",
+            "Resists": "death +6%, holy -3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "23.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.20.8834July 29, 2019Summer Update 2019"
+        },
+        "notes": "Notes\nCan be imbued with Powerful Epiphany, making it a competitor to Falcon Circlet and Gnome Helmet. Especially good in PvP since gives extra protection against sudden death runes.",
+        "dropped_by": [
+            "King Zelos"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gill_Gugel",
+        "name": "Gill Gugel",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/24/Gill_Gugel.gif/revision/latest?cb=20120622174234&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +2",
+            "Armor": "5",
+            "Resists": "earth +6%, fire -6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "9.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.60July 11, 2012Summer Update 2012"
+        },
+        "notes": "Notes\nPart of the Gill Set",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glacier_Mask",
+        "name": "Glacier Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Glacier_Mask.gif/revision/latest?cb=20071217004014&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Armor": "5",
+            "Resists": "ice +4%, energy -5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,500 - 7,000 gp",
+            "Sold for": "2,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nIt gives 4% protection from Ice Damage, but increases damage taken from Energy by 5%. It's a part of the Glacier Set.",
+        "dropped_by": [
+            "Animated Feather",
+            "Animated Snowman",
+            "Crazed Winter Rearguard",
+            "Crystal Spider",
+            "Earl Osam",
+            "Gelidrazah the Frozen",
+            "Hirintror",
+            "Ice Dragon",
+            "Ice Golem",
+            "Icecold Book",
+            "Memory of a Dwarf",
+            "Mycobiontic Beetle",
+            "Neferi the Spy",
+            "Paladin's Apparition",
+            "Seacrest Serpent",
+            "Shardhead",
+            "Squid Warden",
+            "The Bloodweb",
+            "Zushuka"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gnome_Helmet",
+        "name": "Gnome Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Gnome_Helmet.gif/revision/latest?cb=20171108141047&path-prefix=en",
+        "attributes": {
+            "Level": "200",
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Attributes": "magic level +2",
+            "Armor": "7",
+            "Resists": "energy +8%, physical +3%, ice -2%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "24.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.50.6055December 5, 2017Winter Update 2017"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Count of the Core"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Golden_Crown",
+        "name": "Golden Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7f/Golden_Crown.gif/revision/latest?cb=20200419223514&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmetsTournament Rewards",
+            "Pickupable": true,
+            "Weight": "20.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.31.9658April 09, 2020Tournament Triumph Preparation"
+        },
+        "notes": "Notes\nThis is one of the prizes for the characters ranked first in the Tournament Triumph.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Golden_Helmet",
+        "name": "Golden Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/60/Golden_Helmet.gif/revision/latest?cb=20050530002925&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Armor": "12",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "32.00 oz",
+            "Marketable": true,
+            "Value": "900,000,000 - 999,999,999 gp",
+            "Sold for": "420 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nArguably the best Helmet in the game and also part of the Golden Set. This rare item was obtainable a long time ago from the Daemon until later a certain update that proved to carry the first HOTS which still exists today. It can be seen in Hellgate Treasure Chamber, Morguthis Room and Pythius The Rotten's Treasure Room. Nowadays because of the world transfer system more servers have this legendary helmet.\nCM Skerio wrote on November 21, 2021: \"(...) items which cannot be gained in the game any longer and have to be acquired from other players, e.g. golden helmet (...)\", which means that Golden Helmet isn't lootable neither from the boss monsters nor from the quests.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Golden_Horned_Helmet",
+        "name": "Golden Horned Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0a/Golden_Horned_Helmet.gif/revision/latest?cb=20211012140408&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmetsTournament Rewards",
+            "Pickupable": true,
+            "Weight": "51.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.72.11206October 12, 2021"
+        },
+        "notes": "Notes\nThis was one of the prizes for the characters ranked first in the Tournament Radiance. The Gilded Horned Helmet looks the same and can be bought in the Store, which also means it cannot be traded with other players.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Green_Demon_Helmet",
+        "name": "Green Demon Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1e/Green_Demon_Helmet.gif/revision/latest?cb=20220107160523&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Armor": "10",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "29.50 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.85.11485January 07, 202225th Anniversary Update"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Morshabaal"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gryphon_Mask",
+        "name": "Gryphon Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Gryphon_Mask.gif/revision/latest?cb=20190701193456&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "20.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✗",
+            "Version": "12.20.8834July 29, 2019Summer Update 2019"
+        },
+        "notes": "Notes\nObtained in Kilmaresh Quest during the One last favor mission.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hat_of_the_Mad",
+        "name": "Hat of the Mad",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c7/Hat_of_the_Mad.gif/revision/latest?cb=20170904201451&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +1",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "15,000-30,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.24March 15, 2004"
+        },
+        "notes": "Notes\nAn item very sought after by low to mid level mages since it increases magic level by one and is very lightweight.\nObtainable in the Mad Mage Room Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hellstalker_Visor",
+        "name": "Hellstalker Visor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/60/Hellstalker_Visor.gif/revision/latest?cb=20241105152424&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "paladins",
+            "Augments": "Strong Ethereal Spear -> +3% mana leech",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "distance fighting +2",
+            "Armor": "10",
+            "Resists": "physical +3%, death +6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "36.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "14.10.4e0c16November 25, 2024Winter Update 2024"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Arbaziloth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_Nature",
+        "name": "Helmet of Nature",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/65/Helmet_of_Nature.gif/revision/latest?cb=20090702110746&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "11.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Dirtbeard to have a chance of getting it. It is proof that you have slain him.\nIt looks the same as a Flower Bowl.\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Dirtbeard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_Ultimate_Terror",
+        "name": "Helmet of Ultimate Terror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/09/Helmet_of_Ultimate_Terror.gif/revision/latest?cb=20190808171849&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "12.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "50,000 - 250,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "1 sqm",
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Monstor to have a chance of getting it. It is proof that you have slain him.\nIt looks the same as a Pumpkinhead (Lit).\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Monstor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_the_Ancients_(Enchanted)",
+        "name": "Helmet of the Ancients (Enchanted)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d7/Helmet_of_the_Ancients_%28Enchanted%29.gif/revision/latest?cb=20050611163550&path-prefix=en",
+        "attributes": {
+            "Armor": "11",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "27.60 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\nThis is a Helmet of the Ancients enchanted with a Small Ruby. The effect of the enchantment will only last for 30 minutes. According to this book, using a Soul Ruby will have a permanent effect.\nCreating this helmet will grant you the achievement Hidden Powers.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_the_Ancients",
+        "name": "Helmet of the Ancients",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/af/Helmet_of_the_Ancients.gif/revision/latest?cb=20060527110606&path-prefix=en",
+        "attributes": {
+            "Armor": "8",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "27.60 oz",
+            "Marketable": true,
+            "Value": "30,000 - 150,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\nPharaohs guard the pieces of the helmet. When you use it on a Small Ruby, it will be enchanted and turn into a Helmet of the Ancients (Enchanted), which has an additional 3 armor. This effect will only last for 30 minutes. According to this book, using a Soul Ruby will permanently increase this value.\nObtained through The Ancient Tombs Quest.\nEnchanting this helmet with a Small Ruby will grant you the achievement Hidden Powers.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_the_Deep",
+        "name": "Helmet of the Deep",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/39/Helmet_of_the_Deep.gif/revision/latest?cb=20170904201645&path-prefix=en",
+        "attributes": {
+            "Armor": "2",
+            "Resists": "drowning +100%",
+            "Classification": "Body EquipmentHelmetsDiving Equipment",
+            "Pickupable": true,
+            "Weight": "210.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "5,000 - 7,000 gp",
+            "Sold for": "5,000 gp",
+            "Bought for": "5,000 gp",
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nThe Helmet of the Deep is used to dive underwater. Wearing it is required to be able to go underwater, but once there the helmet can be removed. However, without it players will take 5 times 20 Drowning damage kicking in after four seconds of standing still. It is useful out of the depths, too: some monsters, like Water Elementals, use drowning damage attacks. There is a 5,000 gp deposit for the helmet. You must be a member of the Explorer Society (beginning of the Explorer Society Quest - The Undersea Kingdom) and have at least the Rank of a Relic Hunter/Huntress to rent one. Renting one is not bound to any liabilities and you may return the helmet by saying 'return' to Captain Max.Players above level 150 may opt to use the Depth Galea instead, which has 6 more armor points and weighs 164 oz less.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Helmet_of_the_Lost",
+        "name": "Helmet of the Lost",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/23/Helmet_of_the_Lost.gif/revision/latest?cb=20121129191607&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "7",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "35.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "2,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.80December 12, 2012Winter Update 2012"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Lost Thrower"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Horned_Helmet",
+        "name": "Horned Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1a/Horned_Helmet.gif/revision/latest?cb=20050611164913&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "4",
+            "Armor": "11",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "51.00 oz",
+            "Marketable": true,
+            "Value": "600.000.000 - 750.000.000 gp",
+            "Sold for": "155 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nThis helmet is owned by a few players on multiple servers ever since world transfers have been implemented. The helmet was a spawn that appeared at a map reset in the now Bright Sword Quest underneath the Outlaw Camp, in the old days. Map resets happened once every 4-6 months back then. The Horned Helmet to this day is a priceless item for collectors. Several others were obtained on other old servers, such as Antica, Premia, Secura, Isara, Lunara, and Amera.\n\nHorned Helmet seen in Iona in 2015An unreachable Horned Helmet can be seen in Amazon Camp Treasure Room.One of very few Horned Helmets on Secura back in 2007.Horned Helmet and other rares on Pacera.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Horseman_Helmet",
+        "name": "Horseman Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/79/Horseman_Helmet.gif/revision/latest?cb=20050921195213&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "42.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "280 - 300 gp",
+            "Sold for": "280 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nA Helmet not commonly used by low level players.",
+        "dropped_by": [
+            "Assassin",
+            "Rukor Zad"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Incandescent_Crown",
+        "name": "Incandescent Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e6/Incandescent_Crown.gif/revision/latest?cb=20170730140333&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nYou can transform it into a Magical Tree  by using it on the floor inside a House or Guildhall that you own.\nRewarded to Paladins in the Cults of Tibia Quest.\n See also: Crowns",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Iron_Crown",
+        "name": "Iron Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c6/Iron_Crown.gif/revision/latest?cb=20170730140227&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nYou can transform it into a Magical Tree  by using it on the floor inside a House or Guildhall that you own.\nRewarded to Knights in the Cults of Tibia Quest.\n See also: Crowns",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Iron_Helmet",
+        "name": "Iron Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/95/Iron_Helmet.gif/revision/latest?cb=20120403180648&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "5",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "30.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "150 gp",
+            "Bought for": "390 gp",
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nNot used much as a Helmet as most people prefer the Soldier Helmet because it is cheaper, easier to get, and is only 2 oz heavier. A good item for lootbags when sold to an NPC who buys them. There are rumors saying that there's a quest to obtain one in Rookgaard.",
+        "dropped_by": [
+            "Bandit",
+            "Crypt Defiler",
+            "Crypt Shambler",
+            "Demon Skeleton",
+            "Gladiator",
+            "Grave Robber",
+            "Menacing Carnivor",
+            "Nomad (Basic)",
+            "Nomad (Blue)",
+            "Nomad (Female)",
+            "Wild Warrior"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Jade_Hat",
+        "name": "Jade Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/52/Jade_Hat.gif/revision/latest?cb=20091129024210&path-prefix=en",
+        "attributes": {
+            "Level": "60",
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +1",
+            "Armor": "4",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "9.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "9,000 - 15,000 gp",
+            "Sold for": "9,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.54December 9, 2009Christmas Update 2009"
+        },
+        "notes": "Notes\nHas 1 arm more than a Hat of the Mad but is also 2 oz heavier.",
+        "dropped_by": [
+            "Battlemaster Zunzu",
+            "Ethershreck",
+            "Ghastly Dragon",
+            "Hatebreeder",
+            "Ironblight",
+            "Ravenous Hunger",
+            "Zanakeph"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Jester_Hat",
+        "name": "Jester Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/70/Jester_Hat.gif/revision/latest?cb=20071205231745&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nA fancy hat, mostly used by clowns and jesters.\n\nObtained through the What a foolish Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Krimhorn_Helmet",
+        "name": "Krimhorn Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Krimhorn_Helmet.gif/revision/latest?cb=20070622213248&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "51.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "200 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nNot often used since there are other helmets with the same armor value that are lighter, commonly looted and thus cheaper, such as the Dark Helmet and Steel Helmet.",
+        "dropped_by": [
+            "Barbarian Headsplitter"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Laurel_Wreath",
+        "name": "Laurel Wreath",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/00/Laurel_Wreath.gif/revision/latest?cb=20111204173013&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmetsContest Prizes",
+            "Pickupable": true,
+            "Weight": "9.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Writable": "✓",
+            "Writechars": "149",
+            "Version": "8.40December 10, 2008Winter Update 2008"
+        },
+        "notes": "Notes\nYou can only read the text if you stand at two squares from it or closer. The Laurel Wreath was given to tutors on two occasions as a token of gratitude for their help.\n\n3 wreaths were given by Grimrath to Abiston, Mirkaan and Zinina on December 23rd, 2011.\n3 wreaths were given by Karvar to Lee kun, Parodox and Gogue da Terra de Magogue on January 19th, 2013.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Leaf_Crown",
+        "name": "Leaf Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/db/Leaf_Crown.gif/revision/latest?cb=20170730135951&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nYou can transform it into a Magical Tree  by using it on the floor inside a House or Guildhall that you own.\nRewarded to Druids in the Cults of Tibia Quest.\n See also: Crowns",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Leather_Helmet",
+        "name": "Leather Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/29/Leather_Helmet.gif/revision/latest?cb=20050601144039&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "22.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "4 or more gp",
+            "Sold for": "4 gp",
+            "Bought for": "12 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nIt's probably the first helmet someone finds or purchases. It is part of the Leather Set.",
+        "dropped_by": [
+            "Apprentice Sheng",
+            "Bellicose Orger",
+            "Demon (Goblin)",
+            "Goblin",
+            "Goblin Assassin",
+            "Goblin Leader",
+            "Goblin Scavenger",
+            "Human (Creature)",
+            "Island Troll",
+            "Minotaur Mage",
+            "Minotaur Occultist",
+            "Muglex Clan Assassin",
+            "Muglex Clan Footman",
+            "Muglex Clan Scavenger",
+            "Poacher",
+            "Smuggler",
+            "Troll",
+            "Werelioness",
+            "Young Troll"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Legion_Helmet",
+        "name": "Legion Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c7/Legion_Helmet.gif/revision/latest?cb=20050808112038&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "4",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "31.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "4,000 - 14,000 gp",
+            "Sold for": "22 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis is the best helmet in Rookgaard, it has the same defense value as a Viking Helmet but is lighter. After Christmas Update 2009 the value of Legion Helmet rose steeply because they are not dropped by Rotworms anymore but still needed for an outfit quest.\nOne is required for an addon of the Citizen Outfits Quest, both the mainland and Rookgaard quests. If you want to make the addon, it is recommended to get this helmet while still in Rookgaard.\nThis item can be obtained in the Dragon Corpse Quest, or the Present Box Quest in Rookgaard.\nIt can also be obtained in Dawnport through the Dawnport Legion Helmet Quest.",
+        "dropped_by": [
+            "Rottie the Rotworm",
+            "Rotworm Queen"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lightning_Headband",
+        "name": "Lightning Headband",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Lightning_Headband.gif/revision/latest?cb=20071218060610&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Armor": "5",
+            "Resists": "energy +4%, earth -5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,500 - 7,000 gp",
+            "Sold for": "2,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nIt gives 4% protection from Energy Damage, but increases damage taken from Earth by 5%. It's part of the Lightning Set.",
+        "dropped_by": [
+            "Anomaly",
+            "Brain Squid",
+            "Burning Gladiator",
+            "Cloak of Terror",
+            "Courage Leech",
+            "Cunning Werepanther",
+            "Energetic Book",
+            "Enusat the Onyx Wing",
+            "Evil Prospector",
+            "Giant Spider",
+            "High Voltage Elemental",
+            "Hulking Carnisylvan",
+            "Lord Azaram",
+            "Neferi the Spy",
+            "Outburst",
+            "Reality Reaver",
+            "Realityquake",
+            "Rupture",
+            "Sister Hetai",
+            "Sphinx",
+            "Stabilizing Reality Reaver",
+            "Two-Headed Turtle",
+            "Tyrn",
+            "Usurper Warlock",
+            "Werelioness",
+            "World Devourer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lion_Spangenhelm",
+        "name": "Lion Spangenhelm",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/86/Lion_Spangenhelm.gif/revision/latest?cb=20200611034242&path-prefix=en",
+        "attributes": {
+            "Level": "230",
+            "Vocation": "paladins",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "distance fighting +2",
+            "Armor": "7",
+            "Resists": "physical +3%, earth +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "30.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.40.9997July 13, 2020Summer Update 2020"
+        },
+        "notes": "Notes\nThis helmet can be imbued with Basic and Intricate Epiphany (Magic Level bonus), but not with Powerful Epiphany.",
+        "dropped_by": [
+            "Ancient Lion Knight",
+            "Drume"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mage_Hat",
+        "name": "Mage Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d9/Mage_Hat.gif/revision/latest?cb=20170904201805&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "1",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "9.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "? gp",
+            "Sold for": false,
+            "Bought for": "150 gp",
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nIt is part of the set given to new Sorcerers and Druids in the Island of Destiny and in Dawnport. Used by a lot of mages under level 200 because it is the only mage-exclusive helmet with 2 imbuing slots under said level, which means it can be imbued with Powerful Epiphany (all mage helmets with native Magic level give up to +2), while the second slot can be used for Powerful Void.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mage%27s_Cap",
+        "name": "Mage's Cap",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/22/Mage%27s_Cap.gif/revision/latest?cb=20110701105322&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "4",
+            "Armor": "3",
+            "Resists": "fire +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30,000,000 - 50,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.10July 6, 2011Summer Update 2011"
+        },
+        "notes": "Notes\nA Mage's Cap is needed for the Elementalist Outfits Quest.",
+        "dropped_by": [
+            "Mad Mage"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Magician_Hat",
+        "name": "Magician Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6a/Magician_Hat.gif/revision/latest?cb=20120726135834&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "3",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "350,000 - 2,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.6February 18, 2002"
+        },
+        "notes": "Notes\nWhile part of the Pharaoh Rares, it is about ten times more common than Rahemos' other rare, the Twin Axe.",
+        "dropped_by": [
+            "Rahemos"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Magma_Monocle",
+        "name": "Magma Monocle",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c5/Magma_Monocle.gif/revision/latest?cb=20071215072656&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Armor": "5",
+            "Resists": "fire +4%, ice -5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,500 - 7,000 gp",
+            "Sold for": "2,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nIt gives 4% protection from Fire Damage, but increases damage taken from Ice by 5% (was 4% before Update 8.2). It is part of the Magma Set. Its value has decreased a lot, just like other elemental helmets, because it has become very common.",
+        "dropped_by": [
+            "Burning Book",
+            "Diabolic Imp",
+            "Efreet",
+            "Essence of Malice",
+            "Fahim the Wise",
+            "Feral Sphinx",
+            "Guard Captain Quaid",
+            "Hellhound",
+            "Insane Siren",
+            "Manticore",
+            "Marid",
+            "Merikh the Slaughterer",
+            "Percht",
+            "Scarlett Etzel",
+            "Sir Baeloc",
+            "Sphinx",
+            "Urmahlullu the Weakened",
+            "Usurper Warlock",
+            "Werepanther"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Maliceforged_Helmet",
+        "name": "Maliceforged Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/66/Maliceforged_Helmet.gif/revision/latest?cb=20241105152422&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "knights",
+            "Augments": "Front Sweep -> +3% mana leech",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "sword fighting +2, axe fighting +2, club fighting +2",
+            "Armor": "10",
+            "Resists": "physical +3%, death +6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "24.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "14.10.4e0c16November 25, 2024Winter Update 2024"
+        },
+        "notes": "Notes\nCan not be imbued with Powerful Epiphany.",
+        "dropped_by": [
+            "Arbaziloth"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mighty_Helm_of_Green_Sparks",
+        "name": "Mighty Helm of Green Sparks",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e8/Mighty_Helm_of_Green_Sparks.gif/revision/latest?cb=20090625165541&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Doctor Perhaps to have a chance of getting it. It is proof that you have slain him.\nLooks similar to a Steel Helmet, but with green sparks.\n\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Doctor Perhaps"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mining_Helmet",
+        "name": "Mining Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5c/Mining_Helmet.gif/revision/latest?cb=20141213104641&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmetsLight Sources",
+            "Pickupable": true,
+            "Weight": "7.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nDwarfs could use this while mining. Provides 4 squares of permanent yellow light, a bit weaker than a Torch.\nIt looks the same as Budrik's Mining Helmet.\n\nA reward from the Tibia Tales Quest (To Outfox a Fox Quest).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mystic_Turban",
+        "name": "Mystic Turban",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9c/Mystic_Turban.gif/revision/latest?cb=20120726135558&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "150 - 3,000 gp",
+            "Sold for": "150 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.6February 18, 2002"
+        },
+        "notes": "Notes\nIt can be traded to NPC Irmana for a Blue Piece of Cloth.",
+        "dropped_by": [
+            "Blood Hand",
+            "Blood Priest",
+            "Blue Djinn",
+            "Dawnfire Asura",
+            "Efreet",
+            "Fahim the Wise",
+            "Green Djinn",
+            "Ice Witch",
+            "Marid",
+            "Merikh the Slaughterer",
+            "Necromancer",
+            "Necropharus",
+            "Shadow Pupil",
+            "True Dawnfire Asura",
+            "Zushuka"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Odd_Hat",
+        "name": "Odd Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fc/Odd_Hat.gif/revision/latest?cb=20090627170416&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "5",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Dirtbeard to have a chance of getting it. It is proof that you have slain him.\nIt looks the same as a Party Cake.\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Dirtbeard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pair_of_Earmuffs",
+        "name": "Pair of Earmuffs",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Pair_of_Earmuffs.gif/revision/latest?cb=20170904201145&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "0",
+            "Resists": "ice +2%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,500 - 10,000 gp",
+            "Sold for": "1,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nA rather rare item just used for decoration. Not recommended to sell to NPCs.\nCan be obtained from an Unrealized Dream.",
+        "dropped_by": [
+            "Ice Witch",
+            "Melting Frozen Horror",
+            "Yakchal",
+            "Zushuka"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Party_Hat",
+        "name": "Party Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/42/Party_Hat.gif/revision/latest?cb=20070109011716&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Other ItemsParty ItemsHelmets",
+            "Pickupable": true,
+            "Weight": "7.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "50-600 gp",
+            "Sold for": false,
+            "Bought for": "600 gp",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "7.92January 8, 200710th Anniversary Update"
+        },
+        "notes": "Notes\nIntroduced during Tibia's 10th Anniversary where they were easily obtained using Surprise Bags that were looted from many monsters and then again during Tibia's 15th Anniversary. Also given away by Ned Nobel.\nWhen the hat is equipped on the helmet slot, it will let loose confetti over when used.\n\nCould be bought from Stan only during Masquerade Days.\nUse it 200 times while wearing it to get the achievement Party Animal.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirate_Hat",
+        "name": "Pirate Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/15/Pirate_Hat.gif/revision/latest?cb=20170904201324&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "3",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "12.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,000 - 4,000 gp",
+            "Sold for": "1,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nA part of the Pirate Set. Looks similar to Brutus Bloodbeard's Hat.\n\nNeeded for the Meriana Quest.\nCan be obtained by completing the Waterfall Quest.",
+        "dropped_by": [
+            "Pirate Corsair"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Porcelain_Mask",
+        "name": "Porcelain Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2c/Porcelain_Mask.gif/revision/latest?cb=20161108200043&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "2",
+            "Armor": "1",
+            "Resists": "mana drain +10%",
+            "Classification": "Body EquipmentHelmetsQuest Items",
+            "Pickupable": true,
+            "Weight": "4.50 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "2,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.02.4128December 6, 2016Winter Update 2016"
+        },
+        "notes": "Notes\nIt is one of the four permanent protector equipments against Mana Drain, the other three being the Witch Hat, Depth Ocrea and the Starlight Vial. The last one and the Porcelain Mask do not have vocation requirement.\nYou can obtain one every 5 days when the First Dragon Quest is active. 3 are needed for the Festive Outfits Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Post_Officer%27s_Hat",
+        "name": "Post Officer's Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d0/Post_Officer%27s_Hat.gif/revision/latest?cb=20050610024446&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.24March 15, 2004"
+        },
+        "notes": "Notes\nSometimes used as decoration.\nItem obtained in the Postman Quest.\nAlso useful during the Thieves Guild Quest, if you are an Archpostman.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Prismatic_Helmet",
+        "name": "Prismatic Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/68/Prismatic_Helmet.gif/revision/latest?cb=20120622164102&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Vocation": "knights",
+            "Upgrade Classification": "2",
+            "Attributes": "shielding +1",
+            "Armor": "9",
+            "Resists": "physical +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "56.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.60July 11, 2012Summer Update 2012"
+        },
+        "notes": "Notes\nPart of the Prismatic Set. The best helmet for knights above level 150. An alternative is the Zaoan Helmet which has the same defense and physical resistance but no level requirement.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ragnir_Helmet",
+        "name": "Ragnir Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4d/Ragnir_Helmet.gif/revision/latest?cb=20070622213150&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "31.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "400 gp",
+            "Sold for": "400 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nLess common than the Dark Helmet and Steel Helmet, it weighs less by 15.00 oz.",
+        "dropped_by": [
+            "Barbarian Skullhunter"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Reflecting_Crown",
+        "name": "Reflecting Crown",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/14/Reflecting_Crown.gif/revision/latest?cb=20170730140452&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nYou can transform it into a Magical Tree  by using it on the floor inside a House or Guildhall that you own.\nRewarded to Sorcerers in the Cults of Tibia Quest.\n See also: Crowns",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Royal_Helmet",
+        "name": "Royal Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9e/Royal_Helmet.gif/revision/latest?cb=20070626214908&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "9",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "48.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30,000 - 35,000 gp",
+            "Sold for": "30,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.6February 18, 2002"
+        },
+        "notes": "Notes\nA popular helmet, most high level Players have it because it is relatively common. It is one of the best in Tibia.\n2 Royal Helmets can be traded for a Fighting Spirit to Haroun or Yaman.",
+        "dropped_by": [
+            "Albino Dragon",
+            "Brachiodemon",
+            "Dragon Hoard",
+            "Dragon Lord",
+            "Frost Dragon",
+            "Hydra",
+            "Kalyassa",
+            "Lost Berserker",
+            "Serpent Spawn",
+            "Shock Head",
+            "Terofar",
+            "The Enraged Thorn Knight",
+            "The Many",
+            "The Noxious Spawn",
+            "The Welter",
+            "Undead Dragon",
+            "Ushuriel",
+            "Zanakeph"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rubber_Cap",
+        "name": "Rubber Cap",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2c/Rubber_Cap.gif/revision/latest?cb=20140613223150&path-prefix=en",
+        "attributes": {
+            "Level": "70",
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +1",
+            "Armor": "5",
+            "Resists": "earth +3%, fire -3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "8.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "11,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.50July 7, 2014Summer Update 2014"
+        },
+        "notes": "Notes\nAt level 70 this becomes a nice alternative to Terra Hood.",
+        "dropped_by": [
+            "Darklight Matter",
+            "Glooth Bandit",
+            "Glooth Brigand",
+            "Glooth Fairy",
+            "Glooth Golem",
+            "Rotten Golem",
+            "Turbulent Elemental"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rusty_Winged_Helmet",
+        "name": "Rusty Winged Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6d/Rusty_Winged_Helmet.gif/revision/latest?cb=20161108195935&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "12.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.02.4128December 6, 2016Winter Update 2016"
+        },
+        "notes": "Notes\nYou can dig rusty winged helmets at Vigintia's treasure hunting zone.It was introduced to celebrate Tibia's 20th Anniversary.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Santa_Hat",
+        "name": "Santa Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e4/Santa_Hat.gif/revision/latest?cb=20061211204907&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "1",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "25,000 - 95,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.9December 12, 2006Christmas Update 2006"
+        },
+        "notes": "Notes\nUsed as decoration.\nYou can get one by trading 50 Christmas Tokens to Ruprecht on Vega.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sedge_Hat",
+        "name": "Sedge Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/62/Sedge_Hat.gif/revision/latest?cb=20100823162121&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmetsQuest Items",
+            "Pickupable": true,
+            "Weight": "18.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.60June 30, 2010Summer Update 2010"
+        },
+        "notes": "Notes\nThe name of this item was changed from Coolie Hat to Sedge Hat because \"coolie\" is a derogatory term used mainly in Eastern Asia, India and Guyana. The name change was proposed by Brother of Conway.\nObtainable from the An Interest In Botany Quest. You give this item to NPC Cranky Lizard Crone in exchange for the second addon of the Wayfarer Outfits.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shamanic_Mask",
+        "name": "Shamanic Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/40/Shamanic_Mask.gif/revision/latest?cb=20151113115126&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "4",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "31.00 oz",
+            "Marketable": true,
+            "Value": "0 - 2000 gp",
+            "Sold for": "2,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nIt can be sold to NPC Mugruu after finishing Vuzrog's questline.\nCan be obtained from Shaggy Ogre Bags.",
+        "dropped_by": [
+            "Ogre Brute",
+            "Ogre Savage",
+            "Ogre Shaman"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shroud_of_Despair",
+        "name": "Shroud of Despair",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3c/Shroud_of_Despair.gif/revision/latest?cb=20151112195350&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Upgrade Classification": "4",
+            "Armor": "7",
+            "Resists": "death +3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "34.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "6 sqm",
+            "Blocking": false,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Tarbaz"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Silver_Mask",
+        "name": "Silver Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7a/Silver_Mask.gif/revision/latest?cb=20190701193755&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "32.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✗",
+            "Version": "12.20.8834July 29, 2019Summer Update 2019"
+        },
+        "notes": "Notes\nPart of the Kilmaresh Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Skull_Helmet",
+        "name": "Skull Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Skull_Helmet.gif/revision/latest?cb=20170904201922&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "9",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "42.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "40,000 - 50,000 gp",
+            "Sold for": "40,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nIt has the same defence as a Royal Helmet, but is 6.00 oz lighter.",
+        "dropped_by": [
+            "Betrayed Wraith",
+            "Bretzecutioner",
+            "Destroyer",
+            "Dracola",
+            "Gaz'haragoth",
+            "Guard Captain Quaid",
+            "Hellflayer",
+            "Katex Blood Tongue",
+            "Lost Soul",
+            "Mad Mage",
+            "Omrafir",
+            "Paladin's Apparition",
+            "Prince Drazzak",
+            "Quara Predator",
+            "Raging Mage",
+            "Renegade Quara Predator",
+            "Ribstride",
+            "Rootthing Amber Shaper",
+            "Skeleton Elite Warrior",
+            "Srezz Yellow Eyes",
+            "Terofar",
+            "Thul",
+            "Ushuriel",
+            "Utua Stone Sting",
+            "Yirkas Blue Scales",
+            "Zanakeph",
+            "Zorvorax"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Soldier_Helmet",
+        "name": "Soldier Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8e/Soldier_Helmet.gif/revision/latest?cb=20050531202841&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "5",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "32.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "50 - 100 gp",
+            "Sold for": "16 gp",
+            "Bought for": "110 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nA cheap and good helmet that many level 10-15 players use. Next, players should buy a Dark Helmet or Steel Helmet. Knights can also get this helmet on the Island of Destiny and in Dawnport. Due to a bug, the helmet was also briefly brought to Rookgaard from Dawnport.",
+        "dropped_by": [
+            "Dwarf Soldier",
+            "Loricate Orger"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spiritthorn_Helmet",
+        "name": "Spiritthorn Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3e/Spiritthorn_Helmet.gif/revision/latest?cb=20220718142718&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "knights",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "sword fighting +3, axe fighting +3, club fighting +3, 13 damage reflection",
+            "Armor": "12",
+            "Resists": "physical +6%, energy +10%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "44.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable gp gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nPart of the Spiritthorn Set. It is a possible reward of the Primal Ordeal Quest, which guarantees one random item from the Primal Set through the Hazard System.\nIt has Damage Reflection, and is one of the few helmets for Knights that can be imbued with up to Tier 2 Epiphany (Magic Level boost).",
+        "dropped_by": [
+            "Magma Bubble",
+            "Plunder Patriarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spooky_Hood",
+        "name": "Spooky Hood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1c/Spooky_Hood.gif/revision/latest?cb=20191113131239&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentHelmetsQuest Items",
+            "Pickupable": true,
+            "Weight": "12.50 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "12.30.9287December 02, 2019Winter Update 2019"
+        },
+        "notes": "Notes\nItem needed to get first addon of the Poltergeist Outfits.",
+        "dropped_by": [
+            "Brain Head",
+            "The Dread Maiden",
+            "The Fear Feaster",
+            "The Unwelcome"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Steel_Helmet",
+        "name": "Steel Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cd/Steel_Helmet.gif/revision/latest?cb=20050531085331&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "293 - 580 gp",
+            "Sold for": "293 gp",
+            "Bought for": "580 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nA good helmet, but is somewhat expensive and a Dark Helmet (which has the same armor and weight) is easier to get, for example from a Cyclops. Also obtainable from Steel Helmet Quest. Part of the Steel Set.\nItem obtained in the Steel Helmet Quest.",
+        "dropped_by": [
+            "Assassin",
+            "Black Knight",
+            "Crystal Spider",
+            "Dragon",
+            "Dwarf Guard",
+            "Foreman Kneebiter",
+            "Furious Scorpion",
+            "Gargoyle",
+            "Giant Spider",
+            "Giant Spider (Nostalgia)",
+            "Grand Mother Foulscale",
+            "Hide",
+            "High Templar Cobrass",
+            "Lizard Templar",
+            "Mamma Longlegs",
+            "Memory of a Dwarf",
+            "Rukor Zad",
+            "Sandstone Scorpion",
+            "Tarantula",
+            "The Old Widow",
+            "Werelioness",
+            "Zombie"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stoic_Iks_Casque",
+        "name": "Stoic Iks Casque",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7c/Stoic_Iks_Casque.gif/revision/latest?cb=20231115110707&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "paladins",
+            "Augments": "Divine Missile -> +6% Base Damage",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "distance fighting +2",
+            "Armor": "8",
+            "Resists": "physical +3%, energy +6%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "35.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "13.30.14423December 4, 2023Winter Update 2023"
+        },
+        "notes": "Notes\nCan not be imbued with Powerful Epiphany.",
+        "dropped_by": [
+            "Mitmah Vanguard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stoic_Iks_Headpiece",
+        "name": "Stoic Iks Headpiece",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Stoic_Iks_Headpiece.gif/revision/latest?cb=20231115110708&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "druids",
+            "Augments": "Wrath of Nature -> +5% Critical Extra Damage",
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Attributes": "magic level +2",
+            "Armor": "8",
+            "Resists": "death +3%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "21.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "13.30.14423December 4, 2023Winter Update 2023"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Mitmah Vanguard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Strange_Helmet",
+        "name": "Strange Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2e/Strange_Helmet.gif/revision/latest?cb=20050609230809&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "6",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "46.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "500 - 1,000 gp",
+            "Sold for": "500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis is a semi-rare item that most people just sell to the Djinn.",
+        "dropped_by": [
+            "Albino Dragon",
+            "Dragon Hoard",
+            "Dragon Lord",
+            "Frost Dragon",
+            "Hirintror",
+            "Ice Golem",
+            "Icecold Book",
+            "Lavaworm",
+            "Lich",
+            "Memory of a Vampire",
+            "Quara Mantassin",
+            "Renegade Quara Mantassin",
+            "Serpent Spawn",
+            "Ushuriel",
+            "Vampire",
+            "Walking Pillar"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Studded_Helmet",
+        "name": "Studded Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cb/Studded_Helmet.gif/revision/latest?cb=20061213001312&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "24.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "(Rookgaard) 20 gp",
+            "Sold for": "20 gp",
+            "Bought for": "63 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nHas the same armor as a Chain Helmet but it's lighter. Part of the Studded Set.",
+        "dropped_by": [
+            "Elf",
+            "Orc",
+            "Orc Spearman",
+            "Troll-Trained Salamander"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Terra_Helmet",
+        "name": "Terra Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/af/Terra_Helmet.gif/revision/latest?cb=20190701193849&path-prefix=en",
+        "attributes": {
+            "Level": "230",
+            "Vocation": "knights",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "3",
+            "Attributes": "sword fighting +2, club fighting +2, axe fighting +2",
+            "Armor": "9",
+            "Resists": "physical +5%, earth +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "31.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.20.8834July 29, 2019Summer Update 2019"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Count Vlarkorth",
+            "Duke Krule",
+            "Earl Osam",
+            "Lord Azaram",
+            "Rootthing Nutshell",
+            "Sir Baeloc"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Terra_Hood",
+        "name": "Terra Hood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Terra_Hood.gif/revision/latest?cb=20120403183449&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Upgrade Classification": "2",
+            "Armor": "5",
+            "Resists": "earth +4%, fire -5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "10.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,500 - 7,000 gp",
+            "Sold for": "2,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nIt gives 4% protection from Earth Damage but increases Fire Damage by 5%. It's very light which makes it ideal for low level mages. Part of the Terra Set.",
+        "dropped_by": [
+            "Adult Goanna",
+            "Ancient Scarab",
+            "Ancient Spawn of Morgathla",
+            "Cobra Vizier",
+            "Cursed Book",
+            "Draken Abomination",
+            "Drume",
+            "Duke Krule",
+            "Earworm",
+            "Glooth Bandit",
+            "Glooth Brigand",
+            "Guard Captain Quaid",
+            "Hide",
+            "Hulking Carnisylvan",
+            "Ink Blob",
+            "Kusuma",
+            "Lamassu",
+            "Megasylvan Yselda",
+            "Neferi the Spy",
+            "Scarlett Etzel",
+            "Sister Hetai",
+            "Sun-Marked Goanna",
+            "Thanatursus",
+            "The Unarmored Voidborn",
+            "Usurper Warlock",
+            "Young Goanna"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Crown_of_the_Percht_Queen_(Fire)",
+        "name": "The Crown of the Percht Queen (Fire)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0f/The_Crown_of_the_Percht_Queen_%28Fire%29.gif/revision/latest?cb=20181212132918&path-prefix=en",
+        "attributes": {
+            "Classification": "Plants, Animal Products, Food and DrinkCreature ProductsHelmets",
+            "Pickupable": true,
+            "Weight": "19.00 oz",
+            "Marketable": true,
+            "Value": "? gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Version": "12.02.7746December 11, 2018Winterlight Solstice Update"
+        },
+        "notes": "Notes\nIt is one of the few creature items that is wearable.",
+        "dropped_by": [
+            "The Percht Queen"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Crown_of_the_Percht_Queen_(Ice)",
+        "name": "The Crown of the Percht Queen (Ice)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e5/The_Crown_of_the_Percht_Queen_%28Ice%29.gif/revision/latest?cb=20181212132918&path-prefix=en",
+        "attributes": {
+            "Classification": "Plants, Animal Products, Food and DrinkCreature ProductsHelmets",
+            "Pickupable": true,
+            "Weight": "19.00 oz",
+            "Marketable": true,
+            "Value": "? gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Version": "12.02.7746December 11, 2018Winterlight Solstice Update"
+        },
+        "notes": "Notes\nIt is one of the few creature items that is wearable.",
+        "dropped_by": [
+            "The Percht Queen"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Epic_Wisdom",
+        "name": "The Epic Wisdom",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/ce/The_Epic_Wisdom.gif/revision/latest?cb=20180125135903&path-prefix=en",
+        "attributes": {
+            "Armor": "0",
+            "Classification": "Body EquipmentHelmetsFansite Items",
+            "Pickupable": true,
+            "Weight": "8.05 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "9.10July 6, 2011Summer Update 2011"
+        },
+        "notes": "Notes\nThe official TibiaWiki.com.br item. It was created by Insane Jack.\nThis item was awarded to four players during the Fansite Appreciation Day 2022. The winners were:\n\nAkatski Star (Quelibra)\nShingeki Omyojin (Kalibra)\nCrazyzenho (Libertabra)\nMangusia (Antica)",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tiara_of_Power",
+        "name": "Tiara of Power",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e8/Tiara_of_Power.gif/revision/latest?cb=20160425191910&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "sorcerers and druids",
+            "Attributes": "faster regeneration, speed +20",
+            "Armor": "7",
+            "Resists": "energy +8%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "11.50 oz",
+            "Duration": "60 minutes",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.94May 31, 2016Summer Update 2016"
+        },
+        "notes": "Notes\nLooks like  when equipped. Increases your Mana and Hitpoints Regeneration for 60 minutes (1 hours) by the rate of 2 HP and 8 MP per 6 seconds, which means it will recover 4800 MP and 1200 HP in total. Tiara of Power can't be repaired. It disappears after using for 60 minutes.",
+        "dropped_by": [
+            "Anomaly",
+            "Eradicator",
+            "Outburst",
+            "Realityquake",
+            "Rupture",
+            "World Devourer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tribal_Mask",
+        "name": "Tribal Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/59/Tribal_Mask.gif/revision/latest?cb=20051125201217&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "2",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "250 - 3,000 gp",
+            "Sold for": "250 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nFound in southern Tiquanda/Trapwood (semi-rare). It has the exact same gp-to-weight ratio as pure gold coins.5 are needed for an addon of the Shaman Outfits.Can be obtained from Shaggy Ogre Bags.",
+        "dropped_by": [
+            "Dworc Fleshhunter",
+            "Dworc Venomsniper",
+            "Dworc Voodoomaster",
+            "Frost Flower Asura",
+            "Midnight Asura",
+            "Oodok Witchmaster",
+            "The Moonlight Aster",
+            "True Frost Flower Asura",
+            "True Midnight Asura"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Viking_Helmet",
+        "name": "Viking Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d1/Viking_Helmet.gif/revision/latest?cb=20171223204759&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "1",
+            "Armor": "4",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "39.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "66 gp",
+            "Sold for": "66 gp",
+            "Bought for": "265 gp",
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nThe Viking Helmet provides as much armor as the Legion Helmet but weighs more, it's a good item for bringing to mainland and selling it there. It is part of the Viking Set. It is common to find this helmet in the Skeleton tomb, which can be accessed by digging a hole in the middle grave, located here.\nThis item can be obtained in the Katana Quest in Rookgaard.",
+        "dropped_by": [
+            "Barbarian Headsplitter",
+            "Barbarian Skullhunter",
+            "Brittle Skeleton",
+            "Ghoul",
+            "Grand Master Oberon",
+            "Loricate Orger",
+            "Skeleton",
+            "Teleskor",
+            "Undead Prospector"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Visage_of_the_End_Days",
+        "name": "Visage of the End Days",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/13/Visage_of_the_End_Days.gif/revision/latest?cb=20151112195351&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "4",
+            "Armor": "10",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "38.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Razzagorn"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Warrior_Helmet",
+        "name": "Warrior Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/de/Warrior_Helmet.gif/revision/latest?cb=20050611020531&path-prefix=en",
+        "attributes": {
+            "Imbuing Slots": "2",
+            "Upgrade Classification": "2",
+            "Armor": "8",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "68.00 oz",
+            "Marketable": true,
+            "Value": "5,000 - 8,000 gp",
+            "Sold for": "5,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nHeavy helmet compared to the Crusader Helmet which is lighter and has the same armor rating. Also, the price is lower because of its weight and because it is quite easy to loot.\nIt can be obtained from Deeper Fibula Quest.\n4 warrior helmets can be traded by Haroun (Blue Djinn Fortress) or Yaman (Green Djinn Fortress) for 1 Flask of Warrior's Sweat.",
+        "dropped_by": [
+            "Black Knight",
+            "Cult Enforcer",
+            "Earl Osam",
+            "Enslaved Dwarf",
+            "Flameborn",
+            "Hellspawn",
+            "Hydra",
+            "Lavaworm",
+            "Minotaur Amazon",
+            "Minotaur Cult Follower",
+            "Minotaur Invader",
+            "Orc Cult Fanatic",
+            "Orc Leader",
+            "Paladin's Apparition",
+            "Quara Pincher",
+            "Renegade Orc",
+            "Renegade Quara Pincher",
+            "Serpent Spawn",
+            "Spiky Carnivor",
+            "Terrorsleep",
+            "The Many",
+            "The Welter",
+            "Ushuriel",
+            "Usurper Archer",
+            "Vicious Squire"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Werewolf_Helmet",
+        "name": "Werewolf Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Werewolf_Helmet.gif/revision/latest?cb=20150624115057&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Attributes": "speed +15",
+            "Armor": "9",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "25.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "9,000,000 - 12,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": "✓",
+            "Version": "10.80July 21, 2015Summer Update 2015"
+        },
+        "notes": "Notes\nIt can be enchanted to get an Enchanted Werewolf Helmet. To create an Enchanted Werewolf Helmet you have to talk to NPC Maeryn (hi - werewolf helmet - yes - choose vocation and weapon type). From now on, every time you use Moonlight Crystals on ANY Werewolf Helmet, it will be enchanted with new attributes depending on vocation and weapon type you have chosen. To create different enchantments, return to NPC Maeryn and repeat the process. Every enchanting lasts for 60 minutes, after that you need to use Moonlight Crystals on the helmet again.\nKeep in mind that enchanting a Werewolf Helmet causes it to lose its +15 speed bonus until enchanting wears off. Some people don't enchant it because of the speed bonus, but it's not always worth to spent so much money to earn extra +15 speed, for more information check Speed Breakpoints.\n See also: Enchanted Werewolf Helmet",
+        "dropped_by": [
+            "Feroxa"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Winged_Helmet",
+        "name": "Winged Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/Winged_Helmet.gif/revision/latest?cb=20171214210907&path-prefix=en",
+        "attributes": {
+            "Upgrade Classification": "4",
+            "Armor": "10",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "12.00 oz",
+            "Marketable": true,
+            "Value": "8.000.000.000 - 11.000.000.000 gp",
+            "Sold for": "320 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "3.1"
+        },
+        "notes": "Notes\nContrary to popular belief, this helmet has never granted speed, ultimate protection beyond its healthy defensive powers, or anything else.\nThis item is very rare, even though it was illegally duplicated a long time ago. There should be around 10 of these helmets existing, initially on Antica.\n\nIt can be seen in Morguthis Room and Pythius The Rotten's Treasure Room.Winged Helmet and other rares in Pythius the Rotten's Treasure RoomWinged Helmet and other rares on Pacera",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Witch_Hat",
+        "name": "Witch Hat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4b/Witch_Hat.gif/revision/latest?cb=20091204231739&path-prefix=en",
+        "attributes": {
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Armor": "3",
+            "Resists": "mana drain +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "7.80 oz",
+            "Marketable": true,
+            "Value": "5,000 - 25,000 gp",
+            "Sold for": "5,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.54December 9, 2009Christmas Update 2009"
+        },
+        "notes": "Notes\nDespite the item's stats, it's sold for a decent price due to the fact that it is a rare item in most of the servers, only looted seldom from Witches. It is also a permanent protector against Mana Drain, which is a rather uncommon attribute.",
+        "dropped_by": [
+            "Essence of Malice",
+            "Witch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wood_Cape",
+        "name": "Wood Cape",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/68/Wood_Cape.gif/revision/latest?cb=20091229222706&path-prefix=en",
+        "attributes": {
+            "Vocation": "paladins",
+            "Upgrade Classification": "2",
+            "Attributes": "distance fighting +1",
+            "Armor": "3",
+            "Resists": "earth +4%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "11.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "5,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.6February 18, 2002"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Adult Goanna",
+            "Arctic Faun",
+            "Capricious Phantom",
+            "Crazed Summer Rearguard",
+            "Dark Faun",
+            "Faun",
+            "Guard Captain Quaid",
+            "Paladin's Apparition",
+            "Pirat Bombardier",
+            "Ravenous Hunger",
+            "Raxias",
+            "Rootthing Bug Tracker",
+            "Rotten Golem",
+            "Rotten Man-Maggot",
+            "Soul-Broken Harbinger",
+            "Turbulent Elemental",
+            "Usurper Archer",
+            "Varnished Diremaw",
+            "Venerable Girtablilu"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Yalahari_Mask",
+        "name": "Yalahari Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f6/Yalahari_Mask.gif/revision/latest?cb=20170904202045&path-prefix=en",
+        "attributes": {
+            "Level": "80",
+            "Vocation": "sorcerers and druids",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Attributes": "magic level +2",
+            "Armor": "5",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "35.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "60,000 - 150,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.40December 10, 2008Winter Update 2008"
+        },
+        "notes": "Notes\nIt increases magic level by two when worn.\nIs part of the Yalahari Set. It rivals the best mage-exclusive helmets with the same increase of Magic level +2, unless you need the native damage protection of those.\nObtained through the In Service of Yalahar Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+        "name": "Zaoan Helmet",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Zaoan_Helmet.gif/revision/latest?cb=20091202011847&path-prefix=en",
+        "attributes": {
+            "Vocation": "knights and paladins",
+            "Imbuing Slots": "1",
+            "Upgrade Classification": "2",
+            "Armor": "9",
+            "Resists": "physical +5%",
+            "Classification": "Body EquipmentHelmets",
+            "Pickupable": true,
+            "Weight": "66.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "45,000 - 60,000 gp",
+            "Sold for": "45,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.54December 9, 2009Christmas Update 2009"
+        },
+        "notes": "Notes\nPart of the Zaoan Set. It is better than the Demon Helmet, since the Demon Helmet has one armor value more, which blocks 0.7 damage on average, while the Zaoan Helmet has 5% protection against Physical Damage, which blocks at least 1 damage. \nIf a creature hits an average of 100 damage every hit, Demon Helmet will reduce the damage with a minimum of 4.8 and a maximum of 8.5 while Zaoan Helmet will reduce it with a minimum of 4.3 and maximum of 7.6 with an additional of 5%.\nIn the end, Zaoan Helmet will reduce the damage by 9min and 12max compared to Demon helmet with 5 min and 9 max.\nDwarven Helmet only reduces the damage by 2.9 min and 5.7 max with an additional amount of 2% which goes towards reducing 4.8 min and 7.6 max. Keep in mind that \"100 damage\" was used for the calculation. The price of the Zaoan Helmet has decreased since the Elite Draken Helmet was implemented because it was first used by many Paladins.",
+        "dropped_by": [
+            "Darklight Striker",
+            "Draken Abomination",
+            "Draken Elite",
+            "Ethershreck",
+            "Ghastly Dragon",
+            "Hatebreeder",
+            "Lizard Chosen",
+            "Lizard Gate Guardian",
+            "The Voice of Ruin"
+        ]
+    }
+]

@@ -1,0 +1,873 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Armadile",
+        "name": "Armadile",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e3/Armadile.gif/revision/latest?cb=20171218214813&path-prefix=en",
+        "attributes": {},
+        "notes": "The gnomes tell stories that the armadile once lived in deep enclosed caverns with other creatures in a form of harmony. Due to seismic activity their natural habitat was destroyed, but they managed to escape into an underground tunnel that had opened up. In the new environment they were able to escape their natural predators more easily and had less competition for nourishment. And so they prospered and became a plague for the depths of the earth, mainly invading gnomish holdings for their abundance of what the armadile consider food. As omnivores the armadile are a nuisance when encountered alone, but a threat when run into in greater numbers. Not only do they attack other creatures to devour them or destroy their food sources, their aimless digging and mineral eating often completely destroys the stability of caves and tunnels. Since there are no means to drive the Armadile out, the only solution is to exterminate them or to abandon areas with severe Armadile infestation. The main approach to identify natural competitors or threats to the Armadile have yet to meet with success. It is likely that whatever scares the Armadile off will probably be even worse itself. The update teaser introducing the Armadile groups them with Crystalcrushers. Although the two are likely related, they are not found in vicinity of each other.",
+        "abilities": [
+            "Melee (?)",
+            "Great Fireball (causes Drunkenness )"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 55%",
+            "Holy 85%",
+            "Ice 85%",
+            "Fire 100%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 1.",
+        "behaviour": "Armadiles will stand at a distance and shoot at their target.An armadile attacks from a distance.",
+        "strategy": "The Armadile is a nuisance at best. They do not cause much damage. Although Fire and Energy Fields are effective at blocking them, it's not really worth doing so. Try to trap them so that they cannot run, or let them run and continue with your hunt/quest. If there is a group of monsters, kill the armadile last because he poses the least threat.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Battle Stone",
+            "Coal",
+            "Crystalline Spikes",
+            "Drill Bolt",
+            "Envenomed Arrow",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Green Crystal Fragment",
+            "Mana Potion",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Green Crystal Splinter",
+            "Terra Boots",
+            "Time Ring",
+            "Titan Axe",
+            "Tower Shield",
+            "Bonebreaker",
+            "Crystalline Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Clay_Guardian",
+        "name": "Clay Guardian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ae/Clay_Guardian.gif/revision/latest?cb=20110630000809&path-prefix=en",
+        "attributes": {},
+        "notes": "Clay Guardians are constructs like Stone Golems, yet stronger.",
+        "abilities": [
+            "Melee (0-120)",
+            "Earth Strike (30-150) Clay Guardian",
+            "Smoke Berserk (20-30?) Clay Guardian",
+            "Self-Healing (40-130?)"
+        ],
+        "resistance": [
+            "Physical 75%",
+            "Death 60%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 100%",
+            "Energy 70%",
+            "Earth 0%"
+        ],
+        "location": "Horestis Tomb, Middle Spike, Medusa Tower.",
+        "behaviour": "Fights in close range until death.A clay guardian attacks in melee range.",
+        "loot": [
+            "Gold Coin",
+            "Blank Rune",
+            "Lump of Earth",
+            "Small Stone",
+            "Earth Arrow",
+            "Clay Lump",
+            "Small Topaz",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cliff_Strider",
+        "name": "Cliff Strider",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a3/Cliff_Strider.gif/revision/latest?cb=20120622171948&path-prefix=en",
+        "attributes": {},
+        "notes": "It is yet unknown if the Cliff Strider is some sort of elemental, a golem, an organic life-form, or a strange hybrid. Usually only encountered in the hottest places of the world, they were rarely seen in the past. Recently, though, there have been more and more sightings in the depths of Tibia. When they are encountered, they are usually in liaison with 'those below'. It can only be speculated what this means for the  race as a whole. While they were formerly seen as some strange life-form that was only dangerous when it was disturbed in its unbearably hot and hostile living spaces, it is now speculated that the Cliff Striders are some form of cattle for 'those below' that are also commonly used in their wars as some kind of weapon. Still, there are relatively peaceful and territorial enclaves of Cliff Striders that seem to pose no threat to outward communities. In the light of the connection to 'those below' there are furious debates how to handle such known enclaves. While there are voices to eradicate them all before the enemy can employ them, the majority is still voting to monitor the situation and get more solid information before any preemptive action is taken.",
+        "abilities": [
+            "Melee (0-500+)",
+            "Stoneshower (300-800+)",
+            "Red Sparkle Bomb on itself (Reduces Distance )",
+            "Mana Drain Energy Ball (100-300)",
+            "Spark Berserk (?)",
+            "Electrify"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 65%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 80%",
+            "Energy 95%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 3.",
+        "behaviour": "A cliff strider attacks in melee range. A cliff strider never retreats.",
+        "strategy": "Paladins planning on hunting these creatures should use Fire Wall Runes or Fire Bomb Runes and run around them while hitting the cliff striders with Crystalline Arrows.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Ultimate Health Potion",
+            "White Pearl",
+            "Black Pearl",
+            "Iron Ore",
+            "Soul Orb",
+            "Shiny Stone",
+            "Blue Crystal Shard",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Pulverized Ore",
+            "Cliff Strider Claw",
+            "Vein of Ore",
+            "Prismatic Bolt",
+            "Red Gem",
+            "Magic Sulphur",
+            "Sapphire Hammer",
+            "Spiked Squelcher",
+            "Crystal of Balance",
+            "Crystal of Power",
+            "Wand of Defiance",
+            "Glacial Rod",
+            "Blue Gem",
+            "Giant Sword",
+            "Knight Legs",
+            "Crusader Helmet",
+            "Crystalline Sword",
+            "Crystal Crossbow",
+            "Hammer of Wrath",
+            "Crown Armor",
+            "Steel Boots",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crystalcrusher",
+        "name": "Crystalcrusher",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a4/Crystalcrusher.gif/revision/latest?cb=20240228102818&path-prefix=en",
+        "attributes": {},
+        "notes": "The Crystalcrusher is more commonly known as 'Gembane' since it seems to be magically drawn towards cut gems, which are their favourite diet. It is not known by which means they can find cut gems or why they would specialise on a food resource that cannot to be found in nature. It is probable that this fondness is connected to crystal resonances and light reflection, though even the masters of these arts, the gnomes, cannot tell for sure how these factors influence the crystalcrushers' hunger or even their life cycles. On their constant search for new food, they often settle for other minerals in lack of greater amounts of cut gems. It seems that the crystals are used in the digestive system of the creature to pulverise other minerals. Given the Crystalcrusher's appetite, such digestive gems are used up quite fast which might explain its constant search for more gems and crystals. On their hunt they usually see everything either as food or competition for food and become quite dangerous.",
+        "abilities": [
+            "Melee (0-170)",
+            "Poison Bomb (110-270)",
+            "weak Self-Healing (5-15; often)",
+            "strong Self-Healing (120-180; occasionally)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 110%",
+            "Ice 103%",
+            "Fire 85%",
+            "Energy 105%",
+            "Earth 0%"
+        ],
+        "location": "Crystal Grounds, Mushroom Farms, Middle Spike.",
+        "behaviour": "Crystalcrushers prefer to fight in close combat.A crystalcrusher attacks in melee range. A crystalcrusher never retreats.",
+        "strategy": "Kill them as quickly as possible, rather than trying to run them, since they hit harder and run faster than one would expect. Always try to kill them one by one. An encounter with more than one of these could easily send you to your death.",
+        "loot": [
+            "Gold Coin",
+            "Crystalline Arrow",
+            "Green Crystal Splinter",
+            "Brown Crystal Splinter",
+            "Blue Crystal Splinter",
+            "Crystalline Spikes",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Damaged_Crystal_Golem",
+        "name": "Damaged Crystal Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/67/Damaged_Crystal_Golem.gif/revision/latest?cb=20240228102738&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Self-Healing (0-10)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Golem Workshop in Gnomebase Alpha",
+        "behaviour": "A damaged crystal golem attacks in melee range. A damaged crystal golem will retreat at 500  (100%, full) health.",
+        "strategy": "Ignore them or just kill them.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Earth_Elemental",
+        "name": "Earth Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1b/Earth_Elemental.gif/revision/latest?cb=20240228101508&path-prefix=en",
+        "attributes": {},
+        "notes": "Followers of Crunor claim that Earth Elementals mirror the wrath of Tibia's land. All the abuse and mistreatment of the earth caused an elemental subconsciousness to wake up and to send the powerful Earth Elementals to seek revenge on the living creatures. It is said that Earth Elementals form spontaneously, so to speak anywhere and not necessarily at a place where the earth has been defiled. The Earth Elementals seem mindless, guided only by some mystic field that spans the whole world according to the followers of Crunor. If an Earth Elemental is disconnected from this field, it becomes increasingly violent and destructive. It starts a rampage that eventually will lead to its own destruction. However, even the Earth Elementals that are connected to this field are by no means peaceful creatures. They follow a universal instinct that often leads to conflicts with living beings. The ultimate goal might be to bring some kind of universal balance; but to achieve this goal, much violence is used, relying on the enormous strength and resilience of the Earth Elementals. During Shadows of Yalahar Quest, they can be skinned using a Pick to obtain Elemental Crystals and other items like Small Diamonds.",
+        "abilities": [
+            "Melee (0-110+)",
+            "Earth Missle (72-105) Earth Elemental",
+            "Boulder Explosion (59-107) Earth Elemental",
+            "Poison Beam (starts at 10-13 hp /turn) Earth Elemental",
+            "Poison Bomb (starts at 5-7 hp /turn) Earth Elemental",
+            "Distance Paralyze (Reduces 230~ speed points for 3 seconds) Earth Elemental",
+            "Self-Healing (60-80) Earth Elemental"
+        ],
+        "resistance": [
+            "Physical 65%",
+            "Death 60%",
+            "Holy 50%",
+            "Ice 95%",
+            "Fire 125%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Edron Earth Elemental Cave (17 of them on the first floor), Vandura Mountain, Deeper Banuta (2 spawns, here and here), Vengoth Castle, Robson Isle, Drillworm Caves, Crystal Grounds, Middle Spike.",
+        "behaviour": "Like any Elemental-type, it's violent and strong.An earth elemental attacks in melee range.",
+        "strategy": "These creatures are quite dangerous for low levels so beware! They use paralyze often to prevent targets from running away and hit hard with their physical attacks, Boulder and Melee. They are weak against Fire Damage, use this to the best possible advantage. Try not to let them get close enough to use their physical attacks. For low and middle level mages it is not recommended to fight with more than two Earth Elementals at a time, also using GFB and Energy Ring (instead of instant Magic Shield) would be helpful if meeting more than two of them. Sorcerers are especially recommended to hunt these after level 33 because of the extra use of Wand of Inferno. It is then fast to kill them, gaining plenty of experience and gold.",
+        "loot": [
+            "Gold Coin",
+            "Earth Arrow",
+            "Small Stone",
+            "Blank Rune",
+            "Lump of Earth",
+            "Strong Mana Potion",
+            "Heavily Rusted Armor",
+            "Small Topaz",
+            "Clay Lump",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ember_Beast",
+        "name": "Ember Beast",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a2/Ember_Beast.gif/revision/latest?cb=20171114182807&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Warzone 5, inside the boss room.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enraged_Crystal_Golem",
+        "name": "Enraged Crystal Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/24/Enraged_Crystal_Golem.gif/revision/latest?cb=20240228102712&path-prefix=en",
+        "attributes": {},
+        "notes": "Crystal golems are a marvel of gnomish ingenuity. Though the gnomes claim that no conventional magic is a work, it is hard to believe that only sound resonances and light is involved in controlling and animating the golems. Though intended as guardians and manual labourers that substitute for the tiny gnomes with the muscle power that they might lack, sometimes a malfunction drives them 'insane' as the gnomes claim. Especially seismic activity can disrupt their control melodies and might turn them into a threat for gnomekind or anyone they might encounter. Golems are physically strong and durable. They can easily withstand great punishment and stress and will never tire. The gnomes usually use them for peaceful labour and for carrying great loads. The gnomes claim that the golems are only good for battle if there is dire need for reinforcements, since they still lack the correct battle melody that would enable the golems to use their full potential. In spite of this the golems are not to be underestimated. Even when not using their full potential, they are hardy warriors and great combatants. The gnomes have already created some special battle golems with different shapes and armaments. As long as they lack the correct melody however, the project is on hold and the golems are just gathering dust in some remote caves.",
+        "abilities": [
+            "Melee (0-150)",
+            "Self-Healing (2-8)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Golem Workshop.",
+        "behaviour": "An enraged crystal golem attacks in melee range. An enraged crystal golem never retreats.",
+        "strategy": "Just kill them or ignore them. They are much weaker than monsters you'd have faced before coming here.",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Crystalline Spikes",
+            "Crystal Sword",
+            "Crystalline Arrow",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Glorious Axe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eternal_Guardian",
+        "name": "Eternal Guardian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4c/Eternal_Guardian.gif/revision/latest?cb=20091230072003&path-prefix=en",
+        "attributes": {},
+        "notes": "This creature was added in the Christmas Update 2009.",
+        "abilities": [
+            "Melee (0-300?)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 80%",
+            "Holy 80%",
+            "Ice 90%",
+            "Fire 30%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "North-east Muggy Plains, Deeper Banuta.",
+        "behaviour": "It keeps close to use his melee attacks and does not run at low health. It has similar strength to a Hero.An eternal guardian attacks in melee range.",
+        "strategy": "They're fairly slow and only melee-based, but strong to all possible attacks. Mages hunting in Deeper Banuta are advised to just ignore them, as killing them takes time (they come in swarms) and they won't hurt you if you keep distance.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Small Stone",
+            "Ancient Stone",
+            "Spiked Iron Ball",
+            "Iron Ore",
+            "Zaoan Halberd",
+            "Clay Lump",
+            "Guardian Halberd",
+            "Shiny Stone",
+            "Tower Shield",
+            "Coal",
+            "Piece of Marble Rock",
+            "Zaoan Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gargoyle",
+        "name": "Gargoyle",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/99/Gargoyle.gif/revision/latest?cb=20070712030618&path-prefix=en",
+        "attributes": {},
+        "notes": "Although Gargoyles are a common sight all over Tibia, the origin of this remarkable species remains clouded in mystery. In fact, a reward offered by the great wizard Cyrius the Half-Bald to those who could solve the mystery was never claimed. However, one or two interesting facts have been discovered. It is widely agreed today that Gargoyles prefer dark places,which is why they are typically found in dreary dungeons and other subterranean complexes. There they breed and hunt, using their uncanny ability to blend in with the stony surfaces of their lairs. They can be used as a training monster, but they heal very slowly. It's better to train with two if you can and switch targets when one has low health.\nYou may hunt 200 of these as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-65)",
+            "Self-Healing (5-15)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 60%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Meriana Gargoyle Cave, Ankrahmun Tombs, Mal'ouquah, Goroma, Deeper Banuta, Formorgar Mines, Vengoth, Farmine Mines, Upper Spike and Medusa Tower.",
+        "behaviour": "They seem to retarget on the player with the highest level around.A gargoyle attacks in melee range. A gargoyle will retreat at 30  (12%, red) health.",
+        "strategy": "They are easier than a Cyclops, but rarely come without other creatures.",
+        "loot": [
+            "Gold Coin",
+            "Potato",
+            "Small Stone",
+            "Stone Wing",
+            "Strawberry",
+            "Battle Shield",
+            "Morning Star",
+            "Wolf Tooth Chain",
+            "Steel Helmet",
+            "Piece of Marble Rock",
+            "Shiny Stone",
+            "Club Ring",
+            "Dark Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hard_Times",
+        "name": "Hard Times",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/83/Stone_Golem.gif/revision/latest?cb=20240228100524&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the 25 Years of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Unknown",
+        "behaviour": "Hard times never retreats.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ironblight",
+        "name": "Ironblight",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d6/Ironblight.gif/revision/latest?cb=20140215163115&path-prefix=en",
+        "attributes": {},
+        "notes": "Ironblights are strange creatures that are highly magnetic. They follow unseen magnetic currents in the earth in their slow wanderings. They also emit magnetic fields of their own, sometimes moving iron-rich earth and stones seemingly at will. In the right surroundings, Ironblights can even walk on walls and ceilings. Oddly enough, their prolonged proximity to iron lets it rust at an unnatural rate. Therefore dwarfs are particularly interested in keeping the Ironblights away. In the past, successful extermination campaigns have eradicated Ironblight presences from their mines for quite a while. The Ironblights are usually as patient and slow as the stone they resemble, only to surprise the incautious with bursts of speed and aggression from one second to the next. The Ironblights are immensely irritated by the magnetic fields that most sentient beings seem to emit. The highly sensitive creatures experience pain and agony in the vicinity of people. Yet this seems to kick in only at a certain low range, far too late to avoid the cause of discomfort. Therefore Ironblights often threaten bases of underground dwellers. Young gnomes had the habit of challenging each other as to who can catch the attention of an Ironblight from furthest away compared to the others, just to prove who is smarter. This rather unwise practice has been forbidden to gnomes by law and promotional campaigns with slogans like 'it is not at all smart to challenge death by teasing Ironblights'. Similar to a Lost Soul, the ironblight does not heal itself and runs at low health.",
+        "abilities": [
+            "Melee (0-500)",
+            "Ice Beam (300-500)",
+            "Viper Star ( + area 300-500)",
+            "Poisoning Bomb (poisons for 23 hp/turn)",
+            "Reduction bomb on itself; red sparkles (Reduces Shielding by 50%?)"
+        ],
+        "resistance": [
+            "Physical 85%",
+            "Death 60%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 40%",
+            "Energy 95%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 3.",
+        "behaviour": "Ironblights will fight their opponents in close combat. Ironblights retarget very frequently.An ironblight attacks in melee range. An ironblight will retreat at 264 to 1979 (4% - 29.98%, red) health.",
+        "strategy": "Ironblights are the only creatures in Warzone 3 that walk through fire. It's recommended to use a Gill Necklace or a Terra Amulet because their poison damage really adds up.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Brown Crystal Splinter",
+            "Crystalline Spikes",
+            "Great Mana Potion",
+            "Green Crystal Shard",
+            "Red Crystal Fragment",
+            "Shiny Stone",
+            "Small Amethyst",
+            "Small Emerald",
+            "Ultimate Health Potion",
+            "War Crystal",
+            "Crystal of Balance",
+            "Crystal of Power",
+            "Red Gem",
+            "Springsprout Rod",
+            "Glacial Rod",
+            "Blue Gem",
+            "Epee",
+            "Magic Sulphur",
+            "Terra Legs",
+            "Crystal Mace",
+            "Sapphire Hammer",
+            "Composite Hornbow",
+            "Jade Hat",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Jagged_Earth_Elemental",
+        "name": "Jagged Earth Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d1/Jagged_Earth_Elemental.gif/revision/latest?cb=20210420181336&path-prefix=en",
+        "attributes": {},
+        "notes": "New creature in Summer Update 2008.",
+        "abilities": [
+            "Melee (0-300)",
+            "Paralyze",
+            "Poison Beam (Poisons you from 10-16 Hp per turn)",
+            "Boulder Explosion (100-250)",
+            "Slow Self-Healing",
+            "Stalagmite (0-200?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 55%",
+            "Holy 100%?",
+            "Ice 80%",
+            "Fire 115%",
+            "Energy 15%",
+            "Earth 0%?"
+        ],
+        "location": "The Elemental Spheres Quest, Druid's part - Earth Sphere.",
+        "behaviour": "Jagged Earth Elementals approach the player in close combat and do not run in low health.",
+        "strategy": "Run around and use Flame Strike. Maybe use Great Fireball if there are more then two. If you feel like bringing a rod, take a hailstorm rod because they are least resistant to ice.",
+        "loot": [
+            "Gold Coin",
+            "Lump of Earth",
+            "Natural Soil",
+            "Small Emerald",
+            "Small Stone",
+            "Twigs",
+            "Seeds",
+            "Clay Lump",
+            "Coal",
+            "Iron Ore",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Massive_Earth_Elemental",
+        "name": "Massive Earth Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b4/Massive_Earth_Elemental.gif/revision/latest?cb=20210420151055&path-prefix=en",
+        "attributes": {},
+        "notes": "In ancient times, the Massive Earth Elemental was often referred to as 'Walking Mountain'. Though of course not nearly as big as a mountain, it is indeed towering and quite heavy. The sheer power of an elemental of such size is staggering,  and whoever had the misfortune to face a Massive Earth Elemental knows why people of the past used to call this creature like this. The Massive Earth Elemental is as mindless as its smaller brother, but represents the more powerful version. Even though reports of the destruction of whole settlements by Massive Earth Elementals suggests that these elementals aim for bigger targets than their smaller kin, it has recently been discovered that attacks on artificial structures by earth elementals happen just as often as by massive ones. Their fame as town destroyers only arose from  their strength which allows them to be much more successful than its smaller version.It is unknown why earth elementals rise in different sizes. The followers of Crunor believe in a theory according to which this depends on the concentration of earth power in the mystic field.",
+        "abilities": [
+            "Melee (0-108+)",
+            "Boulder Explosion (95-300+)",
+            "Stalagmite (99-145+)",
+            "Poison Ball on itself (poisons you 10 hp /turn)",
+            "Poison Beam (poisons you 16 hp /turn)",
+            "Paralyze",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 55%",
+            "Holy 50%",
+            "Ice 85%",
+            "Fire 115%",
+            "Energy 10%",
+            "Earth 0%"
+        ],
+        "location": "Forbidden Lands, on top of a hill in the northern part of the Arena and Zoo Quarter, Lower Spike, Truffels Garden and Mushroom Gardens.",
+        "behaviour": "A massive earth elemental attacks in melee range. A massive earth elemental never retreats.",
+        "strategy": "Mages: Level 50-: Use Flame Strike while running or have knight as a blocker. Level 60+: Just stand still and use Flame Strike while healing when necessary. \nKnights must stand in diagonal to avoid beam and attack as normal. The best option is to use fire-enchanted weapons or using any form of scorch on your weapon as you will kill it a lot faster.\nPaladins should use their regular Spears and heal when needed, also GFB runes and fire bombs if you get swarmed.",
+        "loot": [
+            "Gold Coin",
+            "Lump of Earth",
+            "Small Stone",
+            "Small Topaz",
+            "Dwarven Ring",
+            "Rusted Armor",
+            "Small Diamond",
+            "Protection Amulet",
+            "Stone Skin Amulet",
+            "Clay Lump",
+            "Coal",
+            "Terra Amulet",
+            "Diamond Sceptre",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Medusa",
+        "name": "Medusa",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/60/Medusa.gif/revision/latest?cb=20091212001229&path-prefix=en",
+        "attributes": {},
+        "notes": "Although Medusae are relatively rare, even the earliest Tibian historians have mentioned them in their writings. There has been much speculation as to what exactly Medusae actually are and several theories were propagated. Legends have recounted stories of ancient priestesses punished in horrible ways for their vanity, creatures created as a result of forbidden rituals and some even have it that Medusae are the offspring of mankind and demons. While none of these stories is actually true, they do reflect the fact that Medusae are not regarded as a natural phenomenon, in fact, that their very existence is the result of a perversion of nature. This aspect of these stories does in fact reflect reality.Recent research conducted with the help of daring adventurers has shed a great deal of light upon the origin of Medusae. It has been discovered that they are in fact elemental creatures of earth. They are, or, more accurately, were spirits of nature and earth, probably closely related to dryads. Such spirits are known to be bound to specific places. Their appearance and nature is a reflection of the place they are bound to. While this is their strength it is also their vulnerability, as, if their home should become corrupted, the nature of the spirits bound to it becomes corrupted also. This is often a traumatic event for the unfortunate spirit, and if it does not result in the spirit's death, it is likely to drive it to madness. In the process of this change, the spirit is torn free of its link to its homeland, and is released to roam the land, spreading chaos and destruction in its wake. A tragic fate with tragic consequences.The myth of the Medusa's hideousness is greatly exaggerated - in fact it is the corruption and madness that ravages the former beauty of these creatures that creates the impression of ugliness. It is certainly not the mere sight of these beings that turns living beings into stone. Medusae are capable of petrifying their victims because they are magical beings, imbued with elemental powers which are a remnant from their previous lives, now sadly corrupted like the rest of their being. Driven by their madness and an unbearable sense of loss, they cannot bear to see beauty and attempt to destroy and corrupt what was once sacred to them to alleviate the pain they are suffering. This mentality makes them the natural consorts of demons and all things evil.Sometimes demons purposely desecrate holy sites of nature to force the creation of Medusae but that process more often then not just leads to the demise of the earth spirits. Medusae themselves are much more proficient in corrupting such places while corrupting the bound spirit as well in the process. So sometimes small covens of Medusae are formed and some of them have even managed to carve themselves a niche in the demonic hierarchy. Medusa is a mythological creature who could transform people, who looked directly into her eyes, into a statue. (See also: Medusa in Wikipedia).",
+        "abilities": [
+            "Melee (0-250 and starting up to 42 hp/turn)",
+            "1 to 5 Life Drain Terra Strikes simultaneously (75-150)",
+            "Terra Wave (250-500)",
+            "Great Smoke Bomb ( Paralysis )",
+            "Frequent Self-Healing (150-300)",
+            "Medusa's Gaze (changes your appearance into a stone statue)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Vandura Mountain (single spawn), Talahu (Medusa Cave), Deeper Banuta, Medusa Tower",
+        "behaviour": "They chase you to hit you in melee range. Retargets very often. Runs away at low health (around 600).  They sometimes deal deadly combos almost as dangerous as a demon. They have the ability to kill a level 80 knight with one strong combo. Soloing below 150 is possible but not recommended as they usually appear with many other Medusae, Hydras and Serpent Spawns.A medusa attacks in melee range.",
+        "strategy": "For all vocations: If you are soloing, heal after every hit because they can paralyze up to 5 times in 5 seconds. If you get paralyzed; be careful moving diagonally because it might delay your healing-spells and potions.\nDruids and Sorcerers can solo these on HP above level 150 as long as they stay diagonal, away from the terra wave. Depending on where you are, be careful of running into multiple  monsters, such as in Deeper Banuta, where it's very easy to run into Serpent Spawns, Hydras, and Bone Beasts. Druids should use Energy Strike or Sudden Death. Sorcerers should use a Wand of Defiance and Energy Strike if you're trying to be conservative.  If not, it is recommended to kill them quickly with Energy Wave or Great Energy Beam, with a blocker. Knights At level 150+ can solo Medusae if they are careful. The best strategy is to always remain diagonal to them, and to combine your melee with Brutal Strike, Whirlwind Throw and Berserk while spamming Wound Cleansing and Mana Potions. Heal with an Ultimate Health Potion if you get too low. When they run in red hp, you can finish them with an Annihilation. If they start fleeing, it is best to use Whirlwind Throw or Groundshaker and to try to get them to run in a direction opposite to where other monsters are, since they usually spawn close to Serpent Spawns and Hydras. At level 190+ a knight with skills 90+/90+ should be able to solo these while only using Wound Cleansing and staying diagonal. Hunting medusa will often be with a very little waste as they tend to drop a lot of sellable items.\nIf you are blocking Medusae in a team, keep your fingers ready to cast Challenge because they retarget very often. Paladins should kill them as quickly as possible. However you can, and it's recommended that you use a blocker, since running them is dangerous in places like Banuta, and difficult since they paralyze often.\nYou can also utilize Fire Wall Runes to keep a distance between you and the creature.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Strand of Medusa Hair",
+            "Ultimate Health Potion",
+            "Terra Amulet",
+            "Small Emerald",
+            "Medusa Shield",
+            "Knight Armor",
+            "Titan Axe",
+            "Terra Mantle",
+            "Sacred Tree Amulet",
+            "Terra Legs",
+            "Slightly Rusted Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Muddy_Earth_Elemental",
+        "name": "Muddy Earth Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e6/Muddy_Earth_Elemental.gif/revision/latest?cb=20221125091835&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-160)",
+            "Poof Explosion (0-180)",
+            "Big plants Beam (up to 6 hp /turn)",
+            "Earth Missile (70-110)",
+            "Poisoning Ball on itself",
+            "Paralyze (Small plants effect)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 60%",
+            "Holy 100%?",
+            "Ice 80%",
+            "Fire 115%",
+            "Energy 15%",
+            "Earth 0%"
+        ],
+        "location": "The Elemental Spheres Quest, Druid's part - Earth Sphere.",
+        "behaviour": "A muddy earth elemental attacks in melee range. A muddy earth elemental never retreats.",
+        "strategy": "Run around and use Flame Strike. It's good to use Great Fireball if there are more than two. If you feel like bringing a rod, take a hailstorm rod because they are least resistant to ice.",
+        "loot": [
+            "Gold Coin",
+            "Lump of Earth",
+            "Small Stone",
+            "Some Leaves",
+            "Natural Soil",
+            "Clay Lump",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Museum_Stone_Golem",
+        "name": "Museum Stone Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/83/Stone_Golem.gif/revision/latest?cb=20240228100524&path-prefix=en",
+        "attributes": {},
+        "notes": "Similar to a Stone Golem",
+        "abilities": [
+            "Melee (0-100?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts",
+        "behaviour": "Fights in close combat.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Iron Ore",
+            "Power Ring",
+            "Small Stone",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orewalker",
+        "name": "Orewalker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/ba/Orewalker.gif/revision/latest?cb=20120710204238&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orewalker is a creature of fire and heat. To be more precise, what seems to be the physical body of the Orewalker is just magma, stone and ores, held together by a spirit of heat and fire. The non-corporeal beings create the bodies by sheer force of will, which in turn serve as some kind of anchor in the physical world. If their bodies are destroyed, they are hurled back into the spirit realm from which they originate. It is hard to comment on the Orewalkers' intelligence and intentions, since they seem to be so unfamiliar with the world. Given the fact that they serve in the armies of those below, it is assumed that the Orewalker spirits are called from beyond and more or less forced into a physical body before being unleashed with some rudimentary orders. The spirits are probably highly intelligent, but given the differences between the worlds it seems impossible for any form of communication other than forcing them to do something. It is not known whether they follow those below for their own unfathomable reasons or are reluctant, perhaps even rebellious helpers. Given the treatment of other minions by those below, a form of slavery seems most likely, but an unholy alliance of sorts cannot be ruled out. Any experiments to call and bind such a spirit are futile as long as so little is known about those spirits and their world.In battle, the Orewalkers are somewhat clumsy. Only few of them seem to remain in our world long enough to get some sense of coordination. What they lack in manoeuvrability, they make up for in brutal strength of their snakelike bodies and the heat of the blood-like magma that flows within their veins.",
+        "abilities": [
+            "Melee (0-300+)",
+            "Groundshaker Beam (0-1500) Orewalker",
+            "Life Drain Spark Berserk (200-400?) Orewalker",
+            "Death Mana Drain Wave (200-400?) Orewalker",
+            "Viper Star Bomb (causes Poison at 54hp/turn) Orewalker",
+            "Spark wave (Unknown effect, maybe paralyzes you) Orewalker",
+            "Red Sparkles Explosion on self (Unknown effect) Orewalker"
+        ],
+        "resistance": [
+            "Physical 75%",
+            "Death 75%",
+            "Holy 100%",
+            "Ice 95%",
+            "Fire 35%",
+            "Energy 105%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 3.",
+        "behaviour": "Orewalkers will fight in close combat.An orewalker attacks in melee range. An orewalker never retreats.",
+        "strategy": "Druids and Sorcerers should use a Gill Coat, a Gill Gugel, Gill Legs and a Terra Amulet for protection because his Groundshaker beam always does a lot of damage.Paladins should avoid his spark Berserk because it drains Distance Fighting skill and make sure to avoid his Groundshaker beam as well.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Great Mana Potion",
+            "Green Crystal Shard",
+            "Iron Ore",
+            "Mana Potion",
+            "Prismatic Bolt",
+            "Pulverized Ore",
+            "Shiny Stone",
+            "Small Topaz",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Sulphurous Stone",
+            "Ultimate Health Potion",
+            "Vein of Ore",
+            "Dwarven Ring",
+            "Glorious Axe",
+            "Magic Sulphur",
+            "Titan Axe",
+            "Crown Helmet",
+            "Knight Legs",
+            "Wand of Defiance",
+            "Yellow Gem",
+            "Crown Armor",
+            "Crystal Crossbow",
+            "Crystalline Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sandstone_Scorpion",
+        "name": "Sandstone Scorpion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/73/Sandstone_Scorpion.gif/revision/latest?cb=20140214233942&path-prefix=en",
+        "attributes": {},
+        "notes": "The scorpion was the symbol of the ancient dynasties of the southern desert. For the early civilisation it was the embodiment of war and deadliness. The symbol of the scorpion is found at many different sites. Statues of scorpions used to be quite common in temples. Ancient mystics filled some of these statues with actual spirits of scorpions, or at least with something of what they thought to be such spirits. The repeated binding of spirits into the statues granted them some resemblance to living scorpions. Even when the mystics disappeared, the Sandstone Scorpions persisted. Forgotten in ancient tombs, they endured the ravages of time. Since every grain of sand in the statues is imbued with spirit energy, the sandstone bodies can be destroyed but not killed. Given some time, the seemingly dead body will crumble into sand that moves with a wind that no other can feel to some place where it will reform its former body to continue its existence.The poison they use is rather spiritual than physical. The study of this poison led to the refinement of antidote magic as we know it today. Instead of countering poison with the help of regenerative powers as it was custom practice in the past, modern antidote magic rather exorcises the poison itself. While some temples tie this process to the god Crunor who allowed the humans to learn the secret of poison curing, most scientifically inclined magic users see only a mindless but dangerous machine in the Sandstone Scorpion. They argue that it is only following orders of summoners long dead. On the other hand, priests argue that the Sandstone Scorpion is the embodiment of an animal spirit and therefore sacred to Crunor. They claim that it is working on Crunor's behalf, testing the battle prowess of heroes. Both interpretations admit though that the Sandstone Scorpion is a formidable foe that is guarding the holy places of the past.",
+        "abilities": [
+            "Melee (0-200)",
+            "Close Range Poisoned (Poisons up to 50hp/turn)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 110%",
+            "Ice 110%",
+            "Fire 60%",
+            "Energy 110%",
+            "Earth 10%"
+        ],
+        "location": "Horestis Tomb.",
+        "behaviour": "A sandstone scorpion attacks in melee range.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Small Emerald",
+            "Daramian Mace",
+            "Steel Helmet",
+            "Black Shield",
+            "Fist on a Stick",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shrieking_Cry-Stal",
+        "name": "Shrieking Cry-Stal",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/be/Shrieking_Cry-stal.gif/revision/latest?cb=20220621120822&path-prefix=en",
+        "attributes": {},
+        "notes": "Another strange elemental creature of Gnomprona is the shrieking cry-stal. This unassuming creature that can actually be easily mistaken for an ordinary inanimate crystal which ironically made them prey of the Emerald Tortoises and other mineral eating inhabitants of gnomprona. Those creatures are in for a nasty surprise as the Shrieking Cry-stals are driven by a malicious, yet alien intelligence as it seems and are more than able to fight back. The level or alienness of this intelligence is not known and hard to pinpoint. With lacks of means to interact with their environment it's almost impossible to gauge such things. At least it seems highly probable that they have a limited form of communication with each other and can join forces in a common goal. Still not all predators are warded off easily and now and then a Shrieking Cry-stal ends up in the bowels of another subterranean monster. Enthusiastic gnomish crystallomancers were more then eager to study this strange creature. One of their more disturbing findings is, that the Shrieking Cry-stals are not feasting on the corpses of their victims, but a residual energy that lingers on said corpses. Though final proofs are needed it seems that the Cry-stals somehow manage to devour the spirit or even the very soul of such poor creatures. If proven true this would be on one hand a disturbingly frightening and threatening finding, on the other hand it might open up a new field of crystallomancy that allows to interact with the spirit world. For a traveller in Gnomprona though it means he has not only to fear for his life but for his very soul. The Cry-stals seem to prefer areas with occurrences of natural crystals. If it's because such environments are more suitable for crystals or there is some kind of relation to the crystals has yet to be found out. Disturbingly the dangerous Shrieking Cry-stals thrive in any environment and probably only its inability to climb in any form might have prevented their spread into the rest of the world. Therefore extreme caution is advised to move such a Cry-stal from the Gnomprona area. The gnomish science committee has put a ban on exporting the Shrieking Cry-stals and restricted any research on them for anyone but the local challenger operation.",
+        "abilities": [
+            "Can deal Critical Hits",
+            "Fears target",
+            "Energy Chain (749-1356) Shrieking Cry-Stal",
+            "Shrieking Wave (1037) Shrieking Cry-Stal"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 100%",
+            "Holy 0%",
+            "Ice 95%",
+            "Fire 95%",
+            "Energy 90%",
+            "Earth 105%"
+        ],
+        "location": "Crystal Enigma",
+        "behaviour": "A shrieking cry-stal attacks from a distance.",
+        "loot": [
+            "Crystal Coin",
+            "Great Spirit Potion",
+            "Cry-Stal",
+            "Small Diamond",
+            "Rusted Armor",
+            "Green Crystal Fragment",
+            "Terra Boots",
+            "Protection Amulet",
+            "Violet Gem",
+            "Gold Ring",
+            "Green Gem",
+            "Ring of the Sky",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stone_Devourer",
+        "name": "Stone Devourer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2d/Stone_Devourer.gif/revision/latest?cb=20240228102542&path-prefix=en",
+        "attributes": {},
+        "notes": "The Stone Devourer is a creature that the dwarfs thought to be extinct, after they had exterminated all Stone Devourers they encountered in their caves and mines. The Stone Devourers have not been seen for centuries. Only recently have they resurfaced and sadly proven that the creatures the dwarfs encountered in the past were either a lesser variation or merely their juvenile forms. The true Stone Devourers are certainly more dangerous than those of the dwarven chronicles. They are underground dwellers displaying extreme aggressiveness and destructiveness. They often live in packs led by an alpha male. Oddly enough, the alpha seems to accept the submission of certain other races, which are then integrated into their packs. They are also alarmingly not territorial. Their packs wander the depths aimlessly, devouring and destroying everything in their way. The stone devourers are extremely resilient towards environmental conditions and seem not to mind to camp in areas that are extremely hazardous to other creatures. Therefore they often surprise wanderers who are familiar with the surroundings by attacking from unexpected places.",
+        "abilities": [
+            "Melee (0-991+)",
+            "Earth Missile (?-460)",
+            "Throws Boulder (600-650) Stone Devourer",
+            "Life Drain Stone Beam (600-1000+) Stone Devourer",
+            "Big Groundshaker Stone Devourer"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 70%",
+            "Holy 70%",
+            "Ice 70%",
+            "Fire 95%",
+            "Energy 70%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 1.",
+        "behaviour": "A stone devourer attacks in melee range. A stone devourer never retreats.",
+        "strategy": "Stay diagonal at all costs. Their life drain beam hits extremely hard.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Ancient Stone",
+            "Coal",
+            "Crystalline Arrow",
+            "Crystalline Spikes",
+            "Cyan Crystal Fragment",
+            "Great Mana Potion",
+            "Green Crystal Splinter",
+            "Mana Potion",
+            "Stone Nose",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Ultimate Health Potion",
+            "Dwarven Ring",
+            "Glorious Axe",
+            "Stone Skin Amulet",
+            "Sapphire Hammer",
+            "Spiked Squelcher",
+            "Crystal Mace",
+            "War Axe",
+            "Giant Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stone_Golem",
+        "name": "Stone Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/83/Stone_Golem.gif/revision/latest?cb=20240228100524&path-prefix=en",
+        "attributes": {},
+        "notes": "Stone Golems are kind of living rocks. All their limbs are out of stone, and they live on stones. They live in the dungeons of Edron, where they find their favourite food, granite with quartz. Normally, they are peaceful, but they can get very angry about adventurers trampling on their food and try to slay the intruder using their incredible power. Big and Resistant creatures, their stone skin protects them from almost every element.\nYou may hunt 200 of these as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-110)"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 80%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Maze of Lost Souls, in and around Ashta'daramai, Formorgar Mines, Mad Technomancer room, Dark Cathedral, Demona, Goroma, Tarpit Tomb, Peninsula Tomb, Deeper Banuta, Forbidden Lands, Beregar Mines, Farmine Mines, Drillworm Caves, 2 caves on Hrodmir (here and here), Orc Fortress (single spawn, here) and Medusa Tower.",
+        "behaviour": "Stone Golems chase their opponents, and will not run from a fight.A stone golem attacks in melee range.",
+        "strategy": "They don't take off high damage, a medium leveled knight should be able to block them easily. Paladins should run and shoot. Mages should just run around and use Ice Strike along with their strongest ice wand/rod. Treat it like a strong cyclops.",
+        "loot": [
+            "Gold Coin",
+            "Small Stone",
+            "Sulphurous Stone",
+            "Power Ring",
+            "Carlin Sword",
+            "Iron Ore",
+            "Ancient Stone",
+            "Shiny Stone",
+            "Coal",
+            "Piece of Marble Rock",
+            "Crystal Ring",
+            "Red Gem",
+            "Loot Statistics"
+        ]
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Alicorn_Quiver",
+        "name": "Alicorn Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/71/Alicorn_Quiver.gif/revision/latest?cb=20220630021527&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "paladins",
+            "Attributes": "magic level +1, perfect shot +20 at range 3",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "20.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Volume": "12",
+            "Usable": true,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nPart of the Alicorn Set.\nIt is a possible reward of the Primal Ordeal Quest, which guarantees one random item from the Primal Set through the Hazard System.",
+        "dropped_by": [
+            "Magma Bubble",
+            "Plunder Patriarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blue_Quiver",
+        "name": "Blue Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Blue_Quiver.gif/revision/latest?cb=20201021022516&path-prefix=en",
+        "attributes": {
+            "Vocation": "paladins and without",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "17.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "400 gp",
+            "Blocking": false,
+            "Volume": "6",
+            "Usable": true,
+            "Version": "12.55.10451November 23, 2020Vocation Adjustments 2020"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Candy-Coated_Quiver",
+        "name": "Candy-Coated Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/92/Candy-Coated_Quiver.gif/revision/latest?cb=20240604133115&path-prefix=en",
+        "attributes": {
+            "Level": "200",
+            "Vocation": "paladins",
+            "Resists": "fire +2%",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "18.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Movable": "✓",
+            "Volume": "8",
+            "Usable": true,
+            "Version": "13.40.54ea79July 01, 2024Summer Update 2024"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Sugar Daddy"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eldritch_Quiver",
+        "name": "Eldritch Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/94/Eldritch_Quiver.gif/revision/latest?cb=20210526222859&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "paladins",
+            "Attributes": "perfect shot +20 at range 4",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "22.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Volume": "8",
+            "Usable": true,
+            "Version": "12.70.10953July 12, 2021Summer Update 2021"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Brainstealer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Jungle_Quiver",
+        "name": "Jungle Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c9/Jungle_Quiver.gif/revision/latest?cb=20201106172459&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Vocation": "paladins",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "18.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Volume": "8",
+            "Usable": true,
+            "Version": "12.60.10463November 30, 2020Winter Update 2020"
+        },
+        "notes": "Notes\nIt's part of the Jungle Set.",
+        "dropped_by": [
+            "Ratmiral Blackwhiskers"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Naga_Quiver",
+        "name": "Naga Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/78/Naga_Quiver.gif/revision/latest?cb=20220621153126&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "paladins",
+            "Resists": "ice +2%",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "19.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Volume": "8",
+            "Usable": true,
+            "Version": "12.90.12182July 18, 2022Summer Update 2022"
+        },
+        "notes": "Notes\nIt's part of the Naga Set.",
+        "dropped_by": [
+            "Timira the Many-Headed"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quiver",
+        "name": "Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2e/Quiver.gif/revision/latest?cb=20201013043620&path-prefix=en",
+        "attributes": {
+            "Vocation": "paladins and without",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "17.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "400 gp",
+            "Blocking": false,
+            "Volume": "6",
+            "Usable": true,
+            "Version": "12.55.10451November 23, 2020Vocation Adjustments 2020"
+        },
+        "notes": "Notes\nOnce a week, a quiver can be obtained on Rookgaard in a chest next to Blind Orc, here.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Red_Quiver",
+        "name": "Red Quiver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f8/Red_Quiver.gif/revision/latest?cb=20201021022528&path-prefix=en",
+        "attributes": {
+            "Vocation": "paladins and without",
+            "Classification": "Body EquipmentQuivers",
+            "Pickupable": true,
+            "Weight": "17.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "400 gp",
+            "Blocking": false,
+            "Volume": "6",
+            "Usable": true,
+            "Version": "12.55.10451November 23, 2020Vocation Adjustments 2020"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": []
+    }
+]

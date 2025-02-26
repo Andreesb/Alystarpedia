@@ -1,0 +1,154 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Amazon",
+        "name": "Amazon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9c/Amazon.gif/revision/latest?cb=20180206145415&path-prefix=en",
+        "attributes": {},
+        "notes": "Amazons are communities of martial women who have erected some hideouts in the swamps in the east of Tibia. They attack every intruder of their sphere vigorously and cut off the heads of their victims in order to keep them as some kind of trophies. They are not only quite strong in close combat but are also able to throw knives with deadly precision. Amazons are strong warriors that collect the heads of their victims. An amazon that collects 13 skulls is promoted to a valkyrie. They are wild women that battle for their liberty and hate it when somebody invades their camp.Note that all female characters can dress like an Amazon. On worlds where Player Killing is allowed, this could be a problem, because someone might attack you thinking you were an Amazon.",
+        "abilities": [
+            "Melee (0-45)",
+            "Throws Knives (0-40) Amazon"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Venore Amazon Camp, Carlin Amazon Camp, Amazon Tower, east of Carlin, underneath the Fields of Glory, west of Venore here, Oasis Tomb, on the smallest of the Laguna Islands, Foreigner Quarter and Trade Quarter.",
+        "behaviour": "Amazons will always try to keep a distance from any attacker. They will try to lure you into bigger packs of amazons!An amazon attacks from a distance.",
+        "strategy": "Be careful. Sometimes they are accompanied by Valkyries. They have moderately weak defense and they die fast. They are good for mages using wands as with full defense and basic equipment they practically don't damage you. They also stand at an ideal range (4 squares away) to be hit by wave attacks like Ice and Fire Wave. This can be a mana-conservative way to kill multiple Amazons at once. Knights should just charge and slay using melee but beware of luring large amounts.",
+        "loot": [
+            "Gold Coin",
+            "Skull (Item)",
+            "Dagger",
+            "Brown Bread",
+            "Sabre",
+            "Girlish Hair Decoration",
+            "Protective Charm",
+            "Torch",
+            "Crystal Necklace",
+            "Small Ruby",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_an_Amazon",
+        "name": "Memory of an Amazon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Memory_of_an_Amazon.gif/revision/latest?cb=20220108232507&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a strengthened Amazon.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of an amazon attacks in melee range. A memory of an amazon will retreat at 20  (0.56%, deep red) health.",
+        "loot": [
+            "Small Ruby",
+            "Brown Bread",
+            "Torch",
+            "Special Fx Box",
+            "Gold Coin",
+            "Sabre",
+            "Skull (Item)",
+            "Dagger",
+            "Candy Floss (Large)",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Valkyrie",
+        "name": "Valkyrie",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Valkyrie.gif/revision/latest?cb=20180206145412&path-prefix=en",
+        "attributes": {},
+        "notes": "Valkyries are the upper caste of the amazons, communities of martial women living in the swamps in the east of Tibia. They are even stronger in close combat and use their spears skilfully for distance fighting. Every amazon who has proven her bravery by taking the skulls of thirteen opponents will be promoted to a Valkyrie. These creatures are stronger than an amazon and have better loot. Note that all female characters can dress like a Valkyrie. On worlds where Player Killing is allowed, this could be a problem, because someone might attack you, thinking that you are a Valkyrie.",
+        "abilities": [
+            "Melee (0-70)",
+            "Throws Spears (0-50) Valkyrie"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 105%",
+            "Holy 95%",
+            "Ice 90%",
+            "Fire 90%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Amazon Camp (Venore), Amazon Camp (Carlin), Amazonia, single respawn to the north west of Thais, Foreigner Quarter in Yalahar.",
+        "behaviour": "Valkyries run in low health.A valkyrie attacks in melee range. A valkyrie will retreat at 10  (5.26%, red) health.",
+        "strategy": "It is better to attack them from distance because their Spears are weaker than their Melee fighting. Usually found around Amazons and/or Witches.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Spear",
+            "Chain Armor",
+            "Red Apple",
+            "Girlish Hair Decoration",
+            "Protection Amulet",
+            "Hunting Spear",
+            "Protective Charm",
+            "Health Potion",
+            "Plate Armor",
+            "Skull (Item)",
+            "Double Axe",
+            "Small Diamond",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Witch",
+        "name": "Witch",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ae/Witch.gif/revision/latest?cb=20060327035711&path-prefix=en",
+        "attributes": {},
+        "notes": "Witches are magically skilled women that usually live deep in the forests and swamps of Tibia. There they collect herbs and other ingredients, e.g. parts of dead animals, from which they brew potions in their large iron cauldrons. Rumour has it that they can fly using their brooms. Most of them are quite malicious and short-tempered and attack adventurers by casting fireballs at them. Witches are women with strong magical abilities. They are frequently found with Amazons and Valkyries, and have become very involved with cult activities on the Shattered Isles. Some people believe that Witches are leaders of the amazons and valkyries. Although Witches only use fire attacks, they are not immune to fire.",
+        "abilities": [
+            "Melee (0-26)",
+            "Fire Missile (25-55) Witch",
+            "Creates Fire Fields Witch",
+            "Shapeshifting (Turns victims into; Green Frog )"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 80%"
+        ],
+        "location": "Vandura, west of the Dwarf Mines in a small house (here), Amazon Tower north of Carlin, Triangle Tower, Temple of Xayepocax, Green Claw Swamp and Amazon Camp (Venore), Dark Cathedral (2 levels underground), Goroma Volcano (underground), west from Necromant House, Mammoth Shearing Factory, Trade Quarter in Yalahar, The Witches' Cliff (only accessible during a quest).",
+        "behaviour": "Witches always try to stay away from the attacker, so they can burn you with their powerful fire missiles at a distance. They can rarely transform you into a Green Frog.A witch attacks from a distance.",
+        "strategy": "Be careful because they can attack you even before you see them. If you are alone, do not attack more than one witch, since they can damage you fairly fast.\nMages: would best use either Wand of Inferno or Necrotic Rod, otherwise either using Explosion or Great Fireball depending on how many there are. If you are planning to hunt them, you can summon a Fire Elemental as a mage.\nKnights: should just run up to them and kill them. Try to block her in a corner with other objects or monsters, so she can't run away. A knight can kill a Witch with a Melee Skill of 55 very easily, but just watch out for their fire fields, as they can become a pain if killing more than one witch at a time. If you block them in a corner, they will usually stop spamming their fire attacks and use their weak melee instead.\nPaladins: should stand still and kill them from distance.",
+        "loot": [
+            "Gold Coin",
+            "Cookie",
+            "Star Herb",
+            "Witch Broom",
+            "Wolf Tooth Chain",
+            "Leather Boots",
+            "Cape",
+            "Garlic Necklace",
+            "Sickle",
+            "Coat",
+            "Bag of Apple Slices",
+            "Necrotic Rod",
+            "Silver Dagger",
+            "Witch Hat",
+            "Stuffed Toad",
+            "Loot Statistics"
+        ]
+    }
+]

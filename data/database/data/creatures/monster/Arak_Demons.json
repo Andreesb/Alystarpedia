@@ -1,0 +1,251 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Askarak_Demon",
+        "name": "Askarak Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e3/Askarak_Demon.gif/revision/latest?cb=20110629231448&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (20-140)",
+            "Poison Explosion (25-60) Askarak Demon",
+            "Poison Wave (130-170) Askarak Demon",
+            "Poison Beam (75-140) Askarak Demon",
+            "Paralyze Askarak Demon"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 40%",
+            "Fire 125%",
+            "Energy 40%",
+            "Earth 0%"
+        ],
+        "location": "Demonwar Crypt (teleporter before vampire shield quest).",
+        "behaviour": "An askarak demon attacks in melee range. An askarak demon never retreats.",
+        "strategy": "Avoid their beams and waves and kill them with fire or physical based attacks.",
+        "loot": [
+            "Gold Coin",
+            "Small Emerald",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Assassin Star",
+            "Brown Mushroom",
+            "Energy Ring",
+            "Piggy Bank",
+            "Springsprout Rod",
+            "Mastermind Potion",
+            "Magic Sulphur",
+            "Terra Legs",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Askarak_Lord",
+        "name": "Askarak Lord",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a7/Askarak_Lord.gif/revision/latest?cb=20110701104342&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-250+)",
+            "Poison Explosion (0-?) Askarak Lord",
+            "Poison Wave (0-?) Askarak Lord",
+            "Poison Beam (0-?) Askarak Lord",
+            "Paralyze Askarak Lord"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 35%",
+            "Fire 120%",
+            "Energy 35%",
+            "Earth 0%"
+        ],
+        "location": "Demonwar Crypt.",
+        "behaviour": "An askarak lord attacks in melee range.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Small Emerald",
+            "Strong Mana Potion",
+            "Strong Health Potion",
+            "Brown Mushroom",
+            "Energy Ring",
+            "Magic Sulphur",
+            "Mastermind Potion",
+            "Springsprout Rod",
+            "Assassin Star",
+            "Terra Mantle",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Askarak_Prince",
+        "name": "Askarak Prince",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/06/Askarak_Prince.gif/revision/latest?cb=20110701104155&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-350+)",
+            "Self-Healing (50-150)",
+            "Poison Explosion (50-150) Askarak Prince",
+            "Poison Wave (70-250) Askarak Prince",
+            "Poison Beam (100-200) Askarak Prince",
+            "Paralyze Askarak Prince"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 30%",
+            "Fire 115%",
+            "Energy 30%",
+            "Earth 0%"
+        ],
+        "location": "Demonwar Crypt",
+        "behaviour": "An askarak prince attacks in melee range. An askarak prince never retreats.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Small Emerald",
+            "Brown Mushroom",
+            "Stealth Ring",
+            "Mastermind Potion",
+            "Terra Mantle",
+            "Magic Sulphur",
+            "Springsprout Rod",
+            "Demonic Finger",
+            "Giant Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shaburak_Demon",
+        "name": "Shaburak Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/33/Shaburak_Demon.gif/revision/latest?cb=20110629223805&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-140)",
+            "Fire Explosion around itself (20-60) Shaburak Demon",
+            "Fire Wave (70-140) Shaburak Demon",
+            "Fire Beam (130-170) Shaburak Demon",
+            "Paralyze Shaburak Demon",
+            "Self-Healing (100-150)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 40%",
+            "Fire 0%",
+            "Energy 40%",
+            "Earth 125%"
+        ],
+        "location": "Demonwar Crypt.",
+        "behaviour": "A shaburak demon attacks in melee range. A shaburak demon never retreats.",
+        "strategy": "Avoid their beams and waves and kill them with earth or physical based attacks.",
+        "loot": [
+            "Gold Coin",
+            "Royal Spear",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Brown Mushroom",
+            "Small Ruby",
+            "Bullseye Potion",
+            "Energy Ring",
+            "Piggy Bank",
+            "Wand of Inferno",
+            "Magma Legs",
+            "Magic Sulphur",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shaburak_Lord",
+        "name": "Shaburak Lord",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a8/Shaburak_Lord.gif/revision/latest?cb=20110701103759&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-250)",
+            "Fire Explosion around itself (30-75) Shaburak Lord",
+            "Fire Wave (80-170) Shaburak Lord",
+            "Fire Beam (140-200) Shaburak Lord",
+            "Paralyze Strike Shaburak Lord",
+            "Self-Healing (100-250)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 100%",
+            "Ice 35%",
+            "Fire 0%",
+            "Energy 35%",
+            "Earth 120%"
+        ],
+        "location": "Demonwar Crypt",
+        "behaviour": "A shaburak lord attacks in melee range.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Small Ruby",
+            "Energy Ring",
+            "Brown Mushroom",
+            "Wand of Inferno",
+            "Magic Sulphur",
+            "Bullseye Potion",
+            "Magma Coat",
+            "Steel Boots",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shaburak_Prince",
+        "name": "Shaburak Prince",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/aa/Shaburak_Prince.gif/revision/latest?cb=20110701103820&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-350)",
+            "Fire Explosion around itself (40-90) Shaburak Prince",
+            "Fire Wave (100-200) Shaburak Prince",
+            "Fire Beam (150-250) Shaburak Prince",
+            "Paralyze Shaburak Prince",
+            "Self-Healing (100-150)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 105%",
+            "Ice 30%",
+            "Fire 0%",
+            "Energy 30%",
+            "Earth 115%"
+        ],
+        "location": "Demonwar Crypt",
+        "behaviour": "A shaburak prince attacks in melee range. A shaburak prince never retreats.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Small Ruby",
+            "Brown Mushroom",
+            "Stealth Ring",
+            "Magma Coat",
+            "Wand of Inferno",
+            "Magic Sulphur",
+            "Bullseye Potion",
+            "Butcher's Axe",
+            "Steel Boots",
+            "Demonic Finger",
+            "Loot Statistics"
+        ]
+    }
+]

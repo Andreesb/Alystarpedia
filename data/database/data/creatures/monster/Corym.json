@@ -1,0 +1,680 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Corym_Charlatan",
+        "name": "Corym Charlatan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f2/Corym_Charlatan.gif/revision/latest?cb=20180417200330&path-prefix=en",
+        "attributes": {},
+        "notes": "The Charlatans are the scouts and spies of the Corym. They are formidable diggers and unsurpassed in agility by any other Corym. They are able to crawl through even the smallest and most twisted tunnels, and reach places where other Corym can not go. As opportunity makes thieves, other races consider the Charlatans to be the worst of thieves, but by other Corym, they are held in regard as daring heroes. Their campfire stories are full of the exploits of the Charlatans, and detail how they outsmarted and outran their enemies. In combat, the Charlatans like to fight dirty. What they lack in strength they make up for in agility, and their attacks are often aimed at vulnerable spots and accompanied by feints, to catch their opponents off guard. The more Charlatans are involved in a fight to overpower an enemy, the bolder their attacks. Although they generally tend to be rather cowardly, most Charlatans are so convinced of the superiority of the numerous talismans and fetishes they wear that they will not back away even from a fight with more powerful opponents; and the Corym believe that through their talismans, a kind of supernatural power is bestowed upon them as well. They fervently pose as healers, diviners and magicians, utterly trusting their charms and ignoring all facts that might contradict their conviction.Charlatans are usually the first to be encountered if Corym move into an area, and if a single Corym is encountered, it is usually a Charlatan. On the other hand, as a saying goes, for one Charlatan you see there are always two more in hiding, and indeed Charlatans generally travel in packs. The death rate of the Charlatans is incredibly high and only the immense reproduction rate of the Corym still keeps them in existence. Oddly enough, most Corym that are born are found suitable by the Skirmishers to belong to the Charlatans. This is even more true in times of war. The Corym see this as a sign of their gods' favour.",
+        "abilities": [
+            "Melee (0-100+?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 85%",
+            "Holy 105%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 75%",
+            "Earth 75%"
+        ],
+        "location": "Venore Corym Cave, Tiquanda Corym Cave, Corym Black Market, Carlin Corym Cave/Dwarf Mines Diggers Depths Mine, Upper Spike.",
+        "behaviour": "A corym charlatan attacks in melee range. A corym charlatan never retreats.",
+        "strategy": "Knights of level 20 with 60/60 skills and decent armor can fight up to 4 at a time using Wound Cleansing and Health Potions. Very similar to a Cyclops.",
+        "loot": [
+            "Gold Coin",
+            "Rat Cheese",
+            "Soft Cheese",
+            "Cheese",
+            "Bola",
+            "Earflap",
+            "Cheese Cutter",
+            "Ratana",
+            "Life Preserver",
+            "Leather Harness",
+            "Cheesy Figurine",
+            "Spike Shield",
+            "Rat God Doll",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Corym_Skirmisher",
+        "name": "Corym Skirmisher",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b6/Corym_Skirmisher.gif/revision/latest?cb=20180417200543&path-prefix=en",
+        "attributes": {},
+        "notes": "The Skirmishers are the leaders, priests and oracles of the Corym. They divine the will of their gods, interpret omen and are responsible for the laws of the Corym civilisation. Oddly enough, the abilities of the Skirmishers are quite similar to that of others, regardless of whether they serve as justice squeakers, priests of their Snake God of Death, or mushroom-eating diviners of future events. They claim to gain knowledge by consuming books of all kind. Consuming here actually means eating the books. It is deemed a fact that a Skirmisher who has eaten a lot of books is more powerful than his brethren; but whether these two circumstances are truly linked to each other is still unknown. Skirmishers employ a lot of tricks that they claim are magic, together with simple forms of alchemy and medicine, and most notably poisons. It is verified that Skirmishers use a lot of alcohol to 'magically' make Corym warriors fearless and 'mighty'. It is the Skirmishers who create the numerous charms and fetishes that are highly prized by their kin; and given the superstition common throughout the Corym society, the superior status of the Skirmishers is absolutely undisputed. Admittedly only the most cunning of the Corym make up the ranks of the Skirmishers. As their attitude is to 'support their brethren from behind the lines' and to let others finish all dirty and dangerous work, while they have the authority over the best Corym resources, they attain great ages for the usually short-lived Corym and acquire a lot of experience and knowledge. This they only impart to their minion who are trained to become Skirmishers; and it gives them an edge over the other, often somewhat reclusive groups in Corym society and ensures their leadership. Another source of the Skirmisher's influence over other Corym is their secret knowledge of cheese production. Given to them by the gods, this sacred knowledge enables the Skirmishers to work the 'wonder of cheese' and supposedly gives them access to special cheese magic. The ritual of divining the future by the smell of the sacred cheese and the devouring of the cheese by the oracle is a spiritual experience for the Corym community... and a free first-class meal for the oracle. The identity of the second 'very rare' loot item remains unknown at this time.",
+        "abilities": [
+            "Melee (0-150)",
+            "Whirlwind Throw (0-90+) Corym Skirmisher"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 105%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 85%",
+            "Earth 75%"
+        ],
+        "location": "Venore Corym Cave, Tiquanda Corym Cave, Corym Black Market, Carlin Corym Cave/Dwarf Mines Diggers Depths Mine, Upper Spike.",
+        "behaviour": "Nothing special, behaviour similar to cyclops, rushes at you.A corym skirmisher attacks in melee range. A corym skirmisher never retreats.",
+        "strategy": "They are usually in groups, corym skirmisher alone is weak, but in group they can hit hard with their melee, so be careful.",
+        "loot": [
+            "Gold Coin",
+            "Cheese",
+            "Rat Cheese",
+            "Soft Cheese",
+            "Cheese Cutter",
+            "Earflap",
+            "Bola",
+            "Life Preserver",
+            "Ratana",
+            "Cheesy Figurine",
+            "Spike Shield",
+            "Leather Harness",
+            "Rat God Doll",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Corym_Vanguard",
+        "name": "Corym Vanguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/db/Corym_Vanguard.gif/revision/latest?cb=20130719005130&path-prefix=en",
+        "attributes": {},
+        "notes": "The Vanguards are the gatherers, tinkerers and craftsmen of the Corym. Usually of a build somewhat more muscular and hardy than the regular Corym, they have many responsibilities in the Corym society. They are the guards that keep vigil over the den and all resources. They craft the crude but mean weaponry of the Corym, and repair stolen or found goods to render them suitable for Corym usage. Most importantly, certain Vanguards are responsible for keeping the slime tunnel system running. The slime tunnels are a well-kept secret of the Corym and work with specially prepared slime and swamp gases to provide long-range transport between remote Corym dens, in a way everyone else would consider rather disgusting as well as insanely dangerous. The gruesome accidents in the tunnel system are usually discarded as the failure of a charm the deceased, or crippled user had been wearing.There is nothing a Vanguard cannot put to good use. They collect all kinds of stuff, broken or new, and stockpile it for later use. It is a great disgrace for a Vanguard not to have something somewhere, for to at least temporally fix something or rather, everything - aside from their ordinary tasks, most Vanguards consider themselves inventors. Whenever possible, they mix and match the pieces of their collection with each other, often with no clue as to what it is they are working on. Most of the time, the outcome is completely unreliable or unusable; a fact no Vanguard would ever admit. Inasmuch as possible, they convince others to wear, use or try out their inventions. Given the fact that there are only very few volunteers, this is usually handled by a complex system of 'I owe you'. When someone accepts a favour from a Vanguard, he should expect to become a test subject of some kind of invention at a future point.The Vanguards are more robust, better trained and far better equipped than their kin. In times of war, they are therefore found in the front lines of battle; and even in combat, the Vanguards like to try out something new. As this is not merely limited to weapons, but includes all kinds of tactics and attacks, the Vanguard is quite an unpredictable opponent always full of nasty surprises.",
+        "abilities": [
+            "Melee (0-140+)",
+            "Poison Wave (50-90+) Corym Vanguard",
+            "Death Ball (40-60+) Corym Vanguard",
+            "Self-Healing (17-60+) Corym Vanguard"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 90%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Venore Corym Cave, Tiquanda Corym Cave, Corym Black Market, Carlin Corym Cave/Dwarf Mines Diggers Depths Mine, Upper Spike.",
+        "behaviour": "A corym vanguard attacks in melee range. A corym vanguard will retreat at 50  (7.14%, red) health.",
+        "strategy": "Knights: If you have a low level or skills and fight against more than two Corym at once, it's best to use exori while trying to stay diagonal to the Corym Vanguard to avoid its wave.\nMages:  Use fire or death damaging attacks, while staying diagonal. When in a Corym Cave, it's recommended that you stay Invisible even if the Vanguards can sense invisibility.\nPaladins:  At level 25 with decent stats and Royal spear can just run them like other creatures, carry Health Potions for safety. They are easy profit.",
+        "loot": [
+            "Gold Coin",
+            "Cheese",
+            "Bola",
+            "Cheese Cutter",
+            "Earflap",
+            "Soft Cheese",
+            "Rat Cheese",
+            "Spike Shield",
+            "Ratana",
+            "Life Preserver",
+            "Cheesy Figurine",
+            "Leather Harness",
+            "Spiky Club",
+            "Rat God Doll",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Little_Corym_Charlatan",
+        "name": "Little Corym Charlatan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d1/Little_Corym_Charlatan.gif/revision/latest?cb=20180710153638&path-prefix=en",
+        "attributes": {},
+        "notes": "They can only be reached during the Sabotage task of the Venore Daily Tasks Quest.",
+        "abilities": [
+            "Melee (0-14)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Venore marshes, in a cave here.",
+        "behaviour": "Fights until death.A little corym charlatan attacks in melee range.",
+        "strategy": "Simply kill them, they are not strong.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/1st_Mate_Ratticus",
+        "name": "1st Mate Ratticus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c8/1st_Mate_Ratticus.gif/revision/latest?cb=20221102193619&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the third phase against the fight with Ratmiral Blackwhiskers of A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Rascacoon - The Wreckoning",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cheese_Thief",
+        "name": "Cheese Thief",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/32/Cheese_Thief.gif/revision/latest?cb=20201202201711&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the supply mission in A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (0-100?)",
+            "Drowning (0-200?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Rascacoon",
+        "strategy": "Use a Helmet of the Deep to counter its drown damage. Just kill it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elite_Pirat",
+        "name": "Elite Pirat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/40/Elite_Pirat.gif/revision/latest?cb=20221102201114&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the fight against Ratmiral Blackwhiskers of A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Rascacoon",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mister_Catkiller",
+        "name": "Mister Catkiller",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/88/Mister_Catkiller.gif/revision/latest?cb=20221102193505&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the second phase against the fight with Ratmiral Blackwhiskers of A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Rascacoon - The Wreckoning",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Artillerist",
+        "name": "Pirat Artillerist",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bb/Pirat_Artillerist.gif/revision/latest?cb=20220807215718&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the fight against Ratmiral Blackwhiskers of A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rascacoon",
+        "strategy": "You can't do much about them directly other than using Life Drain protection to reduce their damage.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Bombardier",
+        "name": "Pirat Bombardier",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/70/Pirat_Bombardier.gif/revision/latest?cb=20220129230307&path-prefix=en",
+        "attributes": {},
+        "notes": "It takes an unhealthy amount of foolishness or bravery to handle the unstable substance that green powder is. The pirat bombadiers seem to have plenty of both of them. Couple this with a love for fire and explosions and you get the dangerous mixture of which the pirat bombardiers consist. Whenever there is any task that involves fire, destruction and chaos, the bombardiers are the rats to be sent. And they are not shy to volunteer, as after a string of deadly mishaps before the heydays of pirat-dom, they are not allowed to handle their explosives without permission. So whenever they are ordered to employ their deadly weapons, their whole destructive potential is unleashed with glee. It is said that their favourite diet is the very cheese the green powder mold is growing on and over time the oldest bombardiers become explosive on their own. This myth is yet to be verified since the usual bombardiers behaviour isn't suited for a long live and old age. In fact the life of a bombardier is usually short and fiery. Even without bombs the bombardiers are discernable by burn marks, ashed fur and smouldered whiskers. Even without explosives at hand this pirats have a penchant for everything that burns. The most sane and stable bombardiers are employed as cannoneers and enjoy a certain amount of status amongst the crews. Other bombardiers though look upon them with disdain and have only contempt for this 'tamed fire'. In their spare time many bombardiers become cooks, although the only dish they serve is commonly coal.\nTo some of them it's the epitome of their destructive existence, to cause as much destruction as possible in their final act and leave the mortal world in a blaze of glory. In the end they really love the smell of green powder in the morning.",
+        "abilities": [
+            "Melee (0-350? at most 2 hits)",
+            "Burst Arrow (80-160?) Pirat Bombardier",
+            "Energy Missile (110-160?) Pirat Bombardier",
+            "Chain attack (70-120?) Pirat Bombardier"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 90%",
+            "Earth 120%"
+        ],
+        "location": "Pirat Mine, The Wreckoning",
+        "behaviour": "Attacks from a distance. If you get into melee range, they use a strong physical attack, but their weapon breaks after two hits. After that, they only use Energy Damage.A pirat bombardier attacks from a distance. A pirat bombardier never retreats.",
+        "strategy": "Be careful of their strong melee attack at the start of the fight. Use Earth Damage against them, and consider using items with Energy Resistance. It is not clear if its chain attack hits more than one player, it may hit players diagonally up to 4sqm.",
+        "loot": [
+            "Great Mana Potion",
+            "Terra Boots",
+            "Pirate Coin",
+            "Mouldy Powder",
+            "Pirat's Tail",
+            "Magma Boots",
+            "Lightning Boots",
+            "Ring of Blue Plasma",
+            "Wood Cape",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Cutthroat",
+        "name": "Pirat Cutthroat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Pirat_Cutthroat.gif/revision/latest?cb=20220129225839&path-prefix=en",
+        "attributes": {},
+        "notes": "The rank and file crew of the Coyrm pirats consists mainly of cutthroats. Drawn to the seas by promises of cheese and plunder, young Corym join the ranks of the pirats in great numbers. When they realize that the life of a pirat is not the land of cheese and honey that was promised, it's already too late to leave. The sea demands a high death toll amongst the recruits and the crews have to be replenished constantly. Luckily enough for the pirat captains the lure of their promises is strong enough to ensure a steady stream of conscripts so that they simply don't care. Equipped with only the most basic weapons and armour a cutthroat is usually highly depended on his scavenging skills to steal and improvise better equipment, in their desperate battle to survival. A pirats life is cheap and this is employed by their superiors to the fullest. Why waste expensive green powder on an enemy, that can also be brought down is you only throw enough cutthroats against them. Any halve seasoned pirat is aware of this and tries it's best to raise through the ranks, so it will be them, who sends others to their deaths. While there is a lot backstabbing and treachery amongst those most lowly of pirats, a thing are to be seen is any glimmer of bravery. Only in great numerous advantage the cutthroats show the slightest chance of overcoming their cowardice and even then they are more than willing to shove any crewmate into harms way, to ensure their own survival. They will only ever make two melee hits. As they frequently drop ice rapiers, it could be assumed that they use them as weapons, however their melee attacks are 100% physical damage.",
+        "abilities": [
+            "Melee (0-400? at most 2 hits)",
+            "Smoke wave (100-140?) Pirat Cutthroat",
+            "Blood Exori (120-160?) Pirat Cutthroat"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 120%"
+        ],
+        "location": "Pirat Mine, The Wreckoning, Krailos Steppe.",
+        "behaviour": "Fights in close combat. They use a strong physical attack, but their weapon breaks after two hits.A pirat cutthroat attacks in melee range. A pirat cutthroat never retreats.",
+        "strategy": "Be careful of their strong melee attack at the start of the fight. Use Earth Damage against them, and consider using items with Energy Resistance.",
+        "loot": [
+            "Great Health Potion",
+            "Ice Rapier",
+            "Knight Axe",
+            "Crystal Sword",
+            "Pirate Coin",
+            "Crowbar",
+            "Knight Armor",
+            "Focus Cape",
+            "Pirat's Tail",
+            "Shark Fins",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Guard",
+        "name": "Pirat Guard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/03/Pirat_Guard.gif/revision/latest?cb=20201208230552&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Stealth mission of A Pirate's Tail Quest.",
+        "abilities": [
+            "Kicks you out of the room if you get close to it"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rascacoon",
+        "behaviour": "They do not move.",
+        "strategy": "Never walk near them or you'll fail at the mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Mate",
+        "name": "Pirat Mate",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/df/Pirat_Mate.gif/revision/latest?cb=20220129230441&path-prefix=en",
+        "attributes": {},
+        "notes": "The life of a pirat is often bloody and short. Those who survive more than a few seasons on the high seas become battle hardened veterans and are commonly promoted to more responsible positions. A pirate that acquires such a status will never grew bored in letting their ship mates know about it. As battle-hardened veterans of many campaigns they know how to wield their weapons with a certain amount of skill and finesse and how to use their expendable crews to the fullest. In a crew that has to be ambitious to survive, they have to be the most ambitious and resourceful of the bunch and walk over many corpses on their bloody way to the top. This leaves little space to make any friends though short lived alliances in a common goal are not uncommon. Each alliance ends in a foreseeable backstabbing though. As it isn't wise to keep enemies and competitors alive the death toll amongst aspiring mates is particularly high. Yet this unnatural selection leads to especially skilled and shrewd mates in the long run.\nThe mates have little restraint to further their own agendas by sacrificing loads of underlings if this ensures to reach their goals. Their constant bullying enforces the pecking order on their ships and ensures the lower ranks stay in line. As disliked as they are, they become the first line of defence for captains against mutineers but also are prone to certain 'accidents' on board. They are also better equipped and fed then any of the lower ranked crewmates. They use a part of their extra rations to bribe some snitches in the crew to keep them informed about assassination attempts or rumours of mutiny. This tactic has proven surprisingly effective as it's rather hard to smell a rat amongst a Corym crew. Since a mate has proven that he is worth its cheese in numerous battles and survived several attempts on their lives from underlings and competitors for titles, most of them are scared or missing body parts. In the long run every mates aspiration is to get his own ship and become a captain on their own right. They will only ever make two melee hits. As they frequently drop ice rapiers, it could be assumed that they use them as weapons, however their melee attacks are 100% physical damage.",
+        "abilities": [
+            "Melee (0-400? at most 2 hits)",
+            "Energy Beam (150-210?) Pirat Mate",
+            "Energy Ball around itself (148-180?) Pirat Mate"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 70%",
+            "Earth 130%"
+        ],
+        "location": "The Wreckoning",
+        "behaviour": "They use a strong physical attack, but their weapon breaks after two hits.A pirat mate attacks in melee range. A pirat mate never retreats.",
+        "strategy": "Be careful of their strong melee attack at the start of the fight. Use Earth Damage against them, and consider using items with Energy Resistance.",
+        "loot": [
+            "Small Diamond",
+            "Red Gem",
+            "Cyan Crystal Fragment",
+            "Red Crystal Fragment",
+            "Fire Sword",
+            "Pirat's Tail",
+            "Mouldy Powder",
+            "Pirate Coin",
+            "Small Emerald",
+            "Ice Rapier",
+            "Shark Fins",
+            "Green Crystal Shard",
+            "Yellow Gem",
+            "Onyx Chip",
+            "Small Treasure Chest",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Patrol",
+        "name": "Pirat Patrol",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/29/Pirat_Patrol.gif/revision/latest?cb=20201208230551&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Stealth mission of A Pirate's Tail Quest.",
+        "abilities": [
+            "Kicks you out of the room if you get close to it"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rascacoon",
+        "behaviour": "They move back and forth in small areas, patrolling.",
+        "strategy": "Never walk near them or you'll fail at the mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Pirat_Scoundrel",
+        "name": "Pirat Scoundrel",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c2/Pirat_Scoundrel.gif/revision/latest?cb=20220129230120&path-prefix=en",
+        "attributes": {},
+        "notes": "The pirat scoundrels prefer others to make their paws dirty and rely on distant combat tactics to wear an enemy down. They are usually chosen from the more intelligent and skilled recruits although some pirate captains tend to pick them on a whim. Their usual functions on board of the pirat ships are diverse and a bit more challenging then that of ordinary sailors. As 'specialists' they enjoy a certain amount of status amongst the crews that allows them to fight in the second row. By skill and training they become over time mildly accomplished distance fighters, although their ability is somewhat hampered by their nervous and cowardly behaviour, that invalidates any even slightly more complicated tactics. Without the backup of a hefty amount of cutthroats, the scoundrels quickly become nervous and confused. always eyeing and opportunity for a tactical retreat. Even with the support of fighters their constant shifting and moving has them miss more than one good shot. Their greater survivability is paid by a lower share of the loot. Though in theory they are the same crew rank as the common cutthroats, the latter look with disdain on the scoundrels that in their eyes survive on their expense. So in loot distribution they often violently claim a bigger share - which is still only little, due to the packing order on pirat ships. In return it's not uncommon that some of the most aggressive loot takers amongst the cutthroats are hit by 'friendly fire' in the heat of battle.",
+        "abilities": [
+            "Melee (0-350? at most 2 hits)",
+            "Energy Missile (110-160?) Pirat Scoundrel",
+            "Energy Bomb on Target (100-130?) Pirat Scoundrel",
+            "Energy Exori (90-110?) Pirat Scoundrel",
+            "Energy Beam (?) Pirat Scoundrel"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 74%",
+            "Earth 130%"
+        ],
+        "location": "Pirat Mine, The Wreckoning",
+        "behaviour": "If you get into melee range, they use a strong physical attack, but their weapon breaks after two hits. After that, they only use Energy Damage.A pirat scoundrel attacks from a distance. A pirat scoundrel never retreats.",
+        "strategy": "Be careful of their strong melee attack at the start of the fight. Use Earth Damage against them, and consider using items with Energy Resistance.",
+        "loot": [
+            "Great Mana Potion",
+            "Wand of Inferno",
+            "Pirate Coin",
+            "Grappling Hook",
+            "Pirat's Tail",
+            "Springsprout Rod",
+            "Wand of Starstorm",
+            "Wand of Voodoo",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rateye_Ric",
+        "name": "Rateye Ric",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/12/Rateye_Ric.gif/revision/latest?cb=20221102193757&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the first phase against the fight with Ratmiral Blackwhiskers of A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Rascacoon - The Wreckoning",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ratmiral_Blackwhiskers",
+        "name": "Ratmiral Blackwhiskers",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/72/Ratmiral_Blackwhiskers.gif/revision/latest?cb=20210827115256&path-prefix=en",
+        "attributes": {},
+        "notes": "It's the final boss of A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "The Wreckoning.",
+        "behaviour": "Attacks in close range.",
+        "strategy": "Try to wear Life Drain protection to mitigate damage dealt by Pirat Artillerists. Single-target attacks work well but you may want to use area attacks to kill the Elite Pirats that spawn during the fight, as well as the minibosses that help Ratmiral.",
+        "loot": [
+            "Crystal Coin",
+            "Platinum Coin",
+            "Mastermind Potion",
+            "Bullseye Potion",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Ultimate Mana Potion",
+            "Great Spirit Potion",
+            "Ultimate Health Potion",
+            "Berserk Potion",
+            "Pirate Coin",
+            "Golden Skull",
+            "Ratmiral's Hat",
+            "Cheesy Membership Card",
+            "Golden Cheese Wedge",
+            "Amber (Item)",
+            "Golden Dustbin",
+            "Tiara",
+            "Small Treasure Chest",
+            "Soap",
+            "Scrubbing Brush",
+            "Make-Do Boots",
+            "Makeshift Boots",
+            "Exotic Legs",
+            "Bast Legs",
+            "Exotic Amulet",
+            "Throwing Axe",
+            "Jungle Bow",
+            "Jungle Flail",
+            "Jungle Quiver",
+            "Jungle Rod",
+            "Jungle Wand",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spy_Rat",
+        "name": "Spy Rat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/31/Spy_Rat.gif/revision/latest?cb=20201202201154&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the supply mission in A Pirate's Tail Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rascacoon",
+        "behaviour": "It only attacks Mozzarella Cheese.",
+        "strategy": "You can't kill it, use a Rascoohan Rat Revealer to turn it into a Cheese Thief",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spyrat_(Facing_East)",
+        "name": "Spyrat (Facing East)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/69/Spyrat_%28Facing_East%29.gif/revision/latest?cb=20220602220136&path-prefix=en",
+        "attributes": {},
+        "notes": "Spawns in raids during A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (20-500)",
+            "area attack (90-150)",
+            "water exori (250-500)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 70%"
+        ],
+        "location": "Raids in Liberty Bay and Port Hope.",
+        "behaviour": "Does not move from where it spawns, shoots area attacks from a distance, will attack with melee if you get close to it.",
+        "strategy": "Use distance or rune attacks if possible as their melee attacks are quite high.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spyrat_(Facing_North)",
+        "name": "Spyrat (Facing North)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4f/Spyrat_%28Facing_North%29.gif/revision/latest?cb=20220602220133&path-prefix=en",
+        "attributes": {},
+        "notes": "Spawns in raids during A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (20-500)",
+            "area attack (90-150)",
+            "water exori (250-500)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 70%"
+        ],
+        "location": "Raids in Krailos and Port Hope.",
+        "behaviour": "Does not move from where it spawns, shoots area attacks from a distance, will attack with melee if you get close to it.",
+        "strategy": "Use distance or rune attacks if possible as their melee attacks are quite high.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spyrat_(Facing_South)",
+        "name": "Spyrat (Facing South)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9b/Spyrat_%28Facing_South%29.gif/revision/latest?cb=20220602220131&path-prefix=en",
+        "attributes": {},
+        "notes": "Spawns in raids during A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (20-500)",
+            "area attack (90-150)",
+            "water exori (250-500)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 70%"
+        ],
+        "location": "Raids in Darashia, Liberty Bay and Port Hope.",
+        "behaviour": "Does not move from where it spawns, shoots area attacks from a distance, will attack with melee if you get close to it.",
+        "strategy": "Use distance or rune attacks if possible as their melee attacks are quite high.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spyrat_(Facing_West)",
+        "name": "Spyrat (Facing West)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5d/Spyrat_%28Facing_West%29.gif/revision/latest?cb=20220602220128&path-prefix=en",
+        "attributes": {},
+        "notes": "Spawns in raids during A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (20-500)",
+            "area attack (90-150)",
+            "water exori (250-500)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 70%"
+        ],
+        "location": "Raids in Darashia, Krailos and Thais.",
+        "behaviour": "Does not move from where it spawns, shoots area attacks from a distance, will attack with melee if you get close to it.",
+        "strategy": "Use distance or rune attacks if possible as their melee attacks are quite high.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

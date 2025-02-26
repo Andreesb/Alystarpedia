@@ -1,0 +1,306 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Azure_Frog",
+        "name": "Azure Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4f/Azure_Frog.gif/revision/latest?cb=20180206145420&path-prefix=en",
+        "attributes": {},
+        "notes": "Frogs come in many shapes, colours and sizes. The most common, the green Frog can be found on almost every lake or any other body of water as long as the climate is not too cold. While the green frog is harmless and only a threat to flies and other insects, the aggressive flora and fauna in the South has bred several subspecies of the frog. Distinguishable by eye-catching colours to warn their opponents, they possess a mild but annoying poisonous spittle. Usually they are harmless even if they appear in great numbers, but wounded adventurers who run out of resources face a real threat when stumbling upon a breeding ground of the little amphibians. The main danger here is when they come with other enemies (and other colored frogs), they are fast enough to get to you first and break your shielding which can leave you wide open to other monster's attacks.",
+        "abilities": [
+            "Melee (0-24)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Meriana, Laguna Islands, and other Shattered Isles.",
+        "behaviour": "An azure frog attacks in melee range. An azure frog never retreats.",
+        "strategy": "On the Laguna Islands, many types of frogs, tortoises, and toads can surround you. Low level players may want to carry GFB to clear through these swarms.",
+        "loot": [
+            "Gold Coin",
+            "Worm",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bog_Frog",
+        "name": "Bog Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/81/Bog_Frog.gif/revision/latest?cb=20150418075223&path-prefix=en",
+        "attributes": {},
+        "notes": "Bog Frogs came with the rise of the bog temple in Shadowthorn. Formerly normal animals, these vicious little critters have transformed into an abomination of the bog. They are quick and ugly but should not pose a much greater threat than normal frogs. They usually appear in swarms in close vicinity to swamps and lakes.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Shadowthorn in the bog god's temple, Drefia, around Lake Equivocolao when it's dirty.",
+        "behaviour": "Bog Frogs always run away.A bog frog attacks in melee range.",
+        "strategy": "Just attack them if they're in the way, otherwise ignore them.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Coral_Frog",
+        "name": "Coral Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/91/Coral_Frog.gif/revision/latest?cb=20180206145420&path-prefix=en",
+        "attributes": {},
+        "notes": "Very fast. The main danger here is when they come with other enemies (and other colored) frogs are fast enough to get to you first and break your shielding and leave you wide open to other monster's attacks.",
+        "abilities": [
+            "Melee (0-24)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Meriana, Laguna Islands, and other Shattered Isles.",
+        "behaviour": "Fights to the death.A coral frog attacks in melee range.",
+        "strategy": "On the Laguna Islands, many types of frogs, tortoises, and toads can swarm you. Low level players may want to have GFBs to clear these swarms.",
+        "loot": [
+            "Gold Coin",
+            "Worm",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crimson_Frog",
+        "name": "Crimson Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2b/Crimson_Frog.gif/revision/latest?cb=20180206145421&path-prefix=en",
+        "attributes": {},
+        "notes": "Very fast. The main danger here is when they come with other enemies (and other colored) frogs are fast enough to get to you first and break your shielding and leave you wide open to other monster's attacks.",
+        "abilities": [
+            "Melee (0-24)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Meriana, Laguna Islands, and other Shattered Isles.",
+        "behaviour": "Fights to the death.A crimson frog attacks in melee range.",
+        "strategy": "On the Laguna Islands, many types of frogs, tortoises, and toads can swarm you. Low level players may want to have GFBs to clear these swarms.",
+        "loot": [
+            "Gold Coin",
+            "Worm",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deathspawn",
+        "name": "Deathspawn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/57/Deathspawn.gif/revision/latest?cb=20180611235614&path-prefix=en",
+        "attributes": {},
+        "notes": "They are summoned by Hell Holes in the Annihilon's Ward on The Inquisition Quest.",
+        "abilities": [
+            "Melee (0-40?)",
+            "Poisons you",
+            "Death Strike (400-700) Deathspawn",
+            "Energy Strike (200-450) Deathspawn",
+            "Sparkles (unknown) Deathspawn"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 0%",
+            "Holy 110%",
+            "Ice 85%",
+            "Fire 85%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Annihilon's Ward on The Inquisition Quest.",
+        "behaviour": "They are summoned by the Hell Holes and will attack whoever is closest to it. It usually attacks first whoever is on the sides of the lavahole, if no one is on the sides it will attack whoever stands diagonally, if no one stands diagonally it will attack whoever is closest to the north of the lavahole(to be confirmed)?",
+        "strategy": "Try to keep using area runes to kill them off when killing Annihilon. Use Fire Bomb on self, and as long as you don't move and stand in the middle of the fire, it can't reach you.",
+        "loot": [
+            "Dirty Fur",
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Filth_Toad",
+        "name": "Filth Toad",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e9/Filth_Toad.gif/revision/latest?cb=20110701212128&path-prefix=en",
+        "attributes": {},
+        "notes": "The swamps, bogs and ponds of Tibia are not exactly known to be the cleanest of places. Of course you can also find a lot of frogs, snakes and toads in those areas - but none of them is as vicious as the Filth Toad. It is a creature attracted by extremely dirty waters and it is somewhat tougher than a normal toad. Filth Toads are generally very old and quite possibly they have already fought for their survival since several decades. Appears around the lake at any time.",
+        "abilities": [
+            "Melee (0-55+ and starting up to 1 hp/turn)",
+            "Earth Strike (8-34) Filth Toad",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 80%"
+        ],
+        "location": "Tiquanda, around Lake Equivocolao.",
+        "behaviour": "Same as a normal Toad.A filth toad attacks in melee range.",
+        "strategy": "Same as a normal Toad. Lower levels should stay away if they cannot outrun them.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Poisonous Slime",
+            "Mace",
+            "Two Handed Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Green_Frog",
+        "name": "Green Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/90/Green_Frog.gif/revision/latest?cb=20150418075713&path-prefix=en",
+        "attributes": {},
+        "notes": "Witches can turn you into a Green Frog. When The Frog Prince is summoned, he appears with a Green Frog.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Meriana and other Shattered Isles, Port Hope caves, The Witches' Cliff (only accessible during a quest).",
+        "behaviour": "Green Frogs always run away.A green frog attacks in melee range.",
+        "strategy": "Just attack them; however, they are fast.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Holy_Bog_Frog",
+        "name": "Holy Bog Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5a/Holy_Bog_Frog.gif/revision/latest?cb=20201216010622&path-prefix=en",
+        "attributes": {},
+        "notes": "None.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "At the top of the mountain range to the of Krailos.",
+        "behaviour": "Holy Bog Frogs always run away.",
+        "strategy": "Just attack them if they're in the way, otherwise ignore them.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Infernal_Frog",
+        "name": "Infernal Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/79/Infernal_Frog.gif/revision/latest?cb=20171219235134&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-20)",
+            "Earth Strike (16-32) Infernal Frog",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Isle of Evil, and Deeper Drefia (here, unreachable).",
+        "behaviour": "An infernal frog attacks in melee range. An infernal frog will retreat at 25  (3.82%, deep red) health.",
+        "strategy": "Just kill it, but take care if your level is lower than 45, because a group of them and other Isle creatures can make you waste some potions, even if they don't have a lot of attack power by themselves.",
+        "loot": [
+            "Gold Coin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orchid_Frog",
+        "name": "Orchid Frog",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d5/Orchid_Frog.gif/revision/latest?cb=20180206145422&path-prefix=en",
+        "attributes": {},
+        "notes": "Very fast. The main danger here is when they come with other enemies (and other colored) frogs are fast enough to get to you first and break your shielding and leave you wide open to other monster's attacks.",
+        "abilities": [
+            "Melee (0-24)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Meriana, Laguna Islands, and other Shattered Isles.",
+        "behaviour": "Fights to the death. Can't be pushed.An orchid frog attacks in melee range.",
+        "strategy": "On the Laguna Islands, many types of frogs, tortoises, and toads can swarm you. Low level players may want to have GFBs to clear these swarms.",
+        "loot": [
+            "Gold Coin",
+            "Worm",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Toad",
+        "name": "Toad",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cd/Toad.gif/revision/latest?cb=20221125114746&path-prefix=en",
+        "attributes": {},
+        "notes": "Toads have little in common with harmless little frogs. Aggressive and poisonous, they seem to regard everything that is moving as some kind of lunch. They attack without hesitation and use their gluey and poisonous spittle to weaken the opponent before they challenge it in close combat. Ferocious like no other reptile, they develop a berserk rage in every battle. Even without teeth, they can bite with the crushing force of a giant clam or hit the enemy with there long tongues at lightning speed.They use their powerful legs to jump towards their opponents during which they are able to reach astonishing if not frightening speed. Given their ability to slow down opponents and to speed up themselves, it is quite likely that they can cope with almost every opponent in close combat. As a curious note, Toads give same rare loot (War Hammer) and also the same experience points as Wild Warriors.",
+        "abilities": [
+            "Melee (0-30 and starting up to 1 hp/turn)",
+            "Earth Strike (8-17) Toad",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 80%"
+        ],
+        "location": "The Laguna Islands, Arena and Zoo Quarter, Tiquanda/Tarantula Caves, Shadowthorn Bog God Temple, Northern Zao Plantations, Northern Brimstone Bug Cave, Tainted Caves.",
+        "behaviour": "Due to their haste it is hard to outrun them at lower levels. If you're trying to kill it with non self healing summons (such as a Fire Devil), watch out because they can retarget very fast.A toad attacks in melee range. A toad will retreat at 10  (7.41%, red) health.",
+        "strategy": "Try not to let them run away when they are low in hp, as they are fast and can lure you to even more Toads. Low level mages should avoid them since they are often found in groups and can spam small amount of damage quite fast while reducing your health significantly. Use GFB or other area effecting runes to quickly kill larger groups.\nIf you're on ground level of the Laguna Islands, mages can run around for about 20 seconds quickly, lure about 20 toads and some other creatures this way and then use GFB, 2 (or even one) shots can be enough for about 1k exp.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Mace",
+            "Poisonous Slime",
+            "War Hammer",
+            "Loot Statistics"
+        ]
+    }
+]

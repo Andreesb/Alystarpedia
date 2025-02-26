@@ -1,0 +1,1620 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Allusion",
+        "name": "Allusion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/85/Allusion.gif/revision/latest?cb=20220510232155&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the 25 Years of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blissful_Times",
+        "name": "Blissful Times",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the 25 Years of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Unknown",
+        "behaviour": "Blissful times never retreats.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Breach_Brood",
+        "name": "Breach Brood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Breach_Brood.gif/revision/latest?cb=20160421202915&path-prefix=en",
+        "attributes": {},
+        "notes": "For unknown eons, a wound festered between our reality and the hungry annihilation from beyond. This wound gave birth to and granted refuge for many abominable creatures. When Ferumbras futile actions violated the boundaries between worlds, it was none of those abominations that slipped through first, but some natural, or rather unnatural, disaster. These beings, which do not possess any sentience, were driven by some sinister and destructive purpose. A prime example for such creatures is the Breach Brood. The Breach Brood can be best described as a force of destruction which has taken shape. It somehow interacts with its surroundings - usually in a brutal way. The Breach Brood seems even more unstable than others of its ilk; because of that it is unable to exists for a lengthy period of time outside the disruptive netherworld in which it spawned. It still strives towards its only purpose - the annihilation and consumption of reality. This is an enemy that can't be reasoned with, an enemy that knows no mercy and shows no mercy. Its whole existence is completely bound to nothing else than destruction. \nIts very existence already causes harm to our reality and its inhabitants. Its attacks can rather be compared to a fire burning a hand which accidentally happened to touch it than a planned move. Like a fire that burns straw but not stone, its actions are only expressions of itself and nothing more. Some assume that the Breach Brood and other beings from beyond are nothing more than the manifestation and with that part of the ultimate destruction all around them. To conclude, the Breach Brood is a rather forceful foe that does not follow any form of battle plan. It needs to be extinguished before it can spread further harm, however, it is necessary to approach it with the same caution one would use facing a natural phenomenon.",
+        "abilities": [
+            "Melee (0-300)",
+            "Energy Strike (250-500) Breach Brood",
+            "Burst Arrow (Reduces Magic Level ) Breach Brood",
+            "Life Drain Bomb (250-400) Breach Brood"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 105%",
+            "Holy 105%",
+            "Ice 75%",
+            "Fire 90%",
+            "Energy 20%",
+            "Earth 105%"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown.A breach brood attacks in melee range.",
+        "strategy": "It's strongly advised to wear as much Energy Damage protection as possible, most of the damage dealt by Extra Dimensionals creatures comes from this element. Otherworld monsters also deal a lot of Life Drain damage, so you should also consider wearing a Garlic Necklace or Necklace of the Deep and put a Bone Fiddle in the extra slot.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Energy Drink",
+            "Energy Bar",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Great Health Potion",
+            "Spark Sphere",
+            "Crystallized Anger",
+            "Curious Matter",
+            "Plasma Pearls",
+            "Blue Crystal Splinter",
+            "Volatile Proto Matter",
+            "Cyan Crystal Fragment",
+            "Blue Crystal Shard",
+            "Green Crystal Shard",
+            "Blue Gem",
+            "Lightning Legs",
+            "Collar of Red Plasma",
+            "Collar of Blue Plasma",
+            "Collar of Green Plasma",
+            "Ring of Blue Plasma",
+            "Ring of Red Plasma",
+            "Ring of Green Plasma",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Charged_Disruption",
+        "name": "Charged Disruption",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a3/Charged_Disruption.gif/revision/latest?cb=20160708091303&path-prefix=en",
+        "attributes": {},
+        "notes": "May appear with The Destruction and the World Devourer in the Heart of Destruction Quest if a Disruption is not killed fast enough. Looks like a Magic Forcefield.",
+        "abilities": [
+            "Melee (0-636+)",
+            "Energy Ball (0-275+)",
+            "Self-Healing (0-311+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld, here.",
+        "behaviour": "Unknown",
+        "strategy": "The best strategy is doing everything to avoid it spawning, i.e. killing the Disruptions as fast as possible. If it does spawn, you should still try to kill it as fast as possible, otherwise it will transform into an Overcharged Disruption which is much harder to kill.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Charged_Energy_Elemental",
+        "name": "Charged Energy Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "They are found in a knight-only accessible area (accessed from the Ivory Towers in Edron), after the Summer Update 2009 they are weak to Physical Damage.",
+        "abilities": [
+            "Melee (0-100)",
+            "Energy Missile (100-250)",
+            "Electrifies you (25 damage per 4 turns)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 100%?"
+        ],
+        "location": "Energy Sphere",
+        "behaviour": "Fights until death.",
+        "strategy": "A knight of level 80 or higher should have no problem killing them. When they come in a larger pack of creatures you could use Whirlwind Throw to speed up killing and Berserk or Fierce Berserk when more elementals are lured. Remember to bring food, because they don't drop any food.",
+        "loot": [
+            "Gold Coin",
+            "Energy Soil",
+            "Flash Arrow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Charger",
+        "name": "Charger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the Heart of Destruction Quest before Anomaly.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Control_Tower",
+        "name": "Control Tower",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/21/Control_Tower.gif/revision/latest?cb=20141205114213&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 45%",
+            "Ice 100%?",
+            "Fire 45%",
+            "Energy 45%",
+            "Earth 45%"
+        ],
+        "location": "Glooth Plant, during a raid.",
+        "behaviour": "Control Towers are stationary creatures.",
+        "loot": [
+            "Platinum Coin",
+            "Alloy Legs",
+            "Flask of Rust Remover",
+            "Gearwheel Chain",
+            "Steel Boots",
+            "Heat Core",
+            "War Crystal",
+            "Crystal Pedestal",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Gear Wheel",
+            "Iron Ore",
+            "Mastermind Potion",
+            "Crystal Pedestal (Red)",
+            "Metal Spats",
+            "Metal Bat",
+            "Bonebreaker",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Courage_Leech",
+        "name": "Courage Leech",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/ff/Courage_Leech.gif/revision/latest?cb=20220602202401&path-prefix=en",
+        "attributes": {},
+        "notes": "Courage leeches are not actual entities but an actual manifestation of a void that the loss of courage by the souls in Zarganash leaves behind. All the more does the animalistic intelligence that they display mock such origins. Yet as it was the realm of Zagarnash that gave birth to them, this fact might only be an expression of some cosmic law that makes everything in Zarganash a twisted mockery of sane expectations. The courage leech are not actually leeching courage but they poison their victim's soul with a numbing enchantment that makes their targets prone to their fearsome attacks. They carry desperation and fear like a disease they spread, albeit involuntarily. While their own intention is probably more mundane, the stealing of essence and the spread of inner corruption is what makes the leeches extremely dangerous, especially for the living. Even more disturbing is the fact, that even when someone survives their attacks or overcomes them, the attacks of the leeches leave a spiritual scaring on the soul that never truly recovers. The interpretation of such scaring differs wildly. The most common interpretation is, that the soul is actually damaged if not diseased and that even to most pious, devout and pristine souls can be affected. This scaring is unaffected by any magical means known to men and seems not to heal on its own, even over an extended period of time. The death cultists of Ankrahmun see it as a permanent damage to one's soul, yet they claim to be able to repair the souls of true believers in elaborate rituals. In some rare cases souls harmed that way recovered seemingly on their own, but such occurrences are so rare that only anecdotal evidence exists and no reproducible steps could be determined. Some enchantments might provide a temporary shield that prevents the wounding in the first place but the few techniques to acquire such shields are closely guarded and seem to come with heavy penalties for the user. The leeches seem to have an affinity for the entity known as the unwelcome and are drawn to areas where it thrives. Given their nature it seems unlikely if they are allied, so it's up to speculation if they somehow leech on the action of the welcome or if is somehow using them for unknown purposes. It only drops a Bag You Desire for players with at least one of Goshnar's Taints. The more taints you have, the higher the chance. The Bag is always dropped inside a Reward Container so there's no risk of leaving it behind in the creature's corpse.",
+        "abilities": [
+            "Melee (0-700)",
+            "Spark Ball on itself (1100-1400)",
+            "Energy Ball (1100-1300)",
+            "Energy Chain (900-1000; chains through nearby characters)",
+            "Divine Missile (1100-1300)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 125%",
+            "Holy 70%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 50%",
+            "Earth 120%"
+        ],
+        "location": "Furious Crater.",
+        "behaviour": "Attacks from distance.A courage leech attacks in melee range. A courage leech will retreat at 1 to 1079 (0% - 4%, deep red) health.",
+        "strategy": "Be very careful when moving around the spawn as one extra creature can be very hard for the team to deal with. As a shooter, stay far from it to avoid being hit by its area attacks around itself.",
+        "loot": [
+            "Crystal Coin",
+            "Ultimate Health Potion",
+            "Lightning Legs",
+            "Lightning Pendant",
+            "Lightning Headband",
+            "Gold Ring",
+            "Jade Hammer",
+            "Hammer of Wrath",
+            "Onyx Flail",
+            "Twiceslicer",
+            "Stone Skin Amulet",
+            "Demonrage Sword",
+            "Nightmare Blade",
+            "Dreaded Cleaver",
+            "Butcher's Axe",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crackler",
+        "name": "Crackler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Heart of Destruction Quest.",
+        "abilities": [
+            "Energy Shot (0-230+)"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Otherworld",
+        "behaviour": "Unknown",
+        "strategy": "10 Cracklers need to be killed in order to teleport a portion of the team to another room with Overcharger.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Depolarized_Crackler",
+        "name": "Depolarized Crackler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the Heart of Destruction Quest at Rupture. A weakened form of Cracklers.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 0%",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Disruption",
+        "name": "Disruption",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/61/Disruption.gif/revision/latest?cb=20160615155922&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears with The Destruction and with the World Devourer in the Heart of Destruction Quest. Looks like a Magic Forcefield (Green).",
+        "abilities": [
+            "Melee (0-262+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld, here and here.",
+        "behaviour": "It fights in close combat. A disruption never retreats.",
+        "strategy": "When this creature appears, the team must kill it as fast as possible, otherwise it will transform into a Charged Disruption and later an Overcharged Disruption which are much harder to kill.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dread_Intruder",
+        "name": "Dread Intruder",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/01/Dread_Intruder.gif/revision/latest?cb=20160421202929&path-prefix=en",
+        "attributes": {},
+        "notes": "The Dread Intruders were the first creatures that were encountered when the first destruction vortexes showed up. For a short while, they also comprised the largest group of the new enemies. However, this didn't last long and today only the most knowledgeable explorers still know about this fact. In many regards the Dread Intruders are considered as pure embodiments of the new threat. They were the first creatures who have been captured by aspiring scientists. By examining this enemy, they learnt about the Dread Intruder's fleeting nature as well as the fact that this creature cannot exist very long without the support of a nearby destruction vortex. Dangerous and highly volatile, the Dread Intruder was even assumed to slightly bend reality itself. In-depth studies, however, revealed that this is rather an optical effect caused by the sheer load of destructive energy accumulated in these creatures. Still, it can't be denied that the laws of nature seem to be weakened by its very presence. Even if a certain degree of probability is applied, one cannot deny the countless reports about flickering lights, distorted sound, or objects that suddenly show minor damages or even changed properties whenever a Dread Intruder was around. For this reason, particularly priests claim that the existence of the Dread Intruder defiles reality the most. Despite these numerous assumptions and speculations, the Dread Intruder is a dangerous force to be reckoned with. Although its lack of conscience seems to be a weakness, the sheer power of the Dread Intruder makes up for that, and one is well-advised not to encounter this powerful opponent unprepared or in disadvantageous situations. Even without any sign of intelligence, the Dread Intruder shows a horrifying effectiveness in exploiting a foe's weakness. This ability can only be explained by the theory that claims that the Dread Intruder is an embodiment of greater destructive forces. Those that are located outside around the vortexes, do not yield any experience points.",
+        "abilities": [
+            "Melee (0-300+)",
+            "Death Ball (280-350) Dread Intruder",
+            "Energy Wave (250-400) Dread Intruder",
+            "Electrified Ball (it electrifies you) Dread Intruder"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 20%",
+            "Holy 110%",
+            "Ice 95%",
+            "Fire 90%",
+            "Energy 10%",
+            "Earth 100%"
+        ],
+        "location": "Unknown",
+        "behaviour": "UnknownA dread intruder attacks in melee range.",
+        "strategy": "It's strongly advised to wear as much Energy Damage protection as possible, most of the damage dealt by Extra Dimensionals creatures comes from this element. Even though the Dread Intruder does not deal any Life Drain damage, the rest of Otherworld monsters do, so you should also consider wearing a Garlic Necklace or Necklace of the Deep and put a Bone Fiddle in the extra slot.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Ultimate Health Potion",
+            "Energy Drink",
+            "Energy Bar",
+            "Instable Proto Matter",
+            "Energy Ball",
+            "Odd Organ",
+            "Frozen Lightning",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Small Amethyst",
+            "Small Ruby",
+            "Small Sapphire",
+            "Violet Crystal Shard",
+            "Violet Gem",
+            "Collar of Blue Plasma",
+            "Collar of Green Plasma",
+            "Collar of Red Plasma",
+            "Ring of Blue Plasma",
+            "Ring of Red Plasma",
+            "Ring of Green Plasma",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dread_Minion",
+        "name": "Dread Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a1/Dread_Minion.gif/revision/latest?cb=20170915125810&path-prefix=en",
+        "attributes": {},
+        "notes": "These creatures are summoned by Pillars of Summoning.\nLooks identical to Dread Intruders.",
+        "abilities": [
+            "Melee (0-300+)",
+            "2 sqm radius Death Bomb (0-300+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Forbidden Temple (Carlin).",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Kill them quickly before they accumulate.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Energy_Elemental",
+        "name": "Energy Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "The actual Energy Elemental is just a tiny spark that can be hardly spotted. The origin of those sparks is unknown, but their creation has been attributed to natural forces. This malicious spark strives for nothing more than mayhem and havoc. Although it is not necessarily evil, it is definitely cruel and careless. In the state of a spark, it swirls around for a while until it has gathered enough electrical charges and stirred up the wind to turn into a small storm. By 'riding' this storm, the elemental becomes more substantial and significantly dangerous.Hurling mighty energy attacks and being almost insubstantial, Energy Elementals are extremely dangerous. They have some intelligence and actually enjoy blasting their enemies with powerful lightnings. Energy Elementals can be encountered almost everywhere, as they can spawn at any place that contains some air. Their main attacks are lightnings and forceful gusts of wind, but they can also cause some form of suffocation. Almost as fast as lightning, it is hardly impossible to escape from an Energy Elemental unless it is temporarily destroyed. It can regenerate itself by drawing air from the surrounding area. Capricious as a storm, it is very unpredictable in combat and even experienced adventurers can hardly foretell how an Energy Elemental will behave.",
+        "abilities": [
+            "Melee (0-175+)",
+            "Energy Explosion (125-252+)",
+            "Heavy Magic Missile (100-130+)",
+            "Spark Bomb (25 hp /7 turns)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 65%",
+            "Death 95%",
+            "Holy 95%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 115%"
+        ],
+        "location": "Kha'zeel, Energy Elemental Lair, Vandura Mountain, Vengoth's mountain.",
+        "behaviour": "Chases opponent until death.An energy elemental attacks in melee range.",
+        "strategy": "Strange talisman can come in handy, so take some with you when hunting these.\nFor mages level 60 and below use mana shield when facing more than 2. It might be smart to use Terra Wave. Mages of level 70 and higher use Terra Strike and wand/rod (ideally Springsprout Rod) while standing still. A Lightning Set is very handy. Or keep around 5 squares away to avoid melee and spark bomb for less damage. A mage around level 100 can easily hunt them and profit solely using Soft Boots and the dropped Mana Potions. Paladins should attack their with ammunition and Exori San before they deal major damage. Envenomed Arrows would come in handy against them.\nKnights Should try to avoid them at low levels since they are very strong against physical damage. However, at higher levels (around level 90) it can be profitable to hunt them because of the high gold drop rate as well as the many chances of looting NPC sellable items. Mana potions and exura ico will often be enough, soft boots are also recommended however try to keep some health potions at hand for safety. Knights can take a strong two-handed weapon and use exori when fighting more than one.",
+        "loot": [
+            "Gold Coin",
+            "Mana Potion",
+            "Flash Arrow",
+            "Throwing Star",
+            "Strong Mana Potion",
+            "Crystal Sword",
+            "Small Amethyst",
+            "Obsidian Lance",
+            "Crystal Ring",
+            "Silver Amulet",
+            "Energy Ring",
+            "Wand of Cosmic Energy",
+            "Guardian Shield",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Energy_Pulse",
+        "name": "Energy Pulse",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Spirit_of_Light.gif/revision/latest?cb=20171219235817&path-prefix=en",
+        "attributes": {},
+        "notes": "When a Glooth-Generator becomes fully charged, it releases 4 Energy Pulses in the room which then destroy the Glooth-Generator and seriously damages anyone within range. Technically, it does not destroy the Glooth-Generator, rather the generator despawns itself, or the other Glooth-Generators would be destroyed also.",
+        "abilities": [
+            "Energy UE (5600+; vanishes after)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Jaccus Maxxen's Dungeon - final boss room when spawned by Glooth-Generators.",
+        "behaviour": "Explodes, consuming itself and severely damaging anyone in range.",
+        "strategy": "Stay away from it, or even better, destroy the Glooth-Generators before they can spawn.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fleeting_Thought",
+        "name": "Fleeting Thought",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "It's part of the fight against The Brainstealer boss of the Too Hot to Handle Quest.",
+        "abilities": [
+            "Melee (0-500)",
+            "Great Agony Beam (400-480+) Fleeting Thought",
+            "Physical Ball (200+) Fleeting Thought",
+            "Sparks Whirlwind (?) Fleeting Thought"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten.",
+        "behaviour": "A fleeting thought never retreats.",
+        "strategy": "See The Brainstealer.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frenzy",
+        "name": "Frenzy",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears with The Rage and with the World Devourer in the Heart of Destruction Quest.",
+        "abilities": [
+            "Melee (0-1047+)",
+            "Self-Healing (0-438+)",
+            "Energy Area attack on itself (0-464+)",
+            "Large Energy Wave (0-730+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld, here and here.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glooth_Battery",
+        "name": "Glooth Battery",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ae/Glooth_Battery.gif/revision/latest?cb=20141205131001&path-prefix=en",
+        "attributes": {},
+        "notes": "Stays stationary.",
+        "abilities": [
+            "Melee (0)",
+            "Poison Storm (206?-582+)",
+            "Self Healing (133-454; 3x3 energy effect)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 75%",
+            "Ice 75%",
+            "Fire 75%",
+            "Energy 75%",
+            "Earth 99%<?"
+        ],
+        "location": "Glooth Plant, during a raid.",
+        "behaviour": "Unknown",
+        "strategy": "Paladins and mages can easily take this without taking the strong poison storm damage.",
+        "loot": [
+            "Platinum Coin",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Crystal Pedestal",
+            "Metal Spats",
+            "Gearwheel Chain",
+            "Flask of Rust Remover",
+            "Gear Wheel",
+            "Iron Ore",
+            "Mastermind Potion",
+            "Steel Boots",
+            "Heat Core",
+            "Alloy Legs",
+            "War Crystal",
+            "Crystal Pedestal (Red)",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glooth-Generator",
+        "name": "Glooth-Generator",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2e/Glooth-Generator.gif/revision/latest?cb=20141228045847&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Professor Maxxen's room, here",
+        "behaviour": "Unknown",
+        "strategy": "Kill it before it explodes, you have around 14-15 seconds to do so.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Greater_Energy_Elemental",
+        "name": "Greater Energy Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4d/Greater_Energy_Elemental.gif/revision/latest?cb=20220720195736&path-prefix=en",
+        "attributes": {},
+        "notes": "Killing two of these creatures is a requirement for accessing the room where The Winter Bloom spawns as part of the Asura Palace Quest.",
+        "abilities": [
+            "Melee (0-220)",
+            "Energy Explosion (270-615)",
+            "Heavy Magic Missile (175-205)",
+            "Spark Bomb on itself (electrifies you 25 hp /10 turns)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 80%",
+            "Holy 80%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 105%"
+        ],
+        "location": "Asura Palace - here",
+        "behaviour": "A greater energy elemental attacks in melee range. A greater energy elemental never retreats.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Greed",
+        "name": "Greed",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears with The Hunger and with the World Devourer in the Heart of Destruction Quest.",
+        "abilities": [
+            "Melee (0-939+)",
+            "Great Drain Explosion (0-3000+)",
+            "Great Energy Beam (0-312+)"
+        ],
+        "resistance": [
+            "Physical 0%?",
+            "Death 0%?",
+            "Holy 0%?",
+            "Ice 0%?",
+            "Fire 0%?",
+            "Energy 0%?",
+            "Earth 0%?"
+        ],
+        "location": "Otherworld, here and here.",
+        "behaviour": "Unknown.",
+        "strategy": "Greed appears in the room with The Hunger and World Devourer. They seem to be immune to all damage, so focus on your battle with The Hunger and try to stay diagonal of them when possible.\nAlternatively, you can lure The Hunger through the teleport in the middle of the room, then walk the Greed over it to make it disappear.\nIn the room with World Devourer, it is highly recommended to lure the World Devourer over the teleport in the middle and then let the Greed walk over it so they disappear. Otherwise, your team will be swarmed with Greeds.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gust_of_Wind",
+        "name": "Gust of Wind",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3e/Gust_of_Wind.gif/revision/latest?cb=20201208151820&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Journey mission of A Pirate's Tail Quest.",
+        "abilities": [
+            "Energy Ball (400-600)"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "A raft near Rascacoon",
+        "behaviour": "They attack from distance.",
+        "strategy": "Force them to walk over the grille at the center of the raft to add more points to the raft's health. Magic Wall Runes can be used to do that.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/High_Voltage_Elemental",
+        "name": "High Voltage Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-268)",
+            "Energy Explosion (205-497+)",
+            "Energy Missile (201-277)",
+            "Spark Bomb (on itself; electrifies you)"
+        ],
+        "resistance": [
+            "Physical 65%",
+            "Death 95%",
+            "Holy 95%",
+            "Ice 0%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 115%"
+        ],
+        "location": "South side of the second floor of Underground Glooth Factory, Warzone 5",
+        "behaviour": "UnknownA high voltage elemental attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Flash Arrow",
+            "Crystal Sword",
+            "Strong Mana Potion",
+            "Mana Potion",
+            "Crystal Ring",
+            "Small Amethyst",
+            "Energy Ring",
+            "Obsidian Lance",
+            "Lightning Pendant",
+            "Wand of Cosmic Energy",
+            "Spellbook of Warding",
+            "Lightning Legs",
+            "Lightning Robe",
+            "Lightning Headband",
+            "Shockwave Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Instable_Breach_Brood",
+        "name": "Instable Breach Brood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Breach_Brood.gif/revision/latest?cb=20160421202915&path-prefix=en",
+        "attributes": {},
+        "notes": "The Instable Breach Brood is a weaker version of Breach Broods.",
+        "abilities": [
+            "Melee (0-240)",
+            "Heavy Magic Missile (160-250)",
+            "Spark Bomb on self (80-150)",
+            "Burst Arrow (reducing Magic Level )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 70%",
+            "Fire 60%",
+            "Energy 25%",
+            "Earth 115%"
+        ],
+        "location": "Otherworld (Dwarf Bridge)",
+        "behaviour": "Fights in close combatAn instable breach brood attacks in melee range. An instable breach brood never retreats.",
+        "strategy": "Be careful not to lure too many creatures as the dungeon has lots of them. Use Earth damage if possible or Holy/Physical otherwise.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Plasma Pearls",
+            "Crystal Bone",
+            "Energy Drink",
+            "Great Spirit Potion",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Green Crystal Shard",
+            "Energy Bar",
+            "Cyan Crystal Fragment",
+            "Blue Crystal Splinter",
+            "Blue Crystal Shard",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Instable_Sparkion",
+        "name": "Instable Sparkion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c5/Instable_Sparkion.gif/revision/latest?cb=20160602153834&path-prefix=en",
+        "attributes": {},
+        "notes": "The Instable Sparkion is a weaker version of Sparkions.",
+        "abilities": [
+            "Melee (0-250)",
+            "Heavy Magic Missile (150-200)",
+            "Smoke Beam (250-350)",
+            "Electricity Bomb on self ( Electrified )",
+            "infrequent Self-Healing (50-80)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 95%",
+            "Holy 95%",
+            "Ice 40%",
+            "Fire 80%",
+            "Energy 20%",
+            "Earth 115%"
+        ],
+        "location": "Otherworld (Dwarf Bridge)",
+        "behaviour": "An instable sparkion attacks in melee range.",
+        "strategy": "Be careful not to lure too many creatures as the dungeon has lots of them. Use Earth damage if possible or Holy/Physical otherwise.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Sparkion Claw",
+            "Sparkion Legs",
+            "Sparkion Stings",
+            "Sparkion Tail",
+            "Energy Bar",
+            "Energy Drink",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Blue Crystal Shard",
+            "Small Sapphire",
+            "Wand of Cosmic Energy",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Knowledge_Elemental",
+        "name": "Knowledge Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7b/Knowledge_Elemental.gif/revision/latest?cb=20180606180302&path-prefix=en",
+        "attributes": {},
+        "notes": "Some knowledge is so powerful it can't be contained within a single mind. Even if contained in specially created books, a bit of the knowledge always leaks out. It is said that even minor books leak their knowledge a little. If enough books in an area leak such knowledge, it interacts with other sublime knowledge in an area. Eventually the concentration of knowledge leads to the existence of what in lack of better terms is called a knowledge elemental. It is raw knowledge and power set free. It has only a mockery of sentience, truly no more than an irritating and misleading mirroring of knowledge fragments. The knowledge has only one purpose: to be known. Yet it's heavily fractured and raw, not fathomable to an ordinary mind at all. In their attempts to insert itself to others, the knowledge elemental becomes an aggressive threat, as it attempts are harmful and even lethal. The sudden outbursts of knowledge are disrupting and destructive, often taking the shape of spell-like effects. Magicians usually have to exorcise such manifested knowledge from their libraries. Given the relative commonness at certain areas, many libraries accept then as a given and rather use spells to ward them away from their bodies, instead of dispersing them. Though such wards are relatively complicated they are usually permanent and less of an effort than to fight knowledge manifestations again and again. As it occurs an area can only sustain a given number of knowledge elementals at all, so if one manifested another is highly unlikely. A place that could create more then a few knowledge elementals at a time, would have to contain absurdly high levels of knowledge and can be discarded to the realm of pure fantasy and wishful thinking of knowledge seekers and cultists.",
+        "abilities": [
+            "Melee (0-600)",
+            "Energy Strike (600-900) Knowledge Elemental",
+            "Energy Cross (600-900) Knowledge Elemental",
+            "Holy Ball (600-800) Knowledge Elemental",
+            "Holy Beam (500-700) Knowledge Elemental",
+            "Holy Cross (700-750) Knowledge Elemental"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 120%",
+            "Holy 50%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library energy section.",
+        "behaviour": "A knowledge elemental attacks in melee range. A knowledge elemental never retreats.",
+        "strategy": "Knowledge Elementals have many different spells of both Energy and Holy damage. They can combo these spells in any combination of two spells at once, meaning they can deal combos of one element or a mix of both. Thus, protection against these two elements is recommended. They have a relatively low amount of health compared to the creatures they spawn with and half of their attacks can be avoided by staying diagonal or running from them, which can make a big difference when dealing with pulls of multiple creatures during a hunt.",
+        "loot": [
+            "Platinum Coin",
+            "Silken Bookmark",
+            "Book Page",
+            "Glowing Rune",
+            "Small Amethyst",
+            "Quill",
+            "Energy Ring",
+            "Flash Arrow",
+            "Guardian Shield",
+            "Mana Potion",
+            "Throwing Star",
+            "Crystal Sword",
+            "Ultimate Health Potion",
+            "Wand of Cosmic Energy",
+            "Ultimate Mana Potion",
+            "Wand of Defiance",
+            "Obsidian Lance",
+            "Silver Amulet",
+            "Might Ring",
+            "Crystal Ring",
+            "Lightning Pendant",
+            "Spellweaver's Robe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Knowledge_Raider",
+        "name": "Knowledge Raider",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Breach_Brood.gif/revision/latest?cb=20160421202915&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Breach Brood.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 115%",
+            "Fire 115%",
+            "Energy 95%",
+            "Earth 100%"
+        ],
+        "location": "Lokathmor's room inside The Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Massive_Energy_Elemental",
+        "name": "Massive Energy Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Obviously some of the sparks that are the core of Energy Elementals are significantly more powerful. They accumulate quite deadly and violent storms around them. They are strong and they are fast, and these are the most positive characteristics one can say about them. Massive Energy Elementals prey on every living being to chase and torment it. The Massive Energy Elemental is by far more malicious than its smaller cousin. It enjoys particularly the chase and often uses less power than it has on its disposal to extend the hunt.Massive Energy Elementals often ride on real storms and hurricanes and enjoy the damage and destruction they are causing. Facing a Massive Energy Elemental is like facing a storm itself. They also enjoy to occur in groups and to cause a large path of destruction. You can also see them in greater numbers right before a storm is forming. So it is not surprising that they have always been seen as an evil omen.",
+        "abilities": [
+            "Melee (0-220)",
+            "Energy Explosion (270-615)",
+            "Heavy Magic Missile (175-205)",
+            "Spark Bomb on itself (electrifies you 25 hp /10 turns)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 80%",
+            "Holy 80%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 105%"
+        ],
+        "location": "North west of Ankrahmun, you must Levitate here to hunt them.",
+        "behaviour": "Same as Energy Elemental.A massive energy elemental attacks in melee range.",
+        "strategy": "Note to all vocations: Bring Parcels and Potions to hunt them. Wearing energy resistant items will also help. When facing multiple of these elementals, you should use Stoneshower runes. It is possible to hunt these creatures using the old stairhop-method.\nKnights: not good monster to hunt alone, but if you want to solo this, you should use earth-imbued weapons rather than non-imbued weapons. It's better to have a Druid or Sorcerer as shooter, using Terra Strike.\nPaladins: with a blocker, shoot Earth or Envenomed Arrows; if you are taking much damage from their Melee, use Assassin Stars, a shield, earth runes and the Divine Missile/Divine Caldera spell, as both will usually hit more on average than runes due to the vocation's low magic level.\nSorcerers: can use Earth strike to kill these elementals. Not recommended to hunt these creatures on a sorcerer, as sorcerers lack earth attacks.\nDruids: can use Earth attacks (Strong Terra Strike, Terra Wave, Terra Strike) to kill these elementals fast. It is possible to hunt them without Mana Shield if you wear Lightning Set and your level is above 75. You might need to use Haste spells if your level is below 90. Keep an eye on your health bar and try to have full hp at all times. Avoid melee attacks.",
+        "loot": [
+            "Gold Coin",
+            "Strong Mana Potion",
+            "Great Mana Potion",
+            "Flash Arrow",
+            "Rusted Armor",
+            "Small Amethyst",
+            "Spellbook of Warding",
+            "Wand of Starstorm",
+            "Lightning Legs",
+            "Lightning Pendant",
+            "Shockwave Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mental-Nexus",
+        "name": "Mental-Nexus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ad/Sphere_of_Wrath.gif/revision/latest?cb=20171218220305&path-prefix=en",
+        "attributes": {},
+        "notes": "It's part of the fight against The Brainstealer boss of the Too Hot to Handle Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten.",
+        "behaviour": "A mental-nexus never retreats.",
+        "strategy": "See The Brainstealer.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Overcharge",
+        "name": "Overcharge",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Portion of the 5-man team will be split it in order to face Overchargers. Typically, 2 player and 3 players together. 5 Overchargers need to be killed in order to proceed to Anomaly.",
+        "abilities": [
+            "Melee (0-500)",
+            "Light Magic Missile (110-350)",
+            "Energy Beam (300-670)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown",
+        "strategy": "All Voc: Focus all your strong spells to deal as much damage as possible in 4 rounds (8 seconds).",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Overcharged_Disruption",
+        "name": "Overcharged Disruption",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Overcharged_Disruption.gif/revision/latest?cb=20160612200631&path-prefix=en",
+        "attributes": {},
+        "notes": "May appear with The Destruction and the World Devourer in the Heart of Destruction Quest if a Charged Disruption is not killed fast enough.",
+        "abilities": [
+            "Melee (0-741+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Otherworld, here.",
+        "behaviour": "Fights in close combat. An overcharged disruption never retreats.",
+        "strategy": "This creature has a lot of health, so killing it can be a complicated task during the boss fights. The best strategy is doing everything to avoid it spawning, i.e. killing the Disruptions as fast as possible. If they do spawn you will have to either ignore it and keep killing the boss and Disruptions or spend some time killing it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Overcharged_Energy_Element",
+        "name": "Overcharged Energy Element",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Expensive and hard to kill for low level knights, after Summer Update 2009 it is not strong against Physical Damage anymore but it is still not so easy to hunt because of combos for over 600 hitpoints.",
+        "abilities": [
+            "Melee (0-200)",
+            "Energy Missile (150-420)",
+            "Energy Strike (100-250)",
+            "Electrifies you (25 Damage per 4 turns)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 120%"
+        ],
+        "location": "Energy Sphere",
+        "behaviour": "A bit fast. It fights until death.",
+        "strategy": "Attack it with melee and Whirlwind Throw, Berserk or even Fierce Berserk when more elementals come. Be careful and try to lure one at a time (move forward slowly, and when you see it run back few squares). Do the quest with friends - at least 3 people so one of you will break elemental's shielding to speed up killing. Remember to bring food, because they don't drop any food.",
+        "loot": [
+            "Gold Coin",
+            "Energy Soil",
+            "Great Health Potion",
+            "Small Amethyst",
+            "Berserk Potion",
+            "Ring of Healing",
+            "Wand of Starstorm",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ravenous_Beyondling",
+        "name": "Ravenous Beyondling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3b/Ravenous_Beyondling.gif/revision/latest?cb=20180626230038&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Reality_Reaver",
+        "name": "Reality Reaver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/17/Reality_Reaver.gif/revision/latest?cb=20160421202922&path-prefix=en",
+        "attributes": {},
+        "notes": "Unless other creatures from beyond, the Reality Reaver seems to follow regular patterns of behaviour, as it does not cause the random destruction in the same way that others of its kind do. However, just because the Reality Reaver possesses a form that follows predictable patterns to an extend which other beings do not, it is not yet in possession of sentience. This being said, the Reality Reaver is just as malignant as the rest of its ilk. However, it has certain characteristics that are more often found in ordinary creatures, whereas the other \"newly created\" are closer in nature to a tornado or a wildfire. For instance, it has been reported that it creates small flocks of its own kind in order to attack in a pack. Still, even a single Reality Reaver is a force to be reckoned with.\nThe Reality Reaver seems somewhat more stable than the rest of its kind. While the others regularly dissolve and re-form, even in the realm beyond, the Reality Reaver is more anchored in our reality and with that, one step further towards our plane of existence. It cannot be foreseen what this means for our future.\nWhether or not the current crisis can be averted, one thing is certain; an invasion of these creatures can no longer be prevented. The very existence of the Reality Reaver and its ability to manifest in a concrete form is an indication that our reality's laws of probability helps these incursions to evolve into a more stable state of existence, which makes them more dangerous. The Reality Reaver is already very dangerous and destructive, but the aspect that it evolves in our world makes the Reality Reaver even more unnerving. Scholars have proven themselves inadequate to the task of classifying these new creatures. They have categorised them as \"forces of destruction\". Equally erroneously, they have labelled the Reality Reaver as a \"destruction golem\". This classification is so obviously wrong that it would never stand a close examination.",
+        "abilities": [
+            "Melee (0-500)",
+            "Life Drain Strike (150-400) Reality Reaver",
+            "Energy Wave (250-500) Reality Reaver",
+            "Energy Ball (200-450) Reality Reaver",
+            "Spark Bomb (electrifies) Reality Reaver",
+            "Invisibility"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 95%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 90%",
+            "Energy 15%",
+            "Earth 110%"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Often goes invisible out your visual range, pay attention to your surroundings so it won't sneak on you.A reality reaver attacks in melee range. A reality reaver never retreats.",
+        "strategy": "It's strongly advised to wear as much Energy Damage protection as possible, most of the damage dealt by Extra Dimensionals creatures comes from this element. Otherworld monsters also deal a lot of Life Drain damage, so you should also consider wearing a Garlic Necklace or Necklace of the Deep and put a Bone Fiddle in the extra slot.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Energy Bar",
+            "Energy Drink",
+            "Great Spirit Potion",
+            "Energy Vein",
+            "Blue Crystal Splinter",
+            "Dangerous Proto Matter",
+            "Plasma Pearls",
+            "Plasmatic Lightning",
+            "Great Mana Potion",
+            "Red Crystal Fragment",
+            "Great Health Potion",
+            "Blue Crystal Shard",
+            "Violet Crystal Shard",
+            "Red Gem",
+            "Lightning Headband",
+            "Wand of Starstorm",
+            "Violet Gem",
+            "Collar of Green Plasma",
+            "Collar of Red Plasma",
+            "Ring of Blue Plasma",
+            "Ring of Green Plasma",
+            "Ring of Red Plasma",
+            "Collar of Blue Plasma",
+            "Focus Cape",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Breacher",
+        "name": "Rift Breacher",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Rift_Breacher.gif/revision/latest?cb=20180626225757&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Brood",
+        "name": "Rift Brood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Summoned by Azerus in the final room of the In Service of Yalahar Quest.",
+        "abilities": [
+            "Melee (0-248+)",
+            "Mana Drain (0-179+)",
+            "Self-Healing (70-100)"
+        ],
+        "resistance": [
+            "Physical 99%<?",
+            "Death 120%?",
+            "Holy 85%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Yalahari palace.",
+        "behaviour": "Unknown.",
+        "strategy": "None.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Fragment",
+        "name": "Rift Fragment",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6b/Rift_Fragment.gif/revision/latest?cb=20160417170006&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest.",
+        "abilities": [
+            "Drowning Damage"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Invader",
+        "name": "Rift Invader",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 115%",
+            "Ice 90%",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Minion",
+        "name": "Rift Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Rift_Minion.gif/revision/latest?cb=20180626225303&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Soul_Reaper",
+        "name": "Soul Reaper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Breach_Brood.gif/revision/latest?cb=20160421202915&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Cults of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Unknown",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spark_of_Destruction",
+        "name": "Spark of Destruction",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cd/Spark_of_Destruction.gif/revision/latest?cb=20160602184202&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears together with the bosses of the Heart of Destruction Quest.",
+        "abilities": [
+            "Melee (0-436+)",
+            "Energy Wave (0-363+) Spark of Destruction",
+            "Energy Ball (176-310+) Spark of Destruction",
+            "Stars Bomb Spark of Destruction"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 80%",
+            "Energy 20%",
+            "Earth 100%"
+        ],
+        "location": "The various boss rooms in the Otherworld.",
+        "behaviour": "UnknownA spark of destruction attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sparkion",
+        "name": "Sparkion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/48/Sparkion.gif/revision/latest?cb=20160421202014&path-prefix=en",
+        "attributes": {},
+        "notes": "The Sparkions are some of the more stable creatures from beyond, only surpassed by the reality reaver. It took several weeks to defeat an already severely injured Sparkion. Even though they seem to be closest to mindless automatons, they often show very specific individual patterns of behaviour which they do not share with other Sparkions. Some even argue that Sparkions do not exist at all, but only a group of very similar, yet different forms of unlife. On the other hand, most Sparkions show at least some common characteristics, such as strength or the tenacity with which goals are being pursued.\nWhile many of the new creatures often act irrationally, the Sparkion rarely stops before it has finished what it started. Then again it must be said that the goal of a Sparkion can be anything, e.g. the extinction of all life in a certain area - and this does not necessarily look purposefully for an outsider.\nIt is one of the most disturbing characteristics of the Sparkion to destroy and devastate everything around it, leaving a formless mass of matter which resembles the realm of the Sparkion's origin. Warnings are voiced that the vortexes need to be stopped; otherwise, swarms of Sparkions will eventually stream out of them to prepare our world for an ending at which everything we know is going to be sucked into the void and devoured. So far, however, the Sparkions seem to be only one of many forces from beyond. Also, no massive amassment has been witnessed yet, and it is totally inconceivable that a guiding force with a conscious plan exists. However, it is quite alarming that Sparkions are often seen carrying loads of material, such as stones, tree stumps and even corpses into the vortexes. Yet, several expeditions into the vortexes could not figure out what has happened to aforementioned materials on the other side of the vortexes. The most likely theory is that the materials are used to stabilize or even grow the realm beyond. This, however, would suggest that something greater and more powerful is guiding the mindless Sparkions' actions after all.",
+        "abilities": [
+            "Melee (0-300)",
+            "Energy Missile (150-250) Sparkion",
+            "Life Drain Beam (350-700) Sparkion",
+            "Energy Ball (it electrifies you) Sparkion"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 95%",
+            "Holy 95%",
+            "Ice 30%",
+            "Fire 85%",
+            "Energy 10%",
+            "Earth 115%"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown.A sparkion attacks in melee range.",
+        "strategy": "It's strongly advised to wear as much Energy Damage protection as possible, most of the damage dealt by Extra Dimensionals creatures comes from this element. Otherworld monsters also deal a lot of Life Drain damage, so you can also consider wearing a Garlic Necklace or a Necklace of the Deep and put a Bone Fiddle in the extra slot.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Blue Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Energy Bar",
+            "Energy Drink",
+            "Sparkion Claw",
+            "Sparkion Legs",
+            "Sparkion Stings",
+            "Sparkion Tail",
+            "Small Sapphire",
+            "Blue Crystal Shard",
+            "Blue Gem",
+            "Wand of Cosmic Energy",
+            "Ring of Blue Plasma",
+            "Ring of Green Plasma",
+            "Ring of Red Plasma",
+            "Collar of Blue Plasma",
+            "Collar of Green Plasma",
+            "Collar of Red Plasma",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sphere_of_Wrath",
+        "name": "Sphere of Wrath",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ad/Sphere_of_Wrath.gif/revision/latest?cb=20171218220305&path-prefix=en",
+        "attributes": {},
+        "notes": "Up to 4 Spheres will spawn as you cause damage to The False God during the Cults of Tibia Quest.",
+        "abilities": [
+            "Melee (0-250+)",
+            "Energy Berserk (600-1700+)"
+        ],
+        "resistance": [
+            "Physical 101%>?",
+            "Death 100%?",
+            "Holy 99%<?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Minotaur Cult hideout near Mintwallin.",
+        "behaviour": "They fight in close combat but move very slowly.",
+        "strategy": "They cannot be killed, so you shouldn't waste your time trying to do that. Instead, run from them and focus on the other creatures in the room, they move very slowly and their damage can easily be avoided. During the early stage of the fight when there are only 1-2 spheres you may be able to lure them to one side of the room while you then run and lure the boss to the other. This can give you around 10 seconds without having to worry about the spheres until they teleport to the center of the room and re target.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stabilizing_Dread_Intruder",
+        "name": "Stabilizing Dread Intruder",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fe/Stabilizing_Dread_Intruder.gif/revision/latest?cb=20160423200830&path-prefix=en",
+        "attributes": {},
+        "notes": "The Stabilizing Dread Intruder is a weaker version of Dread Intruders. Those that are located outside around the vortexes do not yield any experience points.",
+        "abilities": [
+            "Melee (?)",
+            "Energy Attack (0-200+)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 30%",
+            "Holy 105%",
+            "Ice 95%",
+            "Fire 80%",
+            "Energy 20%",
+            "Earth 100%"
+        ],
+        "location": "Otherworld (Edron)",
+        "behaviour": "They fight in close combat.A stabilizing dread intruder attacks in melee range.",
+        "strategy": "Be careful, they can easily combo a level 110 knight if they are with 3 or more.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Ultimate Health Potion",
+            "Cyan Crystal Fragment",
+            "Strange Proto Matter",
+            "Solid Rage",
+            "Glistening Bone",
+            "Energy Bar",
+            "Energy Drink",
+            "Small Sapphire",
+            "Small Ruby",
+            "Small Amethyst",
+            "Violet Crystal Shard",
+            "Blue Crystal Splinter",
+            "Violet Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stabilizing_Reality_Reaver",
+        "name": "Stabilizing Reality Reaver",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b6/Stabilizing_Reality_Reaver.gif/revision/latest?cb=20160423200112&path-prefix=en",
+        "attributes": {},
+        "notes": "The Stabilizing Reality Reaver is a weaker version of Reality Reavers. Those that are located outside around the vortexes do not yield any experience points.",
+        "abilities": [
+            "Melee (0-278+)",
+            "Energy Wave (0-258+)",
+            "Invisibility",
+            "Self-Healing (0-209+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 85%",
+            "Energy 30%",
+            "Earth 110%"
+        ],
+        "location": "Otherworld (Edron)",
+        "behaviour": "They fight in close combat.A stabilizing reality reaver attacks in melee range. A stabilizing reality reaver never retreats.",
+        "strategy": "You can solo one at level 100, but if they come with more than 3 even level 110 is not enough.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Great Spirit Potion",
+            "Condensed Energy",
+            "Plasma Pearls",
+            "Small Energy Ball",
+            "Energy Bar",
+            "Energy Drink",
+            "Red Gem",
+            "Blue Crystal Shard",
+            "Violet Crystal Shard",
+            "Blue Crystal Splinter",
+            "Red Crystal Fragment",
+            "Wand of Starstorm",
+            "Lightning Headband",
+            "Focus Cape",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Unleashed_Hex",
+        "name": "Unleashed Hex",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e1/Unleashed_Hex.gif/revision/latest?cb=20191219142311&path-prefix=en",
+        "attributes": {},
+        "notes": "It may appear during the fight against King Zelos of the Grave Danger Quest.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Isle of the Kings",
+        "behaviour": "Fights in close combat. Unleashed hex never retreats.",
+        "strategy": "The best strategy is probably to avoid making it spawn by not stepping on the vortex while affected by Greater Hex.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Unstable_Spark",
+        "name": "Unstable Spark",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the Heart of Destruction Quest before Realityquake.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 0%",
+            "Holy 110%",
+            "Ice 110%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Otherworld.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Unstable_Tunnel",
+        "name": "Unstable Tunnel",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Unstable_Tunnel.gif/revision/latest?cb=20141121100232&path-prefix=en",
+        "attributes": {},
+        "notes": "It is stationary.",
+        "abilities": [
+            "Summons (1-4 Drillworm or Glooth Anemone )"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 35%",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Underground Glooth Factory, second floor, west side, during a raid.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Voidshard",
+        "name": "Voidshard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Breach_Brood.gif/revision/latest?cb=20160421202915&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks the same as a Breach Brood.",
+        "abilities": [
+            "Melee (0-300+)",
+            "Energy Beam (300-450?)"
+        ],
+        "resistance": [
+            "Physical 95%?",
+            "Death 95%?",
+            "Holy 95%?",
+            "Ice 95%?",
+            "Fire 95%",
+            "Energy 95%",
+            "Earth 95%?"
+        ],
+        "location": "The Orc Cult boss room under the Edron Orc Cave.",
+        "behaviour": "It fights in close combat.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vortex_Spawn",
+        "name": "Vortex Spawn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "This creature might be related to the Heart of Destruction Quest.",
+        "abilities": [
+            "Energy Bomb itself",
+            "several distance spells"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Unknown.",
+        "behaviour": "A vortex spawn tries to keep distance from its target.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wild_Knowledge",
+        "name": "Wild Knowledge",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/Energy_Elemental.gif/revision/latest?cb=20200115220105&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 0%",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%",
+            "Energy -50%",
+            "Earth 140%?"
+        ],
+        "location": "Mazzinor's room in the The Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

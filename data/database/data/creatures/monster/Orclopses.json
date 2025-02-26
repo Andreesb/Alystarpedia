@@ -1,0 +1,97 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Orclops_Doomhauler",
+        "name": "Orclops Doomhauler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Orclops_Doomhauler.gif/revision/latest?cb=20161103184409&path-prefix=en",
+        "attributes": {},
+        "notes": "Orclops Doomhaulers are the elite of the orclopses. They make up with cunning what they lack in strength in comparison with the ravager. Before they join a fight, they lead the ravagers from behind, usually using a unique weapon called doomcrusher to weaken the foe from afar. Orclops Doomhaulers choose one of their own as leader. The orclops ravagers accept the elected doomhauler's rules without complaint. There is not much to decide in the simple lives of orclopses. For this reason, the main duty of such a leader is to put hunting parties together and to assign them to specific areas. It is also a leader's decision in which direction the tribe will move next. \nOrclops Doomhaulers inherited some of the smithing skills of the cyclopes. This makes them the primary craftsmen of their tribes. They are particularly proud of their personal doomcrushers and they spend a significant amount of time to construct and maintain them. Apart from that they create the few weapons and tools needed by their tribe. However, since orclopses prefer to live a simple life, the doomhaulers' cunning is often seen as a burden rather than a gift.\nOccasionally a doomhauler tries to initiate a trade with local cyclopes, but the latter usually consider orclopses as abominations and react hostilely towards them. Only very rarely, a leader of the doomhaulers manages to form an alliance with cyclopes. Such alliances are shaky at best since even the cyclopes with the best intentions find it hard to ignore the 'orcish degeneration'. Moreover, orclopses have little to offer that the cyclopes could use.\nIt is much more common that an orc tribe is willing to ally with the orclopses. However, the orclopses usually react reservedly to such offers because of their shared past. The orcs, on the other hand, eye the doomhaulers suspiciously. They consider them as a threat to their leadership which is often based on brutality and strength - disciplines in which the Orclops Doomhaulers easily surpass even the strongest orc. \nEven though Orclops Doomhaulers have led orc tribes, it is a relatively uncommon scenario. Still, the rumours about it and the mere possibility prevent alliances between the two on a larger scale. The more powerful an orc warlord, the more he perceives such an alliance as a threat. Like most orclopses, also the majority of the Orclops Doomhaulers actually does not aspire more from their lives than a full stomach. Some of them participate in fierce eating contests with other orclopses but particularly with ogres. Some of the Orclops Doomhaulers began to dabble with shamanistic magic. After many years of trial and error, they have turned into the dreaded rage priests of Blog.",
+        "abilities": [
+            "Melee (0-215+)",
+            "Explosion (0-132+)",
+            "Bleeding Area Attack (7+)",
+            "Red Sparkles on itself"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 85%",
+            "Energy 110%",
+            "Earth 70%"
+        ],
+        "location": "Desecrated Glade, Edron Orc Cave",
+        "behaviour": "An orclops doomhauler attacks in melee range. An orclops doomhauler will retreat at 20  (1.18%, deep red) health.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Mysterious Fetish",
+            "Orcish Axe",
+            "Red Mushroom",
+            "Bone Toothpick",
+            "Beetle Carapace",
+            "Bug Meat",
+            "Black Pearl",
+            "Small Ruby",
+            "Spiked Squelcher",
+            "Onion",
+            "Small Topaz",
+            "Brown Crystal Splinter",
+            "Pair of Iron Fists",
+            "War Drum",
+            "Berserk Potion",
+            "Beetle Necklace",
+            "Dreaded Cleaver",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orclops_Ravager",
+        "name": "Orclops Ravager",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f2/Orclops_Ravager.gif/revision/latest?cb=20161210092612&path-prefix=en",
+        "attributes": {},
+        "notes": "The orclops is a newly discovered breed of orc which, after having been bred extensively by the orcs as war machines, very quickly lost its attraction to the point of extinction. The strength of a cyclops and the brutality of an orc did not mix well. The orclopses were prone to fits of rage and frequent rampages that cost the life of many a tribesman. Although stories of ancient battles mention whole battalions of orclopses, using them was deemed to be too dangerous to be worth the effort. In times of peace, feeding a single orclops was an onerous task for a tribe and feeding half a dozen of them drained a hunting ground empty. As a result, having an orclops became a status symbol for some warlords and all but died out as a subspecies. However, it can be regarded as ironic that a human secret society brought the orclopses back from the brink of extinction. Although the Brotherhood of Bones specialised in necromancy, some of them were eager to employ different kinds of weapons, minions and allies in their wars against the Nightmare Knights. Allying themselves with the Bloody Tooth orc tribe, they provided the orc shamans with the means to breed a better kind of orclopses. Even though this took time, this led to a new breed of orclopses that were more docile and intelligent, less driven by their basic instincts. Through their new found strength and superior intellect, they began to challenge their orc masters for the leadership of the tribe. Orc society reacted harshly by simply enslaving the orclopses with brute force. The new orclopses were subjugated and trained for war by their enslavers.\nThis worked well for the orcs for a while. But then came \"Big Ugly\". Big Ugly was an unruly orclops and quite intelligent. To break his spirits, his enslavers made him endure the most torturous procedures of their training again and again. As a result, his body and face were so scarred by wounds that it inspired his name. Big Ugly survived and became the most feared fighter of the orclopses. Due to his strong will, his handlers never dared to use him in wars. Instead he was forced to compete in brutal pit-fights against captives and monsters from all over the world. Then they made the fateful decision to let him train other orclopses in the arts of fighting. Little did they know how intelligent and persuasive Big Ugly was. In a short time, he became the idol of the orclops slaves of the tribe. He led them in an uprising. He and his allies swept over the tribe in a single night and crushed all resistance.\nFor half a century there was open warfare between orcs and orclopses. Whenever local orcs heard that the orclopses had arrived in their territory, they either slaughtered their orclopses or released them in the hope that this would appease the approaching orclops tribe. Soon only remote tribes still held captive orclopses.\nLuckily for the orcs, the new tribe quickly fell into factions upon the death of Big Ugly. Given their immense need for food, a single territory could not sustain a large tribe for long. The newly created clans roamed the world as nomads, slowly diminishing in numbers once again. Nowadays orclopses and orcs have developed a grudging respect for each other. Some of the smaller clans have even joined orc tribes, although this time as allies instead of as slaves. Others have settled in remote areas independently. The Orclops Ravager is the most common orclops. Strong and somewhat dumb, the typical Orclops Ravager spends most of his day satiating his enormous appetite. In battle he relies on his strength and rarely employs any complicated tactics.",
+        "abilities": [
+            "Melee (0-132+)",
+            "throws Stone (0-193+)",
+            "Self-Healing (0-119+)",
+            "Red Sparkles Effect"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 50%",
+            "Ice 80%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Desecrated Glade",
+        "behaviour": "Fights in close combat.An orclops ravager attacks in melee range. An orclops ravager will retreat at 100  (8.33%, red) health.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Strong Health Potion",
+            "Mysterious Fetish",
+            "Orcish Axe",
+            "Red Mushroom",
+            "Reinvigorating Seeds",
+            "Bone Toothpick",
+            "Beetle Carapace",
+            "Bug Meat",
+            "Black Pearl",
+            "Small Ruby",
+            "Spiked Squelcher",
+            "Onion",
+            "Small Topaz",
+            "Brown Crystal Splinter",
+            "Pair of Iron Fists",
+            "War Drum",
+            "Berserk Potion",
+            "Dreaded Cleaver",
+            "Loot Statistics"
+        ]
+    }
+]

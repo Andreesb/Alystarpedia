@@ -1,0 +1,198 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Barbarian_Bloodwalker",
+        "name": "Barbarian Bloodwalker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e2/Barbarian_Bloodwalker.gif/revision/latest?cb=20210321143927&path-prefix=en",
+        "attributes": {},
+        "notes": "The Barbarian Bloodwalkers did surely not receive their name for their diplomatic talent. A Bloodwalker first strikes and then he strikes even more. Bloodwalkers are nearly mad and always on the brink of frenzy. The constant abuse of berserker elixirs forced them into a life of mayhem and destruction.Battle and carnage are the lifeblood of the Barbarian Bloodwalkers. Regarded by their tribesmen as beings touched by divinity, there is little that could restrain them. As a matter of fact, the same shamans that supplied them with berserker elixirs in the first place, now keep them drugged with potions to pacify them and to make them less prone to rampages. In times of war, however, these 'holy warriors' are set on the enemies and most of their tribesmen do their best to avoid any act that might provoke their wrath. The rage that guides the actions of a Bloodwalker leaves no room for fear, pain, surrender or mercy. With no regard for their own lives, the Bloodwalkers storm into battle and their war cries challenge everything, be it mortal, demon or god.",
+        "abilities": [
+            "Melee (0-200)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 50%",
+            "Fire 100%",
+            "Energy 90%",
+            "Earth 105%"
+        ],
+        "location": "Krimhorn, Bittermor, Ragnir, Arena and Zoo Quarter inside the Arena.",
+        "behaviour": "These creatures can be compared to and should be treated like an Orc Berserker.A barbarian bloodwalker attacks in melee range. A barbarian bloodwalker never retreats.",
+        "strategy": "Knights, should attack these on full attack, and target them first since they hit the hardest out of all Barbarians.\nPaladins, with 65 distance fighting should get rid of these first, since they run fast.\nMages, of Level 25 and Magic Level 30 can run them and with 4-5 Stoneshower or Stalagmite rune charges. Use Magic Shield or Stealth Ring because they hit hard and they cannot see invisible. For levels 35+ use Invisible spell with Terra Strike.",
+        "loot": [
+            "Gold Coin",
+            "Lamp",
+            "Battle Axe",
+            "Halberd",
+            "Chain Helmet",
+            "Chain Armor",
+            "Ham",
+            "Health Potion",
+            "Red Piece of Cloth",
+            "Beastslayer Axe",
+            "Shard",
+            "Fur Boots",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Barbarian_Brutetamer",
+        "name": "Barbarian Brutetamer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/94/Barbarian_Brutetamer.gif/revision/latest?cb=20180416202608&path-prefix=en",
+        "attributes": {},
+        "notes": "The Barbarian Brutetamers are women who have failed the tests to become a fully-fledged shaman. Unlike the male raiders, who either are quite gifted in magic or lack this talent completely, some women show some kind of inherent magic. Their talent is not strong enough to call the more powerful spirits, but they have a special knack to handle animals and to heal wounds which can only be explained with magic. With some training they are able to conjure some animal spirits and lead them into battle. Even though their magical abilities are quite limited, they can also use their powers in several destructive ways to defend themselves. Under the shaman queen, it has become more and more common that only shamans utterly loyal to her receive a formal and extensive training. For this reason the ranks of the Barbarian Brutetamers have been boosted with some truly gifted women who will probably never be able to use the full power of their potential. Still the Barbarian Brutetamers are absolutely loyal to their clans and tribes and they will use everything at their disposal to strike down the enemies of their cold-hearted queen.",
+        "abilities": [
+            "Melee (0-20)",
+            "Summons (1-2 War Wolf )",
+            "Throws Snowball (Reduces Melee and Distance and Shielding by 1-6 points)",
+            "Throws Cold Snowball (0-34)",
+            "Self-Healing (Often; heals 30% of her entire health )"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 50%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Krimhorn, Bittermor, Ragnir, and Fenrock",
+        "behaviour": "Brutetamers will do their best to keep distance from their opponent.A barbarian brutetamer attacks from a distance. A barbarian brutetamer will retreat at 6 to 43 (4.14% - 29.66%, red) health.",
+        "strategy": "Mages of level around 25 and magic level around 30 can hunt these with Stoneshower runes: 1-2 runes should be enough if you're quick. Stalagmite runes can also be used, but due to their summons and the fact that they're mostly accompanied by other Barbarians, Stoneshower is recommended.Paladins: must ignore the war wolves, and just hit the brutetamer since they have low defense and die in 1 or 2 hits. Try not to be surrounded by the War Wolves or other barbarians if you miss some attacks and always carry some potions if you life goes low.Knights: should try to charge straight at these creatures, before they get a chance to summon, also try not to follow them too far, as you will meet more Barbarians and you can get trapped. If there are more than one, try luring one away then charging with full attack.",
+        "loot": [
+            "Gold Coin",
+            "Staff",
+            "Chain Armor",
+            "Corncob",
+            "Fur Bag",
+            "Book (Grey)",
+            "Hunting Spear",
+            "Mana Potion",
+            "Brutetamer's Staff",
+            "Fur Boots",
+            "Mammoth Fur Cape",
+            "Mammoth Fur Shorts",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Barbarian_Headsplitter",
+        "name": "Barbarian Headsplitter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/ff/Barbarian_Headsplitter.gif/revision/latest?cb=20180206145424&path-prefix=en",
+        "attributes": {},
+        "notes": "The Barbarian Headsplitters are distance fighters that are shunned by the other raiders. They have failed in previous battles due to their cowardice or lack of skill and are therefore deprived the honour to challenge an enemy face to face. The harsh community of the barbarians makes it easy to fall in disgrace with their leaders. Those who are deemed unworthy have to atone for their failure by becoming second line support fighters and engaging an enemy from a distance. Only if their superiors see them fight recklessly, they might return to the ranks of the true warriors. Given the fact that distance fighting is seen as dishonourable, those barbarians have a hard time to get accepted by the tribe again. Seen as dispensable, other tribesmen do little to defend the distance fighters when they become cornered. As they rely on their own and constantly feel to have to prove themselves as worthy, the Barbarian Headsplitters fight twice as hard and fierce which makes them formidable opponents despite their low rank in their society.",
+        "abilities": [
+            "Melee (0-50)",
+            "Axe Throw (0-60) Barbarian Headsplitter"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 50%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Krimhorn, Bittermor, Ragnir, and Fenrock.",
+        "behaviour": "Barbarian Headsplitters fight in close combat.A barbarian headsplitter attacks in melee range. A barbarian headsplitter never retreats.",
+        "strategy": "Use the same strategy you would use for Dwarf Soldiers.",
+        "loot": [
+            "Gold Coin",
+            "Torch",
+            "Knife",
+            "Brass Helmet",
+            "Skull (Item)",
+            "Viking Helmet",
+            "Scale Armor",
+            "Health Potion",
+            "Brown Piece of Cloth",
+            "Life Ring",
+            "Fur Boots",
+            "Krimhorn Helmet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Barbarian_Skullhunter",
+        "name": "Barbarian Skullhunter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ec/Barbarian_Skullhunter.gif/revision/latest?cb=20180416201950&path-prefix=en",
+        "attributes": {},
+        "notes": "A young raider begins his career of warfare in the rank of a Barbarian Skullhunter. The raiders believe that skulls are the holder of an enemy's essence. It's the goal of each young raider to gather as many skulls as possible. Under the guidance of their shaman queen, it has become of little importance if this skull belongs to an animal or to a human opponent. In holy ceremonies the young barbarians are allowed to add their most worthy trophies to the holy skull collection of their tribe. It is the ultimate goal of all initiates to achieve a higher status by gaining more and more worthy offerings. For this reason, the youngsters are eager to go on a hunt or into a battle likewise. The Barbarian Skullhunters of varied ranks are the most numerous force among the barbarians. They can be found in hunting parties almost everywhere on the Ice Islands. Also, they build the majority of raiders who defend the barbarian camps. Fearlessly, they challenge even opponents much better equipped than themselves and they wield their primitive weapons with a frightening and fierce skill.",
+        "abilities": [
+            "Melee (0-65)"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 50%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Ragnir, Krimhorn, Bittermor, and Fenrock",
+        "behaviour": "They can move objects and cannot be pushed.A barbarian skullhunter attacks in melee range. A barbarian skullhunter never retreats.",
+        "strategy": "Just attack them as they do low damage, just be careful as they can be in groups with other Barbarians.",
+        "loot": [
+            "Gold Coin",
+            "Torch",
+            "Knife",
+            "Brass Helmet",
+            "Viking Helmet",
+            "Skull (Item)",
+            "Scale Armor",
+            "Health Potion",
+            "Brown Piece of Cloth",
+            "Life Ring",
+            "Crystal Sword",
+            "Fur Boots",
+            "Ragnir Helmet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ice_Witch",
+        "name": "Ice Witch",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/ca/Ice_Witch.gif/revision/latest?cb=20180206145407&path-prefix=en",
+        "attributes": {},
+        "notes": "Ice Witches are fallen shamans who rose from the ranks of the raiders and learned their arts from their head shaman. They rely on some strange kind of substance or drug to maintain their powers over ice and cold. Several of them serve the raider tribes with their magic, others are on missions for their sinister leader and can be encountered almost everywhere in the North. Again others became renegades and work only for their own agenda. Those renegade witches are even more hostile and dangerous. Ice Witches make use of icy variants of known spells and are schooled in the basics of shamanism and nature magic. This strange blend of sorcery and animism hints that they have been influenced by both magical schools in some way. It is speculated that a sorcerer might have tried to 'convert' shamans to the conventional ways of teachings and shared some wisdom with them. This creature fights much like a Necromancer, however doesn't summon, but paralyzes instead and have a tough armor. Be warned, if you're turned into a snowman your invisibility will be canceled.  Ice Witch had 540 Hit points before Summer Update 2009. Ice Witches heal a lot, it could be a good idea to team with a mage to shoot Thunderstorms at groups. Since summer update 2009 all loot from this creature became rare drops, most witches you kill will be empty, so you'll be hunting for a while to get anything from them.",
+        "abilities": [
+            "Melee (0-60)",
+            "Ice Wave (50-124) Ice Witch",
+            "Ice Missile (51-99) Ice Witch",
+            "Self-Healing (?)",
+            "Paralyze (5secs~) Ice Witch",
+            "Shapeshifting (Turns victims into; Snowman (Decorated) ) Ice Witch"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 70%",
+            "Ice 0%",
+            "Fire 50%",
+            "Energy 110%",
+            "Earth 60%"
+        ],
+        "location": "Ice Witch Temple, tower in Krimhorn, caves around Hrodmir ('camps' area), Formorgar Glacier deepest mines, Magician Quarter in Yalahar (Level 60 Requirement Door).",
+        "behaviour": "Ice witch attacks from a distance.",
+        "strategy": "Hunt it like a necromancer, however, because it use more melee attacks, summoning a demon skeleton doesn't work as well as it does for Necromancers. Try to corner it and kill it fast.\nKnights: Run up to her and melee her fast.\nPaladins: Try to trap the witch in the corner and stand 1 sqm away on the diagonal (this will avoid ice waves and maximize your damage).\nMages: Approach her and use Energy Strike or Death Strike and rod/wand to kill her.",
+        "loot": [
+            "Gold Coin",
+            "Ice Cube",
+            "Green Mushroom",
+            "Strong Mana Potion",
+            "Clerical Mace",
+            "Mystic Turban",
+            "Shard",
+            "Diamond Sceptre",
+            "Glacier Shoes",
+            "Crystal Sword",
+            "Pair of Earmuffs",
+            "Loot Statistics"
+        ]
+    }
+]

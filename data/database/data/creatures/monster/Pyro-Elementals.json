@@ -1,0 +1,558 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Blasting_Flame",
+        "name": "Blasting Flame",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4a/Blasting_Flame.gif/revision/latest?cb=20221231183539&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle fight against The Mega Magmaoid.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blazing_Fire_Elemental",
+        "name": "Blazing Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "Was introduced in the Summer Update 2008. It was summonable until July 9th.",
+        "abilities": [
+            "Melee (0-100)",
+            "Great Fireball on itself (100-150)",
+            "Fire Explosion (65-200)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 70%<",
+            "Holy 100%",
+            "Ice 125%>",
+            "Fire 0%",
+            "Energy 80%<",
+            "Earth 100%"
+        ],
+        "location": "The Elemental Spheres Quest, Sorcerer's part - Fire Sphere.",
+        "behaviour": "Like a normal Fire Elemental but a bit stronger.",
+        "strategy": "Shoot from distance using Icicle Runes to kill it fast. For profit hunting Ice Strike is advised or luring a couple and using Avalanche Runes.",
+        "loot": [
+            "Gold Coin",
+            "Glimmering Soil",
+            "Fiery Heart",
+            "Flaming Arrow",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blistering_Fire_Elemental",
+        "name": "Blistering Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/95/Blistering_Fire_Elemental.gif/revision/latest?cb=20080626170956&path-prefix=en",
+        "attributes": {},
+        "notes": "Was introduced in Summer Update 2008.",
+        "abilities": [
+            "Melee (0-350)",
+            "invisible Flame Beam (0-605)",
+            "Fire Bomb (around self or target)",
+            "Ultimate Soulfire Spark Bomb (on itself; it burns you (10 hp /17 turns for 170 damage total))"
+        ],
+        "resistance": [
+            "Physical 75%",
+            "Death 60%<",
+            "Holy 0%",
+            "Ice 115%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 50%"
+        ],
+        "location": "The Elemental Spheres Quest, Sorcerer's part - Fire Sphere.",
+        "behaviour": "?",
+        "strategy": "Run while staying diagonal to avoid beams. You can use either Exori Frigo or Icicles. Be careful with backspawns.",
+        "loot": [
+            "Gold Coin",
+            "Small Ruby",
+            "Fiery Heart",
+            "Glimmering Soil",
+            "Wand of Draconia",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Deadly_Heat",
+        "name": "Deadly Heat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2e/Deadly_Heat.gif/revision/latest?cb=20210626024909&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle The Lost Structure mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Excess_Heat",
+        "name": "Excess Heat",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/df/Massive_Fire_Elemental.gif/revision/latest?cb=20080621003333&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle fight against The Mega Magmaoid.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fiery_Blood",
+        "name": "Fiery Blood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 0%",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 0%",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Warzone 6, inside the boss room.",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fire_Elemental",
+        "name": "Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "Fire Elementals are entities consisting only of fire. They have been spotted in the wake of demons, and nobody knows whether they are summoned by them or whether they are independent creatures rising out of fire. They are very dangerous fighters and create fire fields or shoot fireballs at their opponents. Creatures made of fire. Because of their strong attacks, they are often used by Player Killers. With two Fire Elemental's Summoned and a mage's Sudden Death attack they can surprise even an experienced adventurer, so be prepared if you notice a player with these summoned, especially with a skull. If you are a knight with high hitpoints, you could try to not kill summons first, but instead go for the summoner making the Fire Elementals also hit their owner.",
+        "abilities": [
+            "Melee (0-100)",
+            "Fire Field on target Fire Elemental",
+            "Fire Ball (55-155) Fire Elemental"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 100%",
+            "Ice 125%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Cyclopolis, Hero Cave in Edron, Ankrahmun tombs, Serpentine Tower, Factory Quarter in Yalahar, Deeper Banuta, Goroma inside the volcano and beneath Fenrock.",
+        "behaviour": "Fire elementals can deal deadly combinations so kill them fast.A fire elemental attacks in melee range.",
+        "strategy": "Kill them quickly before they can deliver too much damage. It is recommended to run towards them, since they do their distance attacks less often.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fireling",
+        "name": "Fireling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c1/Fireling.gif/revision/latest?cb=20210626024510&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle The Lost Structure mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flame_of_Omrafir",
+        "name": "Flame of Omrafir",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "They are summoned by Omrafir.",
+        "abilities": [
+            "Melee (?)",
+            "Self-Healing (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Roshamuul Prison (here).",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Furious_Fire_Elemental",
+        "name": "Furious Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "Furious Fire Elementals are entities consisting only of fire. They have been spotted in a cave in Hellgate where it's far too hot to survive for very long.Part of The Repenters Quest.",
+        "abilities": [
+            "Melee (0-100)",
+            "Fire Field on target",
+            "Fire Explosion (0-120)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 100%",
+            "Ice 125%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Hellgate, here.",
+        "behaviour": "A furious fire elemental attacks in melee range. A furious fire elemental never retreats.",
+        "strategy": "Kill them quickly before they can deliver too much damage. It is recommended to run towards them, since they do their distance attacks less often.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Greater_Fire_Elemental",
+        "name": "Greater Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7d/Greater_Fire_Elemental.gif/revision/latest?cb=20220720195655&path-prefix=en",
+        "attributes": {},
+        "notes": "Killing two of these creatures is a requirement for accessing the room where The Flaming Orchid spawns as part of the Asura Palace Quest.",
+        "abilities": [
+            "Melee (0-300?)",
+            "Fire Bomb (around itself)",
+            "Fire Bomb (on target)",
+            "Fire- berserk (60-250)",
+            "Flame Beam (no graphic) (200-700)",
+            "Large red sparkle bomb (burns you)"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 115%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 100%"
+        ],
+        "location": "Asura Palace - here",
+        "behaviour": "A greater fire elemental attacks in melee range.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hellfire_Fighter",
+        "name": "Hellfire Fighter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e9/Hellfire_Fighter.gif/revision/latest?cb=20061212194618&path-prefix=en",
+        "attributes": {},
+        "notes": "Rage sometimes becomes an urge too strong to be controlled. Which is true for creatures like humans, is even more evident in the demon kind. In some of the demons the fire of hatred grows so strong that they are consumed by this inner, hellish fire. Some of them are powerful enough to fight back that urge for a while. They are equipped with hellish armors to contain the destructive energy that burns through them. They save their lives for the price of an existence in consuming and eternal pain, hatred and rage. Driven to the edge of madness and sometimes beyond, those demons love to release some of their anger and inner fire upon others. Exhaustive fight is their only way to find relief. The so-called Hellfire Fighters fight and destroy with everything that is left of their minds and consciousness in the ocean of rage and pain that had become their lives. Never expect a Hellfire Fighter to give in or to retreat. They will always fight to the bitter end.",
+        "abilities": [
+            "Melee (0-520)",
+            "Fire Beam (392-1500) Hellfire Fighter",
+            "Fire Berserk (60-330) Hellfire Fighter",
+            "Fire Bomb around itself Hellfire Fighter",
+            "Giant Soulfire Ball Hellfire Fighter"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 125%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Pits of Inferno, Demon Forge, Fury Dungeon.",
+        "behaviour": "This monster will spam fire spells. Not too dangerous if you avoid the beam.A hellfire fighter attacks in melee range.",
+        "strategy": "Avoid its lethal beam, it can do up to 1500~ hp of damage. Try to be at full hp at all times. Mages should use mana shield and stay far and diagonal from it while shooting SDs, Icicles or Ice Strike, or if high enough level, you can block them diagonally by using Ice Strike.\nHigh level mages can make massive amounts of experience by hunting Hellfire Fighters in the Dark Path of Demon Forge. Just lure 3-5 and kill them with Avalanche runes, and remember to always check your mana. Don't forget to bring lots of supplies.",
+        "loot": [
+            "Gold Coin",
+            "Burnt Scroll",
+            "Blank Rune",
+            "Demonic Essence",
+            "Soul Orb",
+            "Fiery Heart",
+            "Wand of Inferno",
+            "Piece of Hellfire Armor",
+            "Fire Sword",
+            "Emerald Bangle",
+            "Small Diamond",
+            "Platinum Coin",
+            "Magma Legs",
+            "Coal",
+            "Magma Coat",
+            "Fire Axe",
+            "Demonbone Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Instable_Fire",
+        "name": "Instable Fire",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d2/Instable_Fire.gif/revision/latest?cb=20210629150756&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 0%",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 0%",
+            "Energy 100%?",
+            "Earth 0%"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle Lava Fishing mission.",
+        "behaviour": "Runs away from players very fast.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Massive_Fire_Elemental",
+        "name": "Massive Fire Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/df/Massive_Fire_Elemental.gif/revision/latest?cb=20080621003333&path-prefix=en",
+        "attributes": {},
+        "notes": "Compared to normal elementals, the massive fire elementals are not only a mere concentration of the elemental fire, but also of fear and primal anger. It is their nature to destroy, to kill and to devour. Though intelligent, it is rarely known of such an elemental to control their anger long enough to be reasoned with. Even though they are not truly allied with the demonic forces, their desire to fight and to destroy more often than not has put them into uneasy alliances of destruction. Sometimes demonic overlords even manage to cull the massive fire elementals into servitude. It is said that some truly powerful magicians also managed this feat. There are also ancient rumours of something that the massive fire elementals desire above anything else; a desire in them burning so hot that it even pales their hatred. With this as bargaining tool, in the past some creatures managed to enlist the help of these elementals. Others knew long-lost spells to bind the elemental forces to their will. Thus vast armies of fire elementals, lesser and great, marched in the battles of the god wars. Several places in the known world still bear the mark of their doing, even after all these centuries. For now, the threat of another such attack seems unlikely and no greater numbers of massive fire elementals in our world have yet been encountered. Gnomish intelligence reports, however, speak of fire elementals of all kinds in the service of the enigmatic rulers 'below'. If they are servants, allies or only attracted by the mayhem and heat attributed to the activities of 'those below', is up to speculation. All evidence suggests though that there are far more of them left in the world than was assumed for a long time. Mostly found with Hellfire Fighters in the Demon Forge. A two spawn also exists in the deeper parts of Banuta.",
+        "abilities": [
+            "Melee (0-300?)",
+            "Fire Bomb (around itself)",
+            "Fire Bomb (on target)",
+            "Fire- berserk (60-250)",
+            "Flame Beam (no graphic) (200-700)",
+            "Large red sparkle bomb (burns you)"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 115%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 100%"
+        ],
+        "location": "Demon Forge, Deeper Banuta (here), Hero Cave, Hot Spot, Fury Dungeon.",
+        "behaviour": "Follows target, fights until the death.A massive fire elemental attacks in melee range.",
+        "strategy": "As most Massive Elementals, they can easily kill players under level 70. Mages Spam the monster with Ice spells and use Magic Shield as they can combo easily a mage under lvl 100, Druids wont have problem with Hailstorm/Glacial Rod and the Ultimate, Strong, Normal Ice strikes as well as both Ice waves. Sorcerers would have a little more difficult time killing them, use Ice Strike with an Energy Rod, over lvl 150 use Jungle Wand and finally use a Deepling Ceremonial Dagger/Fork once above level 180. Knights could use ice-imbued weapons and Berserk but the hunt will not compensate the cost of the imbuement, it is better to avoid hunting them until you have the level to use a Resizer/Winterblade/Cobra Axe. Paladins can use any distance weapon imbued with Frost, however it is not money wise as the powerful version will only convert 50% of the physical damage into Ice Damage, thus after applying the creatures resistances and weaknesses you will deal around 82.5% of the total damage; Shiver Arrows are not an alternative as their damage is so low and splitted in half between physical and ice. The best strategy to reduce waste, will be then to use Envenomed Arrows with a bow and the Divine Missile spell, after the damage reduction, you will cause 75% of the arrows damage, resulting to be around 40, 2 points more than Onyx Arrows. Kill one by one, and be ready to cure as they hit hard.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Rusted Armor",
+            "Small Ruby",
+            "Wand of Inferno",
+            "Fire Sword",
+            "Magma Amulet",
+            "Magma Boots",
+            "Magma Legs",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Raging_Fire",
+        "name": "Raging Fire",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Raging_Fire.gif/revision/latest?cb=20141228040820&path-prefix=en",
+        "attributes": {},
+        "notes": "These are encountered in the narrowing lava room.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Jaccus Maxxen's Dungeon.",
+        "behaviour": "UnknownA raging fire attacks in melee range.",
+        "strategy": "You must kill these and use their bodies (on?) with the limited time and space you have. For the first wave, you have 60 seconds to kill 6; for the second, you have 50 seconds to kill 5; for the third, you have 40 seconds to kill 4. 30 seconds after killing the third wave you will be teleported to the next area and receive the achievement Go with da Lava Flow.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spawn_of_Havoc",
+        "name": "Spawn of Havoc",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "strategy": "Do not kill this creature, it explodes dealing high damage when it dies!",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Heat_of_Summer",
+        "name": "The Heat of Summer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Dream Scar when Izcandar the Banished is fighting.",
+        "behaviour": "The heat of summer never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Thornfire_Wolf",
+        "name": "Thornfire Wolf",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/44/Thornfire_Wolf.gif/revision/latest?cb=20110701103632&path-prefix=en",
+        "attributes": {},
+        "notes": "Can only appear during the Thornfire World Change. It can be transformed into a Crystal Wolf by luring it towards the Bog Temple.",
+        "abilities": [
+            "Melee (0-100+)",
+            "Explosion (50+)",
+            "Whirlwind Throw (40-60)",
+            "+ shape Firebomb",
+            "Self-Healing (0-65)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 90%",
+            "Earth 95%"
+        ],
+        "location": "Shadowthorn.",
+        "behaviour": "A thornfire wolf attacks in melee range.",
+        "strategy": "Just attack it or change it into a Crystal Wolf.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Flaming Arrow",
+            "Wolf Paw",
+            "Small Diamond",
+            "Wand of Inferno",
+            "Fiery Heart",
+            "Fire Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Unchained_Fire",
+        "name": "Unchained Fire",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/34/Unchained_Fire.gif/revision/latest?cb=20220727195434&path-prefix=en",
+        "attributes": {},
+        "notes": "It's part of the fight against Magma Bubble during the Primal Ordeal Quest.",
+        "abilities": [
+            "Melee (0-1031)",
+            "Fire Bomb (1127-1178) Unchained Fire",
+            "Flame Beam (1363) Unchained Fire"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Sparkling Pools.",
+        "strategy": "Try to kill them fast since their beams will heal the boss.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Warm_Fire",
+        "name": "Warm Fire",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Fire_Elemental.gif/revision/latest?cb=20210420141456&path-prefix=en",
+        "attributes": {},
+        "notes": "It will target players but also Percht Minions.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Unknown",
+        "behaviour": "Unknown",
+        "strategy": "Do not kill it, use its warmth to weaken The Percht Queen.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

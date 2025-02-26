@@ -1,0 +1,425 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Arrow",
+        "name": "Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/69/Arrow.gif/revision/latest?cb=20050520003245&path-prefix=en",
+        "attributes": {
+            "Level": "0",
+            "Attack": "25",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "1 - 3 gp",
+            "Sold for": false,
+            "Bought for": "3 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nArrows are projectiles, fired out of a Bow, they are used mainly by Paladins. Paladins can make 10 of them by casting the Conjure Arrow spell (1 soul point spent).\nCan be obtained in Rookgaard through the Minotaur Hell Quest and Bear Room Quest.\n12 of these are needed for The Postman Missions Quest.",
+        "dropped_by": [
+            "Arthom the Hunter",
+            "Elder Bonelord",
+            "Elf",
+            "Elf Arcanist",
+            "Elf Scout",
+            "Emerald Damselfly",
+            "Hero",
+            "Hunter",
+            "Memory of an Elf",
+            "Omruc",
+            "Poacher",
+            "Rabid Wolf",
+            "Ragged Rabid Wolf",
+            "Salamander",
+            "Troll Champion"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Burst_Arrow",
+        "name": "Burst Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bd/Burst_Arrow.gif/revision/latest?cb=20150720234318&path-prefix=en",
+        "attributes": {
+            "Level": "0",
+            "Attack": "27",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.90 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "10 - 15 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nYou can never miss your target with burst arrows, even with a distance skill of 10, since the explosion effect will always take place regardless of damage output or accuracy %. Burst arrows damage a 9 square area centered on the targeted monster or, in case of a miss, wherever it lands. They use your Distance skill to cause Physical damage. Their damage output is about the same as that of a bolt. Paladins can create 8 of them with the Conjure Explosive Arrow spell. A player with a Black Skull cannot use Burst Arrows. May be useful for paladins who fight creatures which come in packs, as it has a 100% hit rate to a direct target, and may still deal damage to nearby foes. This has its consequences, too, as in PvP worlds the burst arrow will hit players even if the paladin doesn't mean to.\nDuring big team hunts in Hardcore PvP worlds, Paladins can attack their tank to do 9 square meters of damage to all surrounding monsters in case they are unable to use Diamond Arrows or they simply don't have enough of them.",
+        "dropped_by": [
+            "Arthom the Hunter",
+            "Destroyer",
+            "Dragon",
+            "Grand Mother Foulscale",
+            "Hunter",
+            "Omruc",
+            "Wyrm"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crystalline_Arrow",
+        "name": "Crystalline Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f4/Crystalline_Arrow.gif/revision/latest?cb=20120622174807&path-prefix=en",
+        "attributes": {
+            "Level": "90",
+            "Attack": "65",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.75 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "20 gp",
+            "Blocking": false,
+            "Version": "9.60July 11, 2012Summer Update 2012"
+        },
+        "notes": "Notes\nThey are a good replacement for Assassin Stars, since they cost 20 gp per shot, compared to 33 gp for Assassin Stars on average. You will also miss less often, and you'll have the extra attack value and extended range of your bow. The only drawback being that you cannot use a shield.It looks the same as a Crystalline Arrow Earth, a Crystalline Arrow Energy, a Crystalline Arrow Fire and a Crystalline Arrow Ice.\n15 of them can be obtained from Gnomish Supply Packages.",
+        "dropped_by": [
+            "Cave Devourer",
+            "Crystalcrusher",
+            "Deathling Scout",
+            "Deathling Spellsinger",
+            "Enraged Crystal Golem",
+            "Magma Crawler",
+            "Melting Frozen Horror",
+            "Stone Devourer",
+            "Wiggler"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Diamond_Arrow",
+        "name": "Diamond Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/46/Diamond_Arrow.gif/revision/latest?cb=20170713181123&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Attack": "37",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.80 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "130 gp",
+            "Sold for": false,
+            "Bought for": "130 gp",
+            "Blocking": false,
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nDiamond arrows damage an area of 21 fields centred on the target (2 fields of radius), just like old Fireball Rune (before update in 2007). Since target will always be within the damage area, you will hit it even when you miss it. Blue Electricity Effects  appears on the damage area.\n\nDiamond Arrows are not affected by Bows imbued with Elemental Damage such as Powerful Frost. The damage they deal is always Physical Damage.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Earth_Arrow",
+        "name": "Earth Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/02/Earth_Arrow.gif/revision/latest?cb=20071215061000&path-prefix=en",
+        "attributes": {
+            "Level": "20",
+            "Attack": "14",
+            "Earth Attack": "14",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "5 gp",
+            "Sold for": false,
+            "Bought for": "5 gp",
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nCauses half physical damage and half earth damage. \n50 of them can be obtained through the Tower Defence Quest.",
+        "dropped_by": [
+            "Adult Goanna",
+            "Clay Guardian",
+            "Cobra Scout",
+            "Earth Elemental",
+            "Earworm",
+            "Sun-Marked Goanna"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Envenomed_Arrow",
+        "name": "Envenomed Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/90/Envenomed_Arrow.gif/revision/latest?cb=20120622190155&path-prefix=en",
+        "attributes": {
+            "Level": "70",
+            "Attack": "27",
+            "Earth Attack": "27",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "0 - 12 gp",
+            "Sold for": false,
+            "Bought for": "12 gp",
+            "Blocking": false,
+            "Version": "9.60July 11, 2012Summer Update 2012"
+        },
+        "notes": "Notes\nThis arrow has a combined attack of 54 (half earth, half physical). It will output acceptable damage and on earth-neutral or weak monsters will be more efficient than Prismatic Bolts (3.3 atk/gp vs. 4.5 atk/gp). However, many high-end creatures are immune or strong to Earth Damage. \n15 of them can be obtained from Gnomish Supply Packages.",
+        "dropped_by": [
+            "Adult Goanna",
+            "Armadile",
+            "Earworm",
+            "Hideous Fungus",
+            "Ink Blob",
+            "Sun-Marked Goanna",
+            "Young Goanna"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flaming_Arrow",
+        "name": "Flaming Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/da/Flaming_Arrow.gif/revision/latest?cb=20101222214308&path-prefix=en",
+        "attributes": {
+            "Level": "20",
+            "Attack": "14",
+            "Fire Attack": "14",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "5 gp",
+            "Sold for": false,
+            "Bought for": "5 gp",
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nCauses half physical damage and half fire damage.\n50 of them can be obtained through the Tower Defence Quest.",
+        "dropped_by": [
+            "Annihilon",
+            "Blazing Fire Elemental",
+            "Bragrumol",
+            "Firestarter",
+            "Manticore",
+            "Memory of a Manticore",
+            "Ogre Rowdy",
+            "Thornfire Wolf"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flash_Arrow",
+        "name": "Flash Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8c/Flash_Arrow.gif/revision/latest?cb=20150125151320&path-prefix=en",
+        "attributes": {
+            "Level": "20",
+            "Attack": "14",
+            "Energy Attack": "14",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "5 gp",
+            "Sold for": false,
+            "Bought for": "5 gp",
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nIt causes half physical and half energy damage. The damage reduction from each creature's armor value produces variation in the damages so it's not likely that the energy damage component will equal the physical damage component.\nUsing elemental arrows is situational. An obvious use case is against creatures that are immune to physical damage. However, higher level paladins are likely to avoid these creatures because their primary damage output is still physical. Low level paladins may consider elemental arrows because they offer more damage than the other store-bought arrows. The Arrow offers 25 attack while the elemental arrows offer 28 (14 + 14). In addition, half of the damage will be in another element which may improve the damage.\nAnother option is to use Burst Arrows, which offer 27 attack and have no level requirement. Burst Arrows cannot miss their target and they may also hit a nearby creature. As a downside, Burst Arrows cannot be bought in stores and must be bought from players or obtained from e.g. Dragons.\n\n See also: Flaming Arrow, Earth Arrow, and Shiver Arrow  \n50 of them can be obtained through the Tower Defence Quest.",
+        "dropped_by": [
+            "Charged Energy Elemental",
+            "Cursed Prospector",
+            "Energuardian of Tales",
+            "Energy Elemental",
+            "Faceless Bane",
+            "Ghazbaran",
+            "High Voltage Elemental",
+            "Knowledge Elemental",
+            "Massive Energy Elemental",
+            "Urmahlullu the Weakened"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Onyx_Arrow",
+        "name": "Onyx Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3f/Onyx_Arrow.gif/revision/latest?cb=20070623041334&path-prefix=en",
+        "attributes": {
+            "Level": "40",
+            "Attack": "38",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "7 - 15 gp",
+            "Sold for": false,
+            "Bought for": "7 gp",
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nAn article from Tibianews, published on October 21, 2007, suggested that the attack rate of Onyx Arrow is 38. Previously it has been believed to be 35.\n200 of these can be obtained during the Barbarian Arena Quest by clearing both the Greenhorn Arena and the Scrapper Arena.",
+        "dropped_by": [
+            "Demodras",
+            "Falcon Knight",
+            "Falcon Paladin",
+            "Ghazbaran",
+            "Golgordan",
+            "Grand Canon Dominus",
+            "Grand Chaplain Gaunder",
+            "Grand Commander Soeren",
+            "Hellhunter Inferniarch",
+            "Juggernaut",
+            "Kalyassa",
+            "Latrivan",
+            "Omruc",
+            "Orshabaal",
+            "Plaguesmith",
+            "Preceptor Lazare",
+            "Ushuriel",
+            "Zugurosh"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Poison_Arrow",
+        "name": "Poison Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/62/Poison_Arrow.gif/revision/latest?cb=20050528000835&path-prefix=en",
+        "attributes": {
+            "Level": "0",
+            "Attack": "23",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.80 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "1 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nCauses physical damage. When a target is injured by the arrow it will be poisoned for 33 turns (4 seconds per turn). Poison damage starts at 3 HP for 4 turns, followed by 9 turns with 2 HP and 20 turns with 1 HP each, which adds up to 50 HP over a period of 2 minutes and 12 seconds.\n\n\nAn article from Tibianews, published on October 21, 2007, suggested that the attack rate for Poison Arrow is 22. Previously it has been believed that the attack rate is 20.\n\nCan be obtained in Rookgaard through the Minotaur Hell Quest. Also obtainable in Dragon Tower Quest, Poison Daggers Quest and Dead Archer Quest.",
+        "dropped_by": [
+            "Arthom the Hunter",
+            "Dawnfly",
+            "Dworc Venomsniper",
+            "Elf Scout",
+            "Exotic Cave Spider",
+            "Giant Spider",
+            "Giant Spider (Nostalgia)",
+            "Hunter",
+            "Necromancer",
+            "Necromancer Servant",
+            "Omruc",
+            "Poacher",
+            "Troll-Trained Salamander"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shiver_Arrow",
+        "name": "Shiver Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/16/Shiver_Arrow.gif/revision/latest?cb=20101222214827&path-prefix=en",
+        "attributes": {
+            "Level": "20",
+            "Attack": "14",
+            "Ice Attack": "14",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "5 gp",
+            "Sold for": false,
+            "Bought for": "5 gp",
+            "Blocking": false,
+            "Version": "8.10December 11, 2007Christmas Update 2007"
+        },
+        "notes": "Notes\nCauses half physical damage and half ice damage.\n50 of them can be obtained through the Tower Defence Quest.",
+        "dropped_by": [
+            "Animated Snowman",
+            "Crystal Wolf",
+            "Ghazbaran",
+            "Ice Dragon",
+            "Seacrest Serpent",
+            "Slick Water Elemental"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Simple_Arrow",
+        "name": "Simple Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2d/Simple_Arrow.gif/revision/latest?cb=20150720234320&path-prefix=en",
+        "attributes": {
+            "Level": "0",
+            "Attack": "20",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.60 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "2 gp",
+            "Blocking": false,
+            "Version": "10.55September 15, 2014"
+        },
+        "notes": "Notes\nPlayers will receive 100 of these arrows when going through the Paladin gate on Dawnport the first time.\nYou can create 3 with Arrow Call.",
+        "dropped_by": [
+            "Dawnfly",
+            "Troll Marauder",
+            "Troll-Trained Salamander",
+            "Woodling"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sniper_Arrow",
+        "name": "Sniper Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2e/Sniper_Arrow.gif/revision/latest?cb=20150720234322&path-prefix=en",
+        "attributes": {
+            "Level": "20",
+            "Attack": "28",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "5 gp",
+            "Sold for": false,
+            "Bought for": "5 gp",
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nThese arrows seem to be very accurate, but they can miss nevertheless.\n100 of these can be obtained during the Barbarian Arena Quest by clearing the Greenhorn Arena.",
+        "dropped_by": [
+            "Arthom the Hunter",
+            "Braindeath",
+            "Crystal Spider",
+            "Elder Bonelord",
+            "Ghazbaran",
+            "Hellhunter Inferniarch",
+            "Hero"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tarsal_Arrow",
+        "name": "Tarsal Arrow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d7/Tarsal_Arrow.gif/revision/latest?cb=20111212212926&path-prefix=en",
+        "attributes": {
+            "Level": "30",
+            "Attack": "33",
+            "Classification": "WeaponsAmmunition",
+            "Pickupable": true,
+            "Weight": "0.70 oz",
+            "Stackable": true,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "6 gp",
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Kollos"
+        ]
+    }
+]

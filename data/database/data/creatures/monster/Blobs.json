@@ -1,0 +1,872 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Acid_Blob",
+        "name": "Acid Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Acid_Blob.gif/revision/latest?cb=20180417223145&path-prefix=en",
+        "attributes": {},
+        "notes": "Highly destructive and corrosive, the Acid Blob has little in common with the ordinary slime. They are much better in finding and pursuing a target than their distant cousins. While the ordinary slime is driven by the primal urge to get food, the Acid Blob is out for destruction. It is indeed a frightening sight when a bunch of these creatures crawls towards a single target with the intention to completely destroy it.Some researchers speculate that Acid Blobs share their intelligence with blobs all over the world. As Acid Blobs reproduce themselves by splitting into two entities, this thesis might have an element of truth.Be it as it may, the Acid Blob is a constant threat particularly to the environment. Since living creatures are often smart and quick enough to avoid the attacks of the blobs, any kind of  plants,  constructions and the like are usually not that lucky and are annihilated by their attacks.In the past, some eccentric madmen used Acid Blobs as waste disposal, which was considered to be somewhat stylish. However, after the Acid Blobs had digested a certain amount of waste, they started reproducing themselves multiple times which started to become a real problem. After several unpleasant incidents, this way of waste disposal was stopped, however, the results of such folly can still be seen at various places.",
+        "abilities": [
+            "Melee (0-80)",
+            "Poison Beam (40-60)",
+            "Poison Ball on self (10-20)",
+            "Poison Shot (0)",
+            "Summons (1-3 Acid Blob )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Alchemist Quarter, Deeper Banuta.",
+        "behaviour": "Like a Slime, will advance towards its prey in attempt to overwhelm it by summoning more Acid Blobs.An acid blob attacks in melee range.",
+        "strategy": "Kill it like a Slime, being wary of geting surrounded by its Summons. Try to kill this monster as fast as you can, because its Summons, adding another Blob-Type Creatures, can make you lay down in few seconds.",
+        "loot": [
+            "Glob of Acid Slime",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Aggressive_Lava",
+        "name": "Aggressive Lava",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Warzone 4 and Warzone 6, inside the boss rooms.",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Unknown",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Black_Mutagen",
+        "name": "Black Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6b/Black_Mutagen.gif/revision/latest?cb=20221113034708&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blood_Tear",
+        "name": "Blood Tear",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ghulosh's room inside The Secret Library.",
+        "behaviour": "They retarget very often.",
+        "strategy": "They shouldn't be your focus during the fight but eventually you'll have to kill them to clear the room.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blue_Mutagen",
+        "name": "Blue Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/96/Blue_Mutagen.gif/revision/latest?cb=20221113034709&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Chocolate_Blob",
+        "name": "Chocolate Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/92/Chocolate_Blob.gif/revision/latest?cb=20240604125116&path-prefix=en",
+        "attributes": {},
+        "notes": "Many Tibians may be familiar with the acid blob or death blob. Far fewer get to see the chocolate blob, although it is a much more delicious version of its slimy cousins. As the name suggests, it consists entirely of sweet, creamy chocolate. Although the chocolate in Candia melts less quickly than ordinary chocolate, it is not completely impervious to it either. When the summer sun shines particularly strongly on the tops of the chocolate mountains, they melt and the liquid chocolate drips down into the marzipan grass. There, chocolate blobs form, which from then on streak across the surface of Candia. However, they are harmless and, unlike other blobs, they do not attack unsuspecting hikers. Sometimes they retreat underground, into the vast chocolate mines, where they merge back into the mountains. Others eventually dive down into the cocoa lakes, where they liquefy and enrich these lakes with a fine nutty chocolate flavour.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 70%",
+            "Death 75%",
+            "Holy 90%",
+            "Ice 105%",
+            "Fire 60%",
+            "Energy 100%",
+            "Earth 65%"
+        ],
+        "location": "Candia",
+        "behaviour": "A chocolate blob does not attack.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Concentrated_Death",
+        "name": "Concentrated Death",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Concentrated_Death.gif/revision/latest?cb=20210420181654&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks the same as a Death Blob. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ghulosh's room inside The Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cream_Blob",
+        "name": "Cream Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f1/Cream_Blob.gif/revision/latest?cb=20240604124925&path-prefix=en",
+        "attributes": {},
+        "notes": "Among the inhabitants of Candia, the cream blobs are the least busy and prefer to indulge in idleness. They like to wander through the Peppermint forests or lie on the sand of the vanilla sugar beaches on the shores of the Blueberry or Moon Melon Sea. Sometimes, however, they can be persuaded to help the truffles decorate their cakes or donate a portion of cream for the fruit drops who are working with the ice cream machine.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 85%",
+            "Fire 115%",
+            "Energy 100%",
+            "Earth 75%"
+        ],
+        "location": "Candia, Dessert Dungeons, Thais",
+        "behaviour": "A cream blob does not attack.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Darklight_Matter",
+        "name": "Darklight Matter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/19/Darklight_Matter.gif/revision/latest?cb=20230613180253&path-prefix=en",
+        "attributes": {},
+        "notes": "A mass of living unlight, the Darklight Matter is a writhing entity pulsating with corrupted energy. It is an aberration, formed from the merging of darkness and light in the fallen realm. Dark tendrils writhe and coil within its form, as if reaching out to snuff out any remaining traces of illumination. The Darklight Matter emanates an aura of suppressed power, drawing in the surrounding shadows and distorting the fabric of reality. Its mere presence causes disturbances in the natural flow of energy, leaving a trail of darkness and corruption wherever it ventures. To encounter the Darklight Matter is to confront a living paradox, an entity birthed from the very essence of the fallen realm.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 125%",
+            "Energy 60%",
+            "Earth 110%"
+        ],
+        "location": "Darklight Core",
+        "behaviour": "A darklight matter attacks from a distance.",
+        "loot": [
+            "Crystal Coin",
+            "Unstable Darklight Matter",
+            "Darklight Core (Object)",
+            "Ultimate Health Potion",
+            "Red Gem",
+            "Darklight Matter (Object)",
+            "Rubber Cap",
+            "Collar of Red Plasma",
+            "Green Gem",
+            "Shadow Sceptre",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Death_Blob",
+        "name": "Death Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a5/Death_Blob.gif/revision/latest?cb=20210420155207&path-prefix=en",
+        "attributes": {},
+        "notes": "The Death Blob is the undead version of the well-known green slime. While the green slime is constantly absorbing living things as a source of food, the Death Blob is less picky in this matter. It devours everything that comes into contact with it. Death Blobs are even able to dissolve harder materials using its gastric juices.Death Blobs arise out of green slimes. In the course of centuries, a green slime tends to eat quite a lot of negative energy which usually comes in form of cursed objects, undead material, demonic remains and other sources. This negative energy slowly poisons the slime up to the point where  the ordinary green slime turns into a black undead slime, consisting of a huge amount of negative energy. The undead characteristics make the Death Blob quite a strong opponent. Although it has quite some power and extra abilities, it seems to be driven by its primitive instincts and only aims to destroy everything in its way.",
+        "abilities": [
+            "Melee (0-100)",
+            "Smoke Ball (35-60)",
+            "Curses you (up to 52 hp/turn)",
+            "Self-Healing (30-60)",
+            "Summons (1-3 Death Blob )"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 0%",
+            "Holy 110%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Alchemist Quarter, Drefia, Razachai, Souleater Mountains, Northern Zao Plantations and Raging Mage tower.",
+        "behaviour": "Like a Slime, it advances towards its prey and will attempt to overwhelm them by Summoning more Death Blobs.A death blob attacks in melee range.",
+        "strategy": "Kill it like a Slime. Be wary of geting surrounded by its Summons, especially if the Death Blobs with other creatures (Bog Raiders, Mutated Tigers, etc). Although one Death Blob can be defeated easily by most adventurers, the combined damage of its Summons and the potential creatures with it can be a potential free trip to the temple.",
+        "loot": [
+            "Glob of Tar",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon_Blood",
+        "name": "Demon Blood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 125%",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Lokathmor's room inside The Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Floor_Blob",
+        "name": "Floor Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4a/Floor_Blob.gif/revision/latest?cb=20111201055730&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "The Hive around here",
+        "behaviour": "A floor blob never retreats.",
+        "strategy": "It cannot attack you or be damaged. You can choose to ignore it or use a Blob Bomb on it to complete the Digestion task as part of the War Against the Hive Quest.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glooth_Blob",
+        "name": "Glooth Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c1/Glooth_Blob.gif/revision/latest?cb=20180506164139&path-prefix=en",
+        "attributes": {},
+        "notes": "The glooth blob is the result of careless experiments with glooth and lesser critters like rats, insects and birds. Whatever the original purpose of the experiments may have been, the outcome was a slimy mass of semi sentient glooth. To make matters worse the products of the experiments were deemed a failure and discarded. That way several test subjects escaped and multiplied by splitting themselves after they gained a certain amount of size. The experiments were stopped and the magistrate ordered the files about them to be securely hidden and classified highly confidential. It seems in the beginning there were several strains that could be considered glooth blobs but eventually only one discernible strain seems to have survived. The blobs are often drawn to glooth sources though they seemingly not actively absorb it. Only in times before they split they actively consume glooth and glooth residue in great masses so it is assumed glooth is necessary for their reproduction. It is speculated though, that the glooth could possibly substituted by something else but the magistrate put an end to further investigations in that matter. Though the glooth blob is not actively aggressive it its highly territorial and instinctively attacks any intruders. What is an intruder and what not seems quite random though, as glooth blobs are known to sometimes coexist relatively peaceful with other creatures. Glooth blobs are often drawn to sources of carrion and organic waste and therefore the Rathleton magistrate ordered a strict policy towards waste disposal to minimize the intrusions of blobs into the city. Of course ignorance and recklessness undermine this efforts and so a number of blobs is attracted by especially the poorer quarters of the city. Occasionally for completely unknown reasons great numbers of glooth blobs are spawned. There is no known common factor in this occurrences and usually they vanish as sudden as they appear, some are reportedly dissolving into pools and rapidly dehydrate into dust. In this times the blobs are unusually aggressive and dangerous as they actively hunt for prey. Blobs that have consumed a certain mass of matter and swollen far beyond their usual size have been observed, slithering towards a common point. No one has yet made out this point and there is not even a valid theory for what reason the glooth blobs behave that way. The magistrate has forbidden all further investigation because to the danger associated with it.",
+        "abilities": [
+            "Melee (0-110)",
+            "Shoots Envenomed Arrows (0-180) Glooth Blob",
+            "Poison Hit (0-150) Glooth Blob",
+            "Poisoning Ball (up to 22 hp/turn) Glooth Blob",
+            "Summons (1 Glooth Blob )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Oramond/Western Plains, Lower Rathleton, Glooth Factory, Underground Glooth Factory, Rathleton Sewers.",
+        "behaviour": "A glooth blob attacks in melee range. A glooth blob never retreats.",
+        "strategy": "Watch closely which blob is the mother blob to prevent killing summons. Using area attacks can be useful if you don't know which blob is the original one.",
+        "loot": [
+            "Gold Coin",
+            "Glob of Glooth",
+            "Small Topaz",
+            "Small Sapphire",
+            "Glooth Amulet",
+            "Glooth Club",
+            "Glooth Axe",
+            "Glooth Blade",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Green_Mutagen",
+        "name": "Green Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2d/Green_Mutagen.gif/revision/latest?cb=20221113034710&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Horrible_Dream",
+        "name": "Horrible Dream",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Horrible_Dream.gif/revision/latest?cb=20210420181653&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 70%",
+            "Energy 90%",
+            "Earth 20%?"
+        ],
+        "location": "The Dream Scar when Alptramun is fighting.",
+        "behaviour": "A horrible dream never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ink_Blob",
+        "name": "Ink Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3e/Ink_Blob.gif/revision/latest?cb=20180607130121&path-prefix=en",
+        "attributes": {},
+        "notes": "It is said said great authors put a part of their hearts, sweat, blood and souls into their masterpieces. This is often more than true for works on arcane knowledge. Some works become like entities on their own and begin to feed on the energy of their creator. Sometimes they consume even more energy than a mere arcane book can contain. Such overloaded books begin to 'bleed' out some of the lifeblood and essence they contain in the form of magic ink. While a single book can merely produce some inconsequential droplets of soul-ink, a large number of books that provide such ink might pool into a greater blob. This combined essence quickly gains a form of sentience of their own and feeds on lesser pools to grow in size and power. Since they become very protective towards the books that spawned them and they still feel some kind of mystical connection to, they are usually rather seen as useful than just a mere nuisance, though they are always quite hostile towards strangers. Since in theory they can absorb unlimited amounts of essence pools and grow to abominably sizes, they are commonly culled by the keepers of the libraries that spawn them and split into lesser, better manageable blobs of smaller size. The refreshment of fading inks in old books, destruction of vermin as well as mold and keeping the pages at the ideal state of dryness counts to their more usual functions. They tend scare away some nosy intruders and keep visitors out of areas they are unwanted in. While relatively 'newborn' ink blobs are timid and react to strangers with scary faces and bubbly noises older, more experienced blobs, become considerably more aware of their own capabilities and grow more and more aggressive and malignant.",
+        "abilities": [
+            "Melee (0-550)",
+            "Poison Burst Arrows (600-900) Ink Blob",
+            "Big Sparkles Bomb (600-850) Ink Blob",
+            "Small Sparkles Bomb (700-950) Ink Blob",
+            "Ripple Wave (1200-1650) Ink Blob",
+            "Poisons you (starts at 30-45)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 108%",
+            "Earth 0%"
+        ],
+        "location": "Secret Library earth, fire and ice sections.",
+        "behaviour": "An ink blob attacks in melee range. An ink blob never retreats.",
+        "strategy": "Despite having considerably less HP than the creatures it's found with, Ink Blobs deal the most damage, so they should be the main focus during pulls to eliminate the threat. Since they don't walk over Energy, Energy Bomb Runes can be helpful for shooters in some situations, but it won't protect you from most of the other creatures around.",
+        "loot": [
+            "Small Diamond",
+            "Platinum Coin",
+            "Small Topaz",
+            "Poisonous Slime",
+            "Envenomed Arrow",
+            "Inkwell (Black)",
+            "Giant Shimmering Pearl (Brown)",
+            "Terra Boots",
+            "Terra Hood",
+            "Blue Gem",
+            "Terra Legs",
+            "Stone Skin Amulet",
+            "Protection Amulet",
+            "Sacred Tree Amulet",
+            "Springsprout Rod",
+            "Terra Mantle",
+            "Clay Lump",
+            "Terra Amulet",
+            "Swamplair Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lava_Lurker_Attendant",
+        "name": "Lava Lurker Attendant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a weaker form of a Lava Lurker, but it is only encountered as summons from Floating Savants.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Extension Site.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lava_Lurker",
+        "name": "Lava Lurker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "The lava lurker seems like a creature just created for mayhem and destruction. It's a creature that seems to be in a constant, highly agitated frenzy, hell-bent on hurting, destroying and devouring. Though arguably more an elemental then a creature the lurker is mostly encountered close to volcanic activity, some even claim to be born or created by it. Despite it's aggressive nature it can become dormant for an unknown time and even blend it with other lave or magma environment being perfectly camouflaged. It's unknown it's actively lurks for prey in this state or becomes somehow awake as soon as a potential victim comes close but the outcome is the same. The lava lurker coms into action and viciously attacks every potential victim like the raging fire that might have given birth to it. With no obvious organs it is unknown how lukers feed. Due to their eagerness to burn and sear thing, it's assumed that ashes of organic matter gives then some sort of sustenance. Though it's theorized that the lurker reproduces like the common slime, this is only wild speculation and not backed up by any evidence at all. The whole comparisons to slimes might be highly misleading and create more questions than it provides answers. How exactly they fit into the rooster of those bellow is also highly speculative. Some evidence suggest that their appearance might only be a side effect of the heat that comes with the advance of the hordes from bellow. Yet they mostly show no aggression towards the forces of those bellow, they are rarely part of attacks on outposts and when they do, it's almost more as if they are some force of nature then part of an army. This puts their whole sentience into question. Scientists and sorcerers that are fascinated by this creature but are just on the brink of their studies of the lava lurker. Only time will tell what valuable lessons can be made by their analysis. Given the destructive nature of the lava lurker though, a steep price might have to be paid in that process.",
+        "abilities": [
+            "Melee (?)",
+            "Fire Attacks"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire -100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Gnome Deep Hub",
+        "behaviour": "A lava lurker attacks in melee range.",
+        "strategy": "Hunting these creatures should be avoided since they have a lot of health and only drop one cheap item. If you decide to do so, avoid getting swarmed and try to keep your distance (unless you are a knight, of course) since they are very slow.",
+        "loot": [
+            "Small Enchanted Ruby",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lava_Puddle_(Creature)",
+        "name": "Lava Puddle (Creature)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Lava_Puddle_%28Creature%29.gif/revision/latest?cb=20220709022338&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during one of the missions of the Primal Ordeal Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 105%",
+            "Energy 95%",
+            "Earth 100%"
+        ],
+        "location": "Gnomprona",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mercury_Blob",
+        "name": "Mercury Blob",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b2/Mercury_Blob.gif/revision/latest?cb=20210420155238&path-prefix=en",
+        "attributes": {},
+        "notes": "This silver fluid is actually some sort of residue of magical experiments involving teleporting and travelling to other dimensions. Actually, they are part of the usually unseen membrane that separates different states of existence such as dimensions, spheres and worlds. Sometimes, while something is passing from one state of existence to another, parts of the membrane are spilled into one of the worlds involved. Even if it is hard to believe, this residue seems to own some sort of intelligence or at least some instinct. However, it is also possible that a Mercury Blob has an incredibly high intellect which has a concept that we simply cannot grasp.Though the residue interacts with objects and people in our world, there seems no true purpose in its actions. Whenever it meets a human being it seems to start an attack; however, no malice can be attributed to this behaviour. It is doubtful whether the residue is aware of the harm it causes or the concept of harm at all. Maybe the attacks are a form of communication attempts. Sadly, these attempts are often lethal for mortals, and so it is strongly advised to fight back with all means.Its ability to produce a copy of itself might be another attempt to interact with our world.  As far as we can tell, killing a Mercury Blob results in cutting its connection to our world and letting it return into the membrane, its natural habitat.",
+        "abilities": [
+            "Melee (0-75)",
+            "Magic Missile (10-30)",
+            "Self-Healing (?)",
+            "makes you drunk",
+            "Summons (1-3 Mercury Blob )"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 0%",
+            "Holy 35%",
+            "Ice 85%",
+            "Fire 90%",
+            "Energy 100%",
+            "Earth 35%"
+        ],
+        "location": "Alchemist Quarter.",
+        "behaviour": "Like a Slime, will advance towards its prey in attempt to overwhelm it by summoning more Mercury Blobs.A mercury blob attacks in melee range.",
+        "strategy": "Kill it like a Slime, being wary of geting surrounded by its Summons. Don't try to run around this monster, because when it makes you Drunk, you will be unable to escape.",
+        "loot": [
+            "Glob of Mercury",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Purple_Mutagen",
+        "name": "Purple Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/56/Purple_Mutagen.gif/revision/latest?cb=20221113034711&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ravenous_Lava_Lurker",
+        "name": "Ravenous Lava Lurker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "Not only are these creatures immune to Fire, they actually get healed by it. Their relatively low power relative to their experience reward makes them popular targets for players who are focused entirely on gaining experience, regardless of waste.",
+        "abilities": [
+            "Melee (?)",
+            "Fire Attacks"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire -100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Gnome Deep Hub in the Gnomish area.",
+        "behaviour": "They fight in close combat.A ravenous lava lurker attacks in melee range.",
+        "strategy": "Mages can avoid their melee attack by blocking them off using a Crate or Parcel. Using Avalanche Rune as they often come in groups.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Red_Mutagen",
+        "name": "Red Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f1/Red_Mutagen.gif/revision/latest?cb=20221113034711&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Slime",
+        "name": "Slime",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/82/Slime.gif/revision/latest?cb=20220715022751&path-prefix=en",
+        "attributes": {},
+        "notes": "Slimes are not real creatures but very strange entities which occur in the dungeons of Tibia. They move by flowing rather than walking. Their favourite tactic is to enclose an enemy by separating and floating around him. Their attack is quite heavy, but their defence is weak. Upon their death, they turn into a cloud of poisonous gas that vanishes quickly into thin air.",
+        "abilities": [
+            "Melee (0-110)",
+            "Summons (1-3 Squidgy Slime )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Ancient Temple under the Rotworm area, under White Flower Temple, Mount Sternum Undead Cave on the last floor, Thais Troll Cave, Bonelord cave in Drefia, Green Claw Swamp, Dwarf Mines, Villa Scapula, Ankrahmun Tombs, Dark Cathedral, north of Port Hope, Deeper Banuta, on Folda on the floor above the Water Elementals, Hellgate, Vengoth, Alchemist Quarter, Yalahar and Carlin sewers, Ghostlands, Desert Dungeon, Dusalk's Troll Clan Cave, Nargor, and in a cave northeast of Ab'Dendriel.",
+        "behaviour": "Slimes don't run in low health and summon more slimes to overwhelm their enemies with strong melee attacks. They move items out of their way, but don't kill weak creatures.A slime attacks in melee range. A slime never retreats.",
+        "strategy": "If you can't pick out the original while you're attacking, don't hesitate to start attacking the next slime. Though at times you will find that your second target is only a copy and it will disappear if the slime you killed before it was the original, it is better to be safe in case the first slime is not the original slime.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Snail_Slime",
+        "name": "Snail Slime",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/82/Slime.gif/revision/latest?cb=20220715022751&path-prefix=en",
+        "attributes": {},
+        "notes": "Fire Damage will heal it. It looks like a Slime.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 0%",
+            "Energy 105%?",
+            "Earth 0%"
+        ],
+        "location": "Warzone 5 inside the boss rooms.",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Lure it far from The Count of the Core and kill it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Son_of_Verminor",
+        "name": "Son of Verminor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/82/Slime.gif/revision/latest?cb=20220715022751&path-prefix=en",
+        "attributes": {},
+        "notes": "It is said that the dark lord of decay, Verminor, one of the Ruthless Seven, oozes the very essence of destruction. The power of that demon is so immense that some of his ooze gained a sort of sentience over the years. Instinctively devouring more and more of the demonic ooze, it grows in proportions and sentience unless a semi-intelligent creature is formed that is known as Son of Verminor.The most powerful of them are recognised by their progenitor as his kin and serve as his minions. Usually not more than an almost mindless mass of decay and hunger, they can be used by their dark master almost like puppets to fulfil his unholy duties. It is assumed that they not only function as the long arm of their master, but also as his eyes, enabling him to sight what is happening in the vicinity of his 'son'. When encountered in the realm of man, Sons of Verminor are usually just a shambling ever-hungry mass that tries to consume everything that it can catch. Because of the mindless destruction they tend to cause, they are seldom summoned by the servants of the demons. The Sons of Verminor are usually used to make places as inhospitable as possible. Sometimes a greater number of them is summoned to make an area almost impassable for a while.",
+        "abilities": [
+            "Melee (0-460)",
+            "Poison Hit (150-200)",
+            "Poison Berserk (350-390)",
+            "Curse Berserk (220-270)",
+            "Shapeshifting (Turns  into; Rat or Larva or Scorpion or Slime )",
+            "Self-Healing (250-350)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 90%",
+            "Energy 80%",
+            "Earth 0%"
+        ],
+        "location": "Deep in the Pits of Inferno, in Verminor's throne room. Also in the Demon Forge (The Vats and The Hive).",
+        "behaviour": "Unknown.A son of verminor attacks in melee range.",
+        "strategy": "Kill it fast using ice, holy, or death runes/spells and Exori Gran.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Squidgy_Slime",
+        "name": "Squidgy Slime",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/82/Slime.gif/revision/latest?cb=20220715022751&path-prefix=en",
+        "attributes": {},
+        "notes": "These are summoned by Slime. They are a weaker version of it. The only wild spawns of this creatures are conditioned to the state of The Mummy's Curse World Change.",
+        "abilities": [
+            "Melee (0-110)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Horestis Tomb during one of the states of The Mummy's Curse World Change.",
+        "behaviour": "Same as Slime.A squidgy slime attacks in melee range. A squidgy slime never retreats.",
+        "strategy": "Just attack it, it's about as strong as a Nomad.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Strange_Slime",
+        "name": "Strange Slime",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/82/Slime.gif/revision/latest?cb=20220715022751&path-prefix=en",
+        "attributes": {},
+        "notes": "Wait, they pulled that out of your ear!?",
+        "abilities": [
+            "Melee (0)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gnomegate",
+        "behaviour": "A strange slime never retreats.",
+        "strategy": "It's harmless, just kill it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sulphur_Menace",
+        "name": "Sulphur Menace",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/36/Sulphur_Menace.gif/revision/latest?cb=20220928174600&path-prefix=en",
+        "attributes": {},
+        "notes": "Found in Primal Ordeal Quest. This creature cannot be killed.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Sparkling Pools.",
+        "behaviour": "Unknown.",
+        "strategy": "There is no strategy to kill this creature.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sulphur_Spouter",
+        "name": "Sulphur Spouter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9e/Sulphur_Spouter.gif/revision/latest?cb=20220621120913&path-prefix=en",
+        "attributes": {},
+        "notes": "The sulphur spouter seems to be an elemental and less an actually creature by classification. While other fringe theories suggest that the spouters are just heaps of sulphur possessed and animated by some kind of nature spirit and more related to fairies and pixies there is no proof to support such claims. Whatever their true origin might be, they are on the intelligence level of an animal and able to act on purpose and with an agenda in a limited way. Why this agenda usually seems to involve violence and destruction is not known though. The spouter seems not to rely on any form of sustenance but it seems somewhat to 'recharge' in proximity to naturally occurring sulphur. Therefore the spouter are usually found close to natural occurrences of sulphur like volcanic cracks. There are some vague hints that the sulphur spouters are not native to Gnomprona but migrated there from somewhere else. They seem to be relatively 'new' to the area, though new in the case of such primordial place still means an enormous amount of time to mortal creatures. As their corpses leave distinctive marks on earth, e4xcacvations revealed that such marks are missing in the deepest layers where still bones and other remains were found. The fact that the spouters seem keen to attack explorers and destroy artificial structures not native to the subterranean realm at times lead some to believe that they are somehow remotely controlled or following certain orders imprinted on them. While some think they might have been some kind of pets or servants of an extinct intelligent race that once dwelt in Gomprona, more paranoid Gnomes suggest that they might actually be agents of those below. Serving them as eyes and ears somehow and to link the activity of those below in the area to the recognition of gnomish presence by those creatures. Both theories have little evidence to prove their point of view though. As of now these peculiar creatures remain largely an enigma to science. The fact that captured sulphur spouters die within a few days for no discernible reason, makes any research in that matter complicated at best.",
+        "abilities": [
+            "Can deal Critical Hits"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 120%",
+            "Ice 100%",
+            "Fire 75%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Monster Graveyard",
+        "behaviour": "A sulphur spouter attacks from a distance.",
+        "loot": [
+            "Sulphur Powder",
+            "Crystal Coin",
+            "Ultimate Mana Potion",
+            "Giant Shimmering Pearl (Green)",
+            "Yellow Gem",
+            "Red Gem",
+            "Knight Legs",
+            "Slightly Rusted Legs",
+            "Warrior's Shield",
+            "Fire Sword",
+            "Crystal Crossbow",
+            "Ring of Red Plasma",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vampiric_Blood",
+        "name": "Vampiric Blood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Lava_Lurker.gif/revision/latest?cb=20180116122741&path-prefix=en",
+        "attributes": {},
+        "notes": "It supports The Red Knight during the Grave Danger Quest.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Isle of the Kings",
+        "behaviour": "A vampiric blood attacks in melee range. A vampiric blood never retreats.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Yellow_Mutagen",
+        "name": "Yellow Mutagen",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/60/Yellow_Mutagen.gif/revision/latest?cb=20221113034712&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Ingol",
+        "behaviour": "They move around constantly.",
+        "strategy": "You don't have to (and cannot) kill them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

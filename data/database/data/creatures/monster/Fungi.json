@@ -1,0 +1,216 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Hideous_Fungus",
+        "name": "Hideous Fungus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e3/Hideous_Fungus.gif/revision/latest?cb=20120622171844&path-prefix=en",
+        "attributes": {},
+        "notes": "With the Humongous Fungus being an example for a mushroom drawn to turn evil, the Hideous Fungus is the epitome of mushroom evil. In fact they originate as Humongous Fungi that are so evil that they begin to change and ultimately end in destroying themselves.Their evilness materialises as deformation and an inner rot that drives the fungus to the brink of insanity. Hideous Fungi seems to not care about planning and safety. They are by far more often encountered alone than their yet untainted kin. Sometimes they are found wandering aimlessly in remote tunnels, often chasing something that they forgot about a long time ago. While the Hideous Fungi use their physical and natural abilities as aptly as any of their kin, their attacks lack finesse and often seem utterly random and chaotic. Their only interest seems to be to do as much harm as possible. Where the Humongous Fungus simply evil, the Hideous Fungus is pure destruction. It is not known if the Hideous Fungus is aware of its demise getting closer or if it is pain that drives it to these merciless frenzies. What is certain is the fact that the fungus seems to be searching for death, almost provoking it. Only recently some daring explorers might have shed some light on this matter. Not only have they noticed that from the dead body of a Hideous Fungus a group of Humongous Fungi will grow after a while, but also that their victims often fall mysteriously ill and die, seemingly never recovering from the wound they got in a battle with a Hideous Fungus. So it might be entirely possible that the rampages of the Hideous Fungus, whether an act of planning or not, might be connected to the reproduction of the fungi of evil.",
+        "abilities": [
+            "Terra Strike (150-427+)",
+            "Ice Strike (350-550+)",
+            "Drunkenness Hideous Fungus",
+            "Summons (1-2 Humorless Fungus )",
+            "paralysis",
+            "Self-Healing (275-350+)",
+            "Invisibility"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 65%",
+            "Holy 95%",
+            "Ice 85%",
+            "Fire 105%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 1, Rathleton Sewers, here, unreachable location in Tiquanda Laboratory.",
+        "behaviour": "Hideous fungi will position themselves at a distance. All of their attacks are distance-based. They will retarget to the player to damage them first.A hideous fungus attacks from a distance.",
+        "strategy": "Kill them quickly, they do quite heavy damage. Mages: be careful, if you shoot area attacks on groups of fungi, many of them will switch to you.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Envenomed Arrow",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Hideous Chunk",
+            "Mana Potion",
+            "Mushroom Pie",
+            "White Piece of Cloth",
+            "Blue Piece of Cloth",
+            "Green Piece of Cloth",
+            "Terra Amulet",
+            "War Hammer",
+            "Red Piece of Cloth",
+            "Terra Boots",
+            "Muck Rod",
+            "Terra Legs",
+            "Terra Mantle",
+            "Mushroom Backpack",
+            "Mycological Bow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Humongous_Fungus",
+        "name": "Humongous Fungus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ee/Humongous_Fungus.gif/revision/latest?cb=20120622170852&path-prefix=en",
+        "attributes": {},
+        "notes": "Gnomish lore tells us that fungi come in different variants. Some are huge, some are small. Some are colourful, some look dull. Some are bitter, some are sweet. And some are good while others are utterly evil. The Humongous Fungus belongs to the latter category. Each of them is driven by sinister impulses of malignant evil. Even a Humongous Fungus starts out small, though. Far too small for the evil they contain, they are mischievous creatures that enjoy harassing and tormenting other creatures. They often lay simple traps for the unwary, steal things or destroy food. While a nuisance as long as they are small, the true threat arises when they grow in size and strength. If that happens, the former loners band together in groups and become a destructive force to be reckoned with. There seems little that hey fear in numbers, although they seem to not care much about a fallen comrade. With no regard for their own safety, they attack everything that promises a good deal of destruction and pain. Through their raw powers they would be a formidable threat already, additionally they also have several disturbing mushroom powers at their disposal that are usually used more instinctively then planned. It actually seems unlikely that they can control their abilities at all. Though they enjoy killing and slaughtering, they sometimes take prisoners and torture them in their lairs that they often create in some remote caves. Only there they seem to pursue their only non-evil pastime: singing. With their lovely baritone voices they are able to produce melodies of astonishing beauty. Their lead singers are usually the most humongous of the bunch. Since they are highly territorial it has become common for underground explorers to mark caves in which fungi singing was heard as a warning to other travellers.",
+        "abilities": [
+            "Melee (0-330)",
+            "Stalagmite (0-350)",
+            "Drunkenness Humongous Fungus",
+            "Poison Bomb",
+            "Self-Healing (225-320+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 65%",
+            "Holy 95%",
+            "Ice 85%",
+            "Fire 110%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 1, Rathleton Sewers, here, unreachable location in Tiquanda Laboratory.",
+        "behaviour": "Humongous fungi will fight at close combat.A humongous fungus attacks in melee range. A humongous fungus never retreats.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "White Piece of Cloth",
+            "Brown Piece of Cloth",
+            "Mushroom Pie",
+            "Humongous Chunk",
+            "Drill Bolt",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Mana Potion",
+            "Terra Legs",
+            "Terra Boots",
+            "Terra Amulet",
+            "Red Piece of Cloth",
+            "Blue Piece of Cloth",
+            "Angelic Axe",
+            "Terra Mantle",
+            "Muck Rod",
+            "Mycological Bow",
+            "Mushroom Backpack",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Humorless_Fungus",
+        "name": "Humorless Fungus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0f/Humorless_Fungus.gif/revision/latest?cb=20120704025412&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-480?)",
+            "Terra Strike (0-197?)",
+            "Ice Strike (0-525+)",
+            "Self-Healing (0-230?)",
+            "Invisibility"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 95%",
+            "Ice 85%",
+            "Fire 95%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 1, only summoned by Hideous Fungus.",
+        "behaviour": "Humorless Fungi are summoned by Hideous Fungi. Just as their leader, they will stand and attack their opponents from a distance.",
+        "strategy": "Ignore them and focus on the Hideous Fungus.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lavafungus",
+        "name": "Lavafungus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ab/Lavafungus.gif/revision/latest?cb=20220513223506&path-prefix=en",
+        "attributes": {},
+        "notes": "Though probably a naturally occurring creature, the lavafungi are abominations in gnomish eyes. The fungi are a somewhat civilised race that allied with Those Below for their own sinister purposes, The lavafungi obviously propagate in the deepest bowels of earth where its usually so hot, that they are never encountered by races not accustomed to such an intense heat. Only recently, howevr, they have been forced to leave their breeding grounds and to join the forces of Those Below. The constant exposure to an environment that is significantly too cold for their taste puts the already dangerous lavafungi into a constant bad mood that they tend to vent off on their opponents. The fungi that are encountered in battle are only the lowest ranking members of their race and there are hints that colonies of more advanced lavafungi exist in the realm of Those Below. It is speculated that the fungi that are part of the army and advance forms are part of a lower, less educated caste of the fungi and the 'real' lavafungi wield sophisticated weaponry and armour. The lava fungi encountered in the armies of Those Below are seen as disposable and easily replaced.They are often used as garrison forces rather than as shock troops. Lava fungi are often seen in undertaking manual labour in garrisons and camps, to which they are more suited then most other subterranean minions. In greater depth and at locations of great heat they completely replace the lost as a workforce. All in all their relationship with the lost seems strained at best for some unknown reason, though it has been observed that the lost consider fallen fungi as a delicacy.Especially in recent times there was a surge of lava fungi troops in the armies of Those Below. It seems that the upper casts of the fungi have decided to take a more active role in the war. The reason for this paradigm shift is completely unknown, as so much concerning Those Below their allies and their minions.",
+        "abilities": [
+            "Melee (0-810)",
+            "Death Beam (560-650)",
+            "Sudden Death (720-810)",
+            "Fire Ring (450-610 around itself)",
+            "Flame Strike (490-720)",
+            "Fire X (640-730 around itself)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 120%",
+            "Fire 90%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Grotto of the Lost.",
+        "loot": [
+            "Platinum Coin",
+            "Terra Rod",
+            "Red Gem",
+            "Hailstorm Rod",
+            "Blue Crystal Shard",
+            "Lavafungus Ring",
+            "Green Gem",
+            "Magma Amulet",
+            "Violet Gem",
+            "Yellow Gem",
+            "Wand of Inferno",
+            "Dwarven Ring",
+            "Crystal Mace",
+            "Focus Cape",
+            "Spellbook of Warding",
+            "Wand of Starstorm",
+            "Violet Crystal Shard",
+            "Cyan Crystal Fragment",
+            "Red Crystal Fragment",
+            "Green Crystal Fragment",
+            "Metal Spats",
+            "Onyx Chip",
+            "Rainbow Quartz",
+            "Lavafungus Head",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_a_Fungus",
+        "name": "Memory of a Fungus",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4c/Memory_of_a_Fungus.gif/revision/latest?cb=20220108232510&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a weakened Humongous Fungus.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of a fungus attacks in melee range.",
+        "loot": [
+            "Great Health Potion",
+            "Gold Coin",
+            "Mushroom Pie",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Great Mana Potion",
+            "Yellow Gem",
+            "Candy Floss (Large)",
+            "Loot Statistics"
+        ]
+    }
+]

@@ -1,0 +1,1009 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Cyclops",
+        "name": "Animated Cyclops",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5d/Animated_Cyclops.gif/revision/latest?cb=20170718001220&path-prefix=en",
+        "attributes": {},
+        "notes": "Similar to a Cyclops.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts (only at Night)",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Heavy Old Tome",
+            "Short Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Moohtant",
+        "name": "Animated Moohtant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/85/Animated_Moohtant.gif/revision/latest?cb=20201124135459&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts (only at Night)",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Minotaur Leather",
+            "Giant Pacifier",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Ring of Healing",
+            "Small Ruby",
+            "Meat",
+            "Small Diamond",
+            "Red Piece of Cloth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Ogre_Brute",
+        "name": "Animated Ogre Brute",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cb/Animated_Ogre_Brute.gif/revision/latest?cb=20170718000206&path-prefix=en",
+        "attributes": {},
+        "notes": "Similar to an Ogre Brute",
+        "abilities": [
+            "Melee (0-400)",
+            "Boulder Explosion (0-100?)",
+            "Paralyze",
+            "small wave of Drunkenness"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts (only at Night)",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Ogre Ear Stud",
+            "Onyx Chip",
+            "Small Stone",
+            "White Pearl",
+            "Ogre Nose Ring",
+            "Battle Stone",
+            "Strong Health Potion",
+            "Cookie",
+            "Meat",
+            "Small Ruby",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Ogre_Savage",
+        "name": "Animated Ogre Savage",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Animated_Ogre_Savage.gif/revision/latest?cb=20170718000429&path-prefix=en",
+        "attributes": {},
+        "notes": "Similar to an Ogre Savage.",
+        "abilities": [
+            "Melee (0-300)",
+            "Haste",
+            "a big AoE (0-5)",
+            "Explosion (0-102+)",
+            "Whirlwind Throw (0-100+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts (only at Night)",
+        "behaviour": "Unknown",
+        "strategy": "Treat it like an Ogre Savage.",
+        "loot": [
+            "Gold Coin",
+            "Ogre Ear Stud",
+            "Ogre Nose Ring",
+            "Mysterious Fetish",
+            "Strong Health Potion",
+            "Onyx Chip",
+            "Jalapeno Pepper",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Ogre_Shaman",
+        "name": "Animated Ogre Shaman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/10/Animated_Ogre_Shaman.gif/revision/latest?cb=20180511084820&path-prefix=en",
+        "attributes": {},
+        "notes": "Similar to an Ogre Shaman.",
+        "abilities": [
+            "Poison shot (0-200?)",
+            "Terra Wave ( poisons starting at 14 hp)",
+            "Death Explosion on itself (unknown effect)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Museum of Tibian Arts (only at Night)",
+        "behaviour": "Unknown",
+        "strategy": "Treat it like an Ogre Shaman.",
+        "loot": [
+            "Gold Coin",
+            "Ogre Nose Ring",
+            "Strong Mana Potion",
+            "Waterskin",
+            "Skull (Item)",
+            "Shamanic Talisman",
+            "Skull Fetish",
+            "Ogre Ear Stud",
+            "Bone Fetish",
+            "Necrotic Rod",
+            "Broken Shamanic Staff",
+            "Prickly Pear",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Behemoth",
+        "name": "Behemoth",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/70/Behemoth.gif/revision/latest?cb=20210420143709&path-prefix=en",
+        "attributes": {},
+        "notes": "Behemoths are giant monsters that live in the ancient town deep below Edron. They look a bit like cross-breeds of humans and bulls and even talk in human language, but nobody knows yet where they come from. Although they are of minor intelligence, they are very strong fighters and throw huge stones at their opponents. When it's hasted it's able to outrun a level 130 player. So always be prepared to use Haste or Strong Haste. It can also be skinned in order to get Behemoth Fangs. See also: Perfect Behemoth Fang/Skinning. You may hunt 700 of these as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Stonecracker.",
+        "abilities": [
+            "Melee (0-455)",
+            "Boulder throw (0-200) Behemoth",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 105%",
+            "Holy 70%",
+            "Ice 110%",
+            "Fire 70%",
+            "Energy 90%",
+            "Earth 20%"
+        ],
+        "location": "Cyclopolis, deepest part of Tarpit Tomb after the flame, Forbidden Lands, Vandura Mountain, Deeper Banuta (single spawn here, double spawn here), Serpentine Tower (unreachable), deep into the Formorgar Mines, Arena and Zoo Quarter, The Dark Path, Lower Spike, Chyllfroest, Medusa Tower and Underground Glooth Factory (west side).",
+        "behaviour": "Behemoths attack their enemies and chase them with their great speed.A behemoth attacks in melee range. A behemoth never retreats.",
+        "strategy": "A team of a Knight and a Druid at level 70 can hunt these with much profit and experience using the Ice Strike and Heal Friend spell.  Paladin, lower level than 80 should have a blocker or hunt solo from level 85+ with 90+ distance. Hunting them is easy and usually there will be profit in Loot.\nMages A good strategy is to use energy walls on the ground, this strategy can turn quite profitable if executed properly.\nThe Behemoth Hill in the Arena Quarter is a perfect place to try out your first behemoth. Sorcerers can cast a DoT spell such as Curse, followed by going down again is a good idea since the behemoth does not heal. Frequently recasting such a spell when the damage is down to 10 per round can kill the behemoth in about 5-10 minutes without putting yourself in too much danger.\nKnights can solo hunt Behemoths at level 200+ with an ice weapon such as Winterblade with relative ease and profit as Behemoths are weak to ice damage and otherwise resistant to physical damage. Using Summon Skullfrost when hunting Behemoths is very effective as they are weak to both ice and death damage.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Meat",
+            "Battle Stone",
+            "Double Axe",
+            "Assassin Star",
+            "Small Amethyst",
+            "Two Handed Sword",
+            "Great Health Potion",
+            "Dark Armor",
+            "Plate Armor",
+            "Crystal Necklace",
+            "Perfect Behemoth Fang",
+            "Giant Sword",
+            "Strange Symbol",
+            "Big Bone",
+            "Pick",
+            "Behemoth Claw",
+            "Steel Boots",
+            "Behemoth Trophy",
+            "Amphora",
+            "Crowbar",
+            "Titan Axe",
+            "War Axe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bellicose_Orger",
+        "name": "Bellicose Orger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/25/Bellicose_Orger.gif/revision/latest?cb=20191009183334&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orcsoberfest Island.",
+        "behaviour": "A bellicose orger attacks in melee range.",
+        "loot": [
+            "Platinum Coin",
+            "Leather Helmet",
+            "Leather Legs",
+            "Energy Ring",
+            "Dark Armor",
+            "Dark Shield",
+            "Cape",
+            "Glorious Axe",
+            "Metal Spats",
+            "Battle Axe",
+            "Decorative Green Sheet",
+            "Decorative Red Sheet",
+            "Decorative Blue Sheet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Celebrating_Orger",
+        "name": "Celebrating Orger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c0/Celebrating_Orger.gif/revision/latest?cb=20200805030207&path-prefix=en",
+        "attributes": {},
+        "notes": "These creatures only attack players when Challenged.",
+        "abilities": [
+            "Melee (0-1)"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Orcsoberfest Island.",
+        "behaviour": "They walk around usually ignoring other creatures.",
+        "strategy": "Just ignore them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cyclops_Drone",
+        "name": "Cyclops Drone",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e9/Cyclops_Drone.gif/revision/latest?cb=20210420144745&path-prefix=en",
+        "attributes": {},
+        "notes": "The so-called Cyclops Drones are the workers among the cyclops society. They are born physically different from their kin. The most prominent feature of a Cyclops Drone are its four muscular arms. They are stronger and more persistent than the ordinary cyclops, though they lack considerably on intelligence. They are usually calm, but their fellow cyclopes train and condition them in order to ensure that their passive attitude changes quickly when facing one of the 'lesser' races. Conditioned Cyclops Drones usually attack on sight. Fortunately, they hardly seem to understand what they are doing and therefore rarely use the full strength of their imposing arms. Still, the sheer force of a thoughtless blow can crush bones and break weapons and armour. Cyclops Drones are not numerous, and as they are also not much valued among the cyclops, they are usually found deep underground working under supervision of other cyclops.",
+        "abilities": [
+            "Melee (0-110?)",
+            "Boulder throw (0-80?) Cyclops Drone"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 80%",
+            "Ice 80%",
+            "Fire 100%",
+            "Energy 90%",
+            "Earth 110%"
+        ],
+        "location": "Cyclopolis, Mount Sternum, Mistrock and in the Cyclops version of the Forsaken Mine.",
+        "behaviour": "Cyclops drones have strong melee and distance attacks. They can throw boulders even off screen.A cyclops drone attacks in melee range. A cyclops drone never retreats.",
+        "strategy": "Knights: They are stronger than cyclops, it is recommended to have skills 65/65 and level 20 or higher to hunt them. They are never found alone and are usually together with other kinds of cyclops.Paladins should have about 50 distance to hunt them, try to run them in a circle and not in a straight line so that you do not run into more of them. Bow is not advised because of their distance melee attacks, so you may better use shield and throwing weapons.\nMages: Try to keep a little distance from them as their melee is quite strong. If you are a Druid try to use Terra rod or, if possible, Springsprout Rod as they are weak to Earth Damage.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Short Sword",
+            "Cyclops Toe",
+            "Plate Shield",
+            "Battle Shield",
+            "Halberd",
+            "Strong Health Potion",
+            "Dark Helmet",
+            "Cyclops Trophy",
+            "Club Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cyclops_Smith",
+        "name": "Cyclops Smith",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Cyclops_Smith.gif/revision/latest?cb=20240228101433&path-prefix=en",
+        "attributes": {},
+        "notes": "The Cyclops Smiths are somehow the nobility amongst the cyclops. Cyclops praise those skilled in the art of blacksmithing the same way as humans praise great artists. Although cyclops work usually lacks refinement and is rather functional than pretty, the wares of the Cyclops Smiths are in great demand of all other races. All cyclops, with the exception of the simple-minded drones, are constantly trying to enhance their smithing skill. It's the aim of all cyclops to be recognised by their society as master smith. Of course being the cream of the crop is not achieved easily, and the cyclops never grant this prestigious title thoughtlessly.",
+        "abilities": [
+            "Melee (0-150)",
+            "Whirlwind Throw (17-70\n  ) Cyclops Smith",
+            "Drunkenness (lasts for about 2 seconds) Cyclops Smith"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 90%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Cyclopolis second floor and below, Mistrock, Mount Sternum, Cyclops Camp second floor and in the Cyclops version of the Forsaken Mine.",
+        "behaviour": "Cyclops Smiths have strong melee and distance attacks. They also make you drunk quite often.A cyclops smith attacks in melee range. A cyclops smith never retreats.",
+        "strategy": "Mages: can shoot at it with their Rods/Wands and cast Death Strike/Terra Strike while running. Kill it fast because it has a lot of HP and it can make you drunk and run into other Cyclops.\nPaladins: can shoot it with Royal Spears with distance level 50 or higher while running. A good idea is to come with a paladin level 25+ and with a Dwarven Ring.\nKnights: can kill them with skills 75/75 and at least level 35. Their strength is comparable with Orc Leaders, and should bring Health Potions in the case of groups as Cyclops Smiths rarely come alone, they are usually spawned by at least one Cyclops Drone or another Cyclops Smith.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Battle Shield",
+            "Cyclops Toe",
+            "Battle Axe",
+            "Battle Hammer",
+            "Heavy Machete",
+            "Plate Shield",
+            "Double Axe",
+            "Strong Health Potion",
+            "Dark Helmet",
+            "Spiked Squelcher",
+            "Cyclops Trophy",
+            "Club Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cyclops",
+        "name": "Cyclops",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/99/Cyclops.gif/revision/latest?cb=20141110204909&path-prefix=en",
+        "attributes": {},
+        "notes": "Cyclopes are a human-like race but with only one eye and minor intelligence. They even talk in a similar language. They live in holes where they prospect for gold and other metals. Be warned that they get very angry about adventurers entering their claim. They will slay every intruder using their incredible power. Cyclops are strong and giant creatures, also believed to be skillful in metallurgy. As rendered in Tibia, they appear to have 4 toes on one foot and 3 toes on the other.",
+        "abilities": [
+            "Melee (0-105)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 75%",
+            "Earth 110%"
+        ],
+        "location": "Plains of Havoc, Mount Sternum, Femor Hills, Cyclops Camp, Cyclopolis, Ancient Temple, Shadowthorn, Orc Fort, Mistrock, Foreigner Quarter, Outlaw Camp and in the Cyclops version of the Forsaken Mine.",
+        "behaviour": "A cyclops will retarget to other players in their vicinity. They kill weaker creatures and move items that are in their way, therefore items are not effective in blocking their path.A cyclops attacks in melee range. A cyclops never retreats.",
+        "strategy": "Knights, should have good equipment and skills to hunt cyclops (55/55). Level 25 is recommended for those not familiar with their corresponding hunting ground. Balanced fighting is recommended to avoid lots of damage, if skills do not meet appropriate requirements. Also, Health Potions are recommended.\nPaladins, Just attack them while keeping your distance and try to avoid getting cornered. Two or more of these can kill a low level paladin if he or she is not careful.\nMages, Should attack them with Stalagmite, wand or rod, and cast Invisible if they are surrounded Stoneshower will also help. Premium mages can use Death Strike or Terra Strike to kill faster.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Short Sword",
+            "Cyclops Toe",
+            "Plate Shield",
+            "Battle Shield",
+            "Heavy Old Tome",
+            "Halberd",
+            "Dark Helmet",
+            "Health Potion",
+            "Wolf Tooth Chain",
+            "Club Ring",
+            "Cyclops Trophy",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frost_Giant",
+        "name": "Frost Giant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c8/Frost_Giant.gif/revision/latest?cb=20171218213237&path-prefix=en",
+        "attributes": {},
+        "notes": "Frost Giants are an extremely ancient race that inhabits the most northern parts of the world. Far to the north where it is cold enough to freeze even air, this race has its original home. In ancient times, when the gods waged war on each other, the world climate was shifting often. At this time, some tribes of the Frost Giants wandered to the south, following the biting cold and expanding their territory. Entire kingdoms crumbled under their feet.The Frost Giants became the ruler of the frozen waste and their icy kingdom grew every day. One day though, the seemingly eternal winter ended. Temperatures were rising again and most Frost Giants fled to the northern home of their ancestors. However, some of them became trapped on their retreat, cut off by the ocean that once used to be a frozen surface which could easily be crossed. Many of those unlucky Frost Giants perished either by the warm temperatures or by enemies who easily overwhelmed them in their weak condition. Some, however, were able to find refuge at places just cold enough to sustain their existence.Still those places are not well suited as they are much too warm for Frost Giants. Cut off from the northern Frost Giant civilisation and living in an inhospitable environment, the Frost Giants are known for their bad temper. Their sole joy seems to be to make other beings feel even more miserable than they do feel themselves. So they enjoy hunting, torturing or just smashing other creatures. Given this attitude, it's not surprising that the Frost Giants, though considerably intelligent, won't waste much time in parleying. If there is a chance to fight, they are using it. Frost Giants are extremely possessive and they fiercely defend their grounds against all intruders.",
+        "abilities": [
+            "Melee (0-110)",
+            "Boulder throw (0-90) Frost Giant",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Tyrsung (in the Jotunar mountain), Formorgar Glacier (single spawn), Mammoth Shearing Factory, Chyllfroest.",
+        "behaviour": "Frost Giants fight to the death, they can push objects and can't be pushed.A frost giant attacks in melee range.",
+        "strategy": "Treat these like a Cyclops Drones.",
+        "loot": [
+            "Gold Coin",
+            "Short Sword",
+            "Meat",
+            "Battle Shield",
+            "Ice Cube",
+            "Frost Giant Pelt",
+            "Health Potion",
+            "Halberd",
+            "Norse Shield",
+            "Club Ring",
+            "Dark Helmet",
+            "Shard",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frost_Giantess",
+        "name": "Frost Giantess",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ad/Frost_Giantess.gif/revision/latest?cb=20171218213239&path-prefix=en",
+        "attributes": {},
+        "notes": "The Frost Giantesses are even more ill-tempered and aggressive than their male counterparts. In the North, it is a running gag that the Frost Giantesses are supposed to be the real reason why the frost giants are humourless and easily provoked. As a matter of fact, the frost giants are, compared to their female counterparts, rather dull-witted. The Frost Giantesses usually employ weapons more often than the male giants.",
+        "abilities": [
+            "Melee (0-60)",
+            "Boulder throw (0-90) Frost Giantess",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 103%",
+            "Holy 90%",
+            "Ice 0%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 100%"
+        ],
+        "location": "Tyrsung (in the Jotunar mountain), Formorgar Glacier (single spawn), Mammoth Shearing Factory, Chyllfroest.",
+        "behaviour": "She likes to keep distance between her and the target, while throwing boulders.A frost giantess attacks from a distance.",
+        "strategy": "Run to them and attack or use a distance weapon or runes. Be careful when chasing them as they can lure you into more groups of frost giants.",
+        "loot": [
+            "Gold Coin",
+            "Ham",
+            "Small Stone",
+            "Short Sword",
+            "Battle Shield",
+            "Frost Giant Pelt",
+            "Ice Cube",
+            "Mana Potion",
+            "Club Ring",
+            "Dark Helmet",
+            "Shard",
+            "Norse Shield",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hulking_Prehemoth",
+        "name": "Hulking Prehemoth",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/64/Hulking_Prehemoth.gif/revision/latest?cb=20220621121102&path-prefix=en",
+        "attributes": {},
+        "notes": "The discovery of the Hulking Prehemoth sent shockwaves through the entire scientific community. Especially it's unique bone structure turned many things taken for granted upside down. Many of the bones that were found in the deepest caves and the bowels of Tibia, for years have been assumed to be the fossilized remains of the modern Behemoths. Yet the recent discoveries in Gnomprona now hint that they rather belonged to the Hulking Prehemoths that once seemed to have roamed the whole depths of Tibia. It now seems likely that the Hulking Prehemoths arose in times when food was abundant in their native underground habitat. Later when such sources of nourishment became scarce, they were slowly replaced by their more specialised mineral-eating children. Unlike his descendant the ordinary Behemoth, who adapted mostly to a diet of minerals, the primal ancestor relies on a diet of flesh and bones. Some point out that their digesting of creatures as a whole ultimately enabled their offspring's adaption to a diet of minerals. As such scientists point out the difference of bones and minerals seems minor.\nIn Gomprona the Hulking Prehemoth is a comparatively peaceful creature. Though perfectly able to hunt for the bone and marrow it needs, it's relatively docile when well-fed. Yet given their sheer mass and muscle in fact they are rarely if ever well-fed aside from the controlled environment of captured Hulking Prehemoths. All attempts to tame the creatures resulted in utter and sometimes fatal failure so the gnomes gave up on wasting valuable crystals on such endeavours. The area that currently houses operation challenger has been cut off from the main island by a relatively new lava stream. Said area seemingly was the breeding and hatching ground of the local Prehemoths population and it has yet to be seen how the Hulking Prehemothes adapt to this - or if the lava foreshadowed their inevitable extinction. As for now the Hulking Prehemoth population has suffered and competing creatures prospered, but slowly the number of Behemoth's seem to be stabilising and reaching a new equilibrium.",
+        "abilities": [
+            "Can deal Critical Hits",
+            "Melee (0-455)",
+            "Boulder throw (400) Hulking Prehemoth"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 110%",
+            "Holy 115%",
+            "Ice 115%",
+            "Fire 60%",
+            "Energy 70%",
+            "Earth 120%"
+        ],
+        "location": "Sparkling Pools",
+        "behaviour": "A hulking prehemoth attacks in melee range.",
+        "loot": [
+            "Crystal Coin",
+            "Furry Club",
+            "Ultimate Health Potion",
+            "Prehemoth Horns",
+            "Prehemoth Claw",
+            "Emerald Bangle",
+            "Silver Brooch",
+            "War Hammer",
+            "War Axe",
+            "Doublet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Juvenile_Cyclops",
+        "name": "Juvenile Cyclops",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ec/Juvenile_Cyclops.gif/revision/latest?cb=20141110205030&path-prefix=en",
+        "attributes": {},
+        "notes": "A young Cyclops, but still a worthy foe. The strongest creature you can meet on Dawnport.",
+        "abilities": [
+            "Melee (0-70)",
+            "Boulder throw (0-45) Juvenile Cyclops",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 90%",
+            "Energy 90%",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport's northwest part, floor -3. One in the Crystal Dungeons, floor -2.",
+        "behaviour": "They will not retarget to other players unless the player hides behind of across another player. They kill or move creatures and items that are in their way, therefore items are not effective in blocking their path. A juvenile cyclops never retreats.",
+        "strategy": "They hit hard and are hard to hit. A Knight should block and can shoot a poison field rune under them, while other vocations shoot it. Solo knights will have a very tough time with their high defense. It's discouraged to try to kill them alone.\nMages, Should attack them with Earth Damage, wand or rod, Light Stone Shower Rune will also help.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Sword",
+            "Mace",
+            "Chain Helmet",
+            "Chain Armor",
+            "Hatchet",
+            "Studded Legs",
+            "Plate Shield",
+            "Health Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Loricate_Orger",
+        "name": "Loricate Orger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3f/Loricate_Orger.gif/revision/latest?cb=20191009182949&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orcsoberfest Island.",
+        "behaviour": "A loricate orger attacks in melee range.",
+        "loot": [
+            "Platinum Coin",
+            "Brass Helmet",
+            "Plate Armor",
+            "Soldier Helmet",
+            "Copper Shield",
+            "Crowbar",
+            "Brass Armor",
+            "Viking Helmet",
+            "Studded Armor",
+            "Studded Shield",
+            "Bone Shield",
+            "Death Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_an_Ogre",
+        "name": "Memory of an Ogre",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b0/Memory_of_an_Ogre.gif/revision/latest?cb=20220108225436&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a weakened Ogre Brute.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of an ogre attacks in melee range.",
+        "loot": [
+            "White Pearl",
+            "Cookie",
+            "Strong Health Potion",
+            "Small Ruby",
+            "Opal",
+            "Meat",
+            "Small Stone",
+            "Special Fx Box",
+            "Gold Coin",
+            "Onyx Chip",
+            "Pot",
+            "Power Ring",
+            "Club Ring",
+            "Candy Floss (Large)",
+            "Bottle of Champagne",
+            "Rusted Helmet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Brute",
+        "name": "Ogre Brute",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/94/Ogre_Brute.gif/revision/latest?cb=20151112212659&path-prefix=en",
+        "attributes": {},
+        "notes": "Ogres are large, downright monstrous in appearance, considerably dwarfing even tall orcs. They have a plump, corpulent body, chunky hands and feet and a small, seemingly neckless head. An average adult ogre stands over twelve feet tall, and his waist circumference is almost the half of his height. Most ogres are bald and only rarely have facial hair. They use wooden clubs as weapons, banded, studded or spiked with iron; but stone hatchets or fork-like weapons are also common. While missile combat with bows or crossbows is too difficult for them, they are good at throwing heavy things, particularly boulders. They mature more quickly than humans, reaching adulthood at the age of twelve. Ogres live in tribes that inhabit the steppe and grassland of Krailos, for the most part dwelling in big leather tents or stone huts, though some ogre tribes still have nomadic tendencies. Leader of a tribe is usually the strongest male ogre. The chieftain is supported by an ogre-shaman. If the shaman is female, the two are often, but not necessarily, a couple. The chieftain is responsible for all decisions concerning the hunt and martial matters while the shaman is responsible for all affairs spiritual and social. Although the ogres are a warlike, often brutal people, they are mostly interested in good food rather than in anything else. Ogres worship the Great Hunger, a kind of spirit being they believe will eat up the entire world if not fed regularly. Therefore they often perform rites of sacrifice (of food and of living creatures) to feed this entity. Most male ogres come in two varieties, brutes and savages. Their main task is to fight for the clan or to scout the steppe for something edible. Ogre brutes specialise in hurling boulders and brute force, punching and crushing their enemy with their enormous body weight. Sometimes, however, they may also carry a single large club or heavy axe for emphasis.",
+        "abilities": [
+            "Melee (0-385)",
+            "Distance Boulder Explosion (0-100?)",
+            "Paralyze",
+            "Smoke Exori (60-90)",
+            "small wave of Drunkenness",
+            "Dizzyness Ball of 3x3 SQM on target (paralyze)"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 90%",
+            "Holy 80%",
+            "Ice 80%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Krailos Steppe.",
+        "behaviour": "Fights in close combat.An ogre brute attacks in melee range. An ogre brute never retreats.",
+        "strategy": "Ogre Brutes are fairly slow but have a very strong melee, and although they dont use the smoke exori or the distance fighting very often, it can combo its abilities dealing very heavy damage.\nBe on guard as it uses its paralyze ball and drunkness wave often.\nIt is suggested to wear a dwarven ring if you are a low level mage or paladin. \nIt is weak to Energy Damage, if you are a mage you can use energy type attacks.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Strong Health Potion",
+            "Ogre Nose Ring",
+            "Ogre Ear Stud",
+            "Cookie",
+            "Small Stone",
+            "Battle Stone",
+            "Skull Fetish",
+            "Power Ring",
+            "Club Ring",
+            "Onyx Chip",
+            "Small Ruby",
+            "White Pearl",
+            "Opal",
+            "Ogre Klubba",
+            "Rusted Helmet",
+            "Ancient Stone",
+            "Pot",
+            "Bonebreaker",
+            "Shamanic Mask",
+            "Butcher's Axe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Rowdy",
+        "name": "Ogre Rowdy",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/17/Ogre_Rowdy.gif/revision/latest?cb=20220829163942&path-prefix=en",
+        "attributes": {},
+        "notes": "The Ogre Rowdy is a stronger version of Ogre Savages.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 130%",
+            "Fire 70%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Kilmaresh Central Steppe, Kilmaresh Southern Steppe, Green Belt, Kilmaresh Mountains (underground).",
+        "behaviour": "An ogre rowdy attacks in melee range. An ogre rowdy never retreats.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Platinum Coin",
+            "Flaming Arrow",
+            "Small Emerald",
+            "Wand of Inferno",
+            "Wand of Draconia",
+            "Ogre Nose Ring",
+            "Skull Fetish",
+            "Ogre Ear Stud",
+            "Giant Shimmering Pearl (Brown)",
+            "Blue Gem",
+            "Jalapeno Pepper",
+            "Violet Crystal Shard",
+            "Blue Crystal Shard",
+            "Wand of Everblazing",
+            "Onyx Chip",
+            "Opal",
+            "Prismatic Quartz",
+            "Ogre Choppa",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Ruffian",
+        "name": "Ogre Ruffian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/db/Ogre_Ruffian.gif/revision/latest?cb=20220715023053&path-prefix=en",
+        "attributes": {},
+        "notes": "The Ogre Ruffian is a stronger version of Ogre Brutes.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 120%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Kilmaresh Central Steppe, Kilmaresh Southern Steppe, Green Belt, Kilmaresh Mountains (underground).",
+        "behaviour": "An ogre ruffian attacks in melee range. An ogre ruffian never retreats.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Platinum Coin",
+            "Ogre Ear Stud",
+            "Ogre Nose Ring",
+            "Meat",
+            "Small Sapphire",
+            "Small Emerald",
+            "Small Enchanted Emerald",
+            "Yellow Gem",
+            "Red Gem",
+            "Blue Gem",
+            "Stone Skin Amulet",
+            "War Hammer",
+            "Diamond Sceptre",
+            "Green Crystal Splinter",
+            "Cyan Crystal Fragment",
+            "Pair of Iron Fists",
+            "Skull Fetish",
+            "Metal Spats",
+            "Onyx Chip",
+            "Ogre Klubba",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Sage",
+        "name": "Ogre Sage",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Ogre_Sage.gif/revision/latest?cb=20220715023057&path-prefix=en",
+        "attributes": {},
+        "notes": "The Ogre Sage is a stronger version of Ogre Shamans.",
+        "abilities": [
+            "Melee (?)",
+            "Summons (1 Young Goanna )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 110%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 130%",
+            "Earth 75%"
+        ],
+        "location": "Kilmaresh Central Steppe, Kilmaresh Southern Steppe, Green Belt, Kilmaresh Mountains (underground).",
+        "behaviour": "Attacks from distance.An ogre sage attacks from a distance. An ogre sage never retreats.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Platinum Coin",
+            "Broken Shamanic Staff",
+            "Ogre Nose Ring",
+            "Terra Amulet",
+            "Shamanic Talisman",
+            "Skull Fetish",
+            "Ogre Ear Stud",
+            "Terra Boots",
+            "Violet Crystal Shard",
+            "Green Crystal Fragment",
+            "Bone Fetish",
+            "Sacred Tree Amulet",
+            "Violet Gem",
+            "Yellow Gem",
+            "Ogre Scepta",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Savage",
+        "name": "Ogre Savage",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4b/Ogre_Savage.gif/revision/latest?cb=20151112213233&path-prefix=en",
+        "attributes": {},
+        "notes": "Ogres are large, downright monstrous in appearance, considerably dwarfing even tall orcs. They have a plump, corpulent body, chunky hands and feet and a small, seemingly neckless head. An average adult ogre stands over twelve feet tall, and his waist circumference is almost the half of his height. Most ogres are bald and only rarely have facial hair. They use wooden clubs as weapons, banded, studded or spiked with iron; but stone hatchets or fork-like weapons are also common. While missile combat with bows or crossbows is too difficult for them, they are good at throwing heavy things, particularly boulders. They mature more quickly than humans, reaching adulthood at the age of twelve. Ogres live in tribes that inhabit the steppe and grassland of Krailos, for the most part dwelling in big leather tents or stone huts, though some ogre tribes still have nomadic tendencies. Leader of a tribe is usually the strongest male ogre. The chieftain is supported by an ogre-shaman. If the shaman is female, the two are often, but not necessarily, a couple. The chieftain is responsible for all decisions concerning the hunt and martial matters while the shaman is responsible for all affairs spiritual and social. Although the ogres are a warlike, often brutal people, they are mostly interested in good food rather than in anything else. Ogres worship the Great Hunger, a kind of spirit being they believe will eat up the entire world if not fed regularly. Therefore they often perform rites of sacrifice (of food and of living creatures) to feed this entity. Most male ogres come in two varieties, brutes and savages. Their main task is to fight for the clan or to scout the steppe for something edible. Ogre savages favour fang-like weapons, like short swords made of stone, axes of crude iron or clubs carved out of animal horn. No less dangerous than the brutes, most ogre savages prefer weapons with an edge or blade over a club - the better to slice their enemy's belly or to bleed and weaken their fleeing prey. They love to mince their food, and taunt enemies with war cries that hint at the meashed meal the foe will be turned into. ",
+        "abilities": [
+            "Melee (0-300)",
+            "Haste",
+            "a big Bleeding AoE (0-5)",
+            "Explosion (0-102+)",
+            "Whirlwind Throw (0-100+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 50%",
+            "Ice 80%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Krailos Steppe.",
+        "behaviour": "Fight in close combat.An ogre savage attacks in melee range. An ogre savage never retreats.",
+        "strategy": "Simply kill it, make use of its weakness to Energy Damage.",
+        "loot": [
+            "Gold Coin",
+            "Cookie",
+            "Ogre Ear Stud",
+            "Skull Fetish",
+            "Mysterious Fetish",
+            "Strong Health Potion",
+            "Ogre Nose Ring",
+            "Onyx Chip",
+            "Small Ruby",
+            "War Hammer",
+            "Jalapeno Pepper",
+            "Opal",
+            "Small Topaz",
+            "Ogre Choppa",
+            "Berserk Potion",
+            "Shamanic Mask",
+            "Dreaded Cleaver",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ogre_Shaman",
+        "name": "Ogre Shaman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/68/Ogre_Shaman.gif/revision/latest?cb=20151112213249&path-prefix=en",
+        "attributes": {},
+        "notes": "Ogres are large, downright monstrous in appearance, considerably dwarfing even tall orcs. They have a plump, corpulent body, chunky hands and feet and a small, seemingly neckless head. An average adult ogre stands over twelve feet tall, and his waist circumference is almost the half of his height. Most ogres are bald and only rarely have facial hair. They use wooden clubs as weapons, banded, studded or spiked with iron; but stone hatchets or fork-like weapons are also common. While missile combat with bows or crossbows is too difficult for them, they are good at throwing heavy things, particularly boulders. They mature more quickly than humans, reaching adulthood at the age of twelve. Ogres live in tribes that inhabit the steppe and grassland of Krailos, for the most part dwelling in big leather tents or stone huts, though some ogre tribes still have nomadic tendencies. Leader of a tribe is usually the strongest male ogre. The chieftain is supported by an ogre-shaman. If the shaman is female, the two are often, but not necessarily, a couple. The chieftain is responsible for all decisions concerning the hunt and martial matters while the shaman is responsible for all affairs spiritual and social. Although the ogres are a warlike, often brutal people, they are mostly interested in good food rather than in anything else. Ogres worship the Great Hunger, a kind of spirit being they believe will eat up the entire world if not fed regularly. Therefore they often perform rites of sacrifice (of food and of living creatures) to feed this entity. Wandering ogre shamans summon the power of the Great Hunger in self-defense or to catch prey for their rituals. Though still enormous in size, ogre shamans are no fighters as such and prefer to keep at a distance, sending out their minions to fend off unwanted acquaintances while they slink away. ",
+        "abilities": [
+            "Melee (0-150)",
+            "Poison shot (80-110)",
+            "Terra Wave ( poisons starting at 14 hp)",
+            "Death Explosion on itself",
+            "Shapeshifting (Turns victims into; Chicken )",
+            "Summons (1 Terror Bird or Dworc Voodoomaster or Dworc Fleshhunter )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 110%",
+            "Ice 80%",
+            "Fire 80%",
+            "Energy 80%",
+            "Earth 0%"
+        ],
+        "location": "Krailos Steppe.",
+        "behaviour": "Keeps a distance.An ogre shaman attacks from a distance. An ogre shaman never retreats.",
+        "strategy": "Paladins can use Holy Damage attacks, since it is weak to this type. Other vocations should just chase and kill it.",
+        "loot": [
+            "Gold Coin",
+            "Broken Shamanic Staff",
+            "Ogre Nose Ring",
+            "Prickly Pear",
+            "Strong Mana Potion",
+            "Skull (Item)",
+            "Skull Fetish",
+            "Ogre Ear Stud",
+            "Shamanic Talisman",
+            "Black Pearl",
+            "Small Ruby",
+            "Opal",
+            "Onyx Chip",
+            "Waterskin",
+            "Necrotic Rod",
+            "Bone Fetish",
+            "Wand of Decay",
+            "Shamanic Mask",
+            "Didgeridoo",
+            "Ogre Scepta",
+            "Voodoo Doll",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orger",
+        "name": "Orger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/74/Orger.gif/revision/latest?cb=20191009182616&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orcsoberfest Island.",
+        "behaviour": "An orger attacks in melee range.",
+        "loot": [
+            "Platinum Coin",
+            "Battle Hammer",
+            "Bone Club",
+            "Copper Shield",
+            "Battle Axe",
+            "Double Axe",
+            "Staff",
+            "Combat Knife",
+            "Crowbar",
+            "Studded Shield",
+            "Bone Shield",
+            "Spiky Club",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sorcerer_Familiar",
+        "name": "Sorcerer Familiar",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Sorcerer_Familiar.gif/revision/latest?cb=20201123225348&path-prefix=en",
+        "attributes": {},
+        "notes": "When looking at a summoned Sorcerer Familiar, the summoner's character name and how long it will take for the summon to disappear is shown. It can be summoned by Sorcerers of level 200 or higher using the Summon Sorcerer Familiar spell. All the experience that is expected to be 'gained' by the summon goes to the player. So there is no shared experience between the summon and its summoner, like with the normal Summon Creature spell. It will follow players at their speed and will go up and down stairs and holes with them. It lasts for 15 minutes with a 30 minutes cooldown. It can go with you to a Protection Zone. If the summoner logs out, it will disappear stopping the countdown of its timer, and will reappear when the summoner logs in again.",
+        "abilities": [
+            "Melee (0-280?)",
+            "2 sqm Energy Beam (190-210?)",
+            "2 sqm Blood Beam (90-150?)",
+            "Self-Healing (600)",
+            "Challenge"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Following its master.",
+        "behaviour": "Attacks the player's target from melee distance casting Challenge and self-healing very often.",
+        "strategy": "The Sorcerer Familiar can be very useful for low level Sorcerers as a free blocker and damage boost. Due to its timer/cooldown mechanic, you cannot have 100% uptime of it, so it's important to beware when it's about to disappear as all creatures will change target. Since it's main function is to act like a blocker, it's not recommended to use it when hunting with a Knight as it will Challenge the creatures away from him, reducing the knight's damage output. Learning how to manage the summon can be tricky at first, as you cannot force it to cast its challenge spell. You should be prepared to block the creatures you're going to fight for a few turns until the Sorcerer Familiar challenges them, since its spell use is quite erratic. Similarly, it's possible that it doesn't use the spell for a few seconds, allowing the creatures to retarget. An important strategy when using the Sorcerer Familiar to block several creatures is to always change your target to the creature that will die last, because if the Sorcerer Familiar doesn't have a target it will run back to its master, bringing the creatures its blocking with it. At higher levels, the Sorcerer Familiar is used mostly in emergencies to Challenge creatures that are trapping another player or yourself. This however isn't always effective as the summon dies very quickly to strong creatures and may not even use the Challenge spell before that.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Yeti",
+        "name": "Yeti",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e9/Yeti.gif/revision/latest?cb=20210420142723&path-prefix=en",
+        "attributes": {},
+        "notes": "Very rare monsters, not considered a boss, although they spawn irregularly and don't appear in the Tibian Library. On Folda, they spawn in small groups, from 1 to 3. One Yeti group spawns close to the shovel hole, second group spawns little bit north east of the shovel hole and the third group spawns east of the shovel hole. On Chyllfroest, they spawn very rarely on the fourth floor of the mountain.",
+        "abilities": [
+            "Melee (0-200)",
+            "Snowball (0-180)",
+            "Snow Wave (0-175)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 110%",
+            "Energy 108%",
+            "Earth 100%"
+        ],
+        "location": "Folda - here, Chyllfroest - here.  Isle of Merriment - During a Test Servers Monster Rampage here.",
+        "behaviour": "A yeti attacks in melee range. A yeti never retreats.",
+        "strategy": "While blocking Yetis, try to keep at one of their diagonals to avoid the Snow Wave. Paladins can kill them with Assassin Stars and Ethereal Spear. Mages should use Magic Shield and Sudden Death Runes to take them down quickly.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Ham",
+            "Snowball",
+            "Wolf Tooth Chain",
+            "Bunnyslippers",
+            "Loot Statistics"
+        ]
+    }
+]

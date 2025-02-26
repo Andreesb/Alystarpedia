@@ -1,0 +1,121 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Monk",
+        "name": "Dark Monk",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/93/Dark_Monk.gif/revision/latest?cb=20210427124434&path-prefix=en",
+        "attributes": {},
+        "notes": "There are several monks that lost faith or were lured to the dark side, but the Dark Monks form an own secret order whose goals lie in the shadow. Not much is known about their agenda or where they have come from. The official brotherhoods of monks deny any knowledge about this special order. It is commonly assumed that Dark Monks serve some evil power since they react hostile to most people and attack them on sight. Their fighting style clearly indicates a training in martial arts and they even use a small array of spells of which some, like draining of life-force, point to a darker purpose of their order. Be careful. They often appear in groups or with other creatures so you may find yourself surrounded quickly. A level 96 knight or level 38 paladin will have enough mana to convince these to train with on Open PvP worlds.",
+        "abilities": [
+            "Melee (0-100)",
+            "Life Drain (0-50)",
+            "Self-Healing (?)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 60%",
+            "Holy 110%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Dark Cathedral, Vandura (Cult Cave), Foreigner Quarter.",
+        "behaviour": "Dark Monks will fight to the death.A dark monk attacks in melee range.",
+        "strategy": "Practice caution. Running into a spawn can get you easily surrounded. Move slowly and lure monsters out at a time to keep things easy. When you're comfortable with the spawn you can use a Great Fireball rune a couple times. GFB is also a good way to free yourself from a swarm. They heal like regular Monks so act quickly or you will end up wasting a lot of runes or mana.",
+        "loot": [
+            "Gold Coin",
+            "Bread",
+            "Dark Rosary",
+            "Rope Belt",
+            "Scroll",
+            "Book of Prayers",
+            "Mana Potion",
+            "Lamp",
+            "Life Crystal",
+            "Ankh",
+            "Sandals",
+            "Safety Pin",
+            "Brown Flask",
+            "Power Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Monk_(Creature)",
+        "name": "Monk (Creature)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8c/Monk_%28Creature%29.gif/revision/latest?cb=20210420143723&path-prefix=en",
+        "attributes": {},
+        "notes": "In ancient times, long before Edron has been re-discovered, some Monks, followers of the evil god Zathroth, founded a monastery in the dungeons deep below the surface. They are not well disposed towards the explorers that are now coming there, and will attack every intruder fiercely. They are skilled fist fighters and can heal themselves. Mystical creatures, they heal themselves about every 10 seconds, which makes them great as summons. They move items in their way. Commonly used for training of knights and paladins. This is one of two monsters that can be summoned but not convinced (if you exclude summonable poisonous creatures and the Juvenile Cyclops). The other one is the Gozzler. They can also be summoned by the Man in the Cave.",
+        "abilities": [
+            "Melee (0-130)",
+            "Self-Healing (30-50)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 50%",
+            "Holy 50%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Edron Hero Cave, Triangle Tower near Thais, Maze of Lost Souls, Deeper Dark Cathedral, Isle of the Kings, Trade Quarter.",
+        "behaviour": "Monks chase the enemy until death.A monk attacks in melee range.",
+        "strategy": "Something important while killing Monks is the time. You have to attack as fast as possible or they will heal themselves and you will need to use more Arrows/Runes or in the case of Knights you will receive more damage and maybe use more healing potions or spells. Quite high defense, so low skilled knights with one-handed weapons should stay away from these, as they will heal faster than you will damage them. If necessary to kill, consider using runes.",
+        "loot": [
+            "Gold Coin",
+            "Bread",
+            "Book of Prayers",
+            "Ankh",
+            "Rope Belt",
+            "Scroll",
+            "Brown Flask",
+            "Lamp",
+            "Life Crystal",
+            "Safety Pin",
+            "Sandals",
+            "Staff",
+            "Power Ring",
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Monk_of_the_Order",
+        "name": "Monk of the Order",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/39/Monk_of_the_Order.gif/revision/latest?cb=20210420154944&path-prefix=en",
+        "attributes": {},
+        "notes": "The monks of the Order of the Lion are dedicated to their cause. Their main focus being helping and supporting the good citizens of Bounac, their life is comprised of hard labour and deprivations. But also the joy and laughter of the people. Unknown.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 101%>?",
+            "Death 99%<?",
+            "Holy 99%<?",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Bounac, the Order of the Lion settlement.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Gold Coin",
+            "Bread",
+            "Book of Prayers",
+            "Rope Belt",
+            "Safety Pin",
+            "Brown Flask",
+            "Scroll",
+            "Staff",
+            "Ankh",
+            "Lamp",
+            "Sandals",
+            "Life Crystal",
+            "Loot Statistics"
+        ]
+    }
+]

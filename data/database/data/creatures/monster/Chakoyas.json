@@ -1,0 +1,110 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Chakoya_Toolshaper",
+        "name": "Chakoya Toolshaper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e3/Chakoya_Toolshaper.gif/revision/latest?cb=20150418075428&path-prefix=en",
+        "attributes": {},
+        "notes": "Chakoya Toolshapers are more skilled than the tribewardens but less powerful built. Provided with a bit more intelligence than the other chakoyas, they are mainly responsible for handcraft in the tribes. It is them who provide the tribes with all kinds of different weapons and who are able to handle the more complicated distance weapons in fights.Since supplies are hard to gather in the northern waste, Chakoya Toolshapers often accompany the tribewardens on their hunts for food and resources. In battles they function as leaders, at least until the frenzy takes over. As running away is no option for a chakoya that does not want to end as dinner for its clanmates, Chakoya Toolshapers, unlike other distance fighters, charge an enemy with little regard of their own safety.",
+        "abilities": [
+            "Melee (0-35)",
+            "Throw Small Stone (0-45) Chakoya Toolshaper"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 0%",
+            "Fire 60%",
+            "Energy 115%",
+            "Earth 100%"
+        ],
+        "location": "Inukaya, Chyllfroest, Chakoya Iceberg.",
+        "behaviour": "They fight in close combat and throw small stones if you try to escape. They fight to the death.A chakoya toolshaper attacks in melee range.",
+        "strategy": "They can hit quite hard if you are surrounded by other Chakoyas too, so try to kill them fast. Try to kill these Chakoyas after you kill the Windcallers, unless you are taking too much damage and can't reach the others.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Mace",
+            "Fireproof Horn",
+            "Bone Shield",
+            "Ice Cube",
+            "Pick",
+            "Green Perch",
+            "Mammoth Whopper",
+            "Northern Pike",
+            "Rainbow Trout",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Chakoya_Tribewarden",
+        "name": "Chakoya Tribewarden",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/71/Chakoya_Tribewarden.gif/revision/latest?cb=20150418075448&path-prefix=en",
+        "attributes": {},
+        "notes": "The bulk of the chakoya tribes are the Chakoya Tribewardens. They are the hunters and gatherers of their species and it's their responsibility to protect the tribe. Chakoya Tribewardens are the most animal and wild of those little furry creatures. Everything that is not a chakoya is seen as prey. Not even other chakoyas are always safe from the ravenous bloodlust of their brethren. Survival of the fittest seems to be the principle of the Chakoya Tribewardens. When a chakoya shows some weakness, its fellows are after him to 'adjust' him to its new place in the food chain ...The harsh environment has made the Chakoya Tribewardens as unforgiving as the icy land itself. They never run if they get cornered, rather their bloodthirstiness and their wrath increases and they attack their opponents with weapons, claws and fangs until either their opponents or themselves are defeated.",
+        "abilities": [
+            "Melee (0-30)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 0%",
+            "Fire 75%",
+            "Energy 115%",
+            "Earth 100%"
+        ],
+        "location": "Inukaya, Chyllfroest, Chakoya Iceberg, Nibelor (during a quest).",
+        "behaviour": "They attack only with melee and fight to the death.A chakoya tribewarden attacks in melee range.",
+        "strategy": "They usually appear in large groups. This should be the last type you kill out of the Chakoyas. Treat them like Rotworms.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Short Sword",
+            "Fireproof Horn",
+            "Bone Shield",
+            "Green Perch",
+            "Mammoth Whopper",
+            "Rainbow Trout",
+            "Northern Pike",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Chakoya_Windcaller",
+        "name": "Chakoya Windcaller",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3c/Chakoya_Windcaller.gif/revision/latest?cb=20150418075458&path-prefix=en",
+        "attributes": {},
+        "notes": "The Chakoya Windcallers are a strange breed of chakoyas. Just a few of these rare and quite fragile chakoyas actually reach adulthood where they can acquire their full potential. Only if other Chakoya Windcallers recognise the ability of a child to wield magic, it may be spared from the deadly pecking order of the clans. The Chakoya Windcallers are considered as a mixture of saints and abominations, certainly nothing any sane chakoya would eat. Touched with the gift or curse of magic, a young Chakoya Windcaller usually grows up under the relative safety of a Chakoya Windcaller patron that serves as its  teacher. In some rare cases, a Chakoya Windcaller survives on its own, rather relying on its instinctive magic than on its brawn. As an adult, a Chakoya Windcaller has either been recognised and raised as such or gradually begins to lose its magic abilities, mostly turning into a Chakoya Toolshaper instead.The magic of the Chakoya Windcallers is rather primitive. They use the elements for protection, enhancement or damaging effects. Like every chakoya, they rely on close combat so their ability to cast distance spells is limited. Instead they use their magical skills to increase their own speed and to freeze their opponents.",
+        "abilities": [
+            "Melee (0-22)",
+            "Ice Missile (16-32)",
+            "Ice Wave (9-20)",
+            "Ice Berserk (8 damage; Freezes you)",
+            "Invisibility (for some seconds)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 108%",
+            "Holy 80%",
+            "Ice 0%",
+            "Fire 50%",
+            "Energy 115%",
+            "Earth 100%"
+        ],
+        "location": "Inukaya, Chyllfroest, Chakoya Iceberg.",
+        "behaviour": "Chakoya Windcallers will fight you from a distance.A chakoya windcaller attacks from a distance.",
+        "strategy": "Kill these Chakoyas before killing any other type of Chakoyas, unless you are surrounded and need to. Treat them like any other mage creature. Don't be afraid of their attacks, they barely inflict any damage.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Brass Helmet",
+            "Fireproof Horn",
+            "Bone Shield",
+            "Green Perch",
+            "Northern Pike",
+            "Rainbow Trout",
+            "Loot Statistics"
+        ]
+    }
+]

@@ -1,0 +1,271 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Goblin_Assassin",
+        "name": "Goblin Assassin",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/81/Goblin_Assassin.gif/revision/latest?cb=20150418075646&path-prefix=en",
+        "attributes": {},
+        "notes": "All goblins employ stealth and treachery as legitimate means to win a battle. This goes so far that the goblin culture actually encourages and adores such methods. Though Goblin Assassins are hardly anything else than 'wannabe assassins',  they are indeed the most tricky and cunning of their kind. They use everything at their disposal for fighting including dirty trick. They enjoy stealthy attacks and the use of paralysing poison to eliminate their enemies. Amongst their kind, they are revered as heroes. They often hold high positions, gained by trickery to get rid of other contenders for leadership. Every goblin chieftain has a bunch of assassins as close advisors. Since the king knows that his advisors would gladly stab him in the back to succeed him as chief, he plays a difficult game of playing off the Goblin Assassins against each other and sending them on suicidal missions to get rid of them. So, being a Goblin Assassin is a mixed blessing. It is desirable as it ensures a position of power which all goblins long for. At the same time, it is a threat for a goblin's life.In battles, Goblin Assassins try to be as effective as necessary to keep their position and as inconspicuous as possible to avoid the attention of both, their opponents and their fellow assassins. To some extend, this restricts the assassin's effectiveness, though when under pressure, he usually plays out all of his tricks to either flee or to kill his opponent.",
+        "abilities": [
+            "Melee (0-15)",
+            "Throwing Knives (0-35)",
+            "Haste",
+            "Invisibility (Lasts in some seconds)",
+            "Drunkenness"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Femor Hills, Edron Goblin Cave and Fenrock.",
+        "behaviour": "Goblin Assassins retreat in red health. They can be pushed and don't move objects.A goblin assassin attacks in melee range.",
+        "strategy": "Low Levels can die easly if attacked in group. It's recommended to use runes to make them appear.Knights: Should hunt easily in Level 13 with Wound Cleansing.\nMages and Paladins: Should run while attacking.",
+        "loot": [
+            "Gold Coin",
+            "Small Stone",
+            "Bone",
+            "Dagger",
+            "Fish",
+            "Leather Armor",
+            "Leather Helmet",
+            "Mouldy Cheese",
+            "Short Sword",
+            "Small Axe",
+            "Bone Club",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Goblin_Leader",
+        "name": "Goblin Leader",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e7/Goblin_Leader.gif/revision/latest?cb=20171219234530&path-prefix=en",
+        "attributes": {},
+        "notes": "Leaders of the goblin race. One of them seems to have an obsession with the colour green.",
+        "abilities": [
+            "Melee (0-50)",
+            "Throws Small Stones (0-45)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Way to Beregar (around here), below Femor Hills (Tower Defence Quest), near Femor Hills during Goblin raid",
+        "behaviour": "A goblin leader attacks in melee range. A goblin leader will retreat at 2 to 14 (4% - 28%, red) health.",
+        "strategy": "Treat them as Goblins but stronger. Kill them at Level 10 with decent equipment. But be fast: they only have 50 Hitpoints but they can damage hard.",
+        "loot": [
+            "Gold Coin",
+            "Leather Helmet",
+            "Dagger",
+            "Fish",
+            "Bone",
+            "Mouldy Cheese",
+            "Small Axe",
+            "Short Sword",
+            "Leather Armor",
+            "Bone Club",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Goblin_Scavenger",
+        "name": "Goblin Scavenger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c4/Goblin_Scavenger.gif/revision/latest?cb=20150418075655&path-prefix=en",
+        "attributes": {},
+        "notes": "Goblin Scavengers play an important role in the goblin society. They are highly skilled in recycling almost any garbage into useful things. In the camps, older Goblin Scavengers sort out the loot the raiders and warriors get into their hands. The younger Goblin Scavengers are sent out into the wilderness to loot and plunder everything they can get. Usually they form parties that sneak about the lands of their enemies and try to get as much loot as possible. It is said that the loot bag, still very popular among modern adventurers, was an invention of Goblin Scavengers.When surrounded by enemies, they try to keep a distance and to attack from afar. Since Goblin Scavengers are usually seasoned scouts, they also possess some knowledge about the wilderness and plants. This enables them to poison their weapons with a moderate effect.You never know what kind of loot a Goblin Scavenger might dig up from his pockets. It can be everything from a rune to much more valuable items. Goblin Scavengers occur either alone on a mission as a scout, in small groups of two or three, or as a band consisting of up to two dozens.",
+        "abilities": [
+            "Melee (0-15)",
+            "Spears (0-30)",
+            "Distance Life Drain (22-30)",
+            "Self-Healing (10-16)",
+            "Haste",
+            "Death Strike (1-30)",
+            "Energy Strike on himself"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Femor Hills, Edron Goblin Cave, and Fenrock.",
+        "behaviour": "A goblin scavenger attacks in melee range. A goblin scavenger will retreat at 2 to 17 (3.33% - 28.33%, deep red to red) health.",
+        "strategy": "They are somewhat easy to kill, their Self-Healing can be a bit frustrating and lower levels need to be very cautious as their Life Drain attack can be deadly for low levels.",
+        "loot": [
+            "Gold Coin",
+            "Small Stone",
+            "Bone",
+            "Dagger",
+            "Fish",
+            "Leather Armor",
+            "Leather Helmet",
+            "Mouldy Cheese",
+            "Short Sword",
+            "Small Axe",
+            "Bone Club",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Goblin",
+        "name": "Goblin",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Goblin.gif/revision/latest?cb=20150418105027&path-prefix=en",
+        "attributes": {},
+        "notes": "Goblins are human-like creatures that live in small tribes in the hills in the centre of Tibia. They are ugly, stinking beings that mainly live on tubers and roots. They are weak but cunning fighters and use their slings to ambush and rob travellers.",
+        "abilities": [
+            "Melee (0-10)",
+            "Throws Small Stones (0-25)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Femor Hills, north east of Carlin, Edron Goblin Cave, Rookgaard (Premium Area), Maze of Lost Souls and Fenrock.",
+        "behaviour": "A goblin attacks in melee range. A goblin will retreat at 35  (70%, light green) health.",
+        "strategy": "Be careful in Rookgaard, because they can hit hard! You can hunt them profitable from Level 6 with decent equipment. In Mainland they are usually hunted for Small Stones which is the Paladin's popular light training weapon. After update 8.5, the small stones drop rate has been reduced.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Short Sword",
+            "Small Axe",
+            "Small Stone",
+            "Bone Club",
+            "Leather Armor",
+            "Bone",
+            "Dagger",
+            "Leather Helmet",
+            "Goblin Ear",
+            "Mouldy Cheese",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Muglex_Clan_Assassin",
+        "name": "Muglex Clan Assassin",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/20/Muglex_Clan_Assassin.gif/revision/latest?cb=20171219235250&path-prefix=en",
+        "attributes": {},
+        "notes": "A weaker Goblin Assassin.",
+        "abilities": [
+            "Melee (?)",
+            "throws Small Stone (0-10+?)",
+            "Intoxicates"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Dagger",
+            "Small Stone",
+            "Bone",
+            "Fish",
+            "Short Sword",
+            "Small Axe",
+            "Leather Helmet",
+            "Mouldy Cheese",
+            "Leather Armor",
+            "Bone Club",
+            "Studded Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Muglex_Clan_Footman",
+        "name": "Muglex Clan Footman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/43/Muglex_Clan_Footman.gif/revision/latest?cb=20140827155824&path-prefix=en",
+        "attributes": {},
+        "notes": "Weaker Goblins. Mr Morris wants you to kill 20 of these; the other goblins do not count.",
+        "abilities": [
+            "Melee (0-?)",
+            "Small Stone throw (0-?) Muglex Clan Footman"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 110%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport Goblin Dungeon.",
+        "behaviour": "A muglex clan footman will retreat at 15  (30%, yellow) health.",
+        "strategy": "They are mostly difficult because they spawn with other Muglex Clan goblins. Kill them last because the Muglex Clan Assassin and Muglex Clan Scavenger are more threatening. Beware when entering their dungeon as you may be surrounded quickly.",
+        "loot": [
+            "Gold Coin",
+            "Dagger",
+            "Fish",
+            "Small Stone",
+            "Short Sword",
+            "Bone Club",
+            "Small Axe",
+            "Leather Armor",
+            "Leather Helmet",
+            "Bone",
+            "Mouldy Cheese",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Muglex_Clan_Scavenger",
+        "name": "Muglex Clan Scavenger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/02/Muglex_Clan_Scavenger.gif/revision/latest?cb=20171219235251&path-prefix=en",
+        "attributes": {},
+        "notes": "Spawns with other Muglex Clan goblins (Footmen, Assassins) and, on the deeper floors of their cave, Lesser Fire Devils, Crazed Dwarves and Dwarf Miners. They aren't particularly strong but they do come in groups.",
+        "abilities": [
+            "Melee (?)",
+            "possibly more"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport.",
+        "behaviour": "Unknown",
+        "strategy": "Focus on the assassins first because they are more threatening. Otherwise, just kill them using your standard technique.",
+        "loot": [
+            "Gold Coin",
+            "Dagger",
+            "Small Stone",
+            "Fish",
+            "Small Axe",
+            "Bone Club",
+            "Short Sword",
+            "Bone",
+            "Mouldy Cheese",
+            "Leather Armor",
+            "Leather Helmet",
+            "Loot Statistics"
+        ]
+    }
+]

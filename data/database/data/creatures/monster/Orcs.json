@@ -1,0 +1,744 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Furious_Orc_Berserker",
+        "name": "Furious Orc Berserker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8f/Furious_Orc_Berserker.gif/revision/latest?cb=20171219234132&path-prefix=en",
+        "attributes": {},
+        "notes": "Furious orc berserkers can't be killed with items obtained in Rookgaard. It has been killed with items brought from Dawnport through a bug and spells obtained in Island of Destiny on Test Servers.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%?",
+            "Holy 0%?",
+            "Ice 0%?",
+            "Fire 0%?",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rookgaard Orc Fortress (during a quest).",
+        "behaviour": "It follows you.",
+        "strategy": "None.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Berserker",
+        "name": "Orc Berserker",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/16/Orc_Berserker.gif/revision/latest?cb=20141110202321&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Berserkers are very strong fighters. Their favourite tactic is the assault, where they can use their velocity and their halberds to kill their victim with a single stroke. Having survived their attack, watch out for other types of orcs that are usually in their company. These are dangerous creatures, their attack is very strong, but their defense skill is poor and it is better to fight one than trying to escape because they can run really fast.\nWarning! Most players under level 20 will die if they meet one.\nOrc Berserkers can also drop Orc Tusks during raids of the Machinery of War Quest.",
+        "abilities": [
+            "Melee (0-200)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 85%",
+            "Earth 110%"
+        ],
+        "location": "Orc Fort, Dwacatra, Orc Peninsula, Elvenbane, Edron Orc Cave, Plains of Havoc, below Point of No Return in Outlaw Camp, Maze of Lost Souls, Cyclopolis, Desert Dungeon, Ancient Temple, Foreigner Quarter, Zao Orc Land.",
+        "behaviour": "Orc Berserkers fight to the death and use close combat to kill their enemies, they will also push/kill other creatures to get to you.An orc berserker attacks in melee range.",
+        "strategy": "Stealth Rings can be life savers when coming across these creatures at low levels. With all vocations these can be handled easily with care. The Halberds they drop allow for good profit for all vocations.\nKnights, recommended skills: at least 60/60 with decent equipment and should be prepared to use Health Potions. Knights can also use spells like Whirlwind Throw, Front Sweep and Berserk to kill Berserkers faster and/or deal with more than one of them at a time. Remember: the longer a Berserker lives, the more damage you take.\nMages should consider using Magic Shield or Invisible. However, at level 25+ with a decent magic level it is not hard to just use earth attacks and Intense Healing for this creature, but if they do an exceptionally big hit you can always use health/mana potions, Halberds make it easy to profit. But be careful with Invisibility, as Orc Leaders, Orc Warlords and Orc Shamans can still see you. If you find them together with Orc Shamans, kill the Shamans first so that the summoned Snakes don't break your shielding or get in your way. Also a good summon for Mages, however healing runes may be recommended, since they lose health easily.\nPaladins Should use a one handed weapon and a shield to hunt them and should consider using Energy and Stealth Rings for the same reason why Mages should use Magic Shield or Invisible. While Bows and Crossbows can give Paladins extra range to deal with Berserkers before they get close it leaves them very vulnerable to the Berserker's powerful melee attack, should one live long enough to traverse the distance between you and him. Always have your best healing spell or potion ready in case of a big hit.",
+        "loot": [
+            "Gold Coin",
+            "Battle Axe",
+            "Halberd",
+            "Ham",
+            "Orcish Gear",
+            "Hunting Spear",
+            "Orc Leather",
+            "Orc Tooth",
+            "Chain Armor",
+            "Lamp",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cook",
+        "name": "Orc Cook",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/21/Orc.gif/revision/latest?cb=20150418075826&path-prefix=en",
+        "attributes": {},
+        "notes": "It's part of the final game of the Orcsoberfest event.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Orcsoberfest Island.",
+        "behaviour": "Doesn't move.",
+        "strategy": "You don't need to interact directly with it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cult_Fanatic",
+        "name": "Orc Cult Fanatic",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/39/Orc_Cult_Fanatic.gif/revision/latest?cb=20170719023947&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orc Cult Fanatic is a stronger version of Orc Leaders.",
+        "abilities": [
+            "Melee (0-200?)",
+            "Throwing Knives (0-150?)"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave.",
+        "behaviour": "An orc cult fanatic attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Orc Leather",
+            "Plate Shield",
+            "Brown Mushroom",
+            "Skull Belt",
+            "Cultish Robe",
+            "Great Health Potion",
+            "Small Ruby",
+            "Sword Ring",
+            "Warrior Helmet",
+            "Plate Armor",
+            "Plate Legs",
+            "Brass Legs",
+            "Orc Tooth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cult_Inquisitor",
+        "name": "Orc Cult Inquisitor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Orc_Cult_Inquisitor.gif/revision/latest?cb=20170719023759&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orc Cult Inquisitor is a stronger version of Orc Berserkers.",
+        "abilities": [
+            "Melee (0-400?)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 85%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave.",
+        "behaviour": "They are similar to Orc Berserkers but much stronger. They fight to the death.An orc cult inquisitor attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Bug Meat",
+            "Orcish Gear",
+            "Cultish Robe",
+            "Halberd",
+            "Ham",
+            "Orcish Axe",
+            "Red Mushroom",
+            "Orc Leather",
+            "Orc Tooth",
+            "Battle Axe",
+            "Black Pearl",
+            "Small Ruby",
+            "Berserk Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cult_Minion",
+        "name": "Orc Cult Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bb/Orc_Cult_Minion.gif/revision/latest?cb=20170719023622&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orc Cult Minion is a stronger version of Orc Spearmen.",
+        "abilities": [
+            "Melee (0-200)",
+            "Throws Spears (0-150) Orc Cult Minion"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave.",
+        "behaviour": "Fights in close combat.An orc cult minion attacks in melee range. An orc cult minion will retreat at 1 to 39 (0.1% - 3.9%, deep red) health.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Cultish Robe",
+            "Small Topaz",
+            "Orcish Axe",
+            "Red Mushroom",
+            "Meat",
+            "Berserk Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cult_Priest",
+        "name": "Orc Cult Priest",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5d/Orc_Cult_Priest.gif/revision/latest?cb=20170719023843&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orc Cult Priest is a stronger version of Orc Shamans.",
+        "abilities": [
+            "Melee (0-250)",
+            "Heavy Magic Missile (0-320)",
+            "Fireball (0-250)",
+            "Mass Healing (?-288)",
+            "Shapeshift victim (turns you into a Larva or one of several Orcs )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 50%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave.",
+        "behaviour": "UnknownAn orc cult priest attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Shamanic Hood",
+            "Strong Health Potion",
+            "Cultish Robe",
+            "Green Piece of Cloth",
+            "Small Ruby",
+            "Mysterious Fetish",
+            "Orc Leather",
+            "Broken Shamanic Staff",
+            "Orc Tooth",
+            "Black Pearl",
+            "Heavy Old Tome",
+            "Wand of Decay",
+            "Berserk Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Cultist",
+        "name": "Orc Cultist",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/52/Orc_Cultist.gif/revision/latest?cb=20170719023700&path-prefix=en",
+        "attributes": {},
+        "notes": "The Orc Cultist is a stronger version of Orc Warriors.",
+        "abilities": [
+            "Melee (0-200?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 70%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave.",
+        "behaviour": "Fights in close combat.An orc cultist attacks in melee range. An orc cultist will retreat at 1 to 53 (0.07% - 3.93%, deep red) health.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Orc Tusk",
+            "Ham",
+            "Orcish Axe",
+            "Small Topaz",
+            "Green Piece of Cloth",
+            "Cultish Robe",
+            "Brown Crystal Splinter",
+            "Berserk Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Leader",
+        "name": "Orc Leader",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Orc_Leader.gif/revision/latest?cb=20070712030519&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Leaders are the commanders of the orcs' army. They are quite clever and know how to arrange the different troops - warriors, berserkers, spearmen, and shamans - to form powerful squads. They themselves are quite strong fighters that use even throwing knives. These dangerous creatures can throw strong Knives to kill the enemy if they try to escape.Orc Leaders can also drop Orc Tusks during raids of the Machinery of War Quest.",
+        "abilities": [
+            "Melee (0-185)",
+            "Throwing Knives (0-70)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orc Fort, Edron Orc Cave, South of the temple in PoH, Maze of Lost Souls, Cyclopolis, Zao Orc Land.",
+        "behaviour": "Orc leaders fight to the death and chase their enemies while throwing Throwing Knives at them.An orc leader attacks in melee range.",
+        "strategy": "Knights: you should have skills 75/75 to hunt them. Low levels with low skills should stay away from these but if necessary to fight then combine your melee with Whirlwind Throw or Berserk.\nPaladins: you should run while shooting royal spears, and Ethereal Spear. \nMages: you should use earth or death or wands/rods to kill them. If you are premium you should use Terra Strike or Death Strike to help minimize waste.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Brown Mushroom",
+            "Orc Leather",
+            "Plate Shield",
+            "Throwing Knife",
+            "Brass Legs",
+            "Longsword",
+            "Royal Spear",
+            "Sword Ring",
+            "Plate Armor",
+            "Scimitar",
+            "Skull Belt",
+            "Broadsword",
+            "Orc Tooth",
+            "Health Potion",
+            "Plate Legs",
+            "Warrior Helmet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Marauder",
+        "name": "Orc Marauder",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3e/Orc_Marauder.gif/revision/latest?cb=20210420144718&path-prefix=en",
+        "attributes": {},
+        "notes": "The war in Zao required a high degree of mobility. The answer to this request was the mounted archer. However, it took some time to make this solution palatable to the savage orcs. Barely able to control their blood lust, the orcs easily forgot their intention to stay away from the enemy and steered their mounts into the fray. Those who managed to withstand such urges were often seen as cowards and were widely shunned by other orcs. Only with the coming of their new leaders such prejudices changed. The few scattered Orc Marauders were combined and received additional training. Some of the smarter orcs were picked to support the ranks of the riders and once their effectiveness was proven, the acceptance of the Orc Marauders among the orcs grew continuously.Used more efficiently, these new units of the orcish horde made the difference that was necessary to tune the tones of war at least for a while. The Orc Marauders attacked the lizard armies from afar. Slowly the casualties drained the strength of the lizard armies and the attacks of the orcs became bolder and bolder. The attacks usually started with Orc Marauders weakening the defensive lines. When the main body of the orcs attacked, the Orc Marauders switched to flanking tactics and caught scattered troops on the run. In more peaceful times, Orc Marauders serve as scouts or hunters.Only the most daring orcs are chosen as Orc Marauders. Unlike the warwolves, the gnarlhounds are not bond to a specific orc. Rather the gnarlhounds are shared by the tribe and picked randomly before a raid. Given the unpredictability of the gnarlhounds, it is of little consequence for the rider. Since gnarlhounds are prone to frenzy in battle, the Orc Marauders treat their skin with a mixture of gnarlhound excrements and herbs to avoid being ripped to shreds by their own mounts. These mounted archers was the answer to high degree mobility. However, because of the orcs lust for blood, staying at a distance from the enemy proved a difficult task to maneuver. Before, those orcs which managed to restrain themselves from such urges were often shunned and called cowards. With the coming of new leaders such prejudice as these have since changed. The remaining Orc Marauders joined together and have since received additional training and have become what they now are today. \nNow only the most daring orcs are now chosen as Orc Marauders. As unlike the War Wolves, gnarlhounds are not bound to a specific rider, they are shared throughout the tribe and picked at random before a raid. Orc Marauders treat their skin to a mixture of excrements and herbs to avoid them being ripped to shreds by their own mounts.",
+        "abilities": [
+            "Melee (0-80+)",
+            "Shoot Arrow (0-80) Orc Marauder",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Zao Orc Land.",
+        "behaviour": "An orc marauder attacks from a distance.",
+        "strategy": "They stay at a distance of the target and run away with great haste (faster than a lvl 55) from you. Use Haste or something similar to chase them.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Shaggy Tail",
+            "Bow",
+            "Broken Crossbow",
+            "Orc Leather",
+            "Orc Tooth",
+            "Obsidian Lance",
+            "Orcish Axe",
+            "Crossbow",
+            "Silkweaver Bow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Musician",
+        "name": "Orc Musician",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/19/Orc_Musician.gif/revision/latest?cb=20211012171758&path-prefix=en",
+        "attributes": {},
+        "notes": "These orcs play and sing songs in Orcsoberfest Island.",
+        "abilities": [
+            "Red Music Orc Musician",
+            "Purple Music Orc Musician",
+            "White Music Orc Musician",
+            "Yellow Music Orc Musician"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Four of these orcs can be seen in Orcsoberfest Island, here.",
+        "behaviour": "It is unknown how these creatures behave in an actual battle with players.",
+        "strategy": "There is no strategy to face them since they can't be reached.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Rider",
+        "name": "Orc Rider",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3a/Orc_Rider.gif/revision/latest?cb=20240228095607&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Riders are orcish elite troops mounted on grim war wolves. Their fearsome steeds make them fast and agile while their heavy lances can deal impressive damage. Orc Rider patrols can mostly be found in the plains of Tibia where the terrain is ideal for mounted combat. It is very difficult to run away from a pack of Orc Riders once you have had the misfortune to meet them. These mounted orcs are strong but can be tricked with Invisibility. They don't drop Wolf Paws. Orcish Axes can be looted easily and sold for a good price to NPCs.Orc Riders also drop Orc Tusks during raids of the Machinery of War Quest.",
+        "abilities": [
+            "Melee (0-130)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orc Fort, Orc Peninsula, near Dark Cathedral, Zao Orc Land.",
+        "behaviour": "Orc Riders fight to the death.An orc rider attacks in melee range.",
+        "strategy": "If you are a Mage, use Invisible and runes, Stoneshower or GFB are useful because Orc Riders are usually found in groups. Premium mages should try to use Terra Strike to minimise waste.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Orc Leather",
+            "Orcish Axe",
+            "Warwolf Fur",
+            "Wolf Tooth Chain",
+            "Orc Tooth",
+            "Battle Shield",
+            "Obsidian Lance",
+            "Scale Armor",
+            "Torch",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Shaman",
+        "name": "Orc Shaman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9f/Orc_Shaman.gif/revision/latest?cb=20200206063104&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Shamans are the magicians among the orcs. They support the other troops during a fight. They can shoot fireballs and magic missiles. They even summon snakes to set them on their enemies. Moreover, they can heal themselves. Magical Orcs. Rather weak. Minotaur Mages are superior.Orc Shamans can also drop Orc Tusks during raids of the Machinery of War Quest.",
+        "abilities": [
+            "Melee (0-20)",
+            "Energy Strike (20-30) Orc Shaman",
+            "Fire Strike (5-45) Orc Shaman",
+            "Self-Healing (27-43) Orc Shaman",
+            "Summons (1-4 snake )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 50%",
+            "Earth 110%"
+        ],
+        "location": "Edron Orc Cave, Temple of Xayepocax, below Point of No Return in Outlaw Camp, Venore Orc Cave, Maze of Lost Souls, Orc Fort, north west of Thais, Elvenbane, Plains Of Havoc, Foreigner Quarter, Zao Orc Land.",
+        "behaviour": "An Orc Shaman will run when in low health.An orc shaman attacks from a distance.",
+        "strategy": "Unless you're surrounded by four or more of these Orcs (in which case you just GFB), don't bother killing the Snakes to avoid breaking your shielding, because an Orc Shaman attacks with unblockable Magical Damage. Kill the Orc Shaman and the Snakes will die instantly.\nShamans do not push objects, so trapping them in a corner is a good idea if they annoy you when hunting stronger creatures.",
+        "loot": [
+            "Gold Coin",
+            "Broken Shamanic Staff",
+            "Chain Armor",
+            "Corncob",
+            "Shamanic Hood",
+            "Orc Leather",
+            "Orc Tooth",
+            "Spear",
+            "Heavy Old Tome",
+            "Wand of Decay",
+            "Book (Grey)",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Spearman",
+        "name": "Orc Spearman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/ca/Orc_Spearman.gif/revision/latest?cb=20150422152810&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Spearmen are the distance fighters among the orcs. Their spears are deadly weapons, but they are weak short-range fighters. Usually, they are accompanied by other types of orcs, so that they can hide behind them and attack their enemies from the second row. This Orc attacks with spears that can deal high damage for lower level players.",
+        "abilities": [
+            "Melee (0-25)",
+            "Throws Spears (0-30) Orc Spearman"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orc Fortress, Folda Dungeon, Edron Orc Cave and around it, Ancient Temple, Venore Orc Cave, below the Point of No Return in Outlaw Camp, Plains of Havoc, North of Thais in the Orc Peninsula, Elvenbane and Orc Camp in Foreigner Quarter. Also found in Rookgaard West plains, Zao Orc Land.",
+        "behaviour": "Orc Spearmen run in low health and like to keep a distance. They will retarget to the nearest player.An orc spearman attacks from a distance.",
+        "strategy": "If you are in Rookgaard don't fight them unless you are level 7+ or you have good equipment and Small Health Potions, they appear in groups and with Orcs. On the premium side; there are two single spawns of these creatures, if you trap them in a corner they aren't so hard and will start use their weaker melee attack.\nIn Mainland, If you are fighting them in caves like Ancient Temple in Thais, try to lure them to a safer places, as they are usually accompanied with Orcs and Orc Warriors which, can be deadly for an inexperienced player.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Spear",
+            "Studded Helmet",
+            "Studded Legs",
+            "Machete",
+            "Orc Leather",
+            "Heavy Old Tome",
+            "Orc Tooth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Warlord",
+        "name": "Orc Warlord",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/44/Orc_Warlord.gif/revision/latest?cb=20070712031335&path-prefix=en",
+        "attributes": {},
+        "notes": "Fiercer than the dreaded orc berserker and more powerful even than the mighty orc leader, the Orc Warlord is the true terror of all civilised races. Orc Warlords are the strongest fighters of their race who have managed to rise to the highest ranks through treachery and murder. Even though they are extremely skilled fighters who can cut a man in two with a single stroke of their mighty blades, Orc Warlords prefer to use their superior speed and cunning to overcome their enemies. They avoid open combat whenever they can, sneaking up on unwary adventurers from behind or throwing their vicious shuriken instead. As the most powerful orcs, they aren't called Warlords for nothing. They are tough creatures but drop good loot. They are usually found leading groups of Orc Leaders and Orc Berserkers. They can hit pretty nasty, so be ready to heal.",
+        "abilities": [
+            "Melee (0-250)",
+            "Throwing Star (0-200) Orc Warlord",
+            "Invisibility (2 seconds)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 105%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 20%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Orc Fortress, Foreigner Quarter, Zao Orc Land.",
+        "behaviour": "The Orc Warlord will chase the enemy while throwing stars. They retarget and will kill weaker creatures to reach you.An orc warlord attacks in melee range.",
+        "strategy": "To beat these powerful creatures you will need a good team with high-skilled Knights, some Paladins and Mages with a high Magic Level. The best way to kill them is from a distance because their Throwing Stars are weaker than their melee. Knights with skills 90/90 and a Scrapper Arena weapon can kill them fairly easily. As with all creatures that use invisibility, stay alert with an exori ico to turn them visible again. Its attacks can be compared to a Giant Spider's. Orc Warlords are more profitable to hunt since Orcish Axes have become sellable, and now make up the most valuable part of the loot.Orc Warlords, notably those from raids, can yield different loot:",
+        "loot": [
+            "Broken Helmet",
+            "Gold Coin",
+            "Fish",
+            "Orc Leather",
+            "Orc Tooth",
+            "Plate Armor",
+            "Throwing Star",
+            "Orcish Axe",
+            "Hunting Spear",
+            "Plate Legs",
+            "Protection Amulet",
+            "Scimitar",
+            "Skull Belt",
+            "Dark Helmet",
+            "Two Handed Sword",
+            "Brass Armor",
+            "Health Potion",
+            "Crusader Helmet",
+            "Dragon Hammer",
+            "Magma Boots",
+            "Stealth Ring",
+            "Orc Trophy",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc_Warrior",
+        "name": "Orc Warrior",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/94/Orc_Warrior.gif/revision/latest?cb=20240228095846&path-prefix=en",
+        "attributes": {},
+        "notes": "Orc Warriors are the simple fighters among the orcs. They are weaker than berserkers, but using their sabres or daggers they can be quite dangerous in the small corridors of the dungeons. Watch out for other types of orcs - like spearmen or shamans - which might hide in the second row. A Strong and better armored orc.",
+        "abilities": [
+            "Melee (0-60)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 70%",
+            "Earth 110%"
+        ],
+        "location": "Ancient Temple in Thais, Orc Fort, below Point of No Return in Outlaw Camp and inside a mountain north of it, Orc Peninsula, Folda, Edron Orc Cave, Maze of Lost Souls, Elvenbane Castle, Foreigner Quarter, Zao Orc Land.",
+        "behaviour": "An orc warrior attacks in melee range. An orc warrior will retreat at 10  (8%, red) health.",
+        "strategy": "Dangerous for ill-equiped or lower levels.\nKnights, from level 10 with decent skills (50/50) these should be easy.\nPaladins, just kill these while running to get hit less, and heal when needed.\nMages, could do with decent equipment, and a level 13 wand or rod, just run them around and try to avoid their melee, have exura and exura gran to heal when needed.",
+        "loot": [
+            "Gold Coin",
+            "Broken Helmet",
+            "Chain Armor",
+            "Meat",
+            "Orc Leather",
+            "Copper Shield",
+            "Heavy Old Tome",
+            "Orc Tooth",
+            "Skull Belt",
+            "Poison Dagger",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Orc",
+        "name": "Orc",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/21/Orc.gif/revision/latest?cb=20150418075826&path-prefix=en",
+        "attributes": {},
+        "notes": "Orcs are a very ancient race that once ruled the whole of Tibia. Later, they were expelled from the upper world by other races, and now they live in the dungeons of Tibia. They are human-like and very wily. Organised as paramilitary squads they can be quite dangerous. Good monsters to level on in Rookgaard.A single Orc that rarely spawns in the Orc Fort drops an Old and Used Backpack.  See also: Sam's Old Backpack Quest",
+        "abilities": [
+            "Melee (0-35)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Ulderek's Rock, Edron Orc Cave, Ancient Temple, Ice Islands, Venore Orc Cave, Rookgaard Orc Fortress, Rookgaard main cave, Fibula Dungeon, Elvenbane, Foreigner Quarter, Zao Orc Land.",
+        "behaviour": "Orcs cannot push items.An orc attacks in melee range. An orc will retreat at 15  (21.43%, red) health.",
+        "strategy": "You should be at least Level 4 to fight them. Be careful when hunting them at low levels, as they might come together with Orc Spearmen.",
+        "loot": [
+            "Gold Coin",
+            "Axe",
+            "Meat",
+            "Sabre",
+            "Studded Armor",
+            "Studded Shield",
+            "Studded Helmet",
+            "Heavy Old Tome",
+            "Orc Leather",
+            "Orc Tooth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rorc",
+        "name": "Rorc",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/51/Rorc.gif/revision/latest?cb=20240228102856&path-prefix=en",
+        "attributes": {},
+        "notes": "The rorcs are the creation of a power-hungry orc shaman who used water of Ashar'tel stolen from the forest furies, to emulate their fearsome strength and fury in his own warriors. His nomad tribe of orcish raiders employed a tamed variety of terrorbirds as mounts. The careless usage of the mystical water somehow mutated and fused rider and mount to a fearsome new creature, an entirely new breed of orcs, the rorcs. The shaman's delight was short lived as the changed minions were not amused by their treatment. They used their newfound prowess and scorn to overthrow and supposedly kill the shaman. Since then, the rorcs have sought out recognition by their orcish brethren. Some inherent urge drove them to seek out their own flock and reunite with them. Other orcs first greeted them with contempt. But after a first attempt of extermination failed miserably at the claws of the rorcs, the orcish warchiefs began to reconsider. For now, the rorcs are grudgingly allowed to live at the fringes of orcish territory in an uneasy alliance with their brethren. If the rorcs can prove their worth, they might be allowed to join the orcish ranks and bolster their armies. If the two breeds separate, as more and more rorc roosters demand, then the rorcs will become an unique tribe, looking for a place of their own, of course with violent force. Both options paint a dark future for neighbouring communities and the world as a whole. The rorcs are fearsome fighters, even more aggressive, single-minded and brutal than an ordinary orc. Charging into battle, they employ natural and forged weapons with ferocity. Often they are in some frenzy akin to those of the forest furies, with which they share their origin. Even in their brighter moments, they are creatures that look to prove themselves before the other orcs and their pack mates. Infightings between rorcs roosters are common and often lethal, as the orc-bird mixture leads to an aggressive pack behaviour. A severely wounded leader is often killed by some contender, even if the battle against some common enemy is still joined.",
+        "abilities": [
+            "Melee (0-120)",
+            "Haste",
+            "Self-Healing (0-35)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Rorc Plains and in the Rorc version of the Forsaken Mine.",
+        "behaviour": "A rorc attacks in melee range. A rorc never retreats.",
+        "strategy": "Treat it as a Kongra.",
+        "loot": [
+            "Gold Coin",
+            "Rorc Feather",
+            "Hatched Rorc Egg",
+            "Wolf Tooth Chain",
+            "Plate Shield",
+            "Orcish Axe",
+            "Obsidian Lance",
+            "Rorc Egg",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Running_Elite_Orc_Guard",
+        "name": "Running Elite Orc Guard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/15/Running_Elite_Orc_Guard.gif/revision/latest?cb=20110723005409&path-prefix=en",
+        "attributes": {},
+        "notes": "This spawns when using a Fleshy Bone on an Elite Orc Guard.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Rookgaard Orc Fortress (during a quest).",
+        "behaviour": "Running Elite Orc Guard flees from all opponents.",
+        "strategy": "It cannot be killed.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Scar_Tribe_Shaman",
+        "name": "Scar Tribe Shaman",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/20/Scar_Tribe_Shaman.gif/revision/latest?cb=20141110201613&path-prefix=en",
+        "attributes": {},
+        "notes": "They are a weaker Orc Shaman.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport Orc Cave.",
+        "behaviour": "Unknown",
+        "strategy": "Try to trap it so that it cannot lure you into more creatures. It may be a good idea to kill melee creatures before killing the shaman",
+        "loot": [
+            "Gold Coin",
+            "Spear",
+            "Corncob",
+            "Studded Armor",
+            "Studded Legs",
+            "Book (Grey)",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Scar_Tribe_Warrior",
+        "name": "Scar Tribe Warrior",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/92/Scar_Tribe_Warrior.gif/revision/latest?cb=20141113122625&path-prefix=en",
+        "attributes": {},
+        "notes": "They are a weaker Orc Warrior.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport Orc Cave.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Studded Legs",
+            "Chain Armor",
+            "Plate Shield",
+            "Loot Statistics"
+        ]
+    }
+]

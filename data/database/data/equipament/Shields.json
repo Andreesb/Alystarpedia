@@ -1,0 +1,2265 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Adamant_Shield",
+        "name": "Adamant Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e2/Adamant_Shield.gif/revision/latest?cb=20180912220944&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "91.00 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "11.90.7293September 11, 2018"
+        },
+        "notes": "Notes\nIt's TibiaLife's fansite item. When used, its color and light changes from Blue  to Purple  (and vice versa), as shown below, and it stays in the other color. It will also display one of its sounds.\n\n\n\nKnown receivers of this item: \n\nMakadamia, item creator.\nCarol Witt, administrator of TibiaLife.\nThis item was awarded to five players during the Fansite Appreciation Day 2022. The winners were:\n\nSir Demoleide (Solidera)\nSnaidell (Nefera)\nLuiz Faixas (Havera)\nDuchess Lara (Nefera)\nOpio Sniezek (Celesta)",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Amazon_Shield",
+        "name": "Amazon Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/ff/Amazon_Shield.gif/revision/latest?cb=20050617185050&path-prefix=en",
+        "attributes": {
+            "Defense": "32",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "62.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "400,000,000+ gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nA rare sight on any world, since it only appears in the seldom orc raid on Femor Hills. On average, it is looted once every 10 years per game world if the special raid is killed 100% of the time. It has the same defence and weight as a Crown Shield. It is part of the Amazon Set.",
+        "dropped_by": [
+            "Orc Warlord"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ancient_Shield",
+        "name": "Ancient Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ab/Ancient_Shield.gif/revision/latest?cb=20061111113108&path-prefix=en",
+        "attributes": {
+            "Defense": "27",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "61.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "900 - 2100 gp",
+            "Sold for": "900 gp",
+            "Bought for": "5,000 gp",
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nA shield used once in the past by the now undead. It somewhat resembles to the Viking Shield which can be bought in Edron. A long time ago this shield was called Kaerell Shield and was given to Kaerell guild on Antica by the Gods same as Rose Shield and Mercenary Shield was. Kaerell is a word of the Breton language (spoken in Brittany / France), and it means weasel (the animal). It was drawn by the former leader of the Kaerell guild, Mantus.\nCan be obtained by Unrusting a Slightly Rusted Shield.",
+        "dropped_by": [
+            "Enslaved Dwarf",
+            "Ghost",
+            "Lich",
+            "Nightmare",
+            "Tarnished Spirit"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Battle_Shield",
+        "name": "Battle Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e2/Battle_Shield.gif/revision/latest?cb=20080103152539&path-prefix=en",
+        "attributes": {
+            "Defense": "23",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "62.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "95 gp",
+            "Sold for": "95 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nRarely used as a shield due to its low defense and heavy weight. It is a good item for Loot Bags, as NPCs at shops buy them for a good price.",
+        "dropped_by": [
+            "Assassin",
+            "Cyclops",
+            "Cyclops Drone",
+            "Cyclops Smith",
+            "Demon Skeleton",
+            "Dwarf Guard",
+            "Elf Overseer",
+            "Foreman Kneebiter",
+            "Frost Giant",
+            "Frost Giantess",
+            "Gargoyle",
+            "General Murius",
+            "Hellspawn",
+            "Memory of a Dwarf",
+            "Memory of a Pirate",
+            "Minotaur Guard",
+            "Mutated Bat",
+            "Orc Rider",
+            "Pirate Buccaneer",
+            "Rukor Zad",
+            "The Horned Fox",
+            "War Golem"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Biscuit_Barrier",
+        "name": "Biscuit Barrier",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/12/Biscuit_Barrier.gif/revision/latest?cb=20240604133113&path-prefix=en",
+        "attributes": {
+            "Level": "200",
+            "Vocation": "knights",
+            "Defense": "36",
+            "Augments": "Wound Cleansing -> +16.5% base healing",
+            "Imbuing Slots": "1",
+            "Attributes": "shielding +2, faster regeneration, life leech +2%",
+            "Resists": "physical +3%, fire +5%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "8,000 Dark Chocolate Coins",
+            "Light": "3 sqm",
+            "Movable": "✓",
+            "Version": "13.40.54ea79July 01, 2024Summer Update 2024"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Sugar Daddy"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Black_Shield",
+        "name": "Black Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e7/Black_Shield.gif/revision/latest?cb=20050614193117&path-prefix=en",
+        "attributes": {
+            "Defense": "18",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "42.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "500 - 800 gp",
+            "Sold for": "800 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nOften sold for a lower price on the Market. The Black Shield used to be quite rare, but became more common with recent updates.",
+        "dropped_by": [
+            "Bruise Payne",
+            "Candy Horror",
+            "Furious Scorpion",
+            "Lost Basher",
+            "Lost Berserker",
+            "Magma Crawler",
+            "Mummy",
+            "Mutated Bat",
+            "Priestess",
+            "Sandstone Scorpion",
+            "Thanatursus",
+            "Werehyaena Shaman",
+            "Wiggler"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blessed_Shield",
+        "name": "Blessed Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1f/Blessed_Shield.gif/revision/latest?cb=20050530010936&path-prefix=en",
+        "attributes": {
+            "Defense": "40",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "68.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "650 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis shield is arguably one of the best in Tibia. It has been gifted a few times by the Gods to those they deem worthy.\nThe first Blessed Shield in Tibia was a gift from the Gods to Elleshar, who sold it to Muesli. Lightbringer also owned a Blessed Shield briefly before selling it. This exceptional shield isn't normally obtainable in-game; as it is bestowed exclusively as a gift from the Gods. After years of uncertainty about its existence, the legendary shield resurfaced on Antica.\n\nOwned by Lord Karr from May 18th, 2019 to June 15, 2022.\n\nIn the hands of Leif Loget Olsson.\n \nIn Gryphee's house together with a Ball Gown and a Bronze Necklace.\n\nHellgate Treasure Chamber\n\nA really old pic - Lightbringer and his shield",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bone_Shield",
+        "name": "Bone Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/be/Bone_Shield.gif/revision/latest?cb=20050614194415&path-prefix=en",
+        "attributes": {
+            "Defense": "20",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "55.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "80 gp",
+            "Sold for": "80 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\nUsed to be a rare shield on mainland. Often can be seen lying on the floor in Ankrahmun tombs and Mount Sternum. It is part of the Bone Set.",
+        "dropped_by": [
+            "Bonebeast",
+            "Chakoya Toolshaper",
+            "Chakoya Tribewarden",
+            "Chakoya Windcaller",
+            "Crypt Shambler",
+            "Dreadbeast",
+            "Dworc Fleshhunter",
+            "Loricate Orger",
+            "Necropharus",
+            "Ocyakao",
+            "Oozing Carcass",
+            "Orger",
+            "Ribstride",
+            "Tomb Servant"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bonelord_Shield",
+        "name": "Bonelord Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6a/Bonelord_Shield.gif/revision/latest?cb=20150125152647&path-prefix=en",
+        "attributes": {
+            "Defense": "28",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "47.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,200 - 4,000 gp",
+            "Sold for": "1,200 gp",
+            "Bought for": "7,000 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis shield is quite rare, and sometimes more expensive than Dragon Shield, which is more common, However it is a good shield for mages because it is very light. It is part of the Bonelord Set.",
+        "dropped_by": [
+            "Bonelord",
+            "Braindeath",
+            "Elder Bonelord",
+            "The Evil Eye"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Brass_Shield",
+        "name": "Brass Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c3/Brass_Shield.gif/revision/latest?cb=20061213002701&path-prefix=en",
+        "attributes": {
+            "Defense": "16",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "60.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30 - 40 gp",
+            "Sold for": "25 gp",
+            "Bought for": "65 gp",
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nThird best shield in Rookgaard. Part of the Brass Set.",
+        "dropped_by": [
+            "Bandit",
+            "Brittle Skeleton",
+            "Grand Master Oberon",
+            "Skeleton",
+            "Stalker",
+            "Teleskor",
+            "Wild Warrior"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Broken_Wooden_Shield",
+        "name": "Broken Wooden Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Broken_Wooden_Shield.gif/revision/latest?cb=20141006142150&path-prefix=en",
+        "attributes": {
+            "Defense": "11",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "40.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.55September 15, 2014"
+        },
+        "notes": "Notes\nThis item is unobtainable. It was introduced in 10.55 with Dawnport, suggesting that it was intended to be given to aspiring Knights instead of the superior Wooden Shield they currently receive. The details of this item can be seen via the Market.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Carapace_Shield",
+        "name": "Carapace Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/54/Carapace_Shield.gif/revision/latest?cb=20111117183144&path-prefix=en",
+        "attributes": {
+            "Defense": "36",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "55.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "32,000 gp",
+            "Sold for": "32,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nSince it has only one defense point more, but is more expensive and a lot heavier than the Demon Shield most Knights and Paladins opt to save up until they have enough money to buy a Mastermind Shield instead of using the Carapace Shield. Mages will simply stick to Demon Shield. It is most often only used as decoration.",
+        "dropped_by": [
+            "Hive Overseer",
+            "Kollos",
+            "Mindmasher",
+            "Spidris",
+            "Spidris Elite",
+            "Waspoid"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Castle_Shield",
+        "name": "Castle Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/87/Castle_Shield.gif/revision/latest?cb=20120403183411&path-prefix=en",
+        "attributes": {
+            "Defense": "28",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "49.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "5,000 - 35,000 gp",
+            "Sold for": "5,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.0August 28, 2002Summer Update 2002"
+        },
+        "notes": "Notes\nMainly used for decoration. Collectors may pay highly for those shields.",
+        "dropped_by": [
+            "Lich"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Copper_Shield",
+        "name": "Copper Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Copper_Shield.gif/revision/latest?cb=20050613200042&path-prefix=en",
+        "attributes": {
+            "Defense": "19",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "63.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "? gp",
+            "Sold for": "50 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThe best obtainable shield in Rookgaard. Due to a bug in Dawnport, the Steel Shield now exists in Rookgaard.\nObtainable from the Dragon Corpse Quest in Rookgaard.",
+        "dropped_by": [
+            "Dwarf",
+            "Loricate Orger",
+            "Orc Warrior",
+            "Orger",
+            "Rottie the Rotworm"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crown_Shield",
+        "name": "Crown Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/41/Crown_Shield.gif/revision/latest?cb=20050531092930&path-prefix=en",
+        "attributes": {
+            "Defense": "32",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "62.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "8,000 - 15,000 gp",
+            "Sold for": "8,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nBetter than Tower Shield because it weighs less. It is also part of the Crown Set.\nReward from the Black Knight Quest. Can be obtained by Unrusting a Slightly Rusted Shield.",
+        "dropped_by": [
+            "Annihilon",
+            "Demon Outcast",
+            "Flameborn",
+            "Hero",
+            "Knight's Apparition",
+            "Lava Golem",
+            "Renegade Knight",
+            "Retching Horror",
+            "Soul-Broken Harbinger",
+            "Sulphider",
+            "Terofar",
+            "Varnished Diremaw",
+            "Vile Grandmaster",
+            "Zavarash"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Shield",
+        "name": "Dark Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/64/Dark_Shield.gif/revision/latest?cb=20170922215622&path-prefix=en",
+        "attributes": {
+            "Defense": "25",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "400 - 500 gp",
+            "Sold for": "400 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nUsed by most people when they come from Rookgaard because it's so easy to get. Used to be rare, until a quest to get it was implemented. Part of the Dark Set.\nLooks the same as The Shield Nevermourn.\nReward from the Lighthouse Quest.",
+        "dropped_by": [
+            "Ancient Lion Knight",
+            "Bellicose Orger",
+            "Bretzecutioner",
+            "Grim Reaper",
+            "Haunted Dragon",
+            "Pirate Corsair",
+            "Silencer",
+            "Thanatursus",
+            "The Handmaiden",
+            "Werelion"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Death_Gaze",
+        "name": "Death Gaze",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2c/Death_Gaze.gif/revision/latest?cb=20151112183813&path-prefix=en",
+        "attributes": {
+            "Level": "200",
+            "Defense": "38",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "79.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "10.000.000 - 20.000.000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Ragiaz"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon_Shield",
+        "name": "Demon Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4f/Demon_Shield.gif/revision/latest?cb=20050601214120&path-prefix=en",
+        "attributes": {
+            "Defense": "35",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "26.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30,000 - 35,000 gp",
+            "Sold for": "30,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis is the eleventh best shield and the lightest shield in-game. Level 30-60 Sorcerers, Druids and Paladins usually use this shield because of its light weight, especially mages for their lack of capacity.\nObtainable in the Behemoth Quest and the Demon Helmet Quest.",
+        "dropped_by": [
+            "Angry Demon",
+            "Annihilon",
+            "Brinebrute Inferniarch",
+            "Demon",
+            "Demon Outcast",
+            "Essence of Malice",
+            "Ferumbras",
+            "Ferumbras Mortal Shell",
+            "Ghazbaran",
+            "Golgordan",
+            "Grimeleech",
+            "Katex Blood Tongue",
+            "Latrivan",
+            "Morgaroth",
+            "Orshabaal",
+            "Rage Squid",
+            "Terofar",
+            "Utua Stone Sting",
+            "Vexclaw",
+            "Yirkas Blue Scales",
+            "Zavarash"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Depth_Scutum",
+        "name": "Depth Scutum",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f4/Depth_Scutum.gif/revision/latest?cb=20111117182917&path-prefix=en",
+        "attributes": {
+            "Level": "120",
+            "Vocation": "sorcerers and druids",
+            "Defense": "25",
+            "Imbuing Slots": "1",
+            "Attributes": "magic level +2",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "30.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "36,000 - 200,000 gp",
+            "Sold for": "36,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nThe only shield that increases your magic level that has better defense than spellbooks. On the other hand, it does not list your available spells. Part of the Depth Set.",
+        "dropped_by": [
+            "Ancient Spawn of Morgathla",
+            "Obujos"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dragon_Shield",
+        "name": "Dragon Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/13/Dragon_Shield.gif/revision/latest?cb=20180203191252&path-prefix=en",
+        "attributes": {
+            "Defense": "31",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "60.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "4,000 - 6,000 gp",
+            "Sold for": "4,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nCommon shield for players around level 25.\nCan be traded for a Piece of Draconian Steel in The Sweaty Cyclops Quest which is used in the Hunter Outfits Quest and the Obsidian Knife Quest.",
+        "dropped_by": [
+            "Dragolisk",
+            "Dragon",
+            "Grand Mother Foulscale",
+            "Tazhadur"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dwarven_Shield",
+        "name": "Dwarven Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/58/Dwarven_Shield.gif/revision/latest?cb=20050531074911&path-prefix=en",
+        "attributes": {
+            "Defense": "26",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "55.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "100 - 500 gp",
+            "Sold for": "100 gp",
+            "Bought for": "500 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis was a popular shield along low levels since it has a rather good defense and is relatively easy and affordable to obtain. Part of the Dwarven Set.\nObtainable through the Elvenbane Quest.",
+        "dropped_by": [
+            "Ancient Lion Knight",
+            "Dwarf Soldier"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eagle_Shield",
+        "name": "Eagle Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/21/Eagle_Shield.gif/revision/latest?cb=20070115005629&path-prefix=en",
+        "attributes": {
+            "Defense": "32",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "62.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nYou can see it in Morguthis Treasure Room. Its data can be found on the Market.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ectoplasmic_Shield",
+        "name": "Ectoplasmic Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/78/Ectoplasmic_Shield.gif/revision/latest?cb=20181107123138&path-prefix=en",
+        "attributes": {
+            "Level": "180",
+            "Vocation": "knights",
+            "Defense": "37",
+            "Imbuing Slots": "1",
+            "Attributes": "axe fighting +3, club fighting +3",
+            "Resists": "ice +7%, fire -3%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "58.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.00.7695December 03, 2018Winter Update 2018"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Faceless Bane"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eerie_Song_Book",
+        "name": "Eerie Song Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fe/Eerie_Song_Book.gif/revision/latest?cb=20170904194101&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "13.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.30December 11, 2013Winter Update 2013"
+        },
+        "notes": "Notes\nIt looks the same as The Witches' Grimoire and an Unholy Book.\nObtained during Roshamuul Quest - Soothing Bad Dreams.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Eldritch_Shield",
+        "name": "Eldritch Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5b/Eldritch_Shield.gif/revision/latest?cb=20210526222901&path-prefix=en",
+        "attributes": {
+            "Level": "270",
+            "Vocation": "knights",
+            "Defense": "39",
+            "Imbuing Slots": "1",
+            "Attributes": "42 Damage Reflection",
+            "Resists": "physical 4%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "66.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Version": "12.70.10953July 12, 2021Summer Update 2021"
+        },
+        "notes": "Notes\nIt has Damage Reflection.",
+        "dropped_by": [
+            "The Brainstealer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Falcon_Escutcheon",
+        "name": "Falcon Escutcheon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ef/Falcon_Escutcheon.gif/revision/latest?cb=20180605182036&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "knights and paladins",
+            "Defense": "40",
+            "Imbuing Slots": "1",
+            "Resists": "physical +7%, fire +15%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "60.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.80.7048July 3, 2018Summer Update 2018"
+        },
+        "notes": "Notes\nIt was once a Falcon Shield.\nIn order to create this item, you'll need the following items:\n\nOne  Falcon Shield, dropped by Grand Master Oberon.\nOne  Grant of Arms, dropped by Grand Master Oberon.\nOne  Patch of Fine Cloth, dropped by Falcon minibosses and obtainable from the Brass-Shod Chests in the Falcon Bastion.\nTake the items to the forge inside the Falcon Bastion, here (you need to have advanced in The Secret Library Quest - The Order of the Falcon to enter this room), and then use the Falcon Shield on the Anvil. The Shield will be upgraded into the Escutcheon, the Patch of Fine Cloth will be consumed but you will keep the Grant of Arms.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Falcon_Shield",
+        "name": "Falcon Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/29/Falcon_Shield.gif/revision/latest?cb=20180605200503&path-prefix=en",
+        "attributes": {
+            "Level": "300",
+            "Vocation": "knights and paladins",
+            "Defense": "39",
+            "Imbuing Slots": "1",
+            "Resists": "physical +6%, fire +10%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "57.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "11.80.7048July 3, 2018Summer Update 2018"
+        },
+        "notes": "Notes\nIt is possible to upgrade it to a Falcon Escutcheon with Grant of Arms‎ and a Patch of Fine Cloth in the Falcon Bastion's forge.",
+        "dropped_by": [
+            "Grand Chaplain Gaunder",
+            "Grand Master Oberon"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fiery_Rainbow_Shield",
+        "name": "Fiery Rainbow Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/da/Fiery_Rainbow_Shield.gif/revision/latest?cb=20171107215407&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Defense": "36",
+            "Attributes": "shielding +3",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Marketable": true,
+            "Value": "1,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nTo get this shield you need to use a Small Enchanted Ruby on a Rainbow Shield, enchanting it with fire. It increases your shielding skill by 3 for 15 minutes.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gnome_Shield",
+        "name": "Gnome Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1c/Gnome_Shield.gif/revision/latest?cb=20171108141114&path-prefix=en",
+        "attributes": {
+            "Level": "200",
+            "Vocation": "knights and paladins",
+            "Defense": "38",
+            "Imbuing Slots": "1",
+            "Attributes": "shielding +2",
+            "Resists": "energy +8%, physical +6%, ice -2%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "60.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "11.50.6055December 5, 2017Winter Update 2017"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "The Baron from Below",
+            "The Count of the Core",
+            "The Duke of the Depths"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Golden_Blessed_Shield",
+        "name": "Golden Blessed Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c2/Golden_Blessed_Shield.gif/revision/latest?cb=20210622203208&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsTournament Rewards",
+            "Pickupable": true,
+            "Weight": "68.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.67.10918June 22, 2021"
+        },
+        "notes": "Notes\nThis is one of the prizes for the characters ranked first in the Tournament Honour. The Gilded Blessed Shield looks the same and can be bought in the Store, which also means it cannot be traded with other players.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gourd",
+        "name": "Gourd",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ea/Gourd.gif/revision/latest?cb=20160325134154&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "3.90 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nIt looks the same as a Rattling Gourd.\nPart of the Krailos Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Great_Shield",
+        "name": "Great Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/43/Great_Shield.gif/revision/latest?cb=20050617205415&path-prefix=en",
+        "attributes": {
+            "Defense": "38",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "84.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "30,000,000 - 50,000,000 gp",
+            "Sold for": "480 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nIt may be seen on Emperor Kruzak's Treasure Room, in Kazordoon, and also in the Maze of Lost Soul's treasure. It's part of the Full Set.\n\nMaze of Lost Souls Treasure Room",
+        "dropped_by": [
+            "Ferumbras",
+            "Ferumbras Mortal Shell",
+            "Massacre",
+            "Morgaroth",
+            "Razzagorn",
+            "Soul of Dragonking Zyrtarch"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Griffin_Shield",
+        "name": "Griffin Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fc/Griffin_Shield.gif/revision/latest?cb=20170904194248&path-prefix=en",
+        "attributes": {
+            "Defense": "29",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "50.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,000 - 3,000 gp",
+            "Sold for": "3,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.0August 28, 2002Summer Update 2002"
+        },
+        "notes": "Notes\nIt's kind of rare since it's not dropped by monsters. Looks good to decorate houses with.\nObtainable through the Griffin Shield Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Guardian_Shield",
+        "name": "Guardian Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4e/Guardian_Shield.gif/revision/latest?cb=20051030000400&path-prefix=en",
+        "attributes": {
+            "Defense": "30",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "55.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2,000 - 4,000 gp",
+            "Sold for": "2,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.0June 18, 1999Beta 5.0"
+        },
+        "notes": "Notes\nThe Guardian Shield is a very good choice for low level characters of any vocation due to its affordable price and relatively high defence value. Recommended to anyone between the levels 10 and 50.",
+        "dropped_by": [
+            "Annihilon",
+            "Burning Book",
+            "Choking Fear",
+            "Cult Enforcer",
+            "Demon Skeleton",
+            "Diabolic Imp",
+            "Energy Elemental",
+            "Enslaved Dwarf",
+            "Fire Devil",
+            "Knowledge Elemental",
+            "Lost Berserker",
+            "Lost Exile",
+            "Lost Husher",
+            "Minotaur Invader",
+            "Mooh'Tah Warrior",
+            "Mutated Tiger",
+            "Spiky Carnivor",
+            "Terofar",
+            "The Imperor",
+            "Tyrn",
+            "Vicious Squire",
+            "Zavarash",
+            "Zomba",
+            "Zulazza the Corruptor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Haunted_Mirror_Piece",
+        "name": "Haunted Mirror Piece",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6e/Haunted_Mirror_Piece.gif/revision/latest?cb=20130903162133&path-prefix=en",
+        "attributes": {
+            "Defense": "34",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "28.00 oz",
+            "Marketable": true,
+            "Value": "5,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.20September 18, 2013Summer Update 2013 Part 2"
+        },
+        "notes": "Notes\nA very rare item indeed.    Haunted Mirror Piece on Inferna",
+        "dropped_by": [
+            "The Pale Count"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Icy_Rainbow_Shield",
+        "name": "Icy Rainbow Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Icy_Rainbow_Shield.gif/revision/latest?cb=20171107215408&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Defense": "39",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Marketable": true,
+            "Value": "1,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nTo get this shield you need to use a Small Enchanted Sapphire on a Rainbow Shield, enchanting it with ice. Defense-wise, this is the second best shield in Tibia, with only one less defense point than the Blessed Shield. The enchantment lasts 15 minutes.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Journal_Shield",
+        "name": "Journal Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/05/Journal_Shield.gif/revision/latest?cb=20171108145004&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "27.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "11.48.5712October 04, 2017"
+        },
+        "notes": "Notes\nIt's the official BomDiaTibia's fansite item.\nThe following players have been awarded with a Journal Shield: \n\nDidi Hadid received one for designing the item in 2017.\nLicad received one for getting first place in their Journal Shield na vida real contest in 2017.\nIn December 2018, BomDiaTibia held its \"Best of the Year\" contest. The following players were awarded a Journal Shield after popular vote:\n\nFerumbrinha Retro for being the \"Best Youtuber\".\nRubini for being the \"Best Streamer\".\nCarl Kepler for being the administrator of the \"Best Fansite\" (TibiaWiki.com.br).\nLee kun for being the \"Notable Player\".\nMaxigashi for being the \"Best International Youtuber\".\nThis item was awarded to four players during the Fansite Appreciation Day 2022. The winners were:\n\nFryns Winchester (Antica)\nLord Soyinho (Batabra)\nVinicius shocks (Pacera)\nSara Sedentaria (Zenobra)",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lion_Shield",
+        "name": "Lion Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/Lion_Shield.gif/revision/latest?cb=20200611033836&path-prefix=en",
+        "attributes": {
+            "Level": "250",
+            "Vocation": "knights",
+            "Defense": "39",
+            "Imbuing Slots": "1",
+            "Resists": "physical +7%, earth +10%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "65.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.40.9997July 13, 2020Summer Update 2020"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Ancient Lion Knight",
+            "Drume"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mastermind_Shield",
+        "name": "Mastermind Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/10/Mastermind_Shield.gif/revision/latest?cb=20050601213950&path-prefix=en",
+        "attributes": {
+            "Defense": "37",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "57.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "50,000 - 85,000 gp",
+            "Sold for": "50,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nThis is the fifth best shield, third best in defense value, and is available on most worlds (Nightmare Shield and Necromancer Shield weigh less). It can be bought for a fairly cheap price since the 6666 Demon task introduction, which caused this shield to be looted more frequently, and may reach more than 100,000 on some servers. It is part of the Rare Set and is quoted in Legendary Curses IX.I (Book) and Legendary Curses IX.II (Book).",
+        "dropped_by": [
+            "Angry Demon",
+            "Annihilon",
+            "Brachiodemon",
+            "Demon",
+            "Falcon Knight",
+            "Falcon Paladin",
+            "Ferumbras",
+            "Ferumbras Mortal Shell",
+            "Ghazbaran",
+            "Golgordan",
+            "Grand Canon Dominus",
+            "Grand Chaplain Gaunder",
+            "Grand Commander Soeren",
+            "Hellflayer",
+            "Juggernaut",
+            "Latrivan",
+            "Morgaroth",
+            "Orshabaal",
+            "Preceptor Lazare",
+            "Rhindeer",
+            "Terofar",
+            "Vexclaw",
+            "Zavarash",
+            "Zulazza the Corruptor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mathmaster_Shield_(Replica)",
+        "name": "Mathmaster Shield (Replica)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Mathmaster_Shield_%28Replica%29.gif/revision/latest?cb=20170803161512&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsValuablesReplicas",
+            "Pickupable": true,
+            "Weight": "3.14 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": "20 Silver Raid Tokens",
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Version": "11.40.5409July 25, 2017Summer Update 2017"
+        },
+        "notes": "Notes\nThis item is a replica of Mathmaster Shield.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mathmaster_Shield",
+        "name": "Mathmaster Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/89/Mathmaster_Shield.gif/revision/latest?cb=20150603185947&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "3.14 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "9.50April 03, 2012Spring Patch 2012"
+        },
+        "notes": "Notes\nIt's the official TibiaStat item. It was created by Lupus Aurelius.\nIts replica is the Mathmaster Shield (Replica).\nWhen you use a mathmaster shield, it starts to shine and looks like this: \n\nMathmaster Shield",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Meat_Shield",
+        "name": "Meat Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5c/Meat_Shield.gif/revision/latest?cb=20090702085255&path-prefix=en",
+        "attributes": {
+            "Defense": "10",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Doctor Perhaps to have a chance of getting it. It is proof that you have slain him.\nLooks the same as Ham. Beware of scams!\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Doctor Perhaps"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Medusa_Shield",
+        "name": "Medusa Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fe/Medusa_Shield.gif/revision/latest?cb=20050617185458&path-prefix=en",
+        "attributes": {
+            "Defense": "33",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "58.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "9,000 - 15,000 gp",
+            "Sold for": "9,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.1December 17, 2002Christmas Update 2002"
+        },
+        "notes": "Notes\nA good shield for players level 30-50. A lot of people use a Crown Shield however, with the next step being a Vampire Shield or Demon Shield, because they're much lighter and not much more expensive.\nObtained in Medusa Shield Quest. Also needed for an addon of Wizard Outfits.",
+        "dropped_by": [
+            "Gorga",
+            "Gorgo",
+            "Hydra",
+            "Medusa",
+            "The Enraged Thorn Knight",
+            "The Many",
+            "The Noxious Spawn",
+            "The Souldespoiler",
+            "The Welter"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mino_Shield",
+        "name": "Mino Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bb/Mino_Shield.gif/revision/latest?cb=20140615122139&path-prefix=en",
+        "attributes": {
+            "Defense": "31",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "65.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "3000 - 5000 gp",
+            "Sold for": "3,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.50July 7, 2014Summer Update 2014"
+        },
+        "notes": "Notes\nParticularly useful to lower level knights as it offers the same defense as a Dragon Shield for just 5 oz. more. Therefore, the price of this shield largely depends on the value of Dragon Shields on your server.",
+        "dropped_by": [
+            "Bulltaur Brute",
+            "Minotaur Amazon",
+            "Minotaur Cult Follower",
+            "Minotaur Hunter",
+            "Thanatursus",
+            "The False God",
+            "Usurper Archer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Morshabaal%27s_Mask",
+        "name": "Morshabaal's Mask",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a0/Morshabaal%27s_Mask.gif/revision/latest?cb=20220107160528&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Attributes": "fire magic level +1, ice magic level +1, earth magic level +1, energy magic level +1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "41.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "3 sqm",
+            "Blocking": false,
+            "Version": "12.85.11485January 07, 202225th Anniversary Update"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Morshabaal"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Necromancer_Shield",
+        "name": "Necromancer Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/33/Necromancer_Shield.gif/revision/latest?cb=20070414170605&path-prefix=en",
+        "attributes": {
+            "Defense": "37",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "32.00 oz",
+            "Marketable": true,
+            "Value": "350,000 - 650,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Version": "7.9December 12, 2006Christmas Update 2006"
+        },
+        "notes": "Notes\nIt is a rare item considering how difficult it is to obtain it. It provides a permanent green light when equipped. Since it has the same defense value as the Mastermind Shield, it is more often used for decoration.\nObtainable in the Dreamer's Challenge Quest after you give 1500 Demonic Essences (Brotherhood of Bones side).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Nightmare_Shield",
+        "name": "Nightmare Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d0/Nightmare_Shield.gif/revision/latest?cb=20070413124237&path-prefix=en",
+        "attributes": {
+            "Defense": "37",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "32.00 oz",
+            "Marketable": true,
+            "Value": "350,000 - 750,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Version": "7.9December 12, 2006Christmas Update 2006"
+        },
+        "notes": "Notes\nThis shield was crafted by the mastery of the Nightmare Knights order. It is a rare item considering how difficult it is to obtain it. Provides a permanent red light if equipped. Since it has same defense value as the Mastermind Shield, it is more often used for decoration.\nObtainable in the Dreamer's Challenge Quest after you give 1500 Demonic Essences (Nightmare Knights side).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Norse_Shield",
+        "name": "Norse Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f0/Norse_Shield.gif/revision/latest?cb=20071216084128&path-prefix=en",
+        "attributes": {
+            "Defense": "28",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "41.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,500 gp",
+            "Sold for": "1,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.00June 26, 2007Summer Update 2007"
+        },
+        "notes": "Notes\nAn excellent choice for low levels, as its defense is the same as Bonelord Shield, but is significantly lighter. It's part of the Barbarian Set.\nCan be obtained by Unrusting a Slightly Rusted Shield.",
+        "dropped_by": [
+            "Frost Giant",
+            "Frost Giantess"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ornamented_Shield",
+        "name": "Ornamented Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fb/Ornamented_Shield.gif/revision/latest?cb=20050615182518&path-prefix=en",
+        "attributes": {
+            "Defense": "22",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "67.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "1,500 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nValued mostly as decoration for its beauty, this shield was one of the few remaining respawn quests. It is now in the same bag as the crystal key.\nObtainable from Ornamented Shield Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ornate_Shield",
+        "name": "Ornate Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/41/Ornate_Shield.gif/revision/latest?cb=20111124194543&path-prefix=en",
+        "attributes": {
+            "Level": "130",
+            "Vocation": "knights",
+            "Defense": "36",
+            "Imbuing Slots": "1",
+            "Resists": "physical +5%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "71.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "60,000 - 2,000,000 gp",
+            "Sold for": "42,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nAt higher levels, this shield is better than the Prismatic Shield, since:\n\nAt higher levels, knights are more likely to have groups of monsters attacking them. Shielding can only block 2 monsters, so any more will not take advantage of the shielding bonus. The physical protection will still apply where the shielding does not.\nBlood Rage makes a knight defenseless, which in turn makes shielding ineffective.\nIt has an imbuing slot.\nPart of the Ornate Set.",
+        "dropped_by": [
+            "Jaul",
+            "Tanjis"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Painted_Gourd_Rattle",
+        "name": "Painted Gourd Rattle",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7e/Painted_Gourd_Rattle.gif/revision/latest?cb=20160516081105&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "3.90 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nIt is meant to be used it for shamanic purposes.\nPart of the Krailos Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Phoenix_Shield",
+        "name": "Phoenix Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ef/Phoenix_Shield.gif/revision/latest?cb=20050617190000&path-prefix=en",
+        "attributes": {
+            "Defense": "34",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "35.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "200,000 - 1,000,000 gp",
+            "Sold for": "16,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nThis is the 8th best shield. Since it is rarely dropped by Mahrdis, Ferumbras, Furyosa and The Time Guardian, it is not an item that you see every day. Part of the Pharaoh Rares.\n\nPheonix Shield on Zanera.",
+        "dropped_by": [
+            "Ferumbras",
+            "Ferumbras Mortal Shell",
+            "Furyosa",
+            "Mahrdis",
+            "The Freezing Time Guardian",
+            "The Time Guardian"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Plate_Shield",
+        "name": "Plate Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/86/Plate_Shield.gif/revision/latest?cb=20120403170206&path-prefix=en",
+        "attributes": {
+            "Defense": "17",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "65.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "25 - 45 gp",
+            "Sold for": "45 gp",
+            "Bought for": "125 gp",
+            "Blocking": false,
+            "Version": "4.0May 20, 1998Beta 4.0"
+        },
+        "notes": "Notes\nIt's the second best shield in Rookgaard. It can be obtained by killing fierce Minotaurs. It is a common lootbag item, with a slightly worse gp/oz ratio than a Chain Armor.\nCan be obtained by Unrusting a Slightly Rusted Shield.",
+        "dropped_by": [
+            "Assassin",
+            "Crazed Dwarf",
+            "Cyclops",
+            "Cyclops Drone",
+            "Cyclops Smith",
+            "Elf",
+            "Gladiator",
+            "Gozzler",
+            "Iks Aucar",
+            "Juvenile Cyclops",
+            "Minotaur",
+            "Minotaur Bruiser",
+            "Minotaur Cult Follower",
+            "Mutated Rat",
+            "Orc Cult Fanatic",
+            "Orc Leader",
+            "Pirate Marauder",
+            "Renegade Orc",
+            "Rorc",
+            "Rukor Zad",
+            "Scar Tribe Warrior",
+            "Tarantula",
+            "The Old Whopper",
+            "Tortoise",
+            "Wailing Widow",
+            "War Golem",
+            "Werewolf"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Prismatic_Shield",
+        "name": "Prismatic Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b7/Prismatic_Shield.gif/revision/latest?cb=20120622164104&path-prefix=en",
+        "attributes": {
+            "Level": "150",
+            "Vocation": "knights",
+            "Defense": "37",
+            "Attributes": "shielding +2",
+            "Resists": "physical +4%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "72.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.60July 11, 2012Summer Update 2012"
+        },
+        "notes": "Notes\nThis shield is one of the best shields available in the game (it is the best for training and the second best for hunting). The Ornate Shield will block for more in most cases for level 150+ knights because:\n\nAt higher levels, knights are more likely to have groups of monsters attacking them. Shielding can only block 2 monsters, so any more will not take advantage of the shielding bonus. The physical protection will still apply where the shielding does not.\nBlood Rage makes a knight defenseless, which in turn makes shielding ineffective.\nPart of the Prismatic Set.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rainbow_Shield",
+        "name": "Rainbow Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/38/Rainbow_Shield.gif/revision/latest?cb=20150604111914&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Defense": "30",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Marketable": true,
+            "Value": "1,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nThe Rainbow Shield is enchantable in four unique ways, each granting special benefits for 15 minutes.\nObtainable through The Demon Oak Quest.\n\n\n\n\nGem\nProduct\nAttributes\n\n\n Small Enchanted Amethyst\n Sparking Rainbow Shield\nIncreases your speed by 10 and gives 36 defense.\n\n\n Small Enchanted Emerald\n Terran Rainbow Shield\nRegenerates 8 mana and 2 hitpoints every 6 seconds (300 hp and 1200 mana in total) and gives 37 defense.\n\n\n Small Enchanted Ruby\n Fiery Rainbow Shield\nIncreases your shielding skill by 3 and gives 36 defense.\n\n\n Small Enchanted Sapphire\n Icy Rainbow Shield\nGives you 39 defense.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rattling_Gourd",
+        "name": "Rattling Gourd",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2b/Rattling_Gourd.gif/revision/latest?cb=20160516081718&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "20.00 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nIt's a rattling Gourd and looks the same as that one.\nPart of the Krailos Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Shield",
+        "name": "Rift Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/12/Rift_Shield.gif/revision/latest?cb=20151112195349&path-prefix=en",
+        "attributes": {
+            "Defense": "37",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "65.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "50,000 gp",
+            "Sold for": "50,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nThis object has no notes.",
+        "dropped_by": [
+            "Ferumbras Mortal Shell",
+            "Grimeleech",
+            "Hellflayer",
+            "Mazoran",
+            "Plagirath",
+            "Ragiaz",
+            "Tarbaz",
+            "The Scourge of Oblivion",
+            "Vexclaw",
+            "Zamulosh"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rose_Shield",
+        "name": "Rose Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e3/Rose_Shield.gif/revision/latest?cb=20081212174921&path-prefix=en",
+        "attributes": {
+            "Defense": "27",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "49 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nThis shield can only be found on Antica and seen inside Morguthis' Treasure Room.\nOnly 6 of these beautiful shields were ever made, they are owned by members of the guild Red Rose. This was a gift from CipSoft to them, for being one of the oldest guilds of Tibia.\n\nHalfhigh's Rose ShieldA Rose Shield inside the Red Rose's Guildhall of the Red Rose, on Antica.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Runic_Ice_Shield",
+        "name": "Runic Ice Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/72/Runic_Ice_Shield.gif/revision/latest?cb=20130903162131&path-prefix=en",
+        "attributes": {
+            "Defense": "31",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "49.00 oz",
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.20September 18, 2013Summer Update 2013 Part 2"
+        },
+        "notes": "Notes\nUsed to be a very rare item as it was only dropped by the boss Hirintror. As of the 20th anniversary of Tibia, it is also dropped by Gelidrazah the Frozen.",
+        "dropped_by": [
+            "Gelidrazah the Frozen",
+            "Hirintror",
+            "Melting Frozen Horror"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Salamander_Shield",
+        "name": "Salamander Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/47/Salamander_Shield.gif/revision/latest?cb=20051201152712&path-prefix=en",
+        "attributes": {
+            "Defense": "26",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "59.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "280 gp",
+            "Sold for": "280 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nSame defence as a Dwarven Shield, but far more rare. Makes a nice house decoration.",
+        "dropped_by": [
+            "High Templar Cobrass",
+            "Lizard Templar"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Scarab_Shield",
+        "name": "Scarab Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d1/Scarab_Shield.gif/revision/latest?cb=20050617000429&path-prefix=en",
+        "attributes": {
+            "Defense": "25",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "47.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "2000 gp",
+            "Sold for": "2,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.3August 11, 2004"
+        },
+        "notes": "Notes\nA semi-rare item. This shield can be seen on the counter near Omruc.",
+        "dropped_by": [
+            "Ancient Scarab",
+            "Ancient Spawn of Morgathla",
+            "Fleshcrawler",
+            "Memory of a Scarab",
+            "The Ravager"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sentinel_Shield",
+        "name": "Sentinel Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/22/Sentinel_Shield.gif/revision/latest?cb=20051201152727&path-prefix=en",
+        "attributes": {
+            "Defense": "22",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "49.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "120 gp",
+            "Sold for": "120 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nWeak, but still considered rare.",
+        "dropped_by": [
+            "Lizard Sentinel"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Care",
+        "name": "Shield of Care",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4a/Shield_of_Care.gif/revision/latest?cb=20170904194430&path-prefix=en",
+        "attributes": {
+            "Defense": "8",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "17.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Monstor to have a chance of getting it. It is proof that you have slain him.\nLooks the same as a Heart Pillow.\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Monstor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Corruption",
+        "name": "Shield of Corruption",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2b/Shield_of_Corruption.gif/revision/latest?cb=20100628145715&path-prefix=en",
+        "attributes": {
+            "Level": "80",
+            "Vocation": "knights",
+            "Defense": "36",
+            "Imbuing Slots": "1",
+            "Attributes": "sword fighting +3",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "49.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "1,500,000 - 3,500,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.60June 30, 2010Summer Update 2010"
+        },
+        "notes": "Notes\nAn extremely rare shield, very hard to obtain. Since it's dropped by normal spawning creatures, its value will drop over time. It's an excellent choice for Knights using Sword Weapons. However, a Mastermind Shield is much cheaper and has 1 higher defense point (but lacks the Sword Fighting +3 and weighs 8 oz. more).\nAfter the implementation of Imbuing with the Winter Update 2016, its price skyrocketed because this shield got 1 imbuing slot, making it more valuable.",
+        "dropped_by": [
+            "Draken Abomination",
+            "Soul of Dragonking Zyrtarch",
+            "The Souldespoiler"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Destiny_(Activated)",
+        "name": "Shield of Destiny (Activated)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a6/Shield_of_Destiny_%28Activated%29.gif/revision/latest?cb=20160516084338&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "68.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nThis is one of two forms of the Shield of Destiny. It changes between forms when used. The creator of this shield is Lupus Aurelius.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Destiny",
+        "name": "Shield of Destiny",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5e/Shield_of_Destiny.gif/revision/latest?cb=20160516083406&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "68.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "5 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "10.90December 8, 2015Winter Update 2015"
+        },
+        "notes": "Notes\nIt's TibiaRoyal's fansite item and was designed by Lupus Aurelius. Use it to turn it into a Shield of Destiny (Activated).\nCurrent owners of this item: \n\nLupus Aurelius from Fortera. Item creator.\nEric from Hydera.\nHonourable Knight of Honera from Honera.\nLicad from Shivera.\nTio from Antica.\nThoror from Gladera.\nIce Crambler from Monza.\nSnulliz from Monza.\nSeanq from Monza.\nEnenra from Monza.\nWielki Stachu from Relania.\nDiex Torrid from Talera.\nSoulfired from Antica.\nCrowny Cro from Damora.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Endless_Search",
+        "name": "Shield of Endless Search",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5c/Shield_of_Endless_Search.gif/revision/latest?cb=20190416192550&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsFansite Items",
+            "Pickupable": true,
+            "Weight": "11.00 oz",
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Light": "4 sqm",
+            "Blocking": false,
+            "Usable": true,
+            "Version": "12.00.7695December 03, 2018Winter Update 2018"
+        },
+        "notes": "Notes\nIt's the official OrcSearch item.\nIts replica is the Shield of Endless Search (Replica).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_Honour",
+        "name": "Shield of Honour",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/be/Shield_of_Honour.gif/revision/latest?cb=20070302092158&path-prefix=en",
+        "attributes": {
+            "Defense": "33",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "54.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "80,000,000 - 100,000,000 gp",
+            "Sold for": "520 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nThe Shield of Honour entered the game on January 7, 2002, as a gift for those who purchased a premium account of 7 months. This item was a special promotion for Tibia's 5th Anniversary and as a kick start to the introduction of premium accounts started only three months earlier. Due to its rarity, it has become a collector's item.\n20 shields of honour were awarded on a Rhyme Contest during Tibia's 20th Anniversary celebrations. A shield of honour was awarded to Mytherin, in February 2017, for developing Tibialyzer.\n\nThree Shields of Honour in a house on Antica",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shield_of_the_White_Knight",
+        "name": "Shield of the White Knight",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a5/Shield_of_the_White_Knight.gif/revision/latest?cb=20090711022300&path-prefix=en",
+        "attributes": {
+            "Defense": "8",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "5.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Mephiles to have a chance of getting it. It is proof that you have slain him.\nIt looks the same as a White Knight Token.\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Mephiles"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Silver_Chimes",
+        "name": "Silver Chimes",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/62/Silver_Chimes.gif/revision/latest?cb=20180609181444&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "2.80 oz",
+            "Stackable": false,
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "11.80.7048July 3, 2018Summer Update 2018"
+        },
+        "notes": "Notes\nTemporarily obtained during The Secret Library Quest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Soulbastion",
+        "name": "Soulbastion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bd/Soulbastion.gif/revision/latest?cb=20200611023456&path-prefix=en",
+        "attributes": {
+            "Level": "400",
+            "Vocation": "knights",
+            "Defense": "42",
+            "Imbuing Slots": "1",
+            "Resists": "physical +10%, death +10%",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "58.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.40.9997July 13, 2020Summer Update 2020"
+        },
+        "notes": "Notes\nPart of the Soul Set and one of the best Shields in the game.\nIt is a possible reward of the Soul War Quest, which guarantees one random item from the Soul Set the first time said quest is completed.\nThis item is not dropped by any creatures or bosses but it can be obtained from a Bag You Desire, which can be looted from any enemy or boss in the 5 areas of the Soul War Quest if some conditions are met.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sparking_Rainbow_Shield",
+        "name": "Sparking Rainbow Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/73/Sparking_Rainbow_Shield.gif/revision/latest?cb=20171107215409&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Defense": "36",
+            "Attributes": "speed +10",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Marketable": true,
+            "Value": "1,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nTo get this shield you need to use a Small Enchanted Amethyst on a Rainbow Shield, enchanting it with energy. It increases your speed by 10 for 15 minutes.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spike_Shield",
+        "name": "Spike Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6b/Spike_Shield.gif/revision/latest?cb=20121129185330&path-prefix=en",
+        "attributes": {
+            "Defense": "28",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "59.00 oz",
+            "Marketable": true,
+            "Value": "250-800 gp",
+            "Sold for": "250 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.80December 12, 2012Winter Update 2012"
+        },
+        "notes": "Notes\nNew item implemented in the Winter Update 2012. It has the same defense as the Bonelord Shield but it weighs more and usually costs less.",
+        "dropped_by": [
+            "Corym Charlatan",
+            "Corym Skirmisher",
+            "Corym Vanguard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Steel_Shield",
+        "name": "Steel Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/17/Steel_Shield.gif/revision/latest?cb=20050614194907&path-prefix=en",
+        "attributes": {
+            "Defense": "21",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "80 gp",
+            "Sold for": "80 gp",
+            "Bought for": "240 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nIt was once the best shield known, dropped back then by Daemon.This may be the first shield you get on Mainland, because you can buy it in a shop for a reasonable price. Knights can also get this shield in the Island of Destiny and in Dawnport. Due to a bug, the shield was also briefly brought to Rookgaard from Dawnport. \nObtained in the Edron Goblin Quest.",
+        "dropped_by": [
+            "Assassin",
+            "Bonelord",
+            "Bonelord (Nostalgia)",
+            "Braindeath",
+            "Crypt Defiler",
+            "Dragon",
+            "Elder Bonelord",
+            "General Murius",
+            "Gladiator",
+            "Grand Mother Foulscale",
+            "Grave Robber",
+            "Grorlam",
+            "Nomad (Basic)",
+            "Nomad (Blue)",
+            "Nomad (Female)",
+            "Pirate Cutthroat",
+            "Plaguesmith",
+            "Rukor Zad",
+            "The Evil Eye",
+            "Wild Warrior"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Strange_Good_Night_Songs",
+        "name": "Strange Good Night Songs",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Strange_Good_Night_Songs.gif/revision/latest?cb=20140125110154&path-prefix=en",
+        "attributes": {
+            "Defense": "0",
+            "Classification": "Body EquipmentShieldsQuest Items",
+            "Pickupable": true,
+            "Weight": "13.00 oz",
+            "Marketable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "10.30December 11, 2013Winter Update 2013"
+        },
+        "notes": "Notes\nIt looks the same as an Atlas, a Book (Atlas) and a Book (CGB).\nObtained during Roshamuul Quest - Soothing Bad Dreams.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Studded_Shield",
+        "name": "Studded Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Studded_Shield.gif/revision/latest?cb=20050613231025&path-prefix=en",
+        "attributes": {
+            "Defense": "15",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "59.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "(Rookgaard) 16 gp",
+            "Sold for": "16 gp",
+            "Bought for": "50 gp",
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nA good shield for early levels in Rookgaard. Also a Quest reward. Part of Studded Set.",
+        "dropped_by": [
+            "Ancient Lion Knight",
+            "Loricate Orger",
+            "Orc",
+            "Orger",
+            "Woodling",
+            "Xenia"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tempest_Shield",
+        "name": "Tempest Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/00/Tempest_Shield.gif/revision/latest?cb=20070112134452&path-prefix=en",
+        "attributes": {
+            "Defense": "36",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "51.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "35.000.000 - 40.000.000 gp",
+            "Sold for": "35,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.4December 14, 2004Christmas Update 2004"
+        },
+        "notes": "Notes\nOne can be seen at Morguthis Treasure Room. It is now very expensive and rare due to the fact that the raids in which it was dropped have ended and it is now only dropped by some bosses.\n\nTempest Shield on Secura in 2007",
+        "dropped_by": [
+            "Ferumbras",
+            "Mazoran",
+            "The Imperor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Terran_Rainbow_Shield",
+        "name": "Terran Rainbow Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/45/Terran_Rainbow_Shield.gif/revision/latest?cb=20171107215411&path-prefix=en",
+        "attributes": {
+            "Level": "100",
+            "Vocation": "knights",
+            "Defense": "37",
+            "Attributes": "faster regeneration",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Marketable": true,
+            "Value": "1,000,000 - 10,000,000 gp",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "8.20July 2, 2008Summer Update 2008"
+        },
+        "notes": "Notes\nTo get this shield you need to use a Small Enchanted Emerald on a Rainbow Shield, enchanting it with earth. It speeds up your regeneration for 15 minutes (8 manapoints and 2 hitpoints every 6 seconds; 300 HP and 1200 MP in total).",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Shield_Nevermourn",
+        "name": "The Shield Nevermourn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/76/The_Shield_Nevermourn.gif/revision/latest?cb=20170922215626&path-prefix=en",
+        "attributes": {
+            "Defense": "25",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Stackable": false,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Usable": true,
+            "Version": "8.50July 1, 2009Summer Update 2009"
+        },
+        "notes": "Notes\nUse the dead body of Dirtbeard to have a chance of getting it. It is proof that you have slain him. It makes a sound when used, but it can only be used every 5 minutes. The orange text can only be seen by the player using the shield. The customer and bank teller joke is rarer than the others, it has the chance of around 1% of appearing. It looks the same as a Dark Shield.\nThere is a chance of obtaining it in the Isle of Evil Quest.",
+        "dropped_by": [
+            "Dirtbeard"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tortoise_Shield",
+        "name": "Tortoise Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/Tortoise_Shield.gif/revision/latest?cb=20150803213527&path-prefix=en",
+        "attributes": {
+            "Defense": "26",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "52.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "150 - 500 gp",
+            "Sold for": "150 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.8August 1, 2006Summer Update 2006"
+        },
+        "notes": "Notes\nQuite common as a lot of knights have backpacks of them from hunting Tortoises. It can be sold to low level players because it has the same defense as a Dwarven Shield, but is 3 oz. lighter.",
+        "dropped_by": [
+            "Tortoise"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tower_Shield",
+        "name": "Tower Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4b/Tower_Shield.gif/revision/latest?cb=20050617184510&path-prefix=en",
+        "attributes": {
+            "Defense": "32",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "82.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "8,000 - 10,000 gp",
+            "Sold for": "8,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "5.1December 23, 1999Beta 5.1"
+        },
+        "notes": "Notes\nA good shield for low/mid levels, though its high weight compared to defense value lowers its value somewhat. The next step up would be a Crown Shield or a Medusa Shield.\nObtainable through the Deeper Fibula Quest and The Queen of the Banshees Quest.",
+        "dropped_by": [
+            "Albino Dragon",
+            "Annihilon",
+            "Armadile",
+            "Boar Man",
+            "Dragon Lord",
+            "Draken Warmaster",
+            "Enslaved Dwarf",
+            "Esmeralda",
+            "Eternal Guardian",
+            "Frost Dragon",
+            "Lizard Chosen",
+            "Lizard High Guard",
+            "Lizard Zaogun",
+            "Lost Berserker",
+            "Lost Exile",
+            "Lost Husher",
+            "Lost Soul",
+            "Memory of a Lizard",
+            "Mutated Rat",
+            "Retching Horror",
+            "Serpent Spawn",
+            "Sight of Surrender",
+            "Soul-Broken Harbinger",
+            "The Noxious Spawn",
+            "Zulazza the Corruptor"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Traditional_Stein",
+        "name": "Traditional Stein",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fa/Traditional_Stein.gif/revision/latest?cb=20191009142237&path-prefix=en",
+        "attributes": {
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "3.50 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": false,
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "12.20.9066October 09, 2019Orcsoberfest Update"
+        },
+        "notes": "Notes\nPart of the Traditional Set.\nObtained by facing the Orger Treasure for the first time in your fourth edition of Orcsoberfest.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tusk_Shield",
+        "name": "Tusk Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e0/Tusk_Shield.gif/revision/latest?cb=20051201153333&path-prefix=en",
+        "attributes": {
+            "Defense": "27",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "69.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "Negotiable",
+            "Sold for": "850 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "7.5August 09, 2005Summer Update 2005"
+        },
+        "notes": "Notes\nA rare shield from Elephants and Mammoths.\nCan be obtained from Shaggy Ogre Bags.",
+        "dropped_by": [
+            "Clomp",
+            "Elephant",
+            "Mammoth",
+            "Memory of a Mammoth",
+            "Stone Rhino",
+            "Terrified Elephant",
+            "The Bloodtusk",
+            "Venerable Foam Stalker"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vampire_Shield",
+        "name": "Vampire Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/59/Vampire_Shield.gif/revision/latest?cb=20090319190758&path-prefix=en",
+        "attributes": {
+            "Defense": "34",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "38.00 oz",
+            "Marketable": true,
+            "Value": "15,000 - 20,000 gp",
+            "Sold for": "15,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nThis is a very rare item considering the effort needed to obtain one.\nGood upgrade from the Crown Shield, if you can't afford a Demon Shield.\nObtainable through the Vampire Shield Quest and Unrusting a Slightly Rusted Shield.",
+        "dropped_by": [
+            "Arachir the Ancient One",
+            "Arthei",
+            "Boreth",
+            "Diblis the Fair",
+            "Lersatio",
+            "Marziel",
+            "Memory of a Vampire",
+            "Nightfiend",
+            "Sir Valorcrest",
+            "The Count",
+            "The Pale Count",
+            "The Weakened Count",
+            "Vampire",
+            "Vampire Viscount",
+            "Vicious Manbat",
+            "Zevelon Duskbringer"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Viking_Shield",
+        "name": "Viking Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1c/Viking_Shield.gif/revision/latest?cb=20050729014126&path-prefix=en",
+        "attributes": {
+            "Defense": "22",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "66.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "85 - 260 gp",
+            "Sold for": "85 gp",
+            "Bought for": "260 gp",
+            "Blocking": false,
+            "Version": "6.0November 3, 2000Version 6.0 Beta"
+        },
+        "notes": "Notes\nRarely used, since there are better and more common shields available such as Dwarven Shield. Also a part of the Viking Set.",
+        "dropped_by": []
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Warrior%27s_Shield",
+        "name": "Warrior's Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/51/Warrior%27s_Shield.gif/revision/latest?cb=20111201014114&path-prefix=en",
+        "attributes": {
+            "Defense": "33",
+            "Imbuing Slots": "1",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "75.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "9,000 gp",
+            "Sold for": "9,000 gp",
+            "Bought for": false,
+            "Blocking": false,
+            "Version": "9.40December 14, 2011Winter Update 2011"
+        },
+        "notes": "Notes\nPart of the Warrior's Set. Similar to a Medusa Shield, albeit slightly heavier.",
+        "dropped_by": [
+            "Ancient Spawn of Morgathla",
+            "Crape Man",
+            "Deathling Scout",
+            "Deathling Spellsinger",
+            "Deepling Elite",
+            "Deepling Warrior",
+            "Sister Hetai",
+            "Sulphur Spouter",
+            "Thanatursus",
+            "Tremendous Tyrant"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wooden_Shield",
+        "name": "Wooden Shield",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2d/Wooden_Shield.gif/revision/latest?cb=20050613194211&path-prefix=en",
+        "attributes": {
+            "Defense": "14",
+            "Classification": "Body EquipmentShields",
+            "Pickupable": true,
+            "Weight": "40.00 oz",
+            "Stackable": false,
+            "Marketable": true,
+            "Value": "10 gp",
+            "Sold for": "5 gp",
+            "Bought for": "15 gp",
+            "Blocking": false,
+            "Version": "3.0October 28, 1997Alpha 3.0"
+        },
+        "notes": "Notes\nThe first shield you may find in tibia, as well as being the weakest shield. Common lootbag item for lower levels.",
+        "dropped_by": [
+            "Big Boss Trolliver",
+            "Frost Troll",
+            "Island Troll",
+            "Troll",
+            "Troll Champion",
+            "Troll Marauder",
+            "Young Troll"
+        ]
+    }
+]

@@ -1,0 +1,678 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Amarie_(Creature)",
+        "name": "Amarie (Creature)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c7/Amarie_%28Creature%29.gif/revision/latest?cb=20180618011320&path-prefix=en",
+        "attributes": {},
+        "notes": "Someone spawns and despawns this creature during The Scatterbrained Sorcerer Quest - Mission 3: Love's a Wicked Game.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "In a Void in the space-time continuum under Eclesius' house.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Barkless_Devotee",
+        "name": "Barkless Devotee",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/36/Barkless_Devotee.gif/revision/latest?cb=20170926045658&path-prefix=en",
+        "attributes": {},
+        "notes": "Barkless devotees are the backbone of the Barkless. They feel rejected from the world and its inhabitants. All devotees strife to live a life of hardship and suffering, full of hope that the afterlife rewards those who embraced pain and misery. These monsters spawn with less than 100% hp, showing their masochistic natures.",
+        "abilities": [
+            "Melee (0-200)",
+            "Glooth Spear (50-350; 3 sqm radius)",
+            "Poison Ball on itself ( Life Drain ; 50-300; 4 sqm radius)",
+            "Green Sparkles Berserk (50-200)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 85%",
+            "Holy 100%",
+            "Ice 85%",
+            "Fire 90%",
+            "Energy 83%",
+            "Earth 100%"
+        ],
+        "location": "Barkless Cult Trial Zone (below Ab'Dendriel)",
+        "behaviour": "Fights in close combat.A barkless devotee attacks in melee range. A barkless devotee never retreats.",
+        "strategy": "If you're lower than level 120 be careful, because they come in packs and can deal strong combos. Try not to face more than 2 or they will send you to temple.\n-Paladins and Mages lower than 120 should avoid getting close to the blocker that's recommended to use one at that level, since their spear hits a wide range around the target and is used very often. Fire Bombs and Walls can come in handy to keep them away. At level 130+ can solo these creatures 2 by 2, and at 150+ you could hunt them with no problem, but be careful not to get trapped, always carry fire runes for emergency or precaution.\n-Knights lower than level 130 should avoid to face more than 2 at a time. It's recommended level 150+ and skills 95/95 to hunt them without problems. Get some ultimate health potions with you and try to kill them fast using berserk and fierce berserk.",
+        "loot": [
+            "Gold Coin",
+            "Fig Leaf",
+            "Bed of Nails",
+            "Torn Shirt",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Barkless_Fanatic",
+        "name": "Barkless Fanatic",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/43/Barkless_Fanatic.gif/revision/latest?cb=20170709104307&path-prefix=en",
+        "attributes": {},
+        "notes": "Barkless fanatics are former devotees of the Barkless cult who already lost their battle in this world. Whether the suffering they chose was too much for them or if they simply went mad during the trials of the Barkless, their minds are irretrievably lost.",
+        "abilities": [
+            "Melee (0-200)",
+            "Glooth Spear (50-350; 3 sqm radius)",
+            "Poison Ball on itself ( Life Drain ; 50-300; 4 sqm radius)",
+            "Green Sparkles Berserk (50-200)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 85%",
+            "Holy 100%",
+            "Ice 85%",
+            "Fire 90%",
+            "Energy 83%",
+            "Earth 100%"
+        ],
+        "location": "Barkless Cult Trial Zone (below Ab'Dendriel)",
+        "behaviour": "Fights in close combat.A barkless fanatic attacks in melee range. A barkless fanatic never retreats.",
+        "strategy": "Be careful because they come in packs and can deal strong combos. Shooters should avoid staying close to the blocker since their spear hits a wide range around the target and is used very often. Fire Bombs and Walls can come in handy to keep them away. Note that even though their area attack has a Poison animation, the damage dealt is Life Drain.",
+        "loot": [
+            "Gold Coin",
+            "Fig Leaf",
+            "Bed of Nails",
+            "Tiger Eye",
+            "Torn Shirt",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elder_Forest_Fury",
+        "name": "Elder Forest Fury",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/50/Elder_Forest_Fury.gif/revision/latest?cb=20150721094041&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-53+)",
+            "Poison shot (starts at 5 hp/turn)",
+            "Blue Sparkle area attack (Reduces Shielding by 50%)",
+            "Green Sparkle area attack (Reduces Distance by 50%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 60%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Dryad Gardens (on the hills).",
+        "behaviour": "They keep their distance at 3 sqm.An elder forest fury attacks from a distance. An elder forest fury never retreats.",
+        "strategy": "Just kill them like you would regular Forest Furies.",
+        "loot": [
+            "Gold Coin",
+            "Bolt",
+            "Meat",
+            "Hunting Spear",
+            "Piercing Bolt",
+            "Elven Hoof",
+            "Venison",
+            "Small Emerald",
+            "Crossbow",
+            "Raspberry",
+            "Terra Rod",
+            "Elvish Bow",
+            "Bullseye Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elf_Arcanist",
+        "name": "Elf Arcanist",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e8/Elf_Arcanist.gif/revision/latest?cb=20210420143442&path-prefix=en",
+        "attributes": {},
+        "notes": "Elf Arcanists are the military guides of the elves. They belong to the martial caste, the Kuridai, and all of them are very suspicious against any intruder. They are the strongest fighters among the elves, know to handle several distance fighting weapons, and are very skilled in magic. They can even heal themselves. Strongest of the Elf Class, these elves use strong magical attacks. Good source for Wands of Cosmic Energy. The Elf Arcanist Boss is Dharalion.",
+        "abilities": [
+            "Melee (0-35)",
+            "Shoots Arrow (15-45) Elf Arcanist",
+            "Energy Strike (30-50) Elf Arcanist",
+            "Death Strike (60-80) Elf Arcanist",
+            "Self-Healing (42-68) Elf Arcanist"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 110%",
+            "Ice 100%",
+            "Fire 50%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Yalahar Foreigner Quarter, Demona, Shadowthorn, northwest of Ab'Dendriel, Maze of Lost Souls, Cyclopolis, Elvenbane, near Mount Sternum.",
+        "behaviour": "They heal very quickly during a battle.An elf arcanist attacks from a distance.",
+        "strategy": "Mages: Experienced premium druids could try Earth Strike or Ice Strike while chasing them. Summoning a monk to help with the other elves is a good idea.\nKnights with a decent level (around 20) and decent skills (50/50+) should have no problem killing an arcanist, even with a one-handed weapon. You could use a two handed weapon to speed up the kill, but beware of their arrows! At about level 45, knights no longer have any trouble facing several Arcanists at the same time.\nPaladins around level 20 and good skills 50/50 or more to kill them faster than they can heal. They could also use Divine Missile or Divine Caldera to speed up killing due to thier vulnerability to Holy Damage.",
+        "loot": [
+            "Gold Coin",
+            "Scroll",
+            "Melon",
+            "Blank Rune",
+            "Bread",
+            "Elvish Talisman",
+            "Elven Astral Observer",
+            "Green Tunic",
+            "Arrow",
+            "Sling Herb",
+            "Health Potion",
+            "Strong Mana Potion",
+            "Candlestick",
+            "Holy Orchid",
+            "Elven Amulet",
+            "Wand of Cosmic Energy",
+            "Inkwell",
+            "Sandals",
+            "Life Crystal",
+            "Grave Flower",
+            "Yellow Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elf_Overseer",
+        "name": "Elf Overseer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Elf_Overseer.gif/revision/latest?cb=20180206145436&path-prefix=en",
+        "attributes": {},
+        "notes": "Was introduced in the Summer Update 2011. As long as the Thornfire World Change isn't active, three of them will respawn daily in three different places.\nYou need to kill them in order to set Shadowthorn on fire during the Thornfire World Change.",
+        "abilities": [
+            "Melee (0-75?)",
+            "Self-Healing (50-72?)",
+            "Bubble Beam (89+?)",
+            "Drown Explosion (50+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 105%",
+            "Ice 90%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Shadowthorn.",
+        "behaviour": "Unknown.An elf overseer attacks in melee range.",
+        "strategy": "Stronger than an Elf Arcanist, kill it fast. Beware of Drown hits. Stay diagonal to avoid its beam. He will sometimes hit you with it, sometimes not.",
+        "loot": [
+            "Gold Coin",
+            "Bread",
+            "Elvish Talisman",
+            "Battle Shield",
+            "Health Potion",
+            "Mana Potion",
+            "Crystal Sword",
+            "Holy Orchid",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elf_Scout",
+        "name": "Elf Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/05/Elf_Scout.gif/revision/latest?cb=20240228100455&path-prefix=en",
+        "attributes": {},
+        "notes": "Elf Scouts are a kind of militia among the elves. They patrol the area around their dwellings and repel intruders. Due to their tall bodies, all elves are fast runners and can cover large distances. In close combat they are quite weak, but their distance fighting weapons are dreaded. Semi-dangerous creatures for low level characters. They can be good as convinced creatures. They mention Evicor, one of the seven elven lords.",
+        "abilities": [
+            "Melee (0-30)",
+            "Shoots Arrows (0-80) Elf Scout"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Yalahar Foreigner Quarter, Shadowthorn, northwest of Ab'Dendriel, north and west of Mount Sternum, Hellgate, Maze of Lost Souls, near Knightwatch Tower in the Plains of Havoc. Two may also spawn when a Desperate White Deer or an Enraged White Deer is killed.",
+        "behaviour": "Elf Scouts keep a distance while attacking, they fight until death.An elf scout attacks from a distance.",
+        "strategy": "Elf Scouts are stronger than normal Elves and their arrows cause high damage.\nIt is rare to find these creatures alone. The best choice when killing these is to wipe them out as fast as you can.",
+        "loot": [
+            "Gold Coin",
+            "Arrow",
+            "Grapes",
+            "Poison Arrow",
+            "Elven Scouting Glass",
+            "Elvish Talisman",
+            "Bow",
+            "Waterskin",
+            "Sandals",
+            "Heaven Blossom",
+            "Elvish Bow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Elf",
+        "name": "Elf",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a8/Elf.gif/revision/latest?cb=20150418124626&path-prefix=en",
+        "attributes": {},
+        "notes": "Elves are a very ancient human-like race. They have a tall and beautiful figure. In former days they travelled all over Tibia, now they have retreated to an area in the north of Tibia where they live in dwellings made out of flourishing trees. Some of them are quite hospitable, but others are very suspicious towards any intruder and will try to repel him using their bows. Having a long history, the Elves are very skilled in magic, and almost every Elf knows some spells. They are weak in melee and strong in distance.",
+        "abilities": [
+            "Melee (0-15)",
+            "Shoots Arrows (0-25) Elf"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 80%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Yalahar Foreigner Quarter and Trade Quarter, Maze of Lost Souls, Orc Fort (unreachable), Hellgate, Shadowthorn, Ab'Dendriel elf caves, Elvenbane, north of Thais.",
+        "behaviour": "Elves are fierce warriors, they will fight to the death.An elf attacks in melee range. An elf never retreats.",
+        "strategy": "Just attack them. Their melee is very easy to block, the only danger are the arrows which are rarely used.\nThey have low defense but be careful, they may be accompanied by Elf Scouts and Elf Arcanists, which are more dangerous.",
+        "loot": [
+            "Gold Coin",
+            "Arrow",
+            "Leather Boots",
+            "Longsword",
+            "Plate Shield",
+            "Plum",
+            "Studded Armor",
+            "Studded Helmet",
+            "Elvish Talisman",
+            "Heaven Blossom",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Firestarter",
+        "name": "Firestarter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/29/Firestarter.gif/revision/latest?cb=20180206145435&path-prefix=en",
+        "attributes": {},
+        "notes": "In a foggy night, witnessed by toads and fishes alone, a sunken temple of the bog god has risen near Shadowthorn. When the elves realised what had happened, the temple was already fully ascended. Within a week after the event, most of the elves started to worship the forgotten god. But not all fell for this influence. A selected few rose against these blinded followers. When the elder god of the bog told the elves of Shadowthorn to capture all rioters, these insurgents started to sow what the lord of the bog hates most - fire. During the very short time this conflict lasted, both parties were about equal in both, strength and fanatism. In the end, the elf followers won the upper hand by an eyelash. The Firestartes were imprisoned in the dungeons beneath Shadowthorn. They are heavily guarded because the elves fear the Firestarters' wrath and the havoc they will surely wreak if ever released.",
+        "abilities": [
+            "Melee (?)",
+            "Arrow (0-5)",
+            "Fireball (0-21)",
+            "Shoots Fire Field",
+            "Soulfire"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 105%",
+            "Holy 80%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 95%"
+        ],
+        "location": "Shadowthorn, during the Thornfire World Change.",
+        "behaviour": "Fights until death.A firestarter attacks in melee range.",
+        "strategy": "Try to get close to them, they are less likely to hit harder. Hide around corners and make them come to you. Consider them Elf Scouts using fire attacks.\nSorcerers and Druids can kill them easily with ice attacks.",
+        "loot": [
+            "Gold Coin",
+            "Coal",
+            "Flaming Arrow",
+            "Grapes",
+            "Longsword",
+            "Elvish Talisman",
+            "Bow",
+            "Heaven Blossom",
+            "Elvish Bow",
+            "Flintstone",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Forest_Fury",
+        "name": "Forest Fury",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/66/Forest_Fury.gif/revision/latest?cb=20130703140731&path-prefix=en",
+        "attributes": {},
+        "notes": "The forest furies are the tragic product of careless experiments with the waters of Ashar'tel. Inspired by the rebellious amazons of Carlin, some young and restless elven maiden founded a sisterhood of their own. The futility of their protest against the rigid elven society and it's rule soon drove them to foolhardy dangerous ways of protest that bordered on criminal acts and endangered them of becoming outcasts. In an desperate attempt to hold her sisterhood together, their leader Emana Greenskull staged the theft of several amphora with the waters of Ashar'tel, branding the sisterhood as outcasts and binding her followers to her by taking from them the option to peacefully return to the society. With little knowledge about the water, but convinced it contained power, the elders refused the younger ones, Emana and her sisters inhibited themselves with the water. At first they truly felt the surge of power that they expected. But the water became like a drug the them and slowly changed their very nature and mutated them into something else. Convinced that the voices they heard in their inhibition were revelation from nature itself, the sisters embraced their change and even enforced it. The change though left them mutated not only in body but also in mind and after the last water has been used up, and symptoms of withdrawal begun to torture them, the remaining sisters were completely driven into madness. Renaming themselves as forest furies they see themselves as the chosen of nature and enacting it's revenge on the people misusing it - which is, in their twisted thinking, almost everyone bit themselves and a few allies. The furies are unpredictable but hatefully. They can not be reasoned with and the best one can hope for is, that they might be that absorbed in some holy mission, that they might simply ignore them. In battle the furies employ not only the physical force of their changed bodies, but also a variety of druidic spells, which are strangely enough often intuitive abilities, rather then spells and are unknown to other users of druidic magic.",
+        "abilities": [
+            "Melee (0-50?)",
+            "Spears (0-100?)",
+            "Debuff (Reduces Shielding by 50%)",
+            "Debuff (Reduces Distance by 50%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 60%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Forest Fury Camp, Dryad Gardens and in the Forest Fury version of the Forsaken Mine.",
+        "behaviour": "A forest fury attacks from a distance. A forest fury never retreats.",
+        "strategy": "Similar to a Hunter (albeit more durable), but has two annoying debuff attacks that are especially harmful to Paladins, who are recommended to take it out before any Wilting Leaf Golem. Mages should kill it with fire. For knights it is recommended to use a two handed weapon because of their shielding skill reduction that makes shields almost useless and furies are usually accompanied by Wilting Leaf Golems, which fight in close combat.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Bolt",
+            "Venison",
+            "Piercing Bolt",
+            "Elven Hoof",
+            "Crossbow",
+            "Small Topaz",
+            "Elvish Bow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_an_Elf",
+        "name": "Memory of an Elf",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9a/Memory_of_an_Elf.gif/revision/latest?cb=20220108232505&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a strengthened Elf Arcanist.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Time Travel Dungeon",
+        "loot": [
+            "Arrow",
+            "Inkwell",
+            "Wand of Cosmic Energy",
+            "Grave Flower",
+            "Scroll",
+            "Strong Mana Potion",
+            "Life Crystal",
+            "Blank Rune",
+            "Sandals",
+            "Bread",
+            "Candlestick",
+            "Gold Coin",
+            "Health Potion",
+            "Sling Herb",
+            "Elven Amulet",
+            "Green Tunic",
+            "Melon",
+            "Candy Floss (Large)",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crazed_Summer_Rearguard",
+        "name": "Crazed Summer Rearguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/aa/Crazed_Summer_Rearguard.gif/revision/latest?cb=20181107202649&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nThe rearguard of the summer court were obviously formidable archers. Driven insane by what others of their kind call 'nightmares', these archers often forget to keep their distance, running screaming towards their targets while constantly shooting at them. Even with such erratical behaviour they should not be underestimated at all. Their arrows usually find their mark, even when not aimed at vital body parts and their disdain for accurate aiming leads to a greater frequency of shots in general. As much as they are driven by hate and anger, they seem to enjoy the blood and pain caused by their attacks. Sometimes when they kill a target they can be observed to be fascinated by the death they caused, pausing a moment in combat just to return to battle with renewed fervor.",
+        "abilities": [
+            "Melee (0-450)",
+            "Fire Missile (150-300)",
+            "Fireball (200-300)",
+            "Reflects Fire Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 100%",
+            "Holy 80%",
+            "Ice 125%",
+            "Fire 60%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Court of Summer, Dream Labyrinth.",
+        "behaviour": "A crazed summer rearguard attacks in melee range. A crazed summer rearguard never retreats.",
+        "strategy": "They are the weakest of the dreamelves, but can still be dangerous in groups. Use Ice Damage and Physical Damage.",
+        "loot": [
+            "Platinum Coin",
+            "Heaven Blossom",
+            "Dream Essence Egg",
+            "Elvish Talisman",
+            "Small Enchanted Ruby",
+            "Violet Crystal Shard",
+            "Red Crystal Fragment",
+            "Leaf Star",
+            "Ring of Blue Plasma",
+            "Sun Fruit",
+            "Wood Cape",
+            "Yellow Gem",
+            "Collar of Blue Plasma",
+            "Small Enchanted Sapphire",
+            "Small Diamond",
+            "Crystal Crossbow",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crazed_Summer_Vanguard",
+        "name": "Crazed Summer Vanguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Crazed_Summer_Vanguard.gif/revision/latest?cb=20181107202649&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nWhile the vanguard of the summer court are in general astonishingly disciplined and organised fighters for elves, the incursion of the nightmares have driven them mad and turned them against their kin. Vengeful for imagined slights and full of hate against anything not touched by the nightmare, they became a constant threat, attacking without any provocation. They still display the skill and training of their past but their clouded minds prevent them from forming strategies and the use of more complicated fighting maneuvers. They seem to enjoy slaughter and mayhem but there are reported cases in which they broke out of combat to indulge in a series of incoherent rants.",
+        "abilities": [
+            "Melee (0-450)",
+            "Fire Berserk (100-300)",
+            "Fire Beam (100-300)",
+            "Blood Bomb on self (100-300)",
+            "Red Sparks (100-250; chains through nearby players)",
+            "Reflects Fire Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 80%",
+            "Ice 130%",
+            "Fire 50%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Court of Summer, Dream Labyrinth.",
+        "behaviour": "Chases its target and does not retarget often.A crazed summer vanguard attacks in melee range. A crazed summer vanguard never retreats.",
+        "strategy": "Stay at distance if you can to avoid its strong melee and berserk attacks.",
+        "loot": [
+            "Platinum Coin",
+            "Elven Astral Observer",
+            "Dream Essence Egg",
+            "Belted Cape",
+            "Two Handed Sword",
+            "Seeds",
+            "Scimitar",
+            "Knife",
+            "Dragon Necklace",
+            "Magma Amulet",
+            "Wand of Dragonbreath",
+            "Wand of Draconia",
+            "Magma Boots",
+            "Sun Fruit",
+            "Bullseye Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crazed_Winter_Rearguard",
+        "name": "Crazed Winter Rearguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2b/Crazed_Winter_Rearguard.gif/revision/latest?cb=20181107202650&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nThe rearguard of the winter court have fallen far from what they once were. The first encounter of them probably took place not in their own realm but on Tibia. Just recently some older reports about an attack on a caravan could be connected to them. In the reports of the few survivors the caravan in question was attacked by a roaming orcish tribe. When all seemed lost, the orcs where attacked by what they would later call elf-like 'bow-furies'. At first the traders and their mercenaries were happy about their unsuspected rescue until they recognized their 'saviors' made no difference between men or orc, shooting and hacking their bloody path through them. At least the ferocious attack gave some of them the opportunity to escape with their bare lives at least. When the survivors later returned to the battle-site with reinforcements they found everyone slaughtered, not even the horses and pack-animals were spared but nothing of the goods were plundered at all.",
+        "abilities": [
+            "Melee (0-400)",
+            "Ice Berserk (100-300)",
+            "Ice Berserk on target (100-300)",
+            "Ice Beam (100-300)",
+            "Ice Explosion on Itself (250-400)",
+            "Reflects Ice Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 60%",
+            "Fire 120%",
+            "Energy 115%",
+            "Earth 120%"
+        ],
+        "location": "Court of Winter, Dream Labyrinth.",
+        "behaviour": "A crazed winter rearguard attacks in melee range. A crazed winter rearguard never retreats.",
+        "strategy": "They are easier to hunt in teams than their Summer counterparts since they don't walk over fields. Take advantage of their huge Fire Damage weakness and use as much of this element as you can.",
+        "loot": [
+            "Platinum Coin",
+            "Ice Rapier",
+            "Ultimate Health Potion",
+            "Great Spirit Potion",
+            "Ice Flower (Item)",
+            "Life Crystal",
+            "Dream Essence Egg",
+            "Elven Astral Observer",
+            "Glacier Mask",
+            "Moonlight Rod",
+            "Small Enchanted Sapphire",
+            "Northwind Rod",
+            "Glacier Amulet",
+            "Hailstorm Rod",
+            "Glacier Robe",
+            "Cyan Crystal Fragment",
+            "Elven Amulet",
+            "Blue Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Crazed_Winter_Vanguard",
+        "name": "Crazed Winter Vanguard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/99/Crazed_Winter_Vanguard.gif/revision/latest?cb=20181107202651&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nThe vanguard of the winter court holds some tragedy. Their weapons and armor obviously hint at the noble past as part of a military order of a civilized race. Yet in their current state of madness, those are the only hints of former nobility and in their crazed eyes there is only a hatred that seems almost animalistic. The unturned dream-born seem reluctant to engage them in combat, probably in the hope they still can be saved. Given their probably infectuous nature, any pity seems ill advised though. Even if they are not mad beyond any help, it's far too dangerous to allow them to spread whatever cursed them to other creatures. The capture of a vanguard would be a feat on its own anyway, given their violent disposition with no regard for their own health or safety. In turn expect no mercy from these creatures that only seem to live for carnage and mayhem.",
+        "abilities": [
+            "Melee (0-400)",
+            "Ice Berserk (100-300)",
+            "Ice Berserk on target (100-300)",
+            "Ice Beam (100-300)",
+            "Ice Explosion on Itself (250-400)",
+            "Reflects Ice Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 85%",
+            "Holy 100%",
+            "Ice 50%",
+            "Fire 130%",
+            "Energy 120%",
+            "Earth 115%"
+        ],
+        "location": "Court of Winter, Dream Labyrinth.",
+        "behaviour": "Chases its target and does not retarget often.A crazed winter vanguard attacks in melee range. A crazed winter vanguard never retreats.",
+        "strategy": "They are easier to hunt in teams than their Summer counterparts since they don't walk over fields. Take advantage of their huge Fire Damage weakness and use as much of this element as you can.",
+        "loot": [
+            "Platinum Coin",
+            "Ice Flower (Item)",
+            "Small Enchanted Ruby",
+            "Miraculum",
+            "Ultimate Health Potion",
+            "Dream Essence Egg",
+            "Tiger Eye",
+            "Northwind Rod",
+            "Glacier Amulet",
+            "Ice Rapier",
+            "Glacier Robe",
+            "Elven Amulet",
+            "Blue Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Insane_Siren",
+        "name": "Insane Siren",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/58/Insane_Siren.gif/revision/latest?cb=20181107202651&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nThe sirens of the summer court are the bloodthirsty elite of those that were overcome by the nightmares. Whatever their combat role might have been in their previous life, after they 'turned' they became a veritable threat that is hellbent on the utter destruction of an enemy. Using all weapons, spells and abilities at their disposal, they show the most tactical abilities of all crazed dream-born. Even amongst the other maddened elves they seem to command a certain amount of respect and authority for all that might be worth. They are often the leaders of onslaughts on intruders but also on attacks on the fortifications of uninfected dream-born. Don't be fooled though, they are not to be reasoned with. Any discussion they seem to engage in only has the ultimate goal to allow reinforcements to arrive or the enemy to be circled.",
+        "abilities": [
+            "Melee (0-450)",
+            "Fire Missile (100-200)",
+            "Fire Berserk (100-350)",
+            "Fire Beam (100-300)",
+            "Small Fire Ball (100-300)",
+            "Fire Ball on self (100-300)",
+            "Red Sparks (100-250; chains through nearby players)",
+            "Reflects Fire Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 100%",
+            "Holy 75%",
+            "Ice 120%",
+            "Fire 45%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Court of Summer.",
+        "behaviour": "Fights in close combat.An insane siren attacks in melee range. An insane siren never retreats.",
+        "strategy": "It's the strongest of the Summer Dreamelves, so be careful around them. If possible, avoid staying in front or near them since you can avoid most of its attacks this way.",
+        "loot": [
+            "Platinum Coin",
+            "Ultimate Health Potion",
+            "Miraculum",
+            "Dream Essence Egg",
+            "Wand of Draconia",
+            "Holy Orchid",
+            "Magma Amulet",
+            "Wand of Inferno",
+            "Fire Axe",
+            "Magma Coat",
+            "Sun Fruit",
+            "Wand of Dragonbreath",
+            "Magma Legs",
+            "Magma Monocle",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Soul-Broken_Harbinger",
+        "name": "Soul-Broken Harbinger",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ae/Soul-Broken_Harbinger.gif/revision/latest?cb=20181107202651&path-prefix=en",
+        "attributes": {},
+        "notes": "The dream-born are a reclusive race of creatures that are shrouded in mystery. Only recent events led to a contact that shed some light on these peculiar beings. There seem to be two distinctively different kinds of dream-born, that align themselves with either the winter or the summer. Though there are conflicting reports about that alignment, the current theory is that there are two rivaling courts exists though it's still possible that there is just one court that changes in accordance to the seasons. In the few recorded encounters, the dream-born claimed to live in realms that their god created with his dreams. Given their obvious kinship to the common elves it's of course far more likely that they are just descendants of elves that fled the godwars into some kind of pocket dimension. They usually shun outsiders and rarely leave their own realm at all. What little information could be gathered about them suggests a lifestyle akin that of the other elves, though they seem to lack a cast system and have a feudal oriented society. Due to their isolation they developed odd quirks like the overemphasising of seasons, that hints at a primitive, animistic world-view. It's still recommended to improve any contact and further the knowledge about them for the sake of science. All research of their behalves is hampered by what some kind of disease that drives them mad and violent. The dream-born claim that this is caused by 'nightmares' which may hint that a feverish episode is the precursor of this madness. Although this disease seemingly does not spread to other species, it is still recommended to keep these aggressive lunatics at distance. This behavior gives new credit to the old saying: If bitten by an elf, please see your doctor.\nOf all the dream-born who fell prey to the nightmare, the sirens of the winter court retain the most of their original intelligence, abilities and beauty. All the more they are by far the most dangerous of them. Seemingly having accepted their nightmarish visions as reality, they indulge into their madness and become scions of carnage and pain. The only pleasure they know seems to come from the destruction of all that was dear to them in their former lives. Their eerie form of insanity bestows them with a certain aura that even their maddened kin can perceive and that commands their respect. It's a fearsome sight when they command a horde of ravening mad ones with a slight gesture of a finger into a frenzied attack only to join them screaming and slashing within a heartbeat.",
+        "abilities": [
+            "Melee (0-400)",
+            "Snowball from distance (0-400)",
+            "Ice Berserk (100-300)",
+            "Ice Berserk on target (100-300)",
+            "Ice Beam (100-300)",
+            "Reflects Ice Damage (100%)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 45%",
+            "Fire 130%",
+            "Energy 105%",
+            "Earth 100%"
+        ],
+        "location": "Court of Winter.",
+        "behaviour": "Unknown.A soul-broken harbinger attacks in melee range.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Platinum Coin",
+            "Ice Flower (Item)",
+            "Dream Essence Egg",
+            "Elvish Talisman",
+            "Glacier Shoes",
+            "Glacier Kilt",
+            "Ice Rapier",
+            "Knight Legs",
+            "Crown Shield",
+            "Tower Shield",
+            "Wood Cape",
+            "Spellbook of Mind Control",
+            "Ring of Blue Plasma",
+            "Collar of Green Plasma",
+            "Loot Statistics"
+        ]
+    }
+]

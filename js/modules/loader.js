@@ -17,7 +17,7 @@ export function showLoader() {
 
     setTimeout(() => {
         loader.style.display = "none"; // Oculta el loader
-    }, 2000);
+    }, 1000);
 }
 
 

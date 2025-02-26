@@ -1,0 +1,277 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Sword",
+        "name": "Animated Sword",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/06/Animated_Sword.gif/revision/latest?cb=20161109210304&path-prefix=en",
+        "attributes": {},
+        "notes": "It is an animated Justice Seeker (albeit facing the other direction).Part of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-242+)",
+            "Energy Beam (0-?)",
+            "Berserk (0-?)",
+            "Self-Healing (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Final boss room of the Forgotten Knowledge Quest.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bound_Astral_Power",
+        "name": "Bound Astral Power",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Bound_Astral_Power.gif/revision/latest?cb=20161109215841&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-349+)",
+            "Self-Healing (0-400)",
+            "Fireball (0-250)"
+        ],
+        "resistance": [
+            "Physical 55%?",
+            "Death 65%",
+            "Holy 100%",
+            "Ice 55%?",
+            "Fire 60%",
+            "Energy 70%",
+            "Earth 60%"
+        ],
+        "location": "Side rooms of final boss room of the Forgotten Knowledge Quest.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Broken_Shaper",
+        "name": "Broken Shaper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/14/Broken_Shaper.gif/revision/latest?cb=20161117161507&path-prefix=en",
+        "attributes": {},
+        "notes": "For a long time, the Broken Shapers were only a rare sight. They had been classified as a subspecies of the troglodytes, which are considered to be extinct nowadays. However, a recent breakthrough links the Broken Shapers with the once proud race of the Astral Shapers. It can only be speculated what this noble race had to endure to end like this. Having lived hidden in underground caves for centuries, they have hardly anything in common with their ancestry anymore. They have turned into physically degenerated scavengers - one could even describe them as feral predators. These wretched creatures are primitive at best, very close to losing their mind completely and turning into mere animals. The hostile environment has turned them in a similarly hostile race. They know no mercy and consider intruders either as threat or prey. With hardly any resources at hand, the looting of slain prospectors or adventurers is very important for their kind.\nThe Broken Shapers seem magically attracted by places at which their power used to be strong many centuries ago. They look at the ruins left by their ancestors almost with religious reverence. Sometimes objects of the past replace idols or shrines in their rituals. Those who are slain and plundered by the Broken Shapers may consider themselves as lucky. Less fortunate ones are dragged screaming into the Broken Shapers' lairs to 'participate' in gruesome rites in order to appease some ancient revered artefact.\nEven though the Broken Shapers tend to stick to certain territories if possible, they are also a cowardly race that will leave an encampment when threatened. Then they roam the depths of Tibia until they find another hideout. It is quite common that they keep sending back scouts for several generations to find out if their old territory is safe once more.\nThe Broken Shapers use only the most primitive tools and weapons, however, many of them are augmented with pieces of old Shaper equipment. The many centuries of unforgiving selection have turned the Broken Shapers into fierce fighters with lightning reflexes, surprisingly muscular bodies, paired with a desperate ferocity. Their senses have adapted to the subterranean environment which usually gives them an edge against intruders. However, they seem to avoid daylight and they appear to be afraid of fire and light spells. A lonely Broken Shaper will rather flee than fight. Only when they outnumber their opponent, they turn into quite fierce and aggressive fighters. As a whole the race with its few and splintered localised territories poses no big threat. They also seem to lack any ambitions. In these days in which the heritage of the Shapers gains more and more importance though, hostile encounters are increasing rapidly.",
+        "abilities": [
+            "Melee (0-200?)",
+            "Self-Healing (0-327+)",
+            "Haste",
+            "Music Notes Wave (0-56+)"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 100%",
+            "Holy 80%",
+            "Ice 80%",
+            "Fire 115%",
+            "Energy 115%",
+            "Earth 70%"
+        ],
+        "location": "Astral Shaper Dungeon, Astral Shaper Ruins, Old Masonry",
+        "behaviour": "Fights in close combat.A broken shaper attacks in melee range. A broken shaper never retreats.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Cave Turnip",
+            "Ancient Belt Buckle",
+            "Cracked Alabaster Vase",
+            "Rhino Horn Carving",
+            "Meat",
+            "Blank Rune",
+            "Brown Mushroom",
+            "Great Health Potion",
+            "Small Sapphire",
+            "Brown Piece of Cloth",
+            "Onyx Chip",
+            "Orichalcum Pearl",
+            "Ancient Coin",
+            "Small Ruby",
+            "Ring of Healing",
+            "Yellow Piece of Cloth",
+            "Coral Brooch",
+            "Rusted Armor",
+            "Ice Rapier",
+            "Blue Piece of Cloth",
+            "Magic Light Wand",
+            "Red Piece of Cloth",
+            "White Piece of Cloth",
+            "Green Piece of Cloth",
+            "Boots of Haste",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_a_Shaper",
+        "name": "Memory of a Shaper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Memory_of_a_Shaper.gif/revision/latest?cb=20220108230511&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a weakened Twisted Shaper.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of a shaper attacks in melee range.",
+        "loot": [
+            "Cave Turnip",
+            "Platinum Coin",
+            "Small Ruby",
+            "Gemmed Figurine",
+            "Vortex Bolt",
+            "Meat",
+            "Orichalcum Pearl",
+            "Great Health Potion",
+            "Special Fx Box",
+            "Gold Coin",
+            "Onyx Chip",
+            "Brown Mushroom",
+            "Platinum Amulet",
+            "Wand of Cosmic Energy",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shaper_Matriarch",
+        "name": "Shaper Matriarch",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/92/Shaper_Matriarch.gif/revision/latest?cb=20161103184523&path-prefix=en",
+        "attributes": {},
+        "notes": "As a subterranean race spread all over the world, the Shapers had become subject to gnomish espionage. Although the gnomes claim to have no useful knowledge about the ancient Shaper wisdom and technology, they were willing to share a great deal of their information about the Shapers' social structures.The Shaper Matriarch is a creature of vile cunning. They are the last keepers of oral knowledge from a time of fortune long past. They harbour an immense hatred for other creatures because they blame them for the downfall of their race.In their twisted view of the world, everything belonged to their race once. For this reason, it is only logical for them to take back what they believe is rightfully theirs. Mercilessly they punish every other race for their losses. They enjoy trapping and torturing other creatures. Very often they can be seen guiding small herds of Shaper followers to lay ambushes and place traps around their lairs.The Shaper Matriarchs are able to use ancient artefacts and fractures of once complicated and potent spells to harm their opponents. However, they lack true magical abilities, or even a deeper understanding of what they are doing.Their status amongst the Shapers is not only based on their knowledge, but also on the fact that females are a rare sight there. What is more, their ability to 'give birth' is the foundation of their influence over the simple minds of their kin.They are often the initiators and leaders of ancient rituals which are passed from matriarch to matriarch. However, with the passing of ages the original meaning of these rituals has been lost.Even though the Shaper Matriarchs are theoretically intelligent enough to converse with other races, they show no interest in doing so. Their language is unfamiliar to any known species. Although the Shapers used to interact with other races in the past, the Shaper Matriarchs are either unable or unwilling to speak the common tongue.A single Shaper Matriarch usually oversees a 'family' of roughly a dozen male Shapers. The Shaper Matriarchs are responsible for the distribution of work and resources in their groups. All males belong to her, however, the trading of males between matriarchs seems common. In less populated areas, the Shaper Matriarchs occasionally interact with each other. Usually, however, the herds peacefully tend to themselves.In highly populated settlements, the Shaper Matriarchs organise in a coven which is overseen by a grand matriarch. The matriarchs use the coven to share their wisdom and to make decisions concerning the fate of their colony. Since the Shapers hold age in high regard, the grand matriarch is usually the oldest of her kin.While the lifespan of male Shapers is usually shorter than the one of humans, matriarchs can easily reach 100 years of age. They stay fertile until the day they die.There are rumours about a grand matriarch, hidden somewhere in an almost intact Shaper structure, who even oversees the other grand matriarchs. However, as long as this has not been proven, it can only be considered a myth.",
+        "abilities": [
+            "Melee (0-120+)",
+            "Death Wave (0-332+)",
+            "Earth Missile (0-120+)",
+            "Energy Strike on itself",
+            "Self-Healing (0-86+)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 85%",
+            "Holy 70%",
+            "Ice 80%",
+            "Fire 100%",
+            "Energy 105%",
+            "Earth 60%"
+        ],
+        "location": "Old Masonry, Astral Shaper Ruins, small dungeon under the Formorgar Mines here.",
+        "behaviour": "Keeps a distance of 4 squares.A shaper matriarch attacks from a distance. A shaper matriarch will retreat at 30  (1.5%, deep red) health.",
+        "strategy": "Try to avoid her wave, she hits hard with it.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Strong Mana Potion",
+            "Skull (Item)",
+            "Dark Mushroom",
+            "Cave Turnip",
+            "Cracked Alabaster Vase",
+            "Rhino Horn Carving",
+            "Tarnished Rhino Figurine",
+            "Ancient Coin",
+            "Waterskin",
+            "Black Pearl",
+            "Small Ruby",
+            "Wand of Decay",
+            "Stone Skin Amulet",
+            "Ring of Healing",
+            "Rusted Helmet",
+            "Gemmed Figurine",
+            "Prismatic Quartz",
+            "Wand of Voodoo",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Sword_of_Vengeance",
+        "name": "Sword of Vengeance",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c8/Sword_of_Vengeance.gif/revision/latest?cb=20180117142230&path-prefix=en",
+        "attributes": {},
+        "notes": "It is an animated Justice Seeker (albeit facing the other direction). Swords of vengeance spawn next to The Last Lore Keeper. Part of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-242+)",
+            "Energy Beam (0-?)",
+            "Berserk (0-?)",
+            "Self-Healing (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Final boss room of the Forgotten Knowledge Quest.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Twisted_Shaper",
+        "name": "Twisted Shaper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/36/Twisted_Shaper.gif/revision/latest?cb=20161117161526&path-prefix=en",
+        "attributes": {},
+        "notes": "The Twisted Shapers are a testament to the tragedy which befell their ancestors. Even though they do no longer radiate their race's greatness of the past, the Twisted Shapers still have an instinctive talent for the abilities of their forefathers. Obviously more cunning and intelligent than the broken shapers, the Twisted Shapers almost seem like a different race. Still primitive and wild, they are the leaders and priests of their kind. They are the ones that preserve the remaining knowledge and everything else which is left of their civilisation - which is undoubtedly very little. The uncompromising upbringing turned them into cruel creatures. Perhaps they have a vague grasp of what their people have lost as they seem to view the world with spite and contempt.\nThey seem to wield magic instinctively rather than to work real spellcraft. Just like a dragon who learns to breathe fire without thinking, the Twisted Shapers bend raw magic to their will and hurl it into their enemies. Most of their art is as twisted as they are themselves and their spell-like abilities rather destroy than create. Their destructive flashes are by far more powerful than their instinctive attempts to heal themselves or others.\nAlone the broken shapers view them as gods and follow their orders without hesitation. The Twisted Shapers lead the colony like some kind of sect. They seem to invent rules and rites on a whim or follow some unknown inspirations. One from their midst usually acts as their high priest or de facto king. This individual personally teaches and grooms the leader that will follow him one day. These two Twisted Shapers are considered to be the most important and prized possession of a colony. As such they are fiercely protected and timely evacuated if danger arises. If we believe recent records of adventurers, every encountered colony, no matter how far away, follows this pattern. This astonishing observation raises many questions and speculations. \nThere are records that a Twisted Shaper mother can give birth to a broken shaper child and vice versa. It is unknown though if twisted and broken shapers interbreed. This proves that the two species have not turned into entirely separate species yet, however, separation seems to be the way their race is ultimately heading to. Whereas the broken shaper children are left to fend for themselves, the Twisted Shaper offspring actually receives some kind of education by other Twisted Shapers. Some of the Twisted Shapers even seem to possess some ancient knowledge. They know how to operate at least parts of the artefacts left by their ancestors. Many of their rites, however, seem to have lost their purpose. The very few useful ones are used to operate objects such as gates, lights and other things of which the purpose is unknown to us. Even though, all they do is no more than a pointless mockery of their former greatness, the Twisted Shapers desperately hold on to it. Whenever they have to leave an area, the Twisted Shapers never forget about their home and constantly trying to retake it.",
+        "abilities": [
+            "Melee (0-100+)",
+            "Energy Strike (0-80+)",
+            "Mana Drain Blue Sparkle Area Attack on itself (0-48+)",
+            "Life Drain Red Sparkle Beam (?)",
+            "Crystal Obelisk Effect on its target - Strong Paralysis",
+            "Self-Healing (0-300+)"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 90%",
+            "Holy 70%",
+            "Ice 70%",
+            "Fire 105%",
+            "Energy 105%",
+            "Earth 60%"
+        ],
+        "location": "Astral Shaper Dungeon, Astral Shaper Ruins, Old Masonry, small dungeon under the Formorgar Mines here",
+        "behaviour": "A twisted shaper attacks in melee range. A twisted shaper never retreats.",
+        "strategy": "Kill them fast, they are not strong but have an immense self-healing ability.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Ancient Belt Buckle",
+            "Cracked Alabaster Vase",
+            "Cave Turnip",
+            "Tarnished Rhino Figurine",
+            "Great Health Potion",
+            "Meat",
+            "Energy Ring",
+            "Small Ruby",
+            "Ancient Coin",
+            "Orichalcum Pearl",
+            "Vortex Bolt",
+            "Onyx Chip",
+            "Brown Mushroom",
+            "Wand of Cosmic Energy",
+            "Gemmed Figurine",
+            "Piggy Bank",
+            "Platinum Amulet",
+            "Piece of Marble Rock",
+            "Loot Statistics"
+        ]
+    }
+]

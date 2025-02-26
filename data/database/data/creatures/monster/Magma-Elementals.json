@@ -1,0 +1,488 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Basaltwall",
+        "name": "Basaltwall",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/66/Basaltwall.gif/revision/latest?cb=20210626024822&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle The Lost Structure mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gnome_Pack_Crawler",
+        "name": "Gnome Pack Crawler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3f/Gnome_Pack_Crawler.gif/revision/latest?cb=20171114175728&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Dangerous Depths Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gnome Deep Hub.",
+        "behaviour": "It will run away from you, but it doesn't attack.",
+        "strategy": "Guide it to the dungeon's entrance to rescue it.",
+        "loot": [
+            "Gold Coin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Infected_Weeper",
+        "name": "Infected Weeper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/af/Infected_Weeper.gif/revision/latest?cb=20120726204925&path-prefix=en",
+        "attributes": {},
+        "notes": "No notes",
+        "abilities": [
+            "Melee (0-500)",
+            "Fire Beam (300-800) Infected Weeper",
+            "Life Drain Bomb on target (0-300?) Infected Weeper",
+            "Spark wave Infected Weeper",
+            "Blood Ball (summons Parasite inside the radius) Infected Weeper"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 70%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire -100%",
+            "Energy 75%",
+            "Earth 0%"
+        ],
+        "location": "A total of 8 infected weepers spawn in Warzone 2, you can see the exact locations here.",
+        "behaviour": "Unknown.An infected weeper attacks in melee range.",
+        "strategy": "They are needed to break the wall to enter the teleport leading to Gnomevil room. Good idea is to trap them and after you clean the path to walls that are needed to break, lure them.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Instable_Lavaling",
+        "name": "Instable Lavaling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b1/Instable_Lavaling.gif/revision/latest?cb=20210626024559&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle The Lost Structure mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lava_Creature",
+        "name": "Lava Creature",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/52/Lava_Creature.gif/revision/latest?cb=20220702061934&path-prefix=en",
+        "attributes": {},
+        "notes": "They appear in the fight against Magma Bubble during the Primal Ordeal Quest.",
+        "abilities": [
+            "Melee (?)",
+            "4sqm Smoke Beam (?)",
+            "Red Sparkle Exori (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Sparkling Pools",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lava_Golem",
+        "name": "Lava Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bf/Lava_Golem.gif/revision/latest?cb=20210420140843&path-prefix=en",
+        "attributes": {},
+        "notes": "In the deepest depths of Tibia daring explorers sometimes find ruins that were probably ancient even at the dawn of mankind. Not much has been left by the ravages of time. Pictograms can be found in some places which show a civilised octopus-like race which apparently once dwelt in the deep. On those portrayals the race is served by creatures that look like the Lava Golems we know today. It seems the Lava Golems were once creations, servants or pets of that long extinct race. The fact that the Lava Golems of our time are now in service of 'those below' can be interpreted in many ways. Given the facts, it is most likely that the octopus creatures were conquered and annihilated by 'those below' and their creatures enslaved by the vile conquerors. Now the Lava Golems serve as faithful and unquestioning minions of their new masters. The Lava Golems are astonishingly passionless in their duty, usually doing nothing more than they were ordered to do. They quite obviously lack the destructiveness and rage that seems inherent in the other servants of 'those below'. Their masters coped with this issue by obviously giving them a set of rather broadly defined and extremely destructive orders like killing everything foreign in a certain area. That combined with their sheer power and destructive ability raises them to a completely different level of dangerousness: in the end the Lava Golems have to be seen on par with the other minions of those below.",
+        "abilities": [
+            "Melee (?)",
+            "Fire Beam (500-800?) Lava Golem",
+            "Small Fireball (0-300?) Lava Golem",
+            "Death Mana Drain Beam (200?) Lava Golem",
+            "Spark wave (Unknown Effect) Lava Golem",
+            "Fire Berser (200-300?) Lava Golem",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 70%",
+            "Death 65%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 2.",
+        "behaviour": "Lava golems will fight in close combat.A lava golem attacks in melee range. A lava golem never retreats.",
+        "strategy": "Paladins should use their crystalline arrows/prismatic bolts/assassin stars to take down this creatures. If they hunt this kind of creatures, it's recommended use energy walls. For druids and sorcerers is recommended to use sudden death runes to kill this strong creature.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Blazing Bone",
+            "Fiery Heart",
+            "Great Mana Potion",
+            "Green Crystal Splinter",
+            "Iron Ore",
+            "Magma Clump",
+            "Mana Potion",
+            "Prismatic Bolt",
+            "Red Crystal Fragment",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Ultimate Health Potion",
+            "Violet Crystal Shard",
+            "Yellow Gem",
+            "Yellow Piece of Cloth",
+            "White Piece of Cloth",
+            "Magma Amulet",
+            "Magma Boots",
+            "Red Piece of Cloth",
+            "Wand of Inferno",
+            "Crown Shield",
+            "Fire Axe",
+            "Fire Sword",
+            "Red Gem",
+            "Wand of Everblazing",
+            "Magma Coat",
+            "Spellbook of Mind Control",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lavaling",
+        "name": "Lavaling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Lavaling.gif/revision/latest?cb=20210626024400&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle The Lost Structure mission.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Magma_Crawler",
+        "name": "Magma Crawler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a5/Magma_Crawler.gif/revision/latest?cb=20140215163133&path-prefix=en",
+        "attributes": {},
+        "notes": "The Magma Crawler is probably an artificially bred life form. Its sheer mindless aggressiveness compared to the obvious strategic deployment of the Magma Crawler can lead to no other conclusion than that it is a biological weapon which is very difficult to control. It can safely be assumed that it originated in the breeding pens of what the gnomes call 'those below'. If this is the case, it is bred for war and destruction. It is probably deployed to do maximum damage in underground environments. After a Magma Crawler has been set loose, it is usually abandoned. This explains why wandering specimens can be found almost anywhere underground, usually at the end of a path of destruction. As only male Magma Crawlers have been found, it is assumed that the female creatures are retained for breeding purposes, and to prevent the race from spreading excessively. Given the longevity of the Magma Crawlers, this precautionary measure is not overly effective. Some captured specimens survived for dozens of years without showing significant signs of aging. Considering the threat even a single Magma Crawler poses, it is not unusual for a group of them to cause entire cave systems to collapse. It is not yet known if the Magma Crawlers somehow manage to escape the havoc they wreak or if they perish in it.",
+        "abilities": [
+            "Melee (100-500?)",
+            "Fire Berserk (0-700) Magma Crawler",
+            "Great Death Beam (0-700?) Magma Crawler",
+            "Flame Wave (0-850?) Magma Crawler",
+            "Burning Strike Magma Crawler",
+            "Burning Fireball on itself Magma Crawler",
+            "Spark wave (Unknown Effect, probably Paralysis same as Infected Weeper ) Magma Crawler",
+            "Red Sparkles Explosion on itself (Unknown Effect) Magma Crawler"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 75%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 0%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 2.",
+        "behaviour": "This kind of creature keep distance from his target, if target reach him very close he use melee and fire berserk. His great death beam is really dangerous, making damage every turn ~1200 hit pointsA magma crawler attacks from a distance.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Blazing Bone",
+            "Brown Crystal Splinter",
+            "Crystalline Arrow",
+            "Fiery Heart",
+            "Great Health Potion",
+            "Great Mana Potion",
+            "Green Crystal Fragment",
+            "Magma Clump",
+            "Small Diamond",
+            "Blue Crystal Shard",
+            "Iron Ore",
+            "Magma Amulet",
+            "Wand of Draconia",
+            "White Piece of Cloth",
+            "Yellow Piece of Cloth",
+            "Black Shield",
+            "Coal",
+            "Energy Ring",
+            "Fire Sword",
+            "Magma Boots",
+            "Yellow Gem",
+            "Red Piece of Cloth",
+            "Wand of Everblazing",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Magma_Fiend",
+        "name": "Magma Fiend",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/92/Magma_Fiend.gif/revision/latest?cb=20210629150414&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 95%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle Lava Fishing mission.",
+        "behaviour": "A magma fiend will retreat at 64 to 479 (4% - 29.94%, red) health.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Magmaoid",
+        "name": "Magmaoid",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ed/Magmaoid.gif/revision/latest?cb=20210715041651&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle fight against The Mega Magmaoid.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Massive_Magmaoid",
+        "name": "Massive Magmaoid",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/56/Massive_Magmaoid.gif/revision/latest?cb=20210715041652&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dwelling of the Forgotten, at the Too Hot to Handle fight against The Mega Magmaoid.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Minion_of_Versperoth",
+        "name": "Minion of Versperoth",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/36/Minion_of_Versperoth.gif/revision/latest?cb=20210420174519&path-prefix=en",
+        "attributes": {},
+        "notes": "They replaced the Lava Golems spawning with Versperoth in update 9.61 (August 9) probably because of potential farming abuse. They appear to be the same as Lava Golems, save for giving no Loot or Experience.",
+        "abilities": [
+            "Melee (?)",
+            "Fire Beam (500-800?) Minion of Versperoth",
+            "Small Fireball (0-300?) Minion of Versperoth",
+            "Death Mana Drain Beam (200?) Minion of Versperoth",
+            "Spark wave (Unknown Effect) Minion of Versperoth",
+            "Fire Berser (200-300?) Minion of Versperoth",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 70%?",
+            "Death 65%?",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 70%?",
+            "Earth 0%"
+        ],
+        "location": "Warzone 3 in Versperoth's room.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_End_of_Days",
+        "name": "The End of Days",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/19/The_End_of_Days.gif/revision/latest?cb=20220623005942&path-prefix=en",
+        "attributes": {},
+        "notes": "They appear in the fight against Magma Bubble during the Primal Ordeal Quest.",
+        "abilities": [
+            "Melee (?)",
+            "Fire wave (?) The End of Days",
+            "Explosion Beam (?) The End of Days",
+            "Death Bomb (?) The End of Days",
+            "Trembling Ue (?) The End of Days"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire -100%",
+            "Energy 95%",
+            "Earth 100%"
+        ],
+        "location": "Sparkling Pools",
+        "behaviour": "They retarget very often.",
+        "strategy": "Have the knight Challenge them as frequently as possible since they deal high damage and retarget very often. For more details, see Primal Ordeal Quest.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vulcongra",
+        "name": "Vulcongra",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Vulcongra.gif/revision/latest?cb=20120622173824&path-prefix=en",
+        "attributes": {},
+        "notes": "The Vulcongra is one of the fastest diggers underground. The attempts of the dwarfs to replace their digging rotworms with Vulcongras were met with little success due to the Vulcongras' untrainable nature. The Vulcongras are almost purely by its instincts. Their foremost need seems to be hunger. Vulcongras spend most of their time on finding and eating. Since they can eat almost everything from dust to stones, they are literally eating constantly without any need of sleep or water. As there seems to be no way to scare them off, Vulcongras often become a threat for gnomish holdings. As they do not seem to care what they eat, the Vulcongras shun away from nothing. They could equally destroy a gnomish house as they would devour precious tools or crystals. They stoically fight back any attackers. Even when not attacked, someone often finds himself at the centre of a Vulcongra's eating attention as it tries to sample some bites. They lack any evil intention,though. The gnomes are experimenting on driving them away with certain crystal frequencies or lights, without any notable success till now. The Vulcongra seem to be just too dumb to be affected by any scare tactic. The stupidity and hunger of the Vulcongra is so prominent that they feature in many gnomish sayings such as 'hungry as a Vulcongra'.",
+        "abilities": [
+            "Melee (0-230~)",
+            "Soulfire exori (on every turn)",
+            "Fireball (100-200)",
+            "Fire Beam (196-338+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 95%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Hot Spot (in Gnomebase Alpha), Lower Glooth Factory West, and Lower Spike.",
+        "behaviour": "A vulcongra attacks in melee range. A vulcongra will retreat at 64 to 479 (4% - 29.94%, red) health.",
+        "strategy": "Stand diagonal.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Banana",
+            "Blazing Bone",
+            "Fiery Heart",
+            "Magma Clump",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Brown Crystal Splinter",
+            "Red Crystal Fragment",
+            "Sword Ring",
+            "Wand of Inferno",
+            "Coal",
+            "Magma Amulet",
+            "Fire Sword",
+            "Magma Coat",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Weeper",
+        "name": "Weeper",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e6/Weeper.gif/revision/latest?cb=20120622170823&path-prefix=en",
+        "attributes": {},
+        "notes": "The Weepers are more living minerals than anything else. Though the gnomes fiercely deny it, it can be assumed that the Weepers served as inspiration for the construction of the first crystal golems. As an oddity of life, Weepers physically share only a few characteristics with truly living beings. It is all the more astonishing that in appearance and behaviour they could be confused with biological live forms. This raises a lot of questions about the Weepers and is fuel to dozens of more or less educated guesses about their origin. Some speculations see them as surviving servants of a long extinct race. Others point out the possibility that they are the offspring of early gnomish experiments. Some see the Weepers more in the array of elemental beings, going so far as to say that the Weepers are the incarnation of a new and to date undiscovered element. They got their name from the fiery 'tears' that usually leak in what would be considered their eye region as well as the odd sobbing sounds it emanates. Weepers are extremely unpredictable in their behaviour. The only constant seems to be their hatred for biological life which they attack fiercely and without restraint.",
+        "abilities": [
+            "Melee (0-500)",
+            "Fire Berserk (100-200?) Weeper",
+            "Fire Beam (500-1000) Weeper",
+            "Life Drain Ball (250-350?) Weeper",
+            "Flame Strike (?)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 70%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Warzone 2.",
+        "behaviour": "Frequently attacks low level mages.A weeper attacks in melee range.",
+        "strategy": "If hunting with mages, protect them. They will retarget almost every turn to the lowest level mage, even if they are unreachable (e.g. if a mage is on the other side of the warzone bars, the knight/paladin inside will not be attacked). Energy walls are useful to protect yourself from them.\nHis beam is similar to Hellfire Fighter",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Blazing Bone",
+            "Brown Crystal Splinter",
+            "Eye of a Weeper",
+            "Fiery Heart",
+            "Great Mana Potion",
+            "Magma Clump",
+            "Prismatic Bolt",
+            "Red Crystal Fragment",
+            "Small Ruby",
+            "Ultimate Health Potion",
+            "Violet Crystal Shard",
+            "Fire Sword",
+            "Coal",
+            "Fire Axe",
+            "Wand of Everblazing",
+            "Magma Coat",
+            "Magma Legs",
+            "Loot Statistics"
+        ]
+    }
+]

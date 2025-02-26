@@ -1,0 +1,203 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Crystal_Wolf",
+        "name": "Crystal Wolf",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Crystal_Wolf.gif/revision/latest?cb=20140214233430&path-prefix=en",
+        "attributes": {},
+        "notes": "This elusive creature can only be spotted during the Mini World Change known as the Thornfire World Change. To transform it into a majestic Crystal Wolf, you must skillfully lure a Thornfire Wolf to the sacred grounds of the Bog Temple. To tame this creature, use a Diapason on it. For additional details, refer to the article on Crystal Wolf (Mount). By successfully taming the Crystal Wolf you will earn the achievement The Right Tone.",
+        "abilities": [
+            "Melee (0-120)",
+            "V-Shaped Earth Wave (0-?) Crystal Wolf",
+            "Ice Attack (X-Shaped) (40-60) Crystal Wolf",
+            "Self-Healing (0-65)",
+            "Mana Drain (0-60)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 90%",
+            "Holy 90%",
+            "Ice 50%",
+            "Fire 90%",
+            "Energy 105%",
+            "Earth 95%"
+        ],
+        "location": "Shadowthorn",
+        "behaviour": "A crystal wolf attacks in melee range. A crystal wolf will retreat at 1 to 29 (0.13% - 3.87%, deep red) health.",
+        "strategy": "Stay diagonal to avoid the wave attacks.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Shiver Arrow",
+            "Wolf Paw",
+            "Hailstorm Rod",
+            "Shiny Stone",
+            "Crystalline Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frost_Servant",
+        "name": "Frost Servant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6a/Ice_Golem.gif/revision/latest?cb=20171218213435&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ice Witch Temple, second floor, in the centre when Zushuka has spawned.",
+        "behaviour": "Frost Servants chase their opponent and try to obstruct them from defeating their master, Zushuka. A frost servant never retreats.",
+        "strategy": "There is no reason to kill Frost Servants unless they are blocking your path to the ice pillar or the altar. You must kill Zushuka to stop the Frost Servants from spawning. You can use Energy Wall Runes to stop the Frost Servants from blocking you while you destroy the pillars. For more, see the strategy of Zushuka.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frozen_Minion",
+        "name": "Frozen Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/59/Frozen_Minion.gif/revision/latest?cb=20221125122507&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-196+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Formorgar Mines, here.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ice_Barricade",
+        "name": "Ice Barricade",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3f/Ice_Barricade.gif/revision/latest?cb=20221113220027&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found during one of the tasks of The Cradle of Monsters Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ingol",
+        "behaviour": "It doesn't move but blocks the path.",
+        "strategy": "Use the Hazard Golem's fire attack to destroy it.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Ice_Golem",
+        "name": "Ice Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6a/Ice_Golem.gif/revision/latest?cb=20171218213435&path-prefix=en",
+        "attributes": {},
+        "notes": "Ice Golems are constructs raised by powerful sorcery. The creation of Ice Golems dates back to times no mortal can remember. Golems follow simple tasks, given to them by their masters. Often, they are ordered to protect some place or item and they are still bound to this duty even when their masters are already dead for a long time. This is only one of the reasons why most encountered Ice Golems are hostile. Another less known fact is that the structure of the Ice Golem's feeble mind makes it easy for all kinds of spirits to possess these creatures and to take over control. Thus the Ice Golems are easy to be 'ridden' by such entities and especially malignant spirits have little qualms to do so.The strength and resilience of Ice Golems is quite similar to other golems. They tend to be a bit faster and more agile compared to stone golems but are not that heavily armoured. They are only able to survive in cold climate as Ice Golems will melt in warmer regions unless some kind of magic is applied to prevent this. In cooler areas it is much easier to raise Ice Golems than their stone cousins. As a rule of thumb, Ice Golems are usually encountered in greater numbers than  stone golems. Related to Stone Golems, you may hunt 300 of these Ice Golems as part of the Killing in the Name of... Quest. Upon completion of the task, you will face Shardhead.",
+        "abilities": [
+            "Melee (0-220)",
+            "Icicle (50-85) Ice Golem",
+            "Paralyzing Ice Beam Ice Golem",
+            "Berserk (Reduces Melee and Shielding by 15-20%) Ice Golem"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 120%",
+            "Earth 100%"
+        ],
+        "location": "Formorgar Glacier, Formorgar Mines, Nibelor Ice Cave, Ice Witch Temple, Deeper Banuta, Crystal Caves, Chyllfroest.",
+        "behaviour": "They move slowly and are easy to outrun, but will deal a lot of damage if they catch you.An ice golem attacks in melee range. An ice golem never retreats.",
+        "strategy": "Thanks to their focus on energy spells, Sorcerers will find ice golems rather enjoyable to hunt. Because mages do not need Frosty Hearts for imbuing, they can sell them all for a significant profit. Most of the time sorcerers should just use an energy wand and cast Energy Strike. If you find yourself in a tight spot, Great Energy Beam and Energy Wave are extremely effective for fast kills. Druids are slightly less effective against ice golems, since they have access to only one energy spell. However, earth spells still deal full damage, so you will not have any problems. Use an earth rod and cast Energy Strike. Terra Wave will be helpful for emergencies. All mages would do well to bring some Thunderstorm Runes in case they run into two or three ice golems at once. Ice golems are not very Knight-friendly monsters. Even though they do not have a lot of health, their defence alone is very strong, they possess some physical damage resistance on top of that, they hit very hard in close range and reduce melee and shield skills quite often. In general, it is not advised to hunt ice golems as a knight. However, if you are level 60+, have a Scrapper-level weapon and good skills (at least 80/80), the tasks are doable and profitable. Try to fight one at a time and be extremely careful when facing two or three at once, as they can send you back to the temple in the blink of an eye. Due to their focus on physical damage, Paladins face similar issues as knights, as the task is usually completed at around level 50-60 and it is not until a higher level that a paladin's damage output will far exceed that of a knight. Still, as long-range fighters, in most situations paladins should only take damage from the icicle attacks. Holy spells are completely useless against ice golems, so use Ethereal Spear to kill them faster. You should use at least onyx arrows or power bolts for a reasonable kill speed, but you can wait until level 70 for a significant damage boost from envenomed arrows or drill bolts. Remember to stay diagonal while running, in order to avoid the paralyzing beam.",
+        "loot": [
+            "Gold Coin",
+            "Frosty Heart",
+            "Ice Cube",
+            "Strong Mana Potion",
+            "Strong Health Potion",
+            "Black Pearl",
+            "Small Diamond",
+            "Crystal Sword",
+            "Small Sapphire",
+            "Strange Helmet",
+            "Ice Rapier",
+            "Shard",
+            "Glacier Mask",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Icicle_(Creature)",
+        "name": "Icicle (Creature)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f9/Icicle_%28Creature%29.gif/revision/latest?cb=20161108202008&path-prefix=en",
+        "attributes": {},
+        "notes": "They hit the Dragon Egg with an ice attack of 100 hp.\nPart of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-219+)",
+            "Large Blue Sparkles area spell"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Formorgar Mines, here (2 times).",
+        "behaviour": "They can't move from their place.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Cold_of_Winter",
+        "name": "The Cold of Winter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/The_Cold_of_Winter.gif/revision/latest?cb=20220510222543&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Dream Scar when Izcandar the Banished is fighting.",
+        "behaviour": "The cold of winter never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]

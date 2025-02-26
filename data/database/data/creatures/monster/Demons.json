@@ -1,0 +1,2639 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Angry_Demon",
+        "name": "Angry Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Demon.gif/revision/latest?cb=20150414134039&path-prefix=en",
+        "attributes": {},
+        "notes": "These are practically equal to Demons, but Angry Demons only spawn as the result of the trigger that initiates The Annihilator Quest.",
+        "abilities": [
+            "Melee (0-500)",
+            "Great Fireball (150-250) Angry Demon",
+            "Great Energy Beam (300-480) Angry Demon",
+            "Close-range Energy Strike (210-300) Angry Demon",
+            "Mana Drain (30-120) Angry Demon",
+            "Self-Healing (80-250)",
+            "Shoots Fire Field Angry Demon",
+            "Distance Paralyze Angry Demon",
+            "Summons (1 Fire Elemental )"
+        ],
+        "resistance": [
+            "Physical 75%",
+            "Death 80%",
+            "Holy 112%",
+            "Ice 112%",
+            "Fire 0%",
+            "Energy 50%",
+            "Earth 60%"
+        ],
+        "location": "The room of The Annihilator Quest.",
+        "behaviour": "Same as for Demons.An angry demon attacks in melee range. An angry demon never retreats.",
+        "strategy": "Treat them like regular Demons.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Great Spirit Potion",
+            "Demonic Essence",
+            "Ultimate Health Potion",
+            "Demon Horn",
+            "Fire Mushroom",
+            "Assassin Star",
+            "Small Topaz",
+            "Small Ruby",
+            "Small Amethyst",
+            "Small Emerald",
+            "Talon",
+            "Orb",
+            "Fire Axe",
+            "Stealth Ring",
+            "Red Gem",
+            "Ring of Healing",
+            "Might Ring",
+            "Giant Sword",
+            "Ice Rapier",
+            "Golden Sickle",
+            "Purple Tome",
+            "Devil Helmet",
+            "Gold Ring",
+            "Demon Shield",
+            "Platinum Amulet",
+            "Mastermind Shield",
+            "Golden Legs",
+            "Magic Plate Armor",
+            "Demon Trophy",
+            "Demonrage Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Animated_Feather",
+        "name": "Animated Feather",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c5/Animated_Feather.gif/revision/latest?cb=20180607140213&path-prefix=en",
+        "attributes": {},
+        "notes": "Animated fathers are usually created as simple golems that serve as copyists and automated scribes. Unspectacular and not sentient on their own, they are mere tools for powerful magicians. There are rumours, though, of ancient feathers that copied so many arcane texts, that some of the knowledge gradually accumulated in them. Slowly but steadily they grow in power and sentience. Eventually they acquired some sort of self awareness. Becoming less of a tool and more of a being, they grew less useful for their original purpose. At some point they are pulled from their copy duties and act more like librarians. Their main function becomes to contain dangerous knowledge with the use of their acquired skills in glyphs and wards. Still they are obsessed with their original purpose and copy random books in their spare time, accumulating more and more knowledge in the process. They are highly skilled in the use of arcane sigils but in the time of need and urgency they rather employ spontaneous bursts of the magic they acquired. Even when protecting themselves or their libraries, they still act more like emotionless constructs reacting on a more practical base. Their fighting style might also best be described as 'efficient'. It takes an extremely long time for an animated feather to display some kind of personality. Most perish to the teeth of time and accidents. The few that endure can become quite intelligent, even quirky. Rumour has it, that a few feathers authored books on their own, not even just compiled knowledge they acquired but genuinely new and creative works with astounding insights. At least one extremely old animated feather chose to author books of comedic limericks while another specialized on acclaimed love poems.",
+        "abilities": [
+            "Melee (0-400)",
+            "Ice Strike (600-800) Animated Feather",
+            "Ice Tornado (600-900) Animated Feather",
+            "Ice Wave (800-1200) Animated Feather",
+            "Icicles (600-800) Animated Feather"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 118%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "The Secret Library ice section.",
+        "behaviour": "An animated feather attacks in melee range. An animated feather never retreats.",
+        "strategy": "Use as much Ice Damage protection as you can, because this will be the biggest part of the damage when fighting these creatures.",
+        "loot": [
+            "Small Sapphire",
+            "Platinum Coin",
+            "Glowing Rune",
+            "Glacier Mask",
+            "Energy Ring",
+            "Ice Cube",
+            "Ultimate Mana Potion",
+            "Quill",
+            "Diamond Sceptre",
+            "Glacier Amulet",
+            "Golden Mug",
+            "Small Diamond",
+            "Life Crystal",
+            "Hailstorm Rod",
+            "Crystal Mace",
+            "Sapphire Hammer",
+            "Glacial Rod",
+            "Crystalline Armor",
+            "Leviathan's Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Biting_Book",
+        "name": "Biting Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Biting_Book.gif/revision/latest?cb=20180607130122&path-prefix=en",
+        "attributes": {},
+        "notes": "The biting books were literally created out of the stuff of nightmares.When tasked with creating a kind of guardian dog for Zathroth hoard, his librarians came up with several fiendish ideas. Many guardian creatures were prototyped but none could impress the collective of librarians who always favoured only their own creations. Finally one of them tasked nightmares and other demons to search the fringes of the subconsciousnesses of dreaming librarians for what scared them most. The amalgam of their loot was condensed into the form of the biting book. The librarians recognized what has been done there and reluctantly agreed that this creation would suit the role fine. In the centuries since then, many of the biting books were created and trained by their new masters. Indeed they act like some sort of dog and can be sometimes even playful with their owner. Still they are dangerous beasts and excellent companions as well as guardians for the libraries. They are resilient, never sleep and despite their appearance have keen senses. They can feel the slightest vibrations of the floor, their eyes are able to see in the spectrum of magic and their tongue is able to pick up smells from miles away. They are shrewd and aggressive fighters, albeit on a primal level and they are fiercely loyal to their master. Still a few of their kind proved too aggressive for training or went mad by mistreatment. Those were chained to walls to provide a scary obstacle for intruders. The biting books only major flaw is their diet which consists of ill-written stories and poetry. You can extract Ink from its corpse by using an empty liquid container on it.",
+        "abilities": [
+            "Melee (0-1055?)",
+            "Spit (0-1210?) Biting Book",
+            "Bat wave (800-1210?) Biting Book",
+            "Dust Cloud (800-1200\n  ) Biting Book"
+        ],
+        "resistance": [
+            "Physical 50%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library earth, energy, fire and ice sections. Also two incarcerated in the Issavi prison here, reachable from the city Library.",
+        "behaviour": "A biting book attacks in melee range. A biting book never retreats.",
+        "strategy": "Most importantly, try to avoid the waves.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Glowing Rune",
+            "Silken Bookmark",
+            "Big Bone",
+            "Meat",
+            "Ruby Necklace",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Brachiodemon",
+        "name": "Brachiodemon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/02/Brachiodemon.gif/revision/latest?cb=20200716000055&path-prefix=en",
+        "attributes": {},
+        "notes": "Brachiodemons are battle-hardened demons that were chosen by their vile masters to invade Zarganash for their adaptability. After untold time in Zarganash only the most adaptive of these creatures survived, but not unscarred. Zarganash has changed then permanently, trapping them for all eternity and binding their essence to the realm itself. Their self-awareness became bound to the essence of the plane in a twisted way. Should their material form ever be destroyed a gruesome fate of eternal torment awaits their consciousness. Forever will they ride helplessly with the storms and currents of Zarganash to be grinded down and reconstructed constantly. A fact they are aware of all to well, which makes them fight for their lives even more fiercely and desperately. Though the inner torment that is prevalent in Zarganash has already took deep roots in their essence and inherently changed them, some of them might still half-heartedly do the biddings of their demonic masters but they do so only out of an attitude of resignation and habit that grows more and more distant over time. In truth for a long time they have already given in to the despair and atrophy that permeates the realm and unknowingly became agents of the powers behind the curtains of Zarganash. While most of them are unknowingly doing the bidding of the pale worm and spread its taint wherever they go, they still think of themselves as free beings and would actively fight the worm and its minions. The subtle strings that the worm and others use on them usually prevent them from coming anywhere near the true plots that are played out in Zarganash. How much resistance against the will of the pale worm a brachiodemon could muster varies probably highly from individual to individual but the worm will always win in the long run. Brachiodemons are the creatures from Claustrophobic Inferno that can trigger Goshnar's Taints.",
+        "abilities": [
+            "Melee (?)",
+            "Wall Breaker (breaks Magic Walls and Wild Growths Brachiodemon",
+            "Small Blast Explosion (700+) Brachiodemon",
+            "Death Ball (800+) Brachiodemon",
+            "Fire Whirwind (?) Brachiodemon",
+            "Sudden Death (500+) Brachiodemon",
+            "Dust Ball (?) Brachiodemon"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 135%",
+            "Ice 125%",
+            "Fire 70%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Claustrophobic Inferno.",
+        "behaviour": "This creature has a spell that destroys player-made Magic Walls and Wild Growths.A brachiodemon attacks in melee range.",
+        "strategy": "As with other Soul War creatures, they hit extremely hard, so maximum Fire and Death Damage Protection should be used. During raids, it's essential that they are killed very quickly otherwise there will be too many creatures to deal with.",
+        "loot": [
+            "Crystal Coin",
+            "Ultimate Health Potion",
+            "Hand",
+            "Skull Staff",
+            "Epee",
+            "Crystal Mace",
+            "Noble Axe",
+            "Head (Brachiodemon)",
+            "Fire Axe",
+            "Assassin Dagger",
+            "Jade Hammer",
+            "Spellbook of Mind Control",
+            "Ring of Green Plasma",
+            "Royal Helmet",
+            "Mastermind Shield",
+            "Butcher's Axe",
+            "Crystalline Sword",
+            "Alloy Legs",
+            "Metal Bat",
+            "Diabolic Skull",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Burning_Book",
+        "name": "Burning Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Burning_Book.gif/revision/latest?cb=20180607130123&path-prefix=en",
+        "attributes": {},
+        "notes": "The burning books are created from pages formed from damned souls, bound with the essence of what the unenlightened calls hell and inscribes with runes of hellfire in a sinful language. Filled of what the gods opposing Zathroth and his allies would consider blasphemy and mockery of the godly order of things, these books have been given such a strong purpose that they unintentionally came to life. Burning not only with hell fire but also the desire to taint and burn everything that opposes Zathroth they are a common sight at places dedicated to him. The semi sentient books can't be controlled and so they are usually allowed to hover around, sniffing for all things that don't bear the mark of Zathroth. Sometimes, when a follower of Zathroth falls out of grace, they are the first to swarm him, attack him and ultimately incinerate him. Because of that faith trials are often held where many of the burning books made their lair. Though they technically intended with another, unknown sinister purpose, the sentience of the books had never stopped their production in the depth of hell. It is assumed that their production continues because they found their place and use despite being a failure. Other rumors though claim that only one burning masterbook was created at all and somewhere in the deepest, burning pits of hell this queen book still exists. Tended by an army of lower books, it spawns its burning breed with each beat of her burning heart.\nThe burning books themselves are highly attuned to fire and wield it as shield and weapon. It is remorseless in its cruelty and eager to destroy anything that might displease Zathroth. How these animalistic creatures determine the dedication of others and how accurate they might be remains a secret. The cynical followers of Zathroth don't mind either and gleefully watch even the downfall of one of their own, when the books decide someone earned Zathroth' wrath.",
+        "abilities": [
+            "Melee (0-600)",
+            "Flame Strike (700-950)",
+            "Sparkles Beam (700-850) Burning Book",
+            "Explosion Berserk (650-900) Burning Book"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library fire section.",
+        "behaviour": "Fights in close combat.A burning book attacks in melee range.",
+        "strategy": "Use a lot of Fire Damage protection when hunting them. Be careful with the Ink Blobs around the spawn and if possible trap them outside of your hunting route.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Flask of Demonic Blood",
+            "Demonic Essence",
+            "Silken Bookmark",
+            "Small Amethyst",
+            "Magma Coat",
+            "Guardian Shield",
+            "Soul Orb",
+            "Scimitar",
+            "Necrotic Rod",
+            "Magma Monocle",
+            "Death Ring",
+            "Stealth Ring",
+            "Shadow Sceptre",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Candy_Horror",
+        "name": "Candy Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/18/Candy_Horror.gif/revision/latest?cb=20240604125609&path-prefix=en",
+        "attributes": {},
+        "notes": "Just like Feyrist, Candia is not completely immune to the invasion of nightmare monsters from neighboring Roshamuul. However, unlike in Feyrist, the nightmares do not arrive in Candia unchanged: they have transformed and are now made entirely of sweets.\nIf retching horrors get from Roshamuul to Candia, they are changed into candy horrors. Their bulky bodies transform into solid chocolate dough, their spikes into raked cream meringue and candy canes grow where their horns once were. Candy horrors can also tear out these candy canes and throw them at their victims. They don't have to worry about losing them, though, because the candy canes grow back extremely quickly.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 50%",
+            "Holy 115%",
+            "Ice 100%",
+            "Fire 95%",
+            "Energy 110%",
+            "Earth 90%"
+        ],
+        "location": "Chocolate Mines",
+        "behaviour": "A candy horror attacks in melee range. A candy horror never retreats.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Giant Shimmering Pearl",
+            "Red Gem",
+            "Energy Bar",
+            "Violet Gem",
+            "Wand of Decay",
+            "Black Shield",
+            "Strawberry",
+            "Gummy Rotworm",
+            "Brigadeiro",
+            "Dreaded Cleaver",
+            "Dark Chocolate Coin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cursed_Book",
+        "name": "Cursed Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4a/Cursed_Book.gif/revision/latest?cb=20180607130123&path-prefix=en",
+        "attributes": {},
+        "notes": "Though some potent books can gain consciousness and sentience on their own, this fiendish creature is created by botched attempts to read them and harness their power. Sometimes wannabe magicians try their luck on spells way out of their league with typically dramatic consequences. Most such misfortunes lead to the untimely death of the vain caster in spectacular fashion, sometimes, however, it happens that some lesser demon is partly summoned and melts into the book containing the spell by absorbing the life force of the unfortunate reader. Such demon-book conglomerates can become enormously powerful by harnessing the knowledge contained in the book, demonic forces and whatever might be left of the casters memories and fractured soul. For their raw power and potential but also for their contained knowledge, such cursed books are hunted down by Zathroths librarians and bookkeepers and dragged away to some sinister place of forbidden knowledge. There they are trained, their skills honed and they become part of Zathroth's collection and serve as his guardian dogs to protect other secrets. Perhaps because of the way of their unwilling creation, cursed books feel nothing but spite, contempt and hatred against living beings. Sometimes they even plot to incite mortals to follow their own foolishness and use spells beyond their power. Whether they do so to create more of their kind or just to enjoy the misery of others can't be told for sure. Most of them just skip such subtlety and attack anything not allied to them or their masters with all of the raw power available to them.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Secret Library earth section.",
+        "behaviour": "A cursed book attacks in melee range. A cursed book never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Book Page",
+            "Platinum Coin",
+            "Silken Bookmark",
+            "Small Diamond",
+            "Small Topaz",
+            "Small Stone",
+            "Protection Amulet",
+            "Terra Boots",
+            "Diamond Sceptre",
+            "Terra Hood",
+            "Terra Legs",
+            "Terra Amulet",
+            "Stone Skin Amulet",
+            "Sacred Tree Amulet",
+            "Springsprout Rod",
+            "Terra Mantle",
+            "Swamplair Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Knowledge",
+        "name": "Dark Knowledge",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Dark_Knowledge.gif/revision/latest?cb=20180617233556&path-prefix=en",
+        "attributes": {},
+        "notes": "When it dies, it becomes a Parchment of Dark Knowledge. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Lokathmor's room inside The Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Destroy it as quickly as possible to use its corpse.",
+        "loot": [
+            "Parchment of Dark Knowledge",
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dawnfire_Asura",
+        "name": "Dawnfire Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/ba/Dawnfire_Asura.gif/revision/latest?cb=20150625214314&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who usually hide their true face and appear in the form of beautiful women. Though they can take different shapes they favour a seductive appearance, for example in the form of young dancers. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims.\nThere are several kinds of asuri. The dawnfire asuri have tanned skin and black hair, favouring clothes in the colours red, orange and yellow. They are associated with fire and energy and prefer to use magic rather than weapons.",
+        "abilities": [
+            "Melee (0-252+)",
+            "Self-Healing (80-119+)",
+            "Flame Strike (0-175)",
+            "3x3 Red Sparkles (Reduces Magic Level by 1)",
+            "Mana Drain (0-252+)",
+            "3x3 Cloud Effect on herself (paralysis for 5 seconds)",
+            "3x3 Fire Strike (10 hp for 26 turns)",
+            "Sudden Death explosion (0-312+)",
+            "Whirlwind Throw",
+            "Life Drain beam (0-200)"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 80%",
+            "Holy 110%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 105%",
+            "Earth 100%"
+        ],
+        "location": "Asura Palace.",
+        "behaviour": "She tends to stay diagonal of you, causing her beam to miss you often.A dawnfire asura attacks in melee range. A dawnfire asura never retreats.",
+        "strategy": "Always wear a Dwarven Ring when fighting them otherwise you'll be heavily affected by Drunkenness. Do not underestimate these creatures as their physical damage is very strong and they come in large groups.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Flask of Demonic Blood",
+            "Soul Orb",
+            "Golden Lotus Brooch",
+            "Peacock Feather Fan",
+            "Demonic Essence",
+            "Great Mana Potion",
+            "Small Ruby",
+            "Small Diamond",
+            "Small Emerald",
+            "Small Topaz",
+            "Small Amethyst",
+            "Mystic Turban",
+            "Red Piece of Cloth",
+            "Wand of Inferno",
+            "Mysterious Fetish",
+            "Red Gem",
+            "Focus Cape",
+            "Magma Coat",
+            "Ruby Necklace",
+            "Death Ring",
+            "Oriental Shoes",
+            "Blue Gem",
+            "Spellbook of Mind Control",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon_Slave",
+        "name": "Demon Slave",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Demon.gif/revision/latest?cb=20150414134039&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Demon",
+        "name": "Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Demon.gif/revision/latest?cb=20150414134039&path-prefix=en",
+        "attributes": {},
+        "notes": "The famous knight Apoc once wrote: \"Demons are the most malevolent, powerful, and dangerous creatures in Tibia. In addition to their awesome physical strength, they can also use powerful spells, such as fireballs and fire fields. Especially dangerous is their gaze, which can produce beams of pure energy to annihilate their poor victims. Moreover, they drain mana off their victims, heal themselves and summon fire elementals as their vassals.Fortunately, Demons usually live in the deepest dungeons near hell but sometimes they appear also on the surface. When they do, they leave a track of death and destruction behind them. Nobody has ever been able to slay even one of these entities and only very few adventurers have survived an encounter with them.\" Demons are the servants of evil. More or less devoted servants of Zathroth, they cause strife and havoc wherever they appear. Their masters are known as Demonlords, Demon Overlords and Archdemons.They shout \"CHAMEK ATH UTHUL ARAK!\", which means \"SACRIFICE YOUR BLOOD!\" according to this book.You can use a Blessed Wooden Stake on a slain Demon for a chance to gather some Demon Dust.  See also: Demon Dust/Dusting",
+        "abilities": [
+            "Melee (0-500)",
+            "Great Fireball (150-250) Demon",
+            "Energy Beam (300-480) Demon",
+            "Close-range Energy Strike (210-300) Demon",
+            "Mana Drain (30-120) Demon",
+            "Self-Healing (80-250)",
+            "Shoots Fire Field Demon",
+            "Distance Paralyze Demon",
+            "Summons (1 Fire Elemental )"
+        ],
+        "resistance": [
+            "Physical 75%",
+            "Death 80%",
+            "Holy 112%",
+            "Ice 112%",
+            "Fire 0%",
+            "Energy 50%",
+            "Earth 60%"
+        ],
+        "location": "Hero Cave, Ferumbras' Citadel, Goroma, Ghostlands (Warlock area; unreachable), Liberty Bay (hidden underground passage; unreachable), Razachai, deep in Pits of Inferno (found in every throneroom except Verminor's), deep Formorgar Mines, Demon Forge, Alchemist Quarter, Magician Quarter, Chyllfroest, Oramond Dungeon, Abandoned Sewers, Hell Hub and Halls of Ascension.",
+        "behaviour": "Demons attack the enemy with extremely powerful attacks.A demon attacks in melee range. A demon never retreats.",
+        "strategy": "Do not stand in front of them. They use an attack which looks like Energy Beam, but causes Life Drain damage. Kill the Fire Elementals quickly. You can start blocking them at level 80 with good skills (blockers with level lower than 80 will probably die in most of the cases). You can hunt them with a team of mages using Icicle Runes. It's better to use Boots of Haste instead of Steel Boots because Demons are fast and staying diagonal can be hard. Mages can actually block them with full mana using Magic Shield at lvl 80 with Great Mana Potions while someone else shoots (not profitable). \nPaladins can run them with Speed boosters like Speed Set and kill them with Assassin Stars or Royal Crossbow with Power or Infernal Bolts and Divine Missile in spacious respawns. Using Divine Healing or a combination of Intense Recovery and Intense Healing after Demon's Huge Fireball (Radius as high as Ultimate Spells) will keep you out of danger. Just focus on your speed and your mana. You can't stairhop them anymore. If you have more than 1700 Hit Points you can run around and use Light Healing and after combo when you have 1000 or less hp - Salvation. \nKnights can kill them but it will most likely be a huge waste unless they are level 200+ and are able to use an elemental ice weapon such as Winterblade and Summon Skullfrost as Demons are otherwise strong against Physical Damage but weak against Ice Damage; with an  ice weapon and/or high enough level knights can nowadays solo hunt Demons with considerable profit. If you are a high leveled player and someone's healing you by Heal Friend spell you may block a few Demons and use Berserk and Annihilation spells to kill them faster.\nMages should put on Magma Set, Mastermind Shield and Magic Sword to get more defense. Magic Shield is recommended below level 130. All vocations can use Garlic Necklace to reduce damage from the Life Drain Beam. While you are alone it's recommended to run around and use Icicle Runes. If you have a knight in your team he can block a few demons and you may use Avalanche runes on them.\nIt is recommended to use \"freeze charm\" as it can deal 459 ice damage to the demon (5% of its hp with 12% elemental damage).",
+        "loot": [
+            "Great Mana Potion",
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Spirit Potion",
+            "Small Ruby",
+            "Small Emerald",
+            "Small Amethyst",
+            "Fire Mushroom",
+            "Demon Horn",
+            "Demonic Essence",
+            "Assassin Star",
+            "Ultimate Health Potion",
+            "Small Topaz",
+            "Purple Tome",
+            "Talon",
+            "Red Gem",
+            "Might Ring",
+            "Stealth Ring",
+            "Orb",
+            "Gold Ring",
+            "Ring of Healing",
+            "Giant Sword",
+            "Ice Rapier",
+            "Golden Sickle",
+            "Fire Axe",
+            "Devil Helmet",
+            "Platinum Amulet",
+            "Mastermind Shield",
+            "Demon Shield",
+            "Golden Legs",
+            "Magic Plate Armor",
+            "Demonrage Sword",
+            "Demon Trophy",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Despair",
+        "name": "Despair",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bf/Despair.gif/revision/latest?cb=20160516092449&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest with Tarbaz.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Destroyer",
+        "name": "Destroyer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/36/Destroyer.gif/revision/latest?cb=20061212193751&path-prefix=en",
+        "attributes": {},
+        "notes": "The Destroyers, a rather minor demonic race, can be found at many places serving many purposes. By all accounts much stronger than smart, they are particularly effective in close combat. Powerful enough to be noticed by other demons but still too weak to be of any importance, Destroyers love to torment and bully creatures that are lower in the demonic pecking order. This gets them often into fights with the smart but physically weak imps. Since both races feel superior over the other, they do not get along too well.Under a strict leadership the Destroyers prove quite competent in the area they are employed, which is usually to destroy things and to mash people. However, their true strength comes through quantity. Demons of higher ranks like to accumulate a horde of such minions and let them loose on a target. Such an unleashed horde of Destroyers is virtually  unstoppable. Having a seemingly endless supply on Destroyers, only the difficultly to enter the realms of the mortals keeps the demons from using them on a larger scale. It is very similar to a Behemoth. However, Destroyers are slightly more powerful, and drop loot much more frequently. It is also important to note that Behemoths are resistant to Holy Damage, whereas Destroyers are weak to Holy Damage.",
+        "abilities": [
+            "Melee (0-500)",
+            "Throws Boulders (0-200) Destroyer",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 80%",
+            "Holy 103%",
+            "Ice 115%",
+            "Fire 70%",
+            "Energy 0%",
+            "Earth 80%"
+        ],
+        "location": "Pits of Inferno, Formorgar Mines, Alchemist Quarter, Oramond Dungeon and Grounds of Destruction.",
+        "behaviour": "They are extremely fast when hasted but slower than a behemoth if they don't haste.A destroyer attacks in melee range. A destroyer never retreats.",
+        "strategy": "They are pretty much like a Behemoth with the same attacks and slightly less hit points. A blocker is recommended to hunt these, a 100+ Paladin or a 80+ Knight should be fine, while 1 or more shooter attack it. Mages should attack with Ice Strike while paladins use Divine Missile along with their desired distance weapon. An effective spot for Paladins is deep in the Formorgar mines (according to this video), here, where you can throw a fire wall from the south-east corner to where the mineshaft tracks intersect, forcing destroyers to go diagonal at the north-east nook created by the wall. From there, just walk back and forth between the intersection while luring more destroyers from the east and south. Try to avoid the west end of the mine as there is a Plaguesmith that will walk right through the wall and be an all around nuisance. Knights can solo hunt Destroyers with ease and profit if they are level 200+ and are using an elemental ice weapon such as Winterblade or Cobra Axe and Summon Skullfrost.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Demonic Essence",
+            "Crowbar",
+            "Burst Arrow",
+            "Dark Armor",
+            "Small Amethyst",
+            "Metal Spike",
+            "Soul Orb",
+            "Pick",
+            "Plate Armor",
+            "Platinum Coin",
+            "Giant Sword",
+            "Great Health Potion",
+            "Steel Boots",
+            "Chaos Mace",
+            "Dreaded Cleaver",
+            "Mind Stone",
+            "Crystal Necklace",
+            "Death Ring",
+            "Skull Helmet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Energetic_Book",
+        "name": "Energetic Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/97/Energetic_Book.gif/revision/latest?cb=20180607140216&path-prefix=en",
+        "attributes": {},
+        "notes": "Energetic books were originally a race of shapechanging demons that planned to infiltrate Zathroth's hidden hoard of knowledge to steal enough of it to topple the demon princes and rule on their own. Cunning and knowledgeable they snuck their way through wards and wardens. With trickery and their shapeshifting powers they wormed their way into the heart of secrets. The knowledge they coveted so much was almost at their grasp. Though Zathroth might have seen the effort as admirable, their plot was revealed by his librarians and ultimately thwarted. Before they could finalise their coup, they were cornered, revealed and overpowered. Desperately they made a plea they were doing only Zathroth's work and therefore were not guilty but only zealous, for all they wished for was power through secret knowledge. It is said that the god himself spoke the final verdict on the fiends and forced them into the form of the books they tried to steal. He also bound them to the service of his librarians and to aid them through all eternity. The demons not only retained their original power but indeed were somewhat alleviated by the transformation. So in some way the dark god might have granted them a part of their wish. In the eons since then some aspiring spellwielders managed to summon and bind a few of the energetic books to their will. Most of them are said to be still bound to the holy places of Zathroth, serving as guardians, messengers and even power sources for certain twisted experiments. Little of their ambitious egos remained after all the centuries of servitude. All that's left of them is eagerness to see others suffer too. Their numbers might have declined over the centuries but still there are many of the once proud race around, disgraced, enslaved and with the hatred of centuries to be unleashed on any foolhardy creature they might be sent after.",
+        "abilities": [
+            "Melee (0-500)",
+            "Self-Healing (400+)",
+            "Energy Strike (600-750) Energetic Book",
+            "Energy Berserk (800-1000) Energetic Book",
+            "Stars Beam (650-800) Energetic Book",
+            "Holy Beam (500+) Energetic Book"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 0%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 110%"
+        ],
+        "location": "Secret Library energy section.",
+        "behaviour": "An energetic book attacks in melee range. An energetic book never retreats.",
+        "strategy": "Energetic Books deal considerable Holy Damage as well, so protection against both Energy and Holy are recommended when hunting them.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Glowing Rune",
+            "Ultimate Health Potion",
+            "Ultimate Mana Potion",
+            "Energy Ball",
+            "Silken Bookmark",
+            "Lightning Pendant",
+            "Lightning Boots",
+            "Lightning Legs",
+            "Lightning Headband",
+            "Might Ring",
+            "Wand of Defiance",
+            "Spellweaver's Robe",
+            "Haunted Blade",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Energuardian_of_Tales",
+        "name": "Energuardian of Tales",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/68/Energuardian_of_Tales.gif/revision/latest?cb=20180615200646&path-prefix=en",
+        "attributes": {},
+        "notes": "The energuardians of tales serve as a kind of head librarians but also messengers of Zathroth, the good of the secrets of dark magic. While some of their race still serves his brother Uman, who had a hand in their creation, a good part of them defected to the service of Zathroth when the world was still young. Seekers and preservers of knowledge to the core of their very essence is bound to the principles of Uman-Zathroth. The energuardians are extremely intelligent, with several independent brain spheres that by choice can work separately or in unison. They are constantly occupied with several projects at once and only a few spheres of them sleep at the same time. Even in face of mortal threat they are usually distracted by 'more urgent' matters. Still dangerous and powerful, it's hard to tell what potential an energuardian could unleash, if he'd ever focussed on a single issue like a fight. Though in general very reasonable, the energuardians are also devout followers of Zathroth and very strict in heeding their obligations. They are aware of their status, power and knowledge and behave extremely arrogant and dismissive towards other races and underlings. Each of them possesses a unique personal book that is no book at all but rather a scrying device which can display the contents of any other book it memorised and access books stored in the personal book of another energuardian within a certain radius. Each of those books is connected to the books of each other guardian and through willpower they can send written messages to the books of other energuardians. This form of communication has become so popular to their kind, that it completely replaced spoken language within their whole race. Only reluctantly they use their underdeveloped speech organs to communicate with lesser creatures.",
+        "abilities": [
+            "Melee (0-500)",
+            "Energy Strike (1200-1600) Energuardian of Tales",
+            "Energy Berserk (650-800) Energuardian of Tales",
+            "Energy Ball (550-650) Energuardian of Tales",
+            "Electric Beam (650-850) Energuardian of Tales"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 0%",
+            "Earth 112%"
+        ],
+        "location": "The Secret Library energy section.",
+        "behaviour": "An energuardian of tales attacks in melee range. An energuardian of tales never retreats.",
+        "strategy": "The Energuardian of Tales can deal massive damage to its target when it combos its attacks, specially the Energy Strike. When combined with other Energuardians, these combos can be fatal even to high level players. It's recommended to wear a lot of Energy Damage protection when fighting them. Holy Damage protection is also recommended because of the other creatures they spawn with.",
+        "loot": [
+            "Book Page",
+            "Small Amethyst",
+            "Glowing Rune",
+            "Flash Arrow",
+            "Lightning Legs",
+            "Ultimate Health Potion",
+            "Ultimate Mana Potion",
+            "Wand of Starstorm",
+            "Spellbook of Warding",
+            "Lightning Pendant",
+            "Might Ring",
+            "Platinum Amulet",
+            "Wand of Defiance",
+            "Spellweaver's Robe",
+            "Shockwave Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Enthralled_Demon",
+        "name": "Enthralled Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Demon.gif/revision/latest?cb=20150414134039&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 112%",
+            "Ice 112%",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fire_Devil",
+        "name": "Fire Devil",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f7/Fire_Devil.gif/revision/latest?cb=20240228100312&path-prefix=en",
+        "attributes": {},
+        "notes": "Fire Devils are very ugly creatures that have been spotted in the deserts of Tibia. Nobody knows where these beings came from. Just like the devils from the myths, they carry a pitchfork with them and one of their feet is that of a goat. But are they real devils? However, their pungent gaze makes the experienced traveller shaken and their fireballs are quite dangerous. Usually found close to stronger fire-type creatures like Dragons or Fire Elementals. They are good summons for blocking creatures with fire-type distance attacks, like Diabolic Imps. \nBe careful with these though, as their Explosion can hit you or hit other players which may give you a White Skull in PVP worlds. They used to give 110 exp before Update 8.5",
+        "abilities": [
+            "Melee (0-35)",
+            "Plus-shaped fireball (60-95) Fire Devil",
+            "Fire Ball (60-95) Fire Devil"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 110%",
+            "Ice 120%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 80%"
+        ],
+        "location": "Desert Dungeon, Ancient Temple, Magician Tower, Shadow Tomb, Ghostlands, Goroma, Plains of Havoc at Ornamented Shield Quest, Spike Sword Quest.",
+        "behaviour": "They like to keep distance between themselves and their target while using strong distance attacks, this can be dangerous for low level players.A fire devil attacks from a distance.",
+        "strategy": "They wont come to you, you will have to go to them. Knights, should rush up to them and attack with full power, since they are weak to physical attacks.\nLow level Mages, should try fighting them with a Stealth Ring or, if learnt, the Invisible spell. You can kill Fire Devils fairly easily with ice attacks, but if you have no ice attacks then death attacks should be your next choice, as they have less resistance to death than to other elements. Magic Shield may also be helpful.\nIf you are a Paladin with skills of 40 or higher and some healing potions, it should be  easy for you to kill Fire Devils, if you are using a shield you can try to trap them, this way they will use their melee and do less distance attacks.",
+        "loot": [
+            "Blank Rune",
+            "Small Pitchfork",
+            "Torch",
+            "Double Axe",
+            "Scimitar",
+            "Necrotic Rod",
+            "Cleaver",
+            "Small Amethyst",
+            "Guardian Shield",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Floating_Savant",
+        "name": "Floating Savant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e7/Floating_Savant.gif/revision/latest?cb=20180607130126&path-prefix=en",
+        "attributes": {},
+        "notes": "Floating savants are reanimated husks that are inhabited by the spirit of a deceased scholar. Technically they are created from the bodies of burnt out guardians of tales. Sometimes the guardians absorb too much or too dangerous knowledge so their minds become destroyed. Not to waste their nigh immortal bodies, they are salvaged to host the mind of a notable Zaothroth scholar of any race who reaches the end of his lifespan. Through secret arcane rituals the mind is extracted from the dying body and fused with the soulless shell of the guardian. The process is not without danger though and often the transfer shatters mind and soul of the scholar. For most followers of Zathroth taking that risk pales compared to the opportunity to pursuit their quest for knowledge for an eternity. The new physiology requires a long time of recuperating and adjusting for the savants. Especially the floating is a difficult art to master for most. While newly created floating savants retain their original personality, over the centuries their new body with little need for sleep, nutrition and worldly pleasures changes their behavior and outlook on the world significantly. Emotions and most ambitions aside for learning as much as they can, become more and more irrelevant. While at first zealously follow their research of their mortal days, for most of them the pursuit of their original fields of their studies soon becomes too little to fill their new won time and they begin to widely broaden their fields of research. For some those studies end abruptly with their own minds torn apart by forbidden knowledge and their bodies been reused again. Others live through the ages, more and more becoming removed from the world in their minds. Constantly creating, evaluating and comparing new theories and concepts they have little awareness of their surroundings and pay little attention to things short of imminent threats and hazardous environments. Most places that house floating savants use arcane alarm systems for that reason. Whenever a threat arises, this silent alarm is raised in the complex and waves of arcane energy are sent out, that disrupt the concentration of the savants, so that they turn their attention to their surroundings. Obviously the savants are not amused by this disruption by mundane threats and react with anger, eager to return to their studies as soon as possible. In combat they rely on spells and the inherit abilities of their bodies although they are not particularly trained in the usage of the latter.",
+        "abilities": [
+            "Melee (0-300)",
+            "Small Fireball (250-450)",
+            "Blood Beam (250-450)",
+            "Blood Berserk (250-600)",
+            "Summons (1 Lava Lurker Attendant )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "The Extension Site",
+        "behaviour": "It fights in close range and rarely retargets.A floating savant attacks in melee range. A floating savant never retreats.",
+        "strategy": "The Floating Savant combos its spells very frequently, easily dealing 1200+ damage in one turn. Blockers should avoid staying in front of it, and fire protection equipment is very useful.",
+        "loot": [
+            "Red Gem",
+            "Red Piece of Cloth",
+            "Demonic Essence",
+            "Small Enchanted Ruby",
+            "Red Crystal Fragment",
+            "Flask of Demonic Blood",
+            "Book of Necromantic Rituals",
+            "Pick",
+            "Black Skull (Item)",
+            "Sample of Monster Blood",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Flying_Book",
+        "name": "Flying Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Flying_Book.gif/revision/latest?cb=20180607130124&path-prefix=en",
+        "attributes": {},
+        "notes": "The flying books are a creation of the squid race. They developed special sets of runes to write down their psionic knowledge while encrypting it at the same time. Over time they figured out how to arrange the psionic runes to create certain effects. The hovering of the flying books was the very first breakthrough in this area. In the centuries that followed, the squid race honed their skills and created a own caste of 'authors' to create weaponized books with psionic powers that emulate spells. Most of these tomes are hidden from the eyes of foreigners in their hidden enclaves. But the rather common flying books accompanied their squid masters to many of the laces they went to. The flying books are so mundane and replaceable for the squids, that they don't take great care of them and just leave them behind when they leave an area. Sometimes skillful magicians managed to re-purpose the flying books and subvert their control by binding them to their own. Though not particular more powerful then comparable bind golems the sheer rarity of flying books outside the squid community make them a prestige object for many aspiring magic users. Warnings that those books might have been just 'allowed' to be found and repossessed to allow the squids spying on others have yet to be proven and haven't stopped many from acquiring such a prestigious object. The idea that a device could constantly transmit information to its creator does nothing to diminish its popularity in comparison of the need of many to show off. That way flying books have been introduced to many places in the known world. Some failed attempts to overwrite the books initial conditioning have even lead to the creation of 'rogue' books that roam around on their own in their mindless pursuit of whatever random impulse might guide them in the moment. It can be tamed using a Library Ticket .",
+        "abilities": [
+            "Melee (25-100)",
+            "Self-Healing (20-125)",
+            "Energy Strike (10-50) Flying Book"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 10%",
+            "Ice 70%",
+            "Fire 85%",
+            "Energy 95%",
+            "Earth 50%"
+        ],
+        "location": "One can be found here and in each section of the Secret Library.",
+        "behaviour": "It's much weaker than the other Animated Books and shouldn't be a threat.A flying book attacks in melee range.",
+        "strategy": "Simply kill it or ignore it.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frost_Flower_Asura",
+        "name": "Frost Flower Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9a/Frost_Flower_Asura.gif/revision/latest?cb=20180607130129&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who usually hide their true face and appear in the form of beautiful women. Though they can take different shapes they favour a seductive appearance, for example in the form of young dancers. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims.\nThere are several kinds of asuri. The frost flower asuri have pale skin and white hair, favouring clothes in the colours white and light blue. They are associated with ice and snow and prefer to use magic rather than weapons.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 80%",
+            "Holy 70%",
+            "Ice 0%",
+            "Fire 115%",
+            "Energy 100%",
+            "Earth 110%"
+        ],
+        "location": "Asura Palace.",
+        "behaviour": "A frost flower asura attacks from a distance. A frost flower asura never retreats.",
+        "strategy": "Try to trap it into a corner if you're killing just one, otherwise use area attacks to damage all other creatures. Energy Damage or Earth Damage is recommended because it will also damage the other Asuri.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Small Sapphire",
+            "Small Ruby",
+            "Small Emerald",
+            "Small Topaz",
+            "Yellow Gem",
+            "Silver Brooch",
+            "Silver Amulet",
+            "Assassin Star",
+            "Flask of Demonic Blood",
+            "Demonic Essence",
+            "Crystal Ring",
+            "Golden Lotus Brooch",
+            "Great Health Potion",
+            "Peacock Feather Fan",
+            "Soul Orb",
+            "Northwind Rod",
+            "Hailstorm Rod",
+            "Skullcracker Armor",
+            "Blue Robe",
+            "Oriental Shoes",
+            "Assassin Dagger",
+            "Gold Ingot",
+            "Blue Gem",
+            "Spellbook of Mind Control",
+            "Black Pearl",
+            "Small Diamond",
+            "White Pearl",
+            "Tribal Mask",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Fury",
+        "name": "Fury",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b0/Fury.gif/revision/latest?cb=20171222135001&path-prefix=en",
+        "attributes": {},
+        "notes": "These female demons are known to enrage themselves into such hatred and fury that their hair starts to burn and tiny flames sprout all over their body. Although of deceptive beauty, the Fury is a bloodthirsty monster that knows no remorse. A Fury will not listen to logical arguments or accept surrender. Fight is everything they think about and care for. Her hands can turn into fiery claws that can shred a shield to pieces with ease and their incredible strength belies their slender and fragile stature. A Fury's hatred is so strong that it provides them with an unearthly resilience which can only be stopped by death. Literally too hot-headed to lead any sizeable force into battle, the demons employ them on missions of carnage and chaos. Even when not in combat, they tend to destroy things just for the fun of it. After all a Fury is a creature of hatred and destruction. Some demons employing the services of Furies keep them chained until the very last moment. Needless to say that this treatment drives the Fury in an even greater frenzy. Other demons enjoy to lock up prisoners in a cell with a handful of Furies and to watch the spectacle. A creature of hatred and destruction fueled by insatiable rage. These creatures are able to use strong haste and thus become incredibly fast and almost IMPOSSIBLE to outrun. In 2008 winter update a bug made Furies buff the players which increased the skills with about 25-55+ for few seconds. People believe they have orange hair, but they actually have red hair.",
+        "abilities": [
+            "Melee (0-509)",
+            "Death Throwing Stars (0-250) Fury",
+            "Throwing Stars ( paralyzes you) Fury",
+            "Life Drain Berserk (0-300) Fury",
+            "Explosion Wave (200-300) Fury",
+            "Blood Beam (0-700) Fury",
+            "Self Blood Ball (0-300) Fury",
+            "Music Bomb around itself (Reduces Shielding ) Fury",
+            "Music Bomb around itself (Reduces Melee ) Fury",
+            "Music Bomb around itself (Reduces Distance ) Fury",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 110%",
+            "Holy 70%",
+            "Ice 95%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Pits of Inferno (Apocalypse's Throne Room), The Inquisition Quest (The Shadow Nexus, Battlefield), Vengoth, Fury Dungeon, Oramond Fury Dungeon, The Extension Site, Grounds of Destruction and Halls of Ascension.",
+        "behaviour": "Its most distinctive behavior is its high speed which helps it reach its target very quickly.A fury attacks in melee range.",
+        "strategy": "When you hunt Furies in PoI area, have a blocker lure them to a small 1 SQM wide bridge in the Apocalypse's throne room. Then have at least 3 shooters using SD runes, Explosion runes or energy/earth based attacks. If you face them in an open area, make sure the blocker stays clear of the wave attacks.",
+        "loot": [
+            "Gold Coin",
+            "Flask of Demonic Blood",
+            "Jalapeno Pepper",
+            "Demonic Essence",
+            "Soul Orb",
+            "Terra Rod",
+            "Great Health Potion",
+            "Slightly Rusted Legs",
+            "Small Amethyst",
+            "Red Piece of Cloth",
+            "Platinum Coin",
+            "Noble Axe",
+            "Orichalcum Pearl",
+            "Steel Boots",
+            "Assassin Dagger",
+            "Crystal Ring",
+            "Death Ring",
+            "Golden Legs",
+            "Assassin Star",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Gozzler",
+        "name": "Gozzler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e8/Gozzler.gif/revision/latest?cb=20171218214200&path-prefix=en",
+        "attributes": {},
+        "notes": "The so-called hunger demons are often conjured to spread famine in certain areas. Even though they are little, it is known that they can devour whole cows in just a few heartbeats. Their appetite seems endless and their mouths are as elastic as their teeth and claws are sharp. Whoever has seen one of these little monsters devouring something four times bigger than themselves will no longer make fun of their small stature. Even if they are categorised as weaker demons, they do not seem to care much about hierarchy. All they are interested in is eating. When being in our world, they swallow everything that is in some way edible, or can at least be crushed with their teeth. They usually start with grain and livestock or occasionally some peasant who did not get away fast enough. Then they proceed with all other kinds of animals, insects and finally plants. Finally, they stuff themselves with dead wood and other materials. Considering their incredible greed, they rarely appear in bigger packs. If anything, they form small groups.These demons are also quite knowledgeable in the arcane arts, even though they hardly use spells on their own. They are often summoned by aspiring wizards to learn from the Gozzlers. Since the little demons are not overly pleased to be forced into our world, they have to be bribed to share their knowledge. For huge amounts of food, the demons reveal little pieces of their knowledge. Many knowledge seekers have been close to the verge of ruin due to the appetite of their demonic teachers.",
+        "abilities": [
+            "Melee (0-110)",
+            "Life Drain (32-135) Gozzler",
+            "Self-Healing (30-50)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 50%",
+            "Holy 50%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Magician Quarter, cave in Beregar, Farmine Mines.",
+        "behaviour": "Gozzlers are hungry imps with two mouths. They fight to the death.A gozzler attacks in melee range.",
+        "strategy": "Kill it like a Monk.",
+        "loot": [
+            "Gold Coin",
+            "Brown Flask",
+            "Sabre",
+            "Plate Shield",
+            "Battle Axe",
+            "Morning Star",
+            "Clerical Mace",
+            "Small Sapphire",
+            "Dwarven Ring",
+            "Serpent Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Grimeleech",
+        "name": "Grimeleech",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bd/Grimeleech.gif/revision/latest?cb=20151112211909&path-prefix=en",
+        "attributes": {},
+        "notes": "The Grimeleech is a strange breed of demon that only recently surfaced. It seems that there was once an ancient demonic progenitor race of lesser demons which infested the demonic realm like vermin and survived on the garbage of higher demons. In the last few decades, this lesser demon vermin seemingly vanished completely and instead, the Grimeleech surfaced. Some self-proclaimed experts on demonology and zoology claim that the Grimeleech is somehow connected to the Hive creatures, but even they heatedly debate whether the Hive in some way infected the demons, or whether the demons absorbed some of the Hive's attributes. It is undeniable though that the Grimeleech breed soon left its mark in the ranks of demonkind. Especially their ability to harmoniously work together is a trait rarely seen in demons. The vast number of Grimeleeches spread out into different swarms led by powerful matriarchs. In something resembling a forced evolution, Grimeleeches grew significantly in power and importance in the demonic ranks. Other demons eye them suspiciously, and while some will not accept them as true demons at all, others are more concerned with where and when the Grimeleeches' increase in power and abilities might end. However, Grimeleeches usually stick to their own and mind their own sinister businesses. They inhabit the more unpleasant, least contested spaces in the demonic realms, and are highly territorial. \nOnly recently some demon lords have recognised their potential and tried to integrate them into their forces; and others soon followed so as not to leave a potential weapon solely at their rivals' disposal. The Grimeleech matriarchs seem unconcerned about sending some of their troops to assist the demonic leaders, if only for the fact that the little time and resource it costs to replace some fallen soldiers is of small consequence to them. The birth rates of the Grimleech can swell to enormous numbers if required by the matriarchs. How the demons really reproduce is shrouded in mystery, though. In combat, they show little regard for their own health and try to cause as much damage as possible. While the ordinary Grimeleeches seems to have little personality, and no ambition beyond serving their matriarchs, it would be wrong to say they enjoy the carnage and bloodshed they are often involved in. Instead, they are just frighteningly unconcerned and highly efficient. These facts make the Grimeleech a force to be reckoned with; and one that might further shake and change demonic society.",
+        "abilities": [
+            "Melee (0-450)",
+            "Green Lifedrain Beam (550-950) Grimeleech",
+            "Death Bomb (350-400) Grimeleech",
+            "Throws Viper Stars (50-200) Grimeleech",
+            "Throws Glooth Spear bombs Grimeleech",
+            "Mana Drain Wave (0-250) Grimeleech",
+            "Self-Healing (200-300)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 40%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 80%",
+            "Energy 105%",
+            "Earth 60%"
+        ],
+        "location": "Grounds of Damnation, Grounds of Deceit, Grounds of Despair, Grounds of Fire, Grounds of Plague, Halls of Ascension and Hell Hub.",
+        "behaviour": "They retarget sometimes, so using a Dwarven Ring is advisable for shooters or in case of running them.A grimeleech attacks in melee range.",
+        "strategy": "A party consisting of a Knight and Druid or shooters can take them down with reasonable profit. Avoid standing in front as waves can deal high damage and drain mana. Wearing a Dwarven Ring is advisable for shooters standing away.\nIt is also heavily advised to wear a Garlic Necklace to get a hefty protection against most of its' attacks.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Small Diamond",
+            "Small Amethyst",
+            "Small Topaz",
+            "Small Ruby",
+            "Green Mushroom",
+            "Fire Mushroom",
+            "Great Spirit Potion",
+            "Great Health Potion",
+            "Flask of Demonic Blood",
+            "Some Grimeleech Wings",
+            "Demonic Essence",
+            "Underworld Rod",
+            "Wand of Voodoo",
+            "Red Gem",
+            "Yellow Gem",
+            "Devil Helmet",
+            "Magma Legs",
+            "Demon Shield",
+            "Nightmare Blade",
+            "Blue Gem",
+            "Rift Lance",
+            "Rift Crossbow",
+            "Steel Boots",
+            "Rift Shield",
+            "Rift Bow",
+            "Abyss Hammer",
+            "Vile Axe",
+            "Magic Plate Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Guardian_of_Tales",
+        "name": "Guardian of Tales",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/05/Guardian_of_Tales.gif/revision/latest?cb=20180608202545&path-prefix=en",
+        "attributes": {},
+        "notes": "The guardian of tales is a librarian and curator to its core. A good part of their enormous brain patterns are dedicated to organizing, comparing, analyzing, evaluating and memorizing new and old knowledge. They could be considered living, mobile libraries on their own. They often work in tandem with animated feathers to create new books or recreate old ones. They serve as the main copyists of Zathroth and are responsible for spreading certain knowledge while withholding other for the worthy. The guardians are zealous followers of Zathroth and as such developed their own, twisted philosophy around their teachings, so it's not uncommon for them to twist and alter texts that they produce to fill them with traps that will spell doom for the unwary and unworthy. One of their most prominent creation is that of a living, sentient runic alphabet. Those runes are able to spread like a disease amongst books and texts, change and subvert their contents and rumor has it, that it might even in some strange way may spread to sentient beings in some way. Though reclusive and more concerned about knowledge and service to Zathroth, when cornered or in service of forbidden knowledge the guardians are more then willing to engage in a fight. They use their knowledge to weave powerful spells and their only true weakness is, that they are way better in the theoretical application of their knowledge then the practical one. This leaves an opening at least for some highly skilled adventurer to weather their waves of attacks and pierce their wards and protections to overpower them. Defeating a guardian of tales though is not an easy task and surely none that pleases the god of forbidden knowledge.",
+        "abilities": [
+            "Melee (0-600)",
+            "Death Strike (1000-1600) Guardian of Tales",
+            "Fire Berserk (600-800) Guardian of Tales",
+            "Flames Ball (500-650) Guardian of Tales",
+            "Blood Beam (400-750) Guardian of Tales"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 100%",
+            "Ice 112%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library fire section.",
+        "behaviour": "A guardian of tales attacks in melee range. A guardian of tales never retreats.",
+        "strategy": "Guardians of Tales are found alongside Burning Books and Rage Squids, but usually in lower numbers. These creatures can deal heavy combos, specially when in front of their targets, so stay diagonal whenever possible. Their Death attack is very strong and usually not absorbed by any equipment, which is usually Fire Protection when hunting these creatures, so be careful when multiple Guardians of Tales are present in a single pull.",
+        "loot": [
+            "Small Diamond",
+            "Platinum Coin",
+            "Burnt Scroll",
+            "Book Page",
+            "Glowing Rune",
+            "Wand of Inferno",
+            "Soul Orb",
+            "Fire Axe",
+            "Spellbook of Warding",
+            "Piece of Hellfire Armor",
+            "Magma Legs",
+            "Magma Coat",
+            "Fire Sword",
+            "Coal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hellflayer",
+        "name": "Hellflayer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2a/Hellflayer.gif/revision/latest?cb=20151112212404&path-prefix=en",
+        "attributes": {},
+        "notes": "Hellflayers have hitherto been rarely seen in the realms of mortals. While other demons are known for their sheer strength and destructive power, Hellflayers are more dreaded and revered for their malicious cunning. Usually, they prefer to stay in the demon strongholds and spend their time plotting and scheming, although they seem to be involved with the spreading of certain spells which allow mortals to call them into their world. If they are summoned, it is usually a specific Hellflayer that can be called, and instead of being used as a help in battle, they are more prized as advisors and teachers of the dark arts. The reason for their eagerness to be summoned might be related to the fact that they often offer blood pacts to their summoners, and serve as emissaries of darker powers. Their offers are forbidden knowledge about artefacts, skills and spells, and their demands vary from seemingly harmless and easy deeds in their service to claiming parts of the summoner's soul. Hellflayers often keep close contact to their summoners and lure them deeper and deeper into their dark web. This is commonly known among summoners, but the appeal of the power and knowledge the Hellflayers offer has been hard to resist for many a curious mind. And while only the most foolish believe themselves to be the master of their summoned creature, in the end many fall victim to the hidden snares the Hellflayers add to their deals and pacts.\nHellflayers aren't free from vanity of their own, though. They tend to see themselves as somewhat of the demonic aristocracy, courting the various demon lords and princes with their services. Though generally more interested in corrupting and enthralling mortals, their arsenal of spells makes them a formidable opponent if they are forced to fight. Especially the places they call home are fiercely protected. But even then, they prefer to rely on other demons to take the beating, and readily sacrifice them for their own survival.",
+        "abilities": [
+            "Melee (0-?)",
+            "Death Beam (850-1250) Hellflayer",
+            "Shoots Flaming Arrows (450-650) Hellflayer",
+            "Throws stars (400-550) Hellflayer",
+            "Shoots Burst Arrows (300-500) Hellflayer",
+            "Physical Bomb (400-500) Hellflayer",
+            "Self-Healing (150-550)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 75%",
+            "Holy 105%",
+            "Ice 95%",
+            "Fire 30%",
+            "Energy 105%",
+            "Earth 80%"
+        ],
+        "location": "Grounds of Damnation, Grounds of Despair, Grounds of Destruction, Grounds of Fire, Grounds of Plague, Grounds of Undeath, Halls of Ascension and Hell Hub",
+        "behaviour": "A hellflayer attacks in melee range. A hellflayer never retreats.",
+        "strategy": "These are one of the strongest non-boss creatures in the game and their beam is extremely dangerous.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Flask of Demonic Blood",
+            "Demonic Essence",
+            "Pair of Hellflayer Horns",
+            "Great Spirit Potion",
+            "Great Mana Potion",
+            "Ultimate Health Potion",
+            "Small Amethyst",
+            "Small Emerald",
+            "Small Diamond",
+            "Gold Ingot",
+            "Small Ruby",
+            "Small Topaz",
+            "Giant Shimmering Pearl (Green)",
+            "Red Gem",
+            "Violet Gem",
+            "Rift Lance",
+            "Magma Boots",
+            "Magma Legs",
+            "Green Gem",
+            "Titan Axe",
+            "Mastermind Shield",
+            "Rift Shield",
+            "Rift Crossbow",
+            "Rift Bow",
+            "Golden Armor",
+            "Demonbone Amulet",
+            "Skull Helmet",
+            "Magic Plate Armor",
+            "Spellbook of Mind Control",
+            "Heavy Mace",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hellhound",
+        "name": "Hellhound",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/50/Hellhound.gif/revision/latest?cb=20061212194952&path-prefix=en",
+        "attributes": {},
+        "notes": "There are things that roam the realms of the otherworlds that give even demons a shiver. The Hellhound is one of those creatures. Being worse than beast or demon, it combines the most fearsome and most dangerous traits of both kinds to an amalgam of fearsome power. Containing the malice and ferocity of three demons, the Hellhound uses the malignant abilities of its three heads to cause as much damage as it can.Said to be three times meaner than the average hellbeast, its three heads are so frightening in their hellish rage that lesser men are said to have died already on sight of this walking menace of ichor and fangs. Sometimes one of these demon beasts is captured and trained by powerful demons to something that could be vaguely called a forced loyalty to their fearsome masters. As long as they respect their masters as the stronger one, they are relatively obedient. Still, nobody can tell when they might turn on their master or when they are driven into a frenzy that let them forget any bonds they might have shared. Hellhounds are known to get in such a rage that they not seldom heavily wound their own heads. Still large numbers of those beasts are bred and captured on order of several demonlords. They are as often employed to frighten an enemy or a rival as they are used as a status symbol to prove their might and disregard of danger ... and the lives of their other minions as well. The hellhound was conceived based on ideologies of Greek and Roman mythology. Cerberus is a three-headed hound who guards the gates of Hades. In Tibia, they guard a path to the throne room of Infernatil. From this, the sprite was created. The name however came from both the description of Cerberus, and from clever wordplay: hellhound is also a demonic entity. These hellish minions are often considered to be guardians of the entrance to world of the dead or afterlife. Similarly in Tibia, they reside in the fiery depths of Pits of Inferno. These creatures appeared in the Winter Update 2006 when the Pits of Inferno were opened.",
+        "abilities": [
+            "Melee (0-508+ and starting up to 40 hp/turn)",
+            "Earth wave (300-700) Hellhound",
+            "Life Drain wave (250-657+) Hellhound",
+            "Fire Wave (50-662+) Hellhound",
+            "Death Missile (395-498?) Hellhound",
+            "Poison Strike (100-549?) Hellhound",
+            "Fire Missile (100-403+) Hellhound",
+            "Self-Healing (250-450)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 105%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 90%",
+            "Earth 80%"
+        ],
+        "location": "Infernatil's Throneroom The Inquisition Quest Area, Hellgorge, Roshamuul Prison, Chyllfroest, Oramond Dungeon, The Extension Site and Asura Vaults.",
+        "behaviour": "A hellhound attacks in melee range. A hellhound never retreats.",
+        "strategy": "Their melee attack is considerable weaker than their wave attacks (which are fatal if shot together) so it's best to have a knight blocking it while standing diagonal. Magic Walls and Wild Growth can be used to help the knight in staying diagonal and preventing it from retargeting. These creatures are very strong so don't underestimate them: always have a good blocker and more than three shooters to slay them quickly. Use Ice and Holy based attacks.",
+        "loot": [
+            "Platinum Coin",
+            "Great Mana Potion",
+            "Ham",
+            "Assassin Star",
+            "Great Spirit Potion",
+            "Hellhound Slobber",
+            "Soul Orb",
+            "Demonic Essence",
+            "Flask of Demonic Blood",
+            "Ultimate Health Potion",
+            "Small Ruby",
+            "Blazing Bone",
+            "Fiery Heart",
+            "Wand of Inferno",
+            "Black Pearl",
+            "Small Emerald",
+            "Small Topaz",
+            "Hardened Bone",
+            "Yellow Piece of Cloth",
+            "Knight Axe",
+            "Fire Sword",
+            "Green Piece of Cloth",
+            "Red Gem",
+            "Yellow Gem",
+            "Magma Boots",
+            "Red Piece of Cloth",
+            "Amber Staff",
+            "Gold Ingot",
+            "Magma Amulet",
+            "Magma Legs",
+            "Ruthless Axe",
+            "Green Gem",
+            "Giant Sword",
+            "Magma Coat",
+            "Magma Monocle",
+            "Onyx Flail",
+            "Big Bone",
+            "Explorer Brooch",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hellspawn",
+        "name": "Hellspawn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Hellspawn.gif/revision/latest?cb=20221114133936&path-prefix=en",
+        "attributes": {},
+        "notes": "The Hellspawn is a creature that is neither fully a demon nor a living creature. They are grotesque hybrids being the result of experiments to breed certain demons with beasts. Their appearance and level of intelligence can vary widely, though a number of them are so deformed that they do not even survive birth. Some Hellspawns look very much like their beast parent and often are mistaken for some animal until they show their devastating powers. The majority of Hellspawns, however, looks quite alike as the cross-breeding of demons with beasts seems to result in a certain appearance. Hellspawns are wild, always hungry and have a short temper.Even though, they are very strong, they prefer sneak attacks and to fight in groups. If cornered, a Hellspawn will fight with a fearsome ferocity that uses the power and skills of both inherited species.Possessing demonic immortality, the Hellspawn usually outlives its original purpose and is then  abandoned by its creators. Hellspawns are often quite attached to their surrounding, and might stay in an area for decades or even centuries. Sometimes, however, they grow restless and start  to roam the world in search for a new territory. For this reason, it is possible to encounter a Hellspawn almost anywhere. Introduced in the Winter Update 2008. The chance for dropping valuable items has been greatly increased in Summer Update 2009.",
+        "abilities": [
+            "Melee (0-350+)",
+            "Fire Missile (150-175) Hellspawn",
+            "Burning Strike ( Burns you for 10 hp/26 turns) Hellspawn",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 105%",
+            "Holy 70%",
+            "Ice 110%",
+            "Fire 60%",
+            "Energy 90%",
+            "Earth 20%"
+        ],
+        "location": "Magician Quarter, Vengoth, Deeper Banuta (small spawn, here), Formorgar Mines (9x here), Chyllfroest, Oramond Dungeon, Asura Palace, Asura Vaults.",
+        "behaviour": "Hellspawns are fast. They are usually found in groups with other hellspawns, and maybe some other creatures like Plaguesmiths or Gozzlers.A hellspawn attacks in melee range.",
+        "strategy": "Hunting Hellspawns at lower levels requires a small group of players to make a hunt profitable.\nAlso if you're a knight blocking more than one always check your Hit Points because if you are facing two or more they can kill you in one combo, even on a decently high level knight. Mages should keep at a distance as Hellspawns hit rather hard with melee and are pretty fast. It's fairly easy to solo them at level 100, but be careful not to face more than one as they have a strong melee attack. Trying to outrun them while using Ice Strike could help reduce waste. Its fairly easy to solo them with a decent shield and armor while blocking them but its sugested lvl 140+, just take care not to block more than 2. Summons are not a good option since Hellspawns retarget often and die quick with the combined attack of a Hailstorm Rod, Ice Strike and the Knight's attack. Paladins can solo them but at waste or just breaking even depending on your luck. With decent distance and shielding they are solo-able using energy walls. Throw down and energy wall beside you making sure not to make a diagonal line as this can cause problems. Run the Hellspawn around the energy field making sure to refresh the field if need be. Keep lots of potions at hand in case things go bad. Knights hunting in a group of 2-3+ knights is a good option since they hit pretty hard, hunting in groups with a Druid and other shooters is also a very good option. They have good Defense but they aren't that strong against Physical Damage, so a good tactic is to lure 2-8 hellspawns then using Fierce Berserk while a Druid is healing you. The hits will be pretty good.\nSince the implementation of strong melee ice elemental weapons, such as Winterblade, Cobra Axe, Resizer, Hellspawns are fairly easy to kill for 200+ knights.",
+        "loot": [
+            "Gold Coin",
+            "Great Health Potion",
+            "Hellspawn Tail",
+            "Battle Shield",
+            "Morning Star",
+            "Assassin Star",
+            "Ultimate Health Potion",
+            "Demonic Essence",
+            "Red Mushroom",
+            "Small Topaz",
+            "Rusted Armor",
+            "Knight Legs",
+            "Warrior Helmet",
+            "Spiked Squelcher",
+            "Berserk Potion",
+            "Slightly Rusted Armor",
+            "Black Skull (Item)",
+            "Dracoyle Statue",
+            "Onyx Flail",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Icecold_Book",
+        "name": "Icecold Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/3d/Icecold_Book.gif/revision/latest?cb=20180607130122&path-prefix=en",
+        "attributes": {},
+        "notes": "Most icecold books are creations of a long gone race of cryomancers. This race casted their spells always with the books as conduit and amplifier. Therefore they bound powerful spirits of frost and ice into their tomes. The levitating books accompanied them as companions and tools at once. With the vanishing of their creator race, the icecold books became inert. Hungry for the knowledge contained in them, they were stolen and experimented upon. The only way found to unleash their considerable power, was to empower them with a will of their own and bind certain arcane crystals attuned to icemagic into them as an energy source. Thus the books became self-sustained entities that had access to at least some of the ancient spells bound to them. They follow an icecold, yet somewhat malignant logic and can be reasoned with to some degree. Since their creators seemed to have had some deeper connection to Zathroth, they easily ally with his forces. Still they act on their own and might behave strongly unpredictable. Almost indistinguishable from them are newer creations that were attempts to recreate them with modern magic. Though less powerful and less intelligent, these copies are highly obedient to their creators but contain no bound knowledge on their own. Instead they use an array of frost abilities that work more with a brute force method than artfully woven magic like the originals. They are used to provide a reliable source of ice magic, that doesn't drain the mana reserves of its owner. Both versions can be found as status symbols of powerful casters. It is said that a high number of originals was collected and stored away by followers of Zathroth but even they were unable to unlock the final secret knowledge contained in them.",
+        "abilities": [
+            "Melee (0-850)",
+            "Ice Strike (600-800) Icecold Book",
+            "Ice Beam (750-1300) Icecold Book",
+            "Ice Tornado (650-950) Icecold Book",
+            "Self-Healing (200-350)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 110%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Secret Library ice section.",
+        "behaviour": "An icecold book attacks in melee range. An icecold book never retreats.",
+        "strategy": "Use as much Ice Damage protection as you can, because this will be the biggest part of the damage when fighting these creatures.",
+        "loot": [
+            "Platinum Coin",
+            "Book Page",
+            "Small Diamond",
+            "Small Sapphire",
+            "Quill",
+            "Frosty Heart",
+            "Silken Bookmark",
+            "Ultimate Mana Potion",
+            "Ultimate Health Potion",
+            "Diamond Sceptre",
+            "Ice Rapier",
+            "Glacier Mask",
+            "Sapphire Hammer",
+            "Crystal Mace",
+            "Glacier Kilt",
+            "Glacier Robe",
+            "Glacier Shoes",
+            "Strange Helmet",
+            "Ice Cube",
+            "Glacial Rod",
+            "Crystalline Armor",
+            "Leviathan's Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Infernal_Demon",
+        "name": "Infernal Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ac/Infernal_Demon.gif/revision/latest?cb=20220602202136&path-prefix=en",
+        "attributes": {},
+        "notes": "The infernal demons are fresh shock troops that arrived in Zarganash only recently. Mostly oblivious to the hostile environment and haughty with the self-image of superiority, these demons fear nothing and no one and see themselves as the new rulers of the realm by right, born out of might. Little do they know yet, about the transforming horrors that await them and will erode even their arrogance. For now they delight the torture and mayhem that they can wreak in the plane, seemingly mostly unsupervised by their superiors. More often than not those superiors used the assignment to Zarganash as a method to get rid of troublemakers and malcontents of all kinds. Of course this leads to high levels of internal power struggles and its quite common that small cabals are formed to acquire some temporary power, only to be on each other's throats as soon they notice the slightest weakness of their so-called allies. While evil and treacherous in their core anyway, the madness that gets an ever growing hold on them makes them dangerous even to their own kind. While they retain their conscience they more and more become victims of sudden urges, ideas that are not entirely their own but the whispers of the realm itself. Once a demon has stayed for some time in Zarganash he is no longer welcome amongst their outside brethren and not allowed to leave. As the demonic hierarchy uses assignments to Zarganash as a means to dispose unwanted minions in a subtle and sinister way, sooner or later the consequences of an assignment to Zarganash become obvious. The more the infernal demons become aware of their abandonment, the more they indulge in orgy's of destruction and rage, often aimed at new arrivals in the realm. Whatever the original purpose of their mission might have been, it has long become meaningless to them and most of them are actively sabotaging the efforts of their former masters out of sheer spite - at least this is what they perceive as their motivation.\nOver time most infernal demons become permanently bound to Zarganash and transform into brachiodemoms. It only drops a Bag You Desire for players with at least one of Goshnar's Taints. The more taints you have, the higher the chance. The Bag is always dropped inside a Reward Container so there's no risk of leaving it behind in the creature's corpse.",
+        "abilities": [
+            "Melee (0-2000)",
+            "Poison Beam (400-800)",
+            "Fire Strike (700-1500)",
+            "Self-Healing (500-800)",
+            "Death Ball (800-1300)",
+            "Diagonal Death Beam (1000-1500)"
+        ],
+        "resistance": [
+            "Physical 70%",
+            "Death 50%",
+            "Holy 125%",
+            "Ice 120%",
+            "Fire 60%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Claustrophobic Inferno.",
+        "behaviour": "It retargets very frequently and usually on the character with the lowest maximum health in its view. In most cases, that would be a Sorcerer or a Druid.An infernal demon attacks in melee range. An infernal demon never retreats.",
+        "loot": [
+            "Crystal Coin",
+            "Ultimate Health Potion",
+            "Small Diamond",
+            "Gold Ingot",
+            "Blue Crystal Shard",
+            "Cyan Crystal Fragment",
+            "Red Crystal Fragment",
+            "Magma Amulet",
+            "Magma Boots",
+            "Blue Gem",
+            "Giant Sword",
+            "War Axe",
+            "Mercenary Sword",
+            "Green Crystal Fragment",
+            "Onyx Chip",
+            "Stone Skin Amulet",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Invading_Demon",
+        "name": "Invading Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/75/Demon.gif/revision/latest?cb=20150414134039&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Juggernaut",
+        "name": "Juggernaut",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/72/Juggernaut.gif/revision/latest?cb=20120620225832&path-prefix=en",
+        "attributes": {},
+        "notes": "If there is a seemingly unstoppable force in the ranks of demon kind, it is the infamous Juggernaut. Thought to become extinct in the great wars of the gods, recent sightings of Juggernauts have proven those rumours wrong. Raised in the playpens of the deepest hells, where only the most powerful can survive, about 90% of the Juggernaut population is killed before it reaches adulthood. Those who are not torn into pieces by their merciless brethren or other creatures, grow to enormous, frightening killing machines. Juggernauts are known to be able to slash the head of a dragon with one hit, while fighting back a half-dozen of other dragons. The earth trembles where a Juggernaut walks, heralding the incoming of doom. Seemingly being made up only of armor and muscles, the Juggernaut is incredibly powerful and fast, killing the first opponent and walking to the next in a mere blink. Serving as one-creature armies, the Juggernauts are some of the most powerful weapons at the disposal of the demonlords. The most powerful regular creature between the December Updates of 2006 and 2013, this spot has been taken over by Sight of Surrender. In the official website it says that it can slash the head of a Dragon with one hit, while fighting back a half-dozen of other Dragons.",
+        "abilities": [
+            "Melee (0-700)",
+            "Throws Boulders (0-600) Juggernaut",
+            "Slow Self-Healing (400-700)",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 70%",
+            "Death 100%",
+            "Holy 105%",
+            "Ice 90%",
+            "Fire 70%",
+            "Energy 110%",
+            "Earth 80%"
+        ],
+        "location": "Deep in Pits of Inferno (Apocalypse's throne room), The Dark Path, The Blood Halls, The Vats, The Hive, The Shadow Nexus, a room deep in Formorgar Mines, Roshamuul Prison, Oramond Dungeon, Grounds of Destruction and Halls of Ascension.",
+        "behaviour": "It only wishes death to intruders of it's domain, so it will charge on you with all haste.A juggernaut attacks in melee range.",
+        "strategy": "The Juggernaut's strategy is fairly easy. All that is needed is a blocker with very high skills, health over 2500, and a mage to heal the blocker with UH or a druid with Heal Friend spell, while the rest of party attacks the Juggernaut with SD or energy based spells. Also the knight can use Protector and have 190+ shielding, then the hits go down to an average of 450~ and can heal with Wound Cleansing and some great potions, while the team kills it. They are found in proximity of Furies, Destroyers and Demons, so you can't hunt only Juggernauts. The best place to hunt plain Juggernauts would be the single spawn. They are also very fast, but since they have no wave attacks you can let the blocker lure them to a small 1sqm wide bridge in the Apocalypse's throne room, and just let the shooters attack it with SDs.  The Juggernaut's boss is Massacre also located in Apocalypse's throne room.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Ham",
+            "Demonic Essence",
+            "Soul Orb",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Onyx Arrow",
+            "Assassin Star",
+            "Flask of Demonic Blood",
+            "Small Topaz",
+            "Small Ruby",
+            "Small Amethyst",
+            "Small Emerald",
+            "Small Diamond",
+            "Giant Shimmering Pearl (Green)",
+            "Red Gem",
+            "Gold Ingot",
+            "Spiked Squelcher",
+            "Titan Axe",
+            "Knight Armor",
+            "Green Gem",
+            "War Axe",
+            "Violet Gem",
+            "Golden Armor",
+            "Mastermind Shield",
+            "Demonbone Amulet",
+            "Closed Trap",
+            "Heavy Mace",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Lesser_Fire_Devil",
+        "name": "Lesser Fire Devil",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/52/Lesser_Fire_Devil.gif/revision/latest?cb=20141110192705&path-prefix=en",
+        "attributes": {},
+        "notes": "They are weaker than the Fire Devil but still very strong for Dawnport standards. They can be found below the Dawnport Goblin Cave.",
+        "abilities": [
+            "Melee (0-33?)",
+            "Fire Explosion (4-12)",
+            "Fireball (22-38)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 65%",
+            "Energy 90%",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport",
+        "behaviour": "Unknown",
+        "strategy": "Kill them as soon as you can. Trap the lesser fire devil so it cannot lure you into more creatures.",
+        "loot": [
+            "Gold Coin",
+            "Blank Rune",
+            "Torch",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Librarian",
+        "name": "Librarian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Librarian.gif/revision/latest?cb=20180617153920&path-prefix=en",
+        "attributes": {},
+        "notes": "The Librarian is a unique creature that spawns on the second floor of The Secret Library. It seems to be immune to all damage, as well as dealing Damage Reflection when attacked. It has a unique pathing behavior, seemingly scripted, but with no concrete meaningful details discovered since its release.",
+        "abilities": [
+            "Melee (0-500)",
+            "Damage Reflection (25%)",
+            "Mass Healing (400-650? heals other creatures) Librarian",
+            "Drunkenness Ball Librarian",
+            "Self Star (?) Librarian",
+            "Self Yellow Smoke (?) Librarian",
+            "Self Blue Sparkles (?) Librarian",
+            "Self Green Sparkles (?) Librarian",
+            "Self Red Sparkles (?) Librarian",
+            "Self Green Notes (?) Librarian",
+            "Self Snore (?) Librarian",
+            "Self Fae (?) Librarian"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Secret Library ice section. Spawns here, and appears to follow a path north until reaching here, the limit of its lure radius.",
+        "behaviour": "A Librarian will stay away from its target while continuously healing its allies.",
+        "strategy": "It cannot be killed.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Malicious_Minion",
+        "name": "Malicious Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ea/Malicious_Minion.gif/revision/latest?cb=20180704024027&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 85%",
+            "Energy 85%",
+            "Earth 85%?"
+        ],
+        "location": "Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_a_Book",
+        "name": "Memory of a Book",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0e/Memory_of_a_Book.gif/revision/latest?cb=20220108224105&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a strengthened Flying Book.",
+        "abilities": [
+            "Melee (0-100)",
+            "Self-Healing (200+)",
+            "Energy Strike (50-150?) Memory of a Book"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 10%",
+            "Ice 70%",
+            "Fire 85%",
+            "Energy 95%",
+            "Earth 50%"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "A memory of a book attacks in melee range.",
+        "loot": [
+            "Twigs",
+            "Green Crystal Fragment",
+            "Blue Crystal Shard",
+            "Green Crystal Shard",
+            "Bottle of Champagne",
+            "Special Fx Box",
+            "Gold Coin",
+            "Ultimate Health Potion",
+            "Skull (Item)",
+            "Fishbone",
+            "Great Spirit Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Midnight_Asura",
+        "name": "Midnight Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b4/Midnight_Asura.gif/revision/latest?cb=20150625214344&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who usually hide their true face and appear in the form of beautiful women. Though they can take different shapes they favour a seductive appearance, for example in the form of young dancers. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims.\nThere are several kinds of asuri. The midnight asuri have pale skin and moon-white hair, favouring clothes in the colours black and violet. They are associated with darkness and death and are capable melee fighters.",
+        "abilities": [
+            "Melee (0-387+)",
+            "Self-Healing (120-170+)",
+            "Energy Beam (0-110+)",
+            "Great Death Beam (0-209+)",
+            "Invisibility",
+            "Sudden Death (0-209+)",
+            "GFB area Stars Effect",
+            "Mana Drain (0-107+)",
+            "Energy Strike (0-95+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 70%",
+            "Ice 90%",
+            "Fire 90%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Asura Palace.",
+        "behaviour": "A midnight asura attacks in melee range. A midnight asura never retreats.",
+        "strategy": "Always wear a Dwarven Ring when fighting them otherwise you'll be heavily affected by Drunkenness. Watch out for their invisibility as it's very dangerous for distance fighters trying to run away from them. Do not underestimate these creatures as their physical damage is very strong and they come in large groups.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Flask of Demonic Blood",
+            "Soul Orb",
+            "Golden Lotus Brooch",
+            "Peacock Feather Fan",
+            "Demonic Essence",
+            "Great Health Potion",
+            "Assassin Star",
+            "White Pearl",
+            "Small Diamond",
+            "Small Sapphire",
+            "Silver Brooch",
+            "Black Pearl",
+            "Small Topaz",
+            "Small Ruby",
+            "Small Emerald",
+            "Necrotic Rod",
+            "Tribal Mask",
+            "Silver Amulet",
+            "Yellow Gem",
+            "Underworld Rod",
+            "Blue Robe",
+            "Oriental Shoes",
+            "Assassin Dagger",
+            "Crystal Ring",
+            "Blue Gem",
+            "Skullcracker Armor",
+            "Gold Ingot",
+            "Spellbook of Mind Control",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Misguided_Shadow",
+        "name": "Misguided Shadow",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b3/Misguided_Shadow.gif/revision/latest?cb=20171029203246&path-prefix=en",
+        "attributes": {},
+        "notes": "This demon possesses the Misguided Bullies and the Misguided Thieves.",
+        "abilities": [
+            "Melee (0-?)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "The Humans Cult hideout under the Outlaw Camp.",
+        "behaviour": "Fights in close combat until death.",
+        "strategy": "Unknown",
+        "loot": [
+            "Strong Mana Potion",
+            "Red Gem",
+            "Strong Health Potion",
+            "Onyx Chip",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Nibblemaw",
+        "name": "Nibblemaw",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/aa/Nibblemaw.gif/revision/latest?cb=20240604163422&path-prefix=en",
+        "attributes": {},
+        "notes": "Just like Feyrist, Candia is not completely immune to the invasion of nightmare monsters from neighboring Roshamuul. However, unlike in Feyrist, the nightmares do not arrive in Candia unchanged: they have transformed and are now made entirely of sweets.\nWhen guzzlemaws or frazzlemaws arrive in Candia, they are transformed into giant balls of peppermint with teeth made of the hardest chocolate imaginable. Their thick sugar coating makes them highly resistant to weapon attacks. This sweet transformation may make them look rather cute, but don't be fooled: They are still dangerous predators who prey on the more peaceful inhabitants of Candia. They seem to particularly like the industrious little workers in the chocolate mines, so they pose a serious threat to Candia's chocolate supply and are always a thorn in the side of the Sugar Plum Fairy.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 60%",
+            "Holy 110%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 115%",
+            "Earth 90%"
+        ],
+        "location": "Chocolate Mines",
+        "behaviour": "A nibblemaw attacks in melee range. A nibblemaw never retreats.",
+        "loot": [
+            "Strong Health Potion",
+            "Gold Coin",
+            "Platinum Coin",
+            "Yellow Gem",
+            "Frazzle Tongue",
+            "Frazzle Skin",
+            "Onyx Chip",
+            "Melon",
+            "Red Crystal Fragment",
+            "Gummy Rotworm",
+            "Lime Tart",
+            "Raspberry",
+            "Assassin Dagger",
+            "Dark Chocolate Coin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Nightmare_Tendril",
+        "name": "Nightmare Tendril",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bc/Nightmare_Tendril.gif/revision/latest?cb=20181126121712&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Dream Scar in the room with The Nightmare Beast.",
+        "behaviour": "Nightmare tendril never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Plaguesmith",
+        "name": "Plaguesmith",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d3/Plaguesmith.gif/revision/latest?cb=20070906224850&path-prefix=en",
+        "attributes": {},
+        "notes": "There is nothing that pleases the dreaded Plaguesmiths more than rot and decay. These cowardly demons are constantly scheming and plotting to bring despair and diseases to the world of the mortals. They enjoy the painful torments their poisons and plagues inflict on other beings. They rely on a disgusting diet that consists of poisonous, morbid and corrosive fluids. Their main capability lies in the creating of poisons and plagues as well as to transform usually insubstantial things like despair, pain and agony into substantial tools and weapons. Although their physique makes them powerful fighters, their inherent cowardice prohibits them to rise in the ranks of demon kind. They tend to use others to do the dirty work and operate behind the scenes. More often though, they end up forced into the service of a more powerful creature. Still they are rarely seen in the realm of men. More often they stay in the realm of demons and supply their masters and servants alike with new weapons to spread poison and sickness.",
+        "abilities": [
+            "Melee (0-400 and starting up to 10 hp/turn)",
+            "Poison Ball (60-114) Plaguesmith",
+            "Paralyze Ball Plaguesmith",
+            "Life drain wave (100-350) Plaguesmith",
+            "Strong Haste",
+            "Self-Healing (200-280)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 110%",
+            "Ice 80%",
+            "Fire 70%",
+            "Energy 110%",
+            "Earth 0%"
+        ],
+        "location": "Pits of Inferno, Formorgar Mines, Edron Demon Forge (The Vats, The Foundry), Magician Quarter, Alchemist Quarter, Roshamuul Prison, Grounds of Plague and Halls of Ascension.",
+        "behaviour": "A plaguesmith attacks in melee range. A plaguesmith will retreat at 330 to 2474 (4% - 29.99%, red) health.",
+        "strategy": "Solo: shoot Energy Walls to make it walk around and not get to you (Mages and Paladins), but be careful with its Haste and strong Paralysis. Mages should use Energy spells and Sudden Death Runes due to their large health pool. Also, it's recommended to find a part of the terrain that you can trap the Plaguesmith in, as it can run very fast in low health.Teams: The Knight should use the Challenge spell when it's near red health to make sure it doesn't run away.",
+        "loot": [
+            "Gold Coin",
+            "Dirty Cape",
+            "Mouldy Cheese",
+            "Morning Star",
+            "Piece of Iron",
+            "Two Handed Sword",
+            "Battle Hammer",
+            "Steel Shield",
+            "Soul Orb",
+            "Great Health Potion",
+            "Demonic Essence",
+            "Platinum Coin",
+            "Onyx Arrow",
+            "Slightly Rusted Armor",
+            "Knight Legs",
+            "Club Ring",
+            "Small Amethyst",
+            "Axe Ring",
+            "Silver Brooch",
+            "War Hammer",
+            "Steel Boots",
+            "Piece of Royal Steel",
+            "Piece of Hell Steel",
+            "Piece of Draconian Steel",
+            "Hammer of Wrath",
+            "Emerald Bangle",
+            "War Horn",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rage_of_Mazoran",
+        "name": "Rage of Mazoran",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e9/Hellfire_Fighter.gif/revision/latest?cb=20061212194618&path-prefix=en",
+        "attributes": {},
+        "notes": "See also Mazoran.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 125%",
+            "Fire 0%",
+            "Energy 80%",
+            "Earth 100%"
+        ],
+        "location": "Ferumbras' Ascension Quest area.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Brood",
+        "name": "Rift Brood",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Summoned by Azerus in the final room of the In Service of Yalahar Quest.",
+        "abilities": [
+            "Melee (0-248+)",
+            "Mana Drain (0-179+)",
+            "Self-Healing (70-100)"
+        ],
+        "resistance": [
+            "Physical 99%<?",
+            "Death 120%?",
+            "Holy 85%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Yalahari palace.",
+        "behaviour": "Unknown.",
+        "strategy": "None.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Fragment",
+        "name": "Rift Fragment",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/6b/Rift_Fragment.gif/revision/latest?cb=20160417170006&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest.",
+        "abilities": [
+            "Drowning Damage"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Invader",
+        "name": "Rift Invader",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/2f/Massive_Energy_Elemental.gif/revision/latest?cb=20200115220643&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 115%",
+            "Ice 90%",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Lord",
+        "name": "Rift Lord",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/07/Rift_Lord.gif/revision/latest?cb=20090114014722&path-prefix=en",
+        "attributes": {},
+        "notes": "Can be seen in a room after slaying Azerus.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Yalahari palace.",
+        "behaviour": "Unknown.",
+        "strategy": "None.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Phantom",
+        "name": "Rift Phantom",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0c/Rift_Phantom.gif/revision/latest?cb=20221126170143&path-prefix=en",
+        "attributes": {},
+        "notes": "It can be seen in a room after slaying Azerus. It looks the same as a Ghost.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Yalahari palace.",
+        "behaviour": "Unknown.",
+        "strategy": "None.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Scythe",
+        "name": "Rift Scythe",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/16/Grim_Reaper.gif/revision/latest?cb=20080712051905&path-prefix=en",
+        "attributes": {},
+        "notes": "Summoned by Azerus in the final room of the In Service of Yalahar Quest, Fenrock after the teleport for the quest Shadows of Yalahar Quest.",
+        "abilities": [
+            "Blood Ball Rift Scythe",
+            "Death Beam Rift Scythe",
+            "Sudden Death Rift Scythe",
+            "Self-Healing (120-175) Rift Scythe"
+        ],
+        "resistance": [
+            "Physical 99%<?",
+            "Death 99%<?",
+            "Holy 110%",
+            "Ice 35%",
+            "Fire 110%",
+            "Energy 110%?",
+            "Earth 60%"
+        ],
+        "location": "Yalahari palace and Fenrock.",
+        "behaviour": "A rift scythe never retreats.",
+        "strategy": "Similar to Grim Reapers, with its strong beam attack you should stay diagonal.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Spawn",
+        "name": "Rift Spawn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/34/Rift_Spawn.gif/revision/latest?cb=20180627020514&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Physical Damage",
+            "Mana Drain (100-200) Rift Spawn"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rift_Worm",
+        "name": "Rift Worm",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dc/Rift_Worm.gif/revision/latest?cb=20221126170153&path-prefix=en",
+        "attributes": {},
+        "notes": "Summoned by Azerus in the final room of the In Service of Yalahar Quest, Fenrock after the teleport for the quest Shadows of Yalahar Quest.",
+        "abilities": [
+            "Melee (0-160?)",
+            "Mana Drain (500-1000?)",
+            "Groundshaker area effect",
+            "Invisibility (5~ seconds) Rift Worm"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 105%",
+            "Ice 105%",
+            "Fire 105%",
+            "Energy 100%?",
+            "Earth 125%"
+        ],
+        "location": "Yalahari palace and Fenrock",
+        "behaviour": "Unknown.",
+        "strategy": "Kill them first, because of the annoying mana drain.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shadow_Fiend",
+        "name": "Shadow Fiend",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/04/Shadow_Fiend.gif/revision/latest?cb=20161117165002&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Nightstalker.\nPart of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-?)",
+            "Life Drain missile (200-300)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 120%",
+            "Energy 110%",
+            "Earth 100%?"
+        ],
+        "location": "Appears with Lady Tenebris, here.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shadow_Tentacle",
+        "name": "Shadow Tentacle",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/0f/Shadow_Tentacle.gif/revision/latest?cb=20161106174945&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Forgotten Knowledge Quest.",
+        "abilities": [
+            "Melee (0-330+)",
+            "Self-Healing (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 0%",
+            "Holy 100%?",
+            "Ice 50%",
+            "Fire 50%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Apperas with Lady Tenebris, here.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spoiler",
+        "name": "Spoiler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ed/Spoiler.gif/revision/latest?cb=20220510232159&path-prefix=en",
+        "attributes": {},
+        "notes": "Appears during the 25 Years of Tibia Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Armor",
+        "name": "Stolen Knowledge of Armor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7c/Stolen_Knowledge_of_Armor.gif/revision/latest?cb=20180626212913&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of armor never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Healing",
+        "name": "Stolen Knowledge of Healing",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/02/Stolen_Knowledge_of_Healing.gif/revision/latest?cb=20180626212923&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of healing never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Lifesteal",
+        "name": "Stolen Knowledge of Lifesteal",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Stolen_Knowledge_of_Lifesteal.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of lifesteal never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Spells",
+        "name": "Stolen Knowledge of Spells",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ab/Stolen_Knowledge_of_Spells.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of spells never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Knowledge_of_Summoning",
+        "name": "Stolen Knowledge of Summoning",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5f/Stolen_Knowledge_of_Summoning.gif/revision/latest?cb=20180626212925&path-prefix=en",
+        "attributes": {},
+        "notes": "It powers Gorzindel.\nPart of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "Fights in close combat. Stolen knowledge of summoning never retreats.",
+        "strategy": "Use your time with it to deal as much damage as possible.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stolen_Tome_of_Portals",
+        "name": "Stolen Tome of Portals",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d4/Stolen_Tome_of_Portals.gif/revision/latest?cb=20180617153634&path-prefix=en",
+        "attributes": {},
+        "notes": "After being destroyed, it will become a Magic Forcefield. This is part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 60%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 110%",
+            "Energy 90%",
+            "Earth 50%?"
+        ],
+        "location": "Gorzindel's room in the The Secret Library.",
+        "behaviour": "It doesn't move. Stolen tome of portals never retreats.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Tentacle_of_the_Deep_Terror",
+        "name": "Tentacle of the Deep Terror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/39/Tentacle_of_the_Deep_Terror.gif/revision/latest?cb=20141121093222&path-prefix=en",
+        "attributes": {},
+        "notes": "After a few waves of Glooth Anemone, 4 tentacles will spawn together in the boss room.",
+        "abilities": [
+            "Melee (0-?)",
+            "Self-Healing (0-715?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 130%?",
+            "Ice 100%?",
+            "Fire 50%",
+            "Energy 80%?",
+            "Earth 0%?"
+        ],
+        "location": "Underground Glooth Factory - Boss Room 1.",
+        "behaviour": "Unknown",
+        "strategy": "To spawn the first boss, Deep Terror, you must slay all 4 tentacles within 10 seconds of the first kill. This means that you shouldn't focus on a single tentacle but instead weaken all of them equally. First and foremost, make sure all 4 tentacles are near each other. They can spawn away from each other and/or target different people; the knights should group the tentacles so that they are not far apart. When they are grouped, the team should use area attacks as much as possible. Single-target attacks (e.g. Paladin shots, wand/rod/melee attacks) should be directed at the tentacle with the highest health, which would mean changing targets every few seconds. The tentacles will retreat at low health which can make things harder, so when the tentacles are low in health the mages are recommended to use their ultimate spells to cover a big area and weaken the running tentacles. If this fails to kill the tentacles, chase them and finish them off individually. If you fail to kill them all within the 10 seconds, they will spawn anew and you have another chance. However, keep in mind that you have 10 minutes inside the room, which does not get reset and does include the fight with the Deep Terror.",
+        "loot": [
+            "Platinum Coin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Book_of_Death",
+        "name": "The Book of Death",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/06/The_Book_of_Death.gif/revision/latest?cb=20180626223447&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 50%?",
+            "Death -100%?",
+            "Holy 50%",
+            "Ice 50%",
+            "Fire 100%?",
+            "Energy 50%?",
+            "Earth 50%"
+        ],
+        "location": "In the Secret Library with Ghulosh.",
+        "behaviour": "It does not move.",
+        "strategy": "Attack it until it's red HP and then leave it there until Ghulosh' Deathgaze spawns. Then kill it so a Concentrated Death spawns and you can kill the Deathgaze.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/The_Book_of_Secrets",
+        "name": "The Book of Secrets",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/42/The_Book_of_Secrets.gif/revision/latest?cb=20181010125755&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks the same as a Book of Lies, which may be an indication that it shouldn't be taken seriously. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/True_Dawnfire_Asura",
+        "name": "True Dawnfire Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/14/True_Dawnfire_Asura.gif/revision/latest?cb=20180607130128&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who can hide their true face and appear in the form of beautiful women. Although they often take on a seductive appearance, they show their true form as soon as there is no need for charade. In this case they appear as tall, beautiful women with four arms, fangs and glowing eyes. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims. \nThere are several kinds of asuri. The dawnfire asuri have tanned skin and black hair, favouring clothes in the colours red, orange and yellow. They are associated with fire and energy and prefer to use magic rather than weapons. They are the Dawnfire Asura in their true form.",
+        "abilities": [
+            "Melee (0-700)",
+            "Death Ball (550-750)",
+            "Fire Missile (450-830)",
+            "Mana Drain Beam (50-300)",
+            "Smoke Berserk"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 80%",
+            "Holy 110%",
+            "Ice 105%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 100%"
+        ],
+        "location": "Asura Palace, Asura Vaults.",
+        "behaviour": "Fights in close range.A true dawnfire asura attacks in melee range. A true dawnfire asura never retreats.",
+        "strategy": "Beware that they are much stronger than regular Asuri and deal considerable damage, some times in area.",
+        "loot": [
+            "Platinum Coin",
+            "Flask of Demonic Blood",
+            "Great Mana Potion",
+            "Small Enchanted Ruby",
+            "Small Diamond",
+            "Small Ruby",
+            "Small Emerald",
+            "Small Amethyst",
+            "Soul Orb",
+            "Demonic Essence",
+            "Small Topaz",
+            "Golden Lotus Brooch",
+            "Peacock Feather Fan",
+            "Magma Coat",
+            "Ruby Necklace",
+            "Red Gem",
+            "Blue Gem",
+            "Crystal Coin",
+            "Wand of Inferno",
+            "Mysterious Fetish",
+            "Mystic Turban",
+            "Red Piece of Cloth",
+            "Focus Cape",
+            "Spellbook of Mind Control",
+            "Oriental Shoes",
+            "Royal Star",
+            "Death Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/True_Frost_Flower_Asura",
+        "name": "True Frost Flower Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9a/True_Frost_Flower_Asura.gif/revision/latest?cb=20180607130127&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who can hide their true face and appear in the form of beautiful women. Although they often take on a seductive appearance, they show their true form as soon as there is no need for charade. In this case they appear as tall, beautiful women with four arms, fangs and glowing eyes. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims. \nThere are several kinds of asuri. The frost flower asuri have pale skin and white hair, favouring clothes in the colours white and light blue. They are associated with ice and snow and prefer to use magic rather than weapons. It's the true form of the Frost Flower Asura.",
+        "abilities": [
+            "Melee (0-250)",
+            "Self-Healing (150-225)",
+            "Ice Missile (200-275) True Frost Flower Asura",
+            "Manadrain Beam (150-225) True Frost Flower Asura"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 70%",
+            "Ice 0%",
+            "Fire 110%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Asura Palace, Asura Vaults",
+        "behaviour": "A true frost flower asura attacks from a distance. A true frost flower asura never retreats.",
+        "strategy": "These Asuri are more annoying than their Midnight and Dawnfire companions but deal slightly less damage. They will usually remain alive after killing a large group of Asuri, and it's recommended to finish them off using runes, distance spells and attacks or by trapping them against a corner. Chasing the True Frost Flower Asuri may be very dangerous since you might encounter many other True Asuri and Hellhounds.",
+        "loot": [
+            "Platinum Coin",
+            "Great Health Potion",
+            "Small Enchanted Sapphire",
+            "Silver Brooch",
+            "White Pearl",
+            "Black Pearl",
+            "Small Diamond",
+            "Small Sapphire",
+            "Small Ruby",
+            "Small Emerald",
+            "Crystal Coin",
+            "Soul Orb",
+            "Demonic Essence",
+            "Flask of Demonic Blood",
+            "Assassin Star",
+            "Small Topaz",
+            "Golden Lotus Brooch",
+            "Peacock Feather Fan",
+            "Crystal Ring",
+            "Yellow Gem",
+            "Blue Gem",
+            "Silver Amulet",
+            "Hailstorm Rod",
+            "Tribal Mask",
+            "Blue Robe",
+            "Spellbook of Mind Control",
+            "Northwind Rod",
+            "Gold Ingot",
+            "Royal Star",
+            "Assassin Dagger",
+            "Skullcracker Armor",
+            "Oriental Shoes",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/True_Midnight_Asura",
+        "name": "True Midnight Asura",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a6/True_Midnight_Asura.gif/revision/latest?cb=20180607130128&path-prefix=en",
+        "attributes": {},
+        "notes": "Asuri are demonic creatures who can hide their true face and appear in the form of beautiful women. Although they often take on a seductive appearance, they show their true form as soon as there is no need for charade. In this case they appear as tall, beautiful women with four arms, fangs and glowing eyes. These demonesses are driven mainly by greed and envy. They enter the mortal world because they begrudge humans and other peoples their vigour, beauty and happiness. They seek to destroy positive feelings as love, contentment and mirth, because herefrom they gain their energy. An asura especially stalks men she regards as handsome and happy. These victims are lured into gorgeous palaces full of riches and conveniences, inhabited by several asuri. There they ensnare the men with amusements such as wine, music, dance and intoxicating substances that indulge their senses and make them submissive and weak-willed. Then the asuri divest them of vitality and beauty. When an asura gets weary of her victim or if captives unexpectedly oppose the demonesses, these unfortunates come to know the true face of the palace: As the asuri show a beautiful face outwardly and are in truth terrible demons, likewise the palace, behind its marvelous veneer, is full of prison cells, torture chambers and even rooms where sacrificial altars await the asuri's emaciated victims. \nThere are several kinds of asuri. The midnight asuri have pale skin and moon-white hair, favouring clothes in the colours black and violet. They are associated with darkness and death and are capable melee fighters.",
+        "abilities": [
+            "Melee (0-450)",
+            "Death Missile (500-650)",
+            "Smoke Beam (500-700)",
+            "Life Drain Beam (100-240)",
+            "Mana Drain Beam (50-280)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 0%",
+            "Holy 70%",
+            "Ice 90%",
+            "Fire 90%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Asura Palace, Asura Vaults.",
+        "behaviour": "A true midnight asura attacks in melee range. A true midnight asura never retreats.",
+        "strategy": "Beware that they are much stronger than regular Asuri and deal considerable damage, some times in area.",
+        "loot": [
+            "Platinum Coin",
+            "Great Health Potion",
+            "Small Enchanted Amethyst",
+            "Silver Brooch",
+            "White Pearl",
+            "Black Pearl",
+            "Small Diamond",
+            "Small Sapphire",
+            "Small Ruby",
+            "Small Emerald",
+            "Crystal Coin",
+            "Soul Orb",
+            "Demonic Essence",
+            "Flask of Demonic Blood",
+            "Assassin Star",
+            "Small Topaz",
+            "Golden Lotus Brooch",
+            "Peacock Feather Fan",
+            "Violet Gem",
+            "Yellow Gem",
+            "Blue Gem",
+            "Silver Amulet",
+            "Necrotic Rod",
+            "Tribal Mask",
+            "Assassin Dagger",
+            "Underworld Rod",
+            "Gold Ingot",
+            "Oriental Shoes",
+            "Royal Star",
+            "Crystal Ring",
+            "Blue Robe",
+            "Skullcracker Armor",
+            "Spellbook of Mind Control",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Unexpected",
+        "name": "Unexpected",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a7/Unexpected.gif/revision/latest?cb=20220108004050&path-prefix=en",
+        "attributes": {},
+        "notes": "Weaker version of a Demon.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 110%",
+            "Ice 100%?",
+            "Fire 0%",
+            "Energy 50%",
+            "Earth 60%?"
+        ],
+        "location": "Spawned in Svargrond, Liberty Bay and Port Hope during 25th Anniversary raids.",
+        "loot": [
+            "Platinum Coin",
+            "Birthday Layer Cake",
+            "Candy Floss (Large)",
+            "Ice Cream Cone (Sprinkles)",
+            "Special Fx Box",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vexclaw",
+        "name": "Vexclaw",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ed/Vexclaw.gif/revision/latest?cb=20151112213544&path-prefix=en",
+        "attributes": {},
+        "notes": "The vexclaw belongs to a race that was once prized as personal bodyguards and strike force of many a demon prince. The size of its vexclaw retinue determined a prince's status and rank. It is said that this fact made the Vexclaws proud and lazy. After several vexclaw troops were bribed and switched sides in one of the many inter-demonic wars, the fame of the vexclaws quickly began to dwindle. In many courts, leaders of the vexclaw guard were challenged, defeated and replaced; and the new leaders of the bodyguards sooner or later replaced most of the vexclaw forces with more capable ones. Since the vexclaws no longer were seen as status objects, their princes didn't care to object. So the vexclaws fell into obscurity for a while, shunned by other demons or even hunted for sport. At their lowest point, the vexclaws were expendable mercenaries of hell which were hired and used as it pleased the demonic warlords in their fights. Then something changed. When the demon prince Drazzak was imprisoned, his own dungeons were opened and his former prisoners released. One of them was Turaxor, whom his fellow vexclaws called the Sleeping Lord. This vexclaw was so ancient that he was rumoured to have witnessed the dawn of time. Immensely cruel and powerful, he was the trainer and mentor of all the most famous vexclaws of all times, those that once laid the foundation for the fame of their kind. He was so old that he frequently retreated and went into hibernation for centuries. In one of these hibernation phases, prince Drazzak seized the opportunity to drag the sleeping Turaxor into his dungeons, to use him as a leverage against the vexclaws as well as to stop a possible competitor for power. With the fall of Drazzak though, the still slumbering Turaxor was freed and hidden by loyal followers. When they managed to wake their lord, he was enraged. The downfall of his kind and the treachery of the prince kindled his anger. He decided to rebuild the glory of the vexclaws, beginning with a campaign of extermination of his own kind to cut off anything too weak to survive. He gathered the remaining vexclaws and led them through a series of fights, tests and hazards that only the best survived. Then he began to train and instruct them in the old ways. Step by step, Turaxor rebuilt the vexclaws that once were. Many still have more of a mercenary mentality than pride, but things are changing. No longer are the vexclaws of no consequence, and again the princes begin to look at them with new found admiration. Some princes have already reintegrated some vexclaws into their bodyguard; and the resurgence of the vexclaws has just begun.",
+        "abilities": [
+            "Melee (0-550+)",
+            "Energy Bomb (400-500) Vexclaw",
+            "Burst Arrow (350-450) Vexclaw",
+            "Physical Ball (150-350\n  ) Vexclaw",
+            "Mana Drain Wave (0-150)",
+            "Ice Beam (400-500+) Vexclaw"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 80%",
+            "Holy 110%",
+            "Ice 105%",
+            "Fire 25%",
+            "Energy 90%",
+            "Earth 60%"
+        ],
+        "location": "Grounds of Damnation, Grounds of Deceit, Grounds of Despair, Grounds of Destruction, Grounds of Fire, Grounds of Undeath, Halls of Ascension and Hell Hub",
+        "behaviour": "They stay in close combat and never retreat. Do not get tricked by the loot similar to that of Demons, as they are much more powerful. A Knight and Druid team can hunt these as well as Grimeleeches and Hellflayers with ice based attacks. Avoid being hit by the beams whenever possible.A vexclaw attacks in melee range. A vexclaw never retreats.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Spirit Potion",
+            "Great Mana Potion",
+            "Vexclaw Talon",
+            "Demonic Essence",
+            "Fire Mushroom",
+            "Ultimate Health Potion",
+            "Small Topaz",
+            "Small Emerald",
+            "Small Amethyst",
+            "Small Ruby",
+            "Yellow Gem",
+            "Red Gem",
+            "Ice Rapier",
+            "Fire Axe",
+            "Might Ring",
+            "Energy Ring",
+            "Giant Sword",
+            "Rift Lance",
+            "Ring of Healing",
+            "Devil Helmet",
+            "Platinum Amulet",
+            "Golden Legs",
+            "Demon Shield",
+            "Rift Bow",
+            "Rift Shield",
+            "Mastermind Shield",
+            "Rift Crossbow",
+            "Magic Plate Armor",
+            "Demonrage Sword",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Vile_Destroyer",
+        "name": "Vile Destroyer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a9/Vile_Destroyer.gif/revision/latest?cb=20220720200307&path-prefix=en",
+        "attributes": {},
+        "notes": "Killing two of these creatures is a requirement for accessing the room where The Moonlight Aster spawns as part of the Asura Palace Quest.",
+        "abilities": [
+            "Melee (0-500)",
+            "Throws Boulders (0-200) Vile Destroyer",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 80%",
+            "Holy 103%",
+            "Ice 115%",
+            "Fire 70%",
+            "Energy 0%",
+            "Earth 80%"
+        ],
+        "location": "Asura Palace - here",
+        "behaviour": "A vile destroyer attacks in melee range. A vile destroyer never retreats.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Weakened_Demon",
+        "name": "Weakened Demon",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7d/Weakened_Demon.gif/revision/latest?cb=20221126184958&path-prefix=en",
+        "attributes": {},
+        "notes": "These are summoned by Kraknaknork.",
+        "abilities": [
+            "Melee (0)",
+            "Invisibility"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Rookgaard Orc Fortress (as a summon).",
+        "behaviour": "A weakened demon never retreats.",
+        "strategy": "Ignore it while you kill Kraknaknork.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Yielothax",
+        "name": "Yielothax",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/63/Yielothax.gif/revision/latest?cb=20210420140823&path-prefix=en",
+        "attributes": {},
+        "notes": "It is hard to say when sightings of the Yielothax were first recorded. The creature seemed so bizarre and fantastic that encounters with them probably were dismissed as feverish illusions. That is when such an encounter was survived at all. It is safe to say that the Yielothax are not native to our world. They usually enter our world due to bizarre magical phenomenons, often the result of careless spell casting experiments. Sometimes dimensional travellers encounter them in what was perceived as their home dimension. Newer researches suggest that the Yielothax are an invasive life form that not unlike a swarm of locusts invades and occupies other dimensions or planes of existence while annihilating all native life. Since they change the environment in a certain way, it was often assumed that travellers meeting Yielothax in their 'native' habitat were visiting the same dimension. This was proven wrong by new scientific methods and insights, though. There are heated debates whether the Yielothax is more like carrion eaters, invading dimensions that have become weakened and fading, or if the Yielothax are the reason for the fading of those dimensions. Whatever theory might be true, it is a fact that dimensions in which the Yielothax are encountered in mass become more and more unstable and finally unreachable after a while. It is currently unknown if there is (still) such a thing as the Yielothax' home dimension at all. The Yielothax are very territorial and extremely aggressive to any non-Yielothax life forms. They can reach a surprising speed and attack rapidly, trying to rip their opponent apart. The Yielothax are omnivorous in the truest sense. They eat virtually anything. There are verified reports of Yielothax eating substances like rock, tar and even magic walls. Even if the Yielothax are probably sentient beings, they seem unwilling to communicate with any non-Yielothax life form. Since the rare cases of Yielothax sightings in our dimension are the forerunners of an impending invasion, everyone who encounters Yielothax in our realm is asked to report this to the scientific authorities immediately.",
+        "abilities": [
+            "Melee (0-200)",
+            "Poisoning Spit",
+            "Life Drain Wave (60-130)",
+            "Poison Ball (150-250) Yielothax",
+            "Mana Drain Wave (50-150) Yielothax",
+            "Life Drain beam (100-130?) Yielothax",
+            "Self-Healing (100-150)"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 50%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 75%",
+            "Energy 105%",
+            "Earth 0%"
+        ],
+        "location": "In another dimension, through a portal in the Raging Mage tower, southern Zao.",
+        "behaviour": "Chases opponent and fights with its powerful melee attack.A yielothax attacks in melee range. A yielothax never retreats.",
+        "strategy": "Mages should collect a few of them and shoot Explosion Runes, Druids complement this with Physical Strike while Sorcerers settle with Energy Strike or Ice Strike. Paladins run and shoot as usual, Burst Arrows might be a good idea if it gets crowded. Knights should grab 2-5 and cycle between Berserk, Front Sweep and Fierce Berserk, and use Great or Strong Health Potions to heal. At least level 90 is recommended. All vocations should avoid getting hit by the annoying Mana Drain wave.",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Brown Mushroom",
+            "Small Diamond",
+            "Might Ring",
+            "Lightning Pendant",
+            "Lightning Legs",
+            "Talon",
+            "Wand of Cosmic Energy",
+            "Epee",
+            "Mastermind Potion",
+            "Shockwave Amulet",
+            "Broken Ring of Ending",
+            "Yielocks",
+            "Yielowax",
+            "Loot Statistics"
+        ]
+    }
+]

@@ -1,0 +1,259 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Blood_Hand",
+        "name": "Blood Hand",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fb/Blood_Hand.gif/revision/latest?cb=20210420141124&path-prefix=en",
+        "attributes": {},
+        "notes": "Nobody is quite sure how the blood priest cult recruits its pupils, the blood hands, and if they join of their own free will. Rumours have it that blood hands have artificially enhanced blood in their veins, making them ruthless tools that do the bidding of their masters. Blood hands are named after the red gloves they wear, but the name is not merely a metaphor: blood hands have to pass several years of training and killing in the field to prove worthy of ascending into the ranks of the priests. Though the initiation takes place behind securely closed doors, there are hints of blood rage visions, brain washing, grotesque rituals and blood transfusions during the final trial, and only those who live through these ordeals are entitled to call themselves blood priests, and receive a new name. Blood hands are often sent abroad to fulfil a mission of their master's or assisting him, and may return with strange devices, samples and stains. On the upside, blood hands are also skilled surgeons, and many an unhappy necromancer has relied on their skill to prolong his life or sew a limb back on, even if he had to pledge his services to theirs in return.In combat, blood hands use what their masters have taught them, and summon minions they managed to pressure into a blood bond, which usually means fellow necromancers who owed them a favour or two.",
+        "abilities": [
+            "Melee (0-100? and starting up to 4 hp/turn)",
+            "Frequent Self-Healing (0-70+)",
+            "Paralyze Ball (close range only)",
+            "Life Drain Ball on self (20-60? )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 50%",
+            "Holy 110%",
+            "Ice 90%",
+            "Fire 110%",
+            "Energy 80%",
+            "Earth 0%"
+        ],
+        "location": "Drefia.",
+        "behaviour": "They fight in close range.A blood hand attacks in melee range. A blood hand never retreats.",
+        "strategy": "Knights: Alternate between Brutal Strike and Whirlwind Throw, as they heal quite fast. If surrounded, use Berserk.",
+        "loot": [
+            "Gold Coin",
+            "Book of Necromantic Rituals",
+            "Lancet",
+            "Horoscope",
+            "Blood Tincture in a Vial",
+            "Incantation Notes",
+            "Pieces of Magic Chalk",
+            "Strong Mana Potion",
+            "Necrotic Rod",
+            "White Piece of Cloth",
+            "Red Gem",
+            "Mystic Turban",
+            "Red Piece of Cloth",
+            "Spellbook of Enlightenment",
+            "Boots of Haste",
+            "Skull Staff",
+            "Noble Axe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blood_Priest",
+        "name": "Blood Priest",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/71/Blood_Priest.gif/revision/latest?cb=20210420141148&path-prefix=en",
+        "attributes": {},
+        "notes": "Over time, different groups of dark summoners developed in Drefia who each follow their own path in using and worshipping the dark powers, loosely allying themselves, or feuding viciously, with another group from time to time. The Blood Priests are a more recent order that reveres the fluids of life and death - above all blood, which they amass in horrendous quantities. Blood priests devote their lives to the study of blood and so-called lesser fluids. They attribute the most stupefying qualities to blood, and experiment extensively with it, using strange devices in their blood hall caverns. This requires a constant supply of fresh fluids and bodies and therefore blood priests and their henchmen are avoided even by their fellow Dark Summoners for fear of their lives. Even their names reflect their love for everything associated with blood and it is said they do not exactly dye their robes blood red. Blood Priests love extravaganza in speech and habit, but they also favour symmetrical shapes and figures - nets, crosses, or abstract tree shapes - shapes that favour a flow and distribution of fluids. Their single-minded extravaganza extends to their love for other species as well. Though rats are usually preferred animals of Urgith and abound in Drefia, blood priests dote on bats, ticks and leeches, and it is even rumoured they have some kind of agreement with the vampires - though nobody dares to imagine to what purpose, and certainly will not ask.",
+        "abilities": [
+            "Melee (0-80? and starting up to 5 hp/turn)",
+            "Self-Healing (?)",
+            "Sudden Death (60-100?)",
+            "Mana Drain Beam (80-130?)",
+            "Life Drain Ball on self (40-60?)"
+        ],
+        "resistance": [
+            "Physical 108%",
+            "Death 50%",
+            "Holy 108%",
+            "Ice 85%",
+            "Fire 108%",
+            "Energy 85%",
+            "Earth 0%"
+        ],
+        "location": "Drefia and Old Fortress.",
+        "behaviour": "They fight in close range.A blood priest attacks in melee range. A blood priest never retreats.",
+        "strategy": "Knights: Stay diagonal at all times. Their mana drain wave is very annoying. If you get surrounded by other Priests, Shadow Pupils and Blood Hands, attack the Priest while casting Exori spells.",
+        "loot": [
+            "Gold Coin",
+            "Strong Mana Potion",
+            "Book of Necromantic Rituals",
+            "Lancet",
+            "Horoscope",
+            "Blood Tincture in a Vial",
+            "Incantation Notes",
+            "Pieces of Magic Chalk",
+            "Small Ruby",
+            "Mystic Turban",
+            "White Piece of Cloth",
+            "Red Gem",
+            "Red Piece of Cloth",
+            "Skull Staff",
+            "Noble Axe",
+            "Spellbook of Warding",
+            "Spellbook of Mind Control",
+            "Underworld Rod",
+            "Boots of Haste",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Necromancer_Servant",
+        "name": "Necromancer Servant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d1/Necromancer_Servant.gif/revision/latest?cb=20210420174950&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Gravedigger of Drefia quest. Acts very similar to a regular Necromancer, with which they share their appearance.",
+        "abilities": [
+            "Melee (?)",
+            "Stalagmite (0-105?)",
+            "Self-Healing (0-70?)",
+            "Summons (1-2 Ghoul or Ghost or Mummies )"
+        ],
+        "resistance": [
+            "Physical 105%?",
+            "Death 50%?",
+            "Holy 105%?",
+            "Ice 100%?",
+            "Fire 105%?",
+            "Energy 80%?",
+            "Earth 0%?"
+        ],
+        "location": "Drefia.",
+        "behaviour": "Stays away from you and runs at low health.",
+        "strategy": "Just treat it like a regular Necromancer.",
+        "loot": [
+            "Gold Coin",
+            "Poison Arrow",
+            "Book of Necromantic Rituals",
+            "Necromantic Robe",
+            "Skull Staff",
+            "Incantation Fragment",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Necromancer",
+        "name": "Necromancer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/73/Necromancer.gif/revision/latest?cb=20210420141254&path-prefix=en",
+        "attributes": {},
+        "notes": "Necromancers are powerful magicians who pursue studies on undead creatures in the haunted ruins of Drefia on Darama.Nobody knows what they intend to use their perilous knowledge for and which dreadful secrets they already have discovered, but adventurers, who have managed to escape from their realm, report that they are able to summon several kinds of undead creatures like skeletons, ghouls, and mummies. They can heal themselves and they know how to drain life energy off their opponents. Although they are quite strong fighters, they prefer distance fighting, namely shooting magic missiles and letting their summoned servants fight for them. Necromancers have really valuable items in their loot: Boots of Haste, Noble Axes and Skull Staffs. They have a weak defense so even knights are able to kill them with a litte limitation: their Death Hit works only if you stand next to them. \nYou may hunt 4000 of these along with Priestesses, Blood Hands, Blood Priests and Shadow Pupils as a task for Lugri. Upon completion of the task you will face Necropharus. The task can be repeated several times but only grants you 40,000 experience points from the second time and onwards.",
+        "abilities": [
+            "Melee (0-80 and starting up to 8 hp/turn)",
+            "Death Hit (10-120)",
+            "Earth Missile (35-95) Necromancer",
+            "Self-Healing (42-68) Necromancer",
+            "Summons (1-2 Ghoul )",
+            "Summons (1 Ghost )",
+            "Summons (1 Mummy )"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 50%",
+            "Holy 105%",
+            "Ice 90%",
+            "Fire 105%",
+            "Energy 80%",
+            "Earth 0%"
+        ],
+        "location": "All the Tombs, Lich Hell, Drefia, Medusa Shield Quest room, Old Fortress, Old Masonry, beneath Fenrock, Cemetery Quarter, Magician Quarter, Mother of Scarabs Lair.",
+        "behaviour": "Necromancers distance themselves from their opponent, shoot a distance poison attack and summon undead creatures. They shoot less on you if you stand on distance than if you stand close.A necromancer attacks from a distance.",
+        "strategy": "The most cost-effective way to hunt Necromancers by soloing is for knights  and paladins to be of level 60+, for mages it is of level 40+.\nMages: The best way to attack them using fire or ice spells, perhaps using runes like GFB and avalanche to help kill their summons. Lower level mages can summon demon skeletons, as it is much safer to make the Necromancer target them. While killing a few Necromancers at once, you should be careful, as they can surround fairly quickly with summons and while hitting you from distance. \nHigher level Mages need only hunt these by using Strong Mana Potions, as you'll only need to use Flame Strike and exura. But be careful, if you run into a spawn with 2-3 necros they can still easily trap you with their summons and that could result in a lot of mana being wasted. Try to stand still and use Fire Wave since they will keep exactly 4 sqm distance from you which makes it easy to defeat up to 5 necros with a few waves. Knights of approximately level 70+ can easily hunt these creatures after the Summer Update 2007. Just run up to them and melee them using exura ico and Soft Boots, you will need very little Strong Health Potions or Great Health Potions like this. Paladins can also use this strategy to kill Necromancers, except that they have to stay at a distance and maybe run around to avoid being hit by it's summons.",
+        "loot": [
+            "Gold Coin",
+            "Poison Arrow",
+            "Book of Necromantic Rituals",
+            "Green Mushroom",
+            "Necromantic Robe",
+            "Mystic Turban",
+            "Clerical Mace",
+            "Strong Mana Potion",
+            "Boots of Haste",
+            "Skull Staff",
+            "Spellbook of Warding",
+            "Noble Axe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Priestess",
+        "name": "Priestess",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/15/Priestess.gif/revision/latest?cb=20181019175924&path-prefix=en",
+        "attributes": {},
+        "notes": "Priestesses came to Edron together with the monks. They are also followers of the evil god Zathroth but they roam the dungeons instead of having a home. Like the monks, they will fiercely attack every intruder into their holy realm. They are weak fighters, but have a lot of magic abilities. They shoot magic missiles at their enemies and drain mana off them, summon ghouls as reinforcements, and heal themselves. These strong creatures are similar to Necromancers. They can summon the undead as well.  You may hunt 4000 of these along with Necromancers, Blood Hands, Blood Priests and Shadow Pupils as a task for Lugri. Upon completion of the task you will face Necropharus. The task can be repeated several times but only grants you 40,000 experience points from the second time and onwards.",
+        "abilities": [
+            "Melee (0-75)",
+            "Sudden Death (0-120)",
+            "Mana Drain (2-170)",
+            "Self-Healing (34-56)",
+            "Envenom (10 hp /turn)",
+            "Summons (1-2 Ghoul )"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 90%",
+            "Holy 110%",
+            "Ice 100%",
+            "Fire 60%",
+            "Energy 100%",
+            "Earth 30%"
+        ],
+        "location": "Hero Cave, Drefia ruins, Lich Hell, Tombs, Magician Quarter in Yalahar, Vengoth Castle, Hellgorge.",
+        "behaviour": "Priestesses attack enemies from distance.A priestess attacks from a distance.",
+        "strategy": "If you are planning to use runes, Explosions are a good choice because Priestesses are weak to Physical Damage. Also, beware of the Mana Drain ability. Bronze Amulets can be helpful if you're going to hunt them. A Priestess will drain an average of 100 mana per hit, which can be very annoying.",
+        "loot": [
+            "Dark Rosary",
+            "Goat Grass",
+            "Powder Herb",
+            "Red Apple",
+            "Sling Herb",
+            "Black Hood",
+            "Wood Mushroom",
+            "Clerical Mace",
+            "Crystal Ball",
+            "Cultish Robe",
+            "Wooden Flute",
+            "Crystal Necklace",
+            "Hailstorm Rod",
+            "Mana Potion",
+            "Book (Orange)",
+            "Talon",
+            "Black Shield",
+            "Piggy Bank",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Shadow_Pupil",
+        "name": "Shadow Pupil",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/77/Shadow_Pupil.gif/revision/latest?cb=20130703145529&path-prefix=en",
+        "attributes": {},
+        "notes": "The Shadow Masters worship the more ephemeral aspect of the Dark Powers, and are extremely secretive to the point of never being seen. Only the Shadow Pupils, their apprentices, mingle with other students of the Dark Arts, and it is rumoured that they use the shadows of things and beings as a means of travel and transport, and can heal themselves by feeding off them. Rumours are indeed all that there is to know for sure about the shadow pupils. The shadow pupils themselves are uncommunicative to the point of being cryptic, and when addressed either reply very monosyllabically or ambiguously, as if answering something, or someone, else. They can be found where light and darkness intermingle, and seem to be monitoring things as well as building some strange shades, shrines or artificially interlaced bone piles of yet unknown use. Often, they are seen to draw strange faces or gruesome, half animal half demon-like shapes on the floors, that none dare step on. The other dark summoners suspect those to be portals to a shadow realm, and that the shadow order plots for total dominion and seeks to cloak the world in some strange unlight. Some even say that the shadow pupils are in fact not men, but several shadows inhabiting a body together, trying to prepare the way for some demonic shadow being or planning to shroud the world, consuming all living beings therein, until nothing but shadows remain. As those words savour strongly of paranoia, other necromancers do not like to dwell upon these reflections, and just try not to mention or catch the eye of a shadow pupil.",
+        "abilities": [
+            "Melee (0-70? and starting up to 3 hp/turn)",
+            "Summons (1-4 Skeleton or Ghosts )",
+            "Sudden Death (60-80)",
+            "Sudden Death Bomb (30-60)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 50%",
+            "Holy 105%",
+            "Ice 80%",
+            "Fire 105%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Drefia, mostly in the vicinity of Ember Chamber.",
+        "behaviour": "They fight in close range.A shadow pupil attacks in melee range. A shadow pupil never retreats.",
+        "strategy": "Knights: Just attack them, they are not very strong. However, beware of other Necromancers that will attack you while spamming summons. Using Berserk is often a good idea, as their summons will break your shielding.",
+        "loot": [
+            "Gold Coin",
+            "Book of Necromantic Rituals",
+            "Horoscope",
+            "Incantation Notes",
+            "Brown Mushroom",
+            "Pieces of Magic Chalk",
+            "Mystic Turban",
+            "Strong Mana Potion",
+            "Clerical Mace",
+            "Spellbook of Enlightenment",
+            "Boots of Haste",
+            "Loot Statistics"
+        ]
+    }
+]

@@ -1,0 +1,728 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Constrictor",
+        "name": "Quara Constrictor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Quara_Constrictor.gif/revision/latest?cb=20060803212828&path-prefix=en",
+        "attributes": {},
+        "notes": "The strange Quara Constrictors have kraken or squid like qualities due to manipulations that are found on all members of the quara race. They are quite intelligent and seem to be, together with the quara hydromancer, the leaders of this sinister race. Their tentacles make them dangerous foes. They allow the Quara Constrictor to attack more than one target at once and to grapple or strangle their helpless prey. Using the same abilities like electric eels, they are also able to stun their enemies for a short time. To stand a better chance to defeat them, you should try to fight them on land where they are somewhat weaker than swimming in water.Only few of them exist and since they are somewhat cowardly by nature, you don't meet them too often in combat. If forced to fight, they are quite capable to defend themselves. They often surprise their enemies with dirty tricks and an iron resolve. This subspecies seems to be somehow responsible for modifying and altering the other quara. How exactly this is done and to which extent the Quara Constrictor is involved in these transformation processes is unknown. It is a fusion of quara and a squid. After update 8.5 they became profitable (they drop more gps now).\nYou may hunt 600 Quara Constrictor, Quara Hydromancer, Quara Mantassin, Quara Pincher, Quara Predator combined, as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Thul.",
+        "abilities": [
+            "Melee (0-150 and starting up to 1 hp/turn)",
+            "Berserk (50-90) Quara Constrictor",
+            "Poison Berserk (freezing status, 8hp for 10 turns) Quara Constrictor",
+            "Ice Ball (around itself) (40-70) Quara Constrictor",
+            "Close Range Electrify (25 hp for 3 turns)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Calassa, Frozen Trench underwater sites, Yalahar (Sunken Quarter).",
+        "behaviour": "Quara Constrictors are slow, and run away at 30 hp. Sometimes they use more than two of their abilities at once.A quara constrictor attacks in melee range.",
+        "strategy": "Kill them first as they are the weakest among other Quaras but deal a lot of damage with magical attacks. Since they're slow, shooters won't need much space to run.\nKnights: Try to avoid other quaras and just melee it. Exori if you are surrounded by 3 or more quaras.\nMages: You can take it down pretty quickly with energy strike and HMMs, but be ready to cast a healing spell.\nPaladins: Attack from distance or use shield and throwing weapon.",
+        "loot": [
+            "Gold Coin",
+            "Quara Tentacle",
+            "Longsword",
+            "Shrimp",
+            "Brass Armor",
+            "Small Amethyst",
+            "Fish Fin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Hydromancer",
+        "name": "Quara Hydromancer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8a/Quara_Hydromancer.gif/revision/latest?cb=20150612081219&path-prefix=en",
+        "attributes": {},
+        "notes": "Although less altered than the other quara subspecies, the Quara Hydromancer poses no smaller threat. People often underestimate them for their bloated bodies. However, their strength lies not in exotic body traits but in their dark minds. They are the priests and witchdoctors of the quara. Their legacy is the dark magic of their long extinct masters. Although their power is only a fraction of the power that once ruled the murky depths of the ocean, it is still enough to be more than a match for the unsuspecting adventurer. The only chance of a more balanced fight is to challenge them ashore where they are somewhat weaker than in their maritime habitat. They wield powerful curses with ease and they can combine their sinister powers for old, forbidden rituals that call upon darkness and doom to do their bidding. As the magic user of the quaras, it wields powerful cold bubble attacks which deal Ice Damage. In addition, it uses distance Life Drain and a Life Drain beam. You may hunt 600 Quara Constrictor, Quara Hydromancer, Quara Mantassin, Quara Pincher, Quara Predator combined, as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Thul.",
+        "abilities": [
+            "Melee (0-80 and starting up to 5 hp/turn)",
+            "Cold Bubble Beam (100-180) Quara Hydromancer",
+            "Cold Bubble Berserk (90-150) Quara Hydromancer",
+            "Green Life Drain Beam (170-240) Quara Hydromancer",
+            "Distance Life Drain (0-170) Quara Hydromancer"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Calassa, Frozen Trench, Yalahar (Sunken Quarter).",
+        "behaviour": "Quara Hydromancers fight until death. They use paralyze pretty often which can be deadly, considering you are already very slow underwater.A quara hydromancer attacks in melee range.",
+        "strategy": "All vocations should stay diagonal.Knights: should run up to it and use a good two handed weapon and full attack because of the Hydromancers weak defense and melee. Stay diagonal to avoid its beam attack. Heal if paralyzed.Mages: should run out of its range and use Energy Strike/Terra Strike.Paladins: should run away from it, hitting it with Bolts or Royal Spears.  Be careful though, you might run into other Quaras.",
+        "loot": [
+            "Gold Coin",
+            "Quara Eye",
+            "Small Emerald",
+            "White Pearl",
+            "Shrimp",
+            "Black Pearl",
+            "Great Mana Potion",
+            "Fish Fin",
+            "Ring of Healing",
+            "Wand of Cosmic Energy",
+            "Knight Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Looter",
+        "name": "Quara Looter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5c/Quara_Looter.gif/revision/latest?cb=20240604125249&path-prefix=en",
+        "attributes": {},
+        "notes": "Quara Looters occupy the lowest rung of Quara society, seen as impure and tainted by their own kind, shunned and reviled, forced to eke out a desperate existence in small, roving bands or by allying themselves with less discerning Quara.\nTheir tragic fate often leads them to serve as expendable shock troops for their Plunderer overlords, who treat them with only a modicum of respect. Quara Looters are a pitiable breed, forever caught in a web of prejudice and exploitation, yet they persevere, driven by the faint hope of finding a better life amidst the darkness. They vent their frustration and pain in fits of violence and senseless cruelty. While bowing only to strength and violence, they will harrass and exploit any creature they consider more weak than themselves. Quara Looter casts a chain damage to players and its damage is calculated based on how many players it hits. The more players it hits, the more damage it will deal. Because of that it is considered the most dangerous quara in Podzilla as it can deal unexpected high damage to those running in the area as a group.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 95%",
+            "Death 95%",
+            "Holy 90%",
+            "Ice 0%",
+            "Fire 80%",
+            "Energy 115%",
+            "Earth 110%"
+        ],
+        "location": "Podzilla Bottom, Podzilla Underwater",
+        "behaviour": "A quara looter attacks from a distance.",
+        "loot": [
+            "Platinum Coins",
+            "Amber Souvenir",
+            "Resinous Fish Fin",
+            "Glacier Robe",
+            "Red Gem",
+            "Blue Gem",
+            "Glacier Kilt",
+            "Mantassin Tail",
+            "Necklace of the Deep",
+            "Crystal Crossbow",
+            "Rift Lance",
+            "Preserved Light Blue Seed",
+            "Preserved Violet Seed",
+            "Preserved Purple Seed",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Mantassin",
+        "name": "Quara Mantassin",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/9d/Quara_Mantassin.gif/revision/latest?cb=20240228100629&path-prefix=en",
+        "attributes": {},
+        "notes": "The shrewd Quara Mantassins are often not recognised until it's too late. Like all quara, they have undergone massive modifications of their bodies which have made them an own subspecies. Especially in their native, maritime habitat, they are masters of camouflage and disguise. However, also on land they are known for stealthy sneak attacks. But away from their natural element, the water, they are weaker and easier to defeat.Usually they serve their race in special operations and they are the ones that target the leaders of their enemies in big battles. With an arsenal of tricks the Quara Mantassin are quite capable on their own. Their love for covert operations gives them their place in the quaran warfare but they are not seen too often in open battles. On the other hand, a Quara Mantassin that you do not see is four times deadlier than a Quara Mantassin that you do see. Quara Mantassins are used to destroy the leaders of the Quaras enemies (which basically means all non-quara and Hydro-Elementals) ranks, and are also used as spies and assassins for special operations. You may hunt 600 Quara Constrictor, Quara Hydromancer, Quara Mantassin, Quara Pincher, Quara Predator combined, as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Thul.",
+        "abilities": [
+            "Melee (0-140)",
+            "Invisible (2 seconds)",
+            "Strong Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Calassa, Frozen Trench, Yalahar (Sunken Quarter).",
+        "behaviour": "This creature is extremely fast upon using haste, and runs away at 40 hp. It casts invisibility quite often also.A quara mantassin attacks in melee range.",
+        "strategy": "This type of quara does not pose any major threat to an experienced player with the right runes and equipment, since its melee attack is relatively weak.Knight: you should wait for them to get to you, and simply use melee with full attack and a shield.  When it turns invisible use Groundshaker, Whirlwind Throw, or Thunderstorm to get it visible again or just wait because the invisibility lasts for a short amount of time unless it casts it again.Mages: should use energy based attacks. If it runs away in deep red, shoot it with Heavy Magic Missile or area runes. It's safe to fight two at once, provided you're ready to cast a healing spell.Paladins: should use shield and a throwing weapon as Mantassins are very fast and if you use crossbow or bow it could cause you significant damage.",
+        "loot": [
+            "Gold Coin",
+            "Mantassin Tail",
+            "Halberd",
+            "Shrimp",
+            "Cape",
+            "Fish Fin",
+            "Small Sapphire",
+            "Stealth Ring",
+            "Two Handed Sword",
+            "Strange Helmet",
+            "Blue Robe",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Pincher",
+        "name": "Quara Pincher",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8a/Quara_Pincher.gif/revision/latest?cb=20060803212938&path-prefix=en",
+        "attributes": {},
+        "notes": "Transformed into a living and walking fortress, there is little a Quara Pincher has to fear. Seemingly unstoppable, they attack stoically without remorse or hesitation. It is rumoured that the grip of their pincers can break a good sword into pieces. Being aware of the facts that they are somewhat clumsy and rather simpleminded, gives one an advantage whenever fighting a Quara Pincher. Another chance to win a fight against them is to duel them ashore where they are much weaker than in water, their natural habitat. Quara Pinchers  are usually encountered along with other quara who probably serve as their superiors and leaders. In larger battles the Quara Pinchers fortify the positions of the troops and provide cover for the other quara while they move forward. Hard to get down because of its heavy armor. It is the slowest of the quaras, equal to the speed of a lvl 95-100 (without Boots of Haste). You may hunt 600 Quara Constrictor, Quara Hydromancer, Quara Mantassin, Quara Pincher, Quara Predator combined, as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Thul.",
+        "abilities": [
+            "Melee (0-340)",
+            "Close Range Paralyze (1-3 seconds)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Calassa, Frozen Trench, Yalahar (Sunken Quarter).",
+        "behaviour": "Fights until death.A quara pincher attacks in melee range.",
+        "strategy": "Paladins: Run while firing HMMs or Divine Missiles.Mages: A level 75+ can kill it without Mana Shield, using Energy Strike or Terra Strike and healing spells. This is risky though, especially if you face more than just the single pincher.Knights: Use your best spells to kill them fast since they can hurt a lot.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Great Health Potion",
+            "Halberd",
+            "Quara Pincers",
+            "Small Ruby",
+            "Shrimp",
+            "Fish Fin",
+            "Warrior Helmet",
+            "Crown Armor",
+            "Glacier Robe",
+            "Giant Shrimp",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Plunderer",
+        "name": "Quara Plunderer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8e/Quara_Plunderer.gif/revision/latest?cb=20240604125309&path-prefix=en",
+        "attributes": {},
+        "notes": "Quara Plunderers are opportunistic and cunning outcasts who thrive on chaos and exploitation. Having their vile temper better under control than most of their kind, they are able to engage in strategic planning and even negotiations. Often amassing small bands of fellow outcasts, these plunderers use their wicked intellect and innate cruelty to launch devastating raids against their targets.\nWithin the depths, Quara Plunderers are feared for their ability to capitalize on the weaknesses of their adversaries, taking advantage of any opportunity to seize wealth and power. Their relentless ambition and brutal tactics make them a formidable foe in the tumultuous world beneath the waves. It's not unheard of for plunderers to turn on their employers in moments of weakness.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 85%",
+            "Ice 0%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Podzilla Bottom, Podzilla Underwater",
+        "behaviour": "A quara plunderer attacks in melee range.",
+        "loot": [
+            "Platinum Coins",
+            "Amber Souvenir",
+            "Blue Gem",
+            "Haunted Blade",
+            "Red Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Predator",
+        "name": "Quara Predator",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/54/Quara_Predator.gif/revision/latest?cb=20201209191003&path-prefix=en",
+        "attributes": {},
+        "notes": "Even more bloodthirsty than the other quara and even feared by their own kind for their murderous frenzy, Quara Predators are usually found in the first lines of a battlefield whenever the quara decide to fight their sworn enemies (which basically means all non-quara). Obviously a mixture of quara and sharks, they share the most disgusting and most lethal attributes of both. Ruthless and vicious they know no mercy and no surrender. Quara Predators are known to fight until the last spark of life leaves their bodies. Sometimes they even fight against each other after slaying all enemies in sight.On shore they are somewhat weaker, losing their speed and agility, but their huge jaws are still fatal. Bloodthirsty Quaras that even fight other Quaras after a battle. They look like a shark. You may hunt 600 Quara Constrictor, Quara Hydromancer, Quara Mantassin, Quara Pincher, Quara Predator combined, as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Thul.",
+        "abilities": [
+            "Melee (0-470)",
+            "Self-Healing (25-75)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Calassa, Frozen Trench, Sunken Quarter, Alchemist Quarter (unreachable), The Inquisition Quest, Seacrest Grounds.",
+        "behaviour": "Malicious. Fights until death.A quara predator attacks in melee range.",
+        "strategy": "This creature's melee damage is equivalent to that of a Behemoth. Be careful if you are running them because they are very fast when they haste.\nPaladins: can solo them at level 70 using Poison Walls or at 120 by running around objects. \nMages: can kill them using Energy Strike while a knight blocks, or solo at level 80 using poison walls.\nKnights:not a very good creature for knights to solo. Use Challenge frequently if you are blocking as it retargets often. Casting Inflict Wound early helps a lot. Cycle between using Brutal Strike and Whirlwind Throw to get the creature down as cheap as possible. Also watch out for other quaras that might break your shielding!\nNowadays Quara Predators are very easy to kill because of the introduction of energy imbuements and elemental melee weapons.",
+        "loot": [
+            "Gold Coin",
+            "Quara Bone",
+            "Royal Spear",
+            "Small Diamond",
+            "Shrimp",
+            "Double Axe",
+            "Fish Fin",
+            "Great Health Potion",
+            "Relic Sword",
+            "Assassin Star",
+            "Glacier Robe",
+            "Skull Helmet",
+            "Giant Shrimp",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Raider",
+        "name": "Quara Raider",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cb/Quara_Raider.gif/revision/latest?cb=20240604125326&path-prefix=en",
+        "attributes": {},
+        "notes": "Quara Raiders are the embodiment of unbridled greed and savagery, even among their own ruthless kin. These crab-like creatures possess a hardened exoskeleton and immense strength, making them a force to be reckoned with on the battlefield. Their insatiable lust for wealth and bloodshed has led to their exile from Quara society, leaving them to roam the depths in search of plunder.\nAs mercenaries, Quara Raiders are employed to strike fear in the hearts of the enemy. Their sheer ferocity makes them difficult to control or employ in any subtle tactics. Cunning employers often attempt to contain their fury, only unleashing these terrifying creatures upon their enemies when the time is right.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 100%",
+            "Holy 90%",
+            "Ice 0%",
+            "Fire 80%",
+            "Energy 110%",
+            "Earth 115%"
+        ],
+        "location": "Podzilla Bottom, Podzilla Underwater",
+        "behaviour": "A quara raider attacks in melee range.",
+        "loot": [
+            "Platinum Coins",
+            "Amber Souvenir",
+            "Red Gem",
+            "Skull Staff",
+            "Resinous Fish Fin",
+            "Glacier Robe",
+            "Blue Gem",
+            "Crystalline Armor",
+            "Quara Pincers",
+            "Abyss Hammer",
+            "Preserved Light Blue Seed",
+            "Preserved Purple Seed",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Saboteur",
+        "name": "Quara Saboteur",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/04/Quara_Saboteur.gif/revision/latest?cb=20201209191040&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of the Journey mission of A Pirate's Tail Quest.",
+        "abilities": [
+            "Melee (? and starting up to 7 hp/turn)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%?"
+        ],
+        "location": "A raft near Rascacoon.",
+        "behaviour": "A quara saboteur never retreats.",
+        "strategy": "Do not let them attack the Raccoon Supplies, make sure there's a knight to Challenge them away.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Servant_of_Tentugly",
+        "name": "Servant of Tentugly",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a1/Servant_of_Tentugly.gif/revision/latest?cb=20210217094356&path-prefix=en",
+        "attributes": {},
+        "notes": "Looks like a Quara Constrictor.",
+        "abilities": [
+            "Melee (0-200?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%",
+            "Energy 80%?",
+            "Earth 120%?"
+        ],
+        "location": "The boat between Rascacoon and The Wreckoning.",
+        "behaviour": "Acts like a Quara Constrictor.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Constrictor_Scout",
+        "name": "Quara Constrictor Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Quara_Constrictor.gif/revision/latest?cb=20060803212828&path-prefix=en",
+        "attributes": {},
+        "notes": "The Quara Constrictor Scout is a weaker version of Quara Constrictors. A weaker version of Quara Constrictors. This monster can be seen during raids on Liberty Bay.\nYou may hunt 400 Quara Constrictor Scouts, Quara Hydromancer Scouts, Quara Mantassin Scouts, Quara Pincher Scouts and Quara Predator Scouts combined as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-130+)",
+            "Life Drain Berserk (0-80+) Quara Constrictor Scout"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Malada, Arena Quarter, Treasure Island Eastern Caves, Hrodmir Quara Scout Caves, Quara Grotto, Oramond.",
+        "behaviour": "A quara constrictor scout attacks in melee range. A quara constrictor scout will retreat at 1 to 17 (0.22% - 3.78%, deep red) health.",
+        "strategy": "Paladins: They are easy to kill from distance.\nMages: Use energy strike.\nKnights: Their defence is very low and they deal quite low damage.",
+        "loot": [
+            "Gold Coin",
+            "Longsword",
+            "Shrimp",
+            "Quara Tentacle",
+            "Small Amethyst",
+            "Brass Armor",
+            "Fish Fin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Hydromancer_Scout",
+        "name": "Quara Hydromancer Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/ff/Quara_Hydromancer_Scout.gif/revision/latest?cb=20150612081231&path-prefix=en",
+        "attributes": {},
+        "notes": "The Quara Hydromancer Scout is a weaker version of Quara Hydromancers. Has the same life, gives the same exp and has the same magic power as the normal Quara Hydromancer, but loot has a lower drop chance.\nYou may hunt 400 Quara Constrictor Scouts, Quara Hydromancer Scouts, Quara Mantassin Scouts, Quara Pincher Scouts and Quara Predator Scouts combined as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-40+ and starting up to 5 hp/turn)",
+            "Ice Berserk (130-165) Quara Hydromancer Scout",
+            "Cold Green Beam (0-210+) Quara Hydromancer Scout",
+            "Life Drain Bubble Beam (125-250) Quara Hydromancer Scout",
+            "Distance Life Drain (45-170) Quara Hydromancer Scout",
+            "Self-Healing (?)",
+            "Distance Paralyze"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Malada, Hrodmir Quara Scout Caves, Quara Grotto, Oramond.",
+        "behaviour": "Watch for their healing ability since they heal themself at average level.A quara hydromancer scout attacks in melee range.",
+        "strategy": "They are easy to handle one-on-one but you rarely find them without others. Big groups of Quara occasionally raid. Liberty Bay or the plantations.\nAll vocations: stay diagonal to avoid beam attacks.Paladins: try to keep distance and use Light Healing to remove paralysis.Mages: keep a distance and use energy strike.  It is also recommended to use Mana Shield if fighting in close quarters with this creature.Knight: Kill them fast or their exori-like attacks and their beams will hurt you quite a lot.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Shrimp",
+            "Quara Eye",
+            "White Pearl",
+            "Black Pearl",
+            "Small Emerald",
+            "Obsidian Lance",
+            "Fish Fin",
+            "Wand of Cosmic Energy",
+            "Ring of Healing",
+            "Knight Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Mantassin_Scout",
+        "name": "Quara Mantassin Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/12/Quara_Mantassin_Scout.gif/revision/latest?cb=20240228100710&path-prefix=en",
+        "attributes": {},
+        "notes": "The Quara Mantassin Scout is a weaker version of Quara Mantassins. This monster can be seen during a quara raid in Liberty Bay. An easier version of Quara Mantassins.\nYou may hunt 400 Quara Constrictor Scouts, Quara Hydromancer Scouts, Quara Mantassin Scouts, Quara Pincher Scouts and Quara Predator Scouts combined as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-110)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Malada, Water Elemental Cave near Port Hope, Hrodmir Quara Scout Caves, Quara Grotto.",
+        "behaviour": "Run in low hp.A quara mantassin scout attacks in melee range.",
+        "strategy": "Paladins: Just kill them, or you can use them so they block other quaras way so they can't reach you and you can kill the stronger quaras first.Mages: Use energy strike and always try to keep a distance and don't run into other quaras. Knight: They are very easy to kill, they deal low damage and their defense is low.",
+        "loot": [
+            "Gold Coin",
+            "Mantassin Tail",
+            "Chain Armor",
+            "Skull (Item)",
+            "Small Sapphire",
+            "Two Handed Sword",
+            "Stealth Ring",
+            "Fish Fin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Pincher_Scout",
+        "name": "Quara Pincher Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f0/Quara_Pincher_Scout.gif/revision/latest?cb=20060815214551&path-prefix=en",
+        "attributes": {},
+        "notes": "The Quara Pincher Scout is a weaker version of Quara Pinchers. It has very strong defense against physical attacks, but they are very slow. It has half the hit points and yields half the experience of the regular Quara Pincher. This monster can be seen during Liberty Bay Quara raids. \nYou may hunt 400 Quara Constrictor Scouts, Quara Hydromancer Scouts, Quara Mantassin Scouts, Quara Pincher Scouts and Quara Predator Scouts combined as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-240)",
+            "Close Range Paralyze"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Malada, Hrodmir Quara Scout Caves, Quara Grotto, Oramond.",
+        "behaviour": "Chases the opponent until death.A quara pincher scout attacks in melee range.",
+        "strategy": "Paladins: Run around and shoot spells or runes to kill them fast.\nMages: Use energy strike or runes.\nKnights: Their armor and defense is high, the highest among all quara scouts. You'll need a good weapon and high skills to even hurt them. They also deal high damage (in relation to other quara scouts).",
+        "loot": [
+            "Gold Coin",
+            "Quara Pincers",
+            "Small Ruby",
+            "Halberd",
+            "Plate Armor",
+            "Life Crystal",
+            "Fish Fin",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Quara_Predator_Scout",
+        "name": "Quara Predator Scout",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/74/Quara_Predator_Scout.gif/revision/latest?cb=20060815214257&path-prefix=en",
+        "attributes": {},
+        "notes": "The Quara Predator Scout is a weaker version of Quara Predators. This monster can be seen during the quara raid on Liberty Bay. They look like a shark.\nYou may hunt 400 Quara Constrictor Scouts, Quara Hydromancer Scouts, Quara Mantassin Scouts, Quara Pincher Scouts and Quara Predator Scouts combined as a task of the Killing in the Name of... Quest.",
+        "abilities": [
+            "Melee (0-190)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 110%",
+            "Earth 110%"
+        ],
+        "location": "Malada, Hrodmir Quara Scout Caves, Quara Grotto, Oramond.",
+        "behaviour": "Fights until death.A quara predator scout attacks in melee range.",
+        "strategy": "Predator scouts are a bit weaker than pincher scouts.\nPaladins: can kill them by running and shooting bolts and runes or royal spears and divine missile. They are easy to kill from a distance.\nMages: can kill them with Energy Strike.\nKnights: Their defense is quite low so you will hurt them often but you will need some time to kill them due to their high amount of hit points.",
+        "loot": [
+            "Gold Coin",
+            "Double Axe",
+            "Scale Armor",
+            "Quara Bone",
+            "Small Diamond",
+            "Two Handed Sword",
+            "Shrimp",
+            "Fish Fin",
+            "Northwind Rod",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Renegade_Quara_Constrictor",
+        "name": "Renegade Quara Constrictor",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f5/Quara_Constrictor.gif/revision/latest?cb=20060803212828&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Seacrest Grounds when Seacrest Serpents are not spawning.",
+        "behaviour": "A renegade quara constrictor attacks in melee range.",
+        "strategy": "Treat it as a regular Quara Constrictor.",
+        "loot": [
+            "Platinum Coin",
+            "Quara Tentacle",
+            "Mind Stone",
+            "Great Mana Potion",
+            "Ring of Healing",
+            "Shrimp",
+            "Assassin Star",
+            "Small Ruby",
+            "Small Amethyst",
+            "Vortex Bolt",
+            "Violet Crystal Shard",
+            "Northwind Rod",
+            "Fish Fin",
+            "Piggy Bank",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Renegade_Quara_Hydromancer",
+        "name": "Renegade Quara Hydromancer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/90/Renegade_Quara_Hydromancer.gif/revision/latest?cb=20150612081240&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Seacrest Grounds when Seacrest Serpents are not spawning.",
+        "behaviour": "A renegade quara hydromancer attacks in melee range.",
+        "strategy": "Treat it as a regular Quara Hydromancer.",
+        "loot": [
+            "Platinum Coin",
+            "Quara Eye",
+            "Mind Stone",
+            "Shrimp",
+            "Small Topaz",
+            "Small Emerald",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Spirit Cloak",
+            "Yellow Piece of Cloth",
+            "Green Piece of Cloth",
+            "Green Crystal Shard",
+            "Life Ring",
+            "Giant Shimmering Pearl (Green)",
+            "Fish Fin",
+            "Wand of Cosmic Energy",
+            "Knight Armor",
+            "Green Gem",
+            "Black Pearl",
+            "Ring of Healing",
+            "White Pearl",
+            "Giant Shimmering Pearl",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Renegade_Quara_Mantassin",
+        "name": "Renegade Quara Mantassin",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/4/4b/Renegade_Quara_Mantassin.gif/revision/latest?cb=20141119064917&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Seacrest Grounds when Seacrest Serpents are not spawning.",
+        "behaviour": "A renegade quara mantassin attacks in melee range.",
+        "strategy": "Treat it as a regular Quara Mantassin.",
+        "loot": [
+            "Mantassin Tail",
+            "Mind Stone",
+            "Stealth Ring",
+            "Shrimp",
+            "Small Sapphire",
+            "Blue Crystal Shard",
+            "Ice Rapier",
+            "Strange Helmet",
+            "Fish Fin",
+            "Two Handed Sword",
+            "Blue Robe",
+            "Energy Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Renegade_Quara_Pincher",
+        "name": "Renegade Quara Pincher",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/15/Renegade_Quara_Pincher.gif/revision/latest?cb=20141119064749&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-302+)",
+            "Paralyze (1sqm range)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Seacrest Grounds when Seacrest Serpents are not spawning.",
+        "behaviour": "A renegade quara pincher attacks in melee range.",
+        "strategy": "Treat it as a regular Quara Pincher.",
+        "loot": [
+            "Platinum Coin",
+            "Quara Pincers",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Small Ruby",
+            "Small Diamond",
+            "Mind Stone",
+            "Red Gem",
+            "Shrimp",
+            "Vortex Bolt",
+            "Giant Shimmering Pearl (Brown)",
+            "Warrior Helmet",
+            "Fish Fin",
+            "Crown Armor",
+            "Time Ring",
+            "Glacier Robe",
+            "Giant Shrimp",
+            "Talon",
+            "Twiceslicer",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Renegade_Quara_Predator",
+        "name": "Renegade Quara Predator",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a5/Renegade_Quara_Predator.gif/revision/latest?cb=20141119064854&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-465+)",
+            "Haste",
+            "Self-Healing (50-100)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 125%",
+            "Earth 110%"
+        ],
+        "location": "Seacrest Grounds when Seacrest Serpents are not spawning.",
+        "behaviour": "A renegade quara predator attacks in melee range.",
+        "strategy": "Treat it as a regular Quara Predator.",
+        "loot": [
+            "Platinum Coin",
+            "Quara Bone",
+            "Royal Spear",
+            "Mind Stone",
+            "Great Health Potion",
+            "Assassin Star",
+            "Shrimp",
+            "Small Diamond",
+            "Fish Fin",
+            "Blue Crystal Shard",
+            "Relic Sword",
+            "Glacier Robe",
+            "Abyss Hammer",
+            "Frozen Plate",
+            "Skull Helmet",
+            "Giant Shrimp",
+            "Loot Statistics"
+        ]
+    }
+]

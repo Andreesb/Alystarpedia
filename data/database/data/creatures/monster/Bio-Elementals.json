@@ -1,0 +1,1509 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Abominable_Spawn",
+        "name": "Abominable Spawn",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/c3/Abominable_Spawn.gif/revision/latest?cb=20210615195653&path-prefix=en",
+        "attributes": {},
+        "notes": "The Abomination is a raid boss that spawns approximately every 180 days. When this raid happens, it starts with the Abominable Spawn appearing in 4 out of 10 possible locations. The miniboss on the 4 locations share the same health pool and it seems to be required to have players in all rooms to defeat it. The remaining portals will bring you to empty rooms. The possible locations are: Once the Abominable Spawn is defeated, its corpse will become a vortex that brings players to the lair of The Abomination. Only through the 4 original portals where the Spawn was present it will be possible to reach The Abomination.",
+        "abilities": [
+            "Melee (0-1000? and starting up to 25 hp/turn)",
+            "Life Drain Strike (600-900) Abominable Spawn",
+            "Smoke Wave (1300-1500\n  ) Abominable Spawn",
+            "Poison Berserk (600-800) Abominable Spawn",
+            "Blood Berserk (600-800) Abominable Spawn",
+            "Earth Wave (poisons you starting as high as 87 damage per turn for a total of 1700+ damage) Abominable Spawn",
+            "Self-Healing (50000-200000)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%?",
+            "Ice 80%?",
+            "Fire 110%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "It appears when The Abomination raids the world and it will be present in 4 out of 10 possible locations, listed above.",
+        "behaviour": "An abominable spawn attacks in melee range.",
+        "strategy": "The Spawn has a large health pool and a very strong self-healing, so you need a lot of firepower to kill it fast. The more damage players deal to it, the lower the chance of it using its healing spells and recovering a lot of health. It's possible to kill it with only a few shooters but you'll need to be lucky so it doesn't heal very often and it will still take a long time.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Aggressive_Matter",
+        "name": "Aggressive Matter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/5d/Aggressive_Matter.gif/revision/latest?cb=20221125120302&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks the same as a Rot Elemental. They spawn when you kill an Organic Matter.",
+        "abilities": [
+            "Poison Berserk (400-800)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%",
+            "Energy 65%?",
+            "Earth 0%"
+        ],
+        "location": "Warzone 4 inside the boss room.",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Kill them as fast as possible because they make boss stronger. With too many around boss fight become harder.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Angry_Plant",
+        "name": "Angry Plant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/16/Angry_Plant.gif/revision/latest?cb=20170111210230&path-prefix=en",
+        "attributes": {},
+        "notes": "Looks like a Carniphila. This creature can only be found when First Dragon Quest is active.",
+        "abilities": [
+            "Melee (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "First Dragon Lair's boss room.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Blood_Beast",
+        "name": "Blood Beast",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/6/60/Blood_Beast.gif/revision/latest?cb=20140613234039&path-prefix=en",
+        "attributes": {},
+        "notes": "Another phenomenon attributed to the infamous necromantic smog of Rathleton is the existence of the blood beast. As hideous and disgusting as these creatures are, the secret of their creation is even more disturbing. It seems sometimes decaying corpses of animals become that imbued with the unstable necromantic residue, that their carrion blood becomes the carrier of some dark force when it somehow reacts with glooth. This blood behaves almost as sentient. It is known to creep around and even hide itself. It's searching for more blood, changed like itself and through metaphysical means is obviously able to sense it. Over time more and more of this mix of blood and glooth finds together, building sometimes enormous pools in underground caverns. Those pools act like a beacon for the spirits of predatory animals that died in pain and anger. If such a creature comes close to the pool a part of it splits and devours the spirit, becoming a separate entity on its own. The so created creature knows only the basest and cruellest instincts of the beasts. With a malleable body of soiled glooth and unclean blood it follows the needs of a predator. The blood beast lurks or hunts like ordinary animals would do, but it reveals a cunning beyond that of animals and a cruelty that is frightening. It is unknown if the creature actually needs food or at least has to replenish blood by its kills. The blood beast was immortalised by Hainnbert Shuckletons novel 'The beast from the shadows' which spread knowledge of these creatures throughout the world and painted a mostly false and overly romantic and tragic picture of the cruel predator. Rumours attribute the blood beast all kinds of unverified abilities like flowing beneath doors or through wall cracks or wall crawling and even lurking on ceilings. Most of this misleading information is spread by novels that tried to copy Shuckletons success and lead to the demise of more than one know-it-all adventurer. To complicate things even furthers there actually IS evidence to support some of the wilder claims made about the abilities of the creature. For instance it is extremely probable that the blood beast can reform itself after being slain. If it is via sentient blood creeping all their way to its spawning pool to be reborn or somehow else, there is proof that victorious blood beast slayers was attacked at his home, often in sleep by a blood beast that showed disturbing knowledge of its victims combat tactics. The gravest danger though is to dismiss the existence of these creatures as purely fiction and be utterly unprepared to encounter one.",
+        "abilities": [
+            "Melee (0-124+ and starting up to ? hp/turn)",
+            "Self-Healing (0-117+)",
+            "Poison Bomb (up to 20 hp/turn)",
+            "Throws viper stars (0-94+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 110%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Oramond/Southern Plains, Lower Rathleton, Oramond/Western Plains, Underground Glooth Factory, Jaccus Maxxen's Dungeon",
+        "behaviour": "A blood beast attacks in melee range.",
+        "strategy": "Earth Damage protection can be useful depending on where you are going to hunt them.",
+        "loot": [
+            "Gold Coin",
+            "Strong Health Potion",
+            "Viper Star",
+            "Slime Heart",
+            "Poisoned Fang",
+            "Poisonous Slime",
+            "Glooth Spear",
+            "Glooth Club",
+            "Glooth Steak",
+            "Glooth Blade",
+            "Glooth Axe",
+            "Glooth Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Bog_Raider",
+        "name": "Bog Raider",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/af/Bog_Raider.gif/revision/latest?cb=20210420140923&path-prefix=en",
+        "attributes": {},
+        "notes": "The Bog Raider is neither a living creature, nor an undead, nor a ghost. Rather, it is a ghastly mix of all of them. Whenever someone dies in the bogs, he is often in great fear or desperation. In many cases, these fears tie the spirit to the world of the living. Trapped between the worlds, these spirits become more and more desperate. They contaminate the environment by spreading their fear and desperation, and they bind rotten plants to the bones of their mortal remains. After several years, the spirit combines with its newly formed body and a new creature is born - a dreadful Bog Raider rises from the swamps. The new body consists of the skeleton that belonged to the living being the spirit used to be, wrapped round with masses of rotten plants, leaves and vines.Still driven by fear and often completely mad, Bog Raiders walk the swamps. However, their mad and frightening wailing warns all creatures of their approach. Hungry for life, Bog Raiders attack every living being that crosses their way, vainly trying to gain their enemy's life force to satisfy their tormenting hunger. Bog Raiders are rather driven by madness than by intelligence which makes them to dangerous enemies. However, there are also reports of Bog Raiders who overcame their madness and actually help nearby settlements or look after their former families from a distance.",
+        "abilities": [
+            "Melee (0-180 and starting up to 4 hp/turn)",
+            "Distance Life Drain (90-140)",
+            "Bubble Berserk (100-175)",
+            "Stalagmite (96-110)",
+            "Distance Paralyze",
+            "Self-Healing (around 100)"
+        ],
+        "resistance": [
+            "Physical 105%",
+            "Death 95%",
+            "Holy 105%",
+            "Ice 105%",
+            "Fire 15%",
+            "Energy 110%",
+            "Earth 70%"
+        ],
+        "location": "Underneath Malada and Talahu, Edron Bog Raider Cave in Stonehome, Edron Earth Elemental Cave, Alchemist Quarter, Vengoth Castle, Robson Isle. Oramond Hydra/Bog Raider Cave.",
+        "behaviour": "A bog raider attacks in melee range. A bog raider never retreats.",
+        "strategy": "Mages: Attack them, run them around using Ice, Energy or Physical attacks while trying to not get swarmed by other Bog Raiders. With more risk you can stand still and just use strike attacks but their Melee is quite good. This has more mana waste, but less chance of luring more of these, just keep healing and there will be of little problem. Knights: Use melee, Whirlwind Throw and Brutal Strike, better stand and fight since the respawn is fast and more can be lured, diagonal is not necessary. You can attempt them at level 55, skills 75/75. To really profit you would need better skills to kill them faster. Strange as it sounds, a Garlic Necklace is a better choice than Silver Amulet, as it blocks a large amount of their strong life drain and will last longer, while Silver Amulet will wear off really fast due to the fact you're always poisoned when fighting them. Be careful if you run into 4+ of them as they can combo pretty hard. Do not forget to use Berserk and Fierce Berserk in these situations. Paladins: Run and kill it as fast as possible with a strong distance weapon (Enchanted Spears, Assassin Stars or Power Bolts) to avoid running in another spawn. Level 50+ and skill 75+ is recommended. They are weak to physical damage, so Ethereal Spear may work better than Divine Missile, depending on your skills and level.",
+        "loot": [
+            "Gold Coin",
+            "Boggy Dreads",
+            "Great Health Potion",
+            "Great Spirit Potion",
+            "Plate Legs",
+            "Belted Cape",
+            "Springsprout Rod",
+            "Ultimate Health Potion",
+            "Paladin Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Branchy_Crawler",
+        "name": "Branchy Crawler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Branchy_Crawler.gif/revision/latest?cb=20220530225513&path-prefix=en",
+        "attributes": {},
+        "notes": "Branchy crawlers are what Zarganash creates out of lost nature spirits that by ill luck somehow ended up in this realm. The environment of Zarganash, with is the complete antithesis to life, health and growth, immediately begins to twist and corrupt those spirits in body and mind. With alarming speed it moulds them into something far more sinister and dangerous. In a mockery of their former existence, they foster the growth of bleakness and of all things that carry the deathly taint of Zarganash. In a vague memory of their former existence they find purpose in a twisted form of the things that were once dear to them. Where they once fostered growth, they now shepherd the lost souls towards their inevitable doom and damnation. They do so without glee, though. For them they are just following a new found natural order that all things have to bow to. Where other creatures of Zarganash seem to enjoy the suffering and abandonment of hope, the branchy crawlers seemingly just gave in to their new existence with an overwhelming resignation that virtually begins to seep out of them. Though they might even be able to feel some form of pity towards their victims, they still show no remorse or restraint. If anything, they seem to experience overwhelming self-loathing. They carry with them blight and despair, eternally locking them out of everything that could have had any deeper meaning to them. They are barred of anything they once held dear. In yet another mockery of their former existence the branchy crawlers have odd regenerative abilities. Whenever they are destroyed their essence will reform into a new branchy crawler after a while. This form of immortality is yet only a curse to them, binding them eternally to the twisted form and existence that they hate. Branchy Crawlers are the creatures from Rotten Wasteland that can trigger Goshnar's Taints.",
+        "abilities": [
+            "Can afflict root",
+            "Melee (0-600)",
+            "Poison Bolt (1000-1200) Branchy Crawler",
+            "Roots Ball on target (1100-1200) Branchy Crawler",
+            "Holy Ball (1100-1300) Branchy Crawler",
+            "Holy Strike (1000-1200)",
+            "Wall Breaker (destroys Magic Walls and Wild Growths ) Branchy Crawler"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 115%",
+            "Holy 60%",
+            "Ice 100%",
+            "Fire 109%",
+            "Energy 105%",
+            "Earth 50%"
+        ],
+        "location": "Rotten Wasteland.",
+        "behaviour": "Attacks from close range.A branchy crawler attacks in melee range. A branchy crawler will retreat at 10  (0.04%, deep red) health.",
+        "loot": [
+            "Crystal Coin",
+            "Ultimate Health Potion",
+            "Gold Ingot",
+            "Roots",
+            "Terra Legs",
+            "Violet Gem",
+            "Crawler's Essence",
+            "Green Gem",
+            "Blue Gem",
+            "Hammer of Wrath",
+            "Nightmare Blade",
+            "Crystal Crossbow",
+            "Ruthless Axe",
+            "Twiceslicer",
+            "Crystalline Sword",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Carniphila",
+        "name": "Carniphila",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/ba/Carniphila.gif/revision/latest?cb=20210420161400&path-prefix=en",
+        "attributes": {},
+        "notes": "This creature is neither a plant nor a beast, it is rather a mixture of both and another oddity that the Tiquandan jungle holds in store for explorers and settlers. Although plant-like in its looks and structure, it seems to be able to control its movements. It is carnivorous by nature and follows almost mindlessly its greedy appetite. Its poisonous attacks decelerate its victims and so the slow giant plant can catch up and attack with its thorny tentacles and a maw-like blossom. The dead bodies of their victims do not only serve as food but also as fertiliser for the plants seeds. Therefore it is advised to burn bodies who died by an attack of a Carniphila. These creatures will kill other monsters to get to you. You may hunt 150 of these as a task of the Killing in the Name of... Quest. Upon completion of the task you will face Deathbine.",
+        "abilities": [
+            "Melee (0-100 and starting up to 5 hp/turn)",
+            "Paralyze (230-280 points for 30 seconds) Carniphila",
+            "Earth Strike (60-90) Carniphila",
+            "Terra Berserk (40-130) Carniphila"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 120%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Deep inside the Tiquanda Jungle including Tiquanda Laboratory and a small cave here, Forbidden Lands, Deeper Banuta, Arena and Zoo quarter in Yalahar.",
+        "behaviour": "The Carniphila moves slowly but can catch up to you if you are paralyzed. It is a dangerous monster for inexperienced characters.A carniphila attacks in melee range.",
+        "strategy": "Similar to Hunters, they can hit you despite them being off screen. Always be ready to use Light Healing to remove Paralysis.Knights should rush in to attack them (preferably with a fire enchanted weapon (like a Fire Sword)).Mages are better against a Carniphila, because they use runes to attack them from a distance. Use Fire Damage-based attacks/runes.  Magic Shield is useful for low level Mages to absorb the large amount of damage received.Paladins should shoot them or use runes.",
+        "loot": [
+            "Gold Coin",
+            "Dark Mushroom",
+            "Carniphila Seeds",
+            "Corncob",
+            "Shadow Herb",
+            "Seeds",
+            "Sling Herb",
+            "Carrot on a Stick",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Carnisylvan_Sapling",
+        "name": "Carnisylvan Sapling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8b/Carnisylvan_Sapling.gif/revision/latest?cb=20210527033644&path-prefix=en",
+        "attributes": {},
+        "notes": "Carnisylvan saplings are a sinister spawn, created by vile poisonous carnisylvans as a defense mechanism. They try to overwhelm their victims in number and will explode when close enough to their target. Despite being very small and more plant than human-like when compared to their elders, they can be just as dangerous.",
+        "abilities": [
+            "Self destruct (explodes when reaches player) (500)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Forest of Life.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cave_Devourer",
+        "name": "Cave Devourer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/04/Cave_Devourer.gif/revision/latest?cb=20171107134525&path-prefix=en",
+        "attributes": {},
+        "notes": "While we can only make vague assumptions how the deepest depths of the world might look like, it's inhabitants that were encountered in service of those below, might hint at a hostile environment in which predatory species rout our the weak and survival of the fittest takes place in extremes. The devourer is an extraordinary example of such principles. It is living machine of teeth and muscle, ready to chew and devour everything in its path. The sheer appetite of the devourer seems absurd to a level that borders magical abilities. Dwarfs claim, that devourers were observed that devoured piles of rocks, five times of more mass then themselves, without changing size of mass on their own. This lead to over the top tales of dwarfish explorers that assume that the individual devourers are just remote parts of a bigger organism that is magically connected to them and feeding on all that his remote maws devour. Wherever these stories came from, they have spread through the dwarfen troops and handled as common knowledge. There is yet no scientific evidence of such claims and attempts to capture a devourer only lead to the entrapped devourer turning it inside out, devouring itself, so to say and dying. Devourers diet seems to contain of everything. When left alone they devour minerals, though they don't tend to burrow tunnels while eating and rely instead on loose rocks. Given their appetite, it's remarkable, that they actually can concentrate on battle when needed and put their hunger aside for a while. When the battle is done though they scour the battlefield for corpses and everything that is too wounded to fight back. The dwarfs that fought them the most have another tale about them, claiming the devourers developed a special taste for rust and seem to see it as a delicacy. \nThe devourers eternal hunger seems to rule all their actions so they know no fear or mercy in battle. They are constantly biting and gnawing, and almost enthusiastically employ this in battle to mangle their enemies.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 120%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Warzone 5",
+        "behaviour": "A cave devourer attacks in melee range.",
+        "strategy": "Unknown",
+        "loot": [
+            "Cave Devourer Eyes",
+            "Cave Devourer Maw",
+            "Small Enchanted Sapphire",
+            "Small Enchanted Ruby",
+            "Crystalline Arrow",
+            "Blue Crystal Shard",
+            "Green Crystal Shard",
+            "Cyan Crystal Fragment",
+            "Slime Heart",
+            "Cave Devourer Legs",
+            "Violet Crystal Shard",
+            "Stealth Ring",
+            "Suspicious Device",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Cloak_of_Terror",
+        "name": "Cloak of Terror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d4/Cloak_of_Terror.gif/revision/latest?cb=20220602202244&path-prefix=en",
+        "attributes": {},
+        "notes": "The cloaks of terror are the remnants of demons that entered the realm of Zarganash just to be devoured and ripped to pieces by its inhabitants. Their demonic residue slowly remained trapped in the realm and over time mixed and fused with other soul fragments, ultimately forming a new, vile construct that once again roamed Zarganash as mindless force of hunger and destruction. The cloaks are predatory and mostly instinct driven beings that prey exclusively on the living. When no living being is present they roam wide areas in their mostly futile hunt for prey. Eventually they slow down considerably and fall into dormancy after some time. While dormant they meld into the environment and are almost undetectable. Their overall composition makes them an undesirable prey for other denizens of Zarganash and so they can spent their time in dormancy relatively save. How long it takes to let them slip into such a state is widely different and probably dependent on several factors. Yet it seems common that they gather at some spots before going into dormancy. If a living being, in theory a rare occurrence in Zarganash, enters their presence, they wake up almost simultaneously which is a truly terrifying sight. A mass of silent levitating bodies that floats towards their target is enough to shake even the bravest warrior. Even worse though they emit a sound, that only dogs and certain other animals are seemingly able to hear, but that is nonetheless unsettling and even frightening to most humanoid beings. Their life detection has a fair amount of range and is seemingly shared with other cloaks in an area. Whenever one of them is able to sense life, all others will know and act on it. Their waking up is almost immediately and they waste no time before heading towards their prey. They show a great amount of violence and cruelty in their attacks, yet they seem in no way or form to devour any matter or energy of their targets. So it is even more astonishing what draws them to the living specifically and why they attack them with such ferocity. Why a creature in the land of the dead should so heavily specialise on the living is yet another insidious trick that the realm seems to play on intruders. No cloak of terror has yet been unleashed upon the realm of the living. It can be hoped that it's very nature is so heavily bound to Zarganash, that the cloaks are unable to pass the shroud between realms. Cloaks of Terror are the creatures from Furious Crater that can trigger Goshnar's Taints.",
+        "abilities": [
+            "Melee (0-650)",
+            "Spark Ball on itself (1100-1400)",
+            "Energy Strike (1500-1700)",
+            "Energy Ball on itself (destroys Magic Walls and Wild Growths )",
+            "Shoots spectral bolts (600-1300)",
+            "Small Holy Ball (900-1100)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 120%",
+            "Holy 60%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 40%",
+            "Earth 105%"
+        ],
+        "location": "Furious Crater.",
+        "behaviour": "Attacks from close range and moves very fast.A cloak of terror attacks in melee range. A cloak of terror will retreat at 10  (0.04%, deep red) health.",
+        "strategy": "Be very careful when moving around the spawn as one extra creature can be very hard for the team to deal with. As a shooter, stay far from it to avoid being hit by its area attacks around itself.",
+        "loot": [
+            "Crystal Coin",
+            "Ultimate Health Potion",
+            "Gold Ingot",
+            "Telescope Eye",
+            "Wand of Starstorm",
+            "Violet Gem",
+            "Lightning Headband",
+            "Green Gem",
+            "Blue Gem",
+            "Wand of Inferno",
+            "Wand of Voodoo",
+            "Wand of Defiance",
+            "Crown (Plant)",
+            "Brooch of Embracement",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Converter",
+        "name": "Converter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/32/Converter.gif/revision/latest?cb=20230613180248&path-prefix=en",
+        "attributes": {},
+        "notes": "The Converters are monstrous beings of living devouring energy, born from the darkest recesses of the fallen realm. Their existence is sustained by their insatiable appetite for various forms of life force, which they consume with an unsettling voracity. They appear as a swirling vortex of shadow and ethereal energy, constantly shifting and distorting as they draw in and assimilate the vital essence of their surroundings. The air crackles with malevolent energy in their presence, and the ambient light seems to dim as they grow stronger. The Converters serve as conduits of the fallen realm's power, transforming and channeling the life force they consume into a raw, corrupted energy that fuels the insidious workings of the decaying realm.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 120%",
+            "Death 115%",
+            "Holy 65%",
+            "Ice 100%",
+            "Fire 75%",
+            "Energy 110%",
+            "Earth 90%"
+        ],
+        "location": "Gloom Pillars",
+        "behaviour": "A converter attacks from a distance.",
+        "loot": [
+            "Crystal Coin",
+            "Darklight Obsidian Axe",
+            "Wand of Starstorm",
+            "Darklight Core (Object)",
+            "Darklight Matter (Object)",
+            "Blue Gem",
+            "Ultimate Health Potion",
+            "Focus Cape",
+            "White Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Carnisylvan",
+        "name": "Dark Carnisylvan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b3/Dark_Carnisylvan.gif/revision/latest?cb=20210527033224&path-prefix=en",
+        "attributes": {},
+        "notes": "Carnisylvans were once humans, exposed to a dark ritual at birth they unwillingly abandoned their former lives to morph into tree-like shadow beings. Some time after coming of age they wander away to fall into a neverending slumber deep underground. Standing in pitch-black darkness, sleeping still, dreaming quaint dreams of death they await the time of joint uprising. Some are born to be chosen custodians of their siblings, awake and sentient. Dark carnisylvans are tainted by corrupted magic and try to enchant their victims with bizarre spells. It is not easy to escape the clutches of a dark carnisylvan as most of its spells are also instantly affecting the mind.",
+        "abilities": [
+            "Melee (0-600)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 120%",
+            "Energy 100%",
+            "Earth 90%"
+        ],
+        "location": "Forest of Life.",
+        "behaviour": "A dark carnisylvan attacks in melee range. A dark carnisylvan never retreats.",
+        "loot": [
+            "Platinum Coin",
+            "Bone",
+            "Great Mana Potion",
+            "Carnisylvan Finger",
+            "Carnisylvan Bark",
+            "Spellbook",
+            "Hailstorm Rod",
+            "Spellbook of Warding",
+            "Underworld Rod",
+            "Springsprout Rod",
+            "Wand of Starstorm",
+            "Gold Ring",
+            "Butterfly Ring",
+            "Human Teeth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Dazed_Leaf_Golem",
+        "name": "Dazed Leaf Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/00/Dazed_Leaf_Golem.gif/revision/latest?cb=20220822144752&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Melee (0-146)",
+            "Red Sparkles Exori Dazed Leaf Golem",
+            "Poisoning Bomb (up to 27+hp/turn) Dazed Leaf Golem",
+            "Exploding Stone (466-480) Dazed Leaf Golem",
+            "Distance Paralyze Dazed Leaf Golem",
+            "Self-Healing (550)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 50%?"
+        ],
+        "location": "Falcon Bastion.",
+        "behaviour": "When it spawns, it moves slowly around the room before falling asleep and staying still.",
+        "strategy": "Unknown",
+        "loot": [
+            "Gold Coin",
+            "Fir Cone",
+            "Dowser",
+            "White Mushroom",
+            "Small Emerald",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Defiler",
+        "name": "Defiler",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Defiler.gif/revision/latest?cb=20171220002856&path-prefix=en",
+        "attributes": {},
+        "notes": "It is unknown whether the thing known as Defiler is a variant of the ordinary slime or if it is the elder form of the said creature. Although they share numerous characteristics, the Defiler is by far more powerful and dangerous. Since the Defiler is often found accompanied by some kind of demon, it is theorised that the greater slime is possibly not even native to our world. It is assumed that some life form brought it here from the demons' realm of existence. Still, just like the common slimes, it shares the love for humid places of decay and darkness and like its smaller variant it does not care about living or dead as long as it is organic when it comes to eating habits. When the slime is seen as a symbol of poison and decay, those characteristics cannot be overlooked in the Defiler. Its relation to poison and decay also becomes evident in its attributes. A choking stench surrounds the Defiler and it can shoot some parts of itself to infect its victims with poison and decay. Its body turns into a poison field after rotting. Somewhat related to Slime. The Defiler's bosses are The Plasmother - located in Verminor's Throneroom - and The Abomination.",
+        "abilities": [
+            "Melee (0-240 and starting up to ? hp/turn)",
+            "Poison Missiles (160-270)",
+            "Green Spark Ball",
+            "Self-Healing (~350)",
+            "Curse Wave",
+            "Earth Wave (poisons you)",
+            "Poison Berserk (120-170)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 125%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Pits of Inferno, The Vats - Edron and Grounds of Plague.",
+        "behaviour": "Fights in close combat.A defiler attacks in melee range. A defiler will retreat at 85  (2.33%, deep red) health.",
+        "strategy": "They are usually found together with other creatures that Paralyse you often, so be ready to heal often or avoid running. Use Fire damage and Earth protection.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Demonic Essence",
+            "Glob of Acid Slime",
+            "Glob of Tar",
+            "Small Emerald",
+            "Soul Orb",
+            "Small Diamond",
+            "Small Ruby",
+            "Talon",
+            "Death Ring",
+            "Yellow Gem",
+            "Red Gem",
+            "Blue Gem",
+            "Green Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Devourer",
+        "name": "Devourer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/26/Devourer.gif/revision/latest?cb=20180506164623&path-prefix=en",
+        "attributes": {},
+        "notes": "The source of the devourers are slime creatures of unknown origin that over the cause of generation have soaked that much glooth residue that they became something new. The driving force of these creatures is an insatiable hunger and their digestion relies on incredible strong fluids. In the past the tiny ancestors of the devourers were used in Rathleton in waste disposal and they were deliberately allowed to roam the sewer system. First incidents with the nearly mindless creatures brought the officials to rethink that strategy. But it was already too late to stop the spread of the devourers. Even worse several extermination campaigns lead to an increased survival of the fittest evolution of the devourers and in few generations the slime creatures had doubled in size and fierceness. As a cannibalistic species they begun to further their own evolution by eradicating the weak and sick which lead to further selection. Some scientists speculate that the devourers are still evolving with each generation and that they will eventually grow even further with no limits. There are rumours about devourers that fused together is fearsome fights and continued as even larger and more dangerous versions of themselves. Even more alarming is the fact that the devourers are seemingly no longer dependent on glooth residue as they have not only spread outside of Rathleton but newly hatched devourers have travelled as blind passengers on ships and in cargo to different places and created new colonies. Wherever devourers are encountered officials are eager to exterminate the threat to prevent them from gaining a hold in populated areas. Devourers are not picky in their diet. Their powerful digestion system enables them to dissolve almost everything and they seemingly know no fear or pain. For some reason they prefer living food over dead matter nd attack most beings without hesitation. Since they have some kind of preference chain they will ignore anything else if they deem something as 'tasty'. As it seems, humans are considered as incredibly tasty by their primitive instincts. Devourers are considered as extremely dangerous and the words 'run, the devourer comes' has become a common phrases in plagued areas. Given his resilient nature and omnivorous appetite only caution has yet prevented further spread of the vile creatures but it's sadly just a matter of time when this threat to everything becomes commonplace.",
+        "abilities": [
+            "Melee (0-260 and starting up to 18 hp/turn)",
+            "Earth Strike (0-150)",
+            "Earth Wave (0-150)",
+            "Poison Ball (0-200)",
+            "Poison Berserk (slowed)",
+            "Self-Healing (0-136+)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 85%",
+            "Fire 100%",
+            "Energy 105%",
+            "Earth 0%"
+        ],
+        "location": "Rathleton Sewers, Lower Rathleton, Oramond/Western Plains, Underground Glooth Factory, Jaccus Maxxen's Dungeon.",
+        "behaviour": "A devourer attacks in melee range. A devourer never retreats.",
+        "strategy": "Devourer's will usually apear together with many other Glooth creatures, so the best strategy is using area spells and attacks to kill all of them at once. Other than that, simply attack it using anything but Earth damage.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Glob of Glooth",
+            "Small Diamond",
+            "Small Sapphire",
+            "Small Topaz",
+            "Small Ruby",
+            "Small Amethyst",
+            "Small Emerald",
+            "Glooth Blade",
+            "Glooth Club",
+            "Glooth Axe",
+            "Talon",
+            "Glooth Spear",
+            "Springsprout Rod",
+            "Glooth Amulet",
+            "Yellow Gem",
+            "Terra Rod",
+            "Glooth Cape",
+            "Green Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Disgusting_Ooze",
+        "name": "Disgusting Ooze",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Defiler.gif/revision/latest?cb=20171220002856&path-prefix=en",
+        "attributes": {},
+        "notes": "Apppears in the Ferumbras' Ascension Quest with Plagirath.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 70%",
+            "Fire 85%",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Ferumbras' Ascension Quest quest area.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Druid_Familiar",
+        "name": "Druid Familiar",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ec/Druid_Familiar.gif/revision/latest?cb=20201123225346&path-prefix=en",
+        "attributes": {},
+        "notes": "When looking at a summoned Druid Familiar, the summoner's character name and how long it will take for the summon to disappear is shown. It can be summoned by Druids of level 200 or higher by using the Summon Druid Familiar spell. All the experience that is expected to be 'gained' by the summon goes to the player, meaning there is no shared exp between the summon and its summoner, like with the normal Summon Creature spell. It will follow players at their speed and will go up and down stairs and holes with them. It lasts for 15 minutes with a 30 minutes cooldown. It can go with you to a Protection Zone. If the summoner logs out, it will disappear stopping the countdown of its timer, and will reappear when the summoner logs in again.",
+        "abilities": [
+            "Melee (0-300?)",
+            "Root Missile (230-260?)",
+            "Earth Beam (2 sqm) (90-150?)",
+            "Self-Healing (600)",
+            "Challenge (2 sqm wide)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Following its master.",
+        "behaviour": "Attacks the player's target from melee distance casting challenge and self-healing very often.",
+        "strategy": "The Druid Familiar can be very useful for low level Druids as a free blocker and damage boost. Due to its timer/cooldown mechanic, you cannot have 100% uptime of it, so it's important to beware when it's about to disappear as all creatures will change target. Since it's main function is to act like a blocker, it's not recommended to use it when hunting with a Knight as it will Challenge the creatures away from him, reducing the knight's damage output. Learning how to manage the summon can be tricky at first, as you cannot force it to cast its challenge spell. You should be prepared to block the creatures you're going to fight for a few turns until the Druid Familiar challenges them, since its spell use is quite erratic. Similarly, it's possible that it doesn't use the spell for a few seconds, allowing the creatures to retarget. An important strategy when using the Druid Familiar to block several creatures is to always change your target to the creature that will die last, because if the Druid Familiar doesn't have a target it will run back to its master, bringing the creatures its blocking with it. At higher levels, the Druid Familiar is used mostly in emergencies to Challenge creatures that are trapping another player or yourself. This however isn't always effective as the summon dies very quickly to strong creatures and may not even use the Challenge spell before that.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Empowered_Glooth_Horror",
+        "name": "Empowered Glooth Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Glooth_Horror.gif/revision/latest?cb=20141121091303&path-prefix=en",
+        "attributes": {},
+        "notes": "It is the second \"boss\" of the Hero of Rathleton Quest. It is the final stage of the Feeble Glooth Horror, which bisects into 16 Empowered Glooth Horrors in total.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Jaccus Maxxen's Dungeon.",
+        "behaviour": "Fights in close combat. An empowered glooth horror never retreats.",
+        "strategy": "If your team isn't strong enough, avoid facing all 16 of them at the same time. Other than that, just kill them quickly using area spells like you did with the other creatures in the room.",
+        "loot": [
+            "Glooth Glider Hinge",
+            "Platinum Coin",
+            "Slightly Rusted Armor",
+            "Glooth Bag",
+            "Rusted Armor",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Feeble_Glooth_Horror",
+        "name": "Feeble Glooth Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Glooth_Horror.gif/revision/latest?cb=20141121091303&path-prefix=en",
+        "attributes": {},
+        "notes": "He is the second \"boss\" of the Hero of Rathleton Quest. When slain, the Feeble Glooth Horror will turn into 2 Weakened Glooth Horrors.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Deep under Rathleton.",
+        "behaviour": "Unknown.",
+        "strategy": "Just kill it. Worry about the Glooth Horror in his later stages, not now.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glooth_Anemone",
+        "name": "Glooth Anemone",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/87/Glooth_Anemone.gif/revision/latest?cb=20140614005304&path-prefix=en",
+        "attributes": {},
+        "notes": "The glooth anemone is a strange plant creature that is considered a parasite. The thing is, that this parasite is actually by far bigger then it's hosts. The glooth anemone mimics the harmless plant, also known as glooth anemone. The latter is a major food source and habitat for the gloothworms which are essential for Rathleton's economy. The glooth anemone creature in able to deceive the gloothworms into accepting it as a host and then devours the glooth that their produce. Not does it devour more glooth then the tiny worms can spare without perishing, the glooth anemone also somehow forces the gloothworms to produce excessive amounts of glooth, which often drains them to death even before they can die through glooth starvation. Due to this destructive nature the glooth anemone had to cope with the extermination of it food source that it causes in it's own. The glooth anemone copes with that problem by being mobile. Their mobility has brought up speculations that it's rather a creature, posing as lant then a creature that evolved from the harmless and docile glooth anemone to a predatory parasite. While in the past the glooth anemone was a minor nuisance, the glooth-production and domestication of gloothworms multiplied it's food sources almost over night. This lead to an alarming increase of the glooth anemone population and they became a threat for Rathleton. Several extermination campaigns, more started to protect the glooth then the population, helped to keep the glooth anemone population somewhat at bay, but recently it was discovered that glooth anemones have adapted to other glooth sources like the spoiled glooth that often is flushed into the sewers but they also capable of digesting glooth products over time. This means that the glooth anemone can be encountered almost everywhere which in addition to their mimicry makes dedicated hunts on them extremely difficult. When not posing as a harmless plant the glooth anemone is extremely protective of its food sources. It is known that glooth anemones are able to absorb organic material like flesh too but it's entirely unknown if that could sustain the creature in the absence of glooth.",
+        "abilities": [
+            "Melee (0-150+)",
+            "Throws glooth spears (0-177+)",
+            "Distance Life Drain (0-185)",
+            "Self-Healing (0-82+)",
+            "Summons (1-2 Glooth Blob )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 65%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 105%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Rathleton Sewers, Underground Glooth Factory, Jaccus Maxxen's Dungeon",
+        "behaviour": "A glooth anemone attacks in melee range. A glooth anemone never retreats.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Slimy Leaf Tentacle",
+            "Bowl of Glooth Soup",
+            "Small Topaz",
+            "Small Emerald",
+            "Small Ruby",
+            "Strong Mana Potion",
+            "Strong Health Potion",
+            "Glooth Whip",
+            "Green Mushroom",
+            "Ultimate Health Potion",
+            "Glooth Axe",
+            "Glooth Amulet",
+            "Glooth Club",
+            "Glooth Spear",
+            "Glooth Blade",
+            "Glooth Cape",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Glooth_Horror",
+        "name": "Glooth Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Glooth_Horror.gif/revision/latest?cb=20141121091303&path-prefix=en",
+        "attributes": {},
+        "notes": "He is the second \"boss\" of the Hero of Rathleton Quest. Weakened Glooth Horrors will split into 2 Glooth Horrors. When slain, the Glooth Horror will turn into 2 Strong Glooth Horrors.",
+        "abilities": [
+            "Melee (?)",
+            "Self-Healing (500-650?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Rathleton.",
+        "behaviour": "Unknown.",
+        "strategy": "Unknown.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Grove_Guardian",
+        "name": "Grove Guardian",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/5/56/Grove_Guardian.gif/revision/latest?cb=20240611070308&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 0%"
+        ],
+        "location": "Podzilla Maw",
+        "behaviour": "A grove guardian does not attack.",
+        "loot": [
+            "Carniphila Seeds",
+            "Dark Mushroom",
+            "Corncob",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Haunted_Treeling",
+        "name": "Haunted Treeling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b5/Haunted_Treeling.gif/revision/latest?cb=20081211211253&path-prefix=en",
+        "attributes": {},
+        "notes": "There are two known breeds of Haunted Treelings. On the one hand, there are nature spirits that seek revenge for the contamination of nature. On the other hand, you find demonic entities that want to spread havoc in the world of the living. Both forms are actually spirits that have entered dead or living trees.Haunted treelings attack every living creature on sight, either out of spite or to seek revenge. It is likely that a man and a minotaur look alike for Haunted Treeling and that so one race has to suffer for the mistakes of the other. In rare cases it is possible to calm the nature spirits if showing respect for nature, the demonic form, however, can at best be bribed to stop attacking. Some woodland communities  have developed some form of coexistence with both forms. Other villages live in fear of these malicious creatures.Haunted Treelings can easily be mistaken for normal trees which makes it easy for them to ambush their enemies. Slaying their tree form will only result in chasing the spirit out of its wooden host, but actually does not harm it at all. They are exceptionally strong and know neither pain nor fear.",
+        "abilities": [
+            "Melee (0-150)",
+            "Terra Strike (0-100)",
+            "Stone Shower (55-100)",
+            "Close distance Mana Drain Bomb (9-100)",
+            "Paralyze Beam"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 80%",
+            "Ice 90%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 0%"
+        ],
+        "location": "Lair of the Treeling Witch, Vengoth surface, Vengoth Castle (Boreth's tower), Northern Zao Plantations, Tiquanda Laboratory, Dryad Gardens.",
+        "behaviour": "It tries to engage in close combat, and fights to the death. It is very aggressive, uses its magical abilities often. It can shoot at its target even when it is off sight.A haunted treeling attacks in melee range.",
+        "strategy": "As of 6/8/2009 you can no longer use  Stealth Ring or the Invisible Spell to hunt these creatures.\nKnight: This is a very good hunt for mid-hi level knights if you don't let them surround you. Try to fight them 1-2 at a time and you'll only need mana potions and Exura Ico to heal. When there's 3+ on you be prepared to heal very fast as they will deplete your hp with ease, specially if there's a Demon skeleton nearby. Break out with Exori if you're surrounded.\nMage: Their melee attack is weak and they hardly use mana drain. As the Vengoth surface is densily populated, if you are fighting against only one or two, it is better to fight them in close combat, instead of running around.",
+        "loot": [
+            "Gold Coin",
+            "Wooden Trash",
+            "Red Mushroom",
+            "Health Potion",
+            "White Mushroom",
+            "Haunted Piece of Wood",
+            "Orange Mushroom",
+            "Dwarven Ring",
+            "Small Emerald",
+            "Strong Health Potion",
+            "Bullseye Potion",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Hulking_Carnisylvan",
+        "name": "Hulking Carnisylvan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a3/Hulking_Carnisylvan.gif/revision/latest?cb=20210527033222&path-prefix=en",
+        "attributes": {},
+        "notes": "Carnisylvans were once humans, exposed to a dark ritual at birth they unwillingly abandoned their former lives to morph into tree-like shadow beings. Some time after coming of age they wander away to fall into a neverending slumber deep underground. Standing in pitch-black darkness, sleeping still, dreaming quaint dreams of death they await the time of joint uprising. Some are born to be chosen custodians of their siblings, awake and sentient. Hulking carnisylvans have the strongest bark and endure an intangible amount of pain. Their attacks are devastating but they need to get close to their victims.",
+        "abilities": [
+            "Melee (0-300)",
+            "Poison Strike (350-450) Hulking Carnisylvan",
+            "Explosion (600-800) Hulking Carnisylvan",
+            "Explosion Beam (350-400) Hulking Carnisylvan"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 120%",
+            "Energy 85%",
+            "Earth 80%"
+        ],
+        "location": "Forest of Life",
+        "behaviour": "A hulking carnisylvan attacks in melee range. A hulking carnisylvan never retreats.",
+        "loot": [
+            "Platinum Coin",
+            "Bone",
+            "Great Health Potion",
+            "Terra Hood",
+            "Carnisylvan Finger",
+            "Carnisylvan Bark",
+            "Terra Boots",
+            "Lightning Headband",
+            "War Hammer",
+            "Knight Axe",
+            "Epee",
+            "Diamond Sceptre",
+            "Dragonbone Staff",
+            "Human Teeth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Leaf_Golem",
+        "name": "Leaf Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/d8/Leaf_Golem.gif/revision/latest?cb=20150501160425&path-prefix=en",
+        "attributes": {},
+        "notes": "Leaf Golems are a compilation of twigs, leaves and bark that are inhabited by lesser spirits of nature. Sometimes the spirits create the golems on their own, to act as a vehicle or tool to interact with the physical world. More often tough Leaf Golems are spirits that have been bound into such constructs by some druidic power. Mighty druids often employ the help of leaf golems spontaneously. They are created on the fly and often are discarded when a task has been performed. such discarded golems often disassemble on their own and the spirit is set free, sometimes they decide to roam the world on their own. Leave Golems are intelligent, but their thinking is based on the spiritual world and completely alien to the denizens of the physical world. Therefore it is impossible to communicate with them in any form. As spirits they seem to care little for the integrity of a physical body and they often seek to destroy living beings, presumably to set their seemingly entrapped spirit free. Even if they might mean no true harm, their attacks are threatening and lethal nonetheless.The leaf golem is a random and undecided fighter, oblivious to what might be most effective in a given situation. On the other hand it knows little fear and does not truly understand how to stay out of harms way.Sometimes druids that feel their live force wanning and their end near, choose to transfer their spirits into a prepared Leaf Golem. This golems are considerably more powerful but it is said that the inhabiting druid will eventually loose his grasp on the physical world and become a nature spirit on it's own.",
+        "abilities": [
+            "Melee (0-40?)",
+            "Earth Berserk",
+            "Throws small stones (0-15?)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 60%"
+        ],
+        "location": "Leaf dungeon in Hellgate, Lair of the Treeling Witch, Forest Fury Camp and in the Forest Fury version of the Forsaken Mine.",
+        "behaviour": "They fight in close range, and push weaker creatures.A leaf golem attacks in melee range. A leaf golem never retreats.",
+        "strategy": "It's a rather weak creature, roughly comparable to a Swampling. Players will have little to no trouble taking it down, however, low level Druids should avoid hunting them as they are pretty strong to earth damage.",
+        "loot": [
+            "Gold Coin",
+            "Dowser",
+            "Fir Cone",
+            "White Mushroom",
+            "Swampling Club",
+            "Small Emerald",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Megasylvan_Sapling_(Creature)",
+        "name": "Megasylvan Sapling (Creature)",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/8b/Megasylvan_Sapling.gif/revision/latest?cb=20210526223941&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Forest of Life.",
+        "behaviour": "It cannot move. When killed the corpse becomes a  Lump of Dirt.",
+        "strategy": "As part of the Adventures of Galthen Quest, four Megasylvan Saplings appear in the corners of Megasylvan Yseldas boss room. To receive the  Violet Tulip, the Saplings must be kept alive—either by using Ultimate Healing Runes or by having a Druid cast Mass Healing on them. In some cases, if your party deals damage quickly enough, the Saplings’ initial health may be sufficient for them to survive without direct healing, as long as Megasylvan Yselda is quick enough. To make Megasylvan Yselda vulnerable to attacks, say the words DEMIHBOULDR SOMMBHA WITHER. This will weaken her defenses, allowing you to deal damage.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Memory_of_a_Carnisylvan",
+        "name": "Memory of a Carnisylvan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/72/Memory_of_a_Carnisylvan.gif/revision/latest?cb=20220108232923&path-prefix=en",
+        "attributes": {},
+        "notes": "This creature seems to be a weakened version of Poisonous Carnisylvan.",
+        "abilities": [
+            "Melee (0-150?)",
+            "Poison Strike (30-90, often)",
+            "Poison Ball (130-180)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 95%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 115%",
+            "Energy 100%",
+            "Earth 75%"
+        ],
+        "location": "Time Travel Dungeon",
+        "behaviour": "Keeps 4 sqm distance from its target.A memory of a carnisylvan attacks from a distance. A memory of a carnisylvan never retreats.",
+        "strategy": "A level 60+ mage (even unpromoted) can easily hunt these creatures for 250k+ raw exp/h. Wear Terra Set and bring lots of Great Fireballs and Fire Bombs. Free account players should take Fireballs as well. Summon 2 Demon Skeletons, which are immune to earth damage and heal them from time to time. Since the Carnisylvans will run away from the skeletons, you can maneuver them to pull a bunch of Carnisylvans, each doing no damage unless trapped. Finish them with GFB + Great Fire Wave. At level 60 you should take care not to be attacked by more than one mob at a time and heal often.\nAnother strategy is to burn the ground with runes and run (in circles) away from your summon which is followed by the Carnisylvans.",
+        "loot": [
+            "Gold Coin",
+            "Mushroom Pie",
+            "Great Spirit Potion",
+            "Fire Mushroom",
+            "Small Topaz",
+            "Wooden Trash",
+            "Gemmed Figurine",
+            "Candy Floss (Large)",
+            "Bottle of Champagne",
+            "Emerald Bangle",
+            "Giant Shimmering Pearl",
+            "Special Fx Box",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Omnivora",
+        "name": "Omnivora",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/7b/Omnivora.gif/revision/latest?cb=20210420161335&path-prefix=en",
+        "attributes": {},
+        "notes": "The Omnivora is a strange offshoot of the Carniphila plant. This strain had an especially short life cycle, which allowed it to react rapidly to changes due to the fast production of new generations. It is assumed that some of those Carniphilas adapted to a more mountainous terrain, and settled in deep and dark valleys. Finding less soil and relying more on their carnivorous nature, they slowly compensated the lack of minerals through an enhanced digestion system which allowed them to consume bones and stones that the ordinary Carniphila would leave over. Less dependent on sunlight, the ancestors of the Omnivora found their way into the eternal darkness of subterranean areas. This they found to be a new habitat they were ideally suited for. The Omnivora quickly spread via tunnels and underground streams which carried their seeds. Only the fierce predators of the underground, who found the Omnivora a delicacy, stopped the population from exploding. Over time, the Omnivora adapted itself again and became highly toxic and inedible, but also less fertile. This led to a more stable population, but also to the Omnivora becoming the predator instead of the prey. The plants had developed highly acidic fluids to support their digestion of minerals, and newer generations employed these acids as weapons. Additionally, the plant used a surplus of certain minerals to build thorns around its blossom which acted as teeth. This led to a new cannibalistic behaviour, though. While Carniphila seedlings usually grow in immobile patches, the Omnivora, though featuring a similar reproduction pattern, as a seedling soon begins to attack other nearby seedlings; and this is repeated as soon as its growth allows it to reach the next seedling. Such infights usually continue until only one Omnivora seedling is left. Being a plant, it does not too well in too cold or too dry habitats, but apart from that the Omnivora's adaptable nature makes it possible to encounter it almost everywhere. Rather than looking for some additional sunlight like its Carniphila cousin, the Omnivora shuns direct sunlight, and usually settles in underground areas. Since they are particularly fond of the minerals provided by creatures turned into stone, Omnivoras seek out the proximity of creatures like Medusae if possible. The Medusae in turn seem to accept the Omnivora as some kind of decoration or pets in their lairs, unless they feel that the Omnivora is a pest destroying their 'artwork'. Some people warn that the development of the Omnivora species is not over yet, and that we might see an even more dangerous and aggressive breed in a few generations.",
+        "abilities": [
+            "Melee (0-65+)",
+            "4-sqm terra beam (300-400)",
+            "green sparkle area attack on itself (100-150)",
+            "Smoke Bomb (0-150?)",
+            "Poison Spit ( paralyzes you)",
+            "Haste"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 80%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 90%",
+            "Earth 0%"
+        ],
+        "location": "Tiquanda Medusa Tower.",
+        "behaviour": "An omnivora attacks in melee range. An omnivora never retreats.",
+        "strategy": "Stay diagonal, the death beam is most deadly.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "White Mushroom",
+            "Ham",
+            "Life Ring",
+            "Necrotic Rod",
+            "Blue Crystal Splinter",
+            "Brown Crystal Splinter",
+            "Serpent Sword",
+            "Green Crystal Splinter",
+            "Spellbook of Enlightenment",
+            "Terra Boots",
+            "Carrot on a Stick",
+            "Death Ring",
+            "Terra Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Organic_Matter",
+        "name": "Organic Matter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Defiler.gif/revision/latest?cb=20171220002856&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Warzone 4, inside the boss room.",
+        "behaviour": "They fight in close combat.",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Plant_Abomination",
+        "name": "Plant Abomination",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b5/Haunted_Treeling.gif/revision/latest?cb=20081211211253&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a minion of Plagueroot.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Dream Scar.",
+        "behaviour": "Unknown",
+        "strategy": "Kill it quickly so it does not heal the boss. If it's not killed after a few seconds it will explode dealing Earth Damage.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Plant_Attendant",
+        "name": "Plant Attendant",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/17/Plant_Attendant.gif/revision/latest?cb=20190106141105&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a minion of Plagueroot.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The Dream Scar.",
+        "behaviour": "Unknown",
+        "strategy": "Don't bother killing it, just make sure it does not become a Plant Abomination.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Poisonous_Carnisylvan",
+        "name": "Poisonous Carnisylvan",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/2/26/Poisonous_Carnisylvan.gif/revision/latest?cb=20210527033223&path-prefix=en",
+        "attributes": {},
+        "notes": "Carnisylvans were once humans, exposed to a dark ritual at birth they unwillingly abandoned their former lives to morph into tree-like shadow beings. Some time after coming of age they wander away to fall into a neverending slumber deep underground. Standing in pitch-black darkness, sleeping still, dreaming quaint dreams of death they await the time of joint uprising. Some are born to be chosen custodians of their siblings, awake and sentient. Poisonous carnisylvans will spit their venomous guile upon all intruders. Like acid, their demonic saliva is not only toxic but also burns the skin and flesh to the bone.",
+        "abilities": [
+            "Poison Strike (400-700+)",
+            "Summons (1 Carnisylvan Sapling )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 95%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 115%",
+            "Energy 100%",
+            "Earth 75%"
+        ],
+        "location": "Forest of Life",
+        "behaviour": "A poisonous carnisylvan attacks from a distance. A poisonous carnisylvan never retreats.",
+        "loot": [
+            "Platinum Coin",
+            "Emerald Bangle",
+            "Wooden Trash",
+            "Guardian Halberd",
+            "Great Spirit Potion",
+            "Mushroom Pie",
+            "Carnisylvan Finger",
+            "Carnisylvan Bark",
+            "Giant Shimmering Pearl (Green)",
+            "Terra Rod",
+            "Knight Axe",
+            "Fire Mushroom",
+            "Diamond Sceptre",
+            "Underworld Rod",
+            "Wand of Starstorm",
+            "Sacred Tree Amulet",
+            "Collar of Blue Plasma",
+            "Gemmed Figurine",
+            "Human Teeth",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Possessed_Tree",
+        "name": "Possessed Tree",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b5/Haunted_Treeling.gif/revision/latest?cb=20081211211253&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Haunted Treeling. It can be destroyed by the Mounted Thorn Knight in one blow.",
+        "abilities": [
+            "Melee (0-162+)",
+            "Poison missile (0-86+)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "A dungeon here, accessible through the Desecrated Glade.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Regenerating_Mass",
+        "name": "Regenerating Mass",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/1d/Defiler.gif/revision/latest?cb=20171220002856&path-prefix=en",
+        "attributes": {},
+        "notes": "It's Nargol the Impaler's regenerating mass during the Grave Danger Quest.",
+        "abilities": [
+            "Melee (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Isle of the Kings",
+        "behaviour": "Fights in close combat. A regenerating mass never retreats.",
+        "strategy": "Trap the location where it spawns before hand and then deal as much damage as possible, you only have 30 seconds to kill it or the boss will respawn.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rot_Elemental",
+        "name": "Rot Elemental",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bd/Rot_Elemental.gif/revision/latest?cb=20220508232827&path-prefix=en",
+        "attributes": {},
+        "notes": "The so called rot elemental is of course out of the scale of normal elemental classification. Though it shares several attributes with other elementals, it lacks other distinctive features and instead has in those areas more in common with spirits or even the undead. As a matter of fact, the existence of rot elementals is another phenomenon, connected to the necromantic smog of the Rathleton area but it could be encountered at other sites that were soaked with necromantic energy at one time. Actually the ghostlands and the plains of havoc are places that have seen at least manifestations of such creatures although up to today none of them endured for a longer time. So there are obviously other facts at work in the creation and stabilization of rot elementals. As far as modern science knows, the elementals are created at sites with a considerably number of waste and carrion. This fact is disputed by the theory that the manifestation just seeks out the greatest concentration of such matter rather than needing a certain amount of it. Be it as it may, some kind of spirit is drawn to such places and makes itself felt by and overwhelming presence of decay. Mould grows extremely fast and matter decomposes in exceedingly fast rates. It's like the spirits presence would dissolve suitable matter to use it for the creation of a host body. Several tests indicate that the spirit does not really inhabit this body but rather 'rides' it, in some way using it like a puppet. The controlling spirit seems quite primordial and not a specific spirit of a person or entity. It is more a certain instinctive consciousness that seems to inhabit certain necromantic fields and that is sometimes bound by necromants to inhabit and animate dead bodies. In the case of the rot elemental this consciousness is acting on its own. This it why it's called a rot elemental at all, it manifests spontaneously, has a certain consciousness on its own and is built of a specific 'element'. As the elemental classification, despite certain efforts, does not count necromancy or rot as elemental power and the purity of rot can't be measured as well as the presence of at least some considerable part of fluid, that would be counted as another element, is present, it seemingly defies too many rules to be scientifically counted as elemental. Of course the provisionally nomenclature as spontaneous necromantic physical manifestation was never popular enough so that the name rot elemental stuck to the creature anyway. As for its behaviour, it's considered as mindlessly malignant as its only driving motive seems to be to spread death and pain without any greater plan. Sometimes rot elementals are controlled via variants of spells that are meant to control the undead, but even such altered spells are of high risk and the elementals are known to break free in a frenzy.",
+        "abilities": [
+            "Melee (0-120 and starting up to 14 hp/turn)",
+            "Poison Beam (0-230) Rot Elemental",
+            "Poison Ball (0-200) Rot Elemental",
+            "Musical Bomb Rot Elemental",
+            "Puff Up (unknown maybe buff) Rot Elemental",
+            "Poison Spit (up to 28hp/turn) Rot Elemental",
+            "Paralyze",
+            "Self-Healing (0-58+)"
+        ],
+        "resistance": [
+            "Physical 90%",
+            "Death 80%",
+            "Holy 80%",
+            "Ice 70%",
+            "Fire 100%",
+            "Energy 105%",
+            "Earth 0%"
+        ],
+        "location": "Rathleton Sewers, Glooth Factory, Lower Rathleton, Oramond/Western Plains, Jaccus Maxxen's Dungeon",
+        "behaviour": "A rot elemental attacks in melee range. A rot elemental never retreats.",
+        "strategy": "Treat them like somewhat stronger Water Elementals.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Glob of Glooth",
+            "Strong Health Potion",
+            "Strong Mana Potion",
+            "Small Emerald",
+            "Small Topaz",
+            "Glooth Spear",
+            "Small Sapphire",
+            "Life Ring",
+            "Glooth Amulet",
+            "Glooth Axe",
+            "Green Gem",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Rotten_Golem",
+        "name": "Rotten Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/e2/Rotten_Golem.gif/revision/latest?cb=20220518220435&path-prefix=en",
+        "attributes": {},
+        "notes": "Though technically actual golems, there seems to be no creator connected to them. Now and then the golems could be observed appearing from seemingly nothingness. They show an intelligent design but seem to lack a specific purpose. The unknown creator, if existent at all, has yet to be identified. Some speculate this creator might be some avatar of rot and decay, somehow connected to the feared pale worm, that is still stuck in its infancy. The rotten golems are seen as the first, mostly purposeless actions of this enigmatic entity. Given their destructive and malignant nature this does not bode well for the nature of its nascent creator. The golems roam certain areas of Zarganash which are ripe with rot and decay, providing an ample and fertile ground for their creation. Their behaviour is aggressive and malignant, yet more sustained by a curious cruelty than any direct malevolence. While only spotted rarely in the past, sightings of rotten golems have become more and more common recently, though their appearance seems to be limited to certain areas that they prefer. A greater spread of the rotten golems is nothing to dismissed though, given that there seems to be an increase of their activity in general.\nFor now they seem confined to certain areas, where they attack intruders with almost childish excitement. When not facing an enemy they seem to relish in random destruction of environment that also has similarity to a curious playing child. It's not rare that they hurt each other or themselves in such a process. This never leads to infights, however, as the others simply join the destructive play. Despite not actually fighting they still might tear each other apart out of sheer curiosity. All this lead to speculation that the rotten golems might mature over time and gain greater consciousness and intelligence. But in over 200 years from the first reports of rotten golems, such specimens have not been observed. It only drops a Bag You Desire for players with at least one of Goshnar's Taints. The more taints you have, the higher the chance. The Bag is always dropped inside a Reward Container so there's no risk of leaving it behind in the creature's corpse.",
+        "abilities": [
+            "Melee (0-700)",
+            "Smaller Earth Explosion (1100-1300) Rotten Golem",
+            "Energy Chain (Through nearby characters) (1000-1200) Rotten Golem",
+            "Holy Strike (1200-1400) Rotten Golem",
+            "Shoots Leaf Star ( Roots you on place) Rotten Golem"
+        ],
+        "resistance": [
+            "Physical 80%",
+            "Death 120%",
+            "Holy 50%",
+            "Ice 100%",
+            "Fire 125%",
+            "Energy 115%",
+            "Earth 60%"
+        ],
+        "location": "Rotten Wasteland.",
+        "behaviour": "A rotten golem attacks in melee range. A rotten golem never retreats.",
+        "loot": [
+            "Crystal Coin",
+            "Great Spirit Potion",
+            "Giant Shimmering Pearl (Green)",
+            "Terra Amulet",
+            "Giant Sword",
+            "War Axe",
+            "Mercenary Sword",
+            "Titan Axe",
+            "Underworld Rod",
+            "Sacred Tree Amulet",
+            "Fur Armor",
+            "Wood Cape",
+            "Stone Skin Amulet",
+            "Terra Mantle",
+            "Rubber Cap",
+            "Bag You Desire",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spit_Nettle",
+        "name": "Spit Nettle",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/83/Spit_Nettle.gif/revision/latest?cb=20240228101237&path-prefix=en",
+        "attributes": {},
+        "notes": "A rather strange plant of the jungle in Tiquanda is the Spit Nettle. To some extent this plant is a sentient being that attacks everything that approaches it. Most jungle dwellers seem to have developed some strategy to coexist with that plant. Outsiders however are immediately attacked with poisonous thorns that the nettle spits from a sack beneath its blossoms. It seems it has an endless supply of thorns and we have not heard yet of a nettle that has run out of them. It is not quite clear why a plant would attack in such a manner, but most likely it is some sort of self-defence that is unparalleled in the plant world. The lizard people have cultivated that plant to defend their dwellings. So utmost caution is advised when you encounter a colony of those plants, some angry 'gardener' could be just around the corner. They can attack you from a long distance even before you can see them on your screen!Some spawns are behind walls or plants, so you cannot reach them to attack with melee. In these cases, you need to use distance attacks to kill them.",
+        "abilities": [
+            "Earth Strike (17-37) Spit Nettle",
+            "Poisoning Strike (up to 2 hp/turn) Spit Nettle",
+            "Self-Healing (8-16) Spit Nettle"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 80%",
+            "Fire 110%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Tiquanda, Trapwood, the outskirts of Chor and Forbidden Lands, Alchemist Quarter in Yalahar, Tiquanda Laboratory.",
+        "behaviour": "Does not move and cannot be pushed. All its attacks are at a distance and earth-damage.A spit nettle attacks in melee range.",
+        "strategy": "Druids and Sorcerers: Try not to use Energy attacks on them. It is better to avoid them, as they only give 20 exp have a good defence and can do some serious damage, which can be dangerous for a low level.",
+        "loot": [
+            "Gold Coin",
+            "Shadow Herb",
+            "Nettle Spit",
+            "Sling Herb",
+            "Grave Flower",
+            "Nettle Blossom",
+            "Seeds",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Spiteful_Spitter",
+        "name": "Spiteful Spitter",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/04/Spiteful_Spitter.gif/revision/latest?cb=20210524201217&path-prefix=en",
+        "attributes": {},
+        "notes": "None.",
+        "abilities": [
+            "Melee (?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "The room of Goshnar's Spite.",
+        "behaviour": "Unknown.",
+        "strategy": "None.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Stalking_Stalk",
+        "name": "Stalking Stalk",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/39/Stalking_Stalk.gif/revision/latest?cb=20220621121716&path-prefix=en",
+        "attributes": {},
+        "notes": "The stalking stalks are more of a carrion exploiter by planting their seeds into fertile corpses. And they don't shun away from creating such corpses by physical force at all.With quite an arsenal of natural weaponry they actively attack when they are 'fertile'. While out of seeds to spread, the stalking stalks become inert and hide in the thickets by perfect mimicry, becoming inanimate and appearing as a perfect copy of a number of other plants common in Gnomprona. This ability has fascinated scientists as the stalking stalk seems not limited to one form to shift into. There are experiments in progress that try to find out how exactly this ability works and how the limits are defined. Specific stalks seem to be limited to a set amount of other plants to mimic, though those might vary from stalk to stalk. To entice the stalks to shift into any plant which is not native to Gnomprona have not yet met any success at all.Their resilient seeds are even more dangerous to the carrion eaters of Gnomprona. The seeds often resist most digestive tracts of the local creatures, but more often than not begin to sprout while still in the stomachs of such creatures. The blooming stalk takes root in the intestines of it's victim and begins to grow util it finally kills it's carrier and a new stalking stalk bursts out. The dependence on such hosts leads to another odd characteristic of its sprout, as it closely resembles that of other, harmless plants, likely to entice other creatures to eat them and become their new host, as they are able to regress their essence back into a new seed to sprout again. It's easy to assume but next to impossible to proof the shared heritage of the stalks with other known animated plants that are way more common on the surface world and it's debatable if such plants lost some of the stalking stalks abilities in more fertile areas or if the stalks evolved separately and developed such features only 'recently' to cope with Gnomprona's hostile environment.",
+        "abilities": [
+            "Can deal Critical Hits",
+            "Fire Missile (1012-1049) Stalking Stalk",
+            "Blast Ball (654-1030) Stalking Stalk",
+            "Earth Chain (766) Stalking Stalk"
+        ],
+        "resistance": [
+            "Physical 110%",
+            "Death 90%",
+            "Holy 100%",
+            "Ice 110%",
+            "Fire 75%",
+            "Energy 115%",
+            "Earth 75%"
+        ],
+        "location": "Monster Graveyard",
+        "behaviour": "A stalking stalk attacks from a distance.",
+        "loot": [
+            "Small Diamond",
+            "Crystal Coin",
+            "Dragon Necklace",
+            "Stalking Seeds",
+            "Magma Coat",
+            "Green Gem",
+            "Bow",
+            "Warrior's Axe",
+            "Muck Rod",
+            "Green Crystal Fragment",
+            "Opal",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Strong_Glooth_Horror",
+        "name": "Strong Glooth Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Glooth_Horror.gif/revision/latest?cb=20141121091303&path-prefix=en",
+        "attributes": {},
+        "notes": "He is the second \"boss\" of the Hero of Rathleton Quest. Glooth Horror will split into 2 Strong Glooth Horrors. When slain, the Strong Glooth Horror will turn into 2 Empowered Glooth Horrors.",
+        "abilities": [
+            "Melee (?)",
+            "Self-Healing (500-650?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Jaccus Maxxen's Dungeon",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Swampling",
+        "name": "Swampling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/0/00/Swampling.gif/revision/latest?cb=20150422163754&path-prefix=en",
+        "attributes": {},
+        "notes": "The Swamplings are probably somehow related to the haunted treelings that appear in the realm of the living only on special occasions. They are a mixture of plant and animal and are at least partially intelligent. Though it will not react to attempts of communication in any other way than by attacking, it is considered to be an established fact that the Swampling has some ability to react and plan ahead in ways unknown to most animals. Swamplings are known to build simple traps, set ambushes and to make use of the surroundings to kill their prey. Though it seems that Swamplings can live on water and fertile soil for indefinite periods of time, they prefer to spice up their diet with the corpses of once living beings. The Swamplings seem to prefer intelligent beings to mere animals as their prey. It is assumed that the cause for this is not necessity, but rather the Swampling's evil nature.The Swampling population in the known world has survived many attempts to purge them from certain areas or from existence as a whole by the sentient races. Even the most successful attempts have only managed to drive them back for a while though. It has to be assumed that the Swampling seeds take incredibly long to grow and lie dormant for years before they begin to sprout. Some theories assume they might mimic other plants in their growth phase until maturity and then rapidly change into their known and mobile form. There are at least no reports of Swampling saplings ever having been encountered. The Swamplings usually prefer humid areas with fertile soil but sometimes, small colonies can be found in otherwise unsuitable areas where they can prey upon intelligent beings or do them some kind of harm. Ancient reports from Darama tell about remote oases that were plagued by Swamplings who lay in wait for weakened travellers and even poisoned the water supply to ensure the demise of their victims.",
+        "abilities": [
+            "Melee (0-2)",
+            "Distance Poison attack (0-8+)",
+            "Short water wave (reduces 4-14 speed levels)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Lair of the Treeling Witch, Venore swamp area, Venore Salamander Cave, Tiquanda Laboratory.",
+        "behaviour": "Chases opponents.A swampling attacks in melee range. A swampling never retreats.",
+        "strategy": "Just kill it like you would any other creature.",
+        "loot": [
+            "Gold Coin",
+            "White Mushroom",
+            "Swampling Moss",
+            "Piece of Swampling Wood",
+            "Swampling Club",
+            "Rope",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Thorn_Minion",
+        "name": "Thorn Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/7/79/Thorn_Minion.gif/revision/latest?cb=20161113103320&path-prefix=en",
+        "attributes": {},
+        "notes": "They look like an Omnivora.",
+        "abilities": [
+            "Melee (0-264+)",
+            "Terra Beam (0-?)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "A dungeon here, accessible through the Desecrated Glade.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Weakened_Glooth_Horror",
+        "name": "Weakened Glooth Horror",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/9/98/Glooth_Horror.gif/revision/latest?cb=20141121091303&path-prefix=en",
+        "attributes": {},
+        "notes": "He is the second \"boss\" of the Hero of Rathleton Quest. Feeble Glooth Horror will split into 2 Weakened Glooth Horrors. When slain, the Weakened Glooth Horror will turn into 2 Glooth Horrors.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Unknown",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Wilting_Leaf_Golem",
+        "name": "Wilting Leaf Golem",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/d/dd/Wilting_Leaf_Golem.gif/revision/latest?cb=20240228103025&path-prefix=en",
+        "attributes": {},
+        "notes": "The withered leaf golem are strange entities that have somehow settled with the fact that their spirit is trapped in physical form. They have endured the trials of getting used to a physical body and gained a certain familiarity with it and the physical world. This enables them to uses their strengths to the full extent and they have become considerably more dangerous. They usually are that accustomed to an certain environment, that they become extremely territorial. Still most of them understand only very basic concepts of our world and are inhabited by a consciousness that is extremely alien to that of a human. Most of these old golems share an unexplainable aggression towards lifeforms that are not plants. On the other hand they seem to be able to communicate with plants in some way and are usually overly protective towards them. This factors combine to an extremely dangerous state of mind that lead often to attacks on anything that enters their woods. Astonishingly enough their attacks display not only an affinity to the element earth but also to the element of air, as they instinctively use it to enhance their movement or more often to hinder that of their chosen foes.There are rare cases of reports that tell about good natured withered leaf golems. Almost all those cases can be linked to leaf golems inhabited by the spirits of former druids, that have become more accustomed with their changed nature. This versions of the withered leaf golems are often considerably more powerful then their spirit brethren. Malignant versions of this amalgamations also exist. They often are loners that claim entire forests as their own and act as their self proclaimed guardian, discouraging anyone to even enter the realm of their gruesome reign.",
+        "abilities": [
+            "Melee (0-120?)",
+            "Throws boulders (0-50?)",
+            "Paralyze Berserk",
+            "Poison Ball on itself (poisons you, starting from up to 13)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 105%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 60%"
+        ],
+        "location": "Forest Fury Camp, Lair of the Treeling Witch and in the Forest Fury version of the Forsaken Mine.",
+        "behaviour": "A wilting leaf golem attacks in melee range. A wilting leaf golem never retreats.",
+        "strategy": "Has a nasty melee for lower level players, but can be taken down with ease. A good mage strategy is to gather several of them (together with Forest Furies) and use GFB or Fire/Ice Wave.",
+        "loot": [
+            "Gold Coin",
+            "Fir Cone",
+            "Dowser",
+            "White Mushroom",
+            "Swampling Club",
+            "Small Emerald",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Woodling",
+        "name": "Woodling",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/12/Woodling.gif/revision/latest?cb=20150422152853&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-15?)",
+            "Distance Poison attack (0-8?)",
+            "Short water wave (reduces 4-14 speed levels)"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Dawnport.",
+        "behaviour": "It will push and kill other creatures if they block its path. A woodling never retreats.",
+        "strategy": "Woodlings are easy to kill, so no special strategy is needed. If you're being chased by many creatures, you can try to stay in a spot where woodlings will have to kill other monsters to reach you.",
+        "loot": [
+            "Gold Coin",
+            "White Mushroom",
+            "Simple Arrow",
+            "Rope",
+            "Studded Armor",
+            "Hatchet",
+            "Studded Shield",
+            "Loot Statistics"
+        ]
+    }
+]

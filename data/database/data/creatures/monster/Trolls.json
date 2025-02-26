@@ -1,0 +1,460 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Biting_Cold",
+        "name": "Biting Cold",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cd/Biting_Cold.gif/revision/latest?cb=20221125122612&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Frost Troll. Part of The Secret Library Quest.",
+        "abilities": [
+            "Melee (0-450?)",
+            "Mass Healing",
+            "Poof Beam (0-450+) Biting Cold",
+            "Poof Wave (?-500+) Biting Cold",
+            "Snowball (?-400+) Biting Cold"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "loot": [
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Frost_Troll",
+        "name": "Frost Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/8/83/Frost_Troll.gif/revision/latest?cb=20221125122326&path-prefix=en",
+        "attributes": {},
+        "notes": "Frost Trolls are a variety of normal trolls that live in the holes and dungeons of the ice islands in the north-west of Tibia. Like their cousins, they hunt animals and seek treasures. But they are a bit stronger than them and can be quite dangerous to inexperienced adventurers.",
+        "abilities": [
+            "Melee (0-20)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 60%",
+            "Energy 115%",
+            "Earth 110%"
+        ],
+        "location": "Bittermor, Edron Troll Cave, Folda, Formorgar Glacier, Formorgar Mines, Krimhorn, Ragnir, & Senja.",
+        "behaviour": "A frost troll attacks in melee range. A frost troll will retreat at 10  (18.18%, red) health.",
+        "strategy": "Just attack them, there's no big difference between them and Trolls. They are strong to Fire Damage so be careful. Frost Trolls usually appear with other monsters, such as Badgers, Polar Bears, Winter Wolves and Mammoths.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Rapier",
+            "Spear",
+            "Twigs",
+            "Wooden Shield",
+            "Frosty Ear of a Troll",
+            "Coat",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Furious_Troll",
+        "name": "Furious Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Troll_Champion.gif/revision/latest?cb=20150418124701&path-prefix=en",
+        "attributes": {},
+        "notes": "They can be found in an area accessible during the Royal Rescue Quest.",
+        "abilities": [
+            "Melee (0-100)",
+            "Summons (1-2 Mechanical Fighter )"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Old Beregar mines.",
+        "behaviour": "Fights to the death in close combat, often summoning Mechanical Fighters.A furious troll attacks in melee range.",
+        "strategy": "Kill Furious Trolls first and fast, don't waste time on mechanical fighters (unless you are trapped) because trolls will summon new ones nearly instantly.",
+        "loot": [
+            "Gold Coin",
+            "Platinum Coin",
+            "Bunch of Troll Hair",
+            "War Hammer",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Island_Troll",
+        "name": "Island Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fc/Island_Troll.gif/revision/latest?cb=20150418075739&path-prefix=en",
+        "attributes": {},
+        "notes": "The Island Trolls are by no means more courageous than their cousins all over the world. Quite weak, they are usually easily defeated. However, their existence on remote isles is a clear proof for the versatility of the troll race. Their lifestyle does not differ much from that of other trolls. They prefer to roam in caves and form small tribes and clans.The only notable difference to other trolls might be their habit to collect all sorts of things and to hoard them. This might come from the lack of resources on the isles or, as some suggest, from some religious background. Considering the disinterest in the topic trolls, no one bothered yet to investigate that further.",
+        "abilities": [
+            "Melee (0-10)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Goroma.",
+        "behaviour": "Island Trolls retreat in low health.An island troll attacks in melee range.",
+        "strategy": "Just attack them. Be careful with Scorpions and Crabs that also dwell on Goroma with the Island Trolls.",
+        "loot": [
+            "Gold Coin",
+            "Wood",
+            "Hand Axe",
+            "Leather Boots",
+            "Leather Helmet",
+            "Rope",
+            "Spear",
+            "Wooden Shield",
+            "Mango",
+            "Studded Club",
+            "Marlin",
+            "Silver Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mountain_Troll",
+        "name": "Mountain Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/f8/Mountain_Troll.gif/revision/latest?cb=20140823210135&path-prefix=en",
+        "attributes": {},
+        "notes": "A weak Troll.",
+        "abilities": [
+            "Melee (0-9)"
+        ],
+        "resistance": [
+            "Physical 115%",
+            "Death 110%",
+            "Holy 100%",
+            "Ice 85%",
+            "Fire 85%",
+            "Energy 100%",
+            "Earth 110%"
+        ],
+        "location": "Dawnport.",
+        "behaviour": "A mountain troll attacks in melee range. A mountain troll never retreats.",
+        "strategy": "Kill it as you would kill anything else. Possibly the weakest attacking monster on Dawnport.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Rope",
+            "Spear",
+            "Lightest Missile Rune",
+            "Leather Armor",
+            "Hand Axe",
+            "Studded Club",
+            "Rapier",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Percht_Minion",
+        "name": "Percht Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/f/fb/Percht_Minion.gif/revision/latest?cb=20221125122551&path-prefix=en",
+        "attributes": {},
+        "notes": "It will target players but also Warm Fires. It looks like a Frost Troll.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 0%",
+            "Death 0%",
+            "Holy 0%",
+            "Ice 0%",
+            "Fire 0%",
+            "Energy 0%",
+            "Earth 0%"
+        ],
+        "location": "Under Percht Island.",
+        "behaviour": "UnknownPercht minion attacks in melee range.",
+        "strategy": "If you want to, you can lower its health using the torches on them.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Salamander_Trainer",
+        "name": "Salamander Trainer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/a9/Salamander_Trainer.gif/revision/latest?cb=20140827155456&path-prefix=en",
+        "attributes": {},
+        "notes": "It presumably trains the Salamanders on Dawnport. Its name and abilities suggest it has an important role, but it isn't involved in any of the quests.",
+        "abilities": [
+            "Melee (0-23?)",
+            "Summons (1 Troll-Trained Salamander )",
+            "Self-Healing (11-25)",
+            "Troll Yelp (unknown effect) Salamander Trainer"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 85%",
+            "Energy 85%",
+            "Earth 85%?"
+        ],
+        "location": "Dawnport Troll Cave (here).",
+        "behaviour": "Very fast and powerful.A salamander trainer attacks in melee range. A salamander trainer never retreats.",
+        "strategy": "It has massive defense, so knights will struggle to damage it, especially with its fast healing. Mages have an advantage here.\nIt is a good creature to train skills on.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Spear",
+            "Rope",
+            "Axe",
+            "Short Sword",
+            "Bone Club",
+            "Bunch of Troll Hair",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Swamp_Troll",
+        "name": "Swamp Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/bf/Swamp_Troll.gif/revision/latest?cb=20150418080038&path-prefix=en",
+        "attributes": {},
+        "notes": "Swamp Trolls are a variety of normal trolls that live in the swamps in the east of Tibia. Like the other tribes of trolls, they hunt animals and seek treasures. But they are a bit stronger and they soak their claws with the extracts of some poisonous herbs they collect in the swamps in order to envenom their opponents. So they can be quite dangerous to inexperienced adventurers. At least some Swamp Trolls around Venore worship the Football according to the book Holy Book of Swamptrolls.",
+        "abilities": [
+            "Melee (0-13 and starting up to 1 hp/turn)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 105%",
+            "Energy 100%",
+            "Earth 85%"
+        ],
+        "location": "Port Hope Swamp Trolls, Venore Swamp Troll Cave, all around north area of Port Hope, small spawn north-west of Venore and in cave south-east of Thais (here), also one in Foreigner Quarter.",
+        "behaviour": "They run when they are with low health.A swamp troll attacks in melee range.",
+        "strategy": "Just attack them, there's no big difference between them and Trolls. Always have food, because the poison can be annoying for low levels. Low level mages can wear a Terra Hood to block their 1 HP per turn poison.",
+        "loot": [
+            "Gold Coin",
+            "Fish",
+            "Leather Boots",
+            "Mouldy Cheese",
+            "Spear",
+            "Torch",
+            "Swamp Grass",
+            "Wood",
+            "Medicine Pouch",
+            "Troll Green",
+            "Fishing Rod",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll_Champion",
+        "name": "Troll Champion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Troll_Champion.gif/revision/latest?cb=20150418124701&path-prefix=en",
+        "attributes": {},
+        "notes": "Sometimes a hero rises even amongst cowards. Well, in the case of trolls the term hero might be a bit far-fetched. The Troll Champions receive their title mainly for their slyness and brutality. Raising in status seems great in the beginning but it quickly becomes a matter of survival. Even though cowardly, most trolls are incredibly greedy and envious. As a result, a troll with a special status has to fight for its life and to survive many attempts of backstabbing or arranged accidents by its brethren. Of course, every Troll Champion abuses shamelessly his privileges in his tribe. Therefore, it is only natural that a Troll Champion has to constantly watch his back and stay as fit and well-equipped as he can manage. This again makes him one of the toughest fighters of the tribe that other trolls turn to when in danger. Troll Champions are usually the leaders of small raiding parties or the personal bodyguards of the equally abusive chieftains. They love to bully weaker trolls and are hardly encountered without some henchmen that they can bully around and sacrifice in battles. Creature added in the Christmas update 2007. Despite their appearance, not that much stronger than a regular troll.",
+        "abilities": [
+            "Melee (0-35)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Edron Troll-Goblin Peninsula, Ab'dendriel Shadow Caves, Thais South-East Troll Caves, Dusalk's Troll Clan Cave, Island of Destiny in Paladin's guild.",
+        "behaviour": "Troll Champions can be pushed and don't move objects.A troll champion attacks in melee range. A troll champion will retreat at 15  (20%, red) health.",
+        "strategy": "They have good melee so if you want to Train with them it is recommended you have 22+ Shielding.",
+        "loot": [
+            "Gold Coin",
+            "Spear",
+            "Leather Boots",
+            "Meat",
+            "Studded Club",
+            "Wooden Shield",
+            "Arrow",
+            "Bunch of Troll Hair",
+            "Trollroot",
+            "Silver Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll_Guard",
+        "name": "Troll Guard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Troll_Champion.gif/revision/latest?cb=20150418124701&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-9)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Rookgaard's central cave in the new western Troll tunnel, north-west of Carlin during raids and Thais Knights' Guild arena during raids on Kingsday.",
+        "behaviour": "A troll guard attacks in melee range. A troll guard will retreat at 15  (25%, red) health.",
+        "strategy": "Kill it like a normal Troll.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Rope",
+            "Studded Club",
+            "Bunch of Troll Hair",
+            "Silver Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll_Legionnaire",
+        "name": "Troll Legionnaire",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/3/30/Troll_Legionnaire.gif/revision/latest?cb=20090708165243&path-prefix=en",
+        "attributes": {},
+        "notes": "New creature in the summer update 2009. They can be found in an area accessible during making Royal Rescue Quest. Drops quite high amount of gold for such a monster, so hunting these might be profitable.",
+        "abilities": [
+            "Melee (0-40)",
+            "Throwing Star (0-130) Troll Legionnaire",
+            "Invisibility",
+            "Self-Healing (50-85)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 100%",
+            "Holy 100%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 100%",
+            "Earth 100%"
+        ],
+        "location": "Old Beregar mines. In group with Furious Trolls almost all the time.",
+        "behaviour": "Keeps 4 squares distance and shoots Throwing Stars, turns invisible very often for about 20 seconds, heals frequently.A troll legionnaire attacks from a distance. A troll legionnaire will retreat at 8 to 62 (3.81% - 29.52%, deep red to red) health.",
+        "strategy": "They will most likely be invisible all the time, as they re-cast invisibility and keep distance before the effect wears off (like Warlocks), therefore shoot area runes like Great Fireball or use spells like Divine Caldera. Alternatively, change floors for a while until they become visible again.",
+        "loot": [
+            "Gold Coin",
+            "Throwing Star",
+            "Frosty Ear of a Troll",
+            "Stealth Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll_Marauder",
+        "name": "Troll Marauder",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/c/cc/Troll_Champion.gif/revision/latest?cb=20150418124701&path-prefix=en",
+        "attributes": {},
+        "notes": "It's a considerably stronger and much rarer Mountain Troll.",
+        "abilities": [
+            "Melee (0-29?)"
+        ],
+        "resistance": [
+            "Physical 115%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 90%",
+            "Fire 90%",
+            "Energy 90%",
+            "Earth 100%"
+        ],
+        "location": "Dawnport (~6% chance, here).",
+        "behaviour": "A troll marauder attacks in melee range. A troll marauder will retreat at 15  (21.43%, red) health.",
+        "loot": [
+            "Gold Coin",
+            "Spear",
+            "Meat",
+            "Wooden Shield",
+            "Studded Club",
+            "Studded Armor",
+            "Leather Boots",
+            "Simple Arrow",
+            "Silver Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Troll",
+        "name": "Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/1/11/Troll.gif/revision/latest?cb=20141110203007&path-prefix=en",
+        "attributes": {},
+        "notes": "Trolls are a human-like race that lives in small tribes in the holes and dungeons of Tibia. There they hunt animals and seek treasures over which they keep a jealous watch. They are weak and silly fighters, but as a squad they can become quite dangerous.",
+        "abilities": [
+            "Melee (0-15)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "In many dungeons around Tibia like the troll cave in Thais, south of Carlin (out the east exit and down the hole), Island of Destiny, Edron Troll Cave, and in Ab'Dendriel. Also found in Rookgaard.",
+        "behaviour": "A troll attacks in melee range. A troll will retreat at 15  (30%, yellow) health.",
+        "strategy": "They are fairly weak; just attack them. Take precautions if you're lower than about level 7 on Rookgaard when approaching them and try to block the creature using parcels or chests. You could find yourself getting killed with several hitting you at once.",
+        "loot": [
+            "Gold Coin",
+            "Hand Axe",
+            "Leather Boots",
+            "Leather Helmet",
+            "Meat",
+            "Rope",
+            "Spear",
+            "Studded Club",
+            "Wooden Shield",
+            "Heavy Old Tome",
+            "Bunch of Troll Hair",
+            "Silver Amulet",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Young_Troll",
+        "name": "Young Troll",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/a/ad/Young_Troll.gif/revision/latest?cb=20171219234311&path-prefix=en",
+        "attributes": {},
+        "notes": "As the name implies, a weaker version of the Troll.",
+        "abilities": [
+            "Melee (0-10)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 110%",
+            "Holy 90%",
+            "Ice 100%",
+            "Fire 100%",
+            "Energy 80%",
+            "Earth 110%"
+        ],
+        "location": "Rookgaard Troll Cave.",
+        "behaviour": "Similar to a Troll.",
+        "strategy": "Treat it like a Spider.",
+        "loot": [
+            "Gold Coin",
+            "Meat",
+            "Rope",
+            "Spear",
+            "Bunch of Troll Hair",
+            "Leather Boots",
+            "Leather Helmet",
+            "Wooden Shield",
+            "Loot Statistics"
+        ]
+    }
+]

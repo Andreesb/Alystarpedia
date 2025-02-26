@@ -1,0 +1,176 @@
+[
+    {
+        "url": "https://tibia.fandom.com/wiki/Dark_Torturer",
+        "name": "Dark Torturer",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b5/Dark_Torturer.gif/revision/latest?cb=20061212191617&path-prefix=en",
+        "attributes": {},
+        "notes": "Dark Torturers are distant relatives of the diabolic imps. Like all members of the imp family, they enjoy pain and havoc they wreak upon other creatures. Their physical abilities exceed by far those of their cousins, the diabolic imps. Since they lack the magical affinity of the latter, those creatures tend to sell their services to more powerful demons or even some malicious mortals. Given their somewhat lazy and cowardly nature, they prefer to take up the roles of jailers and torturers. There they can indulge their malicious instincts without risking too much in open warfare. Those disgusting qualities have earned this race the fitting name Dark Torturer in the vernacular.",
+        "abilities": [
+            "Melee (0-513)",
+            "Throws Knives (500-700) Dark Torturer",
+            "Great Musical wave (Reduces Shielding by 60-95% for 4~ seconds) Dark Torturer",
+            "slow Self Healing (200-250)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 110%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 10%"
+        ],
+        "location": "Pits of Inferno, Vengoth, Blood Halls, Oramond Dungeon, Oramond Fury Dungeon, Roshamuul Prison, Grounds of Damnation and Halls of Ascension.",
+        "behaviour": "They will try to get in melee contact with you. They run in low health, but be careful even then, as they can deal out 800~ combos while running away from you.A dark torturer attacks in melee range. A dark torturer will retreat at 500  (6.8%, red) health.",
+        "strategy": "Run from them and try to shoot them before they catch up with you. They can hit quite hard in close combat.",
+        "loot": [
+            "Gold Coin",
+            "Ham",
+            "Platinum Coin",
+            "Flask of Demonic Blood",
+            "Soul Orb",
+            "Great Mana Potion",
+            "Great Health Potion",
+            "Demonic Essence",
+            "Steel Boots",
+            "Saw",
+            "Gold Ingot",
+            "Orichalcum Pearl",
+            "Assassin Star",
+            "Death Ring",
+            "Cat's Paw",
+            "Jewelled Backpack",
+            "Butcher's Axe",
+            "Vile Axe",
+            "Golden Legs",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Diabolic_Imp",
+        "name": "Diabolic Imp",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ea/Diabolic_Imp.gif/revision/latest?cb=20061212193932&path-prefix=en",
+        "attributes": {},
+        "notes": "Imps are some of the smaller and physically weaker demons. The only thing that allows them to exist in the demonic society, that has no tolerance for weakness, is their cunning and the magical forces they have under their command. Diabolic Imps tend to be somewhat cowardly and when it comes to the crunch, they esteem the value of their own lives much higher than any agenda of the master they might serve. For this reason, they are not trusted and, despite their intelligence, rarely appointed to any position of power or influence. The scheming little Diabolic Imps still found their niche in the demon society. They often serve in logistics or as messengers. In the latter role, they are frequently sent to the realm of the mortals. Here they even pose as advisors of mortal allies of the demon kind for a while. Diabolic Imps have 2 bosses: The Imperor and Minishabaal (not in game anymore).",
+        "abilities": [
+            "Melee (0-240 and starting up to 8 hp/turn)",
+            "Plus Shaped Fireball (100-240) Diabolic Imp",
+            "Great Fire Explosion (300-430?) Diabolic Imp",
+            "Skill Reducer (Reduces Melee by 20%-30% for 20 seconds) Diabolic Imp",
+            "Invisibility (lasts in 1 second)",
+            "Strong Haste (lasts 2 seconds)",
+            "slow Self-Healing (650-800)"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 105%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 100%",
+            "Earth 50%"
+        ],
+        "location": "Inquisition, Pits of Inferno, Fenrock, Fury Dungeon and inside the Hellgore volcano on Goroma during  the Fire from the Earth Mini World Change.",
+        "behaviour": "A diabolic imp attacks from a distance. A diabolic imp will retreat at 78 to 584 (4% - 29.95%, red) health.",
+        "strategy": "Since the Melee poisons you, it's better to keep distance as a Mage or Paladin. Knights should try to trap him and use Melee, Brutal Strike and Berserk. Make sure to keep an eye on your Skills so you don't waste lots of Mana on your attack spells when it has lowered your skills. Try to corner them because when they use Haste they are extremely fast, and you won't be able to outrun them. A good strategy to kill these as a Mage at the Fenrock spawn is to Summon a Fire Devil or another creature immune to Fire Damage and let it block the ranged attacks while you use Ice Strike and Strong Ice Strike. Depending on your level you might want to use Magic Shield.",
+        "loot": [
+            "Gold Coin",
+            "Pitchfork",
+            "Flask of Demonic Blood",
+            "Blank Rune",
+            "Cleaver",
+            "Guardian Shield",
+            "Demonic Essence",
+            "Soul Orb",
+            "Scimitar",
+            "Platinum Coin",
+            "Stealth Ring",
+            "Small Amethyst",
+            "Double Axe",
+            "Necrotic Rod",
+            "Magma Monocle",
+            "Magma Coat",
+            "Death Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Grave_Guard",
+        "name": "Grave Guard",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/b/b5/Dark_Torturer.gif/revision/latest?cb=20061212191617&path-prefix=en",
+        "attributes": {},
+        "abilities": [
+            "Melee (0-150?)",
+            "Blue sparks on itself"
+        ],
+        "resistance": [
+            "Physical 100%",
+            "Death 90%",
+            "Holy 110%",
+            "Ice 110%",
+            "Fire 0%",
+            "Energy 70%",
+            "Earth 10%"
+        ],
+        "location": "Horestis Tomb.",
+        "behaviour": "A grave guard attacks in melee range.",
+        "loot": [
+            "Gold Coin",
+            "Grave Flower",
+            "Health Potion",
+            "Mana Potion",
+            "Scarab Coin",
+            "Daramian Waraxe",
+            "Death Ring",
+            "Loot Statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Imp_Intruder",
+        "name": "Imp Intruder",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ea/Diabolic_Imp.gif/revision/latest?cb=20061212193932&path-prefix=en",
+        "attributes": {},
+        "notes": "Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 100%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire 100%?",
+            "Energy 100%?",
+            "Earth 100%?"
+        ],
+        "location": "Secret Library.",
+        "behaviour": "Unknown",
+        "strategy": "Unknown",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    },
+    {
+        "url": "https://tibia.fandom.com/wiki/Mean_Minion",
+        "name": "Mean Minion",
+        "image_url": "https://static.wikia.nocookie.net/tibia/images/e/ea/Diabolic_Imp.gif/revision/latest?cb=20061212193932&path-prefix=en",
+        "attributes": {},
+        "notes": "It looks like a Diabolic Imp. Part of The Secret Library Quest.",
+        "abilities": [
+            "Unknown"
+        ],
+        "resistance": [
+            "Physical 100%?",
+            "Death 50%?",
+            "Holy 100%?",
+            "Ice 100%?",
+            "Fire -50%",
+            "Energy 50%",
+            "Earth -100%"
+        ],
+        "location": "Gorzindel's room inside The Secret Library.",
+        "loot": [
+            "Submit loot statistics"
+        ]
+    }
+]
