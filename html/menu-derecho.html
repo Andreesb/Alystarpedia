@@ -19,7 +19,7 @@
             <h4><img src="../assets/icons/Party.gif" alt="Party Share">Level party share</h4>
             <div>
                 <label for="party-share">Level:</label>
-                <input id="party-share" type="number" placeholder="Level" min="1" max="3000">
+                <input class="party-share" id="party-share" type="number" placeholder="Level" min="1" max="3000">
                 <span id="tooltip"></span>
             </div>
         </section>
@@ -47,6 +47,14 @@
 <menu class="menu-dinamico">
     <ul id="retrato-galeria"><img class="menu-icons" src="../assets/icons/Portrait_with_Ferumbras.gif" alt="Retrato Ferumbras">
     </ul>
+    <ul>
+        <img class="menu-icons" id="party" src="../assets/icons/Party.gif" alt="Party Share">
+        <section id="mini-shared-calc">
+            <label for="party-share">Level:</label>
+            <input class="party-share" id="party-share" type="number" placeholder="Level" min="1" max="3000">
+            <span id="mini-tooltip"></span>
+        </section>
+    </ul>
     <ul><img class="menu-icons" src="../assets/icons/Golden_Newspaper.gif" alt="">
         <section class="noticias-dinamicas">
             <div id="ultima-noticia">
@@ -54,26 +62,27 @@
             </div>
         </section>
     </ul>
+    
     <ul>
         <img class="menu-icons" src="../assets/icons/icon-community.gif" alt="Comunidad de NPC's">
         <section id="contenedor-community">
-            <a href="https://discord.com/channels/728759455033851995/1275421418884169749">
+            <a target="_blank" href="https://discord.com/channels/728759455033851995/1275421418884169749">
                 <li class="icons-community">
                     <img id="discord" src="../assets/icons/discord.png" alt="Icono de Discord">
                 </li>
             </a>
             
-            <a href="">
+            <a target="_blank" href="">
                 <li class="icons-community">
                     <img id="instagram" src="../assets/icons/instagram.png" alt="Icono de Instagram">
                 </li>
             </a>
-            <a href="">
+            <a target="_blank" href="">
                 <li class="icons-community">
                     <img id="github" src="../assets/icons/github.png" alt="Icono de Github">
                 </li>
             </a>
-            <a href="">
+            <a target="_blank" href="">
                 <li class="icons-community">
                     <img id="youtube" src="../assets/icons/youtube.png" alt="Icono de Youtube">
                 </li>
@@ -81,14 +90,6 @@
             
         </section>
     </ul>
-    <ul>
-        <img class="menu-icons" src="../assets/icons/Party.gif" alt="Party Share">
-        <section>
-            <label for="party-share">Level:</label>
-            <input name="party-share" type="number">
-        </section>
-    </ul>
-    
 </menu>
 
 <div id="overlay" class="overlay hidden">

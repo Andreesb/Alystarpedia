@@ -20,6 +20,7 @@
 
 #tips-container {
     grid-area: section1;
+    width: 40vw;
 
 }
 
@@ -29,19 +30,6 @@
     width: 12vw;
 }
 
-
-
-#shortcuts-tools {
-    grid-area: section2;
-    max-height: 185px;
-    display: flex;
-    overflow: hidden;
-    justify-content: flex-start;
-    align-items: center;
-    transition: transform 0.5s ease-in-out;
-    
-    
-}
 
 #home-container section:nth-child(3) {
     grid-area: section3;
@@ -69,23 +57,24 @@
 
 
 
-#shortcuts-tools a {
-    flex: 0 0 125px; /* Cada opción tiene un ancho fijo */
-    transition: opacity 0.5s ease-in-out;
-    
-
+#shortcuts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 800px;
+    width: 40vw;
+    overflow: hidden;
 }
 
-/* Ocultar elementos */
-#shortcuts-tools a.hidden {
-    opacity: 0;
-    transform: translateX(-100%);
-    pointer-events: none; /* Evita la interacción */
-}
-
-/* Activar el carousel */
-#shortcuts-tools.carousel-active {
-    justify-content: flex-start;
+#shortcuts-tools {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    width: 100%;
+    scroll-behavior: smooth;
+    flex-shrink: 0;
+    padding-left: 30px;
 }
 
 #shortcuts-tools a img {
@@ -98,8 +87,33 @@
     background-color: #ccbb9e;
     border-radius: 99px;
     object-fit: contain;
-    
+    transition: transform 0.5s ease-in-out;
 }
+
+#prev img, #next img {
+    width: 40px;
+    object-fit: contain;
+}
+
+#prev {
+    position: absolute;
+    left: -5px;
+}
+
+#next {
+    position: absolute;
+    right: -5px;
+}
+
+#prev, #next {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    max-width: 60px;
+    max-height: 60px;
+}
+
 
 /* Aside a la derecha */
 .contenedor-informacion aside {
@@ -244,11 +258,33 @@
     }
 }
 
+@media (max-width: 1280px) {
+    #shortcuts-container {
+        max-width: 585px;
+        width: 45vw;
+    }
+
+    #news-container {
+        width: 71vw;
+    }
+
+    #tips-container {
+        width: 45vw;
+    }
+
+    #shortcuts-tools {
+        gap: 15px;
+        padding-left: 15px;
+
+    }
+
+}
+
 
 
 /* Pantallas medianas (tabletas) */
-@media (max-width: 850px) {
-
+@media (max-width: 900px) {
+    
     
     #home-container {
         grid-template-columns: 1fr; /* Solo una columna */
@@ -264,8 +300,7 @@
     }
 
     #home-container section {
-        width: 72vw;
-        padding: 10px;
+        width: 70vw;
         max-width: 630px;
         
     }
@@ -279,13 +314,9 @@
         font-size: 1.2rem;
     }
 
-    #shortcuts-tools {
-        gap: 20px;
-
-    }
 
     #shortcuts-tools a {
-        flex: 0 0 110px; /* Cada opción tiene un ancho fijo */
+        flex: 0 0 90px; /* Cada opción tiene un ancho fijo */
         transition: opacity 0.5s ease-in-out;
     
     }
@@ -305,12 +336,12 @@
     }
 
     #shortcuts-section {
-        max-width: 600px;
-        min-height: 300px;
+        max-width: 635px;
+        min-height: 400px;
     }
 
     #shortcuts-section section {
-        width: 68vw;
+        width: 66vw;
     }
 
     

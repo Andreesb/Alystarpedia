@@ -184,6 +184,12 @@
         function updateFloor(delta) {
             floor = Math.max(0, Math.min(15, floor + delta));
             mapImage.src = `https://tibiamaps.github.io/tibia-map-data/floor-${String(floor).padStart(2, '0')}-map.png`;
+            
+            mapImage.style.display = "none";
+            setTimeout(() => {
+                mapImage.style.display = "block";
+            }, 50); // Pequeño delay para forzar el renderizado
+
             actualFloor.innerText = `${floor}`;
             updateCoordinates();
         }
@@ -253,15 +259,12 @@
         });
 
 
-            
-            
-
         } else {
             console.log("Ejecutando en ventana normal.");
         }
     
-        document.getElementById("zoomIn").addEventListener("click", () => zoom(0.1));
-        document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.1));
+        document.getElementById("zoomIn").addEventListener("click", () => zoom(0.5));
+        document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.5));
         document.getElementById("floorUp").addEventListener("click", () => updateFloor(-1));
         document.getElementById("floorDown").addEventListener("click", () => updateFloor(1));
     

@@ -76,8 +76,15 @@ export function menuExpand(){
             }
         });
     });
-}
 
+    // Evitar que se cierre la sección al hacer clic dentro de ella
+    document.querySelectorAll(".menu-dinamico section").forEach(section => {
+        section.addEventListener("click", function (event) {
+            event.stopPropagation();
+        });
+    });
+
+}
 export function calculateExp(level) {
     const shareExpMin = Math.floor((level * 2) / 3);
     const shareExpMax = Math.floor((level * 3) / 2);
@@ -85,27 +92,40 @@ export function calculateExp(level) {
     return { min: shareExpMin, max: shareExpMax };
 }
 
-export function showExp(){
-    document.getElementById("party-share").addEventListener("input", function () {
-        const level = parseInt(this.value, 10);
-        const tooltip = document.getElementById("tooltip");
-        let maxLevel = 3001
+export function showExp() {
+    document.querySelectorAll(".party-share").forEach(input => {
+        input.addEventListener("input", function () {
+            const level = parseInt(this.value, 10);
+            const tooltip = document.getElementById("tooltip");
+            const miniTooltip = document.getElementById("mini-tooltip");
+            let maxLevel = 3001;
 
-        if (!isNaN(level) && level > 0) {
-            const { min, max } = calculateExp(level);
-            tooltip.textContent = ` You can share exp between \n level's ${min} and ${max}.`;
-            tooltip.style.visibility = "visible";
-            tooltip.style.opacity = "1";
-        } else if (!isNaN(level) && level >= maxLevel || !isNaN(level) && level <= 0) {
-            tooltip.textContent = ` Please enter a valid level`;
-            tooltip.style.visibility = "visible";
-            tooltip.style.opacity = "1";
-        } else {
-            tooltip.style.opacity = "0";
-            tooltip.style.visibility = "hidden";
-            return
-        }
+            if (!isNaN(level) && level > 0) {
+                const { min, max } = calculateExp(level);
+                tooltip.textContent = ` You can share exp between \n level's ${min} and ${max}.`;
+                tooltip.style.visibility = "visible";
+                tooltip.style.opacity = "1";
+                //Minitooltip
+                miniTooltip.textContent = ` You can share exp \n between \n level's ${min} and ${max}.`;
+                miniTooltip.style.opacity = "1";
+                miniTooltip.style.visibility = "visible";
+                
+            } else if (!isNaN(level) && (level >= maxLevel || level <= 0)) {
+                tooltip.textContent = ` Please enter a valid level`;
+                tooltip.style.visibility = "visible";
+                tooltip.style.opacity = "1";
+                //Minitooltip
+                miniTooltip.textContent = ` Please enter a valid level`;
+                miniTooltip.style.visibility = "visible";
+                miniTooltip.style.opacity = "1";
+            }  else {
+                tooltip.style.opacity = "0";
+                tooltip.style.visibility = "hidden";
+            }
+        });
     });
-
+    
+    
 }
+
 

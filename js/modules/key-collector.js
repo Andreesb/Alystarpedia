@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // Limpiar contenedor de ubicaciones
         const locationsContainer = document.getElementById("locations");
-        locationsContainer.innerHTML = ""; 
+        locationsContainer.innerHTML = "";
 
         // Agregar "Find it" si existe
         if (key.location?.find) {

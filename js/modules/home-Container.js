@@ -39,54 +39,16 @@ export function homeContainer() {
 }
 
 
+
 export function initShortcutsCarousel() {
-    const shortcutsSection = document.getElementById('shortcuts-tools');
-    let shortcutItems = Array.from(shortcutsSection.children); // Obtener los elementos <a>
-    let visibleItems = shortcutItems.length;
-
-    // Variables de control
-    let carouselInterval;
-    let carouselActive = false;
-
-    function updateCarousel() {
-        const screenWidth = window.innerWidth;
-
-        if (screenWidth <= 1615) {
-            visibleItems = shortcutItems.length - 1; // Oculta el último elemento
-            shortcutsSection.classList.add('carousel-active'); // Activa el estilo de carrusel
-            startCarousel();
-        } else if (screenWidth <= 1400) {
-            visibleItems = shortcutItems.length - 2; // Oculta dos elementos (por ejemplo)
-            startCarousel();
-        } else {
-            resetCarousel(); // Resetear si la pantalla es mayor a 1615px
-        }
-    }
-
-    function startCarousel() {
-        if (carouselActive) return; // Evitar que el intervalo se inicie más de una vez
-        carouselActive = true;
-
-        carouselInterval = setInterval(() => {
-            const firstItem = shortcutsSection.firstElementChild;
-            shortcutsSection.removeChild(firstItem); // Elimina el primer elemento
-            shortcutsSection.appendChild(firstItem); // Lo añade al final (efecto rotativo)
-        }, 3000); // Intervalo de 3 segundos
-    }
-
-    function resetCarousel() {
-        if (!carouselActive) return;
-        clearInterval(carouselInterval);
-        carouselActive = false;
-        shortcutsSection.classList.remove('carousel-active');
-        shortcutsSection.innerHTML = ''; // Limpia y vuelve a insertar los elementos
-        shortcutItems.forEach((item) => shortcutsSection.appendChild(item));
-    }
-
-    // Eventos para controlar el tamaño de la ventana
-    window.addEventListener('resize', updateCarousel);
-    updateCarousel(); // Ejecutar al iniciar
+    new ShortcutsCarousel('shortcuts-tools', {
+        autoScrollDelay: 3000,
+        pauseOnHover: true,
+        enableKeyboard: true,
+        restartDelay: 5000 // Reinicia la rotación tras 5s de inactividad
+    });
 }
+
 
 export function rotateAsideSections() {
     const waitForAside = setInterval(() => {
@@ -181,3 +143,113 @@ export function displayNews(newsData) {
 }
 
 
+class ShortcutsCarousel {
+    constructor(containerId, options = {}) {
+        this.container = document.getElementById(containerId);
+        this.prevBtn = document.getElementById('prev');
+        this.nextBtn = document.getElementById('next');
+
+        // Configuración por defecto
+        this.config = {
+        autoScrollDelay: 3000,
+        pauseOnHover: true,
+        enableKeyboard: false,
+        restartDelay: 5000, // Tiempo tras el cual se reinicia la rotación automática
+        ...options
+        };
+
+        this.autoScroll = null;
+        this.restartTimeout = null; // Para manejar el reinicio automático
+
+        this.init();
+    }
+
+    init() {
+        this.setupEventListeners();
+        this.startAutoScroll();
+    }
+
+    setupEventListeners() {
+        this.prevBtn?.addEventListener('click', () => {
+        this.movePrev();
+        this.resetAutoScroll();
+        });
+
+        this.nextBtn?.addEventListener('click', () => {
+        this.moveNext();
+        this.resetAutoScroll();
+        });
+
+        if (this.config.pauseOnHover) {
+        this.container.addEventListener('mouseenter', () => this.stopAutoScroll());
+        this.container.addEventListener('mouseleave', () => this.resetAutoScroll());
+        }
+
+        if (this.config.enableKeyboard) {
+        document.addEventListener('keydown', (event) => this.handleKeyNavigation(event));
+        }
+    }
+
+    moveNext() {
+        const firstItem = this.container.firstElementChild;
+        if (firstItem) {
+        this.container.appendChild(firstItem);
+        }
+    }
+
+    movePrev() {
+        const lastItem = this.container.lastElementChild;
+        if (lastItem) {
+        this.container.insertBefore(lastItem, this.container.firstElementChild);
+        }
+    }
+
+    startAutoScroll() {
+        if (!this.autoScroll) {
+        this.autoScroll = setInterval(() => this.moveNext(), this.config.autoScrollDelay);
+        }
+    }
+
+    stopAutoScroll() {
+        if (this.autoScroll) {
+        clearInterval(this.autoScroll);
+        this.autoScroll = null;
+        }
+    }
+
+    resetAutoScroll() {
+        this.stopAutoScroll();
+
+        // Si ya hay un temporizador de reinicio activo, lo reseteamos
+        if (this.restartTimeout) {
+        clearTimeout(this.restartTimeout);
+        }
+
+        // Programamos el reinicio después de `restartDelay`
+        this.restartTimeout = setTimeout(() => this.startAutoScroll(), this.config.restartDelay);
+    }
+
+    handleKeyNavigation(event) {
+        if (event.key === "ArrowLeft") {
+        this.movePrev();
+        this.resetAutoScroll();
+        } else if (event.key === "ArrowRight") {
+        this.moveNext();
+        this.resetAutoScroll();
+        }
+    }
+
+    destroy() {
+        this.stopAutoScroll();
+        clearTimeout(this.restartTimeout);
+
+        this.prevBtn?.removeEventListener('click', this.boundMovePrev);
+        this.nextBtn?.removeEventListener('click', this.boundMoveNext);
+        this.container.removeEventListener('mouseenter', this.boundStopAutoScroll);
+        this.container.removeEventListener('mouseleave', this.boundStartAutoScroll);
+
+        if (this.config.enableKeyboard) {
+        document.removeEventListener('keydown', this.boundKeyNavigation);
+        }
+    }
+}
