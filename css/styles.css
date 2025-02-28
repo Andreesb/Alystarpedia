@@ -5,16 +5,17 @@
 @import url(exp-skill-calc.css);
 @import url(menu-derecho.css);
 
+
 @font-face {
-    font-family: 'Qene-G';
-    src: url('fonts/Qene-G.ttf') format('truetype'); /* Asegúrate de que la ruta sea correcta */
+    font-family: 'FairydustB';
+    src: url('fonts/FairydustB.ttf') format('truetype'); /* Asegúrate de que la ruta sea correcta */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Endor';
-    src: url('fonts/Endor.ttf') format('truetype'); /* Asegúrate de que la ruta sea correcta */
+    font-family: 'Vaspera';
+    src: url('../assets/media/vespera-font/Vespera-pg4j1.ttf') format('truetype'); /* Ajusta la ruta según la ubicación real */
     font-weight: normal;
     font-style: normal;
 }
@@ -72,7 +73,7 @@ header {
     position: absolute;
     width: 100%;
     height: 155px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Vaspera', serif;
     font-size: 1.8rem;
     padding-top: 20px;
     
@@ -289,18 +290,38 @@ ul, ol {
 
 footer {
     position: absolute;
-    display: inline-block;
+    display: block;
     text-align: center;
     justify-content: center;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 100%;
-    height: 25px;
+    height: 60px;
     width: 96%;
     color: #cecece;
     background-color: rgb(100, 0, 0);
     border: 3px solid brown;
     align-content: center;
+    margin: 0;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    margin: 0;
 }
 
 

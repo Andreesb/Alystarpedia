@@ -78,10 +78,10 @@
 }
 
 #shortcuts-tools a img {
-    min-width: 50px;
+    min-width: 75px;
     max-width: 85px;
     width: 10vw;
-    min-height: 50px;
+    min-height: 75px;
     height: 10vh;
     max-height: 85px;
     background-color: #ccbb9e;
