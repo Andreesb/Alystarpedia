@@ -34,7 +34,7 @@
             position: absolute;
             left: 0;
             top: 0;
-            transform-origin: top left;
+            transform-origin: inherit;
             user-drag: none;
             -webkit-user-drag: none;
         }
@@ -183,7 +183,9 @@
     
         function updateFloor(delta) {
             floor = Math.max(0, Math.min(15, floor + delta));
-            mapImage.src = `https://tibiamaps.github.io/tibia-map-data/floor-${String(floor).padStart(2, '0')}-map.png`;
+            const floorStr = String(floor).padStart(2, '0');
+            // Usar ruta local en lugar de URL remota
+            mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
             
             mapImage.style.display = "none";
             setTimeout(() => {
@@ -265,14 +267,13 @@
     
         document.getElementById("zoomIn").addEventListener("click", () => zoom(0.5));
         document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.5));
-        document.getElementById("floorUp").addEventListener("click", () => updateFloor(-1));
-        document.getElementById("floorDown").addEventListener("click", () => updateFloor(1));
+        document.getElementById("floorUp").addEventListener("click", () => updateFloor(1));
+        document.getElementById("floorDown").addEventListener("click", () => updateFloor(-1));
     
         mapper.addEventListener("wheel", (e) => {
             zoom(e.deltaY < 0 ? 0.1 : -0.1);
         });
     
-        // Cargar coordenadas desde la URL
         // Cargar coordenadas desde la URL y posicionar el mapa
         function loadFromURL() {
             const params = new URLSearchParams(window.location.search);
@@ -288,19 +289,18 @@
             const centerX = mapper.clientWidth / 2;
             const centerY = mapper.clientHeight / 2;
 
-            // Calcular el offset inicial para que el centro del mapper quede en la coordenada deseada
             offsetX = centerX - (x * scale);
             offsetY = centerY - (y * scale);
 
-            // Aplicar la posición
             mapImage.style.left = `${offsetX}px`;
             mapImage.style.top = `${offsetY}px`;
 
             updateFloor(0); // Cargar el piso correspondiente
         }
 
-        // Ejecutar la función al cargar la página
+        // Ejecutar al cargar la página
         window.onload = loadFromURL;
+
 
     </script>
     

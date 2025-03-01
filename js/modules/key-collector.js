@@ -155,5 +155,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     
     openModal();
+
+
+    const words = ["Enter a key-word", "Asura", "Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
+    let wordIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+    
+    function typeEffect() {
+        const currentWord = words[wordIndex];
+        const currentChars = currentWord.substring(0, charIndex);
+    
+        searchInput.setAttribute("placeholder", currentChars + "|"); // Cursor animado
+    
+        if (!deleting && charIndex < currentWord.length) {
+            charIndex++;
+            setTimeout(typeEffect, 100); // Velocidad de escritura
+        } else if (deleting && charIndex > 0) {
+            charIndex--;
+            setTimeout(typeEffect, 50); // Velocidad de borrado
+        } else {
+            deleting = !deleting; // Cambia de escribir a borrar
+            if (!deleting) {
+                wordIndex = (wordIndex + 1) % words.length; // Pasa a la siguiente palabra
+            }
+            setTimeout(typeEffect, 1000); // Pausa antes de cambiar palabra
+        }
+    }
+    
+    // Iniciar el efecto
+    typeEffect();
 });
 

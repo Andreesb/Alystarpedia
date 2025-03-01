@@ -449,13 +449,13 @@
             "Loot value": "Negotiable",
             "Version": "11.80.7048July 3, 2018Summer Update 2018"
         },
-        "notes": "Notes\nThe doors it opens (here and here) give access to the external area of the Bastion and hence the boat that works as a shortcut between the Falcon Bastion and the underground area.",
+        "notes": "Notes\nThe doors it opens give access to the external area of the Bastion and hence the boat that works as a shortcut between the Falcon Bastion and the underground area.",
         "dropped_by": [],
         "location": {
-            "find": "../html/mapper.html?x=1629&y=338&floor=2",
+            "find": "../html/mapper.html?x=1629&y=338&floor=12",
             "use": [
-                "../html/mapper.html?x=1620&y=350&floor=7",
-                "../html/mapper.html?x=1616&y=374&floor=7"
+                "../html/mapper.html?x=1620&y=350&floor=8",
+                "../html/mapper.html?x=1616&y=374&floor=8"
             ]
         },
         "keywords": [
@@ -487,7 +487,8 @@
         "keywords": [
             "ab'dendriel",
             "black pyramid",
-            "hellgate"
+            "hellgate",
+            "draconia quest"
         ]
     },
     {
