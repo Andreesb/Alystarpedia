@@ -3,12 +3,12 @@
 }
 
 .contenedor-izquierdo {
-    max-width: 225px;
+    max-width: 250px;
     width: 100%;
     max-height: 800px;
     position: absolute;
     display: flex;
-    top: 18%;
+    top: 15%;
     left: 1%;
     flex-direction: column;
     z-index: 10;
@@ -64,7 +64,7 @@
 
 .rashid-Container {
     height: 75px;
-    max-width: 240px;
+    max-width: 250px;
     border: 2px solid;
     background-color: #fdeed5;
     margin: -1px;
@@ -86,7 +86,7 @@
 #rashid-City {
     position: absolute;
     display: flex;
-    max-width: 240px;
+    max-width: 250px;
     width: 99%;
     z-index: 0;
     min-height: 75px;

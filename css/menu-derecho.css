@@ -1,11 +1,11 @@
 .search-Bar {
-    min-width: 240px;
+    min-width: 260px;
     min-height: 40px;
     background-color: #ccbb9e80;
     position: absolute;
     z-index: 10;
     align-items: center;
-    top: 18%;
+    top: 15%;
     left: 84%;
     border-radius: 5px;
     display: inline-flex;
@@ -30,7 +30,7 @@
 
 
 .contenedorMenu {
-    width: 240px;
+    width: 260px;
     height: 500px;
     background-color: #ccbb9e;
     border: 2px solid;
@@ -269,6 +269,7 @@
 #comunidad-container {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
 
 #comunidad-container img {
@@ -359,3 +360,4 @@
     transition: opacity 0.3s;
     z-index: 10;
 }
+

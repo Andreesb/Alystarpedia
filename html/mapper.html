@@ -34,7 +34,7 @@
             position: absolute;
             left: 0;
             top: 0;
-            transform-origin: inherit;
+            transform-origin: top left;
             user-drag: none;
             -webkit-user-drag: none;
         }
@@ -129,7 +129,7 @@
 </head>
 <body>
     <div class="mapper-container" id="mapper">
-        <img id="mapImage" src="https://tibiamaps.github.io/tibia-map-data/floor-07-map.png" alt="Tibia Map">
+        <img id="mapImage" src="../assets/icons/mapper/floors/floor-08-map.png" alt="Tibia Map">
         <div class="crosshair">
             <div class="line horizontal"></div>
             <div class="line vertical"></div>
@@ -153,8 +153,7 @@
     <input type="text" id="shareLink" readonly>
     
     <script>
-        let floor = 7;
-        let scale = 3;
+        let scale = 1.3;
         let isDragging = false;
         let startX, startY, offsetX = 0, offsetY = 0;
         
@@ -167,19 +166,20 @@
         function updateCoordinates() {
             const rect = mapImage.getBoundingClientRect();
             
-            // Centro del mapper en relación con la imagen del mapa
-            const centerX = mapper.clientWidth / 2;
-            const centerY = mapper.clientHeight / 2;
-    
-            // Conversión a coordenadas del mapa
-            const x = Math.floor((centerX - rect.left) / scale);
-            const y = Math.floor((centerY - rect.top) / scale);
-    
+            // Obtener la posición de la imagen dentro del mapper
+            const imageX = (mapper.clientWidth / 2 - mapImage.offsetLeft) / scale;
+            const imageY = (mapper.clientHeight / 2 - mapImage.offsetTop) / scale;
+
+            // Redondear valores para coordenadas enteras
+            const x = Math.floor(imageX);
+            const y = Math.floor(imageY);
+
             coordinates.innerText = `X: ${x}, Y: ${y}`;
-            
-            // Actualizar URL con las coordenadas actuales
-            window.history.pushState({}, '', `?x=${x}&y=${y}&floor=${floor}`);
+
+            // Mantener coordenadas en la URL sin ser afectadas por el zoom o el tamaño del iframe
+            window.history.replaceState({}, '', `?x=${x}&y=${y}&floor=${floor}`);
         }
+
     
         function updateFloor(delta) {
             floor = Math.max(0, Math.min(15, floor + delta));
@@ -193,11 +193,10 @@
             }, 50); // Pequeño delay para forzar el renderizado
 
             actualFloor.innerText = `${floor}`;
-            updateCoordinates();
         }
     
         function zoom(delta) {
-            scale = Math.max(1.1, Math.min(4, scale + delta));
+            scale = Math.max(1.1, Math.min(4.0, scale + delta));
             mapImage.style.transform = `scale(${scale})`;
             updateCoordinates();
         }
@@ -260,13 +259,18 @@
             }
         });
 
-
         } else {
             console.log("Ejecutando en ventana normal.");
         }
+
+        window.addEventListener("resize", () => {
+            document.querySelectorAll("iframe").forEach(iframe => {
+                iframe.style.width = `${iframe.parentElement.clientWidth}px`;
+            });
+        });
     
-        document.getElementById("zoomIn").addEventListener("click", () => zoom(0.5));
-        document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.5));
+        document.getElementById("zoomIn").addEventListener("click", () => zoom(0.1));
+        document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.1));
         document.getElementById("floorUp").addEventListener("click", () => updateFloor(1));
         document.getElementById("floorDown").addEventListener("click", () => updateFloor(-1));
     
@@ -274,7 +278,7 @@
             zoom(e.deltaY < 0 ? 0.1 : -0.1);
         });
     
-        // Cargar coordenadas desde la URL y posicionar el mapa
+        // Cargar coordenadas desde la URL
         function loadFromURL() {
             const params = new URLSearchParams(window.location.search);
             const x = parseInt(params.get("x"), 10) || 0;
@@ -283,25 +287,21 @@
 
             actualFloor.innerText = `${floor}`;
             coordinates.innerText = `X: ${x}, Y: ${y}`;
-            
-            // Ajustar la posición del mapa
-            const rect = mapImage.getBoundingClientRect();
-            const centerX = mapper.clientWidth / 2;
-            const centerY = mapper.clientHeight / 2;
 
-            offsetX = centerX - (x * scale);
-            offsetY = centerY - (y * scale);
+            // Calcular la posición del mapa en función de las coordenadas
+            offsetX = -(x * scale - mapper.clientWidth / 2);
+            offsetY = -(y * scale - mapper.clientHeight / 2);
 
+            // Aplicar la posición corregida
             mapImage.style.left = `${offsetX}px`;
             mapImage.style.top = `${offsetY}px`;
 
-            updateFloor(0); // Cargar el piso correspondiente
+            mapImage.style.transform = `scale(${scale})`;
+            updateFloor(0);
         }
 
-        // Ejecutar al cargar la página
+    
         window.onload = loadFromURL;
-
-
     </script>
     
 </body>

@@ -114,27 +114,36 @@ document.addEventListener("DOMContentLoaded", async () => {
             findIframe.style.width = "250px";
             findIframe.style.height = "200px";
             findIframe.style.border = "none";
+            findIframe.src = findIframe.src
             locationsContainer.appendChild(findIframe);
         }
+
+        
 
         // Agregar "Use it" si existe
         if (key.location?.use?.length > 0) {
             const useTitle = document.createElement("h3");
             useTitle.textContent = "Use it";
             locationsContainer.appendChild(useTitle);
+            
 
             key.location.use.forEach(useUrl => {
                 const useIframe = document.createElement("iframe");
                 useIframe.src = useUrl;
-                useIframe.style.width = "250px";
-                useIframe.style.height = "200px";
+                useIframe.style.maxWidth = "250px";
+                useIframe.style.maxHeight = "200px";
                 useIframe.style.border = "none";
+                useIframe.src = useIframe.src;
                 locationsContainer.appendChild(useIframe);
             });
         }
+        
+
+        
 
         // Mostrar la sección de detalles
         document.getElementById("key-details").style.display = "block";
+
     }
 
     
@@ -143,47 +152,38 @@ document.addEventListener("DOMContentLoaded", async () => {
     searchInput.addEventListener("input", searchKeys);
     checkboxes.forEach(filter => filter.addEventListener("change", searchKeys));
 
+    const words = ["Enter a key-word", "Asura", "Key 3500","Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
+        let wordIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
         
-    function openModal() {
-        let iframe = document.getElementById("mapperIframe");
+        function typeEffect() {
+            const currentWord = words[wordIndex];
+            const currentChars = currentWord.substring(0, charIndex);
         
-        // Forzar la recarga del iframe asignando la URL nuevamente
-        iframe.src = iframe.src;
-    
-        // Mostrar el modal
-        document.getElementById("mapModal").style.display = "block";
-    }
-    
-    openModal();
-
-
-    const words = ["Enter a key-word", "Asura", "Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
-    let wordIndex = 0;
-    let charIndex = 0;
-    let deleting = false;
-    
-    function typeEffect() {
-        const currentWord = words[wordIndex];
-        const currentChars = currentWord.substring(0, charIndex);
-    
-        searchInput.setAttribute("placeholder", currentChars + "|"); // Cursor animado
-    
-        if (!deleting && charIndex < currentWord.length) {
-            charIndex++;
-            setTimeout(typeEffect, 100); // Velocidad de escritura
-        } else if (deleting && charIndex > 0) {
-            charIndex--;
-            setTimeout(typeEffect, 50); // Velocidad de borrado
-        } else {
-            deleting = !deleting; // Cambia de escribir a borrar
-            if (!deleting) {
-                wordIndex = (wordIndex + 1) % words.length; // Pasa a la siguiente palabra
+            searchInput.setAttribute("placeholder", currentChars + "|"); // Cursor animado
+        
+            if (!deleting && charIndex < currentWord.length) {
+                charIndex++;
+                setTimeout(typeEffect, 100); // Velocidad de escritura
+            } else if (deleting && charIndex > 0) {
+                charIndex--;
+                setTimeout(typeEffect, 50); // Velocidad de borrado
+            } else {
+                deleting = !deleting; // Cambia de escribir a borrar
+                if (!deleting) {
+                    wordIndex = (wordIndex + 1) % words.length; // Pasa a la siguiente palabra
+                }
+                setTimeout(typeEffect, 1000); // Pausa antes de cambiar palabra
             }
-            setTimeout(typeEffect, 1000); // Pausa antes de cambiar palabra
         }
-    }
-    
-    // Iniciar el efecto
-    typeEffect();
+        
+        // Iniciar el efecto
+        typeEffect();
+
+        
+
+
+        
 });
 

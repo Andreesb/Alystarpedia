@@ -1,17 +1,7 @@
 @import url(menu-izquierdo.css);
 @import url(loader.css);
-@import url(home.css);
-@import url(party-hunt.css);
-@import url(exp-skill-calc.css);
 @import url(menu-derecho.css);
 
-
-@font-face {
-    font-family: 'FairydustB';
-    src: url('fonts/FairydustB.ttf') format('truetype'); /* Asegúrate de que la ruta sea correcta */
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Vaspera';
@@ -49,7 +39,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    min-height: 1300px;
+    min-height: 1500px;
     min-width: 400px;
     position: absolute;
     background-color: #fdeed5;
@@ -110,8 +100,8 @@ button:hover {
     align-content: center;
     flex-wrap: wrap;
     width: 95%;
-    min-height: 1200px;
-    top: 60%;
+    min-height: 1450px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -229,7 +219,7 @@ ul, ol {
 .contenedor-informacion {
     position: absolute;
     left: 50%;
-    top: 58%;
+    top: 54%;
     transform: translate(-50%,-50%);
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 4px;
@@ -237,6 +227,7 @@ ul, ol {
     min-height: 1000px;
     height: auto;
     width: 65%;
+    padding: 20px;
 }
 
 .contenedor-informacion h2 {
@@ -433,16 +424,16 @@ footer {
     body {
         min-height: 1800px;
     }
-
     
     .body-background {
         position: fixed;
-        top: 75%;
+        top: 60%;
     }
 
     .contenedor-informacion {
         left: 47%;
         top: 54%;
+        width: 80%;
     }
 
     .contenedor-izquierdo {
@@ -468,17 +459,21 @@ footer {
     .contenedor-informacion {
         left: 45%;
         transition: width 0.5s ease, opacity 0.5s ease;
+        width: 75%;
+    }
+
+    .menu-dinamico {
+        left: 88%;
+    }
+
+    .contenedor-izquierdo {
+        top: 12%;
     }
 
     .search-Bar {
+        top: 12%;
         left: 88%;
-
     }
-    
-    
-    .menu-dinamico {
-        left: 88%;
 
-    }
 
 }
