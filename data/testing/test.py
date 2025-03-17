@@ -4,6 +4,7 @@ import aiohttp
 import requests
 from bs4 import BeautifulSoup
 import tibiapy
+import random
 
 TIBIA_CHARACTER_URL = "https://www.tibia.com/community/?subtopic=characters&name="
 

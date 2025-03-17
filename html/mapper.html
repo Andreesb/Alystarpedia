@@ -241,18 +241,50 @@
         const controlHoriz = document.querySelector(".controls.horiz");
         const shareButton = document.getElementById("shareButton");
         const coor = document.querySelector(".coor");
+        const expandButton = document.createElement("button");
+        expandButton.innerText = "Expandir Mapa";
+        expandButton.id = "expand-map-button";
+
+
+        function openMapOverlay() {
+            const overlay = document.createElement("div");
+            overlay.id = "map-overlay";
+            overlay.innerHTML = `
+                <div id="overlay-content">
+                    <button id="close-overlay">Cerrar</button>
+                    <div id="expanded-map-container"></div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+
+            const expandedMapContainer = document.getElementById("expanded-map-container");
+            expandedMapContainer.appendChild(mapContainer);
+            overlay.style.display = "flex";
+
+            document.getElementById("close-overlay").addEventListener("click", function () {
+                closeMapOverlay();
+            });
+        }
+
+    function closeMapOverlay() {
+        const overlay = document.getElementById("map-overlay");
+        document.body.removeChild(overlay);
+        document.body.appendChild(mapContainer);
+    }
 
         if (isInIframe) {
             console.log("Ejecutando en un iframe. Ajustando estilos...");
             controls.forEach(control => {
             if (window.self !== window.top) {
+                mapper.style.pointerEvents = "none"
                 control.style.transform = "scale(0.7)";
-                mapper.style.width = "250px";
-                mapper.style.height = "200px";
+                mapper.style.width = "100%";
+                mapper.style.height = "100%";
                 mapper.style.minHeight = "200px";
                 mapper.style.top = "20px";
-                body.style.width = "250px";
-                body.style.height = "200px";
+                body.style.width = "100%";
+                body.style.maxHeight = "200px";
+                body.style.height = "100%";
                 controlVert.style.margin = "0";
                 coor.style.left = "45%";
 
@@ -263,11 +295,6 @@
             console.log("Ejecutando en ventana normal.");
         }
 
-        window.addEventListener("resize", () => {
-            document.querySelectorAll("iframe").forEach(iframe => {
-                iframe.style.width = `${iframe.parentElement.clientWidth}px`;
-            });
-        });
     
         document.getElementById("zoomIn").addEventListener("click", () => zoom(0.1));
         document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.1));
@@ -299,6 +326,29 @@
             mapImage.style.transform = `scale(${scale})`;
             updateFloor(0);
         }
+
+        // Función para generar el enlace de ubicación
+        function generateShareLink() {
+            const url = new URL(window.location.href);
+            url.searchParams.set("x", coordinates.innerText.split(", ")[0].split(": ")[1]);
+            url.searchParams.set("y", coordinates.innerText.split(", ")[1].split(": ")[1]);
+            url.searchParams.set("floor", actualFloor.innerText);
+
+            return url.toString();
+        }
+
+        // Función para compartir la ubicación
+        document.getElementById("shareButton").addEventListener("click", () => {
+            const shareLink = generateShareLink();
+            const shareInput = document.getElementById("shareLink");
+
+            shareInput.value = shareLink;  // Mostrar el enlace en el input
+            shareInput.select();
+            document.execCommand("copy");  // Copiar al portapapeles
+
+            alert("Ubicación copiada al portapapeles:\n" + shareLink);
+        });
+
 
     
         window.onload = loadFromURL;

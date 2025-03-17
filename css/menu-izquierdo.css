@@ -90,7 +90,26 @@
     width: 99%;
     z-index: 0;
     min-height: 75px;
+}
 
+#rashid-tooltip {
+    position: absolute;
+    top:-5%;  /* Ajusta la posición para que no tape a Rashid */
+    left: 145%;
+    transform: translateX(-50%);
+    display: none;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    z-index: 10;
+    padding: 3px;
+    overflow: hidden;
+    color: aliceblue;
+    z-index: 25;
+}
+
+.rashid-Container:hover #rashid-tooltip {
+    display: block;
 }
 
 

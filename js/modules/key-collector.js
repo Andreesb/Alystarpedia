@@ -100,43 +100,59 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("key-buy").textContent = Array.isArray(key.buyfrom) ? key.buyfrom.join(", ") : "No se puede comprar";
 
         // Limpiar contenedor de ubicaciones
+        // Limpiar contenedor de ubicaciones
         const locationsContainer = document.getElementById("locations");
         locationsContainer.innerHTML = "";
 
-        // Agregar "Find it" si existe
-        if (key.location?.find) {
-            const findTitle = document.createElement("h3");
-            findTitle.textContent = "Find it";
-            locationsContainer.appendChild(findTitle);
+        // Crear contenedor Find it
+        const findItContainer = document.createElement("div");
+        findItContainer.id = "find-it";
 
+        // Agregar título al contenedor Find it
+        const findTitle = document.createElement("h3");
+        findTitle.textContent = "Find it";
+        findItContainer.appendChild(findTitle);
+
+        // Agregar iframe Find it si existe
+        if (key.location?.find) {
             const findIframe = document.createElement("iframe");
             findIframe.src = key.location.find;
             findIframe.style.width = "250px";
             findIframe.style.height = "200px";
             findIframe.style.border = "none";
-            findIframe.src = findIframe.src
-            locationsContainer.appendChild(findIframe);
+            findIframe.style.padding = "10px"
+            findIframe.title = "Mapa para encontrar la ubicación"; // Agregar título al iframe
+            findItContainer.appendChild(findIframe);
         }
 
-        
+        // Agregar contenedor Find it al contenedor principal
+        locationsContainer.appendChild(findItContainer);
 
-        // Agregar "Use it" si existe
+        // Crear contenedor Use it
+        const useItContainer = document.createElement("div");
+        useItContainer.id = "use-it";
+
+        // Agregar título al contenedor Use it
+        const useTitle = document.createElement("h3");
+        useTitle.textContent = "Use it";
+        useItContainer.appendChild(useTitle);
+
+        // Agregar iframes Use it si existen
         if (key.location?.use?.length > 0) {
-            const useTitle = document.createElement("h3");
-            useTitle.textContent = "Use it";
-            locationsContainer.appendChild(useTitle);
-            
-
-            key.location.use.forEach(useUrl => {
+            key.location.use.forEach((useUrl, index) => {
                 const useIframe = document.createElement("iframe");
                 useIframe.src = useUrl;
                 useIframe.style.maxWidth = "250px";
                 useIframe.style.maxHeight = "200px";
                 useIframe.style.border = "none";
-                useIframe.src = useIframe.src;
-                locationsContainer.appendChild(useIframe);
+                useIframe.style.padding = "10px"
+                useIframe.title = `Instrucciones de uso ${index + 1}`; // Agregar título al iframe
+                useItContainer.appendChild(useIframe);
             });
         }
+
+        // Agregar contenedor Use it al contenedor principal
+        locationsContainer.appendChild(useItContainer);
         
 
         

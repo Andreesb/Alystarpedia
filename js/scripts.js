@@ -1,3 +1,4 @@
+import { loadBackground } from './modules/body-background.js';
 import { loadFooter } from './modules/footer.js';
 import { loadHeader } from './modules/header.js';
 import { fetchLatestNews, homeContainer, rotateAsideSections } from './modules/home-Container.js';
@@ -94,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
 
     loadHeader();
+    loadBackground();
     showMenuDerecho();
     rotateAsideSections();
     homeContainer();
