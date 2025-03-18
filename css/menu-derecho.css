@@ -285,28 +285,28 @@
     padding: 0px 10px;
 }
 
-#discord, #github, #youtube, #instagram {
+.discord, .github, .youtube, .instagram {
     transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
     display: inline-flex;
 }
 
-#discord:hover {
+.discord:hover {
     content: url(../assets/icons/discord-color.png);
     width: 35px;
 }
 
-#github:hover {
+.github:hover {
     content: url(../assets/icons/github-color.png);
     width: 35px;
 }
 
-#youtube:hover {
+.youtube:hover {
     content: url(../assets/icons/youtube-color.png);
     width: 35px;
 
 }
 
-#instagram:hover {
+.instagram:hover {
     content: url(../assets/icons/instagram.svg);
     width: 35px;
 }

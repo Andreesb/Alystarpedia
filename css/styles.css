@@ -1,6 +1,7 @@
 @import url(menu-izquierdo.css);
 @import url(loader.css);
 @import url(menu-derecho.css);
+@import url(contact-page.css);
 
 
 @font-face {
@@ -220,15 +221,16 @@ ul, ol {
 .contenedor-informacion {
     position: absolute;
     left: 50%;
-    top: 54%;
+    top: 55%;
     transform: translate(-50%,-50%);
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 4px;
     max-width:1100px;
-    min-height: 1000px;
-    height: auto;
+    min-height: 1350px;
+    height: 115vh;
     width: 65%;
     padding: 20px;
+    justify-items: center;
 }
 
 .contenedor-informacion h2 {

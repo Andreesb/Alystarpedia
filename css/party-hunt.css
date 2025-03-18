@@ -1,7 +1,3 @@
-.contenedor-informacion {
-    top: 50%;
-}
-
 #party-hunt-container {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contact-page.css">
+</head>
+
+<body>
+
+    <header id="header-container"></header>
+
+    <main>
+        <div id="background-image"></div>
+        <nav class="menu-Principal">
+            <menu>
+                <section class="section-hamburguesa">
+                    <button title="Menu" class="menu-hamburguesa" id="menuToggle">☰</button>
+                </section>
+                <a href="">
+                    <section id="explore">
+                    <p>Explore</p>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="quests">
+                    <p>Quests</p>
+                </a>
+                    <a href="">
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </a>
+                </section>
+                <a href="">
+                    <section id="events">
+                        <p>Events</p>
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="bosses-raid">
+                        <p>Boss Raid</p>
+                        <ul>
+                            <a href="">
+                                <li>item de nav 1</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 2</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 3</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <section id="tips-nav">
+                    <a href="">
+                        <p>Tips & Tricks</p>
+                    </a>
+                </section>
+
+            </menu>
+        </nav>
+        <aside class="contenedor-izquierdo"></aside>
+        <aside class="contenedor-derecho"></aside>
+        
+        
+        <section class="contenedor-informacion">
+            <section id="contact-page">
+                <div>
+                    <h2>Contact Us</h2>
+                    <span>
+                        <p>We are seasoned Tibian inhabitants who arrived in these lands many moons ago, driven by the desire to explore, learn, and grow together. Over time, we have gathered a wealth of knowledge, and now, we want to share it with the entire Tibian community.</p>
+                        <p>Join our community and become part of a network of explorers, strategists, and lore enthusiasts. Contact us through our Discord, or email. We’d love to hear about you!</p>
+                        <br>
+                        
+
+                        <section id="faq">
+                            <h2>Frequently Asked Questions</h2><br>
+                            <div class="faq-item">
+                                <button class="faq-question">What is this website about?</button>
+                                <p class="faq-answer">This is not a wiki, this website is a Tibia related knowledge base where we share information about the game, tools and useful tips.</p>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">How can I contribute to the site?</button>
+                                <p class="faq-answer">You can contribute by sending suggestions through the contact form or joining our Discord community.</p>
+                            </div>
+                        
+                            <div class="faq-item">
+                                <button class="faq-question">Is the information here always up to date?</button>
+                                <p class="faq-answer">We strive to keep everything updated, but some information may change over time. Feel free to report outdated content.</p>
+                            </div>
+                        
+                            <div class="faq-item">
+                                <button class="faq-question">Why isn't the map loading correctly?</button>
+                                <p class="faq-answer">If the map is not displaying correctly, try refreshing the page or checking your browser settings to allow scripts and images.</p>
+                            </div>
+                        
+                            <div class="faq-item">
+                                <button class="faq-question">I found a bug, how can I report it?</button>
+                                <p class="faq-answer">You can report any bugs through our contact form or Discord channel. Please include full details so we can fix them quickly.</p>
+                            </div>
+                        </section>
+
+                        <p>If you need help or have any suggestions, please feel free to contact us.</p>
+                        <form id="contact-form" action="#" method="post">
+                            <label for="suggest"><strong>Suggestion:</strong></label><br>
+                            <textarea id="suggest" name="suggest" required></textarea><br>
+                            <label for="email"><strong>Email for contact:</strong></label><br>
+                            <input type="email" id="email" name="email" required><br>
+                            <button type="submit">Send</button>
+                        </form>
+                    </span>
+                </div>
+                <section id="contacts-logo">
+                    <a target="_blank" href="https://discord.com/channels/728759455033851995/1275421418884169749">
+                        <li class="icons-community">
+                            <img class="discord" id="discord-page" src="../assets/icons/discord.png" alt="Icono de Discord">
+                        </li>
+                    </a>
+                    <a target="_blank" href="">
+                        <li class="icons-community">
+                            <img class="gmail" src="../assets/icons/gmail.png" alt="Icono de Gmail">
+                        </li>
+                    </a>
+                </section>
+            </section>
+
+
+            <div id="overlay" class="overlay hidden">
+                <button id="prev-btn" class="nav-btn left">←</button>
+                <img id="expanded-image" src="" alt="Imagen Expandida">
+                <button id="close-overlay" class="close-btn">×</button>
+                <button id="next-btn" class="nav-btn right">→</button>
+            </div>
+            
+        </section>
+        <div id="maintenancePage">
+            
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script type="module" src="../js/scripts.js"></script>
+    <script type="module" src="../js/modules/contact-page.js"></script>
+    
+
+</body>
+</html>

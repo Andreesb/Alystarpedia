@@ -1,8 +1,7 @@
 .calculator-container section {
     background-color: #ffffe09c;
-    width: 55vw;
-    min-width: 925PX;
-    max-width: 1140px;
+    width: 60vw;
+    max-width: 1000px;
     justify-content: center;
     display: inline-grid;
     align-content: space-between;
