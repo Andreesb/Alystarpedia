@@ -285,9 +285,10 @@
     padding: 0px 10px;
 }
 
-.discord, .github, .youtube, .instagram {
+.discord, .github, .youtube, .instagram, .gmail {
     transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
     display: inline-flex;
+    text-decoration: none;
 }
 
 .discord:hover {
@@ -334,7 +335,7 @@
     left: -410%;
     opacity: 1;
     visibility: visible;
-    justify-content: center; /* Centramos el contenido */
+    justify-content: center;
     align-items: center;
     transition: left 0.1s ease-in-out, opacity 0.2s ease-in-out; /* Animación suave */
 
@@ -352,7 +353,7 @@
     border-radius: 5px;
     font-size: 12px;
     min-width: 135px;
-    max-width: 150px; /* Limita el ancho para que el texto haga salto de línea */
+    max-width: 150px;
     white-space: pre; /* Permite que el texto se divida en varias líneas */
     text-align: center;
     visibility: hidden;

@@ -98,8 +98,8 @@
     left: 145%;
     transform: translateX(-50%);
     display: none;
-    width: 250px;
-    background: rgba(0, 0, 0, 0.8);
+    width: 300px;
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
     z-index: 10;
     padding: 3px;

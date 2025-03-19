@@ -1,13 +1,12 @@
 #contact-page {
     position: relative;
-    align-content: center;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
     justify-items: center;
     width: 80%;
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 10px;
-    min-height: 1100px;
+    min-height: 1200px;
 }
 
 
@@ -18,7 +17,7 @@
 }
 
 #suggest {
-    height: 150px;
+    height: 100px;
 }
 
 #contact-form input, textarea {
