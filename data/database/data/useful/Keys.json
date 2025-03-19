@@ -2483,7 +2483,12 @@
             "Bought for": false
         },
         "notes": "Opens the door to the Demon Hell, below the Hero Cave.",
-        "location": "Unknown",
+        "location": {
+            "find": "../html/mapper.html?x=1319&y=648&floor=0",
+            "use": [
+                "../html/mapper.html?x=1466&y=658&floor=2"
+            ]
+        },
         "keywords": [
             "parchment room quest",
             "demon hell",
@@ -2492,7 +2497,8 @@
             "edron",
             "quest",
             "demon quest"
-        ]
+        ],
+        "quest": "Parchment Room Quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Bronze_Prison_Key",
