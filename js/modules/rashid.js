@@ -10,13 +10,13 @@ export function actualizarRashid() {
     ];
 
     const mapasRashid = {
-        0: "../html/mapper.html?x=582&y=807&floor=9", // Carlin (Domingo)
-        1: "../html/mapper.html?x=464&y=179&floor=8", // Svargrond (Lunes)
-        2: "../html/mapper.html?x=558&y=1857&floor=8", // Liberty Bay (Martes)
-        3: "../html/mapper.html?x=833&y=1778&floor=8", // Port Hope (Miércoles)
-        4: ".../html/mapper.html?x=1324&y=1904&floor=9", // Ankrahmun (Jueves)
-        5: "../html/mapper.html?x=1490&y=1506&floor=8", // Darashia (Viernes)
-        6: "../html/mapper.html?x=1425&y=834&floor=9"  // Edron (Sábado)
+        0: "/html/mapper.html?x=582&y=807&floor=9", // Carlin (Domingo)
+        1: "/html/mapper.html?x=464&y=179&floor=8", // Svargrond (Lunes)
+        2: "/html/mapper.html?x=558&y=1857&floor=8", // Liberty Bay (Martes)
+        3: "/html/mapper.html?x=833&y=1778&floor=8", // Port Hope (Miércoles)
+        4: "/html/mapper.html?x=1324&y=1904&floor=9", // Ankrahmun (Jueves)
+        5: "/html/mapper.html?x=1490&y=1506&floor=8", // Darashia (Viernes)
+        6: "/html/mapper.html?x=1425&y=834&floor=9"  // Edron (Sábado)
     };
 
     const fechaActual = new Date();

@@ -330,11 +330,11 @@
         const x = parseInt(params.get("x"), 10) || 0;
         const y = parseInt(params.get("y"), 10) || 0;
         floor = parseInt(params.get("floor"), 10);
-        scale = parseFloat(params.get("zoom")) || 1.3; // Zoom predeterminado
+        scale = parseFloat(params.get("zoom")) || 1.5; // Zoom predeterminado
 
         // Evita que `floor` sea `NaN` o se cargue con el valor incorrecto
         if (isNaN(floor)) {
-            floor = 7; // Piso predeterminado
+            floor = 8; // Piso predeterminado
         }
 
         actualFloor.innerText = `${floor}`;
