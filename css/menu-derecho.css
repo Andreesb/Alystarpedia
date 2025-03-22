@@ -1,11 +1,11 @@
 .search-Bar {
-    min-width: 240px;
+    min-width: 260px;
     min-height: 40px;
     background-color: #ccbb9e80;
     position: absolute;
     z-index: 10;
     align-items: center;
-    top: 18%;
+    top: 15%;
     left: 84%;
     border-radius: 5px;
     display: inline-flex;
@@ -30,7 +30,7 @@
 
 
 .contenedorMenu {
-    width: 240px;
+    width: 260px;
     height: 500px;
     background-color: #ccbb9e;
     border: 2px solid;
@@ -38,7 +38,7 @@
     position: relative;
     z-index: 10;
     left: 84%;
-    transform: translate(0%, 45%);
+    transform: translate(0%, 50%);
 }
 
 
@@ -269,6 +269,7 @@
 #comunidad-container {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
 
 #comunidad-container img {
@@ -284,28 +285,30 @@
     padding: 0px 10px;
 }
 
-#discord, #github, #youtube, #instagram {
+.discord, .github, .youtube, .instagram, .gmail {
     transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
     display: inline-flex;
+    text-decoration: none;
 }
 
-#discord:hover {
+.discord:hover {
     content: url(../assets/icons/discord-color.png);
     width: 35px;
 }
 
-#github:hover {
+.github:hover {
     content: url(../assets/icons/github-color.png);
     width: 35px;
 }
 
-#youtube:hover {
+
+.youtube:hover {
     content: url(../assets/icons/youtube-color.png);
     width: 35px;
 
 }
 
-#instagram:hover {
+.instagram:hover {
     content: url(../assets/icons/instagram.svg);
     width: 35px;
 }
@@ -333,7 +336,7 @@
     left: -410%;
     opacity: 1;
     visibility: visible;
-    justify-content: center; /* Centramos el contenido */
+    justify-content: center;
     align-items: center;
     transition: left 0.1s ease-in-out, opacity 0.2s ease-in-out; /* Animación suave */
 
@@ -351,7 +354,7 @@
     border-radius: 5px;
     font-size: 12px;
     min-width: 135px;
-    max-width: 150px; /* Limita el ancho para que el texto haga salto de línea */
+    max-width: 150px;
     white-space: pre; /* Permite que el texto se divida en varias líneas */
     text-align: center;
     visibility: hidden;
@@ -359,3 +362,4 @@
     transition: opacity 0.3s;
     z-index: 10;
 }
+

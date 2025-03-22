@@ -57,31 +57,26 @@ export function rotateAsideSections() {
             clearInterval(waitForAside);
 
             const sections = aside.querySelectorAll('section');
+            if (sections.length < 2) return; // Asegurar que haya al menos 2 secciones
+
             let visibleIndex = 0;
 
             function updateVisibleSections() {
-                // Limpiar las clases de visibilidad
-                sections.forEach((section) => {
-                    section.classList.remove('visible');
-                });
+                // Ocultar todas las secciones
+                sections.forEach(section => section.classList.remove('visible'));
 
-                // Mostrar las dos secciones siguientes
-                sections.forEach((section, index) => {
-                    if (index === visibleIndex || index === (visibleIndex + 1) % sections.length) {
-                        section.classList.add('visible');
-                    }
-                });
+                // Mostrar solo la sección actual
+                sections[visibleIndex].classList.add('visible');
 
-                // Actualizar el índice visible
-                visibleIndex = (visibleIndex + 2) % sections.length;
+                // Alternar entre las dos secciones (0 y 1)
+                visibleIndex = visibleIndex === 0 ? 1 : 0;
             }
 
             updateVisibleSections();
-            setInterval(updateVisibleSections, 7000); // Cambiar cada 3 segundos
+            setInterval(updateVisibleSections, 7000); // Cambiar cada 7 segundos
         }
     }, 100); // Revisa cada 100 ms si el aside ya está disponible
 }
-
 
 
 // Función para obtener el ID de la última noticia

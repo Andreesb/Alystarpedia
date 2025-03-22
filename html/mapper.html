@@ -129,7 +129,7 @@
 </head>
 <body>
     <div class="mapper-container" id="mapper">
-        <img id="mapImage" src="https://tibiamaps.github.io/tibia-map-data/floor-07-map.png" alt="Tibia Map">
+        <img id="mapImage" src="../assets/icons/mapper/floors/floor-08-map.png" alt="Tibia Map">
         <div class="crosshair">
             <div class="line horizontal"></div>
             <div class="line vertical"></div>
@@ -153,8 +153,7 @@
     <input type="text" id="shareLink" readonly>
     
     <script>
-        let floor = 7;
-        let scale = 3;
+        let scale = 1.3;
         let isDragging = false;
         let startX, startY, offsetX = 0, offsetY = 0;
         
@@ -167,23 +166,25 @@
         function updateCoordinates() {
             const rect = mapImage.getBoundingClientRect();
             
-            // Centro del mapper en relación con la imagen del mapa
-            const centerX = mapper.clientWidth / 2;
-            const centerY = mapper.clientHeight / 2;
-    
-            // Conversión a coordenadas del mapa
-            const x = Math.floor((centerX - rect.left) / scale);
-            const y = Math.floor((centerY - rect.top) / scale);
-    
+            // Obtener la posición de la imagen dentro del mapper
+            const imageX = (mapper.clientWidth / 2 - mapImage.offsetLeft) / scale;
+            const imageY = (mapper.clientHeight / 2 - mapImage.offsetTop) / scale;
+
+            // Redondear valores para coordenadas enteras
+            const x = Math.floor(imageX);
+            const y = Math.floor(imageY);
+
             coordinates.innerText = `X: ${x}, Y: ${y}`;
-            
-            // Actualizar URL con las coordenadas actuales
-            window.history.pushState({}, '', `?x=${x}&y=${y}&floor=${floor}`);
+
+            // Mantener coordenadas en la URL sin ser afectadas por el zoom o el tamaño del iframe
+            window.history.replaceState({}, '', `?x=${x}&y=${y}&floor=${floor}&zoom=${scale.toFixed(1)}`);
         }
-    
+
         function updateFloor(delta) {
             floor = Math.max(0, Math.min(15, floor + delta));
-            mapImage.src = `https://tibiamaps.github.io/tibia-map-data/floor-${String(floor).padStart(2, '0')}-map.png`;
+            const floorStr = String(floor).padStart(2, '0');
+            // Usar ruta local en lugar de URL remota
+            mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
             
             mapImage.style.display = "none";
             setTimeout(() => {
@@ -191,14 +192,33 @@
             }, 50); // Pequeño delay para forzar el renderizado
 
             actualFloor.innerText = `${floor}`;
-            updateCoordinates();
         }
-    
+
         function zoom(delta) {
-            scale = Math.max(1.1, Math.min(4, scale + delta));
+            const prevScale = scale;
+            scale = Math.max(0.5, Math.min(4.0, scale + delta));
+
+            if (scale === prevScale) return; // Evitar zoom innecesario
+
+            // Obtener las coordenadas actuales del centro del mapper en el sistema del mapa
+            const centerX = (mapper.clientWidth / 2 - offsetX) / prevScale;
+            const centerY = (mapper.clientHeight / 2 - offsetY) / prevScale;
+
+            // Aplicar el zoom
             mapImage.style.transform = `scale(${scale})`;
+
+            // Calcular la nueva posición para mantener el centro visible
+            offsetX = mapper.clientWidth / 2 - centerX * scale;
+            offsetY = mapper.clientHeight / 2 - centerY * scale;
+
+            // Aplicar la nueva posición
+            mapImage.style.left = `${offsetX}px`;
+            mapImage.style.top = `${offsetY}px`;
+
             updateCoordinates();
         }
+
+
     
         mapper.addEventListener("mousedown", (e) => {
             isDragging = true;
@@ -240,68 +260,124 @@
         const controlHoriz = document.querySelector(".controls.horiz");
         const shareButton = document.getElementById("shareButton");
         const coor = document.querySelector(".coor");
+        const expandButton = document.createElement("button");
+        expandButton.innerText = "Expandir Mapa";
+        expandButton.id = "expand-map-button";
+
+
+        function openMapOverlay() {
+            const overlay = document.createElement("div");
+            overlay.id = "map-overlay";
+            overlay.innerHTML = `
+                <div id="overlay-content">
+                    <button id="close-overlay">Cerrar</button>
+                    <div id="expanded-map-container"></div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+
+            const expandedMapContainer = document.getElementById("expanded-map-container");
+            expandedMapContainer.appendChild(mapContainer);
+            overlay.style.display = "flex";
+
+            document.getElementById("close-overlay").addEventListener("click", function () {
+                closeMapOverlay();
+            });
+        }
+
+    function closeMapOverlay() {
+        const overlay = document.getElementById("map-overlay");
+        document.body.removeChild(overlay);
+        document.body.appendChild(mapContainer);
+    }
 
         if (isInIframe) {
             console.log("Ejecutando en un iframe. Ajustando estilos...");
             controls.forEach(control => {
             if (window.self !== window.top) {
+                mapper.style.pointerEvents = "none"
                 control.style.transform = "scale(0.7)";
-                mapper.style.width = "250px";
-                mapper.style.height = "200px";
+                mapper.style.width = "100%";
+                mapper.style.height = "100%";
                 mapper.style.minHeight = "200px";
                 mapper.style.top = "20px";
-                body.style.width = "250px";
-                body.style.height = "200px";
+                body.style.width = "100%";
+                body.style.maxHeight = "200px";
+                body.style.height = "100%";
                 controlVert.style.margin = "0";
                 coor.style.left = "45%";
 
             }
         });
 
-
         } else {
             console.log("Ejecutando en ventana normal.");
         }
+
     
         document.getElementById("zoomIn").addEventListener("click", () => zoom(0.5));
         document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.5));
-        document.getElementById("floorUp").addEventListener("click", () => updateFloor(-1));
-        document.getElementById("floorDown").addEventListener("click", () => updateFloor(1));
+        document.getElementById("floorUp").addEventListener("click", () => updateFloor(1));
+        document.getElementById("floorDown").addEventListener("click", () => updateFloor(-1));
     
         mapper.addEventListener("wheel", (e) => {
-            zoom(e.deltaY < 0 ? 0.1 : -0.1);
+            zoom(e.deltaY < 0 ? 0.5 : -0.5);
         });
     
-        // Cargar coordenadas desde la URL
-        // Cargar coordenadas desde la URL y posicionar el mapa
-        function loadFromURL() {
-            const params = new URLSearchParams(window.location.search);
-            const x = parseInt(params.get("x"), 10) || 0;
-            const y = parseInt(params.get("y"), 10) || 0;
-            floor = parseInt(params.get("floor"), 10) || 7;
+        // Cargar coordenadas y zoom desde la URL
+    function loadFromURL() {
+        const params = new URLSearchParams(window.location.search);
+        const x = parseInt(params.get("x"), 10) || 0;
+        const y = parseInt(params.get("y"), 10) || 0;
+        floor = parseInt(params.get("floor"), 10);
+        scale = parseFloat(params.get("zoom")) || 1.5; // Zoom predeterminado
 
-            actualFloor.innerText = `${floor}`;
-            coordinates.innerText = `X: ${x}, Y: ${y}`;
-            
-            // Ajustar la posición del mapa
-            const rect = mapImage.getBoundingClientRect();
-            const centerX = mapper.clientWidth / 2;
-            const centerY = mapper.clientHeight / 2;
-
-            // Calcular el offset inicial para que el centro del mapper quede en la coordenada deseada
-            offsetX = centerX - (x * scale);
-            offsetY = centerY - (y * scale);
-
-            // Aplicar la posición
-            mapImage.style.left = `${offsetX}px`;
-            mapImage.style.top = `${offsetY}px`;
-
-            updateFloor(0); // Cargar el piso correspondiente
+        // Evita que `floor` sea `NaN` o se cargue con el valor incorrecto
+        if (isNaN(floor)) {
+            floor = 8; // Piso predeterminado
         }
 
-        // Ejecutar la función al cargar la página
-        window.onload = loadFromURL;
+        actualFloor.innerText = `${floor}`;
+        coordinates.innerText = `X: ${x}, Y: ${y}`;
 
+        // Calcular la posición del mapa en función de las coordenadas
+        offsetX = -(x * scale - mapper.clientWidth / 2);
+        offsetY = -(y * scale - mapper.clientHeight / 2);
+
+        // Aplicar la posición corregida
+        mapImage.style.left = `${offsetX}px`;
+        mapImage.style.top = `${offsetY}px`;
+
+        mapImage.style.transform = `scale(${scale})`;
+        updateFloor(0);
+    }
+
+    // Función para generar el enlace de ubicación con zoom incluido
+    function generateShareLink() {
+        const url = new URL(window.location.href);
+        url.searchParams.set("x", coordinates.innerText.split(", ")[0].split(": ")[1]);
+        url.searchParams.set("y", coordinates.innerText.split(", ")[1].split(": ")[1]);
+        url.searchParams.set("floor", actualFloor.innerText);
+        url.searchParams.set("zoom", scale.toFixed(1));
+
+        return url.toString();
+    }
+
+        // Función para compartir la ubicación
+        document.getElementById("shareButton").addEventListener("click", () => {
+            const shareLink = generateShareLink();
+            const shareInput = document.getElementById("shareLink");
+
+            shareInput.value = shareLink;  // Mostrar el enlace en el input
+            shareInput.select();
+            document.execCommand("copy");  // Copiar al portapapeles
+
+            alert("Ubicación copiada al portapapeles:\n" + shareLink);
+        });
+
+
+    
+        window.onload = loadFromURL;
     </script>
     
 </body>

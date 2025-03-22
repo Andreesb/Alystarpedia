@@ -1,0 +1,66 @@
+#contact-page {
+    position: relative;
+    padding: 25px;
+    margin: 0;
+    justify-items: center;
+    width: 80%;
+    background-color: rgba(245, 245, 220, 0.596);
+    border-radius: 10px;
+    min-height: 1200px;
+}
+
+
+#contact-form {
+    width: 300px;
+    padding: 5px;
+    align-items: center;
+}
+
+#suggest {
+    height: 100px;
+}
+
+#contact-form input, textarea {
+    max-width: 350px;
+    width: 15vw;
+    height: 25px;
+}
+
+#contacts-logo {
+    display: flex;
+}
+
+
+#contact-page img {
+    width: 45px;
+    padding: 10px;
+}
+
+.gmail:hover {
+    content: url(../assets/icons/gmail-color.png);
+
+}
+
+#faq {
+    margin-top: 20px;
+    min-height: 550px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background: rgba(245, 245, 220, 0.596);
+    border-left: 3px solid #a52a2a;
+}

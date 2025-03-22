@@ -1,14 +1,16 @@
 #party-hunt-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "party-hunt party-session"
+        "party-hunt party-session"
+        "party-historial party-session";
+    gap: 20px;
+    align-items: start;
     justify-content: center;
-    min-height: 1000px;
-    max-height: 80vh;
+    padding: 20px;
     background-color: #ffffe09c;
     border-radius: 8px;
-    position: relative;
-    
 }
 
 
@@ -51,16 +53,12 @@
 
 
 #party-session {
-    display: inline-table;
-    position: absolute;
-    top: 0%;
-    left: 45%;
-    min-width: 45%;
+    grid-area: party-session;
     min-height: 800px;
     border: 2px solid;
     border-radius: 8px;
-    padding: 10px;
-    margin: 20px;
+    padding: 20px;
+    margin: auto;
 }
 
 #party-data {
@@ -68,14 +66,10 @@
 }
 
 #party-hunt {
-    position: absolute;
-    left: 0%;
-    top: 0%;
+    grid-area: party-hunt;
     text-align: center;
-    width: 30vw;
     max-width: 400px;
-    padding: 10px;
-    margin: 20px;
+    margin: auto;
 }
 
 #party-results {
@@ -157,13 +151,10 @@
 }
 
 #party-historial {
-    position: absolute;
-    top: 70%;
-    left: 0;
-    width: 30vw;
+    grid-area: party-historial;
+    width: 100%;
     max-width: 400px;
-    padding: 10px;
-    margin: 20px;
+    margin: auto;
 }
 
 
@@ -225,7 +216,7 @@
 
 @media (max-width: 1080px) {
     .results-cards {
-        min-width: 100px;
+        min-width: 130px;
         padding: 5px;
     }
 
@@ -238,4 +229,78 @@
     #splitting-instructions {
         font-size: 0.8rem;
     }
+}
+
+@media (max-width:900px) {
+    #cards-container {
+        width: 37vw;
+    }
+
+    #party-results {
+        gap: 5px;
+        padding: 5px;
+    }
+    
+    .contenedor-informacion {
+        top: 42%;
+    }
+
+    .search-Bar {
+        top: 13%;
+    }
+    
+    .contenedor-izquierdo {
+        top: 13%;
+    }
+}
+
+/* Media Query para 780px: ajusta el grid */
+@media (max-width: 780px) {
+    body {
+        min-height: 2300px;
+    }
+
+    .contenedor-informacion {
+        top: 50%;
+    }
+
+    #party-hunt-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "party-hunt"
+            "party-session"
+            "party-historial";
+        gap: 10px;
+    }
+
+    .contenedor-izquierdo {
+        top: 10%;
+    }
+
+    .search-Bar {
+        top: 10%;
+    }
+
+    #party-results {
+        grid-template-columns: 1fr;
+        grid-template-areas:"ul"
+                            "ul"
+                            "ul"
+                            "ul";
+    padding: 15px 12vw;
+
+    }
+
+}
+
+@media (max-width: 570px) {
+    #cards-container {
+        width: 55vw;
+    }
+
+    #party-session {
+        width: 55vw;
+    }
+
 }

@@ -3,12 +3,12 @@
 }
 
 .contenedor-izquierdo {
-    max-width: 225px;
+    max-width: 250px;
     width: 100%;
     max-height: 800px;
     position: absolute;
     display: flex;
-    top: 18%;
+    top: 15%;
     left: 1%;
     flex-direction: column;
     z-index: 10;
@@ -64,7 +64,7 @@
 
 .rashid-Container {
     height: 75px;
-    max-width: 240px;
+    max-width: 250px;
     border: 2px solid;
     background-color: #fdeed5;
     margin: -1px;
@@ -86,11 +86,30 @@
 #rashid-City {
     position: absolute;
     display: flex;
-    max-width: 240px;
+    max-width: 250px;
     width: 99%;
     z-index: 0;
     min-height: 75px;
+}
 
+#rashid-tooltip {
+    position: absolute;
+    top:-5%;  /* Ajusta la posición para que no tape a Rashid */
+    left: 145%;
+    transform: translateX(-50%);
+    display: none;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    z-index: 10;
+    padding: 3px;
+    overflow: hidden;
+    color: aliceblue;
+    z-index: 25;
+}
+
+.rashid-Container:hover #rashid-tooltip {
+    display: block;
 }
 
 

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Contenido</title>
+    <title>Key finder</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/helmet-image.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/key-collector.css">
 </head>
@@ -13,7 +14,7 @@
     <header id="header-container"></header>
 
     <main>
-        <img class="body-background" src="../assets/body/Client_Artwork_13.20.jpg" alt="Fondo principal" >
+        <div id="background-image"></div>
         <nav class="menu-Principal">
             <menu>
                 <section class="section-hamburguesa">
@@ -111,38 +112,7 @@
             </fieldset>
 
         </div>
-        <script>
-            const searchInput = document.getElementById("search-input");
-            const words = ["Enter a keyword", "Asura", "Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
-            let wordIndex = 0;
-            let charIndex = 0;
-            let deleting = false;
-            
-            function typeEffect() {
-                const currentWord = words[wordIndex];
-                const currentChars = currentWord.substring(0, charIndex);
-            
-                searchInput.setAttribute("placeholder", currentChars + "|"); // Cursor animado
-            
-                if (!deleting && charIndex < currentWord.length) {
-                    charIndex++;
-                    setTimeout(typeEffect, 100); // Velocidad de escritura
-                } else if (deleting && charIndex > 0) {
-                    charIndex--;
-                    setTimeout(typeEffect, 50); // Velocidad de borrado
-                } else {
-                    deleting = !deleting; // Cambia de escribir a borrar
-                    if (!deleting) {
-                        wordIndex = (wordIndex + 1) % words.length; // Pasa a la siguiente palabra
-                    }
-                    setTimeout(typeEffect, 1000); // Pausa antes de cambiar palabra
-                }
-            }
-            
-            // Iniciar el efecto
-            typeEffect();
-        </script>
-        
+
 
         <ul id="results"></ul>
 
@@ -164,9 +134,9 @@
                 </div>
                 <div>
                     <h3>Use it</h3>
-                    <iframe id="key-use-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
-                    <iframe id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
-                    <iframe id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                    <iframe class="mapperIframe" id="key-use-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                    <iframe class="mapperIframe" id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
+                    <iframe class="mapperIframe" id="key-find-iframe" src="" style="width: 250px; height: 200px; border: none; display: none;"></iframe>
                 </div>
             </div>
         </div>

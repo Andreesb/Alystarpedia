@@ -1,11 +1,11 @@
 .calculator-container section {
-    background-color: #fdeed5;
-    width: 70vw;
-    max-width: 1075px   ;
+    background-color: #ffffe09c;
+    width: 60vw;
+    max-width: 1000px;
     justify-content: center;
     display: inline-grid;
     align-content: space-between;
-    padding: 20px;
+    padding: 25px;
     margin: 10px;
     border-radius: 8px;
     font-size: 0.9rem;
@@ -21,7 +21,7 @@
 }
 
 #level-calc {
-    min-height: 400px;
+    min-height: 450px;
     text-align: center;
 }
 
@@ -51,7 +51,8 @@
 
 
 #skill-calc {
-    min-height: 55vh;
+    height: 100vh;
+    max-height: 475px;
 }
 
 #skill-calc button{

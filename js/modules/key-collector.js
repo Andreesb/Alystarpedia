@@ -100,41 +100,66 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("key-buy").textContent = Array.isArray(key.buyfrom) ? key.buyfrom.join(", ") : "No se puede comprar";
 
         // Limpiar contenedor de ubicaciones
+        // Limpiar contenedor de ubicaciones
         const locationsContainer = document.getElementById("locations");
         locationsContainer.innerHTML = "";
 
-        // Agregar "Find it" si existe
-        if (key.location?.find) {
-            const findTitle = document.createElement("h3");
-            findTitle.textContent = "Find it";
-            locationsContainer.appendChild(findTitle);
+        // Crear contenedor Find it
+        const findItContainer = document.createElement("div");
+        findItContainer.id = "find-it";
 
+        // Agregar título al contenedor Find it
+        const findTitle = document.createElement("h3");
+        findTitle.textContent = "Find it";
+        findItContainer.appendChild(findTitle);
+
+        // Agregar iframe Find it si existe
+        if (key.location?.find) {
             const findIframe = document.createElement("iframe");
             findIframe.src = key.location.find;
             findIframe.style.width = "250px";
             findIframe.style.height = "200px";
             findIframe.style.border = "none";
-            locationsContainer.appendChild(findIframe);
+            findIframe.style.padding = "10px"
+            findIframe.title = "Mapa para encontrar la ubicación"; // Agregar título al iframe
+            findItContainer.appendChild(findIframe);
         }
 
-        // Agregar "Use it" si existe
-        if (key.location?.use?.length > 0) {
-            const useTitle = document.createElement("h3");
-            useTitle.textContent = "Use it";
-            locationsContainer.appendChild(useTitle);
+        // Agregar contenedor Find it al contenedor principal
+        locationsContainer.appendChild(findItContainer);
 
-            key.location.use.forEach(useUrl => {
+        // Crear contenedor Use it
+        const useItContainer = document.createElement("div");
+        useItContainer.id = "use-it";
+
+        // Agregar título al contenedor Use it
+        const useTitle = document.createElement("h3");
+        useTitle.textContent = "Use it";
+        useItContainer.appendChild(useTitle);
+
+        // Agregar iframes Use it si existen
+        if (key.location?.use?.length > 0) {
+            key.location.use.forEach((useUrl, index) => {
                 const useIframe = document.createElement("iframe");
                 useIframe.src = useUrl;
-                useIframe.style.width = "250px";
-                useIframe.style.height = "200px";
+                useIframe.style.maxWidth = "250px";
+                useIframe.style.maxHeight = "200px";
                 useIframe.style.border = "none";
-                locationsContainer.appendChild(useIframe);
+                useIframe.style.padding = "10px"
+                useIframe.title = `Instrucciones de uso ${index + 1}`; // Agregar título al iframe
+                useItContainer.appendChild(useIframe);
             });
         }
 
+        // Agregar contenedor Use it al contenedor principal
+        locationsContainer.appendChild(useItContainer);
+        
+
+        
+
         // Mostrar la sección de detalles
         document.getElementById("key-details").style.display = "block";
+
     }
 
     
@@ -143,17 +168,38 @@ document.addEventListener("DOMContentLoaded", async () => {
     searchInput.addEventListener("input", searchKeys);
     checkboxes.forEach(filter => filter.addEventListener("change", searchKeys));
 
+    const words = ["Enter a key-word", "Asura", "Key 3500","Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
+        let wordIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
         
-    function openModal() {
-        let iframe = document.getElementById("mapperIframe");
+        function typeEffect() {
+            const currentWord = words[wordIndex];
+            const currentChars = currentWord.substring(0, charIndex);
         
-        // Forzar la recarga del iframe asignando la URL nuevamente
-        iframe.src = iframe.src;
-    
-        // Mostrar el modal
-        document.getElementById("mapModal").style.display = "block";
-    }
-    
-    openModal();
+            searchInput.setAttribute("placeholder", currentChars + "|"); // Cursor animado
+        
+            if (!deleting && charIndex < currentWord.length) {
+                charIndex++;
+                setTimeout(typeEffect, 100); // Velocidad de escritura
+            } else if (deleting && charIndex > 0) {
+                charIndex--;
+                setTimeout(typeEffect, 50); // Velocidad de borrado
+            } else {
+                deleting = !deleting; // Cambia de escribir a borrar
+                if (!deleting) {
+                    wordIndex = (wordIndex + 1) % words.length; // Pasa a la siguiente palabra
+                }
+                setTimeout(typeEffect, 1000); // Pausa antes de cambiar palabra
+            }
+        }
+        
+        // Iniciar el efecto
+        typeEffect();
+
+        
+
+
+        
 });
 
