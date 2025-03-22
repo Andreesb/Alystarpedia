@@ -1444,7 +1444,14 @@
             "Version": "6.61-6.97June 14, 2002"
         },
         "notes": "Opens a door for the Paradox Tower Quest.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2260&y=2734&floor=8&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2206&y=2782&floor=11&zoom=2.0"
+            ]
+        },
         "keywords": [
             "tree",
             "dead tree",
@@ -1453,7 +1460,8 @@
             "kazordoon",
             "tower",
             "3620"
-        ]
+        ],
+        "quest": "the paradox tower quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_3900",
@@ -1914,7 +1922,24 @@
             "Version": "5.0June 18, 1999Beta 5.0"
         },
         "notes": "Obtainable during the Deeper Fibula Quest, it grants access to that quest.",
-        "location": "Unknown"
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1426&y=4276&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1600&y=4333&floor=5&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "fibula",
+            "deeper fibula quest",
+            "quest",
+            "knight axe",
+            "deeper fibula",
+            "pick hole",
+            "hole"
+        ],
+        "quest": "deeper fibula quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_3988",
@@ -1944,8 +1969,15 @@
             "Sold for": false,
             "Bought for": false
         },
-        "notes": "Opens the door (here) in the Fire Devils Pit.",
-        "location": "Unknown",
+        "notes": "Opens the door in the Fire Devils Pit.",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2751&y=3493&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2842&y=3465&floor=5&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "jakundaf desert",
@@ -1989,11 +2021,18 @@
             "Sold for": false,
             "Bought for": false
         },
-        "notes": "It opens the door to the small room where Key 4009 is. The Key 4009 opens the library.\n\nRequired Equipment\nRoll\n\n\n\n\n\n\n\n\n\n\nPlayer: Morrin\nHagor: Ah, I remember that man. We made a deal, guess about what.\nPlayer: Key\nHagor: Right! We can make the same deal if you give a fresh delicious roll. Do you have any?\nPlayer: yes\nHagor: Oh, fine! Here you are.\n\n\n\n\n\n\n\n\n\n\nKey 4022\n\n\n\n\nTrade Details\nBuy FromNPCLocationPriceHagorJakundaf Desert1 Roll\nSell ToNo NPC buys this item.\n\n\n\nRelated Keys\n\nSilver Keys\nKey 0004Key 0005Key 0006Key 0007Key 0009Key 0010Key 0021Key 0025Key 0026Key 0027Key 0028Key 0029Key 0030Key 0031Key 0032Key 0909Key 3001Key 3002Key 3003Key 3004Key 3005Key 3006Key 3007Key 3008Key 3033Key 3302Key 3350Key 3514Key 3515Key 3516Key 3517Key 3518Key 3600Key 3610Key 3620Key 3650Key 3666Key 3667Key 3701Key 3703Key 4001Key 4009Key 4023Key 4033Key 4037Key 4055Key 4600Key 4601Key 4603Key 4900Key 4901Key 4902Key 4903Key 4904Key 5000Key 5002Key 5010Key 5100",
+        "notes": "It opens the door to the small room where Key 4009 is. You can get it giving a Roll to Hagor.",
         "buyfrom": [
             "Hagor in Jakundaf Desert sells for 1Roll"
         ],
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2730&y=3525&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2805&y=3328&floor=4&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "jakundaf desert",
@@ -2002,7 +2041,8 @@
             "hagor",
             "roll",
             "4009"
-        ]
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4023",
@@ -2017,8 +2057,15 @@
             "Sold for": false,
             "Bought for": false
         },
-        "notes": "Opens the door to the Desert Dungeon Teleport Room. You can obtain this key from Adrenius by answering his quiz for 500 gold pieces. Say the following:\n\nPlayer: Netlios\nPlayer: yes\nPlayer: yes\nPlayer: anaso, 41, attacked by mother-bear, 117 days\nPlayer: elaeus, 39, attacked by dragon, 100 days\nPlayer: gadinius, 42, stepped in fire, 83 days\nPlayer: heso, 40, attacked by troll, 66 days\nPlayer: hestus, 38, drank poison, 134 days",
-        "location": "Unknown",
+        "notes": "Opens the door to the Desert Dungeon Teleport Room. You will receive this key when you take Adrenius' quiz for 500 gold pieces",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2750&y=3410&floor=7&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2695&y=3496&floor=4&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "jakundaf desert",
@@ -2030,7 +2077,8 @@
             "teleports",
             "desert portals",
             "desert teleports"
-        ]
+        ],
+        "quest": "desert dungeon quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4033",
@@ -2060,8 +2108,15 @@
             "Sold for": false,
             "Bought for": false
         },
-        "notes": "Opens the door to the Hall of Lost Doors.\nThe book containing the recipe for the potion of regained vision is in one of the bookcases in the library. To receive a key from Nemal you must have all ingredients listed in the recipe.\n\nRequired Equipment\nRoll\nRose\nFlour\nLump of Dough\nCherry\n\n\n\n\n\n\n\n\n\n\nPlayer: potion of regained vision\nNemal: I heard of a potion of regained vision ... but I can't remember how to make it! Maybe you can help me. Do you know something about it?\nPlayer: yes\nNemal: So, did you bring the ingredients with you, stranger?\nPlayer: yes\nNemal: You seem to have them with you. Can you tell me, how many minutes I have to cook them?\nPlayer: 31\nNemal: Ah. It seems to work. But what are the words I have to speak?\nPlayer: nalus murtu\nNemal: Thank you! NALUS MURTUUU! ... I can see again! To show you, how grateful I am, I'll give you a key. Be wise when using it. I can't tell you, where it matches, but ... take good care, it is useless without mental powers!\n\n\n\n\n\n\n\n\n\n\nKey 4037\n\n\n\n\nTrade Details\nBuy FromNo NPC sells this item.\nSell ToNo NPC buys this item.\n\n\n\nRelated Keys\n\nSilver Keys\nKey 0004Key 0005Key 0006Key 0007Key 0009Key 0010Key 0021Key 0025Key 0026Key 0027Key 0028Key 0029Key 0030Key 0031Key 0032Key 0909Key 3001Key 3002Key 3003Key 3004Key 3005Key 3006Key 3007Key 3008Key 3033Key 3302Key 3350Key 3514Key 3515Key 3516Key 3517Key 3518Key 3600Key 3610Key 3620Key 3650Key 3666Key 3667Key 3701Key 3703Key 4001Key 4009Key 4022Key 4023Key 4033Key 4055Key 4600Key 4601Key 4603Key 4900Key 4901Key 4902Key 4903Key 4904Key 5000Key 5002Key 5010Key 5100",
-        "location": "Unknown",
+        "notes": "Opens the door to the Hall of Lost Doors. To receive a key from Nemal you must have all ingredients listed in the recipe, Roll, Rose, Flour, Lump of Dough, Cherry.",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2616&y=3393&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2763&y=3497&floor=3&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "jakundaf desert",
@@ -2070,7 +2125,8 @@
             "nemal",
             "hall of lost doors",
             "recipe"
-        ]
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4055",
@@ -2087,14 +2143,26 @@
             "Bought for": false
         },
         "notes": "Allows you to open the door (here) to the Panpipe Quest.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2725&y=3394&floor=8&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2697&y=3457&floor=7&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "jakundaf desert",
             "desert quest",
             "venore",
-            "panpipe quest"
-        ]
+            "panpipe quest",
+            "hollow",
+            "stone",
+            "desert dungeon",
+            "dungeon"
+        ],
+        "quest": "panpipe quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4210",
@@ -2109,7 +2177,14 @@
             "Bought for": false
         },
         "notes": "Most likely a Red Rose or Mercenary Tower Guildhall key in Fibula. This key is no longer in use.",
-        "location": "Unknown"
+        "location": "Unknown",
+        "keywords": [
+            "red rose",
+            "mercenary tower",
+            "fibula",
+            "guild hall"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4501",
@@ -2127,7 +2202,14 @@
             "Version": "6.4November 2, 2001"
         },
         "notes": "This key is used for opening a room with three minotaurs below the Senja Castle.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1283&y=1876&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1090&y=1776&floor=6&zoom=2.0"
+            ]
+        },
         "keywords": [
             "treasure chest",
             "chest",
@@ -2136,6 +2218,10 @@
             "alawar",
             "alawar's vault",
             "storage room"
+        ],
+        "quest": [
+            "alawar vault quest",
+            "dark helmet quest"
         ]
     },
     {
@@ -2153,7 +2239,14 @@
             "Bought for": false
         },
         "notes": "This key is used for entering and exiting Alawar's Vault (below Senja Castle).",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1375&y=1781&floor=5&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1090&y=1777&floor=6&zoom=2.0"
+            ]
+        },
         "keywords": [
             "treasure chest",
             "chest",
@@ -2162,7 +2255,8 @@
             "alawar",
             "alawar's vault",
             "storage room"
-        ]
+        ],
+        "quest": "alawars vault quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4503",
@@ -2179,7 +2273,14 @@
             "Bought for": false
         },
         "notes": "This key provides access to the Protected Area under the Ice Islands.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=861&y=2131&floor=7&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=874&y=1998&floor=7&zoom=2.0"
+            ]
+        },
         "keywords": [
             "treasure chest",
             "chest",
@@ -2205,7 +2306,21 @@
             "Bought for": false
         },
         "notes": "Provided access to the Training Rooms in Rookgaard Academy. This was changed with the revamp of Rookgaard and the introduction of The Rookie Guard Quest. This key is no longer in use.",
-        "location": "Unknown"
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1082&y=3639&floor=8&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1056&y=3642&floor=8&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "rookgaard",
+            "torch quest",
+            "academy",
+            "seymour"
+        ],
+        "quest": "torch quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4601",
@@ -2222,13 +2337,21 @@
             "Bought for": false
         },
         "notes": "This key is found here and allows you to enter the Bear Room, site of the Bear Room Quest, on Rookgaard. The room contains some valuable items. You will need a Pick to obtain this key.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1219&y=3406&floor=3&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1203&y=3374&floor=4&zoom=2.0"
+            ]
+        },
         "keywords": [
             "chest",
             "bear room quest",
             "quest",
             "rookgaard"
-        ]
+        ],
+        "quest": "bear room quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4602",
@@ -2245,7 +2368,12 @@
             "Bought for": false
         },
         "notes": "This key may not exist. Supposedly it opens the Minotaur Mage room. Many players say they have it, but is very unlikely.",
-        "location": "Unknown"
+        "location": "Unknown",
+        "keywords": [
+            "rookgaard",
+            "minotaur mage room"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4603",
@@ -2262,14 +2390,22 @@
             "Bought for": false
         },
         "notes": "Used in the Katana Quest. This key allows you to enter the room before the Katana Room.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=1296&y=3470&floor=6&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=1305&y=3520&floor=5&zoom=2.0"
+            ]
+        },
         "keywords": [
             "body",
             "dead body",
             "corpse alley",
             "katana quest",
             "rookgaard"
-        ]
+        ],
+        "quest": "katana quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4900",
@@ -2285,12 +2421,18 @@
             "Bought for": false
         },
         "notes": "It used to open a door in a single room of Thais Troll Caves, here. It is unknown if copies of this key still exist. Furthermore, any existing copy might not be functional anymore, since many old keys are said to have been disabled with the Summer Update 2007. \nIt's also not known for sure what material it was made of, however, it's assumed to be Silver since most other Thais keys were made of this material.",
-        "location": "Unknown",
+        "location": {
+            "find": [],
+            "use": [
+                "../html/mapper.html?x=2164&y=3898&floor=7&zoom=2.0"
+            ]
+        },
         "keywords": [
             "thais troll cave",
             "old keys",
             "troll cave"
-        ]
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4901",
@@ -2306,7 +2448,18 @@
             "Bought for": false
         },
         "notes": "It used to open a door in the kitchen of Thais Troll Caves, here (even though both sides can be reached even with the door locked). It is unknown if copies of this key still exist. Furthermore, any existing copy might not be functional anymore, since many old keys are said to have been disabled with the Summer Update 2007. \nIt's also not known for sure what material it was made of, however, it's assumed to be Silver since most other Thais keys were made of this material.",
-        "location": "Unknown"
+        "location": {
+            "find": [],
+            "use": [
+                "../html/mapper.html?x=2284&y=3885&floor=7&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "thais",
+            "troll cave",
+            "cave"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4902",
@@ -2322,7 +2475,18 @@
             "Bought for": false
         },
         "notes": "It used to open a door in the restricted area of the Thais Troll Caves, here. It is unknown if copies of this key still exist. Furthermore, any existing copy might not be functional anymore, since many old keys are said to have been disabled with the Summer Update 2007. \nIt's also not known for sure what material it was made of, however, it's assumed to be Silver since most other Thais keys were made of this material.",
-        "location": "Unknown"
+        "location": {
+            "find": [],
+            "use": [
+                "../html/mapper.html?x=2251&y=3814&floor=7&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "thais",
+            "troll cave",
+            "cave"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4903",
@@ -2338,7 +2502,18 @@
             "Bought for": false
         },
         "notes": "It used to open two doors to the restricted area in the Thais Troll Caves, here and here. It is unknown if copies of this key still exist. Furthermore, any existing copy might not be functional anymore, since many old keys are said to have been disabled with the Summer Update 2007. \nIt's also not known for sure what material it was made of, however, it's assumed to be Silver since most other Thais keys were made of this material.",
-        "location": "Unknown"
+        "location": {
+            "find": [],
+            "use": [
+                "../html/mapper.html?x=2266&y=3808&floor=7&zoom=2.0",
+                "../html/mapper.html?x=2254&y=3823&floor=7&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "thais",
+            "troll cave"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4904",
@@ -2354,7 +2529,17 @@
             "Bought for": false
         },
         "notes": "It used to open a door in the cask storage room of Thais Troll Caves, here. It is unknown if copies of this key still exist. Furthermore, any existing copy might not be functional anymore, since many old keys are said to have been disabled with the Summer Update 2007. \nIt's also not known for sure what material it was made of, however, it's assumed to be Silver since most other Thais keys were made of this material.",
-        "location": "Unknown"
+        "location": {
+            "find": [],
+            "use": [
+                "../html/mapper.html?x=2293&y=3877&floor=6&zoom=2.0"
+            ]
+        },
+        "keywords": [
+            "troll cave",
+            "thais"
+        ],
+        "quest": ""
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_5000",
@@ -2371,7 +2556,14 @@
             "Bought for": false
         },
         "notes": "Allows you to open the door to the room in Wyda's house.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=2947&y=3013&floor=8&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=2947&y=3000&floor=9&zoom=2.0"
+            ]
+        },
         "keywords": [
             "stone",
             "coffin",
@@ -2381,7 +2573,8 @@
             "green claw swamp",
             "venore",
             "house"
-        ]
+        ],
+        "quest": []
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_5002",
@@ -2419,11 +2612,24 @@
             "Version": "7.1December 17, 2002Christmas Update 2002"
         },
         "notes": "This key provides access to the caves beneath the Black Knight's Villa in Green Claw Swamp.",
-        "location": "Unknown",
+        "location": {
+            "find": [
+                "../html/mapper.html?x=3169&y=2946&floor=8&zoom=2.0",
+                "../html/mapper.html?x=3208&y=2965&floor=8&zoom=2.0"
+            ],
+            "use": [
+                "../html/mapper.html?x=3241&y=2980&floor=7&zoom=2.0"
+            ]
+        },
         "keywords": [
             "black knight villa",
             "green claw swamp",
-            "venore"
+            "venore",
+            "dead trees"
+        ],
+        "quest": [
+            "Black Knight Quest",
+            "Secret Service Quest"
         ]
     },
     {
@@ -2442,14 +2648,26 @@
             "Version": "7.6December 12, 2005Christmas Update 2005"
         },
         "notes": "Opens the door to Angelina's cell in the Dark Cathedral.",
-        "location": "Unknown",
+        "location": {
+            "find": "../html/mapper.html?x=2601&y=4219&floor=5&zoom=2.0",
+            "use": [
+                "../html/mapper.html?x=2653&y=4279&floor=5&zoom=2.0"
+            ]
+        },
         "keywords": [
             "box",
             "dark cathedral",
             "angelina",
             "angelina's room",
             "dark cathedral prison",
-            "prison"
+            "prison",
+            "mage outfits quest",
+            "summoner outfits quest",
+            "outfits"
+        ],
+        "quest": [
+            "mage outfits quest",
+            "summoner outfits quest"
         ]
     },
     {
@@ -2465,8 +2683,21 @@
             "Sold for": false,
             "Bought for": false
         },
-        "notes": "This key was part of the first draft of The Pits of Inferno Quest, but it was not obtainable in game anymore when the quest was released to players. It spawned in the maze here, and was used to open the door here. Passing the door is not necessary to go through the maze, but it can still be opened by pulling one of the levers in there.",
-        "location": "Unknown"
+        "notes": "This key was part of the first draft of The Pits of Inferno Quest, but it was not obtainable in game anymore when the quest was released to players. Passing the door is not necessary to go through the maze, but it can still be opened by pulling one of the levers in there.",
+        "location": {
+            "find": "../html/mapper.html?x=3166&y=4036&floor=2&zoom=1.5",
+            "use": [
+                "../html/mapper.html?x=3193&y=4126&floor=2&zoom=1.5"
+            ]
+        },
+        "keywords": [
+            "the pits of inferno quest",
+            "pits of inferno quest",
+            "poi quest",
+            "venore",
+            "maze"
+        ],
+        "quest": "The Pits of Inferno Quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_6010",
@@ -2484,9 +2715,9 @@
         },
         "notes": "Opens the door to the Demon Hell, below the Hero Cave.",
         "location": {
-            "find": "../html/mapper.html?x=1319&y=648&floor=0",
+            "find": "../html/mapper.html?x=3958&y=1945&floor=0&zoom=2.5",
             "use": [
-                "../html/mapper.html?x=1466&y=658&floor=2"
+                "../html/mapper.html?x=4402&y=1974&floor=2&zoom=2.0"
             ]
         },
         "keywords": [
@@ -2496,7 +2727,8 @@
             "hero",
             "edron",
             "quest",
-            "demon quest"
+            "demon quest",
+            "demon helmet quest"
         ],
         "quest": "Parchment Room Quest"
     },

@@ -92,6 +92,37 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    document.addEventListener("DOMContentLoaded", () => {
+        const mapperIframe = document.querySelector(".mapper");
+    
+        if (mapperIframe) {
+            mapperIframe.addEventListener("click", () => {
+                // Verificar si ya existe el iframe expandido y eliminarlo para evitar duplicados
+                const existingExpanded = document.querySelector(".mapper-expanded");
+                if (existingExpanded) {
+                    existingExpanded.remove();
+                    return; // Si ya estaba abierto, solo lo cerramos
+                }
+    
+                // Clonar el iframe original
+                const expandedIframe = mapperIframe.cloneNode(true);
+                expandedIframe.classList.remove("mapper"); // Remover clase original
+                expandedIframe.classList.add("mapper-expanded"); // Añadir nueva clase
+    
+                // Aplicar estilos para tamaño completo
+                expandedIframe.style.position = "relative";
+                expandedIframe.style.width = "100%";
+                expandedIframe.style.height = "600px"; // O ajusta según necesites
+                expandedIframe.style.minHeight = "600px";
+                expandedIframe.style.top = "0";
+    
+                // Insertar justo debajo del original
+                mapperIframe.parentNode.insertBefore(expandedIframe, mapperIframe.nextSibling);
+            });
+        }
+    });
+    
+
     setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
 
     loadHeader();

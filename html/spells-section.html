@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Contenido</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/helmet-image.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/spells-section.css">
+</head>
+
+<body>
+
+    <header id="header-container"></header>
+
+    <main>
+        <div id="background-image"></div>
+        <nav class="menu-Principal">
+            <menu>
+                <section class="section-hamburguesa">
+                    <button title="Menu" class="menu-hamburguesa" id="menuToggle">☰</button>
+                </section>
+                <a href="">
+                    <section id="explore">
+                    <p>Explore</p>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="quests">
+                    <p>Quests</p>
+                </a>
+                    <a href="">
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </a>
+                </section>
+                <a href="">
+                    <section id="events">
+                        <p>Events</p>
+                        <ul >
+                            <a href="">
+                                <li>item de lista 1</li>
+                            </a><a href="">
+                                <li>item de lista 2</li>
+                            </a><a href="">
+                                <li>item de lista 3</li>
+                            </a><a href="">
+                                <li>item de lista 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <a href="">
+                    <section id="bosses-raid">
+                        <p>Boss Raid</p>
+                        <ul>
+                            <a href="">
+                                <li>item de nav 1</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 2</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 3</li>
+                            </a>
+                            <a href="">
+                                <li>item de nav 4</li>
+                            </a>
+                        </ul>
+                    </section>
+                </a>
+                <section id="tips-nav">
+                    <a href="">
+                        <p>Tips & Tricks</p>
+                    </a>
+                </section>
+
+            </menu>
+        </nav>
+        <aside class="contenedor-izquierdo"></aside>
+        <aside class="contenedor-derecho"></aside>
+        
+        
+        <section class="contenedor-informacion">
+
+            <section class="spells">
+    <h1 class="title">
+      <img src="../assets/icons/spells1.gif" alt="Spells Icon" /> Spells Rotation
+    </h1>
+    <p class="intro">
+      Mastering spells is key to optimizing efficiency in any hunt, boss fight or any adventure in Tibia. Here, you'll find detailed information on spell usage based on your vocation, level, and combat type. Whether you play solo, in a team, or face challenging bosses, proper spell management will make the difference between a profitable hunt and unnecessary supply waste.
+    </p>
+    <p class="intro">
+      Executing precise spell rotations improves DPS and sustainability in prolonged hunts. Here, you will find optimal sequences to maximize damage, healing, and support while considering cooldown times and mana efficiency. Adapting rotations according to team composition and enemy type can significantly reduce pressure on healers and improve group stability.
+    </p>
+
+    <!-- Vocation Menu -->
+    <div class="vocation-menu">
+      <div class="vocation" data-vocation="druid">
+        <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" />
+        <span>Druid</span>
+      </div>
+      <div class="vocation" data-vocation="knight">
+        <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" />
+        <span>Knight</span>
+      </div>
+      <div class="vocation" data-vocation="paladin">
+        <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" />
+        <span>Paladin</span>
+      </div>
+      <div class="vocation" data-vocation="sorcerer">
+        <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" />
+        <span>Sorcerer</span>
+      </div>
+    </div>
+
+    <!-- Druid Section -->
+    <div class="spell-info" id="druid">
+      <h2>Druid</h2>
+      <p>
+        As the primary healer in a team, the Druid’s priority is to keep allies alive without wasting resources. In party hunts, combining exura gran mas res with exura vita on tanks reduces the need for emergency heals. For solo hunts, balancing damage and regeneration by alternating terra wave or frigo wave with exura gran optimizes mana usage. In boss fights, the strategic use of exura gran mas res combined with utamo vita can make the difference in team survival.
+      </p>
+      <div class="category-menu">
+        <button class="category-btn" data-category="druid-solo">Solo Hunt</button>
+        <button class="category-btn" data-category="druid-party">Party Hunt</button>
+        <button class="category-btn" data-category="druid-boss">Boss Fights</button>
+      </div>
+
+      <!-- Druid - Solo Hunt -->
+      <div class="spell-category" id="druid-solo">
+        <h3>Solo Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="druid-solo-low">Level 150-300</button>
+          <button class="level-btn" data-level="druid-solo-mid">Level 300-500</button>
+          <button class="level-btn" data-level="druid-solo-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="druid-solo-low">
+          <p>Use Heavy Magic Missile and basic healing spells...</p>
+        </div>
+        <div class="level-info" id="druid-solo-mid">
+          <p>Optimize damage with Terra Wave and exura gran combinations...</p>
+        </div>
+        <div class="level-info" id="druid-solo-high">
+          <p>Utilize advanced Terra Wave and support runes for higher efficiency...</p>
+        </div>
+      </div>
+
+      <!-- Druid - Party Hunt -->
+      <div class="spell-category" id="druid-party">
+        <h3>Party Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="druid-party-low">Level 150-300</button>
+          <button class="level-btn" data-level="druid-party-mid">Level 300-500</button>
+          <button class="level-btn" data-level="druid-party-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="druid-party-low">
+          <p>Heal allies with exura and exura gran efficiently...</p>
+        </div>
+        <div class="level-info" id="druid-party-mid">
+          <p>Combine exura vita with supportive spells to reduce pressure on healers...</p>
+        </div>
+        <div class="level-info" id="druid-party-high">
+          <p>Employ utamo vita and aggressive healing in high-level hunts...</p>
+        </div>
+      </div>
+
+      <!-- Druid - Boss Fights -->
+      <div class="spell-category" id="druid-boss">
+        <h3>Boss Fights</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="druid-boss-low">Level 150-300</button>
+          <button class="level-btn" data-level="druid-boss-mid">Level 300-500</button>
+          <button class="level-btn" data-level="druid-boss-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="druid-boss-low">
+          <p>Provide team support with defensive spells and timely heals...</p>
+        </div>
+        <div class="level-info" id="druid-boss-mid">
+          <p>Optimize healing rotations to handle boss enrage phases...</p>
+        </div>
+        <div class="level-info" id="druid-boss-high">
+          <p>Maximize healing output while avoiding aggro in intense boss fights...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Knight Section -->
+    <div class="spell-info" id="knight">
+      <h2>Knight</h2>
+      <p>
+        Managing incoming damage is crucial for a Knight. In party hunts, keeping utamo tempo active while alternating exura ico and exura ensures efficient damage absorption without overloading healers. In solo hunts, controlling creatures with exeta res combined with exura gran ico extends the hunt duration. Against bosses, timing utito tempo during peak damage phases is essential to avoid unexpected spikes.
+      </p>
+      <div class="category-menu">
+        <button class="category-btn" data-category="knight-solo">Solo Hunt</button>
+        <button class="category-btn" data-category="knight-party">Party Hunt</button>
+        <button class="category-btn" data-category="knight-boss">Boss Fights</button>
+      </div>
+      <!-- Knight - Solo Hunt -->
+      <div class="spell-category" id="knight-solo">
+        <h3>Solo Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="knight-solo-low">Level 150-300</button>
+          <button class="level-btn" data-level="knight-solo-mid">Level 300-500</button>
+          <button class="level-btn" data-level="knight-solo-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="knight-solo-low">
+          <p>Utilize defensive stances and damage absorption techniques...</p>
+        </div>
+        <div class="level-info" id="knight-solo-mid">
+          <p>Alternate between blocking and counterattacks for sustained fights...</p>
+        </div>
+        <div class="level-info" id="knight-solo-high">
+          <p>Combine offensive and defensive rotations for high-level solo hunts...</p>
+        </div>
+      </div>
+      <!-- Knight - Party Hunt -->
+      <div class="spell-category" id="knight-party">
+        <h3>Party Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="knight-party-low">Level 150-300</button>
+          <button class="level-btn" data-level="knight-party-mid">Level 300-500</button>
+          <button class="level-btn" data-level="knight-party-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="knight-party-low">
+          <p>Coordinate defensive buffs with team support strategies...</p>
+        </div>
+        <div class="level-info" id="knight-party-mid">
+          <p>Alternate between damage mitigation and counterattacks to maintain pressure...</p>
+        </div>
+        <div class="level-info" id="knight-party-high">
+          <p>Maximize survivability with synchronized rotations in team hunts...</p>
+        </div>
+      </div>
+      <!-- Knight - Boss Fights -->
+      <div class="spell-category" id="knight-boss">
+        <h3>Boss Fights</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="knight-boss-low">Level 150-300</button>
+          <button class="level-btn" data-level="knight-boss-mid">Level 300-500</button>
+          <button class="level-btn" data-level="knight-boss-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="knight-boss-low">
+          <p>Time defensive spells during boss enrage phases...</p>
+        </div>
+        <div class="level-info" id="knight-boss-mid">
+          <p>Utilize damage absorption during critical moments...</p>
+        </div>
+        <div class="level-info" id="knight-boss-high">
+          <p>Combine offensive maneuvers with tactical retreats against bosses...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paladin Section -->
+    <div class="spell-info" id="paladin">
+      <h2>Paladin</h2>
+      <p>
+        Mobility and distance management are essential for a Paladin. In party hunts, using utito tempo san combined with AoE attacks like diamond arrows maximizes damage without compromising safety. In solo hunts, an effective rotation of utamo tempo with exura gran allows maintaining offense while avoiding critical hits. In boss fights, holy spells can be decisive against energy-vulnerable enemies, and proper execution can optimize combat duration.
+      </p>
+      <div class="category-menu">
+        <button class="category-btn" data-category="paladin-solo">Solo Hunt</button>
+        <button class="category-btn" data-category="paladin-party">Party Hunt</button>
+        <button class="category-btn" data-category="paladin-boss">Boss Fights</button>
+      </div>
+      <!-- Paladin - Solo Hunt -->
+      <div class="spell-category" id="paladin-solo">
+        <h3>Solo Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="paladin-solo-low">Level 150-300</button>
+          <button class="level-btn" data-level="paladin-solo-mid">Level 300-500</button>
+          <button class="level-btn" data-level="paladin-solo-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="paladin-solo-low">
+          <p>Maintain distance while dealing consistent damage...</p>
+        </div>
+        <div class="level-info" id="paladin-solo-mid">
+          <p>Utilize ranged spells and healing cooldowns effectively...</p>
+        </div>
+        <div class="level-info" id="paladin-solo-high">
+          <p>Combine mobility buffs with precise AoE attacks for high-level solo hunts...</p>
+        </div>
+      </div>
+      <!-- Paladin - Party Hunt -->
+      <div class="spell-category" id="paladin-party">
+        <h3>Party Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="paladin-party-low">Level 150-300</button>
+          <button class="level-btn" data-level="paladin-party-mid">Level 300-500</button>
+          <button class="level-btn" data-level="paladin-party-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="paladin-party-low">
+          <p>Support teammates with consistent healing and buffs...</p>
+        </div>
+        <div class="level-info" id="paladin-party-mid">
+          <p>Alternate between offensive and defensive rotations in team hunts...</p>
+        </div>
+        <div class="level-info" id="paladin-party-high">
+          <p>Optimize damage output while ensuring overall team survivability...</p>
+        </div>
+      </div>
+      <!-- Paladin - Boss Fights -->
+      <div class="spell-category" id="paladin-boss">
+        <h3>Boss Fights</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="paladin-boss-low">Level 150-300</button>
+          <button class="level-btn" data-level="paladin-boss-mid">Level 300-500</button>
+          <button class="level-btn" data-level="paladin-boss-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="paladin-boss-low">
+          <p>Utilize holy spells at critical moments during boss phases...</p>
+        </div>
+        <div class="level-info" id="paladin-boss-mid">
+          <p>Time your buffs and heals to mitigate sudden boss damage spikes...</p>
+        </div>
+        <div class="level-info" id="paladin-boss-high">
+          <p>Maximize survivability by combining offensive and defensive maneuvers during boss fights...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sorcerer Section -->
+    <div class="spell-info" id="sorcerer">
+      <h2>Sorcerer</h2>
+      <p>
+        As the main source of magical damage, a Sorcerer must balance explosiveness and sustainability. In party hunts, synchronizing utito tempo with energy wave or fire wave exponentially increases team DPS. In solo hunts, proper positioning and sustained pressure using exevo gran vis lux or exevo gran mas flam while utilizing exura for regeneration is key. Against bosses, managing mana with utamo vita and using ultimate explosion at the right moments can mean the difference between an efficient victory and excessive resource consumption.
+      </p>
+      <div class="category-menu">
+        <button class="category-btn" data-category="sorcerer-solo">Solo Hunt</button>
+        <button class="category-btn" data-category="sorcerer-party">Party Hunt</button>
+        <button class="category-btn" data-category="sorcerer-boss">Boss Fights</button>
+      </div>
+      <!-- Sorcerer - Solo Hunt -->
+      <div class="spell-category" id="sorcerer-solo">
+        <h3>Solo Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="sorcerer-solo-low">Level 150-300</button>
+          <button class="level-btn" data-level="sorcerer-solo-mid">Level 300-500</button>
+          <button class="level-btn" data-level="sorcerer-solo-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="sorcerer-solo-low">
+          <p>Maintain pressure with explosive spells and rapid casts...</p>
+        </div>
+        <div class="level-info" id="sorcerer-solo-mid">
+          <p>Optimize damage output by synchronizing spell rotations effectively...</p>
+        </div>
+        <div class="level-info" id="sorcerer-solo-high">
+          <p>Combine high-damage spells with efficient mana usage in solo hunts...</p>
+        </div>
+      </div>
+      <!-- Sorcerer - Party Hunt -->
+      <div class="spell-category" id="sorcerer-party">
+        <h3>Party Hunt</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="sorcerer-party-low">Level 150-300</button>
+          <button class="level-btn" data-level="sorcerer-party-mid">Level 300-500</button>
+          <button class="level-btn" data-level="sorcerer-party-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="sorcerer-party-low">
+          <p>Support team DPS by synchronizing spell casts and cooldowns...</p>
+        </div>
+        <div class="level-info" id="sorcerer-party-mid">
+          <p>Alternate between offensive spells and supportive cooldowns...</p>
+        </div>
+        <div class="level-info" id="sorcerer-party-high">
+          <p>Maximize team output while maintaining efficient mana management...</p>
+        </div>
+      </div>
+      <!-- Sorcerer - Boss Fights -->
+      <div class="spell-category" id="sorcerer-boss">
+        <h3>Boss Fights</h3>
+        <div class="level-range">
+          <button class="level-btn" data-level="sorcerer-boss-low">Level 150-300</button>
+          <button class="level-btn" data-level="sorcerer-boss-mid">Level 300-500</button>
+          <button class="level-btn" data-level="sorcerer-boss-high">Level 500-700</button>
+        </div>
+        <div class="level-info" id="sorcerer-boss-low">
+          <p>Utilize ultimate explosion and high-damage spells at critical boss moments...</p>
+        </div>
+        <div class="level-info" id="sorcerer-boss-mid">
+          <p>Maintain consistent pressure while managing mana efficiently against bosses...</p>
+        </div>
+        <div class="level-info" id="sorcerer-boss-high">
+          <p>Combine offensive bursts with defensive spells to mitigate boss damage spikes...</p>
+        </div>
+      </div>
+    </div>
+
+    <span id="outro">This information is not definitive. You can adjust our advice to your game.</span>
+  </section>
+            
+        </section>
+        <div id="maintenancePage">
+            
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script type="module" src="../js/scripts.js"></script>
+    <script type="module" src="../js/modules/spells-section.js"></script>
+    
+
+</body>
+</html>

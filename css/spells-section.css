@@ -1,0 +1,92 @@
+.spells {
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffe09c;
+    border-radius: 10px;
+    height: 95%;
+
+}
+
+.title img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.vocation-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.vocation {
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative;
+    text-decoration: none;
+}
+
+.vocation img {
+    width: 60px;
+    transition: transform 0.3s;
+    display: flex;
+    position: relative;
+    left: -20px;
+}
+
+
+.vocation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transition: transform 0.1s ease-in-out;
+}
+
+.vocation:hover::after {
+    transform: scaleX(1);
+}
+
+/* Secciones de Información */
+.spell-info,
+.spell-category,
+.level-info {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Menú de Categorías y Rangos de Nivel */
+.category-menu,
+.level-range {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vocation:hover img {
+    transform: scale(1.1);
+}
+
+.spell-info {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#outro {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    justify-self: anchor-center;
+}
