@@ -2,13 +2,13 @@ import cv2
 import os
 
 # Rutas de entrada y salida
-carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\floors"
-carpeta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\floors\escaladas\x2"
+carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\mapas base"
+carpeta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\escaladas"
 
 # Asegurar que la carpeta de salida existe
 os.makedirs(carpeta_salida, exist_ok=True)
 
-factor = 4  # Factor de escalado
+factor = 8  # Factor de escalado
 
 for i in range(16):  # Desde floor-00-map hasta floor-15-map
     nombre_imagen = f"floor-{i:02d}-map.png"  # floor-00-map.png, floor-01-map.png, etc.

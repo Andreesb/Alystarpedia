@@ -58,16 +58,71 @@ def edit_key():
                 if create_attr not in ["sí", "si"]:
                     print("❌ Atributo no creado.")
                     continue
+
+            # Manejo especial de 'attributes' (subatributos)
+            if attribute == "attributes":
+                if "attributes" not in item_data:
+                    item_data["attributes"] = {}
+                
+                while True:
+                    print("\n🎭 Subatributos actuales de 'attributes':")
+                    for sub_attr, value in item_data["attributes"].items():
+                        print(f"  {sub_attr}: {value}")
+                    
+                    sub_option = input("¿Agregar, modificar o eliminar un subatributo? (agregar/modificar/eliminar/no): ").strip().lower()
+                    if sub_option == "agregar":
+                        new_sub_attr = input("Nombre del nuevo subatributo: ").strip()
+                        new_value = input(f"Valor de '{new_sub_attr}': ").strip()
+                        item_data["attributes"][new_sub_attr] = new_value
+                    elif sub_option == "modificar" and item_data["attributes"]:
+                        sub_attr = input("Nombre del subatributo a modificar: ").strip()
+                        if sub_attr in item_data["attributes"]:
+                            new_value = input(f"Nuevo valor para '{sub_attr}': ").strip()
+                            item_data["attributes"][sub_attr] = new_value
+                    elif sub_option == "eliminar" and item_data["attributes"]:
+                        sub_attr = input("Nombre del subatributo a eliminar: ").strip()
+                        if sub_attr in item_data["attributes"]:
+                            del item_data["attributes"][sub_attr]
+                    elif sub_option == "no":
+                        break
+                    else:
+                        print("❌ Opción inválida.")
+
             
-            # Manejo especial de 'location'
+            # Manejo especial de 'location' con múltiples valores en 'find' y 'use'
             if attribute == "location":
                 if "location" not in item_data or not isinstance(item_data["location"], dict):
-                    item_data["location"] = {"find": "", "use": []}
+                    item_data["location"] = {"find": [], "use": []}
 
-                find_location = input(f"🔍 Nueva ubicación FIND (actual: {item_data['location'].get('find', 'No definida')}): ").strip()
-                if find_location:
-                    item_data["location"]["find"] = find_location
-                
+                # Editar 'find' (permitiendo múltiples valores)
+                find_locations = item_data["location"].get("find", [])
+                print("\n📍 Ubicaciones FIND actuales:")
+                for i, loc in enumerate(find_locations, start=1):
+                    print(f"  {i}. {loc}")
+
+                while True:
+                    option = input("¿Agregar, modificar o eliminar una ubicación FIND? (agregar/modificar/eliminar/no): ").strip().lower()
+                    if option == "agregar":
+                        new_find = input("Ingrese una nueva ubicación FIND: ").strip()
+                        if new_find:
+                            find_locations.append(new_find)
+                    elif option == "modificar" and find_locations:
+                        index = int(input("Ingrese el número de la ubicación FIND a modificar: ")) - 1
+                        if 0 <= index < len(find_locations):
+                            new_find = input(f"Nuevo valor para {find_locations[index]}: ").strip()
+                            find_locations[index] = new_find
+                    elif option == "eliminar" and find_locations:
+                        index = int(input("Ingrese el número de la ubicación FIND a eliminar: ")) - 1
+                        if 0 <= index < len(find_locations):
+                            del find_locations[index]
+                    elif option == "no":
+                        break
+                    else:
+                        print("❌ Opción inválida.")
+
+                item_data["location"]["find"] = find_locations
+
+                # Editar 'use'
                 use_locations = item_data["location"].get("use", [])
                 print("\n🚪 Ubicaciones USE actuales:")
                 for i, loc in enumerate(use_locations, start=1):
@@ -124,15 +179,19 @@ def edit_key():
                     else:
                         print("❌ Opción inválida.")
 
-            # Modificación genérica de otros atributos
+            # Modificación genérica de otros atributos (permite múltiples valores si es necesario)
             else:
-                new_value = input(f"Ingrese el nuevo valor para '{attribute}' (o 'eliminar' para borrarlo): ").strip()
-                if new_value.lower() == "eliminar":
-                    confirm_delete = input(f"¿Seguro que quieres eliminar '{attribute}'? (sí/no): ").strip().lower()
-                    if confirm_delete in ["sí", "si"]:
-                        del item_data[attribute]
-                        print(f"✅ Atributo '{attribute}' eliminado.")
+                is_multiple = input(f"¿'{attribute}' puede tener múltiples valores? (sí/no): ").strip().lower()
+                if is_multiple in ["sí", "si"]:
+                    values = []
+                    while True:
+                        new_value = input(f"Ingrese un valor para '{attribute}' (o 'no' para finalizar): ").strip()
+                        if new_value.lower() == "no":
+                            break
+                        values.append(new_value)
+                    item_data[attribute] = values
                 else:
+                    new_value = input(f"Ingrese el nuevo valor para '{attribute}': ").strip()
                     item_data[attribute] = new_value
 
             save_keys(keys_data)
