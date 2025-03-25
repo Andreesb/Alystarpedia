@@ -4,8 +4,6 @@ import { actualizarRashid } from "./rashid.js";
 
 export function showMenuIzquierdo() {
     const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
-    const menuToggle = document.getElementById("menuToggle");
-    const menuIzq = document.querySelector("aside");
     const menuContenedor = document.querySelector('.contenedor-izquierdo');
     
     const basePath = isIndex
@@ -37,8 +35,5 @@ export function showMenuIzquierdo() {
         })
         .catch(error => console.error('Error cargando el menú izquierdo:', error));
 
-    menuToggle.addEventListener("click", () => {
-        menuIzq.classList.toggle("show");
-    });
 }
 

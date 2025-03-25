@@ -125,6 +125,62 @@
             z-index: 3;
             position: relative;
         }
+
+        #loader {
+            --uib-size: 700px;
+            --uib-color: rgb(255, 255, 255);
+            --uib-speed: 1.75s;
+            --uib-stroke: 7px;
+            --uib-bg-opacity: .1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: var(--uib-stroke);
+            width: var(--uib-size);
+            border-radius: calc(var(--uib-stroke) / 2);
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+            top: 50%;
+            left: 45%;
+            z-index: 10;
+        }
+
+        #loader::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--uib-color);
+            opacity: var(--uib-bg-opacity);
+            transition: background-color 0.3s ease;
+        }
+
+        #loader::after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            border-radius: calc(var(--uib-stroke) / 2);
+            animation: wobble var(--uib-speed) ease-in-out infinite;
+            transform: translateX(-95%);
+            background-color: var(--uib-color);
+            transition: background-color 0.3s ease;
+        }
+
+        @keyframes wobble {
+            0%,
+            100% {
+            transform: translateX(-95%);
+            }
+            50% {
+            transform: translateX(95%);
+            }
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -137,7 +193,7 @@
         <div class="controls vert" id="controls">
             <button id="floorUp"><img src="../assets/icons/mapper/arriba.png" alt="Floor up">  </button>
             <div>
-                <label id="actualFloor">7</label>
+                <label id="actualFloor">0</label>
             </div>
             <button id="floorDown"><img src="../assets/icons/mapper/abajo.png" alt="Zoom out"></button>
         </div>
@@ -148,12 +204,15 @@
         <div class="coor" id="controls">
             <div class="coordinates" id="coordinates">X: 0, Y: 0</div>
         </div>
+        <div class="container-loader" id="loader" style="display:none;"></div>
+
     </div>
     <button id="shareButton">Compartir</button>
     <input type="text" id="shareLink" readonly>
     
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            let floor = 0; // Piso relativo: 0 corresponde al piso 8 (ground floor)
             let scale = 1.3;
             let isDragging = false;
             let startX, startY, offsetX = 0, offsetY = 0;
@@ -162,6 +221,7 @@
             const mapper = document.getElementById("mapper");
             const coordinates = document.getElementById("coordinates");
             const actualFloor = document.getElementById("actualFloor");
+            const loader = document.getElementById("loader");
         
             // Función para calcular coordenadas basadas en el centro del mapper
             function updateCoordinates() {
@@ -182,22 +242,40 @@
             }
 
             function updateFloor(delta) {
-                floor = Math.max(0, Math.min(15, floor + delta));
-                const floorStr = String(floor).padStart(2, '0');
-                // Usar ruta local en lugar de URL remota
-                mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
+                // Calcular el nuevo piso sin modificar el actual
+                const newFloor = Math.max(-8, Math.min(7, floor + delta));
+                // Si no hay cambio, salir
+                if (newFloor === floor) return;
                 
+                // Actualizar el piso
+                floor = newFloor;
+                
+                // Convertir el piso relativo en el número de piso que se usará en la imagen.
+                // Ej: piso_relativo 0 -> imagen 08, -1 -> imagen 07, 1 -> imagen 09, etc.
+                const actualFloorNumber = floor + 8;
+                const floorStr = String(actualFloorNumber).padStart(2, '0');
+                
+                // Mostrar el loader
+                loader.style.display = "flex";    // O "block" según tus estilos
                 mapImage.style.display = "none";
+                
+                // Actualizar la imagen del piso con un pequeño delay para mostrar el loader
                 setTimeout(() => {
-                    mapImage.style.display = "block";
-                }, 50); // Pequeño delay para forzar el renderizado
+                    mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
+                    // Cuando la imagen esté cargada, ocultar el loader.
+                    mapImage.onload = () => {
+                        loader.style.display = "none";
+                        mapImage.style.display = "block";
+                    };
+                }, 50); // Pequeño delay para forzar el renderizado del loader
 
+                // Actualizar el indicador visual del piso (muestra el piso relativo, o lo que prefieras)
                 actualFloor.innerText = `${floor}`;
             }
 
             function zoom(delta) {
                 const prevScale = scale;
-                scale = Math.max(0.3, Math.min(4.0, scale + delta));
+                scale = Math.max(0.15, Math.min(2.0, scale + delta));
 
                 if (scale === prevScale) return; // Evitar zoom innecesario
 
@@ -286,13 +364,13 @@
             }
 
         
-            document.getElementById("zoomIn").addEventListener("click", () => zoom(0.5));
-            document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.5));
+            document.getElementById("zoomIn").addEventListener("click", () => zoom(0.2));
+            document.getElementById("zoomOut").addEventListener("click", () => zoom(-0.2));
             document.getElementById("floorUp").addEventListener("click", () => updateFloor(1));
             document.getElementById("floorDown").addEventListener("click", () => updateFloor(-1));
         
             mapper.addEventListener("wheel", (e) => {
-                zoom(e.deltaY < 0 ? 0.5 : -0.5);
+                zoom(e.deltaY < 0 ? 0.5 : -0.2);
             });
         
             // Cargar coordenadas y zoom desde la URL

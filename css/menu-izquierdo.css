@@ -5,18 +5,18 @@
 .contenedor-izquierdo {
     max-width: 250px;
     width: 100%;
-    max-height: 800px;
-    position: absolute;
     display: flex;
-    top: 15%;
+    position: sticky;
+    top: 250px; /* Posición inicial */
     left: 1%;
     flex-direction: column;
     z-index: 10;
-    transition: transform 0.3s ease;
+    transition: 0.2s ease-in-out, top 0ms ease-in-out; /* Transición más notoria */
     background-color: #ccbb9e80;
     border: 3px solid;
-    border-radius: 4px;
+    border-radius: 8px;
 }
+
 
 .boosteds {
     max-width: 130px;
@@ -98,7 +98,7 @@
     left: 145%;
     transform: translateX(-50%);
     display: none;
-    width: 250px;
+    width: 300px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
     z-index: 10;

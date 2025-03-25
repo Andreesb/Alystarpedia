@@ -1,3 +1,15 @@
+.contenedor-derecho {
+    position: fixed ;
+    display: flex;
+    left: 85%;
+    top: 250px;  /* Posición inicial */
+    transition: 0ms ease-in-out;
+    width: 260px;
+    min-height: 550px;
+    z-index: 10;
+}
+
+
 .search-Bar {
     min-width: 260px;
     min-height: 40px;
@@ -5,8 +17,6 @@
     position: absolute;
     z-index: 10;
     align-items: center;
-    top: 15%;
-    left: 84%;
     border-radius: 5px;
     display: inline-flex;
 }
@@ -37,12 +47,11 @@
     border-radius: 4px;
     position: relative;
     z-index: 10;
-    left: 84%;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 10%);
 }
 
 
-.contenedorMenu menu {
+.menu-derecho {
     padding: 15px;
     margin: 0;
     display: grid;
@@ -192,8 +201,8 @@
     padding: 0px;
     margin: 0;
     position: relative;
-    left: 93%;
-    transform: translate(0%, 90%);
+    left: 40%;
+    transform: translate(0%, 20%);
     z-index: 15;
 }
 

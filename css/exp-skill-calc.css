@@ -6,7 +6,6 @@
     display: inline-grid;
     align-content: space-between;
     padding: 25px;
-    margin: 10px;
     border-radius: 8px;
     font-size: 0.9rem;
 }
@@ -15,7 +14,6 @@
     width: 100px;
 
 }
-
 #testlevel {
     min-width: 390px;
 }
@@ -52,7 +50,7 @@
 
 #skill-calc {
     height: 100vh;
-    max-height: 475px;
+    min-height: 475px;
 }
 
 #skill-calc button{
