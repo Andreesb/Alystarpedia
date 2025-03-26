@@ -1,15 +1,31 @@
 .calculator-container section {
-    background-color: #ffffe09c;
+    background-color: #ffffe0db;
     width: 60vw;
     max-width: 1000px;
     justify-content: center;
     display: inline-grid;
-    align-content: space-between;
+    align-content: baseline;
     padding: 25px;
     border-radius: 8px;
-    font-size: 0.9rem;
 }
 
+.calculator {
+    padding: 15px;
+}
+
+#calc-level {
+    position: relative;
+    top: 5%;
+    border: 2px solid brown;
+    border-radius: 4px;
+    min-height: 450px;
+    padding: 5px;
+}
+
+.exp-calculator {
+    width: 45px;
+    padding-right: 15px;
+}
 .calculator-container button {
     width: 100px;
 
@@ -19,7 +35,7 @@
 }
 
 #level-calc {
-    min-height: 450px;
+    min-height: 750px;
     text-align: center;
 }
 
@@ -51,11 +67,18 @@
 #skill-calc {
     height: 100vh;
     min-height: 475px;
+    text-align: center;
+    
 }
 
-#skill-calc button{
-    transform: translate(100%);
+#calc-skill {
+    position: relative;
+    border: 2px solid brown;
+    border-radius: 4px;
+    min-height: 575px;
+    padding: 5px;
 }
+
 
 #skillResult {
     text-align: center;

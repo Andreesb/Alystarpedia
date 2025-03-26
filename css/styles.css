@@ -64,6 +64,10 @@ main {
 
 }
 
+label {
+    font-weight: bold;
+}
+
 header {
     text-align: center;
     color: #a52a2a;
@@ -91,11 +95,11 @@ header {
 
 .logo-text {
     -webkit-text-stroke: 0.1px rgb(218, 206, 154);
-    text-shadow: 
-        -1px -1px 0 black,  
-         1px -1px 0 black,
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
         -1px  1px 0 black,
-         1px  1px 0 black;
+        1px  1px 0 black;
 }
 
 a {
@@ -179,6 +183,21 @@ button:hover {
     font-family: "Georgia", serif; /* Fuente clásica */
 }
 
+
+.section-description {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    padding: 0 0 20px;
+    display: inline-block;
+    
+}
+
+.section-title {
+    font-size: 2rem;
+    padding: 20px;
+}
 
 
 #maintenancePage {
