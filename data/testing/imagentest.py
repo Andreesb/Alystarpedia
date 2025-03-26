@@ -6,7 +6,7 @@ carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons
 carpeta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\escaladas"
 
 # Asegurar que la carpeta de salida existe
-
+ 
 os.makedirs(carpeta_salida, exist_ok=True)
 
 factor = 3  # Factor de escalado
