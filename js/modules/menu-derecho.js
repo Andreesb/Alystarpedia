@@ -8,14 +8,40 @@ export function showMenuDerecho() {
         ? "html/menu-derecho.html"
         : "./menu-derecho.html";
 
-    fetch(basePath)
+        fetch(basePath)
         .then(response => response.text())
         .then(data => {
             menuContenedor.innerHTML = data;
+            // Aquí ya existe el input
+            let searchInput = document.getElementById("search-input");
+            let resultsContainer = document.getElementById("search-results");
+            
+            if (searchInput) {
+                // Al enfocar, se muestra la lista
+                searchInput.addEventListener("focus", function() {
+                    resultsContainer.style.display = "block";
+                    showSearchResults(this.value);
+                });
+                // Al escribir, se actualiza la búsqueda (con debounce)
+                searchInput.addEventListener("input", debounce(function() {
+                    showSearchResults(this.value);
+                }, 300));
+                // Al perder el foco, se oculta la lista sólo si el nuevo elemento enfocado NO es parte de la lista
+                searchInput.addEventListener("blur", function() {
+                    setTimeout(() => {
+                        if (!document.activeElement.closest("#search-results") && document.activeElement !== searchInput) {
+                            resultsContainer.style.display = "none";
+                        }
+                    }, 200);
+                });
+            }
+
+            // Resto de la inicialización
             showExp();
             startAutoRotate();
             menuExpand();
             showActiveImage();
+            showSearchResults();
 
             // Configurar eventos en enlaces
             const links = menuContenedor.querySelectorAll('a');
@@ -128,4 +154,162 @@ export function showExp() {
     
 }
 
+/* --- DEBOUNCE PARA EVITAR BÚSQUEDAS INNECESARIAS --- */
+function debounce(func, delay) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+}
 
+/* --- NORMALIZACIÓN DE TEXTO (quita acentos y pone en minúsculas) --- */
+function normalizeText(text) {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+/* --- COMPROBACIÓN DE COINCIDENCIAS DE LAS PALABRAS (en cualquier orden) --- */
+function matchesQuery(text, query) {
+    const words = query.split(" ").filter(w => w);
+    return words.every(word => normalizeText(text).includes(normalizeText(word)));
+}
+
+/* --- CARGA DEL ARCHIVO JSON CON LOS DATOS DEL MENÚ --- */
+async function loadMenuData() {
+    const response = await fetch("../data/database/data/data.json");
+    const menuData = await response.json();
+    console.log("Se consiguieron los datos");
+    return menuData.menu;
+}
+
+/* --- BÚSQUEDA CON PUNTUACIÓN DE RELEVANCIA --- */
+function searchMenu(query, menuItems) {
+    query = normalizeText(query.trim());
+    if (!query) return [];
+
+    return menuItems
+        .map(item => {
+            let score = 0;
+            if (matchesQuery(item.title, query)) score += 3;
+            if (item.keywords.some(keyword => matchesQuery(keyword, query))) score += 2;
+            if (matchesQuery(item.category, query)) score += 1;
+            return { ...item, score };
+        })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score);
+}
+
+/* --- GESTIÓN DE FAVORITOS Y RECENTES EN LOCAL STORAGE --- */
+function getFavorites() {
+    return JSON.parse(localStorage.getItem("favorites")) || [];
+}
+function setFavorites(favorites) {
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+}
+function getRecentSearches() {
+    return JSON.parse(localStorage.getItem("recentSearches")) || [];
+}
+function setRecentSearches(recent) {
+    localStorage.setItem("recentSearches", JSON.stringify(recent));
+}
+function addRecentSearch(item) {
+    let recent = getRecentSearches();
+    // Eliminar duplicados: si ya está en recientes, quitarlo
+    recent = recent.filter(search => search.url !== item.url);
+    recent.unshift(item);
+    if (recent.length > 4) recent.pop();
+    setRecentSearches(recent);
+}
+
+/* --- GESTIÓN DE FAVORITOS CON LÍMITE MÁXIMO DE 4 --- */
+function toggleFavorite(item, button) {
+    let favorites = getFavorites();
+    const exists = favorites.find(fav => fav.url === item.url);
+    if (exists) {
+        favorites = favorites.filter(fav => fav.url !== item.url);
+        setFavorites(favorites);
+    } else {
+        if (favorites.length >= 4) {
+            // Si ya hay 4 favoritos, animar la estrella y mostrar tooltip "Max 4"
+            button.classList.add("vibrate");
+            button.setAttribute("data-tooltip", "Max 4");
+            setTimeout(() => {
+                button.classList.remove("vibrate");
+                button.removeAttribute("data-tooltip");
+            }, 1000);
+            return;
+        } else {
+            favorites.push(item);
+            setFavorites(favorites);
+        }
+    }
+    // Actualizar la vista de resultados
+    const searchInput = document.getElementById("search-input");
+    showSearchResults(searchInput.value);
+}
+
+/* --- CREACIÓN DE UN ELEMENTO RESULTADO CON BOTÓN DE FAVORITO --- */
+function createResultItem(item, isFavorite) {
+    const resultElement = document.createElement("div");
+    resultElement.classList.add("search-result");
+    
+    const link = document.createElement("a");
+    link.href = item.url;
+    link.textContent = `${item.category} - ${item.title}`;
+    link.onclick = () => addRecentSearch(item);
+    
+    const favButton = document.createElement("button");
+    favButton.textContent = isFavorite ? "★" : "☆";
+    favButton.onclick = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        toggleFavorite(item, favButton);
+    };
+    
+    resultElement.appendChild(link);
+    resultElement.appendChild(favButton);
+    return resultElement;
+}
+
+/* --- MOSTRAR RESULTADOS, FAVORITOS Y RECENTES --- */
+export async function showSearchResults(query = "") {
+    const menuItems = await loadMenuData();
+    const resultsContainer = document.getElementById("search-results");
+    resultsContainer.innerHTML = "";
+    
+    const favorites = getFavorites();
+    // Elimina de los recientes aquellos que ya estén en favoritos para evitar duplicados
+    let recent = getRecentSearches().filter(item => !favorites.some(fav => fav.url === item.url));
+    const searchResults = query ? searchMenu(query, menuItems) : [];
+    console.log("Se consiguieron los favoritos");
+    
+    if (!query) {
+        if (favorites.length > 0) {
+            const favTitle = document.createElement("h6");
+            favTitle.textContent = "Fav";
+            resultsContainer.appendChild(favTitle);
+            favorites.forEach(item => {
+                resultsContainer.appendChild(createResultItem(item, true));
+            });
+        }
+        if (recent.length > 0) {
+            const recentTitle = document.createElement("h6");
+            recentTitle.textContent = "Recents";
+            resultsContainer.appendChild(recentTitle);
+            recent.forEach(item => {
+                resultsContainer.appendChild(createResultItem(item, false));
+            });
+        }
+    } else {
+        if (searchResults.length > 0) {
+            const resultTitle = document.createElement("h6");
+            resultTitle.textContent = "Results";
+            resultsContainer.appendChild(resultTitle);
+            searchResults.forEach(item => {
+                resultsContainer.appendChild(createResultItem(item, favorites.some(fav => fav.url === item.url)));
+            });
+        } else {
+            resultsContainer.innerHTML = "<p>No found results.</p>";
+        }
+    }
+}

@@ -463,6 +463,11 @@ footer {
     footer {
         bottom: -45%;
     }
+
+    #search-results {
+        left: -145px;
+    }
+        
     
 }
 

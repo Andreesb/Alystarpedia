@@ -154,8 +154,6 @@ window.addEventListener("load", handleScroll);
 
     
 
-    
-
     setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
 
     

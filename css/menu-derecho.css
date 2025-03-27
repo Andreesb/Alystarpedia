@@ -372,3 +372,98 @@
     z-index: 10;
 }
 
+
+/* Contenedor y resultados */
+#search-results {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e0e0e0;
+    max-height: 800px;
+    width: 230px;
+    overflow-y: auto;
+    top: 40px;
+    padding: 5px;
+    z-index: 25;
+    left: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.search-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.3s ease-out forwards;
+    position: relative;
+    transition: background 0.2s;
+}
+
+.search-result:last-child {
+    border-bottom: none;
+}
+
+.search-result:hover {
+    background: #f9f9f9;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.search-result button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.search-result button:hover {
+    color: #555;
+}
+
+/* Animación de vibración */
+.vibrate {
+    animation: vibrate 0.3s linear;
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    60% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
+    100% { transform: translateX(0); }
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tooltip para el mensaje "Max 4" */
+button[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: #333;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+

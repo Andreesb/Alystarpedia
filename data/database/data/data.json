@@ -1,0 +1,190 @@
+{
+"menu": [
+        {
+        "category": "Creatures",
+        "title": "Boosted Creatures",
+        "keywords": ["Boosted", "Creature", "Boss", "Daily Boost"],
+        "url": "/html/content.html#boosted"
+        },
+        {
+        "category": "Creatures",
+        "title": "Monsters",
+        "keywords": ["Monster", "Bestiary", "Hunting"],
+        "url": "/html/monsters.html"
+        },
+        {
+        "category": "Creatures",
+        "title": "Bosses",
+        "keywords": ["Boss", "Raid", "Rare Spawn"],
+        "url": "/html/content.html#bosses"
+        },
+        {
+        "category": "Creatures",
+        "title": "Raids",
+        "keywords": ["Raid", "Event", "World Change"],
+        "url": "/html/content.html#raids"
+        },
+        {
+        "category": "Creatures",
+        "title": "Rare Creatures",
+        "keywords": ["Rare", "Elite Monster", "Unique"],
+        "url": "/html/content.html#rares"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Key's Finder",
+        "keywords": ["Keys", "Doors", "Shapeshifter's Machine", "Finder"],
+        "url": "/html/key-colector.html"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Experience Calculator",
+        "keywords": ["Exp Calculator", "Experience", "Leveling", "Level Calculator"],
+        "url": "/html/exp-calculator.html"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Skill Calculator",
+        "keywords": ["Skills", "Training", "Skill Calculator"],
+        "url": "/html/skill-calculator.html"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Split Loot",
+        "keywords": ["Loot", "Party", "Gold Split"],
+        "url": "/html/party-hunt.html"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Forge Calculator",
+        "keywords": ["Forge", "Upgrade", "Item Enhancement"],
+        "url": "/html/forge-calc.html"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Tibiadrome",
+        "keywords": ["Arena", "Challenge", "Drome"],
+        "url": "/html/content.html#tibiadrome"
+        },
+        {
+        "category": "Game Tools",
+        "title": "Bontar Bot",
+        "keywords": ["Bot", "Automation", "Scripts"],
+        "url": "https://bontarbot.xyz/"
+        },
+        {
+        "category": "Legends & Rumors",
+        "title": "First Players",
+        "keywords": ["First", "Pioneers", "Tibia History"],
+        "url": "/html/content.html#first-players"
+        },
+        {
+        "category": "Legends & Rumors",
+        "title": "First Quests",
+        "keywords": ["First", "Quest", "Old Quests"],
+        "url": "/html/content.html#first-quests"
+        },
+        {
+        "category": "Legends & Rumors",
+        "title": "First Creatures",
+        "keywords": ["First", "Creatures", "Old Monsters"],
+        "url": "/html/content.html#first-creatures"
+        },
+        {
+        "category": "Legends & Rumors",
+        "title": "Tibia Mysteries",
+        "keywords": ["Mysteries", "Secrets", "Hidden Content"],
+        "url": "/html/content.html#mysteries"
+        },
+        {
+        "category": "Top Ten",
+        "title": "Top Level",
+        "keywords": ["Top", "Highest Level", "Ranking"],
+        "url": "/html/content.html#top-level"
+        },
+        {
+        "category": "Top Ten",
+        "title": "Top Skills",
+        "keywords": ["Top", "Best Skills", "Skill Ranking"],
+        "url": "/html/content.html#top-skills"
+        },
+        {
+        "category": "Top Ten",
+        "title": "Top Achievements",
+        "keywords": ["Top", "Achievements", "Trophies"],
+        "url": "/html/content.html#top-achievements"
+        },
+        {
+        "category": "Houses",
+        "title": "Decoratives",
+        "keywords": ["House", "Decoration", "Furniture"],
+        "url": "/html/content.html#decoratives"
+        },
+        {
+        "category": "Houses",
+        "title": "Items",
+        "keywords": ["House", "Items", "Decorations"],
+        "url": "/html/content.html#house-items"
+        },
+        {
+        "category": "Equipment",
+        "title": "Knight Elemental Protections",
+        "keywords": ["Knight", "Protection", "Armor"],
+        "url": "/html/content.html#knight-protection"
+        },
+        {
+        "category": "Utilities",
+        "title": "Amulets and Necklaces",
+        "keywords": ["Amulets", "Necklaces", "Accessories"],
+        "url": "/html/content.html#amulets"
+        },
+        {
+        "category": "Utilities",
+        "title": "Potions",
+        "keywords": ["Potions", "Healing", "Mana"],
+        "url": "/html/content.html#potions"
+        },
+        {
+        "category": "Spells Rotations",
+        "title": "Druid Rotations",
+        "keywords": ["Druid", "Healing", "Rotations"],
+        "url": "/html/spells-section.html#druid"
+        },
+        {
+        "category": "Spells Rotations",
+        "title": "Knight Rotations",
+        "keywords": ["Knight", "Melee", "Rotations"],
+        "url": "/html/spells-section.html#knight"
+        },
+        {
+        "category": "Spells Rotations",
+        "title": "Paladin Rotations",
+        "keywords": ["Paladin", "DPS", "Rotations"],
+        "url": "/html/spells-section.html#paladin"
+        },
+        {
+        "category": "Spells Rotations",
+        "title": "Sorcerer Rotations",
+        "keywords": ["Sorcerer", "DPS", "Rotations"],
+        "url": "/html/spells-section.html#sorcerer"
+        },
+        {
+        "category": "Mounts",
+        "title": "Store Mounts",
+        "keywords": ["Mount", "Store", "Buy"],
+        "url": "/html/content.html#store-mounts"
+        },
+        {
+        "category": "Outfits",
+        "title": "Rare Outfits",
+        "keywords": ["Outfit", "Rare", "Exclusive"],
+        "url": "/html/content.html#rare-outfits"
+        },
+        {
+        "category": "About Us",
+        "title": "About Us",
+        "keywords": ["About", "Team", "Website"],
+        "url": "/html/content.html#about-us"
+        }
+    ]
+}
