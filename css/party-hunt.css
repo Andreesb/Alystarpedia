@@ -1,7 +1,9 @@
-#party-hunt-container {
+#party-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+        "section-title section-title"
+        "section-description party-session"
         "party-hunt party-session"
         "party-hunt party-session"
         "party-historial party-session";
@@ -9,8 +11,22 @@
     align-items: start;
     justify-content: center;
     padding: 20px;
-    background-color: #ffffe09c;
+    background-color: #ffffe0db;
     border-radius: 8px;
+    min-height: 1200px;
+}
+
+.section-title {
+    grid-area: section-title;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+.section-description {
+    grid-area: section-description;
+    text-align: center;
+    justify-self: center;
+    width: 100%;
 }
 
 
@@ -43,6 +59,8 @@
     padding: 20px;
 }
 
+
+
 #party-hunt-container textarea {
     margin: 10px;
     min-width: 300px;
@@ -54,7 +72,7 @@
 
 #party-session {
     grid-area: party-session;
-    min-height: 800px;
+    min-height: 900px;
     border: 2px solid;
     border-radius: 8px;
     padding: 20px;
@@ -81,6 +99,8 @@
     gap: 25px;
     padding: 20px;
     max-width: 475px;
+    min-height: 500px;
+    justify-self: center;
 }
 
 #cards-container {
@@ -241,9 +261,6 @@
         padding: 5px;
     }
     
-    .contenedor-informacion {
-        top: 42%;
-    }
 
     .search-Bar {
         top: 13%;
@@ -264,14 +281,20 @@
         top: 50%;
     }
 
-    #party-hunt-container {
+    #party-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
+            "section-title"
+            "section-description"
             "party-hunt"
             "party-session"
             "party-historial";
         gap: 10px;
+    }
+
+    #cards-container {
+        width: 60vw;
     }
 
     .contenedor-izquierdo {
@@ -283,12 +306,13 @@
     }
 
     #party-results {
-        grid-template-columns: 1fr;
-        grid-template-areas:"ul"
-                            "ul"
-                            "ul"
-                            "ul";
-    padding: 15px 12vw;
+        grid-template-columns: 2fr;
+        grid-template-areas:"ul ul"
+                            "ul ul"
+                            "ul ul"
+                            "ul ul";
+        padding: 15px 12vw;
+        justify-self: center;
 
     }
 
@@ -301,6 +325,17 @@
 
     #party-session {
         width: 55vw;
+    }
+
+    #party-results {
+        grid-template-columns: 1fr;
+        grid-template-areas:"ul"
+                            "ul"
+                            "ul"
+                            "ul";
+        padding: 15px 12vw;
+        justify-self: center;
+
     }
 
 }

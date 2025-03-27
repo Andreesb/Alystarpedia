@@ -1,0 +1,107 @@
+#menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 150px;
+    z-index: 15;
+    transition: 0.75ms ease-in-out;
+    transform: translate(0, -5px);
+}
+
+
+.menu-Principal {
+    background-color: rgb(100, 0, 0);
+    display: flex;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    min-width: 425px;
+    left: -5px;
+    max-height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid brown;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-Principal section {
+    max-width: 120px;
+    width: auto;
+    cursor: pointer;
+    padding: 0 15px 0;
+    max-height: 50px;
+
+}
+
+.section-hamburguesa {
+    display: none;
+}
+
+
+
+.menu-Principal ul {
+    border: 3px solid;
+    background-color: brown;
+    position: absolute;
+    text-align: center;
+    display: none;
+    z-index: 100;
+    text-align: center;
+    border-top: 0;
+    margin: 0;
+    padding: 0px;
+
+}
+
+
+
+
+
+.menu-Principal menu {
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-Principal section:hover {
+    background-color: brown;
+    max-height: 50px;
+
+}
+
+/*
+.menu-Principal section:hover ul {
+    display: block;
+}
+*/
+
+.menu-hamburguesa {
+    display: none;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.section-hamburguesa:hover .menu-hamburguesa {
+    /* Estilos de hover que quieras aplicar al botón */
+    background-color: #f0f0f0;
+    color: #333;
+    /* Agrega otros estilos que se activen al hacer hover */
+  }

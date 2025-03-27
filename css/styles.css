@@ -2,11 +2,19 @@
 @import url(loader.css);
 @import url(menu-derecho.css);
 @import url(contact-page.css);
+@import url(nav-menu.css);
 
 
 @font-face {
     font-family: 'Vaspera';
     src: url('../assets/media/vespera-font/Vespera-pg4j1.ttf') format('truetype'); /* Ajusta la ruta según la ubicación real */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seagram';
+    src: url('../assets/fonts/Seagram\ tfb.ttf') format('truetype'); /* Ajusta la ruta según la ubicación real */
     font-weight: normal;
     font-style: normal;
 }
@@ -25,6 +33,11 @@ input:invalid {
 input {
     background-color: white;
     transition: background-color 0.3s ease;
+    resize: none;
+}
+
+textarea {
+    resize: none;
 }
 
 
@@ -40,18 +53,24 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    min-height: 1700px;
+    min-height: 2500px;
     min-width: 400px;
     position: absolute;
-    background-color: #fdeed5;
+    background-color: #041020;
     font-family: Verdana, sans-serif;
     overflow-x: hidden;
+
 }
 
 main {
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    min-height: 2500px;
 
+}
+
+label {
+    font-weight: bold;
 }
 
 header {
@@ -60,101 +79,32 @@ header {
     background-color: rgb(17 27 37);
     margin: 0;
     padding: 0;
-    z-index: 5;
+    z-index: 15;
     top: 0;
-    position: absolute;
+    position: sticky;
     width: 100%;
     height: 155px;
-    font-family: 'Vaspera', serif;
+    font-family: 'Seagram', serif;
     font-size: 1.8rem;
     padding-top: 20px;
+    transition: 0.5ms ease-in-out;
     
 }
 
-header img {
-    position: relative;
-    z-index: 2;
-}
-
-button {
-    background-color: brown;
-    color: white;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 7px;
-}
-
-button:hover {
-    background-color: rgb(255, 255, 255);
-    border: 2px solid brown;
-    color: brown;
-}
-
-
-
-.body-background {
-    object-fit: cover;
-    position: absolute;
-    display: flex;
-    z-index: -1;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 95%;
-    min-height: 1650px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-}
-
-.menu-Principal {
-    background-color: rgb(100, 0, 0);
-    display: flex;
-    z-index: 10;
+.logo-text {
     position: relative;
     width: 100%;
-    min-width: 425px;
-    top: 20%;
-    left: 50%;
-    max-height: 40px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 5px solid brown;
-    margin: 0;
-    padding: 0;
-    transform: translate(-50%, 300%);
+    top: 75px;
+    background-color: rgb(17 27 37);
 }
 
-.menu-Principal section {
-    max-width: 120px;
-    width: auto;
-    cursor: pointer;
-    padding: 0 15px 0;
-    max-height: 50px;
-
-}
-
-.section-hamburguesa {
-    display: none;
-}
-
-
-
-.menu-Principal ul {
-    border: 3px solid;
-    background-color: brown;
-    position: absolute;
-    text-align: center;
-    display: none;
-    z-index: 100;
-    text-align: center;
-    border-top: 0;
-    margin: 0;
-    padding: 0px;
-
+.logo-text {
+    -webkit-text-stroke: 0.1px rgb(218, 206, 154);
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
 }
 
 a {
@@ -176,61 +126,54 @@ ul, ol {
 
 
 
-
-.menu-Principal menu {
-    color: #ffff;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    width: 95%;
-    margin: 0;
-    padding: 0;
-
-}
-
-.menu-Principal section:hover {
+button {
     background-color: brown;
-    max-height: 50px;
-
-}
-
-.menu-Principal section:hover ul {
-    display: block;
-}
-
-
-
-.menu-hamburguesa {
-    display: none;
-    position: relative;
-    top: 5%;
-    width: 100%;
-    height: 100%;
-    background-color:transparent;
     color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 99px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
     cursor: pointer;
-    z-index: 10;
+    padding: 7px;
 }
 
+button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid brown;
+    color: brown;
+}
+
+
+
+.body-background {
+    object-fit: cover;
+    position: fixed;
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
 
 
 
 .contenedor-informacion {
     position: absolute;
+    top: 50%;
     left: 50%;
-    top: 55%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: rgba(245, 245, 220, 0.596);
     border-radius: 4px;
     max-width:1100px;
-    min-height: 1350px;
+    min-height: 2000px;
     height: 115vh;
     width: 65%;
     padding: 20px;
     justify-items: center;
+    color: #382309  ;
 }
 
 .contenedor-informacion h2 {
@@ -238,18 +181,33 @@ ul, ol {
 }
 
 
-
-.search-Bar.active {
-    transform: translateX(-200px); /* Ajusta este valor para mover el contenedor */
+.contenedor-informacion p::first-letter {
+    font-size: 2em; /* Tamaño grande para la primera letra */
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Georgia", serif; /* Fuente clásica */
 }
 
-.search.active {
-    width: 180px; /* Ancho deseado de la barra de búsqueda */
-    opacity: 1;
-    display: block;
-    margin: 5px;
+
+.section-description {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    padding: 0 0 20px;
+    display: inline-block;
+    
 }
 
+.section-title {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.section-image {
+    width: 45px;
+    padding-right: 15px;
+}
 
 
 #maintenancePage {
@@ -282,22 +240,7 @@ ul, ol {
 
 
 
-footer {
-    position: absolute;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 100%;
-    height: 60px;
-    width: 96%;
-    color: #cecece;
-    background-color: rgb(100, 0, 0);
-    border: 3px solid brown;
-    align-content: center;
-    margin: 0;
-}
+
 
 #overlay {
     position: fixed;
@@ -341,6 +284,23 @@ footer {
     cursor: pointer;
 }
 
+
+footer {
+    position: absolute;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    bottom: -5%;
+    height: 110px;
+    width: 100%;
+    color: #cecece;
+    background-color: rgb(100, 0, 0);
+    border: 3px solid brown;
+    align-content: center;
+    margin: 0;
+}
 
 #footer {
     display: flex;
@@ -419,11 +379,9 @@ footer {
     .search-Bar {
         min-width: 40px;
         min-height: 40px;
-        left: 93%;
-        top: 18%;
+        left: 40%;
         background-color: #ccbb9e80;
         border: 2px solid;
-        position: absolute;
         z-index: 5;
         align-items: center;
         border-radius: 5px;
@@ -447,6 +405,17 @@ footer {
         z-index: 101;
         width: 70%;
         transition: width 0.5s ease, opacity 0.5s ease;
+    }
+
+    .search-Bar.active {
+        transform: translateX(-200px); /* Ajusta este valor para mover el contenedor */
+    }
+    
+    .search.active {
+        width: 180px; /* Ancho deseado de la barra de búsqueda */
+        opacity: 1;
+        display: block;
+        margin: 5px;
     }
 
     
@@ -500,6 +469,15 @@ footer {
     .contenedor-informacion {
         width: 75%;
     }
+
+    footer {
+        bottom: -45%;
+    }
+
+    #search-results {
+        left: -145px;
+    }
+        
     
 }
 
@@ -509,6 +487,10 @@ footer {
     body {
         min-height: 1800px;
     }
+
+    .menu-dinamico {
+        left: 20%;
+    }
     
     .body-background {
         position: fixed;
@@ -517,7 +499,7 @@ footer {
 
     .contenedor-informacion {
         left: 47%;
-        top: 54%;
+        top: 70%;
         width: 80%;
     }
 
@@ -526,7 +508,7 @@ footer {
     }
 
     .search-Bar {
-        top: 13%;
+        left: 20%;
     }
 
 
@@ -548,7 +530,7 @@ footer {
     }
 
     .menu-dinamico {
-        left: 88%;
+        left: 10%;
     }
 
     .contenedor-izquierdo {
@@ -556,8 +538,7 @@ footer {
     }
 
     .search-Bar {
-        top: 12%;
-        left: 88%;
+        left: 10%;
     }
 
 

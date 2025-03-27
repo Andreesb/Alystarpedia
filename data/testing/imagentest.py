@@ -2,13 +2,15 @@ import cv2
 import os
 
 # Rutas de entrada y salida
-carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\mapas base"
+carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\mapas-base"
 carpeta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\escaladas"
 
 # Asegurar que la carpeta de salida existe
+ 
 os.makedirs(carpeta_salida, exist_ok=True)
 
-factor = 8  # Factor de escalado
+factor = 3  # Factor de escalado
+
 
 for i in range(16):  # Desde floor-00-map hasta floor-15-map
     nombre_imagen = f"floor-{i:02d}-map.png"  # floor-00-map.png, floor-01-map.png, etc.
@@ -32,6 +34,8 @@ for i in range(16):  # Desde floor-00-map hasta floor-15-map
     # Guardar la imagen con compresión PNG
     ruta_guardado = os.path.join(carpeta_salida, nombre_imagen)
     cv2.imwrite(ruta_guardado, imagen_escalada, [cv2.IMWRITE_PNG_COMPRESSION, 9])
+
+
 
     # Mostrar estadísticas de tamaño antes y después
     tam_original = os.path.getsize(ruta_imagen) / 1024  # KB

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exp&Skill Calculator</title>
+    <title>Exp & Skill Calculator</title>
     <link rel="icon" type="image/x-icon" href="../assets/icons/helmet-image.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/exp-skill-calc.css">
@@ -16,77 +16,7 @@
 
     <main>
         <div id="background-image"></div>
-        <nav class="menu-Principal">
-            <menu>
-                <section class="section-hamburguesa">
-                    <button title="Menu" class="menu-hamburguesa" id="menuToggle">☰</button>
-                </section>
-                <a href="">
-                    <section id="explore">
-                    <p>Explore</p>
-                    </section>
-                </a>
-                <a href="">
-                    <section id="quests">
-                    <p>Quests</p>
-                </a>
-                    <a href="">
-                        <ul >
-                            <a href="">
-                                <li>item de lista 1</li>
-                            </a><a href="">
-                                <li>item de lista 2</li>
-                            </a><a href="">
-                                <li>item de lista 3</li>
-                            </a><a href="">
-                                <li>item de lista 4</li>
-                            </a>
-                        </ul>
-                    </a>
-                </section>
-                <a href="">
-                    <section id="events">
-                        <p>Events</p>
-                        <ul >
-                            <a href="">
-                                <li>item de lista 1</li>
-                            </a><a href="">
-                                <li>item de lista 2</li>
-                            </a><a href="">
-                                <li>item de lista 3</li>
-                            </a><a href="">
-                                <li>item de lista 4</li>
-                            </a>
-                        </ul>
-                    </section>
-                </a>
-                <a href="">
-                    <section id="bosses-raid">
-                        <p>Boss Raid</p>
-                        <ul>
-                            <a href="">
-                                <li>item de nav 1</li>
-                            </a>
-                            <a href="">
-                                <li>item de nav 2</li>
-                            </a>
-                            <a href="">
-                                <li>item de nav 3</li>
-                            </a>
-                            <a href="">
-                                <li>item de nav 4</li>
-                            </a>
-                        </ul>
-                    </section>
-                </a>
-                <section id="tips-nav">
-                    <a href="">
-                        <p>Tips & Tricks</p>
-                    </a>
-                </section>
-
-            </menu>
-        </nav>
+        <nav id="menu-container"></nav>
         
         <aside class="contenedor-izquierdo"></aside>
 
@@ -98,114 +28,134 @@
             <button id="close-overlay" class="close-btn">×</button>
             <button id="next-btn" class="nav-btn right">→</button>
         </div>
-
-        
         <section class="contenedor-informacion">
             <div class="calculator-container">
-                <div id="level-container">
-                    <h1>Level Calc</h1>
+                <div class="calculator" id="level-container">
                     <section id="level-calc">
-                        <div id="testlevel">
-                            <div>
-                                <label for="vocation">Vocation:
-                                </label>
-                                <select id="vocation">
-                                    <option value="none">None</option>
-                                    <option value="Druid">Druid</option>
-                                    <option value="Knight">Knight</option>
-                                    <option value="Paladin">Paladin</option>
-                                    <option value="Sorcerer">Sorcerer</option>
-                                </select>
-                                <div class="images-container">
-                                    <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" data-select="Druid" class="vocation-image selected">
-                                    <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" data-select="Knight" class="vocation-image selected">
-                                    <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" data-select="Paladin" class="vocation-image selected">
-                                    <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" data-select="Sorcerer" class="vocation-image selected">
+                        <h1 class="section-title"><img class="section-image" src="../assets/icons/exp-calculator.png" alt="Exp Calculator">Level Calculator</h1>
+                        <div style="min-height: 700px;">
+                            <span class="section-description">
+                                <p>
+                                    This is our Level Calculator. Designed for adventurers seeking to optimize every step of their journey in a simple way, this calculator will help you discover how much experience you need to reach new levels.
+                                </p>
+                                <p>
+                                    Select your vocation and find out how much experience you will need to earn.
+                                </p>
+                            </span>
+                            <div id="calc-level">
+                                <div>
+                                    <label for="vocation">Vocation:
+                                    </label>
+                                    <select id="vocation">
+                                        <option value="none">None</option>
+                                        <option value="Druid">Druid</option>
+                                        <option value="Knight">Knight</option>
+                                        <option value="Paladin">Paladin</option>
+                                        <option value="Sorcerer">Sorcerer</option>
+                                    </select>
+                                    <div class="images-container">
+                                        <img src="../assets/icons/Outfit_Druid_Female_Addon_3.gif" alt="Druid" data-select="Druid" class="vocation-image selected">
+                                        <img src="../assets/icons/Outfit_Knight_Male_Addon_3.gif" alt="Knight" data-select="Knight" class="vocation-image selected">
+                                        <img src="../assets/icons/Outfit_Hunter_Female_Addon_3.gif" alt="Paladin" data-select="Paladin" class="vocation-image selected">
+                                        <img src="../assets/icons/Outfit_Mage_Male_Addon_3.gif" alt="Sorcerer" data-select="Sorcerer" class="vocation-image selected">
+                                    </div>
                                 </div>
+                                <div>
+                                    <label for="currentLevel">Current Level:</label>
+                                    <input type="number" id="currentLevel" min="0" placeholder="Current Level" required>
+                                </div>
+                                <div>
+                                    <label for="desiredLevel">Level Desired:</label>
+                                    <input type="number" id="desiredLevel" min="0" placeholder="Desired Level" required>
+                                </div>
+                                <br>
+                                <button id="calculateLevel">Calculate</button>
+                                <br>
+                                
+                                <br>
+                                <div id="resultLevel"></div>
+                                <br>
                             </div>
-                            <div>
-                                <label for="currentLevel">Current Level:</label>
-                                <input type="number" id="currentLevel" min="0" placeholder="Current Level" required>
-                            </div>
-                            <div>
-                                <label for="desiredLevel">Level Desired:</label>
-                                <input type="number" id="desiredLevel" min="0" placeholder="Desired Level" required>
-                            </div>
-                            <br>
-                            <button id="calculateLevel">Calculate</button>
-                            <br>
-                            
-                            <br>
-                            <div id="resultLevel"></div>
-                            <br>
                         </div>
                     </section>
                 </div>
-                <div id="skill-container">
-                    <h1>Skills Calc</h1>
+                <div class="calculator" id="skill-container">
                     <section id="skill-calc">
-                        <div class="form-container">
-                            <label for="skillType">Skills</label>
-                            <select id="skillType">
-                                <option value="magic-level">Magic Level</option>
-                                <option value="axe">Axe</option>
-                                <option value="club">Club</option>
-                                <option value="sword">Sword</option>
-                                <option value="distance">Distance Fighting</option>
-                                <option value="shielding">Shielding</option>
-                            </select>
-                            <br>
-            
-                            <label for="skills-vocation">Vocación</label>
-                            <select id="skills-vocation">
-                                <option value="None">None</option>
-                                <option value="Druid">Druid</option>
-                                <option value="Knight">Knight</option>
-                                <option value="Paladin">Paladin</option>
-                                <option value="Sorcerer">Sorcerer</option>
-                            </select>
-                            <br>
-                            <label for="loyaltyBonus">Loyalty Bonus (%):</label>
-                            <input id="loyaltyBonus" type="number" value="0" min="0" max="50" step="5" />
-                            <br>
-            
-                            <label for="currentSkill">Current Skill Level</label>
-                            <input type="number" id="currentSkill" min="0" placeholder="Current Skill" required>
-                            <br>
-            
-                            <label for="targetSkill">Desired Skill Level</label>
-                            <input type="number" id="targetSkill" min="0" placeholder="Desired Skill" required>
-                            <br>
-            
-                            <label for="skillProgress">Skill Progress</label>
-                            <div class="progress-container" style="display: flex;">
-                                <input type="range" id="skillProgress" min="0" max="100" value="0">
-                                <div class="progress-label">
-                                    Progress: <span id="progressPercent">0%</span>
+                        <h1 class="section-title"><img class="section-image" src="../assets/icons/ferumbrasDummy.gif" alt="">Skills Calculator</h1>
+                        <div>
+                            <span class="section-description">
+                                <p>
+                                    Our Skills Calculator. Designed to optimize your journey, this calculator will help you discover how much experience you need to reach skill goals.
+                                </p>
+                                <p>
+                                    Add your information and calculate the charges for your goals.
+                                </p>
+                            </span>
+                            <div id="calc-skill">
+                                <div class="form-container">
+                                    <label for="skillType">Skills</label>
+                                    <select id="skillType">
+                                        <option value="magic-level">Magic Level</option>
+                                        <option value="axe">Axe</option>
+                                        <option value="club">Club</option>
+                                        <option value="sword">Sword</option>
+                                        <option value="distance">Distance Fighting</option>
+                                        <option value="shielding">Shielding</option>
+                                    </select>
+                                    <br>
+                    
+                                    <label for="skills-vocation">Vocación</label>
+                                    <select id="skills-vocation">
+                                        <option value="None">None</option>
+                                        <option value="Druid">Druid</option>
+                                        <option value="Knight">Knight</option>
+                                        <option value="Paladin">Paladin</option>
+                                        <option value="Sorcerer">Sorcerer</option>
+                                    </select>
+                                    <br>
+                                    <label for="loyaltyBonus">Loyalty Bonus (%):</label>
+                                    <input id="loyaltyBonus" type="number" value="0" min="0" max="50" step="5" />
+                                    <br>
+                    
+                                    <label for="currentSkill">Current Skill Level</label>
+                                    <input type="number" id="currentSkill" min="0" placeholder="Current Skill" required>
+                                    <br>
+                    
+                                    <label for="targetSkill">Desired Skill Level</label>
+                                    <input type="number" id="targetSkill" min="0" placeholder="Desired Skill" required>
+                                    <br>
+                    
+                                    <label for="skillProgress">Skill Progress</label>
+                                    <div class="progress-container">
+                                        <input type="range" id="skillProgress" min="0" max="100" value="0">
+                                        <div class="progress-label">
+                                            Progress: <span id="progressPercent">0%</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <label for="doubleSkillEvent">Double Skill Event?</label>
+                                    <input type="checkbox" id="doubleSkillEvent">
+                                    <br>
+                    
+                                    <label for="privateDummy">Ferumbras - Demon Dummy?</label>
+                                    <input type="checkbox" id="privateDummy">
+                                    <br>
+                    
+                                    <label for="exerciseWeapon">Training Weapon:</label>
+                                    <br>
+                                    <select id="exerciseWeapon">
+                                        <option value="standard">Exercise (500 charges, 347k gold)</option>
+                                        <option value="durable">Durable Exercise (1800 charges, 1,250kk gold)</option>
+                                        <option value="lasting">Lasting Exercise (14,400 charges, 10kk gold)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <button id="calculateSkillButton">Calculate</button>
+                                    <div class="result-container" id="skillResult">
                                 </div>
                             </div>
-                            
-                            <label for="doubleSkillEvent">Double Skill Event?</label>
-                            <input type="checkbox" id="doubleSkillEvent">
-                            <br>
-            
-                            <label for="privateDummy">Ferumbras - Demon Dummy?</label>
-                            <input type="checkbox" id="privateDummy">
-                            <br>
-            
-                            <label for="exerciseWeapon">Training Weapon:</label>
-                            <br>
-                            <select id="exerciseWeapon">
-                                <option value="standard">Exercise (500 charges, 347k gold)</option>
-                                <option value="durable">Durable Exercise (1800 charges, 1,250kk gold)</option>
-                                <option value="lasting">Lasting Exercise (14,400 charges, 10kk gold)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <button id="calculateSkillButton">Calculate</button>
                         </div>
-                        <div class="result-container" id="skillResult">
-                        </div>
+                    </div>
             
                     </section>
                 </div>

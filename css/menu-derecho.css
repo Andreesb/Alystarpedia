@@ -1,3 +1,15 @@
+.contenedor-derecho {
+    position: fixed ;
+    display: flex;
+    left: 85%;
+    top: 250px;  /* Posición inicial */
+    transition: 0ms ease-in-out;
+    width: 260px;
+    min-height: 550px;
+    z-index: 10;
+}
+
+
 .search-Bar {
     min-width: 260px;
     min-height: 40px;
@@ -5,8 +17,6 @@
     position: absolute;
     z-index: 10;
     align-items: center;
-    top: 15%;
-    left: 84%;
     border-radius: 5px;
     display: inline-flex;
 }
@@ -37,12 +47,11 @@
     border-radius: 4px;
     position: relative;
     z-index: 10;
-    left: 84%;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 10%);
 }
 
 
-.contenedorMenu menu {
+.menu-derecho {
     padding: 15px;
     margin: 0;
     display: grid;
@@ -140,7 +149,7 @@
     border: 2px solid;
     border-radius: 8px;
     padding: 5px;
-    min-height: 100px;
+    min-height: 150px;
     justify-items: center;
 }
 #shared-calc input {
@@ -154,7 +163,7 @@
 
 #tooltip {
     position: absolute;
-    top:55%;
+    top:50%;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.8);
@@ -192,8 +201,8 @@
     padding: 0px;
     margin: 0;
     position: relative;
-    left: 93%;
-    transform: translate(0%, 90%);
+    left: 40%;
+    transform: translate(0%, 20%);
     z-index: 15;
 }
 
@@ -361,5 +370,100 @@
     opacity: 0;
     transition: opacity 0.3s;
     z-index: 10;
+}
+
+
+/* Contenedor y resultados */
+#search-results {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e0e0e0;
+    max-height: 500px;
+    width: 230px;
+    overflow-y: auto;
+    top: 40px;
+    padding: 5px;
+    z-index: 25;
+    left: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.search-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.3s ease-out forwards;
+    position: relative;
+    transition: background 0.2s;
+}
+
+.search-result:last-child {
+    border-bottom: none;
+}
+
+.search-result:hover {
+    background: #f9f9f9;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.search-result button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.search-result button:hover {
+    color: #555;
+}
+
+/* Animación de vibración */
+.vibrate {
+    animation: vibrate 0.3s linear;
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    60% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
+    100% { transform: translateX(0); }
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tooltip para el mensaje "Max 4" */
+button[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: #333;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
 }
 
