@@ -33,6 +33,11 @@ input:invalid {
 input {
     background-color: white;
     transition: background-color 0.3s ease;
+    resize: none;
+}
+
+textarea {
+    resize: none;
 }
 
 
@@ -197,6 +202,11 @@ button:hover {
 .section-title {
     font-size: 2rem;
     padding: 20px;
+}
+
+.section-image {
+    width: 45px;
+    padding-right: 15px;
 }
 
 

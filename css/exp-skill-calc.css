@@ -22,10 +22,7 @@
     padding: 5px;
 }
 
-.exp-calculator {
-    width: 45px;
-    padding-right: 15px;
-}
+
 .calculator-container button {
     width: 100px;
 
@@ -35,7 +32,7 @@
 }
 
 #level-calc {
-    min-height: 750px;
+    min-height: 850px;
     text-align: center;
 }
 
