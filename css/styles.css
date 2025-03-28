@@ -135,7 +135,7 @@ button {
     padding: 7px;
 }
 
-button:hover {
+button:hover :not(#search-results) {
     background-color: rgb(255, 255, 255);
     border: 2px solid brown;
     color: brown;

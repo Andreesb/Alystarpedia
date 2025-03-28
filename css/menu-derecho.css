@@ -381,7 +381,7 @@
     border: 1px solid #e0e0e0;
     max-height: 500px;
     width: 230px;
-    overflow-y: auto;
+    overflow-y: scroll;
     top: 40px;
     padding: 5px;
     z-index: 25;

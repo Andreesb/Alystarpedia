@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Función global que actualiza la posición sticky de varios elementos
+    // Función global que actualiza la posición de los menus y el header
 function handleScroll() {
     const scrollY = window.scrollY;
     const footer = document.querySelector("footer");

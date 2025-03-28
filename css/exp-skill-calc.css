@@ -13,6 +13,10 @@
     padding: 15px;
 }
 
+#level-container {
+    scroll-margin-top: 100px; /* Ajusta el valor según lo necesites */
+}
+
 #calc-level {
     position: relative;
     top: 5%;
@@ -34,6 +38,7 @@
 #level-calc {
     min-height: 850px;
     text-align: center;
+    
 }
 
 .images-container {
@@ -60,6 +65,10 @@
     opacity: 0.6;
 }
 
+
+#skill-container {
+    scroll-margin-top: 100px; /* Ajusta el valor según lo necesites */
+}
 
 #skill-calc {
     height: 100vh;

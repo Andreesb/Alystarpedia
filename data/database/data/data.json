@@ -34,25 +34,30 @@
         "category": "Game Tools",
         "title": "Key's Finder",
         "keywords": ["Keys", "Doors", "Shapeshifter's Machine", "Finder"],
-        "url": "/html/key-colector.html"
+        "url": "/html/key-colector.html",
+        "priority": 9
         },
         {
         "category": "Game Tools",
         "title": "Experience Calculator",
         "keywords": ["Exp Calculator", "Experience", "Leveling", "Level Calculator"],
-        "url": "/html/exp-calculator.html"
+        "url": "/html/calculators.html#level-container",
+        "priority": 7
         },
         {
         "category": "Game Tools",
         "title": "Skill Calculator",
         "keywords": ["Skills", "Training", "Skill Calculator"],
-        "url": "/html/skill-calculator.html"
+        "url": "/html/calculators.html#skill-container",
+        "priority": 7
         },
         {
         "category": "Game Tools",
         "title": "Split Loot",
         "keywords": ["Loot", "Party", "Gold Split"],
-        "url": "/html/party-hunt.html"
+        "url": "/html/party-hunt.html",
+        "priority": 7
+        
         },
         {
         "category": "Game Tools",
@@ -70,7 +75,9 @@
         "category": "Game Tools",
         "title": "Bontar Bot",
         "keywords": ["Bot", "Automation", "Scripts"],
-        "url": "https://bontarbot.xyz/"
+        "url": "https://bontarbot.xyz/",
+        "priority": 10,
+        "target": "_blank"
         },
         {
         "category": "Legends & Rumors",
