@@ -155,6 +155,7 @@ button:hover :not(#search-results) {
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
+    min-height: 1000px;
 
 }
 

@@ -209,23 +209,25 @@ async function loadMenuData() {
 }
 
   /* --- BÚSQUEDA CON PUNTUACIÓN DE RELEVANCIA --- */
-function searchMenu(query, menuItems) {
+  function searchMenu(query, menuItems) {
     query = normalizeText(query.trim());
     if (!query) return [];
     return menuItems
-    .map(item => {
-        let score = 0;
-        if (matchesQuery(item.title, query)) score += 3;
-        if (item.keywords.some(keyword => matchesQuery(keyword, query))) score += 2;
-        if (matchesQuery(item.category, query)) score += 1;
-        // Agregar el valor de prioridad (si existe) a la puntuación
-        const priority = item.priority || 0;
-        score += priority; // Puedes ajustar el factor de influencia según lo necesites
-        return { ...item, score };
-    })
-    .filter(item => item.score > 0)
-    .sort((a, b) => b.score - a.score);
+        .map(item => {
+            let score = 0;
+            if (matchesQuery(item.title, query)) score += 3;
+            if (item.keywords.some(keyword => matchesQuery(keyword, query))) score += 2;
+            if (matchesQuery(item.category, query)) score += 1;
+            // Solo se suma la prioridad si hay alguna coincidencia (score > 0)
+            if (score > 0) {
+                score += item.priority || 0;
+            }
+            return { ...item, score };
+        })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score);
 }
+
 
   /* --- GESTIÓN DE FAVORITOS Y RECENTES EN LOCAL STORAGE --- */
 function getFavorites() {
