@@ -1,7 +1,7 @@
 import { hideLoader, showLoader } from "../modules/loader.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-    const searchInput = document.getElementById("search-input");
+    const searchInput = document.getElementById("key-search");
     const resultsList = document.getElementById("results");
     const keyDetails = document.getElementById("key-details");
     const checkboxes = document.querySelectorAll(".filter-class, #filter-quest");
@@ -23,70 +23,93 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadKeys();
 
     // Función de búsqueda con loader
-    function searchKeys() {
-        const query = searchInput.value.toLowerCase().trim();
-        const selectedClasses = Array.from(document.querySelectorAll(".filter-class:checked")).map(cb => cb.value);
-        const questFilter = document.getElementById("filter-quest").checked;
+    /* --- DEBOUNCE PARA EVITAR BÚSQUEDAS INNECESARIAS --- */
+function debounce(func, delay) {
+    let timeout;
+    return function (...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+}
 
-        // Si los campos están vacíos, no mostramos el loader
-        if (query === "" && selectedClasses.length === 0 && !questFilter) {
-            resultsList.style.display = "none";
-            keyDetails.style.display = "none";
-            hideLoader();
+/* --- NORMALIZACIÓN DE TEXTO (quita acentos y pone en minúsculas) --- */
+function normalizeText(text) {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+/* --- COMPROBACIÓN DE COINCIDENCIAS DE LAS PALABRAS (en cualquier orden) --- */
+function matchesQuery(text, query) {
+    const words = query.split(" ").filter(w => w);
+    return words.every(word => normalizeText(text).includes(normalizeText(word)));
+}
+
+// Función de búsqueda con mejoras
+function searchKeys() {
+    const query = normalizeText(searchInput.value.trim());
+    const selectedClasses = Array.from(document.querySelectorAll(".filter-class:checked")).map(cb => cb.value);
+    const questFilter = document.getElementById("filter-quest").checked;
+
+    if (query === "" && selectedClasses.length === 0 && !questFilter) {
+        resultsList.style.display = "none";
+        keyDetails.style.display = "none";
+        hideLoader();
+        return;
+    }
+
+    showLoader(); // Mostrar loader
+
+    clearTimeout(typingTimer); // Reiniciar temporizador
+    typingTimer = setTimeout(() => {
+        resultsList.innerHTML = "";
+        keyDetails.style.display = "none"; // Ocultar detalles al cambiar búsqueda
+
+        const filteredKeys = keysData.filter(key => {
+            const nameMatch = matchesQuery(key.name, query);
+            const keywordMatch = key.keywords?.some(keyword => matchesQuery(keyword, query));
+            const classMatch = selectedClasses.length === 0 || selectedClasses.includes(key.attributes["Item Class"]);
+            const questMatch = !questFilter || key.notes.toLowerCase().includes("quest");
+
+            return (nameMatch || keywordMatch) && classMatch && questMatch;
+        });
+
+        hideLoader(); // Ocultar loader después de la búsqueda
+
+        if (filteredKeys.length === 0) {
+            resultsList.innerHTML = `<p class="no-results">No se encontraron coincidencias.</p>`;
+            resultsList.style.display = "block";
             return;
         }
 
-        showLoader(); // Mostrar loader
+        resultsList.style.display = "flex"; // Mostrar lista si hay resultados
 
-        clearTimeout(typingTimer); // Reiniciar temporizador
-        typingTimer = setTimeout(() => {
-            resultsList.innerHTML = "";
-            keyDetails.style.display = "none"; // Ocultar detalles al cambiar búsqueda
+        filteredKeys.forEach(key => {
+            const listItem = document.createElement("li");
+            listItem.classList.add("key-item");
 
-            const filteredKeys = keysData.filter(key => {
-                const nameMatch = key.name.toLowerCase().includes(query);
-                const keywordMatch = key.keywords?.some(keyword => keyword.toLowerCase().includes(query));
-                const classMatch = selectedClasses.length === 0 || selectedClasses.includes(key.attributes["Item Class"]);
-                const questMatch = !questFilter || key.notes.toLowerCase().includes("quest");
+            const img = document.createElement("img");
+            img.src = key.image_url;
+            img.alt = key.name;
+            img.classList.add("key-icon");
 
-                return (nameMatch || keywordMatch) && classMatch && questMatch;
-            });
+            const nameSpan = document.createElement("span");
+            nameSpan.textContent = key.name;
 
-            hideLoader(); // Ocultar loader después de 1 segundo
+            listItem.appendChild(img);
+            listItem.appendChild(nameSpan);
 
-            if (filteredKeys.length === 0) {
-                resultsList.style.display = "none";
-                return;
-            }
+            listItem.addEventListener("click", () => displayKeyDetails(key));
 
-            resultsList.style.display = "flex"; // Mostrar lista si hay resultados
+            resultsList.appendChild(listItem);
+        });
+    }, 300); // Se reduce el debounce a 300ms para mayor rapidez
+}
 
-            filteredKeys.forEach(key => {
-                const listItem = document.createElement("li");
-                listItem.classList.add("key-item"); // Clase para CSS
+// Aplicar debounce a la función de búsqueda
+const debouncedSearchKeys = debounce(searchKeys, 300);
 
-                // Crear imagen
-                const img = document.createElement("img");
-                img.src = key.image_url;
-                img.alt = key.name;
-                img.classList.add("key-icon"); // Clase para CSS
+// Evento de entrada en el campo de búsqueda
+searchInput.addEventListener("input", debouncedSearchKeys);
 
-                // Crear nombre de la llave
-                const nameSpan = document.createElement("span");
-                nameSpan.textContent = key.name;
-
-                // Estructurar el item (imagen + texto)
-                listItem.appendChild(img);
-                listItem.appendChild(nameSpan);
-
-                // Evento para mostrar detalles al hacer clic
-                listItem.addEventListener("click", () => displayKeyDetails(key));
-
-                // Agregar a la lista
-                resultsList.appendChild(listItem);
-            });
-        }, typingDelay); // Espera 1 segundo después de la última tecla o selección
-    }
 
     // Mostrar detalles de la llave
     function displayKeyDetails(key) {
@@ -94,12 +117,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("key-image").src = key.image_url;
         document.getElementById("key-image").alt = key.name; // Alternativo si la imagen no carga
         document.getElementById("key-class").textContent = key.attributes["Item Class"];
-        document.getElementById("key-location").textContent = key.attributes.Origin || "Desconocido";
         document.getElementById("key-notes").textContent = key.notes;
-        document.getElementById("key-quest").textContent = key.notes.includes("quest") ? "Sí" : "No";
-        document.getElementById("key-buy").textContent = Array.isArray(key.buyfrom) ? key.buyfrom.join(", ") : "No se puede comprar";
+        document.getElementById("key-quest").textContent = key.quest || "No";
+        document.getElementById("key-buy").textContent = Array.isArray(key.buyfrom) ? key.buyfrom.join(", ") : "Cannot be bought";
 
-        // Limpiar contenedor de ubicaciones
         // Limpiar contenedor de ubicaciones
         const locationsContainer = document.getElementById("locations");
         locationsContainer.innerHTML = "";
@@ -146,7 +167,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 useIframe.style.maxHeight = "200px";
                 useIframe.style.border = "none";
                 useIframe.style.padding = "10px"
-                useIframe.title = `Instrucciones de uso ${index + 1}`; // Agregar título al iframe
+                useIframe.title = `${index + 1}`; // Agregar título al iframe
                 useItContainer.appendChild(useIframe);
             });
         }
@@ -161,8 +182,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById("key-details").style.display = "block";
 
     }
-
-    
 
     // Eventos de búsqueda y filtros
     searchInput.addEventListener("input", searchKeys);

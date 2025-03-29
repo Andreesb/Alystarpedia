@@ -1,3 +1,26 @@
+body {
+    min-height: 2800px;
+
+}
+.contenedor-informacion {
+    text-align: center;
+    min-height: 2300px;
+}
+
+#loader {
+    top: 35%;
+}
+
+#key-collector-container {
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffe0db;
+    border-radius: 8px;
+    min-height: 2250px;
+}
+
+
 
 #search-container {
     margin: 20px auto;
@@ -5,7 +28,7 @@
     text-align: center;
 }
 
-input[type="text"] {
+#key-search {
     max-width: 200px;
     width: 100%;
     padding: 10px;
@@ -21,6 +44,11 @@ fieldset {
     border-radius: 10px;
     border: solid;
     text-align: justify;
+}
+
+fieldset label {
+    position: relative;
+    left: 40px;
 }
 
 fieldset img {
@@ -52,6 +80,7 @@ fieldset img {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
 }
 
 #key-header {

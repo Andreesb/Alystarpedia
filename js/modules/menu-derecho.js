@@ -209,7 +209,7 @@ async function loadMenuData() {
 }
 
   /* --- BÚSQUEDA CON PUNTUACIÓN DE RELEVANCIA --- */
-  function searchMenu(query, menuItems) {
+function searchMenu(query, menuItems) {
     query = normalizeText(query.trim());
     if (!query) return [];
     return menuItems

@@ -24,6 +24,7 @@
             "Also Known As": "Rathleton Treasure Room Key",
             "Item Class": "Golden Key, Copper Key",
             "Weight": "1.00 oz.",
+            "Origin": "CipSoft",
             "Notes": "It is unobtainable.",
             "Loot value": "Negotiable",
             "Sold for": false,
@@ -1158,7 +1159,7 @@
         },
         "notes": "The key opens the Mad Mage Quest reward room. Talk to A Prisoner in Mintwallin prison tower. He will give it to you if you know the answer to The Riddle and in exchange for some Apples. You will need Key 3620 to get to him.",
         "buyfrom": [
-            "A Prisoner in Mintwallin sells for 7Apples"
+            "A Prisoner in Mintwallin sells for 7 Apples"
         ],
         "location": "Unknown",
         "keywords": [
@@ -2256,7 +2257,7 @@
             "alawar's vault",
             "storage room"
         ],
-        "quest": "alawars vault quest"
+        "quest": "Alawars Vault Quest"
     },
     {
         "url": "https://tibia.fandom.com/wiki/Key_4503",
