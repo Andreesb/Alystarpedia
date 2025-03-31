@@ -4,7 +4,7 @@ export function loadBackground() {
     const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
 
     const basePath = isIndex
-        ? "html/background-image.html" // Ruta para index.html
+        ? "/html/background-image.html" // Ruta para index.html
         : "./background-image.html";
 
     fetch(basePath)

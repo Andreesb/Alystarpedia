@@ -15,9 +15,6 @@ export function showLoader() {
     const loader = document.getElementById("loader");
     loader.style.display = "flex"; // Muestra el loader
 
-    setTimeout(() => {
-        loader.style.display = "none"; // Oculta el loader
-    }, 1000);
 }
 
 

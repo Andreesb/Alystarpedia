@@ -1,68 +1,68 @@
 const statIcons = {
     experience: "../assets/icons/xp.png",
     hp: "../assets/icons/hp.png",
-    mana: "../assets/icons/mana.gif",
-    capacity: "../assets/icons/bag.gif",
-    shareExpRange: "../assets/icons/shared.gif",
-    tcoin: "../assets/icons/tibiaCoin.gif",
-    coin: "../assets/icons/crystalCoin.gif",
-    time: "../assets/icons/watch.gif",
-    hits: "../assets/icons/hits.gif",
-    ferumbrasDummy: "../assets/icons/ferumbrasDummy.gif",
-    demonDummy: "../assets/icons/demonDummy.gif",
-    exerciseDummy: "../assets/icons/exerciseDummy.gif",
+    mana: "../assets/icons/mana.webp",
+    capacity: "../assets/icons/bag.webp",
+    shareExpRange: "../assets/icons/shared.webp",
+    tcoin: "../assets/icons/tibiaCoin.webp",
+    coin: "../assets/icons/crystalCoin.webp",
+    time: "../assets/icons/watch.webp",
+    hits: "../assets/icons/hits.webp",
+    ferumbrasDummy: "../assets/icons/ferumbrasDummy.webp",
+    demonDummy: "../assets/icons/demonDummy.webp",
+    exerciseDummy: "../assets/icons/exerciseDummy.webp",
 };
 
 const weaponImg = {
     "magic-level": {
         Sorcerer: {
-            standard: "../assets/icons/exerciseWand.gif",
-            durable: "../assets/icons/durableWand.gif",
-            lasting: "../assets/icons/lastingWand.gif"
+            standard: "../assets/icons/exerciseWand.webp",
+            durable: "../assets/icons/durableWand.webp",
+            lasting: "../assets/icons/lastingWand.webp"
         },
         Druid: {
-            standard: "../assets/icons/exerciseRod.gif",
-            durable: "../assets/icons/durableRod.gif",
-            lasting: "../assets/icons/lastingRod.gif"
+            standard: "../assets/icons/exerciseRod.webp",
+            durable: "../assets/icons/durableRod.webp",
+            lasting: "../assets/icons/lastingRod.webp"
         }, All: {
-            standard: "../assets/icons/exerciseRod.gif",
-            durable: "../assets/icons/durableRod.gif",
-            lasting: "../assets/icons/lastingRod.gif"
+            standard: "../assets/icons/exerciseRod.webp",
+            durable: "../assets/icons/durableRod.webp",
+            lasting: "../assets/icons/lastingRod.webp"
         }
     },
     axe: {
         All: {
-            standard: "../assets/icons/exerciseAxe.gif",
-            durable: "../assets/icons/durableAxe.gif",
-            lasting: "../assets/icons/lastingAxe.gif"
+            standard: "../assets/icons/exerciseAxe.webp",
+            durable: "../assets/icons/durableAxe.webp",
+            lasting: "../assets/icons/lastingAxe.webp"
         }
     },
     club: {
         All: {
-            standard: "../assets/icons/exerciseClub.gif",
-            durable: "../assets/icons/durableClub.gif",
-            lasting: "../assets/icons/lastingClub.gif"
-        }
+            standard: "../assets/icons/exerciseClub.webp",
+            durable: "../assets/icons/durableClub.webp",
+            lasting: "../assets/icons/lastingClub.webp"
+        }   
     },
     sword: {
         All: {
-            standard: "../assets/icons/exerciseSword.gif",
-            durable: "../assets/icons/durableSword.gif",
-            lasting: "../assets/icons/lastingSword.gif"
+            standard: "../assets/icons/exerciseSword.webp",
+            durable: "../assets/icons/durableSword.webp",
+            lasting: "../assets/icons/lastingSword.webp"
         }
     },
     distance: {
         All: {
-            standard: "../assets/icons/exerciseBow.gif",
-            durable: "../assets/icons/durableBow.gif",
-            lasting: "../assets/icons/lastingBow.gif"
+            standard: "../assets/icons/exerciseBow.webp",
+            durable: "../assets/icons/durableBow.webp",
+            lasting: "../assets/icons/lastingBow.webp"
         }
     },
     shielding: {
         All: {
-            standard: "../assets/icons/exerciseShield.gif",
-            durable: "../assets/icons/durableShield.gif",
-            lasting: "../assets/icons/lastingShield.gif"
+            standard: "../assets/icons/exerciseShield.webp",
+            durable: "../assets/icons/durableShield.webp",
+            lasting: "../assets/icons/lastingShield.webp"
         }
     }
 };
@@ -152,27 +152,27 @@ function handleCalculation() {
             <ul>
                 <li>
                     <b>Experience needed:</b><span>${result.totalExperience.toLocaleString()}
-                    <img src="${statIcons.experience}" alt="Experience Icon" class="stat-icon">
+                    <img src="${statIcons.experience}" title="Experience" alt="Experience Icon" class="stat-icon">
                     </span>
                 </li>
                 <li>
                     <b>Hitpoints (HP) at level ${desiredLevel}:</b><span>${result.hp}
-                        <img src="${statIcons.hp}" alt="HP Icon" class="stat-icon">
+                        <img src="${statIcons.hp}" title="Hitpoints/HP" alt="HP Icon" class="stat-icon">
                     </span>
                 </li>
                 <li>
                     <b>Mana at level ${desiredLevel}:</b><span>${result.mana}
-                        <img src="${statIcons.mana}" alt="Mana Icon" class="stat-icon">
+                        <img src="${statIcons.mana}" title="Mana" alt="Mana Icon" class="stat-icon">
                     </span>
                 </li>
                 <li>
                     <b>Capacity (Cap) at level ${desiredLevel}:</b><span>${result.capacity}
-                    <img src="${statIcons.capacity}" alt="Capacity Icon" class="stat-icon">
+                    <img src="${statIcons.capacity}" title="Capacity" alt="Capacity Icon" class="stat-icon">
                     </span>
                 </li>
                 <li>
                     <b>Level to share at ${desiredLevel}:</b><span>${result.shareExpRange.min} - ${result.shareExpRange.max}
-                        <img src="${statIcons.shareExpRange}" alt="Share Experience Icon" class="stat-icon">
+                        <img src="${statIcons.shareExpRange}" title="Shared Level" alt="Share Experience Icon" class="stat-icon">
                     </span>
                 </li>
             </ul>
@@ -322,19 +322,19 @@ function calculateSkills() {
     // Mostrar resultados
     document.getElementById("skillResult").innerHTML = `
         <p>Time required: ${timeFormatted}
-            <img src="${statIcons.time}" alt="Time Watch" class="stat-icon">
+            <img src="${statIcons.time}" title="Time" alt="Time Watch" class="stat-icon">
         </p>
         <p>Charges needed: ${totalCharges.toLocaleString("en-US")}
-            <img src="${statIcons.hits}" alt="Hits stars" class="stat-icon">
+            <img src="${statIcons.hits}" title="Charges" alt="Hits stars" class="stat-icon">
         </p>
         <p>Weapons needed: ${weaponsNeeded.toLocaleString("en-US")}
-            <img src="${imgSrc}" alt="${exerciseWeapon} ${skillType}" class="stat-icon">
+            <img src="${imgSrc}" title="Training Weapon" alt="${exerciseWeapon} ${skillType}" class="stat-icon">
         </p>
         <p>Total cost: ${formatCost(totalCost)}
-            <img src="${statIcons.coin}" alt="Crystal Coins" class="stat-icon">
+            <img src="${statIcons.coin}" title="Total Crystal Coins" alt="Crystal Coins" class="stat-icon">
         </p>
         <p>TC: ${formatCost(totalTc)}
-            <img src="${statIcons.tcoin}" alt="Tibia Coin" class="stat-icon">
+            <img src="${statIcons.tcoin}" title="Total Tibia Coins" alt="Tibia Coin" class="stat-icon">
         </p>
         
         `;

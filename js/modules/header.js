@@ -4,7 +4,7 @@ export function loadHeader() {
     const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
 
     const basePath = isIndex
-        ? "html/header.html" // Ruta para index.html
+        ? "/html/header.html" // Ruta para index.html
         : "./header.html";
 
     fetch(basePath)

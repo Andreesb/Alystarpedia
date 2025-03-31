@@ -14,6 +14,8 @@ assets/media/TibiaFankit
 
 *.zip
 
+*.rar
+
 *.psd
 
 .codegpt

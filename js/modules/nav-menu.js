@@ -4,7 +4,7 @@ export function loadMenu() {
     const isIndex = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
     const menuToggle = document.getElementById("menuToggle");
     const basePath = isIndex
-        ? "html/nav-menu.html" // Ruta para index.html
+        ? "/html/nav-menu.html" // Ruta para index.html
         : "./nav-menu.html";
 
     fetch(basePath)

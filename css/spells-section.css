@@ -5,17 +5,18 @@
     background-color: #ffffe0db;
     border-radius: 10px;
     height: 95%;
+    text-align: center;
 
 }
 
-.title img {
-    width: 40px;
-    vertical-align: middle;
+.section-description {
+    width: 90%;
 }
+
 
 .vocation-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 20px 0;
 }
 

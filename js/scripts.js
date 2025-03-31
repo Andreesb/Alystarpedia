@@ -70,7 +70,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const header = document.querySelector("header");
         if (header) {
             let newTop = Math.max(-90, 0 - scrollY);
+            let newSize = Math.max(1.8, 2 - scrollY);
             header.style.top = `${newTop}px`;
+            header.style.fontSize = `${newSize}rem`;
         }
     }
 
@@ -81,7 +83,52 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("scroll", handleScroll);
     window.addEventListener("load", handleScroll);
 
-
+    // Funciones del tooltip (definidas previamente)
+    async function showTooltip(e) {
+        const target = e.currentTarget;
+        const tipText = target.getAttribute("data-tooltip");
+        if (!tipText) return;
+        tooltip.textContent = tipText;
+        tooltip.style.left = e.pageX + 10 + "px";
+        tooltip.style.top = e.pageY + 10 + "px";
+        tooltip.style.opacity = "1";
+    }
+    
+    function moveTooltip(e) {
+        tooltip.style.left = e.pageX + 10 + "px";
+        tooltip.style.top = e.pageY + 10 + "px";
+    }
+    
+    function hideTooltip() {
+        tooltip.style.opacity = "0";
+    }
+    
+    // Crear el tooltip reutilizable
+    const tooltip = document.createElement("div");
+    tooltip.className = "custom-tooltip";
+    document.body.appendChild(tooltip);
+    
+    // Función para inicializar tooltips en elementos con "title"
+    async function initTooltips() {
+        const elements = document.querySelectorAll("*[title]");
+        console.log("Elementos con title encontrados:", elements.length);
+        elements.forEach((el) => {
+        // Si ya se le asignó data-tooltip, no volver a hacerlo
+        if (!el.hasAttribute("data-tooltip")) {
+            const tip = el.getAttribute("title");
+            el.setAttribute("data-tooltip", tip);
+            el.removeAttribute("title");
+    
+            el.addEventListener("mouseenter", showTooltip);
+            el.addEventListener("mousemove", moveTooltip);
+            el.addEventListener("mouseleave", hideTooltip);
+        }
+        });
+    }
+    
+    
+  
+    
     
 
     setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
@@ -96,6 +143,32 @@ document.addEventListener("DOMContentLoaded", () => {
     loadMenu();
     fetchLatestNews();
     loadFooter();
+
+    // Ejecutar al cargar el DOM
+    document.addEventListener("DOMContentLoaded", () => {
+        initTooltips();
+    });
+    
+    // Usar MutationObserver para detectar nuevos elementos con title
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+        mutation.addedNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+            // Si el nodo en sí tiene el atributo title
+            if (node.hasAttribute && node.hasAttribute("title")) {
+                initTooltips();
+            }
+            // O si contiene elementos con title
+            const childs = node.querySelectorAll ? node.querySelectorAll("*[title]") : [];
+            if (childs.length > 0) {
+                initTooltips();
+            }
+            }
+        });
+        });
+    });
+    
+    observer.observe(document.body, { childList: true, subtree: true });
 
 
 });

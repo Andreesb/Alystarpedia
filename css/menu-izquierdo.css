@@ -92,6 +92,8 @@
     min-height: 75px;
 }
 
+
+
 #rashid-tooltip {
     position: absolute;
     top:-5%;  /* Ajusta la posición para que no tape a Rashid */
