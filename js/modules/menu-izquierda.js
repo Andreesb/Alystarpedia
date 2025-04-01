@@ -41,7 +41,7 @@ export function showMenuIzquierdo() {
 
 
 
-const CACHE_DURATION = 8 * 60 * 60 * 1000;
+const CACHE_DURATION = 2 * 60 * 60 * 1000;
 
 async function fetchDataWithCache(url, cacheKey) {
     // Verificar si existe caché y no ha expirado

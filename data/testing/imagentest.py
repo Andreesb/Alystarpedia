@@ -1,50 +1,46 @@
-import cv2
-import os
+from PIL import Image, ImageEnhance, ImageSequence
 
-# Rutas de entrada y salida
-carpeta_imagenes = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\mapas-base"
-carpeta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\wiki\assets\icons\mapper\escaladas"
+# Ruta de entrada y salida
+ruta_imagen = r"C:\Users\Andres\Desktop\portafolio\backup\Alystarpedia\assets\icons\machine.gif"
+ruta_salida = r"C:\Users\Andres\Desktop\portafolio\backup\Alystarpedia\assets\icons\machine_mejorado.gif"
 
-# Asegurar que la carpeta de salida existe
- 
-os.makedirs(carpeta_salida, exist_ok=True)
+try:
+    gif = Image.open(ruta_imagen)
+except Exception as e:
+    print(f"❌ Error al cargar el GIF: {e}")
+    exit()
 
-factor = 3  # Factor de escalado
+frames_mejorados = []
 
+# Ajustes: modifica estos factores según el resultado deseado
+factor_color = 1.1   # 1.0 es sin cambio; >1 para más saturación
+factor_contraste = 1.1  # Para ajustar el contraste
 
-for i in range(16):  # Desde floor-00-map hasta floor-15-map
-    nombre_imagen = f"floor-{i:02d}-map.png"  # floor-00-map.png, floor-01-map.png, etc.
-    ruta_imagen = os.path.join(carpeta_imagenes, nombre_imagen)
+# Procesar cada frame
+for frame in ImageSequence.Iterator(gif):
+    # Convertir a modo RGBA para preservar transparencia
+    frame = frame.convert("RGBA")
     
-    if not os.path.exists(ruta_imagen):
-        print(f"❌ No se encontró: {nombre_imagen}")
-        continue  # Saltar a la siguiente imagen si no existe
+    # Mejorar la saturación
+    enhancer_color = ImageEnhance.Color(frame)
+    frame_mejorado = enhancer_color.enhance(factor_color)
+    
+    # Mejorar el contraste
+    enhancer_contraste = ImageEnhance.Contrast(frame_mejorado)
+    frame_mejorado = enhancer_contraste.enhance(factor_contraste)
+    
+    frames_mejorados.append(frame_mejorado)
 
-    # Cargar la imagen
-    imagen = cv2.imread(ruta_imagen, cv2.IMREAD_UNCHANGED)
+# Guardar el GIF mejorado
+# Si el GIF es animado, se guarda con todos los frames y se mantienen la transparencia y la duración original
+frames_mejorados[0].save(
+    ruta_salida,
+    save_all=True,
+    append_images=frames_mejorados[1:],
+    loop=0,
+    duration=gif.info.get("duration", 100),
+    disposal=2,
+    transparency=0
+)
 
-    if imagen is None:
-        print(f"⚠️ No se pudo cargar: {nombre_imagen}. Puede estar dañada o en un formato no soportado.")
-        continue
-
-    # Escalar la imagen (manteniendo píxeles)
-    nueva_dim = (imagen.shape[1] * factor, imagen.shape[0] * factor)
-    imagen_escalada = cv2.resize(imagen, nueva_dim, interpolation=cv2.INTER_NEAREST)
-
-    # Guardar la imagen con compresión PNG
-    ruta_guardado = os.path.join(carpeta_salida, nombre_imagen)
-    cv2.imwrite(ruta_guardado, imagen_escalada, [cv2.IMWRITE_PNG_COMPRESSION, 9])
-
-
-
-    # Mostrar estadísticas de tamaño antes y después
-    tam_original = os.path.getsize(ruta_imagen) / 1024  # KB
-    tam_nuevo = os.path.getsize(ruta_guardado) / 1024  # KB
-    reduccion = ((tam_original - tam_nuevo) / tam_original) * 100 if tam_original > 0 else 0
-
-    print(f"✅ {nombre_imagen} escalada y comprimida")
-    print(f"   🔹 Tamaño original: {tam_original:.2f} KB")
-    print(f"   🔹 Tamaño comprimido: {tam_nuevo:.2f} KB")
-    print(f"   🔹 Reducción: {reduccion:.2f}%")
-
-print("🎉 Proceso completado")
+print(f"✅ GIF mejorado guardado como: {ruta_salida}")

@@ -21,13 +21,13 @@ export function actualizarRashid() {
     ];
 
     const mapasRashid = {
-        0: "/html/mapper.html?x=582&y=807&floor=9",   // Carlin (Domingo)
-        1: "/html/mapper.html?x=464&y=179&floor=8",    // Svargrond (Lunes)
-        2: "/html/mapper.html?x=558&y=1857&floor=8",   // Liberty Bay (Martes)
-        3: "/html/mapper.html?x=833&y=1778&floor=8",   // Port Hope (Miércoles)
-        4: "/html/mapper.html?x=1324&y=1904&floor=9",  // Ankrahmun (Jueves)
-        5: "/html/mapper.html?x=1490&y=1506&floor=8",  // Darashia (Viernes)
-        6: "/html/mapper.html?x=1425&y=834&floor=9"     // Edron (Sábado)
+        0: "/html/mapper.html?x=1748&y=2421&floor=1&zoom=1.5",   // Carlin (Domingo)
+        1: "/html/mapper.html?x=1383&y=540&floor=0&zoom=1.5",    // Svargrond (Lunes)
+        2: "/html/mapper.html?x=1675&y=5570&floor=0&zoom=1.5",   // Liberty Bay (Martes)
+        3: "/html/mapper.html?x=2500&y=5331&floor=0&zoom=1.5",   // Port Hope (Miércoles)
+        4: "/html/mapper.html?x=3967&y=5725&floor=1&zoom=1.5",  // Ankrahmun (Jueves)
+        5: "/html/mapper.html?x=4469&y=4520&floor=0&zoom=1.5",  // Darashia (Viernes)
+        6: "/html/mapper.html?x=4277&y=2501&floor=1&zoom=1.5"     // Edron (Sábado)
     };
 
     // Obtener la fecha actual en CET (usando la zona horaria de Europa/Berlín)
@@ -54,7 +54,7 @@ export function actualizarRashid() {
     
     // Actualizar imagen, mapa y title usando el día ajustado
     imgElemento.src = `${basePath}${diasSemana[diaActual]}`;
-    imgElemento.alt = `Imagen de la ciudad del día`;
+    imgElemento.alt = `Rashid Location`;
     imgElemento.title = titulosCiudades[diaActual]; // Agrega el title según la ciudad
     
     rashidMap.src = mapasRashid[diaActual];

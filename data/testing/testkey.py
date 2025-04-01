@@ -43,6 +43,7 @@ def edit_key():
             print("❌ Llave no encontrada. Intenta nuevamente.")
             continue
 
+        # Bucle para editar atributos de la llave seleccionada.
         while True:
             print("\n📌 Atributos actuales:")
             for key, value in item_data.items():
@@ -52,7 +53,7 @@ def edit_key():
             if attribute.lower() == "salir":
                 break
 
-            # Si el atributo no existe, preguntar si quiere crearlo
+            # Si el atributo no existe, preguntar si quiere crearlo.
             if attribute not in item_data:
                 create_attr = input(f"El atributo '{attribute}' no existe. ¿Deseas crearlo? (sí/no): ").strip().lower()
                 if create_attr not in ["sí", "si"]:
@@ -84,17 +85,29 @@ def edit_key():
                         if sub_attr in item_data["attributes"]:
                             del item_data["attributes"][sub_attr]
                     elif sub_option == "no":
+                        # Al salir de la edición de subatributos se guarda inmediatamente.
+                        save_keys(keys_data)
+                        # Se rompe el ciclo de atributos para regresar al menú de llaves.
                         break
                     else:
                         print("❌ Opción inválida.")
+                # Salir del ciclo de atributos para esta llave.
+                break
 
-            
             # Manejo especial de 'location' con múltiples valores en 'find' y 'use'
             if attribute == "location":
+                # Si 'location' no existe o no es un diccionario, se inicializa correctamente.
                 if "location" not in item_data or not isinstance(item_data["location"], dict):
                     item_data["location"] = {"find": [], "use": []}
+                else:
+                    # Verificar y convertir 'find' a lista si es string
+                    if isinstance(item_data["location"].get("find"), str):
+                        item_data["location"]["find"] = [item_data["location"]["find"]]
+                    # Verificar y convertir 'use' a lista si es string
+                    if isinstance(item_data["location"].get("use"), str):
+                        item_data["location"]["use"] = [item_data["location"]["use"]]
 
-                # Editar 'find' (permitiendo múltiples valores)
+                # Editar 'find'
                 find_locations = item_data["location"].get("find", [])
                 print("\n📍 Ubicaciones FIND actuales:")
                 for i, loc in enumerate(find_locations, start=1):
@@ -194,6 +207,7 @@ def edit_key():
                     new_value = input(f"Ingrese el nuevo valor para '{attribute}': ").strip()
                     item_data[attribute] = new_value
 
+            # Guardar cambios luego de modificar un atributo que no sea 'attributes'
             save_keys(keys_data)
 
         edit_another = input("¿Quieres editar otra llave? (sí/no): ").strip().lower()

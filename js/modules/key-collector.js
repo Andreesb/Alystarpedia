@@ -24,91 +24,95 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Función de búsqueda con loader
     /* --- DEBOUNCE PARA EVITAR BÚSQUEDAS INNECESARIAS --- */
-function debounce(func, delay) {
-    let timeout;
-    return function (...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), delay);
-    };
-}
-
-/* --- NORMALIZACIÓN DE TEXTO (quita acentos y pone en minúsculas) --- */
-function normalizeText(text) {
-    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-}
-
-/* --- COMPROBACIÓN DE COINCIDENCIAS DE LAS PALABRAS (en cualquier orden) --- */
-function matchesQuery(text, query) {
-    const words = query.split(" ").filter(w => w);
-    return words.every(word => normalizeText(text).includes(normalizeText(word)));
-}
-
-// Función de búsqueda con mejoras
-function searchKeys() {
-    const query = normalizeText(searchInput.value.trim());
-    const selectedClasses = Array.from(document.querySelectorAll(".filter-class:checked")).map(cb => cb.value);
-    const questFilter = document.getElementById("filter-quest").checked;
-
-    if (query === "" && selectedClasses.length === 0 && !questFilter) {
-        resultsList.style.display = "none";
-        keyDetails.style.display = "none";
-        hideLoader();
-        return;
+    function debounce(func, delay) {
+        let timeout;
+        return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+        };
     }
 
-    showLoader(); // Mostrar loader
+    /* --- NORMALIZACIÓN DE TEXTO (quita acentos y pone en minúsculas) --- */
+    function normalizeText(text) {
+        return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
 
-    clearTimeout(typingTimer); // Reiniciar temporizador
-    typingTimer = setTimeout(() => {
-        resultsList.innerHTML = "";
-        keyDetails.style.display = "none"; // Ocultar detalles al cambiar búsqueda
+    /* --- COMPROBACIÓN DE COINCIDENCIAS DE LAS PALABRAS (en cualquier orden) --- */
+    function matchesQuery(text, query) {
+        const words = query.split(" ").filter(w => w);
+        return words.every(word => normalizeText(text).includes(normalizeText(word)));
+    }
 
-        const filteredKeys = keysData.filter(key => {
-            const nameMatch = matchesQuery(key.name, query);
-            const keywordMatch = key.keywords?.some(keyword => matchesQuery(keyword, query));
-            const classMatch = selectedClasses.length === 0 || selectedClasses.includes(key.attributes["Item Class"]);
-            const questMatch = !questFilter || key.notes.toLowerCase().includes("quest");
 
-            return (nameMatch || keywordMatch) && classMatch && questMatch;
-        });
+    // Función de búsqueda con mejoras
+    function searchKeys() {
+        const query = normalizeText(searchInput.value.trim());
+        const selectedClasses = Array.from(document.querySelectorAll(".filter-class:checked")).map(cb => cb.value);
+        const questFilter = document.getElementById("filter-quest").checked;
 
-        hideLoader(); // Ocultar loader después de la búsqueda
-
-        if (filteredKeys.length === 0) {
-            resultsList.innerHTML = `<p class="no-results">No se encontraron coincidencias.</p>`;
-            resultsList.style.display = "block";
+        if (query === "" && selectedClasses.length === 0 && !questFilter) {
+            resultsList.style.display = "none";
+            keyDetails.style.display = "none";
+            showLoader();
             return;
         }
 
-        resultsList.style.display = "flex"; // Mostrar lista si hay resultados
+        showLoader(); // Mostrar loader
 
-        filteredKeys.forEach(key => {
-            const listItem = document.createElement("li");
-            listItem.classList.add("key-item");
+        clearTimeout(typingTimer); // Reiniciar temporizador
+        typingTimer = setTimeout(() => {
+            resultsList.innerHTML = "";
+            keyDetails.style.display = "none"; // Ocultar detalles al cambiar búsqueda
 
-            const img = document.createElement("img");
-            img.src = key.image_url;
-            img.alt = key.name;
-            img.classList.add("key-icon");
+            const filteredKeys = keysData.filter(key => {
+                const nameMatch = matchesQuery(key.name, query);
+                const keywordMatch = key.keywords?.some(keyword => matchesQuery(keyword, query));
+                const classMatch = selectedClasses.length === 0 || selectedClasses.includes(key.attributes["Item Class"]);
 
-            const nameSpan = document.createElement("span");
-            nameSpan.textContent = key.name;
+                // Verificar si el ítem está relacionado con una quest
+                const questMatch = !questFilter || (Array.isArray(key.quest) && key.quest.length > 0) || (key.notes && key.notes.toLowerCase().includes("quest"));
 
-            listItem.appendChild(img);
-            listItem.appendChild(nameSpan);
+                return (nameMatch || keywordMatch) && classMatch && questMatch;
+            });
 
-            listItem.addEventListener("click", () => displayKeyDetails(key));
+            hideLoader(); // Ocultar loader después de la búsqueda
 
-            resultsList.appendChild(listItem);
-        });
-    }, 300); // Se reduce el debounce a 300ms para mayor rapidez
-}
+            if (filteredKeys.length === 0) {
+                resultsList.innerHTML = `<p class="no-results">Wrong words.</p>`;
+                resultsList.style.display = "block";
+                return;
+            }
 
-// Aplicar debounce a la función de búsqueda
-const debouncedSearchKeys = debounce(searchKeys, 300);
+            resultsList.style.display = "flex"; // Mostrar lista si hay resultados
 
-// Evento de entrada en el campo de búsqueda
-searchInput.addEventListener("input", debouncedSearchKeys);
+            filteredKeys.forEach(key => {
+                const listItem = document.createElement("li");
+                listItem.classList.add("key-item");
+
+                const img = document.createElement("img");
+                img.src = key.image_url;
+                img.alt = key.name;
+                img.classList.add("key-icon");
+
+                const nameSpan = document.createElement("span");
+                nameSpan.textContent = key.name;
+
+                listItem.appendChild(img);
+                listItem.appendChild(nameSpan);
+
+                listItem.addEventListener("click", () => displayKeyDetails(key));
+
+                resultsList.appendChild(listItem);
+            });
+        }, 300); // Se reduce el debounce a 300ms para mayor rapidez
+    }
+
+
+    // Aplicar debounce a la función de búsqueda
+    const debouncedSearchKeys = debounce(searchKeys, 300);
+
+    // Evento de entrada en el campo de búsqueda
+    searchInput.addEventListener("input", debouncedSearchKeys);
 
 
     // Mostrar detalles de la llave
@@ -183,9 +187,24 @@ searchInput.addEventListener("input", debouncedSearchKeys);
 
     }
 
-    // Eventos de búsqueda y filtros
-    searchInput.addEventListener("input", searchKeys);
-    checkboxes.forEach(filter => filter.addEventListener("change", searchKeys));
+    // Mostrar loader al limpiar el input
+    searchInput.addEventListener("input", () => {
+        if (searchInput.value.trim() === "") {
+            showLoader();
+        }
+    });
+    checkboxes.forEach(filter => {
+        filter.addEventListener("change", () => {
+            // Deshabilita el checkbox por 500ms para evitar cambios rápidos
+            filter.disabled = true;
+            setTimeout(() => {
+                filter.disabled = false;
+            }, 500);
+    
+            searchKeys();
+        });
+    });
+    
 
     const words = ["Enter a key-word", "Asura", "Key 3500","Oberon", "Desert Quest", "Hellgate"]; // Palabras a rotar
         let wordIndex = 0;

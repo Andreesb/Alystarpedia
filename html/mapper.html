@@ -25,10 +25,13 @@
             height: 600px;
             overflow: hidden;
             border: 2px solid white;
-            cursor: grab;
             display: flex;
             border-radius: 10px;
             margin: 10px;
+        }
+        #content-container {
+            cursor: grab;
+            
         }
         .mapper-container img {
             position: absolute;
@@ -54,13 +57,13 @@
             width: 100%;
             height: 1px;
             top: 50%;
-            border-top: 2px dashed white;
+            border-top: 1px dashed white;
         }
         .crosshair .vertical {
             height: 100%;
             width: 1px;
             left: 50%;
-            border-left: 2px dashed white;
+            border-left: 1px dashed white;
         }
         .controls {
             text-align: center;
@@ -125,34 +128,82 @@
             position: relative;
         }
 
+
+       /* Estilo normal del botón (con imagen estática) */
+        #shareButton {
+        background-image: url('../assets/icons/share.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        background-color: rgba(240, 248, 255, 0.774);
+        width: 50px;
+        height: 50px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 50px;
+        cursor: pointer;
+        z-index: 10;
+        position: absolute;
+        margin: 10px 10px;
+        bottom: 0%;
+        right: 0%;
+        }
+
+        /* Clase que activa el GIF animado */
+        #shareButton.animating {
+        background-image: url('../assets/icons/share.gif');
+        background-size: contain;
+        }
+
+        /* Estilos para el mensaje de confirmación */
+        .confirmation-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 16px;
+        opacity: 1;
+        transition: opacity 0.5s ease-out;
+        z-index: 1000;
+        }
+
+        /* Clase para el efecto de desvanecimiento */
+        .confirmation-message.fade-out {
+        opacity: 0;
+}
     </style>
 </head>
 <body>
     <div class="mapper-container" id="mapper">
-        <img id="mapImage" src="../assets/icons/mapper/floors/floor-08-map.png" alt="Tibia Map">
-        <div class="crosshair">
-            <div class="line horizontal"></div>
-            <div class="line vertical"></div>
-        </div>
-        <div class="controls vert" id="controls">
-            <button id="floorUp"><img src="../assets/icons/mapper/arriba.png" alt="Floor up">  </button>
-            <div>
-                <label id="actualFloor">7</label>
+        <div id="content-container">
+            <img id="mapImage" src="../assets/icons/mapper/floors/floor-00-map.png" alt="Tibia Map">
+            <div class="crosshair">
+                <div class="line horizontal"></div>
+                <div class="line vertical"></div>
             </div>
-            <button id="floorDown"><img src="../assets/icons/mapper/abajo.png" alt="Zoom out"></button>
-        </div>
-        <div class="controls horiz" id="controls">
-            <button id="zoomOut"><img src="../assets/icons/mapper/alejar.png" alt="Floor down"></button>
-            <button id="zoomIn"><img src="../assets/icons/mapper/acercar.png" alt="Zoom in"></button>
-        </div>
-        <div class="coor" id="controls">
-            <div class="coordinates" id="coordinates">X: 0, Y: 0</div>
+            <div class="controls vert" id="controls">
+                <button id="floorUp"><img src="../assets/icons/mapper/arriba.png" title="Floor" alt="Floor up">  </button>
+                <div>
+                    <label id="actualFloor">0</label>
+                </div>
+                <button id="floorDown"><img src="../assets/icons/mapper/abajo.png" title="Floor Down" alt="Floor Down"></button>
+            </div>
+            <div class="controls horiz" id="controls">
+                <button id="zoomOut"><img src="../assets/icons/mapper/alejar.png" title="Zoom Out" alt="Zoom out"></button>
+                <button id="zoomIn"><img src="../assets/icons/mapper/acercar.png" title="Zoom In" alt="Zoom in"></button>
+            </div>
+            <div class="coor" id="controls">
+                <div class="coordinates" id="coordinates">X: 0, Y: 0</div>
+            </div>
         </div>
 
-
+        <div id="copyConfirmation" class="copy-confirmation"></div>
+        <button id="shareButton"></button>
     </div>
-    <button id="shareButton">Compartir</button>
-    <input type="text" id="shareLink" readonly>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -186,25 +237,28 @@
             }
 
             function updateFloor(delta) {
-                // Calcular el nuevo piso sin modificar el actual
-                const newFloor = Math.max(-8, Math.min(7, floor + delta));
-                // Si no hay cambio, salir
-                if (newFloor === floor) return;
+                floor = Math.max(-8, Math.min(7, floor + delta));
                 
-                // Actualizar el piso
-                floor = newFloor;
+                let floorStr;
+                if (floor >= 0) {
+                    // Para pisos 0 y positivos, formatea con dos dígitos (ej: 0 -> "00", 1 -> "01", etc.)
+                    floorStr = String(floor).padStart(2, '0');
+                } else {
+                    // Para pisos negativos, formatea el valor absoluto con dos dígitos y antepone el signo negativo
+                    floorStr = '-' + String(Math.abs(floor)).padStart(2, '0');
+                }
 
-                // Convertir el piso relativo en el número de piso que se usará en la imagen.
-                // Ej: piso_relativo 0 -> imagen 08, -1 -> imagen 07, 1 -> imagen 09, etc.
-                const actualFloorNumber = floor + 8;
-                const floorStr = String(actualFloorNumber).padStart(2, '0');
+                // Actualiza la imagen del piso usando la nueva nomenclatura
+                mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
                 
-                // Mostrar el loader
-                    mapImage.src = `../assets/icons/mapper/floors/floor-${floorStr}-map.png`;
+                mapImage.style.display = "none";
+                setTimeout(() => {
+                    mapImage.style.display = "block";
+                }, 50); // Pequeño delay para forzar el renderizado
 
-                // Actualizar el indicador visual del piso (muestra el piso relativo, o lo que prefieras)
                 actualFloor.innerText = `${floor}`;
             }
+
 
             function zoom(delta) {
                 const prevScale = scale;
@@ -233,6 +287,10 @@
 
 
             mapper.addEventListener("mousedown", (e) => {
+                // Si estamos en iframe y el clic NO es en el botón de compartir, no permitir drag
+                if (isInIframe && e.target.id !== "shareButton") {
+                    return;
+                }
                 isDragging = true;
                 startX = e.clientX - offsetX;
                 startY = e.clientY - offsetY;
@@ -262,37 +320,49 @@
                 }
             });
 
+
             const isInIframe = window.self !== window.top;
 
             // Seleccionar botones
             const controls = document.querySelectorAll("#controls");
             const body = document.querySelector("body")
             const mapperContainer = document.querySelector(".mapper-container");
+            const contentContainer = document.querySelector("#content-container");
             const controlVert = document.querySelector(".controls.vert");
             const controlHoriz = document.querySelector(".controls.horiz");
             const shareButton = document.getElementById("shareButton");
             const coor = document.querySelector(".coor");
+            
 
             if (isInIframe) {
                 console.log("Ejecutando en un iframe. Ajustando estilos...");
+
+                // Desactivar eventos en todo el contenido del mapper
+                contentContainer.style.pointerEvents = "none";
+                contentContainer.style.cursor = "none";
+
+                // Para los controles (si están fuera del contentContainer o se necesiten ajustes)
                 controls.forEach(control => {
-                if (window.self !== window.top) {
-                    mapper.style.pointerEvents = "none"
+                    control.style.pointerEvents = "none";
                     control.style.transform = "scale(0.7)";
-                    mapper.style.width = "100%";
-                    mapper.style.height = "100%";
-                    mapper.style.minHeight = "200px";
-                    mapper.style.top = "20px";
-                    body.style.width = "100%";
-                    body.style.maxHeight = "200px";
-                    body.style.height = "100%";
-                    controlVert.style.margin = "0";
-                    coor.style.left = "45%";
+                });
 
-                }
-            });
+                // Asegurarse de que el botón de compartir reciba eventos
+                shareButton.style.pointerEvents = "auto"; // o "pointer"
+                shareButton.style.transform = "scale(0.5)";
+                shareButton.style.margin = "2px 2px";
 
-            } else {
+                // Ajustar tamaños si es necesario
+                mapperContainer.style.width = "100%";
+                mapperContainer.style.height = "100%";
+                mapperContainer.style.minHeight = "200px";
+                body.style.width = "100%";
+                body.style.height = "100%";
+                body.style.maxHeight = "200px";
+                controlVert.style.margin = "0";
+                coor.style.left = "45%";
+            }
+            else {
                 console.log("Ejecutando en ventana normal.");
             }
 
@@ -316,7 +386,7 @@
 
             // Evita que `floor` sea `NaN` o se cargue con el valor incorrecto
             if (isNaN(floor)) {
-                floor = 8; // Piso predeterminado
+                floor = 0; // Piso predeterminado
             }
 
             actualFloor.innerText = `${floor}`;
@@ -345,17 +415,54 @@
             return url.toString();
         }
 
-            // Función para compartir la ubicación
-            document.getElementById("shareButton").addEventListener("click", () => {
-                const shareLink = generateShareLink();
-                const shareInput = document.getElementById("shareLink");
+        //Funcion para el boton de share
+        document.getElementById("shareButton").addEventListener("click", async () => {
+            const shareLink = generateShareLink();
+            const button = document.getElementById("shareButton");
+            const mapperContainer = document.getElementById("mapper");
 
-                shareInput.value = shareLink;  // Mostrar el enlace en el input
-                shareInput.select();
-                document.execCommand("copy");  // Copiar al portapapeles
+            // Deshabilitar el botón mientras dura la animación
+            button.disabled = true;
 
-                alert("Ubicación copiada al portapapeles:\n" + shareLink);
-            });
+            try {
+                // Usar el portapapeles moderno
+                await navigator.clipboard.writeText(shareLink);
+            } catch (err) {
+                console.error("Failed to copy using clipboard API", err);
+                // Método alternativo
+                const tempInput = document.createElement("input");
+                tempInput.value = shareLink;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand("copy");
+                document.body.removeChild(tempInput);
+            }
+
+            // Agregar la animación al botón
+            button.classList.add("animating");
+            setTimeout(() => {
+                button.classList.remove("animating");
+            }, 1000);
+
+            // Crear y mostrar el mensaje de confirmación dentro del mapperContainer
+            const confirmation = document.createElement("div");
+            confirmation.className = "confirmation-message";
+            confirmation.textContent = "Coordinates Copied!";
+            mapperContainer.appendChild(confirmation);
+
+            // Fade out y eliminación del mensaje después de 1 segundo
+            setTimeout(() => {
+                confirmation.classList.add("fade-out");
+                setTimeout(() => {
+                    confirmation.remove();
+                    // Rehabilitar el botón después de la animación
+                    button.disabled = false;
+                }, 500);
+            }, 1000);
+        });
+
+
+
 
 
 
