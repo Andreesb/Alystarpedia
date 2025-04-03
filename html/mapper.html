@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/pointer.png">
+    <link rel="canonical" href="https://alystarpedia.com/mapper">
+    
     <title>Tibia Mapper</title>
     <style>
         body {
@@ -379,10 +382,10 @@
             // Cargar coordenadas y zoom desde la URL
         function loadFromURL() {
             const params = new URLSearchParams(window.location.search);
-            const x = parseInt(params.get("x"), 10) || 0;
-            const y = parseInt(params.get("y"), 10) || 0;
-            floor = parseInt(params.get("floor"), 10);
-            scale = parseFloat(params.get("zoom")) || 1.5; // Zoom predeterminado
+            const x = parseInt(params.get("x"), 10) || 1875;
+            const y = parseInt(params.get("y"), 10) || 3786;
+            floor = parseInt(params.get("floor"), 10) || 0;
+            scale = parseFloat(params.get("zoom")) || 0.3; // Zoom predeterminado
 
             // Evita que `floor` sea `NaN` o se cargue con el valor incorrecto
             if (isNaN(floor)) {

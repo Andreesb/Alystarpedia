@@ -1,0 +1,30 @@
+#tools-section {
+    text-align: center;
+    background-color: #ffffe0db;
+    max-width: 1000px;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+#tools {
+    display: grid;
+    grid-template-areas: 
+    "articule articule"
+    "articule articule"
+    "articule articule";
+    justify-content: space-evenly;
+}
+
+#tools article {
+    width: 450px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+#tools img {
+    width: 100px;
+}
