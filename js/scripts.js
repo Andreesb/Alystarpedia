@@ -126,10 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
     
-    
-  
-    
-    
 
     setupHuntSessionProcessor("processButton", "sessionInput", "party-session");
 

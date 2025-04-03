@@ -1,1 +1,61 @@
 /* Pagina para forge*/
+body {
+    min-height: 3100px;
+}
+
+main {
+    min-height: 2900px;
+}
+
+.contenedor-informacion {
+    min-height: 2600px;
+}
+
+.forge-image {
+    position: absolute;
+    padding-top: 5px;
+}
+
+#forge-calculator {
+    background-color: #ffffe0db;
+    width: 60vw;
+    min-height: 2500px;
+    max-width: 1000px;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.section-description {
+    width: 85%;
+}
+
+
+#forge-data {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#forge-calc {
+    min-height: 400px;
+    padding: 25px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    scroll-margin-top: 500px; /* Ajusta el valor según lo necesites */
+    font-size: 1rem;
+}
+
+.forge-info {
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+
+}
+
+#fiendish-info p {
+    margin: 0;
+}
+

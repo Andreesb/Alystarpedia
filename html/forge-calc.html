@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forge Calc</title>
+    <meta name="description" content="Tibian Exaltation Forge – Upgrade your equipment with fusion, convergence, and transfer methods. Calculate precise costs in gold, dust, and exalted cores as you transform ordinary gear into legendary artifacts, all inspired by Tibia’s iconic upgrade system.">
+    <link rel="canonical" href="https://alystarpedia.com/forge-calc">
+    <title>Forge Calculator</title>
     <link rel="icon" type="image/x-icon" href="../assets/icons/helmet-image.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/forge-calc.css">
@@ -16,11 +18,7 @@
     <main>
         <div id="background-image"></div>
         <nav id="menu-container"></nav>
-
-
         <aside class="contenedor-izquierdo"></aside>
-
-
         <aside class="contenedor-derecho"></aside>
 
         <div id="overlay" class="overlay hidden">
@@ -32,102 +30,153 @@
         
         
         <section class="contenedor-informacion">
-            <div class="calculator">
-                <h2>Exaltation Forge Calculator</h2>
-
-                <label for="method">Method:</label>
-                <select id="method">
+            <div class="calculator" id="forge-calculator">
+                <h1 class="section-title"><img class="section-image" src="../assets/icons/Exaltation_Forge.webp"
+                  title="Exaltation Forge" alt="Exaltation Forge"> Exaltation Forge Calculator</h1>
+                <span class="section-description">
+                  <p>
+                    Welcome to our Tibian Exaltation Forge, a mystical workshop where the ancient art of equipment upgrade is reborn!
+                    Inspired by the legendary forges of Tibia, our system lets you imbue your items with extraordinary power, turning
+                    ordinary gear into artifacts of immense strength. Here, the destiny of your equipment is determined not only by gold
+                    but by the careful balance of Dust, Slivers, and the coveted Exalted Cores.
+                  </p>
+                  <h3>How to use</h3>
+                  <p class="forge-instruction">
+                    <strong>Fusion:</strong>
+                      With <strong>"Fusion"</strong> as your method, enter your current and target tiers along with the item classification,
+                      and choose whether to apply convergence. Then click Calculate to see the total cost in gold, the dust needed, the
+                      required exalted cores, and the number of items to be fused. Use this method if you prefer the standard upgrade path
+                      with a chance for bonus effects <strong>noting that you can only ensure 65% success rate.</strong>
+                  </p>
+                  <p class="forge-instruction">
+                    <strong>Convergence Fusion:</strong>
+                    For items of <strong>classification 4</strong>, select the Fusion method and mark the <strong>convergence option</strong>.
+                    This <strong>guarantees a successful upgrade</strong> with a higher cost in gold and dust but without bonus effects.
+                    Simply enter your tiers and classification, and let the calculator show you the precise cost.</p>
+                  <p class="forge-instruction">
+                    <strong>Transfer:</strong>
+                    Choose <strong>"Transfer"</strong> if you want to transfer an item's tier to another item of the same classification.
+                    Input your current tier and select the corresponding classification. The calculator will display the gold, dust, and 
+                    exalted cores required to perform the transfer, <strong>noting that the source item will be destroyed</strong>.</p>
+                  <p class="forge-instruction">
+                    <strong>Convergence Transfer:</strong>
+                    For a tier transfer without the usual tier loss, <strong>available only for classification 4.</strong> Select
+                    <strong>"Transfer"</strong> and mark the <strong>convergence option</strong>. Provide the current tier and
+                    classification, and the system will calculate the higher cost in gold and dust along with the required exalted cores
+                    for a flawless transfer.</p>
+                </span><br>
+                
+                <section id="forge-calc">
+                  <label for="method">Method:</label>
+                  <select id="method">
                     <option value="fusion">Fusion</option>
-                    <option value="convergence-fusion">Convergence Fusion</option>
                     <option value="transfer">Transfer</option>
-                    <option value="convergence-transfer">Convergence Transfer</option>
-                </select>
-                <br>
-                <section id="fusionSection">
-                    <h2>Fusion</h2>
-                    <!-- Inputs for the item and tier -->
+                  </select>
+                  <br>
+                  
+                  <!-- Shared Section: Fusion / Transfer -->
+                  <div id="sharedSection">
                     <label for="current-tier">Current Tier:</label>
                     <input type="number" id="current-tier" min="0" max="10" placeholder="e.g., 0">
                     <br>
-                
-                    <label for="target-tier">Target Tier:</label>
-                    <input type="number" id="target-tier" min="1" max="10" placeholder="e.g., 5">
-                    <br>
-                
-                    <label for="fusionClass">Item Classification:</label>
-                    <select id="fusionClass">
-                        <option value="class1">Class 1</option>
-                        <option value="class2">Class 2</option>
-                        <option value="class3">Class 3</option>
-                        <option value="class4">Class 4</option>
+                    
+                    <!-- Only show target tier when method is Fusion or Convergence Fusion -->
+                    <div id="targetTierContainer">
+                      <label for="target-tier">Target Tier:</label>
+                      <input type="number" id="target-tier" min="1" max="10" placeholder="e.g., 5">
+                      <br>
+                    </div>
+                    
+                    <label for="itemClass">Item Classification:</label>
+                    <select id="itemClass">
+                      <option value="class1">Class 1</option>
+                      <option value="class2">Class 2</option>
+                      <option value="class3">Class 3</option>
+                      <option value="class4">Class 4</option>
                     </select>
                     <br>
-                    <label for="fusionConver">Convergence</label>
-                    <input name="fusionConver" type="checkbox">
+                    
+                    <!-- Convergence Checkbox -->
+                    <label for="convergenceCheck">Convergence</label>
+                    <input type="checkbox" id="convergenceCheck">
                     <br>
-    
-                    <button id="calculateForge">Calculate</button>
-                
-                    <div class="results" id="fusionResults"></div>
+                  </div><br>
+                  
+                  <button id="calculateForge">Calculate</button>
+                  <br>
+                  <div class="results" id="forgeResults"></div>
                 </section>
-                <section id="transferSection">
-                    <h2>Transfer</h2>
-                    <label for="transfer-tier">Current Tier:</label>
-                    <input type="number" id="transfer-tier" min="2" max="10" placeholder="e.g., 2">
-                    <br>
-                
-                    <label for="transferClass">Item Classification:</label>
-                    <select id="transferClass">
-                        <option value="class2">Class 2</option>
-                        <option value="class3">Class 3</option>
-                        <option value="class4">Class 4</option>
-                    </select>
-                    <br>
-                    <label for="transferConver">Convergence</label>
-                    <input name="transferConver" type="checkbox">
-                    <br>
-                    <button id="calculateForge">Calculate</button>
-                
-                    <div class="results" id="transferResults"></div>
+                <section >
+                  <span id="forge-data">
+                    <p class="forge-info">In our Forge, you can calculate all you need to elevate your items' tiers. The primary method,
+                      Fusion, requires you to combine two identical items of the same tier, investing gold and Dust along the way.
+                      The process is fraught with risk—success is not guaranteed, and failed attempts may reduce the item's tier—yet a
+                      stroke of luck or the judicious use of an Exalted Core can tip the odds in your favor. Our calculator accurately
+                      computes the cumulative cost, including the total number of fusions required, the corresponding Dust consumption,
+                      and the necessary Exalted Cores, as well as the number of items needed.
+                    </p>
+                    
+                    <p class="forge-info">For those who seek certainty, our Convergence methods provide a guaranteed outcome at a steeper
+                      price. Convergence Fusion and Convergence Transfer eliminate the risk of tier loss but demand a higher gold
+                      investment and increased Dust costs. Whether you choose the traditional path or the assured route, every
+                      calculation is meticulously based on Tibia’s intricate upgrade formulas, ensuring that your journey through the
+                      tiers remains as challenging and rewarding as the original lore.</p>
+                    <p class="forge-info">Additionally, the Transfer method allows you to shift an item's tier from one piece to another,
+                      effectively preserving the hard-earned enhancements, though at the cost of the source item. With a blend of strategy
+                      and resource management, our Forge offers a rich, immersive experience that mirrors the complexity and
+                      excitement of Tibia’s own equipment upgrade system.
+                    </p>
+                    <div style="display: flex; width: 90%;padding-left: 30px;justify-content: space-around; gap: 25px;">
+                      <span>
+                        <h3>Dust</h3><img src="../assets/icons/dust.gif" title="Dust" alt="Dust">
+                          <p>
+                            Dust is a unique resource obtained by defeating fiendish and influenced creatures.
+                            These enhanced monsters drop Dust in amounts determined by the number of “stacks” they
+                            possess; more stacks mean a higher Dust yield. The lower, 1 Stack: 1-3 Dust, and, the highest, 5 Stacks: 5-15 Dust.
+                          </p>
+                      </span>
+                      <span>
+                        <h3>Slivers</h3><img src="../assets/icons/sliver.gif" title="Slivers" alt="Slivers">
+                        <p>
+                          Slivers are tradeable items that can be crafted from Dust or dropped by even more formidable
+                          fiendish creatures. Typically, three Slivers can be exchanged for 60 Dust.
+                        </p>
+                      </span>
+                      <span>
+                        <h3>Exalted Core</h3><img src="../assets/icons/exalted-core.gif" title="Exalted Core" alt="Exalted Core">
+                        <p>
+                          Exalted Cores, the most coveted resource, are created by combining 50 Slivers.
+                          They are essential in high-level forging processes, as they not only boost success rates
+                          but can also prevent tier loss during fusions or transfers.
+                        </p>
+                      </span>
+                    </div><br>
+                    <span class="forge-info" id="fiendish-info" style="display: contents;">
+                      <h2>Influenced and Fiendish Creatures</h2>
+                      <span>
+                        <p style="font-size: 1rem; padding: 25px;">
+                          Influenced creatures are standard monsters that have been empowered, exhibiting increased strength and providing more experience points when defeated.
+                          They appear with stack levels ranging from 1 to 5, each level enhancing their attributes:
+                        </p>
+                      </span><br>
+                      <span>
+                        <p>Extra HP: Increases from 50% at stack 1 to 110% at stack 5.</p>
+                        <p>Extra Damage: Ranges from 35% at stack 1 to 75% at stack 5.</p>
+                        <p>Extra Experience: Starts at 10% at stack 1 and goes up to 50% at stack 5.</p><br>
+                      </span>
+                      <p style="font-size: 1rem;">Fiendish creatures are a more formidable variant, equivalent to a 15-stack influenced creature, boasting:</p><br>
+                      <p>Extra HP: 260%</p>
+                      <p>Extra Damage: 175%</p>
+                      <p>Extra Experience: 150%</p><br>
+                      <p style="font-size: 1rem;">To locate these fiendish beings, players can use specialized spells like "Find Fiend."</p><br>
+                      <img src="../assets/icons/fiendish.png" title="A fiendish Dragon" alt="Fiendish Dragon"> <img src="../assets/icons/influenced.png" title="A influenced Squid Warden" alt="Influenced Squid Warden">
+                    </span>
+                      
+                  </span>
                 </section>
-                <section id="conver-fusionSection">
-                    <h2>Convergence Fusion</h2>
-                    <label for="conver-fusionTier">Current Tier:</label>
-                    <input type="number" id="conver-fusionTier" min="0" max="10" placeholder="e.g., 2">
-                    <br>
-                    <label for="conver-fusionTarget">Target Tier:</label>
-                    <input type="number" id="conver-fusionTarget" min="1" max="10" placeholder="e.g., 2">
-                    <br>
-                
-                    <label for="conver-fusionClass">Item Classification:</label>
-                    <select id="conver-fusionClass">
-                        <option value="class4">Class 4</option>
-                    </select>
-                    <br>
-                    <button id="calculateForge">Calculate</button>
-                
-                    <div class="results" id="conver-fusionResults"></div>
-
-                </section>
-                <section id="conver-transferSection">
-                    <h2>Convergence Transfer</h2>
-                    <label for="convergence-transfer-tier">Current Tier:</label>
-                    <input type="number" id="convergence-transfer-tier" min="2" max="10" placeholder="e.g., 2">
-                    <br>
-                
-                    <label for="convergence-transferClass">Item Classification:</label>
-                    <select id="convergence-transferClass">
-                        <option value="class4">Class 4</option>
-                    </select>
-                    <br>
-                    <button id="calculateForge">Calculate</button>
-                
-                    <div class="results" id="convergence-transferResults"></div>
-
-                </section>
-                <div class="results" id="forgeResults"></div>
-                
-                </div>
+              </div>
+              
+              
         </section>
         <div id="maintenancePage">
             
