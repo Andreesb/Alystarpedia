@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #ffffe0db;
     max-width: 1000px;
+    min-height: 1900px;
     justify-content: center;
     padding: 25px;
     border-radius: 8px;
@@ -17,14 +18,30 @@
 }
 
 #tools article {
-    width: 450px;
-    height: 300px;
+    max-width: 450px;
+    width: 90%;
+    height: 90%;
+    min-height: 325px;
     padding: 10px;
     margin: 10px;
     border: 2px solid brown;
     border-radius: 10px;
+    font-size: 0.85rem;
+}
+
+#tools article:hover {
+    background-color: #ccbb9e;
+    cursor: pointer;
+}
+
+.tool-description {
+    text-align: center;
+    align-items: baseline;
+    width: 90%;
+    display: inline-block;
 }
 
 #tools img {
-    width: 100px;
+    width: 75px;
+    padding: 25px;
 }

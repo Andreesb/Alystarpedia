@@ -149,7 +149,7 @@
     border: 2px solid;
     border-radius: 8px;
     padding: 5px;
-    min-height: 150px;
+    min-height: 100px;
     justify-items: center;
 }
 #shared-calc input {
@@ -163,7 +163,7 @@
 
 #tooltip {
     position: absolute;
-    top:50%;
+    top:265px;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.8);
@@ -379,7 +379,7 @@
     position: absolute;
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid #e0e0e0;
-    max-height: 500px;
+    max-height: 550px;
     width: 230px;
     overflow-y: scroll;
     top: 40px;
