@@ -1,4 +1,4 @@
-import { hideLoader, showLoader } from "./modules/loader.js";
+import { hideLoader, showLoader } from "./loader.js";
 document.addEventListener("DOMContentLoaded", () => {
 
     // URL del API para obtener todas las criaturas

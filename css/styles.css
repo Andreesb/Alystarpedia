@@ -293,7 +293,6 @@ footer {
     justify-content: center;
     transform: translate(-50%, 0%);
     left: 50%;
-    bottom: -5%;
     height: 110px;
     width: 100%;
     color: #cecece;
@@ -491,14 +490,9 @@ footer {
         width: 75%;
     }
 
-    footer {
-        bottom: -45%;
-    }
-
     #search-results {
-        left: -145px;
+        left: -35%;
     }
-        
     
 }
 
@@ -520,7 +514,6 @@ footer {
 
     .contenedor-informacion {
         left: 47%;
-        top: 70%;
         width: 80%;
     }
 
@@ -548,19 +541,11 @@ footer {
         left: 45%;
         transition: width 0.5s ease, opacity 0.5s ease;
         width: 75%;
+        top: 70%;
     }
 
-    .menu-dinamico {
-        left: 10%;
-    }
 
-    .contenedor-izquierdo {
-        top: 12%;
-    }
 
-    .search-Bar {
-        left: 10%;
-    }
 
 
 }

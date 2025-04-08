@@ -72,33 +72,35 @@ async function fetchDataWithCache(url, cacheKey) {
 /**
  * Función para obtener y mostrar el boss destacado.
  */
-async function fetchBoostedBoss() {
+function getFandomImageUrl(name) {
+    const encodedName = encodeURIComponent(name);
+    // Using Special:FilePath to obtain the direct file path
+    return `https://tibia.fandom.com/wiki/Special:FilePath/${encodedName}.gif`;
+  }
+  
+  async function fetchBoostedBoss() {
     const urlBosses = "https://api.tibiadata.com/v4/boostablebosses";
     try {
-        const data = await fetchDataWithCache(urlBosses, "boostedBoss");
-        // Extraer el boss destacado
-        const boostedBoss = data.boostable_bosses.boosted;
-        const bossImageElement = document.getElementById("bossBoosted");
-        bossImageElement.src = boostedBoss.image_url;
-        bossImageElement.title = `Boss boosted: ${boostedBoss.name}`;
+      const data = await fetchDataWithCache(urlBosses, "boostedBoss"); 
+      const boostedBoss = data.boostable_bosses.boosted;
+      const bossImageElement = document.getElementById("bossBoosted");
+      bossImageElement.src = getFandomImageUrl(boostedBoss.name);
+      bossImageElement.title = `Boss boosted: ${boostedBoss.name}`;
     } catch (error) {
-        console.error("Error al obtener los datos del boss:", error);
+      console.error("Error al obtener los datos del boss:", error);
     }
-}
-
-/**
- * Función para obtener y mostrar la criatura destacada.
- */
-async function fetchBoostedCreature() {
+  }
+  
+  async function fetchBoostedCreature() {
     const urlCreatures = "https://api.tibiadata.com/v4/creatures";
     try {
-        const data = await fetchDataWithCache(urlCreatures, "boostedCreature");
-        // Extraer la criatura destacada
-        const boostedCreature = data.creatures.boosted;
-        const creatureImageElement = document.getElementById("creatureBoosted");
-        creatureImageElement.src = boostedCreature.image_url;
-        creatureImageElement.title = `Creature boosted: ${boostedCreature.name}`;
+      const data = await fetchDataWithCache(urlCreatures, "boostedCreature");
+      const boostedCreature = data.creatures.boosted;
+      const creatureImageElement = document.getElementById("creatureBoosted");
+      creatureImageElement.src = getFandomImageUrl(boostedCreature.name);
+      creatureImageElement.title = `Creature boosted: ${boostedCreature.name}`;
     } catch (error) {
-        console.error("Error al obtener los datos de la criatura:", error);
+      console.error("Error al obtener los datos de la criatura:", error);
     }
-}
+  }
+  

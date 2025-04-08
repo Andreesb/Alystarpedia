@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatures</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icons/helmet-image.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/creatures.css">
+</head>
+
+<body>
+
+    <header id="header-container"></header>
+
+    <main>
+        <div id="background-image"></div>
+        <nav id="menu-container"></nav>
+        <aside class="contenedor-izquierdo"></aside>
+        <aside class="contenedor-derecho"></aside>
+        
+        
+        <section class="contenedor-informacion">
+            <div class="section-container" id="creatures-section">
+                <h1 class="section-title"><img class="section-image" src="../assets/icons/creatures.webp" title="Creatures" alt="Creatures">Creatures</h1><br>
+                <span class="section-description">From the most common to the rarest, learn about their strength, abilities, and loot. Explore our comprehensive database to enhance your gameplay and master the art of hunting.</span><br>
+                <section id="creatures">
+                    <article id="section-boosted">
+                        <h3>Daily Boosted</h3>
+                        <section class="boosted-container">
+                            <div class="boosted-data">
+                                <img id="creatureBoosted" class="boosted-section" alt="Boosted Creature">
+                                <span class="boosted-creature-description">Lorem ipsum dolor sit amet.</span>
+                            </div>
+                            <div class="boosted-data">
+                                <img id="bossBoosted" class="boosted-section"  alt="Boosted Boss">
+                                <span class="boosted-boss-description">Lorem ipsum dolor sit amet.</span>
+                            </div>
+                        </section>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h3>Raids</h3>
+                            <div>
+                                <img id="creatureRaid" class="raid-creature" alt="Raid Creature">
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h3>Rares</h3>
+                            <div>
+                                <img id="creatureRare" class="rare-creature" alt="Rare Creature">
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h3>Monsters</h3>
+                            <div>
+                                <img id="creatureMonster" class="monster-creature" alt="Monster Creature">
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h3>Bosses</h3>
+                            <div>
+                                <img id="creatureBoss" class="boss-creature" alt="Boss Creature">
+                            </div>
+                        </a>
+                    </article>
+                    
+                </section>
+
+            </div>
+
+        <div id="overlay" class="overlay hidden">
+            <button id="prev-btn" class="nav-btn left">←</button>
+            <img id="expanded-image" src="" alt="Imagen Expandida">
+            <button id="close-overlay" class="close-btn">×</button>
+            <button id="next-btn" class="nav-btn right">→</button>
+        </div>
+            
+        </section>
+        <div id="maintenancePage"></div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script type="module" src="../js/scripts.js"></script>
+    
+
+</body>
+</html>

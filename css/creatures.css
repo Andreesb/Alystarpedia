@@ -1,0 +1,52 @@
+body {
+    min-height: 4150px;
+}
+
+main {
+    min-height: 3950px;
+}
+
+.contenedor-informacion {
+    min-height: 3650px;
+}
+
+.section-description {
+    width: 100%;
+}
+
+#creatures {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#creatures article {
+    max-width: 900px;
+    width: 70vw;
+    height: 90%;
+    min-height: 700px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    justify-content: center;
+}
+
+#creatures article#section-boosted {
+    max-height: 450px;
+    min-height: 350px;
+}
+
+.boosted-container {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boosted-data {
+    display: inline-grid;
+    gap: 10px;
+}
